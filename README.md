@@ -9,6 +9,8 @@
 <p align="center">
   <b>English</b> | <a href="#中文文档">中文</a>
 </p>
+<img width="2558" height="1242" alt="image" src="https://github.com/user-attachments/assets/e5b588b4-8377-4900-bd7f-38e413d9dd7f" />
+<img width="1066" height="1111" alt="image" src="https://github.com/user-attachments/assets/28de46a5-67a7-4265-92ea-2b4230605e3d" />
 
 ---
 
