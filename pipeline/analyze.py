@@ -62,18 +62,37 @@ caution（≤30 字：最可能被高估的地方，如"体外高浓度"、"单�
 skip（true/false：是否根本不值得占用今天的阅读位）
 只输出数组。"""
     data = llm.chat_json([{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}], max_tokens=3600)
-    if isinstance(data, dict):
-        data = data.get("results") or data.get("papers") or data.get("data") or []
+    rows = _rows_of(data)
     by_id = {str(p["id"]).strip().lower(): p for p in batch}
     out: Dict[str, Dict[str, Any]] = {}
-    for item in data if isinstance(data, list) else []:
-        if not isinstance(item, dict):
-            continue
+    for pos, item in enumerate(rows):
         paper = _match_item(item, batch, by_id)
+        if paper is None and len(rows) == len(batch):
+            paper = batch[pos]  # models usually keep the input order
         if paper is None:
             continue
         out[paper["id"]] = _clean_scores(item)
+    if not out and rows:
+        print("[analyze] 0 matched. model sample: " + json.dumps(rows[0], ensure_ascii=False)[:400])
     return out
+
+
+def _rows_of(data: Any) -> List[Dict[str, Any]]:
+    """Normalise the many shapes a model uses for a list of scores."""
+    if isinstance(data, list):
+        return [x for x in data if isinstance(x, dict)]
+    if isinstance(data, dict):
+        for key in ("results", "papers", "data", "scores", "items", "list"):
+            value = data.get(key)
+            if isinstance(value, list):
+                return [x for x in value if isinstance(x, dict)]
+        numeric = {k: v for k, v in data.items() if isinstance(v, dict) and str(k).strip().isdigit()}
+        if numeric:
+            return [numeric[k] for k in sorted(numeric, key=lambda x: int(str(x)))]
+        # a single score object
+        if any(k in data for k in ("match", "novelty", "rigor")):
+            return [data]
+    return []
 
 
 def _match_item(item: Dict[str, Any], batch: List[Dict[str, Any]], by_id: Dict[str, Dict[str, Any]]) -> Optional[Dict[str, Any]]:
