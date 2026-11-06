@@ -319,7 +319,7 @@ def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, A
             break
         if p["id"] in used_ids:
             continue
-        if p.get("skip") or float(p["score"].get("match", 100) or 0) < 20:
+        if p.get("skip"):
             continue
         if p["journal_key"] in used_journals or p["domain"] in used_domains:
             continue
@@ -332,7 +332,7 @@ def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, A
             break
         if p["id"] in used_ids:
             continue
-        if p.get("skip") or float(p["score"].get("match", 100) or 0) < 20:
+        if p.get("skip"):
             continue
         scans.append(p)
         used_ids.add(p["id"])
@@ -342,7 +342,7 @@ def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, A
             break
         if p["id"] in used_ids:
             continue
-        if p.get("skip") or float(p["score"].get("match", 100) or 0) < 20:
+        if p.get("skip"):
             continue
         scans.append(p)
         used_ids.add(p["id"])
