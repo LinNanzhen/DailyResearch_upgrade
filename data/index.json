@@ -1,13 +1,13 @@
 {
- "updated_at": "2026-11-07T00:36:03+08:00",
+ "updated_at": "2026-11-07T00:37:52+08:00",
  "latest": "2026-11-06",
  "days": [
   {
    "date": "2026-11-06",
-   "must_title": "Oral and maxillofacial malignant tumors: a 50-year clinicopathologic study from a dental school in Thailand",
-   "must_title_zh": "泰国某牙科大学50年口腔颌面恶性肿瘤临床病理学研究",
-   "cluster": "口腔鳞癌流行病学",
-   "count": 2,
+   "must_title": "Three-Dimensional Condylar Subtyping and Its Association With Obstructive Sleep Apnea Severity in Adults: Implication for Craniofacial Skeletal Phenotype",
+   "must_title_zh": "成人三维髁突分型及其与阻塞性睡眠呼吸暂停严重程度的关联：对颅面骨骼表型的启示",
+   "cluster": "颅面表型与OSA",
+   "count": 10,
    "ai": true
   }
  ],

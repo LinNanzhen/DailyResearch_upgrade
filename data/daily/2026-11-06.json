@@ -1,146 +1,149 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-07T00:36:03+08:00",
+ "generated_at": "2026-11-07T00:37:52+08:00",
  "model": "agnes-2.5-flash",
  "ai": true,
  "usage": {
   "calls": 4,
-  "prompt_tokens": 9305,
-  "completion_tokens": 7125
+  "prompt_tokens": 8706,
+  "completion_tokens": 7974
  },
  "stats": {
   "candidates": 179,
   "raw": 172,
-  "fetched": 13,
+  "fetched": 11,
   "raw_dropped_type": 15,
   "no_abstract": 1,
-  "gated": 13,
-  "scored": 13,
-  "shown": 2,
+  "gated": 11,
+  "scored": 11,
+  "shown": 10,
   "ai": true,
   "feedback_files": 0,
   "calls": 4
  },
  "must_read": {
-  "id": "10.1007/s00784-026-07240-9",
-  "pmid": "42980856",
-  "doi": "10.1007/s00784-026-07240-9",
-  "title": "Oral and maxillofacial malignant tumors: a 50-year clinicopathologic study from a dental school in Thailand",
-  "title_zh": "泰国某牙科大学50年口腔颌面恶性肿瘤临床病理学研究",
-  "journal": "Clinical oral investigations",
+  "id": "10.1111/joor.70370",
+  "pmid": "42983947",
+  "doi": "10.1111/joor.70370",
+  "title": "Three-Dimensional Condylar Subtyping and Its Association With Obstructive Sleep Apnea Severity in Adults: Implication for Craniofacial Skeletal Phenotype",
+  "title_zh": "成人三维髁突分型及其与阻塞性睡眠呼吸暂停严重程度的关联：对颅面骨骼表型的启示",
+  "journal": "Journal of oral rehabilitation",
   "date": "2026-11-04",
   "authors": [
-   "Juengsomjit R",
-   "Panutyotin N",
-   "Suksanguan K",
-   "Subanpawongs C",
-   "Jaruchaijinda N",
-   "Lalitthamsiri N",
-   "Apimuntagul T",
-   "Kosanwat T"
+   "Jeon MJ",
+   "Park KW",
+   "Choi YJ",
+   "Kang YG",
+   "Ahn HW",
+   "Kim SJ"
   ],
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42980856/",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42983947/",
   "pmcid": "",
   "cited_by": 0,
-  "design": "cohort",
-  "design_label": "队列",
-  "design_level": 5,
-  "sample_n": 791,
-  "sample_note": "n=791 cases",
+  "design": "unknown",
+  "design_label": "未标注",
+  "design_level": 1,
+  "sample_n": null,
+  "sample_note": "",
   "tier": "B",
-  "domain": "儿童口腔与预防",
+  "domain": "其他",
   "methods": [],
   "pub_types": [
    "Journal Article"
   ],
   "is_open_access": false,
-  "cluster": "口腔鳞癌流行病学",
-  "one_line": "50年间791例口腔颌面恶性肿瘤，SCC占主导，牙龈最常见原发部位。",
-  "so_what": "与q5有弱关联，仅作区域肿瘤流行病学背景，无免疫/微生物机制数据。",
-  "caution": "纯回顾性档案分析，无机制、无免疫微环境数据。",
+  "cluster": "颅面表型与OSA",
+  "one_line": "以髁突吸收+皮质重建两轴分型，发现重度吸收组AHI及CSP特征显著更高",
+  "so_what": "髁突形态学与OSA关联，q2间接相关；分型框架可迁移至种植体周炎骨吸收表型分析",
+  "caution": "回顾性设计，样本量未披露，因果推断能力弱",
   "score": {
-   "final": 31.7,
-   "match": 30.0,
-   "novelty": 20.0,
-   "rigor": 45.0,
-   "impact": 20.0,
-   "transfer": 15.0
+   "final": 25.9,
+   "match": 15.0,
+   "novelty": 35.0,
+   "rigor": 50.0,
+   "impact": 25.0,
+   "transfer": 20.0
   },
-  "heuristic": 44.9,
+  "heuristic": 22.0,
   "breakdown": {
-   "topic": 6.1,
+   "topic": 0.0,
    "journal": 10.0,
-   "design": 15,
-   "sample": 7.7,
+   "design": 6,
+   "sample": 0.0,
    "fresh": 6.0,
    "method": 0.0
   },
-  "abstract": "OBJECTIVES: Oral and maxillofacial malignant tumors show variation in frequency and demographic characteristics across countries. Due to their diverse clinical presentations, clinical diagnosis remains challenging. This study aimed to investigate clinicopathologic data of these malignancies over 50-year period in a Thai dental school. MATERIALS AND METHODS: Archival biopsy records were reviewed for cases diagnosed with malignant tumors in the oral and maxillofacial region. Demographic and clinicopathologic data including sites, clinical presentations, clinical diagnoses made by clinicians, and histopathologic diagnoses were analyzed. RESULTS: Of 22,292 biopsy specimens, 791 cases (3.5%) were diagnosed as malignant tumors in this location. Epithelial tumor was the most common (60.3%), followed by salivary gland (16.6%) and hematologic (7.3%) groups. Squamous cell carcinoma (SCC) was the most common. Mean age of patients was 55.9 years, with male-to-female ratio of 1:1.02. Gingiva was the most common site (27.5%) and soft tissue mass was predominant clinical presentation (46.0%). Only 54.5% of cases were clinically diagnosed as malignancy while remaining cases were clinically diagnosed as benign tumor, reactive lesion, infection, cyst, or other lesions. CONCLUSIONS: In this cohort, oral and maxillofacial malignant tumors were uncommon with SCC being predominant. High proportion of gingival involvement and slight female predominance differed from general trends in the literature. Discrepancy between clinical and histopathologic diagnoses highlights diagnostic challenges. CLINICAL RELEVANCE: Discordant diagnosis of oral and maxillofacial malignancies as benign conditions is of clinical significance. Integrating demographic data along with clinicopathologic features may assist clinicians in diagnosis, leading to prompt histopathologic confirmation and appropriate patient management.",
+  "abstract": "OBJECTIVES: To investigate the association between three-dimensional (3D) condylar resorption pattern and obstructive sleep apnea (OSA) severity in adults, and to explore its structural implications within the craniofacial skeletal phenotype (CSP) framework. METHODS: Condylar morphology was classified using a two-axis system integrating the degree of resorption and cortical remodelling pattern. Patients were grouped into no resorption (NR), adaptive remodelling (AR), and severe resorption (SR) categories. Dentoskeletal, temporomandibular joint (TMJ), and polysomnographic variables were compared among groups. Multivariable regression analyses were adjusted for age, sex, and body mass index, and hierarchical regression was used to examine the contribution of condylar grouping beyond CSP. RESULTS: Severe condylar resorption was identified in 23.9% of the sample and was more prevalent (54.0%) in patients with CSP features. The SR group demonstrated greater skeletal discrepancy and higher apnea-hypopnea index (AHI), respiratory disturbance index (RDI), and arousal index (ArI) values (all, p < 0.05). After adjustment for age, sex, and body mass index and false discovery rate correction, SR remained significantly associated with higher AHI, RDI, and ArI, whereas TMJ pain history, condylar angulation, and oxygenation-related indices showed no significant associations. In hierarchical models, the overall incremental contribution of condylar grouping beyond CSP was not significant after multiple-testing correction; however, SR remained significantly associated with higher AHI and RDI after additional adjustment for CSP (both, FDR-adjusted p = 0.045). CONCLUSIONS: Severe condylar resorption was associated with greater skeletal discrepancy and higher OSA burden. Three-dimensional TMJ assessment may complement conventional skeletal phenotyping in adult OSA.",
   "tags": [
-   "Epidemiology",
-   "Malignant tumors",
-   "Oral cancer",
-   "Primary intraosseous carcinoma",
-   "Squamous cell carcinoma"
+   "arousal index",
+   "condylar resorption",
+   "cone‐beam computed tomography",
+   "craniofacial skeletal phenotype",
+   "obstructive sleep apnea",
+   "temporomandibular joint"
   ],
   "deep": {
-   "title_zh": "泰国某牙科大学50年口腔颌面恶性肿瘤临床病理学研究",
-   "one_sentence": "SCC是口腔颌面恶性肿瘤最常见类型，但仅54.5%在临床阶段被正确识别为恶性，诊断挑战突出。",
-   "question": "在泰国这一特定人群中，口腔颌面恶性肿瘤的流行病学特征与既往欧美文献有何差异？临床诊断与病理诊断之间是否存在系统性误差？",
-   "design": "单中心回顾性队列研究，基于50年间全部口腔颌面区域活检标本进行病理归档回顾，比较临床初步诊断与组织病理学最终诊断的一致性。",
-   "sample_desc": "791例口腔颌面恶性肿瘤（来自22,292例活检标本中的3.5%），来自泰国一所牙科大学的病理档案。摘要未说明单中心还是多中心。",
+   "title_zh": "成人三维髁突分型及其与阻塞性睡眠呼吸暂停严重程度的关联：对颅面骨骼表型的启示",
+   "one_sentence": "严重髁突侵蚀与OSA严重度正相关（AHI/RDI/ArI均升高），但这种关联在颅面骨骼表型框架下增量贡献有限，因果关系…",
+   "question": "髁突的三维侵蚀-重建模式是OSA的因果标志物，还是OSA驱动的继发性骨重塑反应？它能否独立于颅面骨骼表型预测OSA严重度？",
+   "design": "横断面研究，按髁突侵蚀程度和皮质重建模式分三组（NR/AR/SR），比较各组牙颌骨骼、TMJ指标及多导睡眠图参数，行多变量回归与分层回归分析。",
+   "sample_desc": "摘要未说明",
    "findings": [
     {
-     "claim": "上皮来源恶性肿瘤占绝对多数",
-     "evidence": "60.3%（791例中的477例）"
+     "claim": "严重髁突侵蚀（SR）在整体样本中占比约四分之一，在具有颅面骨骼表型（CSP）特征的患者中显著更高。",
+     "evidence": "SR占比23.9%；CSP特征患者中SR占54.0%"
     },
     {
-     "claim": "鳞状细胞癌（SCC）是最常见的单一肿瘤类型",
-     "evidence": "未报告具体百分比，仅描述为most common"
+     "claim": "SR组的OSA客观严重度指标（AHI、RDI、ArI）均显著高于其他组。",
+     "evidence": "SR组AHI、RDI、ArI更高，均p<0.05"
     },
     {
-     "claim": "牙龈是最常见的发病部位",
-     "evidence": "27.5%"
+     "claim": "调整混杂后SR仍独立关联OSA严重度，但TMJ疼痛史、髁突角度和氧合指标无显著关联。",
+     "evidence": "经年龄、性别、BMI及FDR校正后SR与AHI、RDI、ArI显著相关；TMJ疼痛史、髁突角度、氧合指标均无显著关联"
     },
     {
-     "claim": "性别分布与文献描述的男性优势相反",
-     "evidence": "男女比1:1.02，女性略多"
+     "claim": "髁突分组对CSP框架的增量解释力经多重检验校正后不显著，但SR在额外调整CSP后仍与AHI、RDI显著相关。",
+     "evidence": "分层回归整体增量贡献不显著（FDR校正后）；SR单独调整CSP后仍显著（AHI和RDI，FDR-adjusted p=0.045）"
     }
    ],
-   "effect": "未报告",
-   "relation": "与q5（口腔鳞癌）有部分相关，但仅涉及SCC的流行病学描述，不涉及免疫微环境或微生物组机制。对其他q1–q4问题无直接关联。该论文是一篇纯描述性流行病学研究，无法支持任何机制性结论。",
-   "why": "唯一值得读的层面是：它明确量化了口腔颌面恶性肿瘤的临床误诊率（约45%），且发现该人群牙龈受累比例和女性优势与西方文献不同。如果你研究口腔鳞癌，这篇论文至少提醒你：在泰国人群中SCC的发病部位分布和性别特征可能存在差异，设计区域性队列时需考虑混杂。但对机制研究无实质帮助。",
+   "effect": "未报告具体效应量及置信区间",
+   "relation": "q2——本研究提供了「局部骨重塑与全身疾病关联」的一个新观察维度：髁突侵蚀（可能涉及慢性炎症/机械应激）与OSA严重度相关，提示TMJ局部病理可能参与OSA的骨性表型形成，但因果方向未明，属于对q2中「通路可验证性」的间接支持而非直接机制证据。",
+   "why": "它挑战了OSA研究中长期聚焦于上气道软组织塌陷的主流范式，将髁突三维形态纳入颅面骨骼表型框架，提出OSA可能驱动TMJ继发性骨重塑（而非仅是骨骼发育异常导致OSA）。分层回归结果提醒读者：髁突分型的临床增量价值有限，需在CSP框架下解读。",
    "limitations": [
-    "纯回顾性单中心研究，无法推断因果关系，也无法评估治疗结局或生存数据。",
-    "摘要未说明是否进行了多变量校正或风险因素分析，难以判断哪些临床特征真正具有提示意义。",
-    "50年的归档数据存在分期标准变化、诊断技术演进的历史偏倚，结果外推到现代临床决策的证据强度有限。"
+    "横断面设计，无法确定髁突侵蚀是OSA的原因还是后果，因果推断缺失。",
+    "样本来源、纳入排除标准、是否单中心均未说明，选择偏倚风险未知。",
+    "多重检验校正后整体增量贡献不显著，仅SR在额外调整后保留显著性（p=0.045），存在假阳性风险。"
    ],
-   "transferable": "无明显可直接移植的方法或设计。唯一的借鉴是：在回顾性病理队列中，系统比较临床初步诊断与最终病理诊断的一致性，可量化误诊率，这一分析框架可用于其他头颈肿瘤亚组。",
+   "transferable": "① 两轴髁突分类系统（侵蚀程度+皮质重建模式）可用于其他TMJ-系统性疾病关联研究；② 分层回归策略（先加CSP再加髁突分组）可作为评估影像标志物增量价值的参考框架；③ FDR校正+分层回归的组合方法值得在多组学/多表型研究中借鉴。",
    "followups": [
-    "该队列中SCC的具体分化程度（高分化/中分化/低分化）分布如何？分化程度是否与临床误诊率相关？",
-    "50年间诊断一致性是否随时间改善？是否有分期年份的趋势分析？",
-    "牙龈SCC在该队列中的具体位置（牙槽嵴/游离龈/附着龈）是否优于颊黏膜或舌的预后差异被报告？"
+    "该研究的样本量、纳入排除标准和数据来源（单中心/多中心）是什么？能否获取原始数据复现分层回归？",
+    "髁突侵蚀的影像学判读者间一致性（Kappa值）是否报告？如果未报告，分类系统的主观性会如何影响结果可靠性？",
+    "SR组与NR/AR组在骨骼差异的具体维度（如ANB角、SNA、SNB）上有何差异？OSA与髁突侵蚀的关联是否仅由特定的颅面骨骼表型驱动？"
    ],
    "glossary": [
     {
-     "en": "clinicopathologic",
-     "cn": "临床病理学的"
+     "en": "Condylar resorption",
+     "cn": "髁突侵蚀"
     },
     {
-     "en": "histopathologic diagnosis",
-     "cn": "组织病理学诊断"
+     "en": "Adaptive remodelling",
+     "cn": "适应性重建"
     },
     {
-     "en": "squamous cell carcinoma (SCC)",
-     "cn": "鳞状细胞癌"
+     "en": "Severe resorption (SR)",
+     "cn": "严重侵蚀"
     },
     {
-     "en": "reactive lesion",
-     "cn": "反应性病变"
+     "en": "No resorption (NR)",
+     "cn": "无侵蚀"
     },
     {
-     "en": "discordant diagnosis",
-     "cn": "诊断不一致"
+     "en": "Obstructive sleep apnea (OSA)",
+     "cn": "阻塞性睡眠呼吸暂停"
+    },
+    {
+     "en": "Apnea-hypopnea index (AHI)",
+     "cn": "呼吸暂停低通气指数"
     }
    ],
    "reading_minutes": 12
@@ -148,31 +151,522 @@
  },
  "must_reads": [
   {
-   "id": "10.1007/s00784-026-07240-9",
-   "pmid": "42980856",
-   "doi": "10.1007/s00784-026-07240-9",
-   "title": "Oral and maxillofacial malignant tumors: a 50-year clinicopathologic study from a dental school in Thailand",
-   "title_zh": "泰国某牙科大学50年口腔颌面恶性肿瘤临床病理学研究",
-   "journal": "Clinical oral investigations",
+   "id": "10.1111/joor.70370",
+   "pmid": "42983947",
+   "doi": "10.1111/joor.70370",
+   "title": "Three-Dimensional Condylar Subtyping and Its Association With Obstructive Sleep Apnea Severity in Adults: Implication for Craniofacial Skeletal Phenotype",
+   "title_zh": "成人三维髁突分型及其与阻塞性睡眠呼吸暂停严重程度的关联：对颅面骨骼表型的启示",
+   "journal": "Journal of oral rehabilitation",
    "date": "2026-11-04",
    "authors": [
-    "Juengsomjit R",
-    "Panutyotin N",
-    "Suksanguan K",
-    "Subanpawongs C",
-    "Jaruchaijinda N",
-    "Lalitthamsiri N",
-    "Apimuntagul T",
-    "Kosanwat T"
+    "Jeon MJ",
+    "Park KW",
+    "Choi YJ",
+    "Kang YG",
+    "Ahn HW",
+    "Kim SJ"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42980856/",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983947/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "颅面表型与OSA",
+   "one_line": "以髁突吸收+皮质重建两轴分型，发现重度吸收组AHI及CSP特征显著更高",
+   "so_what": "髁突形态学与OSA关联，q2间接相关；分型框架可迁移至种植体周炎骨吸收表型分析",
+   "caution": "回顾性设计，样本量未披露，因果推断能力弱",
+   "score": {
+    "final": 25.9,
+    "match": 15.0,
+    "novelty": 35.0,
+    "rigor": 50.0,
+    "impact": 25.0,
+    "transfer": 20.0
+   },
+   "heuristic": 22.0,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To investigate the association between three-dimensional (3D) condylar resorption pattern and obstructive sleep apnea (OSA) severity in adults, and to explore its structural implications within the craniofacial skeletal phenotype (CSP) framework. METHODS: Condylar morphology was classified using a two-axis system integrating the degree of resorption and cortical remodelling pattern. Patients were grouped into no resorption (NR), adaptive remodelling (AR), and severe resorption (SR) categories. Dentoskeletal, temporomandibular joint (TMJ), and polysomnographic variables were compared among groups. Multivariable regression analyses were adjusted for age, sex, and body mass index, and hierarchical regression was used to examine the contribution of condylar grouping beyond CSP. RESULTS: Severe condylar resorption was identified in 23.9% of the sample and was more prevalent (54.0%) in patients with CSP features. The SR group demonstrated greater skeletal discrepancy and higher apnea-hypopnea index (AHI), respiratory disturbance index (RDI), and arousal index (ArI) values (all, p < 0.05). After adjustment for age, sex, and body mass index and false discovery rate correction, SR remained significantly associated with higher AHI, RDI, and ArI, whereas TMJ pain history, condylar angulation, and oxygenation-related indices showed no significant associations. In hierarchical models, the overall incremental contribution of condylar grouping beyond CSP was not significant after multiple-testing correction; however, SR remained significantly associated with higher AHI and RDI after additional adjustment for CSP (both, FDR-adjusted p = 0.045). CONCLUSIONS: Severe condylar resorption was associated with greater skeletal discrepancy and higher OSA burden. Three-dimensional TMJ assessment may complement conventional skeletal phenotyping in adult OSA.",
+   "tags": [
+    "arousal index",
+    "condylar resorption",
+    "cone‐beam computed tomography",
+    "craniofacial skeletal phenotype",
+    "obstructive sleep apnea",
+    "temporomandibular joint"
+   ],
+   "deep": {
+    "title_zh": "成人三维髁突分型及其与阻塞性睡眠呼吸暂停严重程度的关联：对颅面骨骼表型的启示",
+    "one_sentence": "严重髁突侵蚀与OSA严重度正相关（AHI/RDI/ArI均升高），但这种关联在颅面骨骼表型框架下增量贡献有限，因果关系…",
+    "question": "髁突的三维侵蚀-重建模式是OSA的因果标志物，还是OSA驱动的继发性骨重塑反应？它能否独立于颅面骨骼表型预测OSA严重度？",
+    "design": "横断面研究，按髁突侵蚀程度和皮质重建模式分三组（NR/AR/SR），比较各组牙颌骨骼、TMJ指标及多导睡眠图参数，行多变量回归与分层回归分析。",
+    "sample_desc": "摘要未说明",
+    "findings": [
+     {
+      "claim": "严重髁突侵蚀（SR）在整体样本中占比约四分之一，在具有颅面骨骼表型（CSP）特征的患者中显著更高。",
+      "evidence": "SR占比23.9%；CSP特征患者中SR占54.0%"
+     },
+     {
+      "claim": "SR组的OSA客观严重度指标（AHI、RDI、ArI）均显著高于其他组。",
+      "evidence": "SR组AHI、RDI、ArI更高，均p<0.05"
+     },
+     {
+      "claim": "调整混杂后SR仍独立关联OSA严重度，但TMJ疼痛史、髁突角度和氧合指标无显著关联。",
+      "evidence": "经年龄、性别、BMI及FDR校正后SR与AHI、RDI、ArI显著相关；TMJ疼痛史、髁突角度、氧合指标均无显著关联"
+     },
+     {
+      "claim": "髁突分组对CSP框架的增量解释力经多重检验校正后不显著，但SR在额外调整CSP后仍与AHI、RDI显著相关。",
+      "evidence": "分层回归整体增量贡献不显著（FDR校正后）；SR单独调整CSP后仍显著（AHI和RDI，FDR-adjusted p=0.045）"
+     }
+    ],
+    "effect": "未报告具体效应量及置信区间",
+    "relation": "q2——本研究提供了「局部骨重塑与全身疾病关联」的一个新观察维度：髁突侵蚀（可能涉及慢性炎症/机械应激）与OSA严重度相关，提示TMJ局部病理可能参与OSA的骨性表型形成，但因果方向未明，属于对q2中「通路可验证性」的间接支持而非直接机制证据。",
+    "why": "它挑战了OSA研究中长期聚焦于上气道软组织塌陷的主流范式，将髁突三维形态纳入颅面骨骼表型框架，提出OSA可能驱动TMJ继发性骨重塑（而非仅是骨骼发育异常导致OSA）。分层回归结果提醒读者：髁突分型的临床增量价值有限，需在CSP框架下解读。",
+    "limitations": [
+     "横断面设计，无法确定髁突侵蚀是OSA的原因还是后果，因果推断缺失。",
+     "样本来源、纳入排除标准、是否单中心均未说明，选择偏倚风险未知。",
+     "多重检验校正后整体增量贡献不显著，仅SR在额外调整后保留显著性（p=0.045），存在假阳性风险。"
+    ],
+    "transferable": "① 两轴髁突分类系统（侵蚀程度+皮质重建模式）可用于其他TMJ-系统性疾病关联研究；② 分层回归策略（先加CSP再加髁突分组）可作为评估影像标志物增量价值的参考框架；③ FDR校正+分层回归的组合方法值得在多组学/多表型研究中借鉴。",
+    "followups": [
+     "该研究的样本量、纳入排除标准和数据来源（单中心/多中心）是什么？能否获取原始数据复现分层回归？",
+     "髁突侵蚀的影像学判读者间一致性（Kappa值）是否报告？如果未报告，分类系统的主观性会如何影响结果可靠性？",
+     "SR组与NR/AR组在骨骼差异的具体维度（如ANB角、SNA、SNB）上有何差异？OSA与髁突侵蚀的关联是否仅由特定的颅面骨骼表型驱动？"
+    ],
+    "glossary": [
+     {
+      "en": "Condylar resorption",
+      "cn": "髁突侵蚀"
+     },
+     {
+      "en": "Adaptive remodelling",
+      "cn": "适应性重建"
+     },
+     {
+      "en": "Severe resorption (SR)",
+      "cn": "严重侵蚀"
+     },
+     {
+      "en": "No resorption (NR)",
+      "cn": "无侵蚀"
+     },
+     {
+      "en": "Obstructive sleep apnea (OSA)",
+      "cn": "阻塞性睡眠呼吸暂停"
+     },
+     {
+      "en": "Apnea-hypopnea index (AHI)",
+      "cn": "呼吸暂停低通气指数"
+     }
+    ],
+    "reading_minutes": 12
+   }
+  },
+  {
+   "id": "10.1007/s00784-026-07242-7",
+   "pmid": "42983142",
+   "doi": "10.1007/s00784-026-07242-7",
+   "title": "Effect of income trajectory on dental service utilization patterns during the transition from childhood to adolescence: a 10-year cohort study",
+   "title_zh": "收入轨迹对从儿童期到青春期过渡期牙科服务利用模式的影响：一项10年队列研究",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-05",
+   "authors": [
+    "Cargnelutti R",
+    "Knorst JK",
+    "Brondani B",
+    "Rios ÉDS",
+    "da Silva PM",
+    "Ardenghi TM"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983142/",
+   "pmcid": "PMC13736408",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 639,
+   "sample_note": "n=639 children",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "健康公平方法学",
+   "one_line": "10年队列用群组轨迹模型+Blinder-Oaxaca分解，发现收入轨迹独立于教育/肤色影响牙科服务利用。",
+   "so_what": "方法学可迁移：若研究种植并发症的社会决定因素，群组轨迹建模值得借鉴。",
+   "caution": "巴西单地区队列，外部推广性有限。",
+   "score": {
+    "final": 18.0,
+    "match": 0.0,
+    "novelty": 28.0,
+    "rigor": 65.0,
+    "impact": 22.0,
+    "transfer": 35.0
+   },
+   "heuristic": 42.6,
+   "breakdown": {
+    "topic": 3.2,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 7.5,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: This study aimed to investigate the influence of income trajectories on dental service utilization patterns during the transition from childhood to adolescence in a Southern Brazilian birth cohort. MATERIALS AND METHODS: Children were followed over 13 years (T1, T2, and T3). Income trajectories (stable low/decreasing vs. stable high/increasing) were identified using group-based trajectory modeling based on finite mixture models. Outcomes included frequency of dental visits and reason for the last visit (preventive vs. curative). Socioeconomic disparities were explored using the non-linear Blinder-Oaxaca decomposition method. RESULTS: From 639 children at baseline (T1), 449 were followed at T2 and 429 at T3 (67.1% retention). Adolescents from stable high or increasing-income trajectories had a lower prevalence of dental visits for curative reasons (OR = 0.29; 95% CI 0.09-0.90). Decomposition analysis showed that maternal education (9%) and skin color (12.5%) explained only a small portion of these inequalities, suggesting an independent effect of income over time. CONCLUSIONS: Individuals with increasing income were less likely to use dental services for curative purposes, regardless of race, dental caries, and maternal education, highlighting the impact of economic stability on oral health behaviors. CLINICAL RELEVANCE: Income trajectories over time influence the pattern of dental service utilization in adolescence. Identifying individuals in disadvantaged socioeconomic trajectories may support targeted preventive strategies and improve access to care.",
+   "tags": [
+    "Child",
+    "Dental care",
+    "Longitudinal studies",
+    "Oral health",
+    "Social determinants of health",
+    "Socioeconomic status"
+   ],
+   "deep": {
+    "title_zh": "收入轨迹对从儿童期到青春期过渡期牙科服务利用模式的影响：一项10年队列研究",
+    "one_sentence": "收入稳定或上升轨迹的青少年更少因治疗目的就诊，经济稳定性独立于种族与母亲教育影响口腔服务利用模式",
+    "question": "家庭收入的时间轨迹（稳定高/上升 vs 稳定低/下降）能否独立解释青少年牙科服务利用从预防向治疗偏移的社经不平等？",
+    "design": "巴西南部出生队列，3个时间点随访13年（T1-T3），基于有限混合模型识别收入轨迹组，非线形Blinder-Oaxaca分解社经差异",
+    "sample_desc": "巴西南部出生队列，基线639名儿童，T2随访449人，T3随访429人，保留率67.1%",
+    "findings": [
+     {
+      "claim": "高收入/上升收入轨迹显著降低治疗性就诊概率",
+      "evidence": "OR=0.29，95%CI 0.09-0.90，对照组为稳定低/下降收入组"
+     },
+     {
+      "claim": "传统社经指标仅能解释极小比例的不平等",
+      "evidence": "母亲教育解释9%，肤色解释12.5%，合计不足两成"
+     },
+     {
+      "claim": "收入轨迹具有独立于种族、龋齿状态和母亲教育的效应",
+      "evidence": "分解分析显示收入轨迹是主要驱动因素，非其他协变量混杂所致"
+     }
+    ],
+    "effect": "OR = 0.29; 95% CI 0.09–0.90",
+    "relation": "q5间接相关：提供了'社经微环境塑造口腔健康行为'的证据链一环；若将q5的免疫微环境类比为'行为微环境'，此研究展示了外部环境轨迹如何编程宿主行为结局的方法学借鉴。与q4（材料编程宿主）有逻辑相似性——时间轨迹即'编程信号'。",
+    "why": "它打破了'种牙不治疗''补牙才是预防'的简单社经归因，证明收入轨迹的动态变化本身具有独立因果效应，且传统静态指标（如某一时点收入）会严重低估不平等——方法学上教会研究者如何用轨迹模型替代横断面分类",
+    "limitations": [
+     "保留率67.1%，存在选择性流失偏倚，低社经群体可能更易失访",
+     "巴西单一国情，收入轨迹的阈值和效果未必外推至中国医保体系下的青少年",
+     "未报告具体收入轨迹分组的绝对人数与各组基线特征，无法判断模型分组稳定性"
+    ],
+    "transferable": "Group-based trajectory modeling（GBTM）+ Blinder-Oaxaca分解的组合——可迁移到任何'动态暴露→结局'的队列分析，尤其适合研究种植体周炎进展中宿主免疫状态的时序演变与临床转归的关系",
+    "followups": [
+     "GBTM轨迹分组的AIC/BIC及平均后验概率（APP）各是多少？分组是否稳健？",
+     "收入轨迹从哪个时间点（T1/T2/T3）开始显著分化？即关键窗口期在几岁？",
+     "预防性就诊与治疗性就诊的OR是否也呈现梯度效应，还是仅治疗性就诊受影响？"
+    ],
+    "glossary": [
+     {
+      "en": "Group-based trajectory modeling",
+      "cn": "基于群体的轨迹建模"
+     },
+     {
+      "en": "Blinder-Oaxaca decomposition",
+      "cn": "布林德-奥沙卡分解（社经差异归因方法）"
+     },
+     {
+      "en": "Curative visit",
+      "cn": "治疗性就诊（以补救为目的）"
+     },
+     {
+      "en": "Preventive visit",
+      "cn": "预防性就诊（以检查/涂氟/窝沟封闭为目的）"
+     },
+     {
+      "en": "Finite mixture model",
+      "cn": "有限混合模型（轨迹建模的统计基础）"
+     }
+    ],
+    "reading_minutes": 12
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1111/eos.70160",
+   "pmid": "42975029",
+   "doi": "10.1111/eos.70160",
+   "title": "Influence of third molar eruption status on the biomechanical environment of the temporomandibular joint: An in silico evaluation",
+   "title_zh": "第三磨牙萌出状态对TMJ生物力学影响的FEA评估",
+   "journal": "European journal of oral sciences",
+   "date": "2026-11-03",
+   "authors": [
+    "Zhu B",
+    "He Y",
+    "Fu T",
+    "Li H",
+    "Wu X",
+    "Fang Q",
+    "Yin D",
+    "Liu Y"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42975029/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔生物力学",
+   "one_line": "对7种第三磨牙状态做有限元分析，发现阻生/功能位均增加髁突负荷",
+   "so_what": "仅背景",
+   "caution": "纯FEM计算模拟，无实验验证，研究者明确排斥此类方法",
+   "score": {
+    "final": 8.6,
+    "match": 5.0,
+    "novelty": 20.0,
+    "rigor": 15.0,
+    "impact": 10.0,
+    "transfer": 5.0
+   },
+   "heuristic": 23.0,
+   "breakdown": {
+    "topic": 2.0,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "Third molar (M3) may potentially cause occlusal interference, disrupt occlusal balance, alter temporomandibular joint (TMJ) loading, and impair the functional homeostasis of the stomatognathic system. This study conducted finite element method (FEM) on seven typical M3 conditions, analyzed its effects on occlusal and joint loading, and built an analytic biomechanical model to explore the regulatory mechanism of mandibular morphological parameters. Results revealed that (1) the presence of M3 would elevate TMJ functional load for all seven cases, in comparison to congenital absence case (control model [CM]). (2) Moreover, both occlusally functional (four erupted) and non-occluded (three impacted) cases of M3 presence could shift bite force to the posterior dentition and TMJ. (3) With constant masticatory muscle force, greater relative occlusal plane height (h) and length (L) would reduce TMJ loading. However, the load trends between dentition and TMJ could be reversed in consideration of periodontal ligament (PDL) negative feedback, wherein the load tendency is consistent with clinical data. In conclusion, the M3 presence would hinder the dispersion of occlusal forces in the stomatognathic system, and consequently aggravate stress environments in TMJ. The extraction of M3 could be potentially beneficial for alleviating the stress situation in TMJ due to the increase of relative occlusal plane height.",
+   "tags": [
+    "analytic biomechanical model",
+    "finite element methods",
+    "temporomandibular joint (TMJ)",
+    "third molar (M3)",
+    "von Mises stress"
+   ]
+  },
+  {
+   "id": "10.1002/hed.70543",
+   "pmid": "42988561",
+   "doi": "10.1002/hed.70543",
+   "title": "Descending Necrotizing Mediastinitis After Thyroidectomy",
+   "title_zh": "甲状腺切除术后继发降质性纵隔炎",
+   "journal": "Head & neck",
+   "date": "2026-11-05",
+   "authors": [
+    "Saison N",
+    "Constant M",
+    "Muradbegovic M",
+    "Viehl CT",
+    "Maillard L",
+    "Lifante JC"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988561/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": 3,
+   "sample_note": "n=3",
+   "tier": "B",
+   "domain": "牙周炎通过哪些可验证的通…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "头颈外科并发症",
+   "one_line": "两中心回顾3例甲状腺术后罕见纵隔感染病例，文献复习补充既往报道",
+   "so_what": "仅背景",
+   "caution": "n=3-5，回顾性病例系列，证据层级极低",
+   "score": {
+    "final": 5.8,
+    "match": 0.0,
+    "novelty": 5.0,
+    "rigor": 10.0,
+    "impact": 5.0,
+    "transfer": 0.0
+   },
+   "heuristic": 28.5,
+   "breakdown": {
+    "topic": 3.9,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 1.6,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Thyroidectomy is a commonly performed endocrine procedure with generally low complication rates. Descending necrotizing mediastinitis (DNM) is an exceptionally rare but life-threatening complication resulting from cervical infections that spread into the mediastinum. DNM following thyroid surgery has been reported only rarely. METHODS: We analyzed retrospectively five patients who developed DNM following thyroid surgery between 2023 and 2025 at two tertiary centers. The patients' demographics, comorbidities, surgical procedures, clinical presentation, imaging, microbiology, treatment, complications, and outcomes were reviewed. The diagnosis was based on clinical and radiological evidence of cervicomediastinal infection, with operative confirmation in the four patients who underwent surgical drainage. A literature review was conducted using PubMed, MEDLINE, and Embase. RESULTS: The case series included four women and one man (age 35-68, mean 53.8 years). All patients had at least one comorbidity, including obesity, cardiovascular or respiratory disease, immune compromise, and chronic nicotine use. Surgical procedures included total thyroidectomy (n = 3) and hemithyroidectomy (n = 2). Symptoms developed 2-10 days postoperatively, including cervical pain, swelling, fever, dysphagia, dyspnea, tachycardia, and subcutaneous emphysema. Contrast-enhanced (CT) of the neck and chest demonstrated findings consistent with DNM in all patients, with operative confirmation in the four patients requiring surgical drainage. Microbiological analyses identified Streptococcus pyogenes in three patients and Streptococcus pneumoniae in one patient. Concomitant methicillin-susceptible Staphylococcus aureus (MSSA) was isolated in one of the patients with S. pyogenes, while an additional patient had a positive rapid Group A Streptococcus test without confirmatory culture. Treatment included cervical drainage (n = 4), thoracic intervention (n = 2), tracheal repair (n = 1), and ICU admission (n = 4). Complications included acute kidney failure, septic shock, pleural/pericardial effusions, pulmonary embolism, and cardiac arrest. All patients survived with hospital stays ranging 7 to 42 days (median 21). Although the acute infectious process resolved in all patients, some required rehabilitation and one experienced long-term disability affecting daily activities and work cap",
+   "tags": [
+    "cervical infection",
+    "descending necrotizing mediastinitis",
+    "neck surgery",
+    "thyroidectomy"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07239-2",
+   "pmid": "42986474",
+   "doi": "10.1007/s00784-026-07239-2",
+   "title": "Association between molar-incisor hypomineralization and developmental dental anomalies in U.S. children: a cross-sectional study",
+   "title_zh": "磨牙-切牙釉质发育不全与儿童发育性牙齿异常的关联",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-05",
+   "authors": [
+    "Ahmed AT",
+    "Park J",
+    "Kratunova E",
+    "Alsaleh M",
+    "Alrayyes S",
+    "Khader Y",
+    "Kagei M",
+    "Rodd H",
+    "Rivas SB",
+    "Nazzal H"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42986474/",
+   "pmcid": "10657291",
+   "cited_by": 0,
+   "design": "cross_sectional",
+   "design_label": "横断面",
+   "design_level": 3,
+   "sample_n": 159,
+   "sample_note": "n=159 children",
+   "tier": "B",
+   "domain": "儿童口腔与预防",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Comparative Study"
+   ],
+   "is_open_access": true,
+   "cluster": "儿童牙异常关联",
+   "one_line": "159例横断面发现MIH患儿DDA发生率39.5% vs 13.7%，短根畸形和牛牙样结构风险显著升高。",
+   "so_what": "方法学参考：校准 examiner + blinded radiographic reading …",
+   "caution": "n=159，横断面无法推断因果方向。",
+   "score": {
+    "final": 17.8,
+    "match": 0.0,
+    "novelty": 22.0,
+    "rigor": 72.0,
+    "impact": 25.0,
+    "transfer": 38.0
+   },
+   "heuristic": 39.0,
+   "breakdown": {
+    "topic": 6.1,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 5.9,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To compare the frequency of developmental dental anomalies (DDAs) in children with and without molar-incisor hypomineralization (MIH), and to evaluate whether any association is independent of demographic factors. MATERIALS AND METHODS: This comparative cross-sectional study included children aged 6-14 years with and without MIH. Demographic data were collected by structured maternal questionnaire. MIH was diagnosed by calibrated examiners using a validated MIH Index. DDAs were assessed on panoramic radiographs by a blinded examiner using predefined criteria. Group comparisons used Fisher's exact test (two-sided), and multivariable logistic regression estimated adjusted odds ratios (aORs) with 95% confidence intervals (CIs), adjusting for country of birth, sex, and ethnicity. RESULTS: In total, 159 children were enrolled. Any DDA was more frequent in the MIH group than in the non-MIH group (​39.5% vs. 13.7%; p < 0.001​). Short root anomaly (14.0% vs. 1.4%; p = 0.003) and taurodontism (7.4% vs. 0.0%; p = 0.031) were also more frequent with MIH, whereas microdontia of the maxillary lateral incisors was more frequent numerically but not significantly (5.8% vs. 0.0%; p = 0.063). MIH remained independently associated with any DDA in multivariable analysis (aOR = 4.52; 95% CI: 1.97-10.33; p < 0.001). CONCLUSIONS: Children with MIH had greater odds of concurrent DDAs than children without MIH, most often short root anomaly. Individual anomaly estimates were imprecise owing to few events. CLINICAL RELEVANCE: Children with MIH may present with concurrent DDAs, highlighting the potential value of comprehensive clinical assessment and appropriate radiographic evaluation when clinically indicated.",
+   "tags": [
+    "Children",
+    "Cross sectional study",
+    "Dental radiography",
+    "Developmental dental anomalies",
+    "Molar incisor hypomineralization",
+    "Pediatric dentistry"
+   ]
+  },
+  {
+   "id": "10.1111/cdoe.70143",
+   "pmid": "42984482",
+   "doi": "10.1111/cdoe.70143",
+   "title": "Prevalence and Risk Factors for Dental Anxiety and Dental Fear in Nigeria: A Systematic Review and Meta-Analysis",
+   "title_zh": "尼日利亚人群牙科焦虑流行率的系统评价与Meta分析",
+   "journal": "Community dentistry and oral epidemiology",
+   "date": "2026-11-05",
+   "authors": [
+    "Aborisade A",
+    "Ali AM",
+    "Sarauta SA",
+    "Foláyan MO"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984482/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 7920,
+   "sample_note": "n=7920 participants",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔流行病学",
+   "one_line": "系统评价与Meta分析估计尼日利亚人群牙科焦虑 pooled prevalence 及相关危险因素。",
+   "so_what": "仅背景，纯流调无机制价值。",
+   "caution": "纳入研究以横断面为主，异质性难控制。",
+   "score": {
+    "final": 15.2,
+    "match": 0.0,
+    "novelty": 10.0,
+    "rigor": 68.0,
+    "impact": 18.0,
+    "transfer": 15.0
+   },
+   "heuristic": 43.0,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 8.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVE: In Nigeria, the burden of dental anxiety and dental fear (DFA) remains poorly characterized despite its possible contribution to poor dental service utilization and treatment avoidance. This study aimed to estimate the pooled prevalence of dental anxiety in Nigerian populations and identify associated risk factors. METHODS: This systematic review and meta-analysis was registered in PROSPERO: (CRD420261373453). A search was conducted in PubMed/MEDLINE, Embase, Web of Science, EBSCOhost, and African Journals Online from inception to March 2026. Studies were included if they were cross-sectional, cohort, or case-control studies conducted in Nigerian populations of any age that reported prevalence estimates of DFA using validated instruments. Two independent reviewers extracted data and assessed the risk of bias using the Joanna Briggs Institute checklists. The primary outcome was the pooled prevalence of dental anxiety, calculated using random-effects meta-analysis with the Freeman-Tukey double arcsine transformation. The associations between DFA and age, sex, and educational levels were also determined. Heterogeneity was assessed using I2 statistics. RESULTS: Of 237 records identified, 30 studies met the inclusion criteria, comprising 7920 participants. The pooled prevalence of DFA was 61% (95% CI: 41%-79%; I2 = 97%). Severe to extreme DFA prevalence was 18% (95% CI: 12%-27%). The pooled mean dental anxiety score was 11.9 (95% CI: 10.6-13.2). Females had higher DFA scores than males (mean difference 1.3, p = 0.0003) although the certainty of evidence was low. Participants under 30 years had higher scores than those 30 years and older (mean difference 1.6, p = 0.0002). Education level showed no significant association. Most studies (86.7%) had a moderate risk of bias. No publication bias was detected. CONCLUSION: Dental anxiety and dental fear affect approximately three-quarters of the Nigerian population, with a possible higher burden among females and younger adults. These findings highlight the possible value of routine anxiety screening and integration of behavioural management into Nigerian dental practice.",
+   "tags": []
+  },
+  {
+   "id": "10.1111/joor.70360",
+   "pmid": "42983058",
+   "doi": "10.1111/joor.70360",
+   "title": "Temporomandibular Disorders, Work Productivity, and Activity Impairment: A Cohort Study Using a Claims and Survey Database in Japan",
+   "title_zh": "颞下颌关节紊乱对工作生产力影响的日本队列研究",
+   "journal": "Journal of oral rehabilitation",
+   "date": "2026-11-04",
+   "authors": [
+    "Hoshi-Harada M",
+    "Kusama T",
+    "Tamada Y",
+    "Osaka K",
+    "Takeuchi K"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983058/",
    "pmcid": "",
    "cited_by": 0,
    "design": "cohort",
    "design_label": "队列",
    "design_level": 5,
-   "sample_n": 791,
-   "sample_note": "n=791 cases",
+   "sample_n": 570,
+   "sample_note": "n=570 participants",
    "tier": "B",
    "domain": "儿童口腔与预防",
    "methods": [],
@@ -180,225 +674,219 @@
     "Journal Article"
    ],
    "is_open_access": false,
-   "cluster": "口腔鳞癌流行病学",
-   "one_line": "50年间791例口腔颌面恶性肿瘤，SCC占主导，牙龈最常见原发部位。",
-   "so_what": "与q5有弱关联，仅作区域肿瘤流行病学背景，无免疫/微生物机制数据。",
-   "caution": "纯回顾性档案分析，无机制、无免疫微环境数据。",
+   "cluster": "TMD卫生经济学",
+   "one_line": "570人claims+问卷3年队列用两阶段模型，发现TMD诊断与工作生产力受损正相关。",
+   "so_what": "",
+   "caution": "claims数据无法校正混杂（如压力、抑郁）。",
    "score": {
-    "final": 31.7,
-    "match": 30.0,
-    "novelty": 20.0,
-    "rigor": 45.0,
+    "final": 14.2,
+    "match": 0.0,
+    "novelty": 8.0,
+    "rigor": 60.0,
     "impact": 20.0,
-    "transfer": 15.0
+    "transfer": 12.0
    },
-   "heuristic": 44.9,
+   "heuristic": 42.4,
    "breakdown": {
-    "topic": 6.1,
+    "topic": 4.1,
     "journal": 10.0,
     "design": 15,
-    "sample": 7.7,
+    "sample": 7.4,
     "fresh": 6.0,
     "method": 0.0
    },
-   "abstract": "OBJECTIVES: Oral and maxillofacial malignant tumors show variation in frequency and demographic characteristics across countries. Due to their diverse clinical presentations, clinical diagnosis remains challenging. This study aimed to investigate clinicopathologic data of these malignancies over 50-year period in a Thai dental school. MATERIALS AND METHODS: Archival biopsy records were reviewed for cases diagnosed with malignant tumors in the oral and maxillofacial region. Demographic and clinicopathologic data including sites, clinical presentations, clinical diagnoses made by clinicians, and histopathologic diagnoses were analyzed. RESULTS: Of 22,292 biopsy specimens, 791 cases (3.5%) were diagnosed as malignant tumors in this location. Epithelial tumor was the most common (60.3%), followed by salivary gland (16.6%) and hematologic (7.3%) groups. Squamous cell carcinoma (SCC) was the most common. Mean age of patients was 55.9 years, with male-to-female ratio of 1:1.02. Gingiva was the most common site (27.5%) and soft tissue mass was predominant clinical presentation (46.0%). Only 54.5% of cases were clinically diagnosed as malignancy while remaining cases were clinically diagnosed as benign tumor, reactive lesion, infection, cyst, or other lesions. CONCLUSIONS: In this cohort, oral and maxillofacial malignant tumors were uncommon with SCC being predominant. High proportion of gingival involvement and slight female predominance differed from general trends in the literature. Discrepancy between clinical and histopathologic diagnoses highlights diagnostic challenges. CLINICAL RELEVANCE: Discordant diagnosis of oral and maxillofacial malignancies as benign conditions is of clinical significance. Integrating demographic data along with clinicopathologic features may assist clinicians in diagnosis, leading to prompt histopathologic confirmation and appropriate patient management.",
+   "abstract": "BACKGROUND: Temporomandibular disorders (TMDs) are prevalent musculoskeletal conditions worldwide. However, their societal and productivity burden remains poorly understood. OBJECTIVE: Using a claims and survey database, this 3-year cohort study investigated the association between TMD diagnosis and work productivity and activity impairment (WPAI) among Japanese workers. METHODS: We identified TMD diagnoses (exposure) using claims data and assessed the WPAI (outcome) using a validated questionnaire. A two-part model was used to examine the association between TMD diagnosis around the survey period and WPAI outcomes. The first part employed a logistic regression model to estimate the odds ratio (OR) and 95% confidence interval (CI) for impairments in WPAI outcomes. The second part utilized a generalized linear model with a gamma distribution and a log-link function to estimate the exponentiated coefficients (mean ratio) and 95% CI for the magnitude of impairment among those reporting impairment in WPAI outcomes. RESULTS: The analysis included 18 570 participants (mean age: 49.0 [standard deviation = 9.1] years; 65.7% male). After adjusting for all covariates, workers with TMD showed higher odds of impairment across all WPAI indicators than those without (OR: absenteeism, 1.31 [95% CI, 0.80-2.13]; presenteeism, 1.34 [0.97-1.85]; overall work impairment, 1.42 [1.03-1.96]; and activity impairment, 1.51 [1.10-2.08]). Among workers reporting any impairment in WPAI outcomes, TMD was not associated with WPAI severity. CONCLUSION: Workers with TMD diagnosis more often reported overall work and activity impairments. The observed association may inform future research on the impact of TMD on WPAI outcomes.",
    "tags": [
-    "Epidemiology",
-    "Malignant tumors",
-    "Oral cancer",
-    "Primary intraosseous carcinoma",
-    "Squamous cell carcinoma"
-   ],
-   "deep": {
-    "title_zh": "泰国某牙科大学50年口腔颌面恶性肿瘤临床病理学研究",
-    "one_sentence": "SCC是口腔颌面恶性肿瘤最常见类型，但仅54.5%在临床阶段被正确识别为恶性，诊断挑战突出。",
-    "question": "在泰国这一特定人群中，口腔颌面恶性肿瘤的流行病学特征与既往欧美文献有何差异？临床诊断与病理诊断之间是否存在系统性误差？",
-    "design": "单中心回顾性队列研究，基于50年间全部口腔颌面区域活检标本进行病理归档回顾，比较临床初步诊断与组织病理学最终诊断的一致性。",
-    "sample_desc": "791例口腔颌面恶性肿瘤（来自22,292例活检标本中的3.5%），来自泰国一所牙科大学的病理档案。摘要未说明单中心还是多中心。",
-    "findings": [
-     {
-      "claim": "上皮来源恶性肿瘤占绝对多数",
-      "evidence": "60.3%（791例中的477例）"
-     },
-     {
-      "claim": "鳞状细胞癌（SCC）是最常见的单一肿瘤类型",
-      "evidence": "未报告具体百分比，仅描述为most common"
-     },
-     {
-      "claim": "牙龈是最常见的发病部位",
-      "evidence": "27.5%"
-     },
-     {
-      "claim": "性别分布与文献描述的男性优势相反",
-      "evidence": "男女比1:1.02，女性略多"
-     }
-    ],
-    "effect": "未报告",
-    "relation": "与q5（口腔鳞癌）有部分相关，但仅涉及SCC的流行病学描述，不涉及免疫微环境或微生物组机制。对其他q1–q4问题无直接关联。该论文是一篇纯描述性流行病学研究，无法支持任何机制性结论。",
-    "why": "唯一值得读的层面是：它明确量化了口腔颌面恶性肿瘤的临床误诊率（约45%），且发现该人群牙龈受累比例和女性优势与西方文献不同。如果你研究口腔鳞癌，这篇论文至少提醒你：在泰国人群中SCC的发病部位分布和性别特征可能存在差异，设计区域性队列时需考虑混杂。但对机制研究无实质帮助。",
-    "limitations": [
-     "纯回顾性单中心研究，无法推断因果关系，也无法评估治疗结局或生存数据。",
-     "摘要未说明是否进行了多变量校正或风险因素分析，难以判断哪些临床特征真正具有提示意义。",
-     "50年的归档数据存在分期标准变化、诊断技术演进的历史偏倚，结果外推到现代临床决策的证据强度有限。"
-    ],
-    "transferable": "无明显可直接移植的方法或设计。唯一的借鉴是：在回顾性病理队列中，系统比较临床初步诊断与最终病理诊断的一致性，可量化误诊率，这一分析框架可用于其他头颈肿瘤亚组。",
-    "followups": [
-     "该队列中SCC的具体分化程度（高分化/中分化/低分化）分布如何？分化程度是否与临床误诊率相关？",
-     "50年间诊断一致性是否随时间改善？是否有分期年份的趋势分析？",
-     "牙龈SCC在该队列中的具体位置（牙槽嵴/游离龈/附着龈）是否优于颊黏膜或舌的预后差异被报告？"
-    ],
-    "glossary": [
-     {
-      "en": "clinicopathologic",
-      "cn": "临床病理学的"
-     },
-     {
-      "en": "histopathologic diagnosis",
-      "cn": "组织病理学诊断"
-     },
-     {
-      "en": "squamous cell carcinoma (SCC)",
-      "cn": "鳞状细胞癌"
-     },
-     {
-      "en": "reactive lesion",
-      "cn": "反应性病变"
-     },
-     {
-      "en": "discordant diagnosis",
-      "cn": "诊断不一致"
-     }
-    ],
-    "reading_minutes": 12
-   }
+    "epidemiology",
+    "occupational medicine",
+    "patient reported outcomes",
+    "public health",
+    "temporomandibular joint disorders",
+    "work performance"
+   ]
   },
   {
-   "id": "10.1002/hed.70538",
-   "pmid": "42989572",
-   "doi": "10.1002/hed.70538",
-   "title": "Reconstructing Skull Base Reconstruction: The State of the Art",
-   "title_zh": "颅底重建的重构：当前艺术状态",
-   "journal": "Head & neck",
+   "id": "10.1007/s00784-026-07237-4",
+   "pmid": "42983115",
+   "doi": "10.1007/s00784-026-07237-4",
+   "title": "Clinicopathological agreement following asynchronous remote and face-to-face oral medicine consultations: A retrospective comparative study",
+   "title_zh": "远程与面诊口腔医学咨询的病理符合率比较",
+   "journal": "Clinical oral investigations",
    "date": "2026-11-05",
    "authors": [
-    "El Shatanofy M",
-    "Sargi Z",
-    "Nisenbaum E"
+    "Becker T",
+    "Tuchner NR"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42989572/",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983115/",
    "pmcid": "",
    "cited_by": 0,
-   "design": "review",
-   "design_label": "综述",
-   "design_level": 3,
-   "sample_n": null,
-   "sample_note": "",
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 386,
+   "sample_note": "n=386 adults",
    "tier": "B",
-   "domain": "生物材料表面/降解产物如…",
+   "domain": "其他",
    "methods": [],
    "pub_types": [
     "Journal Article",
-    "Review"
+    "Comparative Study"
    ],
    "is_open_access": false,
-   "cluster": "颅底重建与再生材料",
-   "one_line": "颅底重建已进入「分级重建」时代，强调用最微创的可靠方案恢复颅腔-鼻窦屏障，生物材料前景分化：L-PRF有初步临床支持，…",
-   "so_what": "弱关联q4（生物材料编程宿主免疫），再生 scaffold 和 dural substitute …",
-   "caution": "综述非原创研究，无机制数据，临床转化距离远。",
+   "cluster": "远程医疗评估",
+   "one_line": "386例回顾性比较发现远程咨询后活检的完整/部分符合率92.1%，与面诊90.7%无显著差异。",
+   "so_what": "仅背景，与q1–q5无直接关联。",
+   "caution": "选择偏倚严重：远程组本就倾向较简单病例才推荐活检。",
    "score": {
-    "final": 31.7,
-    "match": 25.0,
-    "novelty": 30.0,
-    "rigor": 50.0,
-    "impact": 25.0,
-    "transfer": 20.0
+    "final": 13.9,
+    "match": 0.0,
+    "novelty": 15.0,
+    "rigor": 55.0,
+    "impact": 22.0,
+    "transfer": 10.0
    },
-   "heuristic": 37.8,
+   "heuristic": 38.9,
    "breakdown": {
-    "topic": 10.8,
+    "topic": 0.0,
     "journal": 10.0,
-    "design": 10,
-    "sample": 0.0,
+    "design": 15,
+    "sample": 6.9,
     "fresh": 7.0,
     "method": 0.0
    },
-   "abstract": "BACKGROUND: Skull base reconstruction has continued to evolve in parallel with advances in endoscopic skull base ablation in order to accomplish the goal of restoring larger and more complicated defects between the cranial and nasal cavities while balancing morbidity, cost, and recovery. METHODS: We reviewed recent literature on advances in skull base reconstruction including graded endoscopic reconstruction, appropriate use of perioperative adjuncts, endoscopic free tissue inset, patient-specific planning, dural substitutes, regenerative scaffolds, and autologous biologics. RESULTS: Graded reconstruction supports free grafts or local flaps for selected low-flow defects and multilayer vascularized closure for high-flow defects. Lumbar drainage benefits selected high-risk patients, whereas routine packing and prolonged antibiotic prophylaxis are not consistently supported. Endoscopic free flap inset, virtual surgical planning, and patient-specific implants expand options for complex composite and salvage defects. Synthetic dural substitutes can reduce donor-site morbidity in appropriate cases. Leukocyte- and platelet-rich fibrin (L-PRF) has emerging clinical support, while most regenerative scaffolds, platelet-rich plasma (PRP), and cell-based strategies remain preclinical. CONCLUSIONS: With advancements in skull base reconstruction, the paradigm has shifted toward using the least morbid construct that reliably restores the intracranial-sinonasal barrier while preserving function and quality of life. Standardized, prospective studies with attention to patient- and value-centric outcomes are crucial for improving care. Material science advances will continue to expand reconstructive options.",
+   "abstract": "OBJECTIVES: To evaluate clinicopathological concordance between presumptive clinical diagnoses and histopathological findings following asynchronous remote and face-to-face oral medicine consultations, and to compare biopsy completion and clinical documentation. MATERIALS AND METHODS: This retrospective comparative study included 386 adults for whom biopsy was recommended following asynchronous remote (n = 190) or face-to-face (n = 196) oral medicine consultation. Diagnostic concordance was assessed exclusively among patients who underwent biopsy (n = 302), using a three-level clinical classification (complete, partial, or discordant) and Cohen's kappa for agreement between coded diagnostic categories. Multivariable logistic regression evaluated associations between concordance and consultation modality, age, sex, and smoking status. Secondary outcomes included biopsy completion and smoking-status documentation. RESULTS: Among biopsied patients, complete or partial clinicopathological concordance was observed in 129/140 remote consultations (92.1%) and 147/162 face-to-face consultations (90.7%). Cohen's kappa was 0.812 for remote consultations and 0.691 for face-to-face consultations. Diagnostic category distributions differed significantly between groups (p < 0.001). Consultation modality was not independently associated with concordance (adjusted OR = 1.177, 95% CI 0.513-2.776; p = 0.702), whereas increasing age was associated with lower concordance (adjusted OR = 0.952 per year, 95% CI 0.915-0.992; p = 0.015). Biopsy completion was lower following remote consultation (140/190, 73.7% vs. 162/196, 82.7%; p = 0.033), as was smoking-status documentation (142/190, 74.7% vs. 175/196, 89.3%; p < 0.001). Eleven dysplastic and five malignant lesions were identified; one malignant lesion demonstrated clinically significant diagnostic discordance. CONCLUSIONS: Substantial clinicopathological agreement was observed in both consultation groups among patients who underwent biopsy. Differences in case mix and biopsy completion limit direct comparisons between consultation modalities. Asynchronous remote consultation may complement face-to-face oral medicine assessment, provided that appropriate clinical evaluation and follow-up are maintained. CLINICAL RELEVANCE: Asynchronous remote oral medicine consultation showed high clinicopathological concordance among patients wh",
    "tags": [
-    "bioengineered scaffolds",
-    "cerebrospinal fluid leak",
-    "nasoseptal flap",
-    "skull base reconstruction",
-    "virtual surgical planning"
+    "Biopsy",
+    "Clinical decision-making",
+    "Diagnostic agreement",
+    "Oral lesions",
+    "Oral medicine",
+    "Telemedicine"
+   ]
+  },
+  {
+   "id": "10.1111/joor.70365",
+   "pmid": "42973391",
+   "doi": "10.1111/joor.70365",
+   "title": "The Relationship Between Occlusal Tactile Acuity, Bite Force and Tooth Wear",
+   "title_zh": "咬合触觉敏锐度、咬合力与牙体磨损的关系",
+   "journal": "Journal of oral rehabilitation",
+   "date": "2026-11-03",
+   "authors": [
+    "Stanisic N",
+    "Tamim B",
+    "Ahmed A",
+    "Bergengren T",
+    "Wetselaar P",
+    "Larsson C",
+    "Lobbezoo F",
+    "Häggman-Henrikson B"
    ],
-   "deep": {
-    "title_zh": "颅底重建的重构：当前艺术状态",
-    "one_sentence": "颅底重建已进入「分级重建」时代，强调用最微创的可靠方案恢复颅腔-鼻窦屏障，生物材料前景分化：L-PRF有初步临床支持，…",
-    "question": "面对不同大小和流量风险的颅底缺损，如何系统性地选择重建策略以最小化并发症同时最大化屏障重建可靠性？",
-    "design": "文献综述（narrative review），系统检索近期颅底重建相关文献，未提及具体检索策略与纳入标准",
-    "sample_desc": "综述性文章，摘要未说明具体样本",
-    "findings": [
-     {
-      "claim": "分级重建策略是核心框架：低流量缺损用游离移植物或局部皮瓣，高流量缺损需多层血管化闭合",
-      "evidence": "基于近期文献综述的综合推荐，摘要未提供具体统计数据"
-     },
-     {
-      "claim": "腰大池引流仅适用于 selected 高风险患者，而非常规应用",
-      "evidence": "文献综述发现支持，摘要未提供具体数据"
-     },
-     {
-      "claim": "常规鼻腔填塞和长期抗生素预防缺乏一致证据支持",
-      "evidence": "综述结论，摘要未提供具体数据"
-     },
-     {
-      "claim": "L-PRF正在获得临床支持，而PRP、多数再生支架和细胞策略仍停留在临床前阶段",
-      "evidence": "作者对现有证据等级的判断，摘要未提供具体数据"
-     }
-    ],
-    "effect": "未报告",
-    "relation": "与q4高度相关——讨论了生物材料（合成脑膜替代物、再生支架、L-PRF）如何影响组织愈合结局；与q5部分相关——涉及肿瘤切除后的重建策略",
-    "why": "提供了颅底重建领域从「单一术式」向「分级重建+患者定制化」转型的系统认知，明确区分了哪些生物材料策略已有临床证据、哪些仍停留在概念阶段，帮助研究者避免盲目跟进 preclinical-only 的技术路线",
-    "limitations": [
-     "综述性质，缺乏系统性文献检索策略和GRADE证据评级",
-     "未提供具体的并发症率、CSF漏发生率等量化数据，难以进行效应量评估",
-     "聚焦颅底重建，与口腔种植/牙周领域的转化距离较远，机制层面的讨论有限"
-    ],
-    "transferable": "分级重建（graded reconstruction）的理念——根据缺损特征选择匹配的重建层级，可类比到口腔种植缺损的类型-方法匹配决策；L-PRF的临床证据等级评估方法可借鉴用于评价口腔领域PRP/L-PRF的临床转化进度",
-    "followups": [
-     "L-PRF在颅底重建中的具体临床结局数据（CSF漏率、愈合时间）在哪些前瞻性研究中报道？",
-     "合成脑膜替代物的长期安全性数据如何？有无类似q4所关注的免疫反应/纤维化反应报道？",
-     "虚拟手术规划（VSP）和患者特异性植入物在口腔种植/颌面重建中的应用证据等级如何？"
-    ],
-    "glossary": [
-     {
-      "en": "Graded reconstruction",
-      "cn": "分级重建"
-     },
-     {
-      "en": "L-PRF (Leukocyte- and platelet-rich fib…",
-      "cn": "白细胞和富血小板纤维蛋白"
-     },
-     {
-      "en": "Dural substitute",
-      "cn": "脑膜替代物"
-     },
-     {
-      "en": "CSF leak",
-      "cn": "脑脊液漏"
-     },
-     {
-      "en": "Free tissue inset",
-      "cn": "游离组织移植瓣"
-     },
-     {
-      "en": "Virtual surgical planning (VSP)",
-      "cn": "虚拟手术规划"
-     }
-    ],
-    "reading_minutes": 12
-   }
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42973391/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 51,
+   "sample_note": "n=51 patients",
+   "tier": "B",
+   "domain": "材料与生物材料",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙体磨损临床",
+   "one_line": "51例队列发现咬合力与总体牙磨损中度正相关，OTA与后牙磨损小负相关。",
+   "so_what": "仅背景，不涉及免疫/微生物/材料机制。",
+   "caution": "n=51且为横断面关联，因果推断力弱。",
+   "score": {
+    "final": 13.8,
+    "match": 0.0,
+    "novelty": 12.0,
+    "rigor": 48.0,
+    "impact": 15.0,
+    "transfer": 8.0
+   },
+   "heuristic": 47.8,
+   "breakdown": {
+    "topic": 13.3,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 4.6,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Tooth wear is a prevalent and multifactorial condition with consequences ranging from minor aesthetic concerns to substantial functional impairment. OBJECTIVES: The study aimed to evaluate the relationships between occlusal tactile acuity (OTA), maximum voluntary bite force and tooth wear in a clinical patient cohort. METHODS: Tooth wear, OTA and maximum bite force were assessed in 51 patients (29 women and 22 men; mean age 63 years, SD 17). Tooth wear in the anterior, canine and posterior regions was assessed with the Tooth Wear Evaluation System 2.0 in natural teeth and the Modified California Dental Association protocol in prosthetically restored teeth. Associations between OTA, bite force and tooth wear were assessed using Pearson's correlation and Spearman's rank correlation coefficients. Significant variables were entered into multivariable linear regression models and adjusted for age and sex. RESULTS: There was a moderate positive correlation between bite force and overall tooth wear (r = 0.38, p = 0.006) and a small negative correlation between OTA and posterior tooth wear (r = -0.28, p = 0.044). In the multivariable models, bite force showed a strong significant association with overall tooth wear also after adjustment for age (R2 = 0.458, p < 0.001). CONCLUSIONS: Bite force may be a clinically relevant factor associated with accumulated tooth wear, whereas OTA was not independently associated with tooth wear. Longitudinal studies are needed to determine whether bite force can predict tooth wear progression and whether more comprehensive assessments of occlusal loading can improve risk assessment in rehabilitated dentitions.",
+   "tags": [
+    "bite force",
+    "dental occlusion",
+    "oral health",
+    "periodontal ligament",
+    "tooth wear",
+    "touch perception"
+   ]
+  },
+  {
+   "id": "10.1111/joor.70357",
+   "pmid": "42973379",
+   "doi": "10.1111/joor.70357",
+   "title": "The Network Psychometric Properties of the Temporomandibular Joint Disorder Questionnaire Among Australian Adults",
+   "title_zh": "TMD问卷网络心理测量学性质研究",
+   "journal": "Journal of oral rehabilitation",
+   "date": "2026-11-03",
+   "authors": [
+    "Singh A",
+    "Nath S",
+    "Jamieson L",
+    "Santiago PHR"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42973379/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cross_sectional",
+   "design_label": "横断面",
+   "design_level": 3,
+   "sample_n": 2423,
+   "sample_note": "n=2423 participants",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "量表心理测量",
+   "one_line": "2423人澳大利亚成人数据用网络模型验证12项TMD问卷，最终保留9项条目信效度良好。",
+   "so_what": "仅背景，问卷验证类研究非目标方法论。",
+   "caution": "网络分析常用于心理测量，但对机制研究无直接启发。",
+   "score": {
+    "final": 13.4,
+    "match": 0.0,
+    "novelty": 18.0,
+    "rigor": 58.0,
+    "impact": 15.0,
+    "transfer": 12.0
+   },
+   "heuristic": 33.0,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 8.0,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Australian adults have at least one symptom of temporomandibular joint disorder (TMD), and those who experience TMD report lower oral health-related quality of life. While a self-administered TMD questionnaire can be a valuable screening instrument for initial identification of disease/conditions, to the best of our knowledge, there are no comprehensively validated TMD questionnaires for the Australian population. OBJECTIVE: To evaluate the psychometric properties of the TMD questionnaire using data imputation and novel network models. METHODS: This is a secondary analysis of data from the National Study of Adult Oral Health 2017-18. The sample included 2423 participants who responded to the 12-item TMD questionnaire. Descriptive statistics included demographic characteristics and the TMD distribution of adult Australians. The analytical steps include: (1) model estimation, (2) Unique Variable Analysis, (3) Exploratory Graph Analysis (EGA), (4) model fit, (5) criterion validity and (6) reliability. RESULTS: After removing poorly performing items, EGA revealed that a 9-item TMD questionnaire had excellent item stability, substantive network loadings and mixed but acceptable model fit (X2(12): 1045.91, CFI: 0.970, RMSEA: 0.077, 90% CI: 0.073-0.081, SRMR: 0.027). The reliability was good (α = 0.8; Ω = 0.8). Finding also supported known-groups validity by sex (Risk Ratios ranging from 1.44 to 4.43) and criterion validity according to quality of life (r = -0.26) and age (r = -0.21). CONCLUSIONS: This study provided evidence on the validity and reliability of the 9-item temporomandibular joint questionnaire for evaluating temporomandibular joint disorder among Australian Adults. The TMD questionnaire is readily available, which can be a practical measure of self-reported TMD symptoms for a population-based initial assessment or epidemiological research.",
+   "tags": [
+    "Australia",
+    "network psychometrics",
+    "oral health",
+    "temporomandibular joint disorder"
+   ]
   }
  ],
- "scan": [],
  "backlog": [],
  "weekly": null,
  "profile": {
