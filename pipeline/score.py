@@ -260,11 +260,14 @@ def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, A
 
     scans: List[Dict[str, Any]] = []
     target = int(quota.get("scan", 3))
+    floor = float(quota.get("min_scan_score", 0) or 0)
     for p in ranked:
         if len(scans) >= target:
             break
         if p["id"] in used_ids:
             continue
+        if p["score"]["final"] < floor:
+            break
         if p["journal_key"] in used_journals or p["domain"] in used_domains:
             continue
         scans.append(p)
@@ -277,6 +280,8 @@ def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, A
             break
         if p["id"] in used_ids:
             continue
+        if p["score"]["final"] < floor:
+            break
         scans.append(p)
         used_ids.add(p["id"])
     return {"must_read": must, "scan": scans, "rest": [p for p in ranked if p["id"] not in used_ids]}

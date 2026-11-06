@@ -61,7 +61,7 @@ so_what（≤35 字：对我的课题意味着什么；无关联写"仅背景"�
 caution（≤30 字：最可能被高估的地方，如"体外高浓度"、"单中心回顾"）,
 skip（true/false：是否根本不值得占用今天的阅读位）
 只输出数组。"""
-    data = llm.chat_json([{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}], max_tokens=3600)
+    data = llm.chat_json([{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}], max_tokens=6200)
     rows = _rows_of(data)
     by_id = {str(p["id"]).strip().lower(): p for p in batch}
     out: Dict[str, Dict[str, Any]] = {}
