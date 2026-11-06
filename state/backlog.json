@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06T21:12:03+08:00",
+ "updated_at": "2026-11-06T21:33:56+08:00",
  "items": [
   {
    "id": "10.1177/00220345261495934",
@@ -10,6 +10,17 @@
    "one_line": "",
    "cluster": "牙周与宿主免疫",
    "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 0
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
    "days_waiting": 0
   },
   {
@@ -43,6 +54,39 @@
    "one_line": "",
    "cluster": "口腔鳞癌的免疫微环境与微…",
    "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 0
+  },
+  {
+   "id": "10.1016/j.actbio.2026.10.065",
+   "title": "Long-Term Structural Stability and Maturation of Centimeter-Scale Stretch-Grown Sensory Axons Following Collagen Encapsulation",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 57.6,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982156/",
+   "days_waiting": 0
+  },
+  {
+   "id": "10.1111/cdoe.70142",
+   "title": "Fifteen Years of the PUFA Index in Oral Epidemiology: A Systematic Review of Global Application and Reporting",
+   "journal": "Community dentistry and oral epidemiology",
+   "date_shown": "2026-11-06",
+   "score": 57.2,
+   "one_line": "",
+   "cluster": "儿童口腔与预防",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984489/",
+   "days_waiting": 0
+  },
+  {
+   "id": "10.1111/clr.70195",
+   "title": "Probe Accuracy and Agreement and Patient Preferences in Peri-Implant Probing Depth Assessment: A Cross-Sectional Study",
+   "journal": "Clinical oral implants research",
+   "date_shown": "2026-11-06",
+   "score": 52.6,
+   "one_line": "",
+   "cluster": "种植体周的免疫微环境（巨…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984420/",
    "days_waiting": 0
   }
  ]

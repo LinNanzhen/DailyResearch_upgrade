@@ -1,55 +1,61 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06T21:12:03+08:00",
+ "generated_at": "2026-11-06T21:33:56+08:00",
  "model": "heuristic-only",
  "ai": false,
  "usage": {
-  "calls": 0,
-  "prompt_tokens": 0,
-  "completion_tokens": 0
+  "calls": 4,
+  "prompt_tokens": 20270,
+  "completion_tokens": 12734
  },
  "stats": {
   "candidates": 179,
   "raw": 172,
-  "fetched": 156,
+  "fetched": 152,
   "raw_dropped_type": 15,
   "no_abstract": 1,
-  "gated": 156,
+  "gated": 152,
   "scored": 0,
   "shown": 4,
   "ai": false,
   "feedback_files": 0,
-  "calls": 0
+  "calls": 4
  },
  "must_read": {
-  "id": "10.1177/00220345261495934",
-  "pmid": "42984391",
-  "doi": "10.1177/00220345261495934",
-  "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+  "id": "10.1177/00220345261493921",
+  "pmid": "42978299",
+  "doi": "10.1177/00220345261493921",
+  "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
   "title_zh": null,
   "journal": "Journal of dental research",
-  "date": "2026-11-05",
+  "date": "2026-11-03",
   "authors": [
-   "Araujo Silva DN",
-   "Ribeiro VL",
-   "Swanson KV",
-   "Pirih F",
-   "Marchesan JT"
+   "Elebyary O",
+   "Liu R",
+   "Lee J",
+   "Dukuray M",
+   "Tsang J",
+   "Sun C",
+   "Mojdami D",
+   "Bendayan Y",
+   "Watson E",
+   "Lipton JH",
+   "Coburn B",
+   "Glogauer M"
   ],
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
   "pmcid": "",
   "cited_by": 0,
-  "design": "review",
-  "design_label": "综述",
-  "design_level": 3,
-  "sample_n": null,
-  "sample_note": "",
+  "design": "cohort",
+  "design_label": "队列",
+  "design_level": 5,
+  "sample_n": 489,
+  "sample_note": "n=489 patients",
   "tier": "A",
   "domain": "牙周与宿主免疫",
   "methods": [],
   "pub_types": [
-   "Journal Article",
-   "Review"
+   "Journal Article"
   ],
   "is_open_access": false,
   "cluster": "牙周与宿主免疫",
@@ -57,63 +63,54 @@
   "so_what": "",
   "caution": "",
   "score": {
-   "final": 67.0
+   "final": 65.5
   },
-  "heuristic": 67.0,
+  "heuristic": 65.5,
   "breakdown": {
-   "topic": 35.0,
+   "topic": 23.3,
    "journal": 15.0,
-   "design": 10,
-   "sample": 0.0,
-   "fresh": 7.0,
+   "design": 15,
+   "sample": 7.2,
+   "fresh": 5.0,
    "method": 0.0
   },
-  "abstract": "Periodontitis, a leading cause of tooth loss worldwide, arises from a dysregulated host immune response, and males consistently show higher prevalence and more severe disease than females. This disparity historically has been attributed to behavioral/environmental factors, but growing evidence indicates that biological sex, acting through hormonal signaling and sex chromosome-linked genetic mechanisms, independently shapes periodontal immune responses and subsequent bone resorption. In this review, we examine preclinical and clinical evidence on the impact of biological sex on host modulation therapies to prevent periodontitis. The IL-1β/inflammasome pathway and osteoclast differentiation via receptor activator of nuclear factor-κB ligand (RANKL)/osteoprotegerin (OPG) signaling both show clear sex-dependent regulation in experimental periodontitis, illustrating the biological complexity that single-target therapies must address in this heterogeneous condition. In a mouse model, inflammasome-mediated IL-1β signaling drives alveolar bone loss selectively in males, while females progress to comparable bone loss through IL-1β-independent mechanisms. IL-17 plays a dual role, driving inflammatory bone resorption while also supporting antimicrobial defense, and evidence points to this balance being sex dependent, with more severe effects observed in females when IL-17 signaling is disrupted. IL-6 is an established driver of periodontal bone loss, and although sex-specific data within periodontitis remain limited, sex-dependent anti-IL-6 receptor treatment responses have been observed in other inflammatory diseases that warrant further investigation. Complement-mediated immunity shows biological sex differences in humans and animal models, though whether these discrepancies directly influence periodontal disease progression needs to be determined. Resolvins and cyclooxygenase inhibitors also show sex-dependent effects outside the periodontal field. Collectively, this evidence positions biological sex as a tractable, currently underappreciated variable to improve host modulation strategies. Incorporating sex as a biological variable into preclinical and clinical periodontal research and ensuring sex-disaggregated data reporting offer a clear opportunity to develop precise, sex-informed nonsurgical therapeutics that better serve both male and female patients.",
+  "abstract": "This study aimed to investigate how periodontitis would alter bloodstream infections (BSIs) in patients undergoing allogeneic hematopoietic stem cell transplantation (allo-HSCT). We hypothesized that periodontitis would alter the microbiological profile of BSIs, particularly the relative prevalence of viridans group streptococci (VGS), common oral bacteria frequently implicated in BSIs in allo-HSCT recipients, and other non-VGS organisms. We further investigated whether these microbiological changes were associated with clinical outcomes and alterations in VGS-specific humoral immune responses. A retrospective cohort (n = 489 patients, 2010-2020) and a prospective cohort (n = 149 patients, 2021-2022) were included for this observational study recruited from Princess Margaret Cancer Centre. Patients were categorized based on pretransplant history of periodontitis. BSIs occurring during the hospitalization period and mortality up to 1,000 days posttransplant were compared between patients with and without periodontitis. Pretransplant serum samples from the prospective cohort were analyzed for VGS-specific IgG and IgA using flow cytometry. There was no difference in the rates of BSI between groups; however, in the retrospective cohort, patients with a history of periodontitis had a higher incidence of non-VGS BSIs (76.7% vs. 56.8%, P = 0.019). A similar, though nonsignificant, trend was observed in the prospective cohort (63.4% vs. 45.8%, P = 0.16). Notably, the shift toward non-VGS BSIs was stage-dependent, increasing with advanced periodontitis in both cohorts (P = 0.009 and P = 0.025, respectively). Patients with periodontitis had almost double the risk of mortality compared to those without (retrospective: hazard ratio [HR] = 1.86; 95% confidence interval [CI] = 1.31-2.69; P < 0.001; prospective: HR = 1.82; 95% CI = 0.98-3.57; P = 0.06). Elevated VGS-specific IgG and IgA levels were observed in patients with periodontitis, with lower IgG levels correlating with VGS BSIs. History of periodontitis was associated with differences in BSI microbiology, including a higher proportion of non-VGS BSIs among patients who developed BSIs, and with poorer survival outcomes in allo-HSCT recipients.",
   "tags": [
-   "bone loss",
-   "cytokines",
-   "inflammation",
-   "periodontal disease",
-   "sex chromosomes",
-   "sex differences"
+   "alveolar bone loss",
+   "humoral immunity",
+   "immunoglobulins",
+   "mortality",
+   "neutropenia",
+   "viridans streptococci"
   ]
  },
  "scan": [
   {
-   "id": "10.1016/j.actbio.2026.11.004",
-   "pmid": "42982154",
-   "doi": "10.1016/j.actbio.2026.11.004",
-   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "id": "10.1016/j.actbio.2026.10.065",
+   "pmid": "42982156",
+   "doi": "10.1016/j.actbio.2026.10.065",
+   "title": "Long-Term Structural Stability and Maturation of Centimeter-Scale Stretch-Grown Sensory Axons Following Collagen Encapsulation",
    "title_zh": null,
    "journal": "Acta biomaterialia",
    "date": "2026-11-04",
    "authors": [
-    "Wang J",
-    "Peng X",
-    "Zhao L",
-    "Jiang K",
-    "Wang Y",
-    "Li Z",
-    "Han S",
-    "Ding L",
-    "Hu D",
-    "Lu J",
-    "Wang K",
-    "Zhang L"
+    "Vargas VA",
+    "Lin C",
+    "Shultz RB",
+    "Lee HH",
+    "Cullen DK"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982156/",
    "pmcid": "",
    "cited_by": 0,
-   "design": "animal",
-   "design_label": "动物实验",
-   "design_level": 2,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
    "sample_n": null,
    "sample_note": "",
    "tier": "A",
    "domain": "生物材料表面/降解产物如…",
-   "methods": [
-    "multiomics"
-   ],
+   "methods": [],
    "pub_types": [
     "Journal Article"
    ],
@@ -123,142 +120,136 @@
    "so_what": "",
    "caution": "",
    "score": {
-    "final": 61.3
+    "final": 57.6
    },
-   "heuristic": 61.3,
+   "heuristic": 57.6,
    "breakdown": {
-    "topic": 29.1,
+    "topic": 21.6,
     "journal": 15.0,
-    "design": 9,
+    "design": 15,
     "sample": 0.0,
     "fresh": 6.0,
-    "method": 2.2
+    "method": 0.0
    },
-   "abstract": "Cell-free strategies for dental pulp regeneration rely on the recruitment of endogenous stem cells, but cell entry alone is not sufficient. The stem cells require staged niche cues that support early mechanical adaptation and later coordinate odontogenic, angiogenic, and neural supportive responses. Here, we report RQK (RADA16/QP5/KLT), an injectable self-assembling peptide hydrogel designed to integrate extracellular matrix-like architecture with instructive bioactive cues for functional pulp regeneration. RQK combines the RADA16 (RAD) nanofibrous backbone with the amelogenin-derived odontogenic motif QP5 and the vascular endothelial growth factor (VEGF)-mimetic angiogenic motif KLT. The hydrogel formed at 37°C, showed injectability and recovery, and could adapt to the irregular root canal space. In three-dimensional culture, RQK guided human dental pulp stem cells through a staged regenerative response. RQK first maintained stemness and mechanosensitive signaling, then promoted adhesion remodeling, odontogenic differentiation, enhanced angiogenic activity, and neural supportive effects. Transcriptomic analysis further linked this staged response to extracellular matrix interaction, cell adhesion, mechanosensitive signaling, and developmental programs. Molecular dynamics simulations and ultrastructural analyses suggested that interactions between RQK and collagen created a matrix environment favorable for odontogenic differentiation. Furthermore, evaluations across different stages in an infected immature beagle tooth model revealed that RQK promoted periapical healing and continued root development. Newly formed pulp-like tissue was more functional and showed odontoblast-like cell arrangement, vascular ingrowth, and neural tissue formation. These findings demonstrate that biomimetic niche reconstruction can guide endogenous stem cell behavior and improve cell-free dental pulp regeneration in vivo, providing a biomimetic framework for enhancing in situ tissue regeneration. STATEMENT OF SIGNIFICANCE: This research developed RQK, an injectable self-assembling peptide hydrogel for cell-free dental pulp regeneration. Unlike conventional scaffold designs, RQK combines a nanofibrous matrix that mimics the extracellular matrix with odontogenic and angiogenic bioactive motifs. The hydrogel forms at 37°C, adapts to the irregular root canal space, and guides endogeno",
+   "abstract": "Peripheral nerve injury (PNI) remains a significant clinical challenge due to limited biologically active regeneration strategies. Tissue engineered nerve grafts (TENGs) comprising long-projecting, stretch-grown axon tracts have emerged as a promising strategy to guide regeneration by creating a living bridge guiding and aiding native regeneration processes. However, their long-term structural stability remains incompletely understood. In this study, we evaluated the effects of dorsal root ganglia (DRG) plating density on the structural stability and morphology of mechanically stretch-grown TENGs over 5-7 weeks after three-dimensional collagen-encapsulation and removal from the mechanobioreactor. TENGs generated from 20, 40, or 80 DRG maintained neuronal-axonal phenotype and exhibited robust longitudinal axonal alignment across all conditions. While higher-density TENGs demonstrated a modest but significant reduction in length over time, overall contraction remained limited, and contraction rates were not significantly different among the groups. Stretch-grown axons maintained over 90% of their immediate post-stretch length out to 5-7 weeks post-encapsulation. Higher density TENGs also exhibited increased integration and fusion of DRG, forming continuous neuronal somatic fields and the ends of the TENGs and running perpendicular to the stretch-grown axons. Moreover, quantitative analyses revealed density- and time-dependent remodeling of axonal fascicular architecture, characterized by increased fascicle diameter without substantial changes in fascicle number, consistent with progressive axonal thickening, bundling and network consolidation. Despite this maturation-associated remodeling, TENGs preserved overall structural integrity and alignment through 7 weeks in culture. Collectively, these findings establish TENGs as mechanically stable, dynamically remodeling tissues and support their potential use as nerve repair strategies requiring graft stability over clinically relevant timeframes. STATEMENT OF SIGNIFICANCE: Tissue-engineered nerve grafts (TENGs) use living, stretch-grown axons to guide repair after peripheral nerve injury, but their long-term structural stability has remained unclear. In this study, we show that collagen-encapsulated TENGs generated with different dorsal root ganglia densities remain intact for up to seven weeks, preserve longitudi",
    "tags": [
-    "functional dental pulp regeneration",
-    "mechanobiology",
-    "self-assembling peptide hydrogel",
-    "stem cell fate regulation",
-    "stem cell niche"
+    "Collagen Hydrogel",
+    "Living Biomaterials",
+    "Neural Tissue Engineering",
+    "Peripheral Nerve Regeneration"
    ]
   },
   {
-   "id": "10.1007/s00784-026-07209-8",
-   "pmid": "42983131",
-   "doi": "10.1007/s00784-026-07209-8",
-   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "id": "10.1111/cdoe.70142",
+   "pmid": "42984489",
+   "doi": "10.1111/cdoe.70142",
+   "title": "Fifteen Years of the PUFA Index in Oral Epidemiology: A Systematic Review of Global Application and Reporting",
    "title_zh": null,
-   "journal": "Clinical oral investigations",
+   "journal": "Community dentistry and oral epidemiology",
    "date": "2026-11-05",
    "authors": [
-    "Muñoz-Sandoval C",
-    "Jardim JJ",
-    "Gambetta-Tessini K",
-    "Giacaman RA",
-    "Maltz M"
+    "Nagdeo KP",
+    "van Wely J",
+    "Duijster D",
+    "Monse B",
+    "Kozman R",
+    "Deierlein AL",
+    "Benzian H"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
-   "pmcid": "PMC13736317",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984489/",
+   "pmcid": "",
    "cited_by": 0,
-   "design": "rct",
-   "design_label": "随机对照",
-   "design_level": 6,
-   "sample_n": 98,
-   "sample_note": "n=98 participants",
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 4438,
+   "sample_note": "260 项研究",
    "tier": "B",
-   "domain": "牙体牙髓与龋病",
-   "methods": [
-    "rct"
-   ],
+   "domain": "儿童口腔与预防",
+   "methods": [],
    "pub_types": [
     "Journal Article",
-    "Randomized Controlled Trial"
+    "Review"
    ],
-   "is_open_access": true,
-   "cluster": "牙体牙髓与龋病",
+   "is_open_access": false,
+   "cluster": "儿童口腔与预防",
    "one_line": "",
    "so_what": "",
    "caution": "",
    "score": {
-    "final": 60.1
+    "final": 57.2
    },
-   "heuristic": 60.1,
+   "heuristic": 57.2,
    "breakdown": {
-    "topic": 17.6,
+    "topic": 14.2,
     "journal": 10.0,
     "design": 18,
-    "sample": 5.3,
+    "sample": 8.0,
     "fresh": 7.0,
-    "method": 2.2
+    "method": 0.0
    },
-   "abstract": "OBJECTIVES: Selective caries removal to soft dentin (SCR-SD) is currently recommended for the management of deep dentine caries lesions in permanent teeth. However, whether a pulp-protective liner is required after SCR-SD remains uncertain. This randomized controlled trial compared the clinical performance and pulp vitality outcomes of composite resin restorations using a universal adhesive with or without a glass ionomer cement (GIC) liner after SCR-SD in deep caries lesions of permanent posterior teeth. METHODS: A randomized controlled clinical trial was conducted in 144 deep dentin caries lesions from 98 participants aged 9 to 55 years. After SCR-SD, lesions were randomly allocated to one of two restorative strategies: a universal adhesive applied in selective enamel etching mode (SE) and composite resin without a GIC liner, or a conventional GIC liner followed by the same universal adhesive applied in selective enamel etching mode and composite resin (GIC + SE). Restorations were followed for 30-36 months. The primary outcome was restoration survival, assessed using selected FDI criteria. The secondary outcome was pulp vitality preservation. Survival analyses were performed using Weibull regression models. RESULTS: Of the 144 treated lesions, 117 were evaluated after 30-36 months. Restoration survival did not differ significantly between groups, with survival rates of 96.0% for SE and 92.4% for GIC + SE (p = 0.37). In contrast, pulp vitality preservation was significantly higher in the SE group than in the GIC + SE group, with success rates of 97.5% and 87.3%, respectively (p = 0.01). In the adjusted Weibull regression model, SE was associated with a lower risk of pulp vitality failure compared with GIC + SE. Restorative failure was also strongly associated with pulp vitality failure. CONCLUSIONS: The use of a GIC liner after SCR-SD did not improve restoration survival and was not associated with better pulp vitality preservation. Composite restorations using universal adhesive applied in selective enamel etching mode placed directly over the remaining dentin showed favorable restorative and biological outcomes after 30-36 months. These findings suggest that routine liner placement after SCR-SD may not be necessary. CLINICAL SIGNIFICANCE: In deep dentin caries lesions treated with SCR-SD, placing a glass ionomer liner before composite restoration using a",
+   "abstract": "OBJECTIVES: The PUFA index records the presence of pulpal involvement, ulceration, fistula, and abscess to quantify the clinical consequences of untreated dental caries. The PUFA index captures the prevalence and severity of oral conditions, making it useful for surveillance, research, and advocacy. After 15 years of global use, this systematic review synthesises how the PUFA index has been applied and reported. METHODS: Following PRISMA 2020 guidelines, seven databases were searched: PubMed, Embase, Scopus, Web of Science, CINAHL, Global Health, and Google Scholar. Eligible studies were published between 2010 and 2025 and reported original epidemiological data using the PUFA index. Data extraction captured study design, population, dentition type, PUFA reporting formats, examiner details, and use of complementary indices. Descriptive synthesis was performed with high inter-rater reliability among reviewers (96.5%). RESULTS: Out of 4438 records, 260 studies from 53 countries met the inclusion criteria. PUFA was predominantly applied in low- and middle-income countries across the life course, but with a focus on children and adolescents. Nearly half of the studies (48.8%) examined associations between PUFA and health outcomes, and over one-third (37.7%) applied PUFA in population surveillance. Reporting practices varied, and examiner type was specified in about half of the studies (47.3%), with dentists being the most common (82.9%). While methodological rigour was generally good, there were inconsistencies in reporting formats and limited availability of inter- and intra-examiner reliability data. CONCLUSIONS: The PUFA index is a recognized oral health index that has shown steady adoption across numerous studies and diverse populations. Its global credibility has positioned it for integration into modern surveillance frameworks, including the updated WHO STEPS Oral Health Module. Future priorities include standardizing reporting, strengthening integration into surveillance systems, and exploring how the PUFA index can be used in program evaluation to better inform policy and reduce oral health inequities.",
    "tags": [
-    "Clinical trial",
-    "Composite resin",
-    "Dental caries",
-    "Liner",
-    "Selective caries removal",
-    "Soft dentin"
+    "dental caries",
+    "dental health surveys",
+    "epidemiology",
+    "public health dentistry",
+    "public health surveillance",
+    "tooth diseases"
    ]
   },
   {
-   "id": "10.1038/s41591-026-04744-5",
-   "pmid": "42988934",
-   "doi": "10.1038/s41591-026-04744-5",
-   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "id": "10.1111/clr.70195",
+   "pmid": "42984420",
+   "doi": "10.1111/clr.70195",
+   "title": "Probe Accuracy and Agreement and Patient Preferences in Peri-Implant Probing Depth Assessment: A Cross-Sectional Study",
    "title_zh": null,
-   "journal": "Nature medicine",
+   "journal": "Clinical oral implants research",
    "date": "2026-11-05",
    "authors": [
-    "Nagata N",
-    "Wei R",
-    "Kaneko G",
-    "Nishijima S",
-    "Aoki R",
-    "Kojima Y",
-    "Tamura Y",
-    "Sugiyama M",
-    "Hamabata T",
-    "Nakagawa T",
-    "Ueki K",
-    "Ohsugi M"
+    "Mayol M",
+    "Bertl K",
+    "Pandis N",
+    "Stavropoulos A"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
-   "pmcid": "6699591",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984420/",
+   "pmcid": "",
    "cited_by": 0,
-   "design": "cohort",
-   "design_label": "队列",
-   "design_level": 5,
-   "sample_n": 6803,
-   "sample_note": "n=6803 adults",
-   "tier": "A",
-   "domain": "口腔鳞癌的免疫微环境与微…",
-   "methods": [
-    "multiomics"
-   ],
+   "design": "cross_sectional",
+   "design_label": "横断面",
+   "design_level": 3,
+   "sample_n": 85,
+   "sample_note": "n=85 implants",
+   "tier": "B",
+   "domain": "种植体周的免疫微环境（巨…",
+   "methods": [],
    "pub_types": [
     "Journal Article"
    ],
-   "is_open_access": true,
-   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "is_open_access": false,
+   "cluster": "种植体周的免疫微环境（巨…",
    "one_line": "",
    "so_what": "",
    "caution": "",
    "score": {
-    "final": 60.0
+    "final": 52.6
    },
-   "heuristic": 60.0,
+   "heuristic": 52.6,
    "breakdown": {
-    "topic": 12.8,
-    "journal": 15.0,
-    "design": 15,
-    "sample": 8.0,
+    "topic": 20.4,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 5.2,
     "fresh": 7.0,
-    "method": 2.2
+    "method": 0.0
    },
-   "abstract": "Analyses disentangling the role of the gut microbiome in linking lifestyle factors to health outcomes remain limited. Here, using fecal shotgun metagenomics from 6,803 adults in the Japanese 4D cohort, we identified two opposing microbiome-mediated axes linking lifestyle to health and 15 diseases. A health-associated axis enriched in microbial metabolism of dietary components was linked to plant-based, soy and dairy intake. In contrast, a disease-associated axis, enriched in oral-derived bacteria and pathobionts, was linked to refined carbohydrates and sedentary behavior. Starter culture microorganisms used to ferment foods did not show statistically significant mediation of the observed health effects. Alcohol was associated with both health- and disease-oriented mediation patterns involving microbial host-glycan utilization. Microbiome-defined health- and disease-oriented mediator axes were supported by fecal short-chain fatty acids and plasma cytokines from >1,700 individuals, revealing butyrate-associated anti-inflammatory and pro-inflammatory host profiles, respectively. Microbiome-based prediction (MADE) scores captured lifestyle-microbiome-disease mediation patterns and distinguished individual diseases across 13 independent external cohorts from the United States, China, Sweden, Russia and Australia. We identify the gut microbiome as a key mediator linking lifestyle to health and disease, providing a framework for microbiome-based assessment to guide lifestyle interventions for health promotion and disease prevention.",
-   "tags": []
+   "abstract": "OBJECTIVES: To record the accuracy and agreement of three types of probes (i.e., a common metal probe and two types of flexible probes) for peri-implant probing depth (PD) assessment, including patient-reported outcomes (PRO). METHODS: Fifty patients (85 implants) with an implant-supported restoration were included. Peri-implant PD was recorded with a metal, plastic, and electronic probe. Pain/discomfort and patient preference were registered. After removing the prosthetic restoration, the correct peri-implant PD (cPD), the mucosal height (MH), and the PD measured from the implant level (iPD) were assessed. RESULTS: Good accuracy and agreement were noted for PD measurements with the metal and plastic probe. They differed in approximately 80% of the measurements by < 1.5 mm from cPD, and on average, an underestimation of 0.5 mm occurred. The accuracy of the metal probe was negatively influenced by a thick peri-implant mucosal phenotype. A direct comparison of the metal and plastic probes showed perfect agreement in 68.7% of the cases. Patients reported significantly less pain/discomfort when the plastic probe was used compared to the metal probe. The electronic probe was unreliable and differed by ≥ 1.5 mm from cPD in 65% of the measurements. CONCLUSIONS: While the electronic probe was unreliable, the metal and plastic probes were relatively accurate and comparable for assessing peri-implant PD; the plastic probe caused less pain/discomfort. However, in approximately 1/5 of the measurements a ≥ 1.5 mm deviation from the correct value (cPD) may occur, and the accuracy of the metal probe appears negatively influenced by a thick peri-implant mucosal phenotype. TRIAL REGISTRATION: The protocol was registered at clinicaltrials.gov (NCT05332327).",
+   "tags": [
+    "dental implant",
+    "diagnosis",
+    "patient reported outcome measures",
+    "periodontal probe"
+   ]
   }
  ],
  "backlog": [],
