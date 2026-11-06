@@ -1,7 +1,7 @@
 # 口腔文献日课 · Daily Research
 
 每天 **1 篇精读 + 3 篇速览**，从 150–250 篇新论文里筛出来。
-GitHub Actions 每天 07:30 自动跑，网页只读结果；你在页面上读、标记、否决，反馈回流到下一次筛选。
+GitHub Actions 每天 07:30 自动跑：**一封邮件 + 一个网页**，内容是同一份结果；你在页面上读、标记、否决，反馈回流到下一次筛选。
 
 旧版界面保留在 [`legacy/index.html`](legacy/index.html)。
 
@@ -12,6 +12,10 @@ GitHub Actions 每天 07:30 自动跑，网页只读结果；你在页面上读�
 ![接入模型后的精读卡](docs/preview-ai.png)
 
 <sub>上图：接入模型后的四段式精读卡（内容为演示数据，仅示意结构）。</sub>
+
+![每日邮件](docs/preview-email.png)
+
+<sub>上图：每天 07:30 的邮件（演示数据）。</sub>
 
 ---
 
@@ -56,6 +60,42 @@ GitHub Actions 每天 07:30 自动跑，网页只读结果；你在页面上读�
 Pages 保持 `Settings → Pages → Deploy from a branch → main / (root)` 即可，工作流提交后自动发布。
 
 > 第一次运行前，页面会显示"未接入模型"：只有确定性排序，没有精读卡。这是预期状态，不是故障。
+
+---
+
+## 邮件推送
+
+默认每天 07:30 把当天四篇发到 **lnz985211@gmail.com**（收件人在 `config/profile.yml → delivery.email.to`，可改）。
+
+### 推荐：Resend（约 5 分钟）
+
+1. 用 `lnz985211@gmail.com` 注册 [resend.com](https://resend.com)（免费 100 封/天）
+2. `API Keys → Create API Key`，复制 `re_` 开头的 Key
+3. 仓库 `Settings → Secrets and variables → Actions` 新建 `RESEND_API_KEY`
+
+发件人保持默认 `onboarding@resend.dev`。Resend 的测试发件人有限制：**只能发给注册账号自己的邮箱**——这里正好是发给自己，不需要买域名、不需要验证 DNS。
+
+### 备选：Gmail / QQ 邮箱 SMTP
+
+不想注册 Resend，就用自己邮箱发（邮件会出现在「已发送」里）：
+
+| Secret | Gmail | QQ 邮箱 |
+|---|---|---|
+| `SMTP_HOST` | `smtp.gmail.com` | `smtp.qq.com` |
+| `SMTP_PORT` | `465` | `465` |
+| `SMTP_USER` | 你的邮箱地址 | 你的邮箱地址 |
+| `SMTP_PASS` | Google 应用专用密码 | 邮箱「授权码」 |
+
+Gmail 要先开两步验证才能生成[应用专用密码](https://myaccount.google.com/apppasswords)。
+同时把 `profile.yml` 里的 `from` 改成你的邮箱，否则 Gmail 会拒信。
+
+### 行为
+
+- 没配任何凭据：自动跳过，只在日志里写一行，**不影响**流水线；
+- `send_when_empty: false`：当天没有过筛论文就不发；
+- HTML + 纯文本双版本，手机邮件客户端可读；
+- 周日多一段「本周地图」；
+- 发信失败不会让当天的数据丢失（数据先落盘、再发信）。
 
 ---
 
@@ -105,7 +145,7 @@ export AGNES_API_KEY=sk-...        # 不设也能跑，只是没有精读卡
 python -m pipeline.main --dry-run  # 只看排序，不写文件
 python -m pipeline.main            # 写入 data/ notes/ state/
 
-python -m unittest discover -s tests -v   # 16 个离线测试
+python -m unittest discover -s tests -v   # 27 个离线测试
 python -m http.server 8000                # 打开 http://localhost:8000
 ```
 

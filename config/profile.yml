@@ -208,3 +208,19 @@ llm:
   batch_size: 12
   abstract_chars: 1100
   timeout: 120
+
+# ------------------------------------------------------------
+# ⑦ 邮件推送
+# 推荐 Resend：RESEND_API_KEY（免费 100 封/天）
+#   发件人用 onboarding@resend.dev 时，只能发到注册账号自己的邮箱
+# 备选 Gmail / QQ / 学校 SMTP：SMTP_HOST SMTP_PORT SMTP_USER SMTP_PASS
+# 没有凭据时自动跳过，不影响流水线
+# ------------------------------------------------------------
+delivery:
+  email:
+    enabled: true
+    to: lnz985211@gmail.com
+    provider: auto          # auto | resend | smtp
+    from: "口腔文献日课 <onboarding@resend.dev>"
+    site_url: https://linnanzhen.github.io/DailyResearch_upgrade/
+    send_when_empty: false

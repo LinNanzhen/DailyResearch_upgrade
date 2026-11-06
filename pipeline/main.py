@@ -183,6 +183,18 @@ def run(args: argparse.Namespace) -> int:
     path = render.write_daily(day)
     note = render.write_note(day)
     render.write_index(day["date"])
+
+    if not args.no_email:
+        try:
+            from .emailer import send_day
+            result = send_day(day, profile)
+            if result.get("sent"):
+                log(f"[email] 已发送 → {result.get('to')}（{result.get('provider')}）")
+            else:
+                log(f"[email] 跳过：{result.get('reason')}")
+        except Exception as exc:  # noqa: BLE001 - email must never break the digest
+            log(f"[email] 发送失败：{exc}")
+
     log(f"[6/6] 已写入 {path.relative_to(render.ROOT)} / {note.relative_to(render.ROOT)} / data/index.json")
     return 0
 
@@ -193,6 +205,7 @@ def main(argv: List[str] | None = None) -> int:
     parser.add_argument("--no-llm", action="store_true", help="只用确定性排序（无网络模型）")
     parser.add_argument("--dry-run", action="store_true", help="只打印，不写文件")
     parser.add_argument("--weekly", action="store_true", help="强制生成周报")
+    parser.add_argument("--no-email", action="store_true", help="不发送邮件")
     parser.add_argument("--profile", default=None, help="自定义 profile.yml 路径")
     args = parser.parse_args(argv)
     _load_env_local()
