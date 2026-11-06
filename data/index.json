@@ -1,13 +1,13 @@
 {
- "updated_at": "2026-11-06T21:51:39+08:00",
+ "updated_at": "2026-11-07T00:17:19+08:00",
  "latest": "2026-11-06",
  "days": [
   {
    "date": "2026-11-06",
-   "must_title": "Hoxa10 governs lifelong skeletal stem cell maintenance and bone repair",
-   "must_title_zh": "Hoxa10调控终身骨骼干细胞维持与骨修复",
-   "cluster": "骨再生机制",
-   "count": 4,
+   "must_title": "Targeting tankyrase scaffolding in the β-catenin destruction complex by PROTAC overcomes the limitation of catalytic inhibitors in colorectal cancer",
+   "must_title_zh": "通过PROTAC靶向破坏复合体中tankyrase的支架功能，克服催化抑制剂在结直肠癌中的局限性",
+   "cluster": "WNT/骨再生机制",
+   "count": 2,
    "ai": true
   }
  ],

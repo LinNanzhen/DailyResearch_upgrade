@@ -1,342 +1,409 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06T21:51:39+08:00",
+ "generated_at": "2026-11-07T00:17:19+08:00",
  "model": "agnes-2.5-flash",
  "ai": true,
  "usage": {
-  "calls": 4,
-  "prompt_tokens": 16492,
-  "completion_tokens": 12014
+  "calls": 7,
+  "prompt_tokens": 20010,
+  "completion_tokens": 15903
  },
  "stats": {
   "candidates": 179,
   "raw": 172,
-  "fetched": 140,
+  "fetched": 134,
   "raw_dropped_type": 15,
   "no_abstract": 1,
-  "gated": 140,
-  "scored": 24,
-  "shown": 4,
+  "gated": 134,
+  "scored": 33,
+  "shown": 2,
   "ai": true,
   "feedback_files": 0,
-  "calls": 4
+  "calls": 7
  },
  "must_read": {
-  "id": "10.1126/sciadv.aeg2088",
-  "pmid": "42981418",
-  "doi": "10.1126/sciadv.aeg2088",
-  "title": "Hoxa10 governs lifelong skeletal stem cell maintenance and bone repair",
-  "title_zh": "Hoxa10调控终身骨骼干细胞维持与骨修复",
-  "journal": "Science advances",
+  "id": "10.7554/elife.109052",
+  "pmid": "42979944",
+  "doi": "10.7554/elife.109052",
+  "title": "Targeting tankyrase scaffolding in the β-catenin destruction complex by PROTAC overcomes the limitation of catalytic inhibitors in colorectal cancer",
+  "title_zh": "通过PROTAC靶向破坏复合体中tankyrase的支架功能，克服催化抑制剂在结直肠癌中的局限性",
+  "journal": "eLife",
   "date": "2026-11-04",
   "authors": [
-   "Leclerc K",
-   "Sambon M",
-   "Weng R",
-   "Suhardi VJ",
-   "Ramsukh M",
-   "Phadke R",
-   "Pack G",
-   "Rytel M",
-   "Zhong J",
-   "Schaffler B",
-   "Butron S",
-   "Morgani SM"
+   "Wang Q",
+   "Li L",
+   "You L",
+   "Wang S",
+   "Han L",
+   "Wang B",
+   "Yao L",
+   "Addepalli Y",
+   "Lu Y",
+   "Mender I",
+   "Flusche AM",
+   "Kim C"
   ],
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42981418/",
-  "pmcid": "PMC13733894",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42979944/",
+  "pmcid": "PMC13734679",
   "cited_by": 0,
-  "design": "animal",
-  "design_label": "动物实验",
-  "design_level": 2,
+  "design": "unknown",
+  "design_label": "未标注",
+  "design_level": 1,
   "sample_n": null,
   "sample_note": "",
   "tier": "A",
-  "domain": "种植与骨再生",
-  "methods": [
-   "single-cell",
-   "multiomics"
-  ],
+  "domain": "生物材料表面/降解产物如…",
+  "methods": [],
   "pub_types": [
    "Journal Article"
   ],
   "is_open_access": true,
-  "cluster": "骨再生机制",
-  "one_line": "诱导性Hoxa10敲除导致骨骼干细胞耗竭与骨再生缺陷；机制上抑制过早分化并促进胶原III生成与排列",
-  "so_what": "直接指向q1种植体-骨界面成骨调控与q4生物材料表面编程干细胞的分子靶点；单细胞+谱系示踪方法可迁移",
-  "caution": "纯小鼠机制研究；Hox基因功能存在物种差异，人体SSPCs仅初步验证",
+  "cluster": "WNT/骨再生机制",
+  "one_line": "PROTAC降解tankyrase避免AXIN凝聚成点，更深抑制WNT/β-catenin，克服催化抑制剂局限。",
+  "so_what": "你q4关注材料'编程'免疫反应——PROTAC如何调控DC刚性是β-catenin骨结合下游可借鉴…",
+  "caution": "CRC模型，β-catenin失活APC突变背景，骨组织微环境未验证。",
   "score": {
-   "final": 75.2,
-   "match": 88.0,
-   "novelty": 82.0,
-   "rigor": 76.0,
-   "impact": 72.0,
-   "transfer": 86.0
+   "final": 63.8,
+   "match": 72.0,
+   "novelty": 68.0,
+   "rigor": 70.0,
+   "impact": 55.0,
+   "transfer": 65.0
   },
-  "heuristic": 49.3,
+  "heuristic": 48.7,
   "breakdown": {
-   "topic": 14.9,
+   "topic": 21.7,
    "journal": 15.0,
-   "design": 9,
+   "design": 6,
    "sample": 0.0,
    "fresh": 6.0,
-   "method": 4.4
+   "method": 0.0
   },
-  "abstract": "Skeletal stem and progenitor cells (SSPCs) sustain bone homeostasis and regeneration throughout life, yet the transcriptional programs that preserve their identity remain poorly defined. Here we identify the distal Hox gene Hoxa10 as a cell-autonomous regulator of skeletal stem cell maintenance. Using inducible genetic deletion, lineage tracing, single-cell transcriptomics, and injury models, we show that loss of Hoxa10 leads to progressive depletion of SSPCs, impaired bone regeneration, and defective matrix organization. Mechanistically, Hoxa10 maintains the undifferentiated state of skeletal stem cells by restraining premature osteogenic, adipogenic, and chondrogenic commitment, while promoting collagen III production and collagen fiber alignment within regenerative niches. Hoxa10-dependent regulation of extracellular matrix composition is restricted to primitive progenitors and is uncoupled from osteoblast differentiation. Notably, transient depletion of distal Hox genes in primary human SSPCs recapitulates the murine defects in proliferation, self-renewal, and differentiation restraint. Together, these findings define a conserved Hox-dependent program that preserves skeletal stem cell identity and regenerative competence, revealing how developmental transcription factors are repurposed to sustain the adult skeleton across the life span.",
+  "abstract": "Aberrant WNT/β-catenin signaling drives tumorigenesis and metastasis in cancer. Although enzymatic inhibitors of tankyrase (TNKS) effectively block AXIN degradation and stabilize the β-catenin destruction complex (DC), they have demonstrated limited efficacy in various colorectal cancer (CRC) models. Here, we demonstrate that, unexpectedly, the induction of AXIN puncta represents a major barrier to achieving therapeutic efficacy. Mechanistically, catalytic inhibition of TNKS prevents TNKS turnover and drives its accumulation in the DC, wherein the scaffolding function of TNKS induces AXIN puncta formation, rigidifies the DC, and impedes β-catenin turnover. Chemically induced degradation of TNKS overcomes this limitation by stabilizing AXIN without puncta formation, providing a deeper suppression of the WNT/β-catenin pathway activity and the proliferation of CRC cells harboring dysfunctional APC mutations. Collectively, these findings provide an explanation for the unsatisfactory outcomes of drugging the WNT/β-catenin signaling pathway by TNKS inhibitors and highlight TNKS degradation as a promising approach to treat WNT/β-catenin-driven CRC.",
   "tags": [
-   "Animals",
-   "Homeobox A10 Proteins",
-   "Mice",
-   "Bone Regeneration",
-   "Humans",
-   "Cell Differentiation"
+   "biochemistry",
+   "cancer biology",
+   "cancer cells",
+   "chemical biology",
+   "human",
+   "organoids"
   ],
   "deep": {
-   "title_zh": "Hoxa10调控终身骨骼干细胞维持与骨修复",
-   "one_sentence": "Hoxa10是骨骼干细胞身份维持的关键转录因子，通过抑制过早分化和调控胶原基质组织决定终身骨再生能力（因果证据强）。",
-   "question": "发育期表达的Hox基因如何在成年后被重新用于维持成体干细胞池并调控组织再生？",
-   "design": "诱导性基因敲除小鼠模型+谱系追踪+单细胞转录组+骨损伤修复模型，比较Hoxa10缺失与对照组的干细胞动态与再生结局。",
+   "title_zh": "通过PROTAC靶向破坏复合体中tankyrase的支架功能，克服催化抑制剂在结直肠癌中的局限性",
+   "one_sentence": "PROTAC降解TNKS优于催化抑制：AXIN puncta形成是催化抑制剂疗效受限的根本原因。",
+   "question": "为何催化性TNKS抑制剂在WNT驱动的结直肠癌中疗效不佳，以及如何突破这一治疗瓶颈？",
+   "design": "摘要未说明完整研究设计，涉及体外细胞实验（APC突变CRC细胞系），摘要未说明动物模型、对照设置及随访。",
    "sample_desc": "摘要未说明",
    "findings": [
     {
-     "claim": "Hoxa10缺失导致骨骼干细胞进行性耗竭",
-     "evidence": "摘要未说明具体数据"
+     "claim": "AXIN puncta形成是催化性TNKS抑制剂疗效受限的主要障碍",
+     "evidence": "摘要未说明具体数据，现象描述：催化抑制导致AXIN puncta聚集"
     },
     {
-     "claim": "Hoxa10通过抑制过早分化维持干细胞未分化状态",
-     "evidence": "摘要未说明具体数据"
+     "claim": "催化抑制阻止TNKS周转，使其在DC中积累并发挥支架功能",
+     "evidence": "摘要未说明具体数据，机制描述：TNKS在DC中积累→支架功能→AXIN puncta→DC刚性化→β-catenin周转受阻"
     },
     {
-     "claim": "Hoxa10促进胶原III生成和胶原纤维排列",
-     "evidence": "摘要未说明具体数据"
-    },
-    {
-     "claim": "Hoxa10对基质的调控局限于原始前体细胞，与成骨细胞分化解偶联",
-     "evidence": "摘要未说明具体数据"
+     "claim": "PROTAC介导的TNKS降解能稳定AXIN且不形成puncta，产生更深度的WNT通路抑制",
+     "evidence": "摘要未说明具体效应量，比较方向：PROTAC降解组 vs 催化抑制组，WNT/β-catenin活性更低，APC突变CRC细胞增殖抑制更深"
     }
    ],
-   "effect": "未报告",
-   "relation": "与q4高度相关——为生物材料/支架如何「编程」宿主免疫和干细胞命运提供了上游转录调控层面的机制解释；与q1间接相关——SSPCs状态影响种植体周骨结合质量。",
-   "why": "它颠覆了一个认知：Hox基因不仅是发育阶段的标记物，而是被成年组织重新征用来维持干细胞池。这意味着我们在材料设计中若忽视「去分化维持」这一维度，仅关注促分化信号，可能导致植入后干细胞提前耗竭。",
+   "effect": "未报告具体效应量与置信区间",
+   "relation": "与 q5 相关：提供新解释——WNT/β-catenin驱动肿瘤的治疗抵抗可通过从'催化抑制'转向'蛋白降解'策略突破；同时与 q4 间接相关，材料/分子如何'编程'信号通路命运。",
+   "why": "推翻了一个长期假设：'抑制酶活性=阻断其全部功能'。TNKS的双重身份（酶+支架）在此被明确解耦——催化抑制反而因蛋白积累而保留了支架功能，PROTAC才是真正'去功能化'。这对靶向蛋白-蛋白相互作用或支架功能的课题设计有直接方法论启示。",
    "limitations": [
-    "摘要未说明Hoxa10调控下游靶基因的具体分子机制（直接靶标未列出）",
-    "未验证其他distal Hox基因（如Hoxa11/12）是否具有冗余或替代功能",
-    "人类数据仅来自原代细胞体外实验，体内临床相关性待验证"
+    "摘要未说明体内疗效数据（动物模型PDX或基因工程小鼠），转化价值存疑",
+    "PROTAC的脱靶降解风险、药代动力学、体内暴露均未提及",
+    "仅聚焦APC突变背景，WNT通路其他激活方式（CTNNB1突变等）是否同样受益未知"
    ],
-   "transferable": "1. 诱导性基因敲除+谱系追踪的时间分辨率设计；2. 将SSPCs状态评估纳入材料生物相容性评价维度；3. 单细胞转录组解析干细胞命运决定的策略。",
+   "transferable": "① PROTAC设计逻辑可迁移至其他'催化抑制疗效不佳'的靶点；② '蛋白积累保留支架功能'这一机制警示：酶抑制剂未必等于功能抑制剂，设计实验时需检测蛋白稳定性而非仅测活性；③ AXIN puncta作为生物标志物或药效终点值得借鉴。",
    "followups": [
-    "Hoxa10的直接下游靶基因有哪些？是否有染色质免疫共沉淀（ChIP-seq）数据支持？",
-    "在骨缺损模型中，Hoxa10缺失导致的再生缺陷是否可通过外源性胶原III补充部分挽救？",
-    "Hoxa10的表达是否受局部微环境信号（如机械力、炎症因子）调控？还是纯自主性表达？"
+    "PROTAC降解TNKS后的体内疗效数据在哪？是否有PDX或原位模型的TGI（肿瘤生长抑制）数据？",
+    "催化抑制剂导致TNKS积累的具体半衰期延长了多少？有无pulse-chase或cycloheximide chase数据？",
+    "AXIN puncta是否在其他WNT驱动肿瘤（如口腔鳞癌、胃癌）中存在？能否作为预测因子？"
    ],
    "glossary": [
     {
-     "en": "Skeletal stem and progenitor cells (SSP…",
-     "cn": "骨骼干细胞与前体细胞"
+     "en": "tankyrase (TNKS)",
+     "cn": "tankyrase，一种PAR酶，参与WNT通路调控"
     },
     {
-     "en": "Lineage tracing",
-     "cn": "谱系追踪"
+     "en": "β-catenin destruction complex (DC)",
+     "cn": "β-catenin降解复合体，含AXIN、APC、GSK3β等组分"
     },
     {
-     "en": "Cell-autonomous",
-     "cn": "细胞自主性"
+     "en": "AXIN puncta",
+     "cn": "AXIN聚集体/斑点，此处指相分离或凝聚形成的聚集结构"
+    },
+    {
+     "en": "PROTAC",
+     "cn": "蛋白降解靶向嵌合体，利用泛素-蛋白酶体系统实现靶蛋白降解"
+    },
+    {
+     "en": "APC mutation",
+     "cn": "腺瘤性息肉柱状杆菌基因突变，结直肠癌中最常见的WNT通路激活事件"
     }
    ],
    "reading_minutes": 12
   }
  },
- "scan": [
+ "must_reads": [
   {
-   "id": "10.1016/j.actbio.2026.11.002",
-   "pmid": "42977137",
-   "doi": "10.1016/j.actbio.2026.11.002",
-   "title": "Nano-armor empowers mesenchymal stem cells to actively target and reverse synovial inflammation in rheumatoid arthritis",
-   "title_zh": "纳米装甲 MSC 靶向逆转类风湿关节炎滑膜炎",
-   "journal": "Acta biomaterialia",
-   "date": "2026-11-03",
-   "authors": [
-    "Chen Y",
-    "Li N",
-    "Deng T",
-    "Liang M",
-    "Li G",
-    "Xue Z",
-    "Shu J",
-    "Li G",
-    "Yang X",
-    "Lu Y"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42977137/",
-   "pmcid": "",
-   "cited_by": 0,
-   "design": "animal",
-   "design_label": "动物实验",
-   "design_level": 2,
-   "sample_n": null,
-   "sample_note": "",
-   "tier": "A",
-   "domain": "牙周炎通过哪些可验证的通…",
-   "methods": [],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": false,
-   "cluster": "材料编程免疫",
-   "one_line": "RGD-MXene/MnO₂纳米装甲修饰MSC，通过类SOD/CAT级联抗氧化并促进M1→M2极化，在RA小鼠中靶向清…",
-   "so_what": "直接呼应q4：生物材料表面如何编程宿主免疫（巨噬细胞极化）；纳米装甲策略可迁移至种植体/骨修复材料…",
-   "caution": "动物实验，RA与口腔微环境差异大；体内长期安全性未评估",
-   "score": {
-    "final": 57.1,
-    "match": 65.0,
-    "novelty": 68.0,
-    "rigor": 48.0,
-    "impact": 40.0,
-    "transfer": 78.0
-   },
-   "heuristic": 43.9,
-   "breakdown": {
-    "topic": 14.9,
-    "journal": 15.0,
-    "design": 9,
-    "sample": 0.0,
-    "fresh": 5.0,
-    "method": 0.0
-   },
-   "abstract": "Mesenchymal stem cell (MSC) therapy for rheumatoid arthritis (RA) remains hindered by the oxidative-induced pro-inflammatory synovial microenvironment, which largely impairs MSC homing, survival, and immunomodulatory function. Although nanomaterial modification holds promise for enhancing MSC therapeutic efficacy, conventional intracellular modification approaches carry risks of cytotoxicity and unpredictable stem cell fate alteration. Here, we empower MSCs with a surface-anchored, multifunctional RGD-MXene/MnO₂ nano-armor (RMM). MXene, with its large specific surface area, supports the in-situ growth of MnO₂ nanozymes and conjugation of RGD targeting peptides, while enabling stable covalent anchoring onto the MSC membrane via click chemistry. The RMM-armored MSCs exhibit robust protection against ROS-induced damage and fully restored immunomodulatory capacity due to the cascade catalase- and superoxide dismutase-like activities of MnO2, efficiently promoting macrophage polarization from pro-inflammatory M1 type to anti-inflammatory M2 type. In RA mouse models, the RGD peptide facilitates active MSC homing to inflamed synovial tissues by specifically recognizing integrin αvβ3. Thus, RMM@MSCs not only alleviate synovial inflammation but also prevent bone destruction and cartilage erosion, achieving highly efficient RA therapy with only one dose. This surface modification strategy resolves the long-standing translational barriers of conventional MSC therapy, providing a versatile and translatable platform for treating RA and other inflammatory diseases. STATEMENT OF SIGNIFICANCE: Although mesenchymal stem cells (MSCs) are promising for rheumatoid arthritis (RA) due to their inherent immunomodulatory properties, their translation is hindered by poor homing to inflammatory joints and ROS-induced functional impairment. This work reports the use of a multifunctional RGD-MXene/MnO2 (RMM) nano-armor to enhance MSC therapy in RA. Specifically, MXene provides a large specific surface area for the in-situ growth of MnO2 nanoenzyme and the peptide conjugation, as well as the covalent anchoring on MSCs (favoring safe surface modification); MnO2's cascade enzyme-like activity establishes an antioxidant shield to reverse ROS-induced MSC apoptosis and exhaustion (maintaining MSC viability and biofunctions); RGD peptide targets highly expressed integrin αvβ3 in synovial pann",
-   "tags": [
-    "Mesenchymal stem cells",
-    "Nanomaterial modification",
-    "Rheumatoid arthritis",
-    "Synovial inflammation"
-   ]
-  },
-  {
-   "id": "10.1016/j.celrep.2026.118263",
-   "pmid": "42981187",
-   "doi": "10.1016/j.celrep.2026.118263",
-   "title": "Temporal shifts in post-asthmatic immune responses define tumor outcomes via strain-specific monocyte reprogramming",
-   "title_zh": "哮喘后免疫时序重塑决定肿瘤结局的单核细胞重编程",
-   "journal": "Cell reports",
+   "id": "10.7554/elife.109052",
+   "pmid": "42979944",
+   "doi": "10.7554/elife.109052",
+   "title": "Targeting tankyrase scaffolding in the β-catenin destruction complex by PROTAC overcomes the limitation of catalytic inhibitors in colorectal cancer",
+   "title_zh": "通过PROTAC靶向破坏复合体中tankyrase的支架功能，克服催化抑制剂在结直肠癌中的局限性",
+   "journal": "eLife",
    "date": "2026-11-04",
    "authors": [
-    "Wang X",
-    "Chen C",
-    "Wan Y",
-    "Dang B",
-    "Liu X",
-    "Gao Q",
-    "Zhang J",
-    "Cheng SC"
+    "Wang Q",
+    "Li L",
+    "You L",
+    "Wang S",
+    "Han L",
+    "Wang B",
+    "Yao L",
+    "Addepalli Y",
+    "Lu Y",
+    "Mender I",
+    "Flusche AM",
+    "Kim C"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42981187/",
-   "pmcid": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42979944/",
+   "pmcid": "PMC13734679",
    "cited_by": 0,
-   "design": "animal",
-   "design_label": "动物实验",
-   "design_level": 2,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
    "sample_n": null,
    "sample_note": "",
    "tier": "A",
-   "domain": "口腔微生物组的失衡（dy…",
-   "methods": [],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": false,
-   "cluster": "先天免疫记忆与代谢重编程",
-   "one_line": "OVA诱导哮喘模型显示急性期嗜酸性粒细胞促肿瘤、恢复期骨髓单核细胞训练免疫经代谢分化决定肿瘤结局。",
-   "so_what": "q1/q5的关键概念移植：慢性炎症后'训练免疫'如何通过代谢重编程（OXPHOS vs 糖酵解）决…",
-   "caution": "哮喘-肺癌模型与口腔种植体周炎/口腔鳞癌微环境不可直接等同。",
-   "score": {
-    "final": 50.9,
-    "match": 45.0,
-    "novelty": 70.0,
-    "rigor": 60.0,
-    "impact": 45.0,
-    "transfer": 55.0
-   },
-   "heuristic": 40.8,
-   "breakdown": {
-    "topic": 10.8,
-    "journal": 15.0,
-    "design": 9,
-    "sample": 0.0,
-    "fresh": 6.0,
-    "method": 0.0
-   },
-   "abstract": "Epidemiological evidence linking asthma to lung cancer risk remains contradictory, presenting asthma as either a risk factor or a protective condition. We hypothesize that this heterogeneity stems from the temporal dynamics of inflammatory response and host genetic background. Using ovalbumin (OVA)-induced asthma models, we identify a temporal shift in immune effectors driving post-asthmatic tumorigenesis. During acute airway inflammation, eosinophil infiltration accelerates tumor growth across mouse strains. Following resolution, however, tumorigenic outcomes in recovery diverge along genetic lines. Prior asthma reshapes chromatin landscapes of bone marrow myeloid progenitors, establishing innate immune memory that differentially programs monocytes across strains. In C57BL/6 mice, trained monocytes adopt oxidative phosphorylation (OXPHOS), acquiring a suppressive, tissue-remodeling phenotype that promotes tumor progression. Conversely, BALB/c-trained monocytes utilize glycolysis to maintain a pro-phagocytic state, enabling tumor clearance. These findings delineate a biphasic mechanism wherein temporal shifts in post-asthmatic immune responses define tumor outcomes via strain-specific monocyte metabolic reprogramming.",
-   "tags": [
-    "CP: cancer",
-    "CP: immunology",
-    "asthma",
-    "immunogenetic heterogeneity",
-    "lung tumorigenesis",
-    "monocyte reprogramming"
-   ]
-  },
-  {
-   "id": "10.1007/s00784-026-07241-8",
-   "pmid": "42972138",
-   "doi": "10.1007/s00784-026-07241-8",
-   "title": "Eight anthropometric indices, including relative fat mass, and CPI-defined periodontal status: A nationwide cross-sectional study",
-   "title_zh": "八项人体测量指数与CPI牙周状态关联",
-   "journal": "Clinical oral investigations",
-   "date": "2026-11-03",
-   "authors": [
-    "Lee YW",
-    "Kim JE",
-    "Kim YJ",
-    "Kim SM",
-    "Chung KH"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42972138/",
-   "pmcid": "9275292",
-   "cited_by": 0,
-   "design": "cross_sectional",
-   "design_label": "横断面",
-   "design_level": 3,
-   "sample_n": 33310,
-   "sample_note": "n=33310 adults",
-   "tier": "B",
-   "domain": "牙周与宿主免疫",
+   "domain": "生物材料表面/降解产物如…",
    "methods": [],
    "pub_types": [
     "Journal Article"
    ],
    "is_open_access": true,
-   "cluster": "牙周-代谢关联",
-   "one_line": "n=33310韩国成年人横断面显示相对脂肪质量指数与CPI牙周状态呈独立正相关，OR约1.17/SD。",
-   "so_what": "为q2（牙周炎→全身疾病）提供肥胖/脂肪分布作为混杂/中介的可操作指标，可用于孟德尔随机化变量选择。",
-   "caution": "横断面无法推断因果；CPI未区分活动性与非活动性病变。",
+   "cluster": "WNT/骨再生机制",
+   "one_line": "PROTAC降解tankyrase避免AXIN凝聚成点，更深抑制WNT/β-catenin，克服催化抑制剂局限。",
+   "so_what": "你q4关注材料'编程'免疫反应——PROTAC如何调控DC刚性是β-catenin骨结合下游可借鉴…",
+   "caution": "CRC模型，β-catenin失活APC突变背景，骨组织微环境未验证。",
    "score": {
-    "final": 45.0,
-    "match": 50.0,
-    "novelty": 35.0,
-    "rigor": 60.0,
-    "impact": 30.0,
-    "transfer": 45.0
+    "final": 63.8,
+    "match": 72.0,
+    "novelty": 68.0,
+    "rigor": 70.0,
+    "impact": 55.0,
+    "transfer": 65.0
    },
-   "heuristic": 41.8,
+   "heuristic": 48.7,
    "breakdown": {
-    "topic": 8.8,
-    "journal": 10.0,
-    "design": 10,
-    "sample": 8.0,
-    "fresh": 5.0,
+    "topic": 21.7,
+    "journal": 15.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 6.0,
     "method": 0.0
    },
-   "abstract": "OBJECTIVES: To compare the associations of eight anthropometric indices with Community Periodontal Index (CPI)-defined periodontal status in a nationally representative sample of Korean adults. MATERIALS AND METHODS: This cross-sectional study analyzed 33,310 adults aged 19-79 years from the 2010-2018 Korea National Health and Nutrition Examination Survey. Each index was standardized within sex. Survey-weighted ordinal logistic regression estimated odds ratios (ORs) per 1-SD increase for a three-level outcome (CPI 0-2, CPI 3, CPI 4). Differences between indices were assessed with bootstrap ratios of ORs. Restricted cubic spline, subgroup and sensitivity analyses were performed. RESULTS: Seven of the eight indices were associated with worse CPI-defined periodontal status in the fully adjusted model. ORs were 1.166 (95% confidence interval [CI] 1.121-1.214) for relative fat mass (RFM), 1.151 (1.113-1.190) for body mass index, 1.149 (1.106-1.194) for waist-to-height ratio, 1.140 (1.100-1.182) for waist circumference and 1.030 (0.986-1.076) for a body shape index. The ratio of the RFM OR to the ORs for body mass index, waist-to-height ratio, waist circumference and body roundness index ranged from 1.014 to 1.024, and no upper 95% confidence limit exceeded 1.04. Associations of body mass index, waist circumference, waist-to-height ratio, body roundness index and RFM were stronger in women than in men. CONCLUSIONS: RFM showed the largest point estimate, but the differences among indices of central adiposity were small, and no index was clearly superior in this cross-sectional analysis. CLINICAL RELEVANCE: Body mass index and waist-based indices that account for height, including RFM, were modestly and consistently associated with CPI-defined periodontal status in Korean adults, but none performed meaningfully better than the others. These cross-sectional associations do not support the use of any single anthropometric index for periodontal screening.",
+   "abstract": "Aberrant WNT/β-catenin signaling drives tumorigenesis and metastasis in cancer. Although enzymatic inhibitors of tankyrase (TNKS) effectively block AXIN degradation and stabilize the β-catenin destruction complex (DC), they have demonstrated limited efficacy in various colorectal cancer (CRC) models. Here, we demonstrate that, unexpectedly, the induction of AXIN puncta represents a major barrier to achieving therapeutic efficacy. Mechanistically, catalytic inhibition of TNKS prevents TNKS turnover and drives its accumulation in the DC, wherein the scaffolding function of TNKS induces AXIN puncta formation, rigidifies the DC, and impedes β-catenin turnover. Chemically induced degradation of TNKS overcomes this limitation by stabilizing AXIN without puncta formation, providing a deeper suppression of the WNT/β-catenin pathway activity and the proliferation of CRC cells harboring dysfunctional APC mutations. Collectively, these findings provide an explanation for the unsatisfactory outcomes of drugging the WNT/β-catenin signaling pathway by TNKS inhibitors and highlight TNKS degradation as a promising approach to treat WNT/β-catenin-driven CRC.",
    "tags": [
-    "Anthropometric indices",
-    "Community Periodontal Index",
-    "Cross-sectional study",
-    "KNHANES",
-    "Obesity",
-    "Relative fat mass"
-   ]
+    "biochemistry",
+    "cancer biology",
+    "cancer cells",
+    "chemical biology",
+    "human",
+    "organoids"
+   ],
+   "deep": {
+    "title_zh": "通过PROTAC靶向破坏复合体中tankyrase的支架功能，克服催化抑制剂在结直肠癌中的局限性",
+    "one_sentence": "PROTAC降解TNKS优于催化抑制：AXIN puncta形成是催化抑制剂疗效受限的根本原因。",
+    "question": "为何催化性TNKS抑制剂在WNT驱动的结直肠癌中疗效不佳，以及如何突破这一治疗瓶颈？",
+    "design": "摘要未说明完整研究设计，涉及体外细胞实验（APC突变CRC细胞系），摘要未说明动物模型、对照设置及随访。",
+    "sample_desc": "摘要未说明",
+    "findings": [
+     {
+      "claim": "AXIN puncta形成是催化性TNKS抑制剂疗效受限的主要障碍",
+      "evidence": "摘要未说明具体数据，现象描述：催化抑制导致AXIN puncta聚集"
+     },
+     {
+      "claim": "催化抑制阻止TNKS周转，使其在DC中积累并发挥支架功能",
+      "evidence": "摘要未说明具体数据，机制描述：TNKS在DC中积累→支架功能→AXIN puncta→DC刚性化→β-catenin周转受阻"
+     },
+     {
+      "claim": "PROTAC介导的TNKS降解能稳定AXIN且不形成puncta，产生更深度的WNT通路抑制",
+      "evidence": "摘要未说明具体效应量，比较方向：PROTAC降解组 vs 催化抑制组，WNT/β-catenin活性更低，APC突变CRC细胞增殖抑制更深"
+     }
+    ],
+    "effect": "未报告具体效应量与置信区间",
+    "relation": "与 q5 相关：提供新解释——WNT/β-catenin驱动肿瘤的治疗抵抗可通过从'催化抑制'转向'蛋白降解'策略突破；同时与 q4 间接相关，材料/分子如何'编程'信号通路命运。",
+    "why": "推翻了一个长期假设：'抑制酶活性=阻断其全部功能'。TNKS的双重身份（酶+支架）在此被明确解耦——催化抑制反而因蛋白积累而保留了支架功能，PROTAC才是真正'去功能化'。这对靶向蛋白-蛋白相互作用或支架功能的课题设计有直接方法论启示。",
+    "limitations": [
+     "摘要未说明体内疗效数据（动物模型PDX或基因工程小鼠），转化价值存疑",
+     "PROTAC的脱靶降解风险、药代动力学、体内暴露均未提及",
+     "仅聚焦APC突变背景，WNT通路其他激活方式（CTNNB1突变等）是否同样受益未知"
+    ],
+    "transferable": "① PROTAC设计逻辑可迁移至其他'催化抑制疗效不佳'的靶点；② '蛋白积累保留支架功能'这一机制警示：酶抑制剂未必等于功能抑制剂，设计实验时需检测蛋白稳定性而非仅测活性；③ AXIN puncta作为生物标志物或药效终点值得借鉴。",
+    "followups": [
+     "PROTAC降解TNKS后的体内疗效数据在哪？是否有PDX或原位模型的TGI（肿瘤生长抑制）数据？",
+     "催化抑制剂导致TNKS积累的具体半衰期延长了多少？有无pulse-chase或cycloheximide chase数据？",
+     "AXIN puncta是否在其他WNT驱动肿瘤（如口腔鳞癌、胃癌）中存在？能否作为预测因子？"
+    ],
+    "glossary": [
+     {
+      "en": "tankyrase (TNKS)",
+      "cn": "tankyrase，一种PAR酶，参与WNT通路调控"
+     },
+     {
+      "en": "β-catenin destruction complex (DC)",
+      "cn": "β-catenin降解复合体，含AXIN、APC、GSK3β等组分"
+     },
+     {
+      "en": "AXIN puncta",
+      "cn": "AXIN聚集体/斑点，此处指相分离或凝聚形成的聚集结构"
+     },
+     {
+      "en": "PROTAC",
+      "cn": "蛋白降解靶向嵌合体，利用泛素-蛋白酶体系统实现靶蛋白降解"
+     },
+     {
+      "en": "APC mutation",
+      "cn": "腺瘤性息肉柱状杆菌基因突变，结直肠癌中最常见的WNT通路激活事件"
+     }
+    ],
+    "reading_minutes": 12
+   }
+  },
+  {
+   "id": "10.1126/sciadv.aei0181",
+   "pmid": "42981393",
+   "doi": "10.1126/sciadv.aei0181",
+   "title": "IFNAR1 stabilization sustains CD8+ T cell persistence in IFN-high colorectal cancer liver metastases",
+   "title_zh": "IFNAR1稳定化维持IFN-high结直肠癌肝转移中CD8+ T细胞的持久性",
+   "journal": "Science advances",
+   "date": "2026-11-04",
+   "authors": [
+    "Castiglioni A",
+    "Monestiroli A",
+    "Delfanti G",
+    "Zordan P",
+    "Giordano C",
+    "Andreoni L",
+    "Clissi B",
+    "Ekalle-Soppo CB",
+    "Ferreira LM",
+    "Caruso F",
+    "Buttiglione V",
+    "Stefanetta I"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42981393/",
+   "pmcid": "PMC13733802",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "牙周与宿主免疫",
+   "methods": [
+    "organoid"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "肿瘤免疫微环境",
+   "one_line": "肠癌肝转移中IFN-high微环境导致CD8+T细胞IFNAR1内化损耗，稳定IFNAR1可恢复免疫治疗应答。",
+   "so_what": "q5核心参考：IFN信号与T细胞耗竭机制可直接迁移至OSCC免疫微环境研究",
+   "caution": "肠癌转移灶机制未必直接适用于头颈鳞癌，需验证",
+   "score": {
+    "final": 53.7,
+    "match": 45.0,
+    "novelty": 70.0,
+    "rigor": 75.0,
+    "impact": 50.0,
+    "transfer": 55.0
+   },
+   "heuristic": 42.0,
+   "breakdown": {
+    "topic": 12.8,
+    "journal": 15.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "Colorectal cancer liver metastases (CRC-LMs) are associated with poor survival and frequently resist immunotherapy, yet the mechanisms underlying this immune refractoriness remain incompletely defined. Here, we identify a tumor-intrinsic type I interferon (IFN-I)-high state in CRC-LMs associated with loss of the IFN-α/β receptor subunit 1 (IFNAR1) on effector T lymphocytes within immune-enriched perimetastatic niches. Reduced IFNAR1 expression stratifies patients with poor clinical outcomes. Transcriptional profiling of patient-derived organoids and complementary preclinical models revealed heterogeneous but recurrent tumor-derived IFN-I production in CRC-LMs. In IFN-Ihigh contexts, sustained signaling promoted IFNAR1 internalization on effector CD8+ T cells, impairing their persistence, survival, and effector function. Pharmacologic or genetic stabilization of IFNAR1 on cell surface restored CD8+ T cell fitness and selectively enhanced T cell receptor- and chimeric antigen receptor-based immunotherapies in IFN-Ihigh tumors. These findings define a context-dependent IFN-Ihigh / IFNAR1low axis that constrains antitumor immunity in CRC-LMs and identify IFNAR1 stabilization as a strategy to convert chronic IFN signaling from a suppressive barrier into a therapeutic vulnerability.",
+   "tags": [
+    "Receptor, Interferon alpha-beta",
+    "Colorectal Neoplasms",
+    "CD8-Positive T-Lymphocytes",
+    "Humans",
+    "Liver Neoplasms",
+    "Animals"
+   ],
+   "deep": {
+    "title_zh": "IFNAR1稳定化维持IFN-high结直肠癌肝转移中CD8+ T细胞的持久性",
+    "one_sentence": "肿瘤微环境中慢性I型干扰素信号驱动IFNAR1内化导致CD8+ T细胞耗竭，稳定IFNAR1可逆转此抑制并增强免疫治疗…",
+    "question": "结直肠癌肝转移中IFN-high状态的肿瘤微环境如何通过IFNAR1表达动态调控CD8+ T细胞功能，从而决定免疫治疗抵抗的机制？",
+    "design": "多组学整合的前瞻性机制研究：患者来源类器官+转基因/移植小鼠模型+临床队列验证，设置IFNAR1稳定 vs 内化对照组",
+    "sample_desc": "摘要未说明",
+    "findings": [
+     {
+      "claim": "CRC-LMs中存在异质性但复发的肿瘤源性IFN-I高表达状态",
+      "evidence": "患者来源类器官转录组分析显示IFN-I相关基因表达升高"
+     },
+     {
+      "claim": "IFNAR1在效应T淋巴细胞上的表达降低与不良预后相关",
+      "evidence": "临床样本中IFNAR1表达水平分层显示低表达患者生存期缩短"
+     },
+     {
+      "claim": "慢性IFN-I信号促进IFNAR1内化，损害CD8+ T细胞持久性与效应功能",
+      "evidence": "IFN-Ihigh环境下CD8+ T细胞表面IFNAR1持续内化，细胞存活与功能下降"
+     },
+     {
+      "claim": "药理学或基因稳定化IFNAR1可恢复CD8+ T细胞适应性并增强免疫治疗",
+      "evidence": "IFNAR1表面稳定化后，TCR和CAR T细胞治疗效果在IFN-Ihigh肿瘤中显著提升"
+     }
+    ],
+    "effect": "摘要未报告具体效应量与置信区间",
+    "relation": "与q5高度相关：提供肿瘤免疫微环境中慢性干扰素信号导致T细胞耗竭的新机制解释；与q4部分交叉：揭示免疫受体稳定性作为免疫'编程'靶点的潜力",
+    "why": "颠覆了'IFN信号=免疫激活'的传统认知，提出IFNhigh环境可通过IFNAR1内化导致T细胞功能耗竭的悖论机制，并将IFNAR1表面稳定性确立为可干预的治疗靶点，为IFN-high肿瘤的免疫联合策略提供理论依据",
+    "limitations": [
+     "肿瘤内在IFN-I产生异质性的驱动机制未明确",
+     "IFNAR1稳定化策略的长期安全性及脱靶效应未评估",
+     "患者队列的样本量与随访时长摘要未说明"
+    ],
+    "transferable": "IFNAR1表面稳定性检测（流式/免疫荧光定量）可迁移至种植体周微环境研究，用于评估局部IFN信号对CD8+ T细胞功能的影响",
+    "followups": [
+     "IFNAR1内化的分子开关是什么？泛素化/磷酸化修饰位点有哪些？",
+     "CRC-LMs中IFN-I的来源：肿瘤细胞自身分泌还是TME其他细胞驱动？",
+     "IFNAR1稳定化干预与抗PD-1/PD-L1联合的协同效应是否已在临床前模型验证？"
+    ],
+    "glossary": [
+     {
+      "en": "IFNAR1",
+      "cn": "I型干扰素受体亚基1"
+     },
+     {
+      "en": "IFN-I",
+      "cn": "I型干扰素"
+     },
+     {
+      "en": "CRC-LM",
+      "cn": "结直肠癌肝转移"
+     },
+     {
+      "en": "perimetastatic niche",
+      "cn": "转移前微环境/转移灶周围生态 niche"
+     }
+    ],
+    "reading_minutes": 12
+   }
   }
  ],
+ "scan": [],
  "backlog": [],
  "weekly": null,
  "profile": {
