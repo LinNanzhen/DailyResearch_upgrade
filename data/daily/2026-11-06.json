@@ -1,147 +1,138 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-07T00:17:19+08:00",
+ "generated_at": "2026-11-07T00:20:58+08:00",
  "model": "agnes-2.5-flash",
  "ai": true,
  "usage": {
   "calls": 7,
-  "prompt_tokens": 20010,
-  "completion_tokens": 15903
+  "prompt_tokens": 20251,
+  "completion_tokens": 17629
  },
  "stats": {
   "candidates": 179,
   "raw": 172,
-  "fetched": 134,
+  "fetched": 131,
   "raw_dropped_type": 15,
   "no_abstract": 1,
-  "gated": 134,
-  "scored": 33,
-  "shown": 2,
+  "gated": 131,
+  "scored": 35,
+  "shown": 7,
   "ai": true,
   "feedback_files": 0,
   "calls": 7
  },
  "must_read": {
-  "id": "10.7554/elife.109052",
-  "pmid": "42979944",
-  "doi": "10.7554/elife.109052",
-  "title": "Targeting tankyrase scaffolding in the β-catenin destruction complex by PROTAC overcomes the limitation of catalytic inhibitors in colorectal cancer",
-  "title_zh": "通过PROTAC靶向破坏复合体中tankyrase的支架功能，克服催化抑制剂在结直肠癌中的局限性",
-  "journal": "eLife",
+  "id": "10.1111/odi.70534",
+  "pmid": "42979722",
+  "doi": "10.1111/odi.70534",
+  "title": "An Update of Management Strategies in Locally Advanced Oral Cancer",
+  "title_zh": "局部晚期口腔鳞状细胞癌管理策略更新",
+  "journal": "Oral diseases",
   "date": "2026-11-04",
   "authors": [
-   "Wang Q",
-   "Li L",
-   "You L",
-   "Wang S",
-   "Han L",
-   "Wang B",
-   "Yao L",
-   "Addepalli Y",
-   "Lu Y",
-   "Mender I",
-   "Flusche AM",
-   "Kim C"
+   "Singh A",
+   "Chaturvedi P"
   ],
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42979944/",
-  "pmcid": "PMC13734679",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42979722/",
+  "pmcid": "",
   "cited_by": 0,
-  "design": "unknown",
-  "design_label": "未标注",
-  "design_level": 1,
+  "design": "cohort",
+  "design_label": "队列",
+  "design_level": 5,
   "sample_n": null,
   "sample_note": "",
-  "tier": "A",
-  "domain": "生物材料表面/降解产物如…",
+  "tier": "B",
+  "domain": "颌面肿瘤与分子机制",
   "methods": [],
   "pub_types": [
    "Journal Article"
   ],
-  "is_open_access": true,
-  "cluster": "WNT/骨再生机制",
-  "one_line": "PROTAC降解tankyrase避免AXIN凝聚成点，更深抑制WNT/β-catenin，克服催化抑制剂局限。",
-  "so_what": "你q4关注材料'编程'免疫反应——PROTAC如何调控DC刚性是β-catenin骨结合下游可借鉴…",
-  "caution": "CRC模型，β-catenin失活APC突变背景，骨组织微环境未验证。",
+  "is_open_access": false,
+  "cluster": "口腔癌免疫微环境",
+  "one_line": "综述更新局部晚期OSCC围手术期免疫治疗证据，KEYNOTE-689确立术前pembrolizumab获益",
+  "so_what": "直接回应q5：免疫微环境与治疗抵抗的转化干预点已出现，围手术期免疫治疗是前沿战场",
+  "caution": "非原始研究，方法学证据层级低于RCT；未深入微生物组-免疫互作机制",
   "score": {
-   "final": 63.8,
-   "match": 72.0,
-   "novelty": 68.0,
-   "rigor": 70.0,
-   "impact": 55.0,
-   "transfer": 65.0
+   "final": 54.6,
+   "match": 70.0,
+   "novelty": 40.0,
+   "rigor": 55.0,
+   "impact": 65.0,
+   "transfer": 45.0
   },
-  "heuristic": 48.7,
+  "heuristic": 42.0,
   "breakdown": {
-   "topic": 21.7,
-   "journal": 15.0,
-   "design": 6,
+   "topic": 11.0,
+   "journal": 10.0,
+   "design": 15,
    "sample": 0.0,
    "fresh": 6.0,
    "method": 0.0
   },
-  "abstract": "Aberrant WNT/β-catenin signaling drives tumorigenesis and metastasis in cancer. Although enzymatic inhibitors of tankyrase (TNKS) effectively block AXIN degradation and stabilize the β-catenin destruction complex (DC), they have demonstrated limited efficacy in various colorectal cancer (CRC) models. Here, we demonstrate that, unexpectedly, the induction of AXIN puncta represents a major barrier to achieving therapeutic efficacy. Mechanistically, catalytic inhibition of TNKS prevents TNKS turnover and drives its accumulation in the DC, wherein the scaffolding function of TNKS induces AXIN puncta formation, rigidifies the DC, and impedes β-catenin turnover. Chemically induced degradation of TNKS overcomes this limitation by stabilizing AXIN without puncta formation, providing a deeper suppression of the WNT/β-catenin pathway activity and the proliferation of CRC cells harboring dysfunctional APC mutations. Collectively, these findings provide an explanation for the unsatisfactory outcomes of drugging the WNT/β-catenin signaling pathway by TNKS inhibitors and highlight TNKS degradation as a promising approach to treat WNT/β-catenin-driven CRC.",
-  "tags": [
-   "biochemistry",
-   "cancer biology",
-   "cancer cells",
-   "chemical biology",
-   "human",
-   "organoids"
-  ],
+  "abstract": "INTRODUCTION: Locally advanced oral squamous cell carcinoma (OSCC) remains surgically anchored, but systemic treatment is evolving rapidly, particularly with perioperative immunotherapy. METHODS: We reviewed clinical evidence on neoadjuvant, adjuvant, maintenance, and altered-dose systemic strategies for resectable locally advanced OSCC and relevant head and neck squamous cell carcinoma. RESULTS: Conventional neoadjuvant chemotherapy has not improved survival in unselected resectable OSCC and should be reserved for selected indications including borderline resectability, mandibular preservation, and conversion to surgery. Neoadjuvant immunotherapy studies using PD-1 blockade, dual checkpoint inhibition, chemoimmunotherapy, targeted-immunotherapy combinations, and SBRT-immunotherapy have demonstrated feasible delivery and meaningful pathological responses. KEYNOTE-689 established improved event-free survival with perioperative pembrolizumab. Postoperatively, cisplatin-radiotherapy remains standard for positive margins and extranodal extension, while NIVOPOST-OP supports nivolumab intensification in high-risk disease. Maintenance therapy remains uncertain, with negative MACE results but a possible benefit from tegafur-uracil in selected patients. CONCLUSION: Perioperative immunotherapy is reshaping resectable OSCC treatment. Postoperative intensification, maintenance therapy, and lower-dose strategies, including low-dose nivolumab with metronomic therapy, require prospective validation. These approaches may be especially important in resource-constrained settings, where treatment cost and access remain major barriers.",
+  "tags": [],
   "deep": {
-   "title_zh": "通过PROTAC靶向破坏复合体中tankyrase的支架功能，克服催化抑制剂在结直肠癌中的局限性",
-   "one_sentence": "PROTAC降解TNKS优于催化抑制：AXIN puncta形成是催化抑制剂疗效受限的根本原因。",
-   "question": "为何催化性TNKS抑制剂在WNT驱动的结直肠癌中疗效不佳，以及如何突破这一治疗瓶颈？",
-   "design": "摘要未说明完整研究设计，涉及体外细胞实验（APC突变CRC细胞系），摘要未说明动物模型、对照设置及随访。",
-   "sample_desc": "摘要未说明",
+   "title_zh": "局部晚期口腔鳞状细胞癌管理策略更新",
+   "one_sentence": "围手术期免疫治疗正在重塑可切除局部晚期 OSCC 的标准路径，但维持治疗与低剂量策略仍需前瞻性验证。",
+   "question": "在手术为主的可切除局部晚期 OSCC 中，围手术期（新辅助/辅助/维持）全身治疗的证据链条是否足以支撑从化疗向免疫治疗的范式转换？",
+   "design": "系统性文献综述（narrative review），回顾新辅助、辅助、维持及改变剂量全身策略的临床证据，无独立统计分析。",
+   "sample_desc": "多篇已发表临床试验的汇总证据（KEYNOTE-689、NIVOPOST-OP、MACE 等），具体纳入研究数量与文献检索策略摘要未说明。",
    "findings": [
     {
-     "claim": "AXIN puncta形成是催化性TNKS抑制剂疗效受限的主要障碍",
-     "evidence": "摘要未说明具体数据，现象描述：催化抑制导致AXIN puncta聚集"
+     "claim": "传统新辅助化疗在未筛选的可切除 OSCC 中不能改善生存",
+     "evidence": "文献综述结论：应仅限用于边缘可切除、下颌骨保留、或转化手术等特定指征"
     },
     {
-     "claim": "催化抑制阻止TNKS周转，使其在DC中积累并发挥支架功能",
-     "evidence": "摘要未说明具体数据，机制描述：TNKS在DC中积累→支架功能→AXIN puncta→DC刚性化→β-catenin周转受阻"
+     "claim": "新辅助免疫治疗可行且能产生有意义的病理缓解",
+     "evidence": "PD-1 阻断、双重检查点抑制、化疗免疫联合、靶向-免疫联合、SBRT-免疫联合均显示可行性与病理反应"
     },
     {
-     "claim": "PROTAC介导的TNKS降解能稳定AXIN且不形成puncta，产生更深度的WNT通路抑制",
-     "evidence": "摘要未说明具体效应量，比较方向：PROTAC降解组 vs 催化抑制组，WNT/β-catenin活性更低，APC突变CRC细胞增殖抑制更深"
+     "claim": "KEYNOTE-689 确立围手术期帕博利珠单抗改善无事件生存（EFS）",
+     "evidence": "文中唯一明确提及的具体试验结果，未报告 HR/CI 数值"
+    },
+    {
+     "claim": "术后高危患者（切缘阳性/包膜外侵犯）以顺铂放疗为标准，NIVOPOST-OP 支持nivolumab强化",
+     "evidence": "NIVOPOST-OP 支持在高危术后人群中nivolumab强化，具体数据摘要未说明"
     }
    ],
-   "effect": "未报告具体效应量与置信区间",
-   "relation": "与 q5 相关：提供新解释——WNT/β-catenin驱动肿瘤的治疗抵抗可通过从'催化抑制'转向'蛋白降解'策略突破；同时与 q4 间接相关，材料/分子如何'编程'信号通路命运。",
-   "why": "推翻了一个长期假设：'抑制酶活性=阻断其全部功能'。TNKS的双重身份（酶+支架）在此被明确解耦——催化抑制反而因蛋白积累而保留了支架功能，PROTAC才是真正'去功能化'。这对靶向蛋白-蛋白相互作用或支架功能的课题设计有直接方法论启示。",
+   "effect": "KEYNOTE-689 改善 EFS（方向明确，具体 HR/CI 与 p 值摘要未说明）；其余试验效应量均未在摘要中报告。",
+   "relation": "与 q5 相关——提供口腔鳞癌治疗抵抗背景下的系统性干预证据框架；但未直接涉及免疫微环境机制或微生物组交互，属于临床治疗层面而非机制层面。",
+   "why": "它梳理了围手术期免疫治疗在 OSCC 中的证据全景，KEYNOTE-689 是关键转折点；对临床决策者而言，这是一份快速定位当前标准与未知边界的路线图。",
    "limitations": [
-    "摘要未说明体内疗效数据（动物模型PDX或基因工程小鼠），转化价值存疑",
-    "PROTAC的脱靶降解风险、药代动力学、体内暴露均未提及",
-    "仅聚焦APC突变背景，WNT通路其他激活方式（CTNNB1突变等）是否同样受益未知"
+    "叙事综述而非系统评价，纳入标准与文献检索策略摘要未说明，存在选择偏倚风险",
+    "核心证据来自西方人群的 RCT，对中国患者外推性需独立验证",
+    "维持治疗、低剂量策略、资源受限场景的具体数据缺失，多为方向性建议"
    ],
-   "transferable": "① PROTAC设计逻辑可迁移至其他'催化抑制疗效不佳'的靶点；② '蛋白积累保留支架功能'这一机制警示：酶抑制剂未必等于功能抑制剂，设计实验时需检测蛋白稳定性而非仅测活性；③ AXIN puncta作为生物标志物或药效终点值得借鉴。",
+   "transferable": "可作为 q5 课题的临床对照框架：理解治疗抵抗的系统性背景，设计免疫微环境研究时可参考 KEYNOTE-689 的围手术期时间窗与病理缓解评估指标。",
    "followups": [
-    "PROTAC降解TNKS后的体内疗效数据在哪？是否有PDX或原位模型的TGI（肿瘤生长抑制）数据？",
-    "催化抑制剂导致TNKS积累的具体半衰期延长了多少？有无pulse-chase或cycloheximide chase数据？",
-    "AXIN puncta是否在其他WNT驱动肿瘤（如口腔鳞癌、胃癌）中存在？能否作为预测因子？"
+    "KEYNOTE-689 的具体 HR、EFS 中位数与 CI 是多少？病理完全缓解率（pCR）与 EFS 的关联是否建立？",
+    "NIVOPOST-OP 试验的高危定义标准、nivolumab 给药剂量与周期、以及 OS/EFS 结果是什么？",
+    "MACE 试验的阴性结果具体针对何种维持方案（药物、剂量、人群）？tegafur-uracil 的潜在获益人群特征是什么？"
    ],
    "glossary": [
     {
-     "en": "tankyrase (TNKS)",
-     "cn": "tankyrase，一种PAR酶，参与WNT通路调控"
+     "en": "OSCC",
+     "cn": "口腔鳞状细胞癌"
     },
     {
-     "en": "β-catenin destruction complex (DC)",
-     "cn": "β-catenin降解复合体，含AXIN、APC、GSK3β等组分"
+     "en": "Perioperative immunotherapy",
+     "cn": "围手术期免疫治疗"
     },
     {
-     "en": "AXIN puncta",
-     "cn": "AXIN聚集体/斑点，此处指相分离或凝聚形成的聚集结构"
+     "en": "Neoadjuvant",
+     "cn": "新辅助（术前）"
     },
     {
-     "en": "PROTAC",
-     "cn": "蛋白降解靶向嵌合体，利用泛素-蛋白酶体系统实现靶蛋白降解"
+     "en": "Adjuvant",
+     "cn": "辅助（术后）"
     },
     {
-     "en": "APC mutation",
-     "cn": "腺瘤性息肉柱状杆菌基因突变，结直肠癌中最常见的WNT通路激活事件"
+     "en": "Extranodal extension",
+     "cn": "淋巴结包膜外侵犯"
+    },
+    {
+     "en": "Event-free survival (EFS)",
+     "cn": "无事件生存期"
     }
    ],
    "reading_minutes": 12
@@ -149,155 +140,329 @@
  },
  "must_reads": [
   {
-   "id": "10.7554/elife.109052",
-   "pmid": "42979944",
-   "doi": "10.7554/elife.109052",
-   "title": "Targeting tankyrase scaffolding in the β-catenin destruction complex by PROTAC overcomes the limitation of catalytic inhibitors in colorectal cancer",
-   "title_zh": "通过PROTAC靶向破坏复合体中tankyrase的支架功能，克服催化抑制剂在结直肠癌中的局限性",
-   "journal": "eLife",
+   "id": "10.1111/odi.70534",
+   "pmid": "42979722",
+   "doi": "10.1111/odi.70534",
+   "title": "An Update of Management Strategies in Locally Advanced Oral Cancer",
+   "title_zh": "局部晚期口腔鳞状细胞癌管理策略更新",
+   "journal": "Oral diseases",
    "date": "2026-11-04",
    "authors": [
-    "Wang Q",
-    "Li L",
-    "You L",
-    "Wang S",
-    "Han L",
-    "Wang B",
-    "Yao L",
-    "Addepalli Y",
-    "Lu Y",
-    "Mender I",
-    "Flusche AM",
-    "Kim C"
+    "Singh A",
+    "Chaturvedi P"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42979944/",
-   "pmcid": "PMC13734679",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42979722/",
+   "pmcid": "",
    "cited_by": 0,
-   "design": "unknown",
-   "design_label": "未标注",
-   "design_level": 1,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
    "sample_n": null,
    "sample_note": "",
-   "tier": "A",
-   "domain": "生物材料表面/降解产物如…",
+   "tier": "B",
+   "domain": "颌面肿瘤与分子机制",
    "methods": [],
    "pub_types": [
     "Journal Article"
    ],
-   "is_open_access": true,
-   "cluster": "WNT/骨再生机制",
-   "one_line": "PROTAC降解tankyrase避免AXIN凝聚成点，更深抑制WNT/β-catenin，克服催化抑制剂局限。",
-   "so_what": "你q4关注材料'编程'免疫反应——PROTAC如何调控DC刚性是β-catenin骨结合下游可借鉴…",
-   "caution": "CRC模型，β-catenin失活APC突变背景，骨组织微环境未验证。",
+   "is_open_access": false,
+   "cluster": "口腔癌免疫微环境",
+   "one_line": "综述更新局部晚期OSCC围手术期免疫治疗证据，KEYNOTE-689确立术前pembrolizumab获益",
+   "so_what": "直接回应q5：免疫微环境与治疗抵抗的转化干预点已出现，围手术期免疫治疗是前沿战场",
+   "caution": "非原始研究，方法学证据层级低于RCT；未深入微生物组-免疫互作机制",
    "score": {
-    "final": 63.8,
-    "match": 72.0,
-    "novelty": 68.0,
-    "rigor": 70.0,
-    "impact": 55.0,
-    "transfer": 65.0
+    "final": 54.6,
+    "match": 70.0,
+    "novelty": 40.0,
+    "rigor": 55.0,
+    "impact": 65.0,
+    "transfer": 45.0
    },
-   "heuristic": 48.7,
+   "heuristic": 42.0,
    "breakdown": {
-    "topic": 21.7,
-    "journal": 15.0,
-    "design": 6,
+    "topic": 11.0,
+    "journal": 10.0,
+    "design": 15,
     "sample": 0.0,
     "fresh": 6.0,
     "method": 0.0
    },
-   "abstract": "Aberrant WNT/β-catenin signaling drives tumorigenesis and metastasis in cancer. Although enzymatic inhibitors of tankyrase (TNKS) effectively block AXIN degradation and stabilize the β-catenin destruction complex (DC), they have demonstrated limited efficacy in various colorectal cancer (CRC) models. Here, we demonstrate that, unexpectedly, the induction of AXIN puncta represents a major barrier to achieving therapeutic efficacy. Mechanistically, catalytic inhibition of TNKS prevents TNKS turnover and drives its accumulation in the DC, wherein the scaffolding function of TNKS induces AXIN puncta formation, rigidifies the DC, and impedes β-catenin turnover. Chemically induced degradation of TNKS overcomes this limitation by stabilizing AXIN without puncta formation, providing a deeper suppression of the WNT/β-catenin pathway activity and the proliferation of CRC cells harboring dysfunctional APC mutations. Collectively, these findings provide an explanation for the unsatisfactory outcomes of drugging the WNT/β-catenin signaling pathway by TNKS inhibitors and highlight TNKS degradation as a promising approach to treat WNT/β-catenin-driven CRC.",
-   "tags": [
-    "biochemistry",
-    "cancer biology",
-    "cancer cells",
-    "chemical biology",
-    "human",
-    "organoids"
-   ],
+   "abstract": "INTRODUCTION: Locally advanced oral squamous cell carcinoma (OSCC) remains surgically anchored, but systemic treatment is evolving rapidly, particularly with perioperative immunotherapy. METHODS: We reviewed clinical evidence on neoadjuvant, adjuvant, maintenance, and altered-dose systemic strategies for resectable locally advanced OSCC and relevant head and neck squamous cell carcinoma. RESULTS: Conventional neoadjuvant chemotherapy has not improved survival in unselected resectable OSCC and should be reserved for selected indications including borderline resectability, mandibular preservation, and conversion to surgery. Neoadjuvant immunotherapy studies using PD-1 blockade, dual checkpoint inhibition, chemoimmunotherapy, targeted-immunotherapy combinations, and SBRT-immunotherapy have demonstrated feasible delivery and meaningful pathological responses. KEYNOTE-689 established improved event-free survival with perioperative pembrolizumab. Postoperatively, cisplatin-radiotherapy remains standard for positive margins and extranodal extension, while NIVOPOST-OP supports nivolumab intensification in high-risk disease. Maintenance therapy remains uncertain, with negative MACE results but a possible benefit from tegafur-uracil in selected patients. CONCLUSION: Perioperative immunotherapy is reshaping resectable OSCC treatment. Postoperative intensification, maintenance therapy, and lower-dose strategies, including low-dose nivolumab with metronomic therapy, require prospective validation. These approaches may be especially important in resource-constrained settings, where treatment cost and access remain major barriers.",
+   "tags": [],
    "deep": {
-    "title_zh": "通过PROTAC靶向破坏复合体中tankyrase的支架功能，克服催化抑制剂在结直肠癌中的局限性",
-    "one_sentence": "PROTAC降解TNKS优于催化抑制：AXIN puncta形成是催化抑制剂疗效受限的根本原因。",
-    "question": "为何催化性TNKS抑制剂在WNT驱动的结直肠癌中疗效不佳，以及如何突破这一治疗瓶颈？",
-    "design": "摘要未说明完整研究设计，涉及体外细胞实验（APC突变CRC细胞系），摘要未说明动物模型、对照设置及随访。",
-    "sample_desc": "摘要未说明",
+    "title_zh": "局部晚期口腔鳞状细胞癌管理策略更新",
+    "one_sentence": "围手术期免疫治疗正在重塑可切除局部晚期 OSCC 的标准路径，但维持治疗与低剂量策略仍需前瞻性验证。",
+    "question": "在手术为主的可切除局部晚期 OSCC 中，围手术期（新辅助/辅助/维持）全身治疗的证据链条是否足以支撑从化疗向免疫治疗的范式转换？",
+    "design": "系统性文献综述（narrative review），回顾新辅助、辅助、维持及改变剂量全身策略的临床证据，无独立统计分析。",
+    "sample_desc": "多篇已发表临床试验的汇总证据（KEYNOTE-689、NIVOPOST-OP、MACE 等），具体纳入研究数量与文献检索策略摘要未说明。",
     "findings": [
      {
-      "claim": "AXIN puncta形成是催化性TNKS抑制剂疗效受限的主要障碍",
-      "evidence": "摘要未说明具体数据，现象描述：催化抑制导致AXIN puncta聚集"
+      "claim": "传统新辅助化疗在未筛选的可切除 OSCC 中不能改善生存",
+      "evidence": "文献综述结论：应仅限用于边缘可切除、下颌骨保留、或转化手术等特定指征"
      },
      {
-      "claim": "催化抑制阻止TNKS周转，使其在DC中积累并发挥支架功能",
-      "evidence": "摘要未说明具体数据，机制描述：TNKS在DC中积累→支架功能→AXIN puncta→DC刚性化→β-catenin周转受阻"
+      "claim": "新辅助免疫治疗可行且能产生有意义的病理缓解",
+      "evidence": "PD-1 阻断、双重检查点抑制、化疗免疫联合、靶向-免疫联合、SBRT-免疫联合均显示可行性与病理反应"
      },
      {
-      "claim": "PROTAC介导的TNKS降解能稳定AXIN且不形成puncta，产生更深度的WNT通路抑制",
-      "evidence": "摘要未说明具体效应量，比较方向：PROTAC降解组 vs 催化抑制组，WNT/β-catenin活性更低，APC突变CRC细胞增殖抑制更深"
+      "claim": "KEYNOTE-689 确立围手术期帕博利珠单抗改善无事件生存（EFS）",
+      "evidence": "文中唯一明确提及的具体试验结果，未报告 HR/CI 数值"
+     },
+     {
+      "claim": "术后高危患者（切缘阳性/包膜外侵犯）以顺铂放疗为标准，NIVOPOST-OP 支持nivolumab强化",
+      "evidence": "NIVOPOST-OP 支持在高危术后人群中nivolumab强化，具体数据摘要未说明"
      }
     ],
-    "effect": "未报告具体效应量与置信区间",
-    "relation": "与 q5 相关：提供新解释——WNT/β-catenin驱动肿瘤的治疗抵抗可通过从'催化抑制'转向'蛋白降解'策略突破；同时与 q4 间接相关，材料/分子如何'编程'信号通路命运。",
-    "why": "推翻了一个长期假设：'抑制酶活性=阻断其全部功能'。TNKS的双重身份（酶+支架）在此被明确解耦——催化抑制反而因蛋白积累而保留了支架功能，PROTAC才是真正'去功能化'。这对靶向蛋白-蛋白相互作用或支架功能的课题设计有直接方法论启示。",
+    "effect": "KEYNOTE-689 改善 EFS（方向明确，具体 HR/CI 与 p 值摘要未说明）；其余试验效应量均未在摘要中报告。",
+    "relation": "与 q5 相关——提供口腔鳞癌治疗抵抗背景下的系统性干预证据框架；但未直接涉及免疫微环境机制或微生物组交互，属于临床治疗层面而非机制层面。",
+    "why": "它梳理了围手术期免疫治疗在 OSCC 中的证据全景，KEYNOTE-689 是关键转折点；对临床决策者而言，这是一份快速定位当前标准与未知边界的路线图。",
     "limitations": [
-     "摘要未说明体内疗效数据（动物模型PDX或基因工程小鼠），转化价值存疑",
-     "PROTAC的脱靶降解风险、药代动力学、体内暴露均未提及",
-     "仅聚焦APC突变背景，WNT通路其他激活方式（CTNNB1突变等）是否同样受益未知"
+     "叙事综述而非系统评价，纳入标准与文献检索策略摘要未说明，存在选择偏倚风险",
+     "核心证据来自西方人群的 RCT，对中国患者外推性需独立验证",
+     "维持治疗、低剂量策略、资源受限场景的具体数据缺失，多为方向性建议"
     ],
-    "transferable": "① PROTAC设计逻辑可迁移至其他'催化抑制疗效不佳'的靶点；② '蛋白积累保留支架功能'这一机制警示：酶抑制剂未必等于功能抑制剂，设计实验时需检测蛋白稳定性而非仅测活性；③ AXIN puncta作为生物标志物或药效终点值得借鉴。",
+    "transferable": "可作为 q5 课题的临床对照框架：理解治疗抵抗的系统性背景，设计免疫微环境研究时可参考 KEYNOTE-689 的围手术期时间窗与病理缓解评估指标。",
     "followups": [
-     "PROTAC降解TNKS后的体内疗效数据在哪？是否有PDX或原位模型的TGI（肿瘤生长抑制）数据？",
-     "催化抑制剂导致TNKS积累的具体半衰期延长了多少？有无pulse-chase或cycloheximide chase数据？",
-     "AXIN puncta是否在其他WNT驱动肿瘤（如口腔鳞癌、胃癌）中存在？能否作为预测因子？"
+     "KEYNOTE-689 的具体 HR、EFS 中位数与 CI 是多少？病理完全缓解率（pCR）与 EFS 的关联是否建立？",
+     "NIVOPOST-OP 试验的高危定义标准、nivolumab 给药剂量与周期、以及 OS/EFS 结果是什么？",
+     "MACE 试验的阴性结果具体针对何种维持方案（药物、剂量、人群）？tegafur-uracil 的潜在获益人群特征是什么？"
     ],
     "glossary": [
      {
-      "en": "tankyrase (TNKS)",
-      "cn": "tankyrase，一种PAR酶，参与WNT通路调控"
+      "en": "OSCC",
+      "cn": "口腔鳞状细胞癌"
      },
      {
-      "en": "β-catenin destruction complex (DC)",
-      "cn": "β-catenin降解复合体，含AXIN、APC、GSK3β等组分"
+      "en": "Perioperative immunotherapy",
+      "cn": "围手术期免疫治疗"
      },
      {
-      "en": "AXIN puncta",
-      "cn": "AXIN聚集体/斑点，此处指相分离或凝聚形成的聚集结构"
+      "en": "Neoadjuvant",
+      "cn": "新辅助（术前）"
      },
      {
-      "en": "PROTAC",
-      "cn": "蛋白降解靶向嵌合体，利用泛素-蛋白酶体系统实现靶蛋白降解"
+      "en": "Adjuvant",
+      "cn": "辅助（术后）"
      },
      {
-      "en": "APC mutation",
-      "cn": "腺瘤性息肉柱状杆菌基因突变，结直肠癌中最常见的WNT通路激活事件"
+      "en": "Extranodal extension",
+      "cn": "淋巴结包膜外侵犯"
+     },
+     {
+      "en": "Event-free survival (EFS)",
+      "cn": "无事件生存期"
      }
     ],
     "reading_minutes": 12
    }
   },
   {
-   "id": "10.1126/sciadv.aei0181",
-   "pmid": "42981393",
-   "doi": "10.1126/sciadv.aei0181",
-   "title": "IFNAR1 stabilization sustains CD8+ T cell persistence in IFN-high colorectal cancer liver metastases",
-   "title_zh": "IFNAR1稳定化维持IFN-high结直肠癌肝转移中CD8+ T细胞的持久性",
-   "journal": "Science advances",
+   "id": "10.1016/j.oraloncology.2026.108209",
+   "pmid": "42976421",
+   "doi": "10.1016/j.oraloncology.2026.108209",
+   "title": "TPC-based neoadjuvant chemotherapy is associated with reduced surgical morbidity with no detriment on survival in a propensity-matched cohort of locally advanced OCSCC",
+   "title_zh": "含紫杉醇/铂类/西妥昔单抗新辅助化疗可降低局部晚期口腔鳞癌手术并发症且不损害生存：倾向评分匹配队列研究",
+   "journal": "Oral oncology",
+   "date": "2026-11-03",
+   "authors": [
+    "Tam K",
+    "Caxeiro G",
+    "Dunn L",
+    "Boe LA",
+    "Finnegan E",
+    "Sherman E",
+    "Xu B",
+    "Ghossein R",
+    "Cohen MA",
+    "Cracchiolo JR",
+    "Wong RJ",
+    "Ho AL"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42976421/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 44,
+   "sample_note": "n=44 patients",
+   "tier": "A",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔鳞癌治疗",
+   "one_line": "TPC新辅助化疗使局部晚期OCSCC手术范围缩小，morbidity降低，生存无损（PSM队列n=44）。",
+   "so_what": "直接回答q5：化疗如何改变肿瘤微环境与手术结局，可为免疫干预点提供临床线索。",
+   "caution": "单中心回顾，n=44；propensity匹配无法控制所有混杂。",
+   "score": {
+    "final": 53.5,
+    "match": 72.0,
+    "novelty": 48.0,
+    "rigor": 52.0,
+    "impact": 60.0,
+    "transfer": 25.0
+   },
+   "heuristic": 39.4,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 15.0,
+    "design": 15,
+    "sample": 4.4,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Neoadjuvant chemotherapy (NACT) with taxane, platinum, and cetuximab (TPC) prior to surgical resection of oral cavity squamous cell carcinoma (OCSCC) can result in dramatic decreases in tumor burden in critical anatomic subsites. We investigate the impact of TPC-based NACT on surgical morbidity and compare oncologic outcomes to a propensity-matched conventionally treated cohort. METHODS: Between 2015 and 2023, 44 patients who received TPC prior to definitive surgical resection of OCSCC were identified. Charts were retrospectively reviewed to classify the extent of resection proposed at initial presentation versus the completed surgery after NACT. Patients were classified as having undergone response-adapted surgery (RAS), standard surgery (SS), or extended surgery (ES). Surgical morbidity was quantified using a Surgical Morbidity scoring system. Oncological outcomes were compared to a propensity score-matched cohort treated with upfront primary surgery, matched on age, sex, WUHNCI, clinical T status, clinical N status and oral cavity subsite. RESULTS: Of 44 patients, 20 underwent RAS, 21 had SS, and 3 required ES. RAS patients had less extensive operations and decreased morbidity: 12 total or subtotal glossectomies were reduced to hemi- or partial glossectomies, 9 cheek flaps and 5 mandibulotomies were avoided, and 2 segmental mandibulectomies were converted to marginal mandibulectomies. Four received fasciocutaneous rather than osteocutaneous free flaps, and 2 no longer required a free flap. A trend toward improved 2-year DSS in the RAS versus SS group did not reach significance (p = 0.089). TPC NACT patients had improved 5-year overall survival compared with propensity-matched controls (73 % vs. 40 %, p = 0.003). Disease-specific survival was also higher in the NACT cohort (75 % vs. 49 %, p = 0.013). There were trends toward improved local and regional recurrence-free probability in the NACT cohort, though neither reached statistical significance. CONCLUSIONS: TPC NACT prior to definitive surgery for OCSCC was associated with reduced surgical morbidity. RAS patients underwent less morbid surgeries while maintaining comparable survival. There was no detrimental impact on survival in NACT patients compared to matched non-NACT patients.",
+   "tags": [
+    "Neoadjuvant chemotherapy",
+    "Outcomes",
+    "Response adapted surgery",
+    "Survival"
+   ],
+   "deep": {
+    "title_zh": "含紫杉醇/铂类/西妥昔单抗新辅助化疗可降低局部晚期口腔鳞癌手术并发症且不损害生存：倾向评分匹配队列研究",
+    "one_sentence": "TPC新辅助化疗显著降低手术创伤且改善5年生存，改变局部晚期口腔鳞癌治疗策略（证据等级中等）。",
+    "question": "新辅助化疗（TPC方案）能否在降低局部晚期口腔鳞癌手术并发症的同时，不损害患者的长期生存？",
+    "design": "回顾性队列研究，44例接受TPC新辅助化疗后手术的患者与倾向评分匹配的常规手术组对照，中位随访时间未说明，主要终点为手术并发症和生存率。",
+    "sample_desc": "44例局部晚期口腔鳞癌患者（2015-2023年美国某医疗中心），与倾向评分匹配对照（匹配变量：年龄、性别、肿瘤部位、临床T/N分期）。",
+    "findings": [
+     {
+      "claim": "新辅助化疗显著减少手术范围并降低并发症。",
+      "evidence": "20例反应适应性手术患者中，12例全/次全舌切除降为半/部分舌切除，9例颊瓣和5例下颌骨切开被避免，2例节段性下颌骨切除转为边缘切除；4例改用束筋膜皮瓣替代颌骨皮瓣游离皮瓣，2例无需游离皮瓣。"
+     },
+     {
+      "claim": "新辅助化疗改善5年总生存率和疾病特异性生存率。",
+      "evidence": "新辅助组5年OS为73% vs 对照40%（p=0.003），DSS为75% vs 49%（p=0.013）；局部/区域复发无显著差异（摘要未提供具体数据）。"
+     },
+     {
+      "claim": "反应适应性手术在保证生存的同时减少创伤。",
+      "evidence": "反应适应性手术组2年DSS有改善趋势（p=0.089，未达显著性），但手术创伤显著降低。"
+     }
+    ],
+    "effect": "未报告（摘要仅给出百分比和p值，无效应量如HR或OR及置信区间）",
+    "relation": "与q5相关（口腔鳞癌免疫微环境与微生物组共同塑造治疗抵抗），提供新解释：新辅助化疗可能通过改变肿瘤微环境（如免疫调节）促进手术降期，但未直接涉及微生物组。",
+    "why": "首次通过倾向评分匹配证明新辅助化疗不仅降低手术并发症，还改善生存，颠覆'先手术后辅助'的传统决策，为局部晚期OCSCC提供治疗新路径。",
+    "limitations": [
+     "回顾性设计存在选择偏倚，尽管使用倾向评分匹配，但无法控制未测量混杂因素。",
+     "样本量较小（仅44例），可能影响统计效力和亚组分析可靠性。",
+     "未报告效应量置信区间，且长期生存数据（如10年OS）缺失，证据强度有限。"
+    ],
+    "transferable": "Surgical Morbidity评分系统可直接应用于种植体周炎手术或牙周再生研究，量化手术创伤与并发症关系。",
+    "followups": [
+     "新辅助化疗对远处转移率有何影响？摘要未提及，需查证完整生存曲线。",
+     "TPC方案的毒性管理策略（如剂量调整或支持治疗）是什么？摘要未说明，影响临床安全性评估。",
+     "哪些生物标志物（如PD-L1表达或微生物组特征）可预测反应适应性手术的成功？提示可结合q5方向深入。"
+    ],
+    "glossary": [
+     {
+      "en": "Neoadjuvant chemotherapy (NACT)",
+      "cn": "新辅助化疗"
+     },
+     {
+      "en": "Response-adapted surgery (RAS)",
+      "cn": "反应适应性手术"
+     },
+     {
+      "en": "Disease-specific survival (DSS)",
+      "cn": "疾病特异性生存率"
+     },
+     {
+      "en": "Propensity score matching",
+      "cn": "倾向评分匹配"
+     }
+    ],
+    "reading_minutes": 12
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1177/00220345261491327",
+   "pmid": "42978331",
+   "doi": "10.1177/00220345261491327",
+   "title": "Proanthocyanidin Acidic Primers Enhance Tissue-Driven Adhesive Restoration",
+   "title_zh": "原花青素酸性底漆增强组织驱动粘接修复",
+   "journal": "Journal of dental research",
+   "date": "2026-11-03",
+   "authors": [
+    "Neves JG",
+    "Liberato WF",
+    "Jing SX",
+    "Chen SN",
+    "Pauli GF",
+    "Bedran-Russo AK"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978331/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": 8,
+   "sample_note": "n=8",
+   "tier": "A",
+   "domain": "材料与生物材料",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙体修复生物材料",
+   "one_line": "四种PAC酸性底漆配方优化牙本质-树脂界面，1年力学与密封性能稳定",
+   "so_what": "q4的直接对应：植物多酚通过组织源性调控改善粘接界面，可迁移至种植体周软组织密封策略",
+   "caution": "n=8样本量偏小；体外1年数据，长期体内骨结合结局未验证",
+   "score": {
+    "final": 47.8,
+    "match": 55.0,
+    "novelty": 50.0,
+    "rigor": 45.0,
+    "impact": 35.0,
+    "transfer": 55.0
+   },
+   "heuristic": 40.9,
+   "breakdown": {
+    "topic": 12.4,
+    "journal": 15.0,
+    "design": 6,
+    "sample": 2.5,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "The optimization of adhesive restorative techniques has increasingly focused on tissue biomodulation strategies, such as proanthocyanidin (PAC)-driven approaches, to increase the service life of dental restorations. The present study evaluated the long-term mechanical and sealing properties of dentin-resin interfaces using ligand-based PACs formulated as acidic primers. Four PAC preparations were produced (AA, BB, and AB trimers, as well as an ABA tetramer), and acidic primers were formulated with glycolic acid (GA). Dentin-resin interfaces (n = 8) were prepared using a simplified 2-step prime-and-rinse bonding protocol. Specimens were sectioned and their properties assessed immediately after 24 h of storage in simulated body solution and up to 1 y thereafter. The microtensile bond strength was assessed with a universal testing machine. The viscoelastic properties, storage modulus (E'), and damping capacity (tan δ) of the adhesive layer, hybrid layer, and underlying dentin were determined by a triboindenter in modulus mapping mode. Interfacial micropermeability was evaluated under a fluorescent microscope. Data analysis was based on 2-way analysis of variance followed by post hoc tests (α = 0.05). PAC-GA primer treatment groups exhibited significantly higher microtensile bond strength values than the control at each timepoint (P < 0.05). Treatment with PAC-GA primers with at least 1 A-type linkage exhibited higher E' than those with B type-only primers at the hybrid layer (Theobroma cacao-BB; P < 0.05). After 1 y, the Cinnamomum verum-AA acidic primer group exhibited the highest E' values among acidic primers at underlying dentin (P < 0.05). All PAC-GA primers reduced rhodamine infiltration at the hybrid layer and underlying dentin as compared with control (P < 0.05). Collectively, PAC-GA primers refine adhesive techniques, enhance bond strength, and extend long-term dentin-resin stability. The trimeric C. verum-AA outperformed the other PAC formulations by inducing the highest and/or most stable effects on the viscoelastic properties of the hybrid layer and the underlying dentin.",
+   "tags": [
+    "adhesive interfaces",
+    "biomodulation",
+    "biostability",
+    "dental adhesives",
+    "dentin",
+    "proanthocyanidins"
+   ]
+  },
+  {
+   "id": "10.1016/j.celrep.2026.118167",
+   "pmid": "42986753",
+   "doi": "10.1016/j.celrep.2026.118167",
+   "title": "Single-cell and spatial characterization of the human pancreas in cystic fibrosis",
+   "title_zh": "囊性纤维化胰腺单细胞与空间转录组图谱",
+   "journal": "Cell reports",
    "date": "2026-11-04",
    "authors": [
-    "Castiglioni A",
-    "Monestiroli A",
-    "Delfanti G",
-    "Zordan P",
-    "Giordano C",
-    "Andreoni L",
-    "Clissi B",
-    "Ekalle-Soppo CB",
-    "Ferreira LM",
-    "Caruso F",
-    "Buttiglione V",
-    "Stefanetta I"
+    "Mummey HM",
+    "Corban S",
+    "Lucero J",
+    "Melton RL",
+    "Pittigher M",
+    "Johnston VC",
+    "Deutsch GH",
+    "D'Antonio-Chronowska A",
+    "Wang A",
+    "Hull-Meichle RL",
+    "Gaulton KJ"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42981393/",
-   "pmcid": "PMC13733802",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42986753/",
+   "pmcid": "",
    "cited_by": 0,
    "design": "unknown",
    "design_label": "未标注",
@@ -305,105 +470,229 @@
    "sample_n": null,
    "sample_note": "",
    "tier": "A",
-   "domain": "牙周与宿主免疫",
+   "domain": "方法与交叉",
    "methods": [
-    "organoid"
+    "single-cell",
+    "spatial"
    ],
    "pub_types": [
     "Journal Article"
    ],
-   "is_open_access": true,
-   "cluster": "肿瘤免疫微环境",
-   "one_line": "肠癌肝转移中IFN-high微环境导致CD8+T细胞IFNAR1内化损耗，稳定IFNAR1可恢复免疫治疗应答。",
-   "so_what": "q5核心参考：IFN信号与T细胞耗竭机制可直接迁移至OSCC免疫微环境研究",
-   "caution": "肠癌转移灶机制未必直接适用于头颈鳞癌，需验证",
+   "is_open_access": false,
+   "cluster": "空间多组学方法",
+   "one_line": "2.04M细胞单细胞+空间转录组揭示CF胰腺中巨噬细胞-成纤维细胞-杯状细胞空间互作驱动β细胞功能障碍。",
+   "so_what": "方法学可迁移：单细胞+空间转录组解析免疫-基质微环境互作的实验框架可直接复用至种植体周炎模型。",
+   "caution": "研究对象为胰腺非口腔组织，机制结论不可外推。",
    "score": {
-    "final": 53.7,
-    "match": 45.0,
-    "novelty": 70.0,
-    "rigor": 75.0,
-    "impact": 50.0,
-    "transfer": 55.0
+    "final": 42.6,
+    "match": 25.0,
+    "novelty": 60.0,
+    "rigor": 70.0,
+    "impact": 25.0,
+    "transfer": 35.0
    },
-   "heuristic": 42.0,
+   "heuristic": 48.0,
    "breakdown": {
-    "topic": 12.8,
+    "topic": 16.6,
     "journal": 15.0,
     "design": 6,
     "sample": 0.0,
     "fresh": 6.0,
-    "method": 2.2
+    "method": 4.4
    },
-   "abstract": "Colorectal cancer liver metastases (CRC-LMs) are associated with poor survival and frequently resist immunotherapy, yet the mechanisms underlying this immune refractoriness remain incompletely defined. Here, we identify a tumor-intrinsic type I interferon (IFN-I)-high state in CRC-LMs associated with loss of the IFN-α/β receptor subunit 1 (IFNAR1) on effector T lymphocytes within immune-enriched perimetastatic niches. Reduced IFNAR1 expression stratifies patients with poor clinical outcomes. Transcriptional profiling of patient-derived organoids and complementary preclinical models revealed heterogeneous but recurrent tumor-derived IFN-I production in CRC-LMs. In IFN-Ihigh contexts, sustained signaling promoted IFNAR1 internalization on effector CD8+ T cells, impairing their persistence, survival, and effector function. Pharmacologic or genetic stabilization of IFNAR1 on cell surface restored CD8+ T cell fitness and selectively enhanced T cell receptor- and chimeric antigen receptor-based immunotherapies in IFN-Ihigh tumors. These findings define a context-dependent IFN-Ihigh / IFNAR1low axis that constrains antitumor immunity in CRC-LMs and identify IFNAR1 stabilization as a strategy to convert chronic IFN signaling from a suppressive barrier into a therapeutic vulnerability.",
+   "abstract": "Cystic fibrosis (CF) causes severely damaged pancreatic morphology and cystic fibrosis-related diabetes (CFRD), but the cellular drivers of CFRD in the pancreas are not understood. Here, we perform single-cell and spatial profiling of 2.04 M cells from 23 non-disease or CF pancreas donors. A high-mucin ductal sub-type had relatively preserved abundance and genomic profiles but altered localization in CF. Changes in inflammatory and fibrotic pathways were driven by crosstalk between immune and pro-fibrotic cells in specific niches. Beta cells had extensive changes in CF, including increased stress responses and evidence for compensatory secretion, that were distinct from those in type 1 and type 2 diabetes. Islets localized near large adipose tissue and collagen in CF had reduced beta cells linked to signaling from adipocytes, macrophages, stellate cells, and high-mucin ductal cells. Overall, our results highlight pancreatic microenvironments of beta cell dysfunction in CF and offer in-roads to preserving beta cells in CFRD.",
    "tags": [
-    "Receptor, Interferon alpha-beta",
-    "Colorectal Neoplasms",
-    "CD8-Positive T-Lymphocytes",
-    "Humans",
-    "Liver Neoplasms",
-    "Animals"
+    "CP: metabolism",
+    "CP: molecular biology",
+    "Cystic fibrosis",
+    "cystic fibrosis-related diabetes",
+    "pancreatic beta cells",
+    "pancreatic remodeling"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107152",
+   "pmid": "42982217",
+   "doi": "10.1016/j.jdent.2026.107152",
+   "title": "Effect of cigarette smoking on the biological and biomechanical properties of leukocyte-platelet-rich fibrin: a systematic review of laboratory-based investigations",
+   "title_zh": "吸烟对L-PRF生物学与生物力学性质的系统评价",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-04",
+   "authors": [
+    "Javed F",
+    "Ahmed ZU",
+    "Miron RJ"
    ],
-   "deep": {
-    "title_zh": "IFNAR1稳定化维持IFN-high结直肠癌肝转移中CD8+ T细胞的持久性",
-    "one_sentence": "肿瘤微环境中慢性I型干扰素信号驱动IFNAR1内化导致CD8+ T细胞耗竭，稳定IFNAR1可逆转此抑制并增强免疫治疗…",
-    "question": "结直肠癌肝转移中IFN-high状态的肿瘤微环境如何通过IFNAR1表达动态调控CD8+ T细胞功能，从而决定免疫治疗抵抗的机制？",
-    "design": "多组学整合的前瞻性机制研究：患者来源类器官+转基因/移植小鼠模型+临床队列验证，设置IFNAR1稳定 vs 内化对照组",
-    "sample_desc": "摘要未说明",
-    "findings": [
-     {
-      "claim": "CRC-LMs中存在异质性但复发的肿瘤源性IFN-I高表达状态",
-      "evidence": "患者来源类器官转录组分析显示IFN-I相关基因表达升高"
-     },
-     {
-      "claim": "IFNAR1在效应T淋巴细胞上的表达降低与不良预后相关",
-      "evidence": "临床样本中IFNAR1表达水平分层显示低表达患者生存期缩短"
-     },
-     {
-      "claim": "慢性IFN-I信号促进IFNAR1内化，损害CD8+ T细胞持久性与效应功能",
-      "evidence": "IFN-Ihigh环境下CD8+ T细胞表面IFNAR1持续内化，细胞存活与功能下降"
-     },
-     {
-      "claim": "药理学或基因稳定化IFNAR1可恢复CD8+ T细胞适应性并增强免疫治疗",
-      "evidence": "IFNAR1表面稳定化后，TCR和CAR T细胞治疗效果在IFN-Ihigh肿瘤中显著提升"
-     }
-    ],
-    "effect": "摘要未报告具体效应量与置信区间",
-    "relation": "与q5高度相关：提供肿瘤免疫微环境中慢性干扰素信号导致T细胞耗竭的新机制解释；与q4部分交叉：揭示免疫受体稳定性作为免疫'编程'靶点的潜力",
-    "why": "颠覆了'IFN信号=免疫激活'的传统认知，提出IFNhigh环境可通过IFNAR1内化导致T细胞功能耗竭的悖论机制，并将IFNAR1表面稳定性确立为可干预的治疗靶点，为IFN-high肿瘤的免疫联合策略提供理论依据",
-    "limitations": [
-     "肿瘤内在IFN-I产生异质性的驱动机制未明确",
-     "IFNAR1稳定化策略的长期安全性及脱靶效应未评估",
-     "患者队列的样本量与随访时长摘要未说明"
-    ],
-    "transferable": "IFNAR1表面稳定性检测（流式/免疫荧光定量）可迁移至种植体周微环境研究，用于评估局部IFN信号对CD8+ T细胞功能的影响",
-    "followups": [
-     "IFNAR1内化的分子开关是什么？泛素化/磷酸化修饰位点有哪些？",
-     "CRC-LMs中IFN-I的来源：肿瘤细胞自身分泌还是TME其他细胞驱动？",
-     "IFNAR1稳定化干预与抗PD-1/PD-L1联合的协同效应是否已在临床前模型验证？"
-    ],
-    "glossary": [
-     {
-      "en": "IFNAR1",
-      "cn": "I型干扰素受体亚基1"
-     },
-     {
-      "en": "IFN-I",
-      "cn": "I型干扰素"
-     },
-     {
-      "en": "CRC-LM",
-      "cn": "结直肠癌肝转移"
-     },
-     {
-      "en": "perimetastatic niche",
-      "cn": "转移前微环境/转移灶周围生态 niche"
-     }
-    ],
-    "reading_minutes": 12
-   }
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982217/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 30,
+   "sample_note": "n=30 participants",
+   "tier": "B",
+   "domain": "牙周炎通过哪些可验证的通…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "种植与修复辅助材料",
+   "one_line": "系统评价9项实验室研究，吸烟显著降低L-PRF纤维结构与生长因子释放",
+   "so_what": "q1间接相关：吸烟通过改变宿主免疫微环境（NETs、巨噬细胞极化）影响种植体周炎，L-PRF品质下…",
+   "caution": "实验室终点而非临床结局；样本合并n=30偏小；体外指标不能直接外推至种植体周骨…",
+   "score": {
+    "final": 40.2,
+    "match": 40.0,
+    "novelty": 25.0,
+    "rigor": 55.0,
+    "impact": 40.0,
+    "transfer": 45.0
+   },
+   "heuristic": 40.0,
+   "breakdown": {
+    "topic": 2.0,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 4.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Cigarette smoking (CS) may alter the fibrin architecture, cellular composition, and growth-factor profile of leukocyte-platelet-rich fibrin (L-PRF). This systematic review evaluated laboratory evidence concerning its biological and biomechanical properties in smokers versus non-smokers. METHODS: Following PRISMA 2020 guidelines, databases were searched without language or date restrictions through May 2026, supplemented by hand searching. Two reviewers independently screened records and full texts. Automated eligibility recommendations were manually verified; no record was excluded solely through automation. Eligible studies compared laboratory outcomes of conventional L-PRF from cigarette smokers and non-smokers. Clinical outcomes, other platelet concentrates, unrelated participant groups, and non-original reports were excluded. Risk of bias and certainty of evidence (CoE) were assessed. Disagreements were resolved by consensus or third-reviewer adjudication. RESULTS: Nine studies were included; five were companion or potentially overlapping reports. Seven characterized donor-derived L-PRF ex vivo, and two additionally conducted in vitro cell-culture assays. Sample-size estimation was reported in two studies. Smoker and non-smoker samples ranged from 4-34 and 4-30 participants, respectively; reported smoking duration ranged from ≥1 to ≥10 years. Several reported looser or irregular fibrin architecture and altered cellular entrapment in smoker-derived membranes. Growth-factor concentrations varied between smokers and non-smokers, with some studies reporting lower concentrations in smokers; however, the direction and statistical significance of these differences were inconsistent. Methodological concerns included small samples, donor selection, smoking ascertainment, confounding, sample-size estimation, randomization, and blinding. CoE was very low across assessed outcomes. CONCLUSION: Evidence remains insufficient to determine whether CS compromises L-PRF properties. Non-significant findings should not be interpreted as equivalence. CLINICAL SIGNIFICANCE: The evidence does not justify definitive claims about smoking-related impairment of L-PRF. Smoking-cessation support remains important given the established adverse effects of CS on oral and systemic health.",
+   "tags": [
+    "Fibrin network",
+    "Growth factors",
+    "Leukocyte-platelet rich fibrin",
+    "Platelet-rih derivatives",
+    "Smoking",
+    "Tobacco smoke"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107150",
+   "pmid": "42977114",
+   "doi": "10.1016/j.jdent.2026.107150",
+   "title": "Thiourethane oligomers and functionalized TiO2 nanostructures in experimental resin composites",
+   "title_zh": "硫脲烷低聚物与功能化TiO2纳米结构复合树脂",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-03",
+   "authors": [
+    "Guimarães GMF",
+    "de Lucena FS",
+    "Lewis SH",
+    "Furuse AY",
+    "Pfeifer CS"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42977114/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "材料与生物材料",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "种植体表面材料改性",
+   "one_line": "TiO2纳米管/纳米颗粒与硫脲烷低聚物协同优化树脂复合材料聚合动力学与力学性能",
+   "so_what": "q4高度相关：纳米TiO2表面特性可编程宿主免疫应答，纳米形貌（管vs颗粒）差异值得对比验证",
+   "caution": "体外材料表征为主，未涉及免疫细胞互作或骨结合体内结局",
+   "score": {
+    "final": 44.8,
+    "match": 50.0,
+    "novelty": 40.0,
+    "rigor": 50.0,
+    "impact": 30.0,
+    "transfer": 55.0
+   },
+   "heuristic": 40.1,
+   "breakdown": {
+    "topic": 19.1,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: Titanium dioxide (TiO₂) nanostructures and thiourethane oligomers (TU-Oli) have each been shown to improve the properties of resin composites. This study evaluated their combined effect on clinically-relevant properties of experimental composites. METHODS: BisGMA/UDMA/TEGDMA was used as the resin matrix (CQ/EDMAB/BHT photoinitiator) and 70 wt% silanized filler, 1 µm average size was used as the main filler system. In phase 1, methacrylate-based TMSP-silanized TiO₂ nanostructures (nanotubes or nanoparticles) were incorporated at 0, 0.3, or 0.9 wt% into the matrix with or without 20 wt% thiourethane oligomer (TU-Oli). Polymerization kinetics, degree of conversion, light transmission, and depth of cure were measured. This allowed for the evaluation of the presence of TU, the type and concentration of nanostructures affected conversion in depth. Based on results from phase 1, in phase 2, 0.3 wt% TiO₂ nanostructures were added to a TU-Oli-free matrix. Phase 2 focused on mechanical properties of a selected number of groups. Flexural strength/modulus (FS/E), polymerization stress (PS), and glass transition temperature (Tg) were measured. Data were analyzed by two-way ANOVA/Tukey or Kruskal-Wallis/Dwass-Steel-Critchlow-Fligner tests (α = 0.05). RESULTS: All TU-Oli significantly increased conversion (p < 0.001) and decreased rate of polymerization (RPmax; p<0.001). Nanostructure type and content significantly influenced RPmax (p = 0.002, p = 0.023). Composites containing 0.3 wt% TiO₂ had greater depth of cure and light transmission than those with 0.9 wt% (p<0.001). Flexural strength (p = 0.256) and toughness (p = 0.260) were similar for all groups; modulus was significantly higher for the control (p = 0.006). Polymerization stress (p = 0.094) was similar for all groups. Tg was significantly lower for all composites containing TiO₂ nanotubes (p < 0.05), while nanoparticle-containing groups were similar to the control. CONCLUSION: Tu-Oli significantly improved properties of experimental composites, while silanization of TiO₂ nanostructures did not affect properties. 0.3 wt% TiO₂ offers the best balance between optical and physical performance for this composite system. CLINICAL SIGNIFICANCE: Judicious design of TiO₂-containing materials, in conjunction with TU-Oli is a promising strategy to improve restorative composite performance.",
+   "tags": [
+    "Dynamic mechanical analysis",
+    "Polymerization kinetics",
+    "Polymerization stress",
+    "Resin composites",
+    "Thiourethane oligomers",
+    "Titanium dioxide nanotubes"
+   ]
+  },
+  {
+   "id": "10.1177/00220345261474858",
+   "pmid": "42978267",
+   "doi": "10.1177/00220345261474858",
+   "title": "A Quantitative Framework for Characterizing Oral pH Dynamics",
+   "title_zh": "口腔pH动力学定量表征框架",
+   "journal": "Journal of dental research",
+   "date": "2026-11-03",
+   "authors": [
+    "Elashkar OI",
+    "Kasparian KV",
+    "McCurdy CR",
+    "Abranches J",
+    "Sharma A"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978267/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "龋病微生物方法学",
+   "one_line": "证明稀疏采样点系统性低估Stephan曲线关键参数，提出定量校正框架。",
+   "so_what": "q3迁移：若你做微生物组/pH研究，此框架可改进你的数据采集与参数提取策略。",
+   "caution": "方法学论文，未提供新生物学发现；需结合后续验证研究。",
+   "score": {
+    "final": 43.2,
+    "match": 38.0,
+    "novelty": 55.0,
+    "rigor": 50.0,
+    "impact": 40.0,
+    "transfer": 45.0
+   },
+   "heuristic": 38.5,
+   "breakdown": {
+    "topic": 12.5,
+    "journal": 15.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "Dental caries is a polymicrobial biofilm-based disease whereby acidogenic and aciduric microorganisms within dental plaque generate an acidic milieu resulting in dissolution of enamel and dentin below their critical pH. The relationship of pH over time following exposure to a cariogenic substrate, coined the \"Stephan curve,\" continues to be a critical determinant in whether a substance is deemed cariogenic. Several caries-associated parameters can be extracted from the data, including minimum pH, time corresponding to the minimum pH, recovery time, time below the critical pH, and area below the critical pH. While wire telemetry devices were developed for continuous recording of plaque pH in vivo, most clinical datasets use the indirect method or strip method due to patient compliance issues, ease of use, and cost limitations. Most of the time, this results in sparse sampling time points. In this work, we demonstrate how sparse datasets lead to underestimation of critical parameters associated with caries risk and can therefore alter the interpretation of the data and conclusions drawn, potentially leading to inaccurate claims. To mitigate this issue, we developed a quantitative framework that harnesses nonlinear mixed effects and fixed effects modeling to better predict these caries-associated pH parameters and show superiority as compared with traditional methods used in prior literature. We conclude by introducing a web-based and publicly available interface (GatorpH) that utilizes our mathematical models. This interface can be readily applied to plaque and saliva pH profiles that are routinely collected in clinical studies 1) assessing the potential relative cariogenicity of dietary items, 2) establishing the efficacy of novel cariostatic agents or biomaterials, or 3) characterizing changes in acidogenicity among patient populations or microbiome studies. Translational researchers, clinicians, and regulatory agencies can therefore utilize GatorpH for the study of oral pH dynamics and for rapid and reliable quantification of critical parameters associated with dental caries.",
+   "tags": [
+    "Stephan curve",
+    "cariogenic agents",
+    "dental caries",
+    "dental model",
+    "dental plaque",
+    "plaque pH"
+   ]
   }
  ],
- "scan": [],
  "backlog": [],
  "weekly": null,
  "profile": {

@@ -1,13 +1,13 @@
 {
- "updated_at": "2026-11-07T00:17:19+08:00",
+ "updated_at": "2026-11-07T00:20:58+08:00",
  "latest": "2026-11-06",
  "days": [
   {
    "date": "2026-11-06",
-   "must_title": "Targeting tankyrase scaffolding in the β-catenin destruction complex by PROTAC overcomes the limitation of catalytic inhibitors in colorectal cancer",
-   "must_title_zh": "通过PROTAC靶向破坏复合体中tankyrase的支架功能，克服催化抑制剂在结直肠癌中的局限性",
-   "cluster": "WNT/骨再生机制",
-   "count": 2,
+   "must_title": "An Update of Management Strategies in Locally Advanced Oral Cancer",
+   "must_title_zh": "局部晚期口腔鳞状细胞癌管理策略更新",
+   "cluster": "口腔癌免疫微环境",
+   "count": 7,
    "ai": true
   }
  ],
