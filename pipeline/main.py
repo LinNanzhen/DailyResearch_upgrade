@@ -55,12 +55,13 @@ def run(args: argparse.Namespace) -> int:
     papers = [p for p in papers if score.is_dental(p)]
     if before != len(papers):
         log(f"      牙科相关性过滤：去掉 {before - len(papers)} 篇大刊里的非口腔论文")
-    papers = [p for p in papers if p["heuristic"] >= 18]
+    # No absolute heuristic cutoff: negative-pattern penalties can push solid dental
+    # papers below any fixed line. Ranking + the LLM do the filtering instead.
     papers.sort(key=lambda p: p["heuristic"], reverse=True)
 
     pool_cap = int(profile["scoring"].get("pool_cap", 48) or 48)
     pool = papers[:pool_cap]
-    log(f"[2/6] 粗排：{len(papers)} 篇 → 送模型 {len(pool)} 篇（阈值 18）")
+    log(f"[2/6] 粗排：{len(papers)} 篇 → 送模型 {len(pool)} 篇（按分数取前 {pool_cap}）")
 
     llm = AgnesLLM(
         base_url=os.environ.get("AGNES_BASE_URL") or profile["llm"]["base_url"],
