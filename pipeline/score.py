@@ -53,7 +53,8 @@ DENTAL_TERMS = [
     "dental", "dentistry", "dentist", "tooth", "teeth", "dentition",
     "periodont", "gingiv", "peri-implant", "osseointegration", "caries",
     "endodont", "orthodont", "prosthodont", "maxillofacial", "craniofacial",
-    "mandib", "maxilla", "alveolar bone", "saliva", "stomat", "enamel", "dentin",
+    "mandib", "maxilla", "alveolar bone", "saliva", "stomatitis", "stomatology",
+    "stomatognathic", "enamel", "dentin",
     "pulpitis", "pulpal", "root canal", "edentul", "mucogingival",
 ]
 
@@ -318,7 +319,7 @@ def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, A
             break
         if p["id"] in used_ids:
             continue
-        if p.get("skip"):
+        if p.get("skip") or float(p["score"].get("match", 100) or 0) < 20:
             continue
         if p["journal_key"] in used_journals or p["domain"] in used_domains:
             continue
@@ -331,7 +332,7 @@ def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, A
             break
         if p["id"] in used_ids:
             continue
-        if p.get("skip"):
+        if p.get("skip") or float(p["score"].get("match", 100) or 0) < 20:
             continue
         scans.append(p)
         used_ids.add(p["id"])
@@ -341,7 +342,7 @@ def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, A
             break
         if p["id"] in used_ids:
             continue
-        if p.get("skip"):
+        if p.get("skip") or float(p["score"].get("match", 100) or 0) < 20:
             continue
         scans.append(p)
         used_ids.add(p["id"])
