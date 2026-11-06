@@ -1,13 +1,13 @@
 {
- "updated_at": "2026-11-07T00:28:19+08:00",
+ "updated_at": "2026-11-07T00:30:58+08:00",
  "latest": "2026-11-06",
  "days": [
   {
    "date": "2026-11-06",
-   "must_title": "Mitochondria-protective polysaccharide augments burn wound repair through immunometabolic reprogramming",
-   "must_title_zh": "线粒体保护型多糖通过免疫代谢重编程促进烧伤创面修复",
-   "cluster": "生物材料免疫编程",
-   "count": 8,
+   "must_title": "Does Neoadjuvant Chemotherapy Increase Reconstructive Risk? A Comparative Analysis of Surgical Efficiency and Microvascular Success in Advanced OSCC",
+   "must_title_zh": "新辅助化疗对晚期 OSCC 显微重建风险的影响",
+   "cluster": "口腔鳞癌手术重建",
+   "count": 3,
    "ai": true
   }
  ],

@@ -1,416 +1,266 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-07T00:28:19+08:00",
+ "generated_at": "2026-11-07T00:30:58+08:00",
  "model": "agnes-2.5-flash",
  "ai": true,
  "usage": {
-  "calls": 7,
-  "prompt_tokens": 19841,
-  "completion_tokens": 15956
+  "calls": 6,
+  "prompt_tokens": 15462,
+  "completion_tokens": 12878
  },
  "stats": {
   "candidates": 179,
   "raw": 172,
-  "fetched": 36,
+  "fetched": 26,
   "raw_dropped_type": 15,
   "no_abstract": 1,
-  "gated": 36,
-  "scored": 35,
-  "shown": 8,
+  "gated": 26,
+  "scored": 24,
+  "shown": 3,
   "ai": true,
   "feedback_files": 0,
-  "calls": 7
+  "calls": 6
  },
  "must_read": {
-  "id": "10.1016/j.biomaterials.2026.124735",
-  "pmid": "42987700",
-  "doi": "10.1016/j.biomaterials.2026.124735",
-  "title": "Mitochondria-protective polysaccharide augments burn wound repair through immunometabolic reprogramming",
-  "title_zh": "线粒体保护型多糖通过免疫代谢重编程促进烧伤创面修复",
-  "journal": "Biomaterials",
-  "date": "2026-11-03",
+  "id": "10.1002/hed.70534",
+  "pmid": "42979766",
+  "doi": "10.1002/hed.70534",
+  "title": "Does Neoadjuvant Chemotherapy Increase Reconstructive Risk? A Comparative Analysis of Surgical Efficiency and Microvascular Success in Advanced OSCC",
+  "title_zh": "新辅助化疗对晚期 OSCC 显微重建风险的影响",
+  "journal": "Head & neck",
+  "date": "2026-11-04",
   "authors": [
-   "Zhong G",
-   "Liang Q",
-   "Pu J",
-   "Zhai X",
-   "Hu Z",
-   "Wu H",
-   "Xu N",
-   "Hu C",
-   "Luo Y",
-   "Liu Y",
-   "Zhao J",
-   "Sun P"
+   "Najjar E",
+   "Abdelraziq M",
+   "Yaniv D",
+   "Ritter A",
+   "Abu-Elnaaj I",
+   "Ghantous Y"
   ],
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42987700/",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42979766/",
   "pmcid": "",
   "cited_by": 0,
-  "design": "animal",
-  "design_label": "动物实验",
-  "design_level": 2,
-  "sample_n": null,
-  "sample_note": "",
-  "tier": "A",
-  "domain": "生物材料表面/降解产物如…",
+  "design": "cohort",
+  "design_label": "队列",
+  "design_level": 5,
+  "sample_n": 86,
+  "sample_note": "n=86 patients",
+  "tier": "B",
+  "domain": "颌面肿瘤与分子机制",
   "methods": [],
   "pub_types": [
    "Journal Article"
   ],
   "is_open_access": false,
-  "cluster": "生物材料免疫编程",
-  "one_line": "微生物源多糖colanic acid经TLR4内化保护线粒体，驱动巨噬细胞M2极化并加速伤口修复。",
-  "so_what": "q4直接回答：生物材料可通过免疫代谢重编程调控宿主修复，种植体表面策略可借鉴此机制",
-  "caution": "烧伤模型，软组织修复与硬组织骨结合存在差异",
+  "cluster": "口腔鳞癌手术重建",
+  "one_line": "回顾性比较新辅助化疗组与直接手术组游离皮瓣重建结果，NACT组缺血时间更短、并发症相当但伤口并发症更多。",
+  "so_what": "q5相关手术决策证据，提示NACT不增加显微重建主要并发症但影响伤口愈合，可转化为临床决策参考。",
+  "caution": "NACT组疾病分期更晚期（100% IV期vs39%），组间可比性存疑。",
   "score": {
-   "final": 64.1,
-   "match": 75.0,
-   "novelty": 70.0,
-   "rigor": 70.0,
-   "impact": 65.0,
-   "transfer": 80.0
+   "final": 37.7,
+   "match": 30.0,
+   "novelty": 35.0,
+   "rigor": 55.0,
+   "impact": 40.0,
+   "transfer": 25.0
   },
-  "heuristic": 34.8,
+  "heuristic": 43.2,
   "breakdown": {
-   "topic": 5.8,
-   "journal": 15.0,
-   "design": 9,
-   "sample": 0.0,
-   "fresh": 5.0,
+   "topic": 7.0,
+   "journal": 10.0,
+   "design": 15,
+   "sample": 5.2,
+   "fresh": 6.0,
    "method": 0.0
   },
-  "abstract": "Effective wound healing requires coordinated extracellular matrix (ECM) deposition, immune regulation, and metabolic adaptation-processes governed by fibroblast mitochondria. Conventional burn therapies fail to address the mitochondrial dysfunction that impedes tissue regeneration. Here, we show that colanic acid (CA), a microbial-derived exopolysaccharide, acts as a mitochondrial-protecting biomaterial that accelerates burn repair by restoring immuno-metabolic crosstalk. In a murine deep second-degree burn model, CA enhanced wound closure 3.1-fold over controls, reduced reactive oxidative species by 54%, and increased mature collagen deposition by 193%. Mechanistically, CA undergoes intracellular internalization with the assistance of the membrane receptor TLR4 and maintains mitochondrial integrity, evidenced by restored cristae ultrastructure, a 1.4-fold increase in oxidative phosphorylation flux, and a 1.5-fold elevation in ATP production-effects abolished upon silencing the mitochondrial regulator Thap11. Bulk RNA-seq indicated that CA reshaped the wound immune landscape by driving macrophage recruitment and M2 polarization via mitochondrial metabolic reprogramming. By synchronizing mitochondrial rescue with immune-guided ECM remodeling, CA outperformed hyaluronic acid dressings in wound closure and extracellular matrix remodeling.The preliminary translational proof-of-concept of CA was confirmed in a Bama minipig model of deep second-degree burn wound, where it enhanced re-epithelialization, angiogenesis, and tissue perfusion. Together, these findings suggest that CA is a multifunctional polysaccharide with mitochondrial protective effects capable of addressing the multifaceted pathology of burn wounds across species.",
+  "abstract": "OBJECTIVE: To investigate the effect of neoadjuvant chemotherapy (NACT) by evaluating its impact on surgical efficiency and postoperative morbidity in patients undergoing complex free-flap reconstruction for advanced oral cavity squamous cell carcinoma (OSCC). METHODS: A retrospective comparative study was conducted on 86 patients (NACT cohort: n = 20; Primary Surgery cohort: n = 66) undergoing microvascular free tissue transfer. Primary outcomes included surgical efficiency (ischemic time, total operative duration) and postoperative complications (major microvascular events vs. minor wound issues) that were evaluated. RESULTS: The NACT group presented with significantly more advanced disease (100% Stage IV vs. 39.4%; p < 0.001). Despite this higher tumor burden, the NACT cohort demonstrated significantly shorter mean ischemic times (39.0 ± 7.5 vs. 52.5 ± 17.9 min; p = 0.001) and reduced operative durations (7.5 ± 0.8 vs. 8.6 ± 1.3 h; p = 0.001). Total complication rates were comparable (35% vs. 33.3%). However, minor wound-related complications were significantly more frequent in the NACT group (30% vs. 4.5%; p = 0.004). The flap salvage rate following re-exploration was high and comparable between groups (80.0% vs. 85.7%). CONCLUSION: No statistically significant differences were detected in major flap failure or vascular re-exploration, though the study was underpowered to establish definitive safety equivalence for these endpoints. In exploratory subgroup analysis of RFFF reconstructions, NACT was associated with reduced ischemic time (p = 0.017). These findings suggest that while NACT compromises soft-tissue wound healing, it does not preclude successful microvascular reconstruction when managed with appropriate perioperative care.",
   "tags": [
-   "Burn-wound healing",
-   "Colanic acid (CA)",
-   "Exopolysaccharide",
-   "Immuno-metabolic crosstalk",
-   "Mitochondrial protection"
-  ],
-  "deep": {
-   "title_zh": "线粒体保护型多糖通过免疫代谢重编程促进烧伤创面修复",
-   "one_sentence": "微生物源多糖CA经TLR4内吞保护线粒体功能，驱动巨噬细胞M2极化，显著加速烧伤创面修复，机制清晰且跨物种验证。",
-   "question": "微生物源胞外多糖能否作为线粒体保护性生物材料，通过重建免疫-代谢串扰促进深层烧伤创面再生？",
-   "design": "小鼠深II度烧伤模型 + 巴马迷你猪深II度烧伤验证模型；CA治疗组 vs 对照组（透明质酸敷料对比），单因素干预，未说明随访时间。",
-   "sample_desc": "小鼠+巴马迷你猪；细胞实验（TLR4敲低、Thap11敲低）；摘要未说明各组具体n值。",
-   "findings": [
-    {
-     "claim": "CA显著加速烧伤创面愈合",
-     "evidence": "Closure较对照组快3.1倍；活性氧降低54%；成熟胶原沉积增加193%"
-    },
-    {
-     "claim": "CA通过TLR4介导的膜受体辅助实现细胞内内吞",
-     "evidence": "需TLR4参与CA的细胞摄取，敲低TLR4后效应被阻断（摘要未给出具体数值）"
-    },
-    {
-     "claim": "CA保护线粒体完整性并恢复代谢功能",
-     "evidence": "恢复线粒体嵴超微结构；氧化磷酸化通量提高1.4倍；ATP产量提高1.5倍；以上效应均被Thap11敲低所 abolishes"
-    },
-    {
-     "claim": "CA通过免疫代谢重编程重塑创面免疫微环境",
-     "evidence": "Bulk RNA-seq显示CA驱动巨噬细胞募集及M2极化，机制依赖于线粒体代谢重编程"
-    }
-   ],
-   "effect": "未报告置信区间；点估计：愈合速度↑3.1倍，ROS↓54%，胶原↑193%，OXPHOS↑1.4倍，ATP↑1.5倍",
-   "relation": "与 q4 高度相关——直接展示多糖类生物材料如何通过TLR4受体→线粒体保护→Thap11通路→M2极化的级联反应「编程」宿主免疫，从而决定组织再生结局；与 q1 部分相关，涉及巨噬细胞极化的代谢调控机制。",
-   "why": "将'多糖-线粒体-免疫代谢'三者串联起来提供了完整的因果链条：不止描述CA促进愈合，而是证明其机制依赖Thap11介导的线粒体保护，并阐明由此驱动的M2极化是ECM重塑的前提。对材料免疫编程领域的认知贡献在于：证明了代谢重编程是生物材料「免疫指令」的核心执行环节。",
-   "limitations": [
-    "摘要未提供各实验组的样本量（n值）及统计学检验细节（如p值、CI），无法评估证据强度。",
-    "未在炎性期和时间窗维度阐明CA的作用时机——是仅在早期抗炎，还是贯穿再生全程？对临床应用场景的界定模糊。",
-    "Thap11的具体分子机制（它如何调控线粒体稳态）仅以'敲低 abolishes 效应'概括，缺乏下游靶标或通路细节。"
-   ],
-   "transferable": "① Thap11作为线粒体-免疫代谢轴的关键节点，可迁移至种植体界面或牙周组织的免疫代谢研究；② 'TLR4→线粒体→代谢重编程→巨噬细胞极化'这一验证逻辑可直接用于评价口腔生物材料（如钛种植体表面改性、牙周再生膜）的免疫编程效应；③ 用bulk RNA-seq结合代谢通量+ATP检测三联指标来描述材料-免疫互作，方…",
-   "followups": [
-    "Thap11下游的直接靶基因是什么？是调控线粒体生物发生（PGC-1α）、融合/裂变（MFN1/2、DRP1），还是调控代谢酶活性？",
-    "CA在创面不同时间窗（炎症期vs增殖期vs重塑期）的剂量-效应关系如何？是否存在治疗时间窗限制？",
-    "在免疫缺陷或TLR4缺陷小鼠模型中，CA的促愈合效应是否完全消失？以确认TLR4依赖性是否为唯一通路。"
-   ],
-   "glossary": [
-    {
-     "en": "Colanic acid (CA)",
-     "cn": "科兰糖/肠杆菌胞外多糖"
-    },
-    {
-     "en": "Immunometabolism",
-     "cn": "免疫代谢"
-    },
-    {
-     "en": "Oxidative phosphorylation (OXPHOS)",
-     "cn": "氧化磷酸化"
-    },
-    {
-     "en": "M2 polarization",
-     "cn": "M2型巨噬细胞极化"
-    },
-    {
-     "en": "Thap11",
-     "cn": "THAP结构域含11蛋白（转录调控因子）"
-    },
-    {
-     "en": "Reactive oxygen species (ROS)",
-     "cn": "活性氧"
-    }
-   ],
-   "reading_minutes": 12
-  }
+   "free‐tissue transfer",
+   "head and neck carcinoma",
+   "microvascular reconstruction",
+   "neoadjuvant chemotherapy",
+   "surgical efficiency",
+   "wound complications"
+  ]
  },
  "must_reads": [
   {
-   "id": "10.1016/j.biomaterials.2026.124735",
-   "pmid": "42987700",
-   "doi": "10.1016/j.biomaterials.2026.124735",
-   "title": "Mitochondria-protective polysaccharide augments burn wound repair through immunometabolic reprogramming",
-   "title_zh": "线粒体保护型多糖通过免疫代谢重编程促进烧伤创面修复",
-   "journal": "Biomaterials",
-   "date": "2026-11-03",
+   "id": "10.1002/hed.70534",
+   "pmid": "42979766",
+   "doi": "10.1002/hed.70534",
+   "title": "Does Neoadjuvant Chemotherapy Increase Reconstructive Risk? A Comparative Analysis of Surgical Efficiency and Microvascular Success in Advanced OSCC",
+   "title_zh": "新辅助化疗对晚期 OSCC 显微重建风险的影响",
+   "journal": "Head & neck",
+   "date": "2026-11-04",
    "authors": [
-    "Zhong G",
-    "Liang Q",
-    "Pu J",
-    "Zhai X",
-    "Hu Z",
-    "Wu H",
-    "Xu N",
-    "Hu C",
-    "Luo Y",
-    "Liu Y",
-    "Zhao J",
-    "Sun P"
+    "Najjar E",
+    "Abdelraziq M",
+    "Yaniv D",
+    "Ritter A",
+    "Abu-Elnaaj I",
+    "Ghantous Y"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42987700/",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42979766/",
    "pmcid": "",
    "cited_by": 0,
-   "design": "animal",
-   "design_label": "动物实验",
-   "design_level": 2,
-   "sample_n": null,
-   "sample_note": "",
-   "tier": "A",
-   "domain": "生物材料表面/降解产物如…",
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 86,
+   "sample_note": "n=86 patients",
+   "tier": "B",
+   "domain": "颌面肿瘤与分子机制",
    "methods": [],
    "pub_types": [
     "Journal Article"
    ],
    "is_open_access": false,
-   "cluster": "生物材料免疫编程",
-   "one_line": "微生物源多糖colanic acid经TLR4内化保护线粒体，驱动巨噬细胞M2极化并加速伤口修复。",
-   "so_what": "q4直接回答：生物材料可通过免疫代谢重编程调控宿主修复，种植体表面策略可借鉴此机制",
-   "caution": "烧伤模型，软组织修复与硬组织骨结合存在差异",
+   "cluster": "口腔鳞癌手术重建",
+   "one_line": "回顾性比较新辅助化疗组与直接手术组游离皮瓣重建结果，NACT组缺血时间更短、并发症相当但伤口并发症更多。",
+   "so_what": "q5相关手术决策证据，提示NACT不增加显微重建主要并发症但影响伤口愈合，可转化为临床决策参考。",
+   "caution": "NACT组疾病分期更晚期（100% IV期vs39%），组间可比性存疑。",
    "score": {
-    "final": 64.1,
-    "match": 75.0,
-    "novelty": 70.0,
-    "rigor": 70.0,
-    "impact": 65.0,
-    "transfer": 80.0
+    "final": 37.7,
+    "match": 30.0,
+    "novelty": 35.0,
+    "rigor": 55.0,
+    "impact": 40.0,
+    "transfer": 25.0
    },
-   "heuristic": 34.8,
+   "heuristic": 43.2,
    "breakdown": {
-    "topic": 5.8,
-    "journal": 15.0,
-    "design": 9,
-    "sample": 0.0,
-    "fresh": 5.0,
+    "topic": 7.0,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 5.2,
+    "fresh": 6.0,
     "method": 0.0
    },
-   "abstract": "Effective wound healing requires coordinated extracellular matrix (ECM) deposition, immune regulation, and metabolic adaptation-processes governed by fibroblast mitochondria. Conventional burn therapies fail to address the mitochondrial dysfunction that impedes tissue regeneration. Here, we show that colanic acid (CA), a microbial-derived exopolysaccharide, acts as a mitochondrial-protecting biomaterial that accelerates burn repair by restoring immuno-metabolic crosstalk. In a murine deep second-degree burn model, CA enhanced wound closure 3.1-fold over controls, reduced reactive oxidative species by 54%, and increased mature collagen deposition by 193%. Mechanistically, CA undergoes intracellular internalization with the assistance of the membrane receptor TLR4 and maintains mitochondrial integrity, evidenced by restored cristae ultrastructure, a 1.4-fold increase in oxidative phosphorylation flux, and a 1.5-fold elevation in ATP production-effects abolished upon silencing the mitochondrial regulator Thap11. Bulk RNA-seq indicated that CA reshaped the wound immune landscape by driving macrophage recruitment and M2 polarization via mitochondrial metabolic reprogramming. By synchronizing mitochondrial rescue with immune-guided ECM remodeling, CA outperformed hyaluronic acid dressings in wound closure and extracellular matrix remodeling.The preliminary translational proof-of-concept of CA was confirmed in a Bama minipig model of deep second-degree burn wound, where it enhanced re-epithelialization, angiogenesis, and tissue perfusion. Together, these findings suggest that CA is a multifunctional polysaccharide with mitochondrial protective effects capable of addressing the multifaceted pathology of burn wounds across species.",
+   "abstract": "OBJECTIVE: To investigate the effect of neoadjuvant chemotherapy (NACT) by evaluating its impact on surgical efficiency and postoperative morbidity in patients undergoing complex free-flap reconstruction for advanced oral cavity squamous cell carcinoma (OSCC). METHODS: A retrospective comparative study was conducted on 86 patients (NACT cohort: n = 20; Primary Surgery cohort: n = 66) undergoing microvascular free tissue transfer. Primary outcomes included surgical efficiency (ischemic time, total operative duration) and postoperative complications (major microvascular events vs. minor wound issues) that were evaluated. RESULTS: The NACT group presented with significantly more advanced disease (100% Stage IV vs. 39.4%; p < 0.001). Despite this higher tumor burden, the NACT cohort demonstrated significantly shorter mean ischemic times (39.0 ± 7.5 vs. 52.5 ± 17.9 min; p = 0.001) and reduced operative durations (7.5 ± 0.8 vs. 8.6 ± 1.3 h; p = 0.001). Total complication rates were comparable (35% vs. 33.3%). However, minor wound-related complications were significantly more frequent in the NACT group (30% vs. 4.5%; p = 0.004). The flap salvage rate following re-exploration was high and comparable between groups (80.0% vs. 85.7%). CONCLUSION: No statistically significant differences were detected in major flap failure or vascular re-exploration, though the study was underpowered to establish definitive safety equivalence for these endpoints. In exploratory subgroup analysis of RFFF reconstructions, NACT was associated with reduced ischemic time (p = 0.017). These findings suggest that while NACT compromises soft-tissue wound healing, it does not preclude successful microvascular reconstruction when managed with appropriate perioperative care.",
    "tags": [
-    "Burn-wound healing",
-    "Colanic acid (CA)",
-    "Exopolysaccharide",
-    "Immuno-metabolic crosstalk",
-    "Mitochondrial protection"
-   ],
-   "deep": {
-    "title_zh": "线粒体保护型多糖通过免疫代谢重编程促进烧伤创面修复",
-    "one_sentence": "微生物源多糖CA经TLR4内吞保护线粒体功能，驱动巨噬细胞M2极化，显著加速烧伤创面修复，机制清晰且跨物种验证。",
-    "question": "微生物源胞外多糖能否作为线粒体保护性生物材料，通过重建免疫-代谢串扰促进深层烧伤创面再生？",
-    "design": "小鼠深II度烧伤模型 + 巴马迷你猪深II度烧伤验证模型；CA治疗组 vs 对照组（透明质酸敷料对比），单因素干预，未说明随访时间。",
-    "sample_desc": "小鼠+巴马迷你猪；细胞实验（TLR4敲低、Thap11敲低）；摘要未说明各组具体n值。",
-    "findings": [
-     {
-      "claim": "CA显著加速烧伤创面愈合",
-      "evidence": "Closure较对照组快3.1倍；活性氧降低54%；成熟胶原沉积增加193%"
-     },
-     {
-      "claim": "CA通过TLR4介导的膜受体辅助实现细胞内内吞",
-      "evidence": "需TLR4参与CA的细胞摄取，敲低TLR4后效应被阻断（摘要未给出具体数值）"
-     },
-     {
-      "claim": "CA保护线粒体完整性并恢复代谢功能",
-      "evidence": "恢复线粒体嵴超微结构；氧化磷酸化通量提高1.4倍；ATP产量提高1.5倍；以上效应均被Thap11敲低所 abolishes"
-     },
-     {
-      "claim": "CA通过免疫代谢重编程重塑创面免疫微环境",
-      "evidence": "Bulk RNA-seq显示CA驱动巨噬细胞募集及M2极化，机制依赖于线粒体代谢重编程"
-     }
-    ],
-    "effect": "未报告置信区间；点估计：愈合速度↑3.1倍，ROS↓54%，胶原↑193%，OXPHOS↑1.4倍，ATP↑1.5倍",
-    "relation": "与 q4 高度相关——直接展示多糖类生物材料如何通过TLR4受体→线粒体保护→Thap11通路→M2极化的级联反应「编程」宿主免疫，从而决定组织再生结局；与 q1 部分相关，涉及巨噬细胞极化的代谢调控机制。",
-    "why": "将'多糖-线粒体-免疫代谢'三者串联起来提供了完整的因果链条：不止描述CA促进愈合，而是证明其机制依赖Thap11介导的线粒体保护，并阐明由此驱动的M2极化是ECM重塑的前提。对材料免疫编程领域的认知贡献在于：证明了代谢重编程是生物材料「免疫指令」的核心执行环节。",
-    "limitations": [
-     "摘要未提供各实验组的样本量（n值）及统计学检验细节（如p值、CI），无法评估证据强度。",
-     "未在炎性期和时间窗维度阐明CA的作用时机——是仅在早期抗炎，还是贯穿再生全程？对临床应用场景的界定模糊。",
-     "Thap11的具体分子机制（它如何调控线粒体稳态）仅以'敲低 abolishes 效应'概括，缺乏下游靶标或通路细节。"
-    ],
-    "transferable": "① Thap11作为线粒体-免疫代谢轴的关键节点，可迁移至种植体界面或牙周组织的免疫代谢研究；② 'TLR4→线粒体→代谢重编程→巨噬细胞极化'这一验证逻辑可直接用于评价口腔生物材料（如钛种植体表面改性、牙周再生膜）的免疫编程效应；③ 用bulk RNA-seq结合代谢通量+ATP检测三联指标来描述材料-免疫互作，方…",
-    "followups": [
-     "Thap11下游的直接靶基因是什么？是调控线粒体生物发生（PGC-1α）、融合/裂变（MFN1/2、DRP1），还是调控代谢酶活性？",
-     "CA在创面不同时间窗（炎症期vs增殖期vs重塑期）的剂量-效应关系如何？是否存在治疗时间窗限制？",
-     "在免疫缺陷或TLR4缺陷小鼠模型中，CA的促愈合效应是否完全消失？以确认TLR4依赖性是否为唯一通路。"
-    ],
-    "glossary": [
-     {
-      "en": "Colanic acid (CA)",
-      "cn": "科兰糖/肠杆菌胞外多糖"
-     },
-     {
-      "en": "Immunometabolism",
-      "cn": "免疫代谢"
-     },
-     {
-      "en": "Oxidative phosphorylation (OXPHOS)",
-      "cn": "氧化磷酸化"
-     },
-     {
-      "en": "M2 polarization",
-      "cn": "M2型巨噬细胞极化"
-     },
-     {
-      "en": "Thap11",
-      "cn": "THAP结构域含11蛋白（转录调控因子）"
-     },
-     {
-      "en": "Reactive oxygen species (ROS)",
-      "cn": "活性氧"
-     }
-    ],
-    "reading_minutes": 12
-   }
+    "free‐tissue transfer",
+    "head and neck carcinoma",
+    "microvascular reconstruction",
+    "neoadjuvant chemotherapy",
+    "surgical efficiency",
+    "wound complications"
+   ]
   },
   {
-   "id": "10.1007/s00784-026-07246-3",
-   "pmid": "42986471",
-   "doi": "10.1007/s00784-026-07246-3",
-   "title": "AI-driven infrared spectroscopy in salivary oral leukoplakia",
-   "title_zh": "AI驱动的唾液红外光谱在口腔白斑中的应用",
-   "journal": "Clinical oral investigations",
+   "id": "10.1111/odi.70559",
+   "pmid": "42989832",
+   "doi": "10.1111/odi.70559",
+   "title": "A Global Perspective on Calibration and Standardization in Oral Cancer Screening Training",
+   "title_zh": "口腔癌筛查培训的校准与标准化全球视角",
+   "journal": "Oral diseases",
    "date": "2026-11-05",
    "authors": [
-    "da Silva SMSD",
-    "Rizzato JMB",
-    "Taromaru ACY",
-    "de Lima Medeiros Y",
-    "Alves FA",
-    "Pereira TM",
-    "de Barros Gallo C",
-    "Lima FS",
-    "das Chagas E Silva de Carvalho LF"
+    "Zain RB",
+    "Ramanathan A",
+    "Ghani WMN"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42986471/",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42989832/",
    "pmcid": "",
    "cited_by": 0,
-   "design": "unknown",
-   "design_label": "未标注",
-   "design_level": 1,
-   "sample_n": 22,
-   "sample_note": "n=22",
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": null,
+   "sample_note": "",
    "tier": "B",
-   "domain": "方法与交叉",
+   "domain": "其他",
    "methods": [
     "ml"
    ],
    "pub_types": [
-    "Journal Article"
+    "Journal Article",
+    "Review"
    ],
    "is_open_access": false,
-   "cluster": "OPMD与机器学习诊断",
-   "one_line": "FTIR唾液光谱联合机器学习分类口腔白斑与正常对照（n=22 vs n=22），区分度有限。",
-   "so_what": "q5延伸：无创唾液生物标志物思路可迁移至种植体周炎早期诊断",
-   "caution": "n=22过小，未验证独立队列，临床转化尚早",
+   "cluster": "口腔癌筛查",
+   "one_line": "叙述性综述梳理全球口腔癌筛查 Examiner 培训与校准现状，指出AI和移动健康是未来方向。",
+   "so_what": "与q5（口腔鳞癌）部分相关，但聚焦诊断培训而非免疫微环境或微生物组机制。可借鉴AI辅助筛查思路。",
+   "caution": "叙述性综述非系统评价，无量化证据合成；AI部分仅为展望。",
    "score": {
-    "final": 44.7,
-    "match": 55.0,
-    "novelty": 50.0,
-    "rigor": 30.0,
+    "final": 35.2,
+    "match": 40.0,
+    "novelty": 35.0,
+    "rigor": 40.0,
     "impact": 35.0,
-    "transfer": 55.0
+    "transfer": 25.0
    },
-   "heuristic": 36.0,
+   "heuristic": 29.2,
    "breakdown": {
-    "topic": 7.2,
+    "topic": 0.0,
     "journal": 10.0,
-    "design": 6,
-    "sample": 3.6,
+    "design": 10,
+    "sample": 0.0,
     "fresh": 7.0,
     "method": 2.2
    },
-   "abstract": "OBJECTIVES: Oral potentially malignant disorders (OPMDs), particularly leukoplakia, are strongly linked to an increased risk of oral squamous cell carcinoma. Saliva has gained attention as a diagnostic biofluid due to its simple, non-invasive collection and complex biochemical composition. This study aimed to investigate the application of Fourier-transform infrared (FTIR) spectroscopy combined with machine learning to identify salivary biochemical changes. MATERIALS AND METHODS: Saliva samples were collected from healthy control participants (n = 22), participants with oral leukoplakia (n = 22). Spectral data were acquired by ATR-FTIR, pre-processed with derivative analysis, normalization, and baseline correction, then analyzed using PCA and classified with Extra Trees, Random Forest, and XGBoost algorithms. RESULTS: The analysis revealed consistent biochemical differences within the 900-1800 cm⁻¹ region, mainly associated with proteins (Amide I and II), nucleic acids, and collagen. PCA revealed partial but relevant group separation, while machine learning models, especially Extra Trees and Random Forest, the MLP classifier achieved an AUC of 0.992 for initial dysplasia and 0.974 for severe dysplasia versus controls, indicating promising classification perfomance. CONCLUSION: These findings support FTIR spectroscopy integrated with machine learning, as a powerful, non-invasive approach for salivary profiling in leukoplakia. This optical biopsy method shows promise as an auxiliary diagnostic tool for early detection and monitoring of OPMDs, enhancing preventive strategies in oral oncology.",
+   "abstract": "BACKGROUND: Early oral cancer detection improves survival, but diagnosing early, asymptomatic lesions remains challenging. Screening effectiveness depends heavily on examiner competency, highlighting the need for structured training and calibration. OBJECTIVE: This narrative review examines the evolution, current practices, and future directions of examiner training, calibration, and standardization in global oral cancer screening. REVIEW FINDINGS: Existing training programs vary widely in content, duration, and assessment. While structured approaches combining theoretical instruction, image-based learning, and supervised clinical training enhance diagnostic accuracy, published studies provide limited details on training protocols, calibration procedures, and competency benchmarks. Formal assessment of inter-examiner reliability, periodic recalibration, and standardized quality assurance are inconsistently reported. Models like OralDETECT demonstrate scalable, competency-based frameworks. Additionally, empowering community health workers through artificial intelligence, mobile health, and adjunctive diagnostic tools provides promising opportunities to expand screening capacity in resource-limited settings. CONCLUSION: Establishing an internationally standardized framework for examiner training, competency assessment, and continuous quality assurance is essential to improve screening reliability and reduce global oral cancer mortality. CLINICAL RELEVANCE: Structured training and calibration bridge critical diagnostic gaps among primary healthcare practitioners. Integrating these standardized protocols with digital health innovations enhances triage accuracy, overcomes geographic barriers, and optimizes risk-based screening models.",
    "tags": [
-    "FTIR spectroscopy",
-    "Leukoplakia",
-    "Machine learning",
-    "Oral potentially malignant disorders",
-    "Saliva"
+    "artificial intelligence",
+    "calibration",
+    "early detection",
+    "oral cancer screening",
+    "standardization",
+    "telemedicine"
    ],
    "deep": {
-    "title_zh": "AI驱动的唾液红外光谱在口腔白斑中的应用",
-    "one_sentence": "FTIR+机器学习从唾液区分白斑与对照组，AUC高达0.97–0.99，作为辅助筛查工具有潜力但证据仍局限。",
-    "question": "能否用唾液的红外光谱指纹+ML分类，无创区分口腔白斑患者与健康人，并分辨轻/重度异型增生的生化差异？",
-    "design": "横断面病例对照，白斑组n=22 vs 健康对照组n=22，ATR-FTIR采集唾液光谱，经衍生化/归一化/基线校正后做PCA降维，Extra Trees/Random Forest/XGBoost/MLP分类。",
-    "sample_desc": "人类唾液样本，白斑组n=22、对照组n=22；分组标准（异型增生程度分层）、入排标准、是否多中心摘要未说明。",
+    "title_zh": "口腔癌筛查培训的校准与标准化全球视角",
+    "one_sentence": "系统性梳理显示全球口腔癌筛查培训缺乏统一标准，结构化培训可提升诊断准确性，但研究细节普遍不足，需建立国际标准化框架。",
+    "question": "口腔癌筛查的 examiner 诊断准确性受哪些培训因素影响，以及如何通过标准化培训和质量保证体系缩小诊断差距？",
+    "design": "叙述性综述（narrative review），系统梳理全球口腔癌筛查培训、校准与标准化的现有证据和实践模式，无对照/分组/随访。",
+    "sample_desc": "摘要未说明（综述性质，未报告纳入文献的样本量统计）",
     "findings": [
      {
-      "claim": "白斑患者唾液生化指纹与健康人不同，主要差异集中在蛋白质（Amide I/II）、核酸、胶原蛋白区域",
-      "evidence": "900–1800 cm⁻¹区段频谱差异一致；PCA显示'部分但相关的组间分离'（partial but relevant group separation）"
+      "claim": "结构化培训（理论+图像+临床监督）可提升诊断准确性",
+      "evidence": "综述指出已有研究显示结构化方法优于单一培训模式，但未报告具体效应量或对比数据"
      },
      {
-      "claim": "MLP分类器对轻/重度异型增生 discriminating 能力极高",
-      "evidence": "初不典型增生（initial dysplasia）vs 对照 AUC=0.992；重度异型增生（severe dysplasia）vs 对照 AUC=0.974"
+      "claim": "现有文献对培训方案、校准程序和能力基准的描述严重不足",
+      "evidence": "作者明确指出 published studies provide limited details on training protocols, calibration procedures, and competency benchmarks"
      },
      {
-      "claim": "FTIR+ML可作为辅助诊断工具用于OPMD早期筛查与监测",
-      "evidence": "结论定性表述；摘要未报告敏感性/特异性/PPV/NPV或外部验证结果"
+      "claim": "考试验者间信度的正式评估、定期重新校准和质量保证报告不一致",
+      "evidence": "作者指出这些环节在文献中 inconsistently reported，缺乏系统数据"
+     },
+     {
+      "claim": "OralDETECT 模型提供可扩展的基于能力的培训框架",
+      "evidence": "作者将其作为正面案例，但未报告其具体效果数据或验证结果"
      }
     ],
-    "effect": "AUC 0.974–0.992（MLP分类器）；95%CI未报告；外部验证未说明",
-    "relation": "与q5最相关——为口腔鳞癌前病变（OPMD/白斑）的无创筛查提供新工具；也与q3部分相关（唾液标志物概念）。但本研究是诊断方法学，不回答微生物组或免疫机制问题。",
-    "why": "用'光学活检'（optical biopsy）替代部分侵入性活检测筛选白斑患者，若可验证将改变临床路径；但当前证据链止于小样本单一中心内部验证，距临床落地有距离。",
+    "effect": "未报告（综述未提供具体效应量或置信区间）",
+    "relation": "与 q5 部分相关——q5 关注口腔鳞癌免疫微环境与微生物组如何影响治疗抵抗，本文聚焦口腔癌早期诊断质量问题；本文不直接涉及机制研究，但可补充'诊断准确性如何影响后续治疗决策和预后'这一临床转化环节的认知。",
+    "why": "它改变了认知：口腔癌筛查的有效性不取决于'是否筛查'，而取决于'screening examiner 是否经过标准化培训和持续校准'。这对研究生理解口腔癌防控策略的全链条具有重要意义——从机制研究到临床转化的最后一公里是诊断质量。",
     "limitations": [
-     "样本量极小（每组n=22），无外部独立验证集，AUC可能过拟合；作者未报告交叉验证策略或Hold-out集",
-     "横断面设计，无法判断FTIR指纹是白斑的驱动因素还是继发标志物——因果方向不明",
-     "未说明异型增生分级标准（WHO？）、白斑病因为何（烟草/嚼槟榔/ Candida？）、光谱预处理细节（衍生化阶数、归一化方式）均摘要未说明"
+     "叙述性综述而非系统评价/Meta分析，证据等级有限，作者已承认",
+     "缺乏量化数据和可比较的效应量，难以评估不同培训模式的具体效果差异",
+     "未深入讨论资源有限地区的实施可行性和成本效益问题"
     ],
-    "transferable": "FTIR+ML的唾液谱分析pipeline可借鉴到q3（口腔微生物组/代谢物标志物）或q5（OPMD→OSCC转化）；但需扩大样本、加入外部验证、报告临床效能指标（ sens/spec/ROC曲线）。",
+    "transferable": "OralDETECT 基于能力的培训框架设计思路可迁移至其他口腔疾病的筛查培训体系建设；AI辅助诊断工具的开发策略可借鉴于种植体周炎或牙周炎的智能分诊系统。",
     "followups": [
-     "AUC 0.992/0.974是否来自内部交叉验证还是过拟合的train-set结果？原文是否报告了混淆矩阵、精确率-召回率曲线或校准曲线？",
-     "频谱差异（900–1800 cm⁻¹）中Amide I/II、核酸、胶原的具体峰位偏移是多少？能否对应到特定蛋白/胶原亚型（如I型 vs III型胶原）？",
-     "该FTIR模型在前瞻性队列或OSCC进展患者中的验证结果如何？有无随访数据证明其能预测白斑恶变？"
+     "OralDETECT 模型的具体培训内容、时长、考核标准和已发表的准确性数据是什么？能否找到原始研究？",
+     "目前国际上是否有正式认可的口腔癌筛查 examiner 能力基准（competency benchmarks）？WHO 或各国口腔医学会是否有指南？",
+     "AI辅助诊断工具在口腔癌筛查中的敏感性、特异性数据有哪些？是否已有RCT证据支持其临床应用？"
     ],
     "glossary": [
      {
-      "en": "FTIR / ATR-FTIR",
-      "cn": "傅里叶变换红外光谱 / 衰减全反射红外光谱"
+      "en": "Calibration",
+      "cn": "校准（指多人诊断一致性检验与标准化过程）"
      },
      {
-      "en": "OPMD",
-      "cn": "口腔潜在恶性疾患"
+      "en": "Inter-examiner reliability",
+      "cn": "考试验者间信度"
      },
      {
-      "en": "dysplasia",
-      "cn": "异型增生（上皮发育不良）"
+      "en": "Competency-based framework",
+      "cn": "基于能力的培训框架"
      },
      {
-      "en": "Amide I / Amide II",
-      "cn": "酰胺I带（~1650 cm⁻¹，蛋白质C=O伸缩）/ 酰胺II带（~1550 …"
-     },
-     {
-      "en": "optical biopsy",
-      "cn": "光学活检——以光谱/影像替代物理穿刺取样"
-     },
-     {
-      "en": "Extra Trees / XGBoost / MLP",
-      "cn": "超树集成 / 梯度提升机 / 多层感知机（神经网络）"
+      "en": "Quality assurance",
+      "cn": "质量保证"
      }
     ],
     "reading_minutes": 12
@@ -419,385 +269,65 @@
  ],
  "scan": [
   {
-   "id": "10.1016/j.archoralbio.2026.106792",
-   "pmid": "42987447",
-   "doi": "10.1016/j.archoralbio.2026.106792",
-   "title": "Sleeve gastrectomy reverses obesity-associated transcriptional signatures in the salivary glands of female mice",
-   "title_zh": "袖状胃切除术逆转肥胖小鼠唾液腺转录特征",
-   "journal": "Archives of oral biology",
-   "date": "2026-11-04",
-   "authors": [
-    "Guo C",
-    "Chen Y",
-    "Zhou R",
-    "Chen Y",
-    "Cheng P",
-    "Wu J",
-    "Tao W"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42987447/",
-   "pmcid": "",
-   "cited_by": 0,
-   "design": "animal",
-   "design_label": "动物实验",
-   "design_level": 2,
-   "sample_n": null,
-   "sample_note": "",
-   "tier": "B",
-   "domain": "牙周炎通过哪些可验证的通…",
-   "methods": [
-    "multiomics"
-   ],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": false,
-   "cluster": "代谢-唾液腺轴",
-   "one_line": "高脂饮食诱导肥胖小鼠唾液腺转录组重塑，袖状胃切除可部分逆转。",
-   "so_what": "q2延伸：代谢疾病重塑口腔腺体分子表型，可迁移至全身-口腔轴研究",
-   "caution": "雌性小鼠模型，临床外推需谨慎",
-   "score": {
-    "final": 44.4,
-    "match": 40.0,
-    "novelty": 55.0,
-    "rigor": 60.0,
-    "impact": 35.0,
-    "transfer": 50.0
-   },
-   "heuristic": 35.1,
-   "breakdown": {
-    "topic": 7.9,
-    "journal": 10.0,
-    "design": 9,
-    "sample": 0.0,
-    "fresh": 6.0,
-    "method": 2.2
-   },
-   "abstract": "OBJECTIVES: This study aimed to characterize obesity-associated transcriptomic alterations in mouse salivary glands and determine the extent to which sleeve gastrectomy (SG) modifies or reverses these changes. DESIGN: Female C57BL/6 mice were fed a high-fat diet for 20 weeks to induce obesity and assigned to control (C), obese (D), sham-operated (S), or SG groups. Salivary glands were collected at postoperative week 10 for H&E-based histomorphometry and transcriptome sequencing. Differentially expressed genes (DEGs) were analyzed by Gene Ontology and Kyoto Encyclopedia of Genes and Genomes enrichment, protein-protein interaction, and transcription factor regulatory network analyses. Key findings were evaluated by qRT-PCR. RESULTS: H&E morphometry showed limited structural alterations. SMG duct number showed a significant group effect (χ² = 6.61, P = 0.037), with estimated duct numbers higher in SG than in C (+5.8 ducts/field, 95% CI -1.8-13.4) and S (+5.2 ducts/field, 95% CI -2.4-12.8), although neither pairwise comparison was significant after Tukey adjustment. RNA sequencing identified 218 DEGs in D vs. C, including upregulation of TCR-associated genes, and 198 DEGs in SG vs. D; 95% were downregulated. These DEGs were enriched in immune- and inflammation-related pathways, including T cell receptor signaling. Among 113 TCR pathway genes, 91 (80.5%) showed reversed expression direction after SG. Only 9 DEGs remained between SG and C. CONCLUSIONS: Obesity was associated with prominent immune- and inflammation-related transcriptional changes despite limited histological alterations. SG substantially attenuated these changes, with few transcriptional differences remaining from controls.",
-   "tags": [
-    "bariatric surgery",
-    "inflammation",
-    "lipid metabolism",
-    "obesity",
-    "salivary gland",
-    "transcriptomics"
-   ]
-  },
-  {
-   "id": "10.1126/sciadv.aeg5744",
-   "pmid": "42981395",
-   "doi": "10.1126/sciadv.aeg5744",
-   "title": "Self-charged toothbrush facilitates tooth healthcare maintenance",
-   "title_zh": "自充电压电牙刷的临床与机制评价",
-   "journal": "Science advances",
-   "date": "2026-11-04",
-   "authors": [
-    "Lu Y",
-    "Song J",
-    "Chi X",
-    "Li W",
-    "Wu L",
-    "Guo Y",
-    "Cui Q",
-    "Zheng X",
-    "Bai Y",
-    "Heng BC",
-    "Han X",
-    "Zhang X"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42981395/",
-   "pmcid": "PMC13733809",
-   "cited_by": 0,
-   "design": "unknown",
-   "design_label": "未标注",
-   "design_level": 1,
-   "sample_n": null,
-   "sample_note": "",
-   "tier": "A",
-   "domain": "牙周与宿主免疫",
-   "methods": [],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": true,
-   "cluster": "材料-微生物互作",
-   "one_line": "压电牙刷通过静态电位+动态刺激产ROS，破坏致病菌膜ATP转运体，临床减少菌斑和牙龈炎。",
-   "so_what": "q4相关：展示物理信号（电刺激）如何直接重编程细菌生理；可迁移至种植体表面功能化设计。",
-   "caution": "机制停留在细菌层面，未涉及宿主免疫反应；临床样本和随访时长不明。",
-   "score": {
-    "final": 41.1,
-    "match": 38.0,
-    "novelty": 55.0,
-    "rigor": 48.0,
-    "impact": 42.0,
-    "transfer": 40.0
-   },
-   "heuristic": 31.1,
-   "breakdown": {
-    "topic": 4.1,
-    "journal": 15.0,
-    "design": 6,
-    "sample": 0.0,
-    "fresh": 6.0,
-    "method": 0.0
-   },
-   "abstract": "Toothbrushes have undergone no substantive improvements beyond their mechanical function for about 1118 years to date. Conventional toothbrushes often fail to establish an antibacterial environment on the tooth surface, allowing bacteria to recover and recolonize. Here, we developed an innovative self-charged toothbrush that integrates daily tooth brushing with piezoelectric functionality, synergizing both optimal mechanical properties and stable electrical activity. The self-charged toothbrushes can generate reactive oxygen species to disrupt bacterial membrane integrity and diminish bacterial adhesion by combining static antibacterial inhibition through surface potential with dynamic piezoelectric stimulation. Clinical evaluation revealed that the localized piezoelectric stimulation of self-charged toothbrushes can mitigate plaque formation and gingival inflammation. Mechanistic studies further revealed that the self-charged toothbrushes induced oxidative damage to the oral pathogenic bacterial membranes, thereby impairing the ATP-binding cassette transporter pathway. Hence, this study developed a concept of piezoelectric PVDF toothbrushes that combine physical cleaning with sustained antibacterial effect, thus highlighting the potential of self-charged materials in advancing oral healthcare.",
-   "tags": [
-    "Toothbrushing",
-    "Humans",
-    "Bacterial Adhesion",
-    "Anti-Bacterial Agents",
-    "Reactive Oxygen Species",
-    "Dental Plaque"
-   ]
-  },
-  {
-   "id": "10.1016/j.actbio.2026.11.005",
-   "pmid": "42982155",
-   "doi": "10.1016/j.actbio.2026.11.005",
-   "title": "Ultrasound-activated Cu4SnS4 nanoplatform for dual-pathway amplification of reactive oxygen species and enhanced antibacterial therapy",
-   "title_zh": "超声激活Cu4SnS4双通道ROS放大抗菌平台",
-   "journal": "Acta biomaterialia",
-   "date": "2026-11-04",
-   "authors": [
-    "Zhao J",
-    "Li R",
-    "Zhu W",
-    "Wu J",
-    "Kang Y",
-    "Xue P"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42982155/",
-   "pmcid": "",
-   "cited_by": 0,
-   "design": "unknown",
-   "design_label": "未标注",
-   "design_level": 1,
-   "sample_n": null,
-   "sample_note": "",
-   "tier": "A",
-   "domain": "生物材料表面/降解产物如…",
-   "methods": [],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": false,
-   "cluster": "抗菌纳米材料",
-   "one_line": "Cu4SnS4纳米颗粒经超声激活同步产·OH和¹O₂，酸性感染微环境持续放大ROS实现高效抗菌。",
-   "so_what": "q4直接相关：证明材料表面化学可主动编程宿主感染微环境；q1也可借其ROS-免疫互作思路。",
-   "caution": "体外为主，体内样本量和免疫结局未明，ROS双通路是否导致宿主损伤未验证。",
-   "score": {
-    "final": 50.2,
-    "match": 58.0,
-    "novelty": 62.0,
-    "rigor": 50.0,
-    "impact": 45.0,
-    "transfer": 52.0
-   },
-   "heuristic": 32.6,
-   "breakdown": {
-    "topic": 5.6,
-    "journal": 15.0,
-    "design": 6,
-    "sample": 0.0,
-    "fresh": 6.0,
-    "method": 0.0
-   },
-   "abstract": "Effective eradication of bacterial infections remains significantly restricted by poor drug penetration, persistent biofilms, and insufficient reactive oxygen species (ROS) generation within complex infectious microenvironments. Herein, a multi-metal sulfide semiconductor, Cu4SnS4 (CTS), is engineered as an ultrasound (US)-activatable nanoplatform that integrates chemodynamic therapy (CDT) and sonodynamic therapy (SDT) to achieve spatiotemporally controlled ROS amplification for enhanced antibacterial therapy. In acidic and H2O2-enriched infection microenvironments, CTS catalyzes a Fenton-like reaction through a dynamic Cu+/Cu2+ redox cycle, enabling continuous hydroxyl radical (·OH) production. Upon US irradiation, sonogenerated charge-carrier separation accelerates electron transfer and copper valence cycling, further amplifying ·OH generation efficiency. Simultaneously, the narrow-bandgap electronic structure of CTS promotes efficient sonodynamic energy transfer to molecular oxygen, resulting in substantial singlet oxygen (1O2) generation. Coupled with US-induced cavitation effects, the platform establishes a dual-pathway ROS amplification mechanism that markedly enhances bacterial membrane disruption and biofilm eradication. Consequently, CTS exhibits potent broad-spectrum antibacterial activity and admire anti-biofilm efficacy under US activation, enabling efficient bacterial clearance in challenging infection environments. Collectively, this work presents a semiconductor-based, US-responsive antibacterial strategy for programmable ROS amplification and highlights the therapeutic potential of multi-metal sulfide nanoagents for the treatment of deep-seated and drug-resistant bacterial infections. STATEMENT OF SIGNIFICANCE: Antibiotic-resistant infections and biofilm-associated diseases remain difficult to treat because of limited antimicrobial penetration and therapeutic resistance. Here, we report a Cu4SnS4 (CTS) semiconductor nanozyme that overcomes the insufficient reactive oxygen species generation of conventional sonodynamic antibacterial systems by integrating chemodynamic and sonodynamic mechanisms. Ultrasound activation enables enhanced ROS amplification through coordinated catalytic and semiconductor properties, leading to effective bacterial eradication, biofilm disruption, and tissue repair. This work provides a new design strategy for ultraso",
-   "tags": [
-    "Reactive oxygen species",
-    "chemodynamic therapy",
-    "sonodynamic therapy",
-    "wound healing"
-   ]
-  },
-  {
-   "id": "10.1016/j.jdent.2026.107144",
-   "pmid": "42982218",
-   "doi": "10.1016/j.jdent.2026.107144",
-   "title": "Comparison of Accuracy and Operator Confidence between Freehand and Dynamic Navigation Systems in the Socket-Shield Technique: An In Vitro Model Study",
-   "title_zh": "动态导航vs自由手牙桥保存术精度研究",
-   "journal": "Journal of dentistry",
-   "date": "2026-11-04",
-   "authors": [
-    "Sun Z",
-    "Wang X",
-    "Cao Z",
-    "Wu J",
-    "Hou L",
-    "Li T",
-    "Li C",
-    "Ni J"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42982218/",
-   "pmcid": "",
-   "cited_by": 0,
-   "design": "cohort",
-   "design_label": "队列",
-   "design_level": 5,
-   "sample_n": null,
-   "sample_note": "",
-   "tier": "B",
-   "domain": "其他",
-   "methods": [],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": false,
-   "cluster": "种植技术评估",
-   "one_line": "体外交叉试验显示动态导航显著提高牙桥保存预备精度、降低根尖穿孔率并提升操作者信心。",
-   "so_what": "q1边缘相关：技术层面优化，不涉及免疫微环境或骨结合机制，仅改变手术操作路径。",
-   "caution": "体外模型非活体，n=24偏小， novices为主，临床转化外推需谨慎。",
-   "score": {
-    "final": 32.5,
-    "match": 35.0,
-    "novelty": 30.0,
-    "rigor": 38.0,
-    "impact": 30.0,
-    "transfer": 25.0
-   },
-   "heuristic": 31.0,
-   "breakdown": {
-    "topic": 0.0,
-    "journal": 10.0,
-    "design": 15,
-    "sample": 0.0,
-    "fresh": 6.0,
-    "method": 0.0
-   },
-   "abstract": "OBJECTIVES: To evaluate whether dynamic navigation (DN) improves preparation accuracy and operator confidence compared with freehand (FH) in the socket shield technique among novices, and to explore DN as a training tool. METHODS: Eight novice dentists performed freehand (FH) and dynamic navigation (DN) socket shield preparations on standardized models (crossover). Outcomes included Dice similarity coefficient (DSC), perforation rate, length deviation, and confidence scores. An exploratory phase with four operators (two experienced FH, two novice DN) prepared five maxillary anterior teeth. Due to unbalanced experience and technique and a limited sample size, this phase was analyzed descriptively without inferential testing. RESULTS: In the main experiment, the DN group showed significantly higher DSC (78.0% vs. 63.5%) and lower length deviation (1.12 mm vs. 2.68 mm), with higher self-reported confidence scores (all P<0.01) than FH. Apical perforation occurred in 5/24 FH preparations (20.8%) and 0/24 DN preparations. Attempt number did not significantly affect DSC. In the exploratory phase, novice DN showed a DSC of 72.7% and a length deviation of 1.59 mm, whereas experienced FH showed values of 66.9% and 1.97 mm, respectively. The novice DN observations showed lower dispersion in the two-metric PCA space. CONCLUSIONS: Within the limitations of this in vitro study, DN was associated with greater geometric conformity to the planned preparation, lower length deviation, a lower observed laboratory perforation frequency, and higher operator confidence. The exploratory validation phase showed descriptively similar patterns across different anterior tooth anatomies, although preparation technique and operator experience could not be disentangled. These findings support further investigation of DN as an adjunct to initial technical training and should not be interpreted as evidence of clinical safety or therapeutic efficacy. CLINICAL SIGNIFICANCE: DN may facilitate novice training by providing real-time guidance in vitro; translation to skill acquisition and patient outcomes requires longitudinal and clinical validation.",
-   "tags": [
-    "Dynamic navigation",
-    "Freehand",
-    "Socket-shield technique"
-   ]
-  },
-  {
-   "id": "10.1002/hed.70499",
-   "pmid": "42984456",
-   "doi": "10.1002/hed.70499",
-   "title": "Stereotactic Body Radiation Therapy for Head and Neck Cancers With Perineural Spread",
-   "title_zh": "头颈部癌神经周围扩散的SBRT治疗",
-   "journal": "Head & neck",
+   "id": "10.1007/s00784-026-07243-6",
+   "pmid": "42983117",
+   "doi": "10.1007/s00784-026-07243-6",
+   "title": "Three-dimensional reconstruction of ultrasound imaging in dentistry: a systematic review",
+   "title_zh": "牙科超声成像三维重建系统评价",
+   "journal": "Clinical oral investigations",
    "date": "2026-11-05",
    "authors": [
-    "Lawless AK",
-    "Goodman CD",
-    "Wang CH",
-    "Wang XW",
-    "Frank SJ",
-    "Fuller CD",
-    "Garden AS",
-    "Gunn GB",
-    "Moreno AC",
-    "Morrison WH",
-    "Reddy JP",
-    "Rosenthal DI"
+    "Nalley A",
+    "Torres REG",
+    "Hung KF",
+    "Tanaka R",
+    "Hayashi T",
+    "Tarce M"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42984456/",
-   "pmcid": "",
-   "cited_by": 0,
-   "design": "cohort",
-   "design_label": "队列",
-   "design_level": 5,
-   "sample_n": null,
-   "sample_note": "",
-   "tier": "B",
-   "domain": "颌面肿瘤与分子机制",
-   "methods": [],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": false,
-   "cluster": "头颈肿瘤放疗",
-   "one_line": "多中心回顾36例HNC伴PNS行SBRT，2年OS 79%/PFS 54%/LC 72%，cSCC优于ACC",
-   "so_what": "q5边缘：神经周围扩散是HNC转移途径，但本文无免疫/微生物数据，仅放疗结局",
-   "caution": "n=36单臂回顾，无对照；ACC仅2例失败，统计效力不足",
-   "score": {
-    "final": 32.1,
-    "match": 35.0,
-    "novelty": 25.0,
-    "rigor": 40.0,
-    "impact": 20.0,
-    "transfer": 15.0
-   },
-   "heuristic": 39.0,
-   "breakdown": {
-    "topic": 7.0,
-    "journal": 10.0,
-    "design": 15,
-    "sample": 0.0,
-    "fresh": 7.0,
-    "method": 0.0
-   },
-   "abstract": "BACKGROUND: Perineural spread (PNS) in head and neck cancer (HNC) is technically challenging due to complex target volumes adjacent to critical organs. Data on stereotactic body radiation therapy (SBRT) for PNS is scarce. METHODS: This retrospective study included patients treated with SBRT for PNS across two centers in the USA and Canada from 2015 to 2025. Endpoints included overall survival (OS), progression-free survival (PFS), local control (LC), and treatment-related toxicity. RESULTS: Thirty-six patients were included, with median follow up of 47.5 months. Two-year OS, PFS, and LC were 79%, 54%, and 72% respectively. Patients with cutaneous squamous cell carcinoma (cSCC) had superior PFS and LC compared with non-cSCC histologies. Adenoid cystic carcinoma (ACC) accounted for the only in-field failures. Grade ≥ 3 toxicity occurred in 22% (8/36), including grade ≥ 3 osteoradionecrosis in 6% (2/36). Temporal lobe necrosis was solely Grade 1-2 (32%). CONCLUSIONS: SBRT demonstrated durable LC for selected patients with PNS, particularly cSCC, while ACC may warrant a dose-escalated approach.",
-   "tags": [
-    "Skull Base",
-    "perineural spread",
-    "stereotactic body radiation therapy"
-   ]
-  },
-  {
-   "id": "10.1111/odi.70560",
-   "pmid": "42989707",
-   "doi": "10.1111/odi.70560",
-   "title": "Systemic Therapies for Recurrent Aphthous Stomatitis: A Systematic Review of Efficacy and Safety",
-   "title_zh": "复发性阿弗他口炎全身治疗系统评价",
-   "journal": "Oral diseases",
-   "date": "2026-11-05",
-   "authors": [
-    "Sánchez Sáez G",
-    "Gómez García FJ",
-    "Ruíz Roca JA",
-    "Galera Molero F"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42989707/",
-   "pmcid": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983117/",
+   "pmcid": "PMC13736472",
    "cited_by": 0,
    "design": "meta",
    "design_label": "系统评价/Meta",
    "design_level": 7,
-   "sample_n": null,
-   "sample_note": "",
+   "sample_n": 6,
+   "sample_note": "n=6",
    "tier": "B",
-   "domain": "牙周炎通过哪些可验证的通…",
-   "methods": [
-    "rct"
-   ],
+   "domain": "牙周与宿主免疫",
+   "methods": [],
    "pub_types": [
     "Journal Article",
+    "Systematic Review",
     "Review"
    ],
-   "is_open_access": false,
-   "cluster": "黏膜免疫与治疗",
-   "one_line": "PRISMA系统评价：沙利度胺等全身药物对RAS有效但安全性受限，证据异质性大仅作定性合成。",
-   "so_what": "沙利度胺/IL-1β通路与你q1免疫微环境有部分机制重叠，可借用法学框架评估RAS免疫治疗证据等级。",
-   "caution": "定性合成因异质性无法Meta，结论证据层级受限。",
+   "is_open_access": true,
+   "cluster": "医学成像技术",
+   "one_line": "系统评价13项研究，机械扫描与机器人控制精度更高。",
+   "so_what": "与q4（材料表面评估）间接相关，成像方法可迁移至材料表征。",
+   "caution": "多数为体外研究，临床适用性有限。",
    "score": {
-    "final": 30.0,
-    "match": 25.0,
-    "novelty": 25.0,
-    "rigor": 40.0,
-    "impact": 15.0,
-    "transfer": 15.0
+    "final": 30.8,
+    "match": 15.0,
+    "novelty": 40.0,
+    "rigor": 50.0,
+    "impact": 20.0,
+    "transfer": 30.0
    },
-   "heuristic": 46.0,
+   "heuristic": 39.3,
    "breakdown": {
-    "topic": 8.8,
+    "topic": 2.0,
     "journal": 10.0,
     "design": 18,
-    "sample": 0.0,
+    "sample": 2.3,
     "fresh": 7.0,
-    "method": 2.2
+    "method": 0.0
    },
-   "abstract": "OBJECTIVES: To evaluate the efficacy and safety of systemic pharmacological and nutritional interventions for recurrent aphthous stomatitis (RAS). MATERIALS AND METHODS: Following PRISMA 2020, five databases were searched for studies published from 2001 to 2026. Clinical trials and analytical observational studies of systemic treatments for RAS were included. Risk of bias was assessed using design-appropriate tools. Owing to clinical and methodological heterogeneity, findings were synthesized qualitatively. RESULTS: Twenty studies were included: 16 randomized trials, three non-randomized intervention studies, and one observational cohort. Interventions included corticosteroids, colchicine, thalidomide, levamisole, pentoxifylline, dapsone, clofazimine, sulodexide, montelukast, roflumilast, rebamipide, vitamin B12, vitamin C, multivitamins, zinc, and omega-3 fatty acids. Several therapies improved pain, ulcer burden, healing, or recurrence-related outcomes, but comparative evidence was inconsistent. Thalidomide showed potential benefit but important safety limitations and a high risk of bias. Nutritional interventions showed mixed results. CONCLUSIONS: Selected systemic therapies may benefit severe, frequent, or refractory RAS, but no intervention can be considered clearly superior. Evidence certainty is limited by heterogeneity, small samples, limited direct comparisons, and risk of bias.",
+   "abstract": "BACKGROUND: Three-dimensional ultrasound (3D-US) reconstruction has emerged as a potential solution to the limited field of view and operator dependence of two-dimensional intraoral ultrasonography. Multiple acquisition, tracking, and reconstruction strategies have been proposed, yet no prior systematic review has synthesized the methods used specifically within dentistry. OBJECTIVE: To identify and compare 3D-US reconstruction techniques applied in dentistry and evaluate how acquisition strategy, spatial tracking, and reconstruction methodology influence accuracy, reproducibility, feasibility, and clinical applicability. METHODS: A systematic search of 5 databases was performed. Studies were included in the review if they used ultrasound imaging with any 3D-US reconstruction method for a defined dental application. Risk of bias was assessed using a customized hybrid QUADAS-2/QUIN/STARD framework. RESULTS: Thirteen studies (2010-2025) met the inclusion criteria; 10 were in vitro and 3 in vivo. Acquisition methods included mechanized linear-stage scanning (n = 6), robotic arm control (n = 2), tracked freehand (n = 2), untracked freehand (n = 1), and custom intraoral jigs (n = 2). Accuracy ranged from 12 to 50 μm for digital impressions to sub-millimeter deviations for periodontal and ridge assessments, with most error rates below 10%. Reproducibility and clinical feasibility were both inversely related to hardware complexity: mechanized and robotic systems achieved the highest precision and enabled precise positioning for repeated evaluations; however, they had the lowest clinical usability. Conversely, freehand approaches demonstrated the strongest clinical potential but at the expense of reproducible positioning and highly precise measurements. Risk of bias was high or unclear in all studies due to heterogeneity, small sample sizes, and limited in vivo validation. CONCLUSIONS: Over 15 years, 3D-US reconstruction in dentistry has advanced substantially, demonstrating promising accuracy for digital impressions, periodontal assessment, ridge measurement, and implant planning. However, most studies remain feasibility-based and in vitro, and methodological variation limits comparability. Future progress will depend on standardization of validation frameworks, increased in vivo accuracy studies, and development of compact, automated acquisition workflows. With co",
    "tags": [
-    "colchicine",
-    "corticosteroids",
-    "immunomodulatory agents",
-    "oral ulcers",
-    "recurrent aphthous stomatitis",
-    "systematic review"
+    "Dental ultrasonography",
+    "Intraoral ultrasound",
+    "Three-dimensional ultrasound",
+    "Volumetric reconstruction"
    ]
   }
  ],
