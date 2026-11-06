@@ -642,11 +642,13 @@ a:hover { text-decoration-thickness: 2px; }
 .must-wrap.is-read::after { top: 8px; right: -8px; }
 
 /* ---------------------------------------------------------- motion */
-.reveal { opacity: 0; transform: translateY(12px); animation: rise 0.7s var(--ease) forwards; }
-@keyframes rise { to { opacity: 1; transform: none; } }
+/* Animate from the keyframes, not from a base opacity:0 — if animations are
+   disabled (reduced motion, headless, reader mode) the content stays visible. */
+.reveal { animation: rise 0.7s var(--ease) both; }
+@keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
 
 @media (prefers-reduced-motion: reduce) {
-  .reveal { animation: none; opacity: 1; transform: none; }
+  .reveal { animation: none; }
   .bar i { transition: none; }
 }
 
