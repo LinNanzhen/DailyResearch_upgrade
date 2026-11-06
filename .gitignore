@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env.local
+.preview/
+.DS_Store
+feedback/inbox/*.json.done
