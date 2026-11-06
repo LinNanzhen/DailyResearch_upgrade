@@ -420,7 +420,7 @@
       exported_at: new Date().toISOString(),
       read: ids.filter((id) => store.read.has(id)),
       saved: ids.filter((id) => store.saved.has(id)),
-      dismissed: [...store.dismissed].filter((id) => ids.includes(id)),
+      dismissed: [...store.dismissed],
     };
     if (!payload.read.length && !payload.saved.length && !payload.dismissed.length) {
       toast("今天还没有标记，先读一篇");

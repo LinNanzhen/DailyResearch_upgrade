@@ -100,7 +100,7 @@ def run(args: argparse.Namespace) -> int:
             p.update({k: s[k] for k in ("cluster", "one_line", "so_what", "caution", "title_zh")})
             p["ai"] = True
         else:
-            p["score"] = {"final": p["heuristic"]}
+            p["score"] = {"final": round(p["heuristic"] * (0.85 if use_llm else 1.0), 1)}
             p["cluster"] = p.get("domain", "未归类")
             p["one_line"] = ""
             p["so_what"] = ""
