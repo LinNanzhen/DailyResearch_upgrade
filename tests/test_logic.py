@@ -146,33 +146,31 @@ class TestSelection(unittest.TestCase):
         self.assertFalse(score.is_dental(bad))
         self.assertTrue(score.is_dental(good))
 
-    def test_relative_scan_floor(self):
+    def test_rank_based_quota(self):
         profile = load_profile()
-        profile["quota"]["min_scan_score"] = 40
-        profile["quota"]["max_gap_from_top"] = 25
-        finals = [63, 55, 45, 42, 30]
+        profile["quota"]["must_read"] = 2
+        profile["quota"]["scan"] = 3
         papers = []
-        for i, final in enumerate(finals):
+        for i, final in enumerate([63, 55, 45, 42, 30]):
             p = score.attach(fake_paper(id=f"r{i}", title=f"Study {i}", journal=f"J{i}", date="2026-11-05"), profile, {"journal of dental research": "A"}, date(2026, 11, 6))
             p["score"] = {"final": final}
             p["domain"] = f"D{i}"
             papers.append(p)
         picked = score.select(papers, profile)
-        finals_shown = [p["score"]["final"] for p in picked["scan"]]
-        self.assertIn(45, finals_shown)
-        self.assertNotIn(30, finals_shown)
+        self.assertEqual(len(picked["must_reads"]), 2)
+        self.assertEqual(len(picked["scan"]), 3)
 
-    def test_scan_floor_drops_weak_items(self):
+    def test_skip_flag_excluded(self):
         profile = load_profile()
-        profile["quota"]["min_scan_score"] = 70
         papers = []
-        for i, final in enumerate([90, 65, 60, 55]):
-            p = score.attach(fake_paper(id=f"f{i}", title=f"Study {i}", journal=f"J{i}", date="2026-11-05"), profile, {"journal of dental research": "A"}, date(2026, 11, 6))
+        for i, final in enumerate([60, 55, 50]):
+            p = score.attach(fake_paper(id=f"s{i}", title=f"S{i}", journal=f"J{i}", date="2026-11-05"), profile, {"journal of dental research": "A"}, date(2026, 11, 6))
             p["score"] = {"final": final}
             p["domain"] = f"D{i}"
+            p["skip"] = i == 0
             papers.append(p)
         picked = score.select(papers, profile)
-        self.assertEqual(len(picked["scan"]), 0)
+        self.assertNotIn("s0", [x["id"] for x in picked["must_reads"] + picked["scan"]])
 
     def test_empty_pool(self):
         picked = score.select([], load_profile())

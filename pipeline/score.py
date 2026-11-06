@@ -281,9 +281,8 @@ def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, A
 
     target_must = int(quota.get("must_read", 1) or 1)
     target_scan = int(quota.get("scan", 3) or 0)
-    top_final = ranked[0]["score"]["final"]
-    abs_floor = float(quota.get("min_scan_score", 0) or 0)
-    floor = max(abs_floor, top_final - float(quota.get("max_gap_from_top", 25) or 25))
+    # Rank-based quota: always take the best N of the day. Absolute score floors
+    # proved brittle because the model compresses everything into 35–65.
 
     def long_enough(p: Dict[str, Any]) -> bool:
         return len(p.get("abstract", "")) >= 250
@@ -295,7 +294,7 @@ def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, A
     for p in ordered:
         if len(musts) >= target_must:
             break
-        if not long_enough(p) or p["id"] in used_ids:
+        if not long_enough(p) or p["id"] in used_ids or p.get("skip"):
             continue
         if p["journal_key"] in used_journals or p["domain"] in used_domains:
             continue
@@ -306,7 +305,7 @@ def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, A
     for p in ordered:  # relax diversity if the pool is narrow
         if len(musts) >= target_must:
             break
-        if p["id"] in used_ids or not long_enough(p):
+        if p["id"] in used_ids or not long_enough(p) or p.get("skip"):
             continue
         musts.append(p)
         used_ids.add(p["id"])
@@ -319,8 +318,8 @@ def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, A
             break
         if p["id"] in used_ids:
             continue
-        if p["score"]["final"] < floor:
-            break
+        if p.get("skip"):
+            continue
         if p["journal_key"] in used_journals or p["domain"] in used_domains:
             continue
         scans.append(p)
@@ -332,8 +331,8 @@ def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, A
             break
         if p["id"] in used_ids:
             continue
-        if p["score"]["final"] < floor:
-            break
+        if p.get("skip"):
+            continue
         scans.append(p)
         used_ids.add(p["id"])
 
@@ -342,8 +341,8 @@ def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, A
             break
         if p["id"] in used_ids:
             continue
-        if p["score"]["final"] < abs_floor:
-            break
+        if p.get("skip"):
+            continue
         scans.append(p)
         used_ids.add(p["id"])
 

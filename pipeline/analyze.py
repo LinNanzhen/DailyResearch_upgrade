@@ -176,6 +176,8 @@ def deep_read(llm: AgnesLLM, profile: Dict[str, Any], paper: Dict[str, Any]) -> 
 }}
 只输出对象。"""
     data = llm.chat_json([{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}], max_tokens=2600)
+    if isinstance(data, list):
+        data = next((x for x in data if isinstance(x, dict)), None)
     if not isinstance(data, dict):
         raise LLMError("deep read returned non-object")
     return _clean_deep(data)
