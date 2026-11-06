@@ -1,56 +1,54 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06T21:33:56+08:00",
+ "generated_at": "2026-11-06T21:39:47+08:00",
  "model": "heuristic-only",
  "ai": false,
  "usage": {
-  "calls": 4,
-  "prompt_tokens": 20270,
-  "completion_tokens": 12734
+  "calls": 3,
+  "prompt_tokens": 15210,
+  "completion_tokens": 10800
  },
  "stats": {
   "candidates": 179,
   "raw": 172,
-  "fetched": 152,
+  "fetched": 148,
   "raw_dropped_type": 15,
   "no_abstract": 1,
-  "gated": 152,
+  "gated": 148,
   "scored": 0,
   "shown": 4,
   "ai": false,
   "feedback_files": 0,
-  "calls": 4
+  "calls": 3
  },
  "must_read": {
-  "id": "10.1177/00220345261493921",
-  "pmid": "42978299",
-  "doi": "10.1177/00220345261493921",
-  "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+  "id": "10.1177/00220345261493495",
+  "pmid": "42978330",
+  "doi": "10.1177/00220345261493495",
+  "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
   "title_zh": null,
   "journal": "Journal of dental research",
   "date": "2026-11-03",
   "authors": [
-   "Elebyary O",
-   "Liu R",
-   "Lee J",
-   "Dukuray M",
-   "Tsang J",
-   "Sun C",
-   "Mojdami D",
-   "Bendayan Y",
-   "Watson E",
-   "Lipton JH",
-   "Coburn B",
-   "Glogauer M"
+   "Imai C",
+   "Ohsugi Y",
+   "Lin P",
+   "Toyoshima K",
+   "Hirota T",
+   "Sekiguchi M",
+   "Shiba T",
+   "Iwata T",
+   "Uesaka N",
+   "Katagiri S"
   ],
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
   "pmcid": "",
   "cited_by": 0,
-  "design": "cohort",
-  "design_label": "队列",
-  "design_level": 5,
-  "sample_n": 489,
-  "sample_note": "n=489 patients",
+  "design": "animal",
+  "design_label": "动物实验",
+  "design_level": 2,
+  "sample_n": null,
+  "sample_note": "",
   "tier": "A",
   "domain": "牙周与宿主免疫",
   "methods": [],
@@ -63,56 +61,56 @@
   "so_what": "",
   "caution": "",
   "score": {
-   "final": 65.5
+   "final": 58.2
   },
-  "heuristic": 65.5,
+  "heuristic": 58.2,
   "breakdown": {
-   "topic": 23.3,
+   "topic": 29.2,
    "journal": 15.0,
-   "design": 15,
-   "sample": 7.2,
+   "design": 9,
+   "sample": 0.0,
    "fresh": 5.0,
    "method": 0.0
   },
-  "abstract": "This study aimed to investigate how periodontitis would alter bloodstream infections (BSIs) in patients undergoing allogeneic hematopoietic stem cell transplantation (allo-HSCT). We hypothesized that periodontitis would alter the microbiological profile of BSIs, particularly the relative prevalence of viridans group streptococci (VGS), common oral bacteria frequently implicated in BSIs in allo-HSCT recipients, and other non-VGS organisms. We further investigated whether these microbiological changes were associated with clinical outcomes and alterations in VGS-specific humoral immune responses. A retrospective cohort (n = 489 patients, 2010-2020) and a prospective cohort (n = 149 patients, 2021-2022) were included for this observational study recruited from Princess Margaret Cancer Centre. Patients were categorized based on pretransplant history of periodontitis. BSIs occurring during the hospitalization period and mortality up to 1,000 days posttransplant were compared between patients with and without periodontitis. Pretransplant serum samples from the prospective cohort were analyzed for VGS-specific IgG and IgA using flow cytometry. There was no difference in the rates of BSI between groups; however, in the retrospective cohort, patients with a history of periodontitis had a higher incidence of non-VGS BSIs (76.7% vs. 56.8%, P = 0.019). A similar, though nonsignificant, trend was observed in the prospective cohort (63.4% vs. 45.8%, P = 0.16). Notably, the shift toward non-VGS BSIs was stage-dependent, increasing with advanced periodontitis in both cohorts (P = 0.009 and P = 0.025, respectively). Patients with periodontitis had almost double the risk of mortality compared to those without (retrospective: hazard ratio [HR] = 1.86; 95% confidence interval [CI] = 1.31-2.69; P < 0.001; prospective: HR = 1.82; 95% CI = 0.98-3.57; P = 0.06). Elevated VGS-specific IgG and IgA levels were observed in patients with periodontitis, with lower IgG levels correlating with VGS BSIs. History of periodontitis was associated with differences in BSI microbiology, including a higher proportion of non-VGS BSIs among patients who developed BSIs, and with poorer survival outcomes in allo-HSCT recipients.",
+  "abstract": "The combined effects of chronic maternal periodontitis on offspring gut microbiome and brain outcomes remain unclear. This study aimed to evaluate the effects of maternal oral microbiome disruption on brain function and gut microbiome in offspring. Periodontitis was induced in 11- to 12-wk-old parous C57BL/6J mice by maintaining ligatures around both sides of the maxillary second molars for 4 wk, followed by breeding with naïve male mice. Maternal oral and gut microbiome, as well as the offspring gut microbiome, was analyzed by 16S rRNA gene sequencing. Male offspring were evaluated at 7 to 8 wk of age via a set of analyses, including behavioral tests, microbiome profiling, RNA sequencing, immunohistochemistry for glial cell populations, and in vivo calcium imaging. Cerebellar DNA methylation was assessed at embryonic day 18.5 to examine early epigenetic alterations. Maternal periodontitis significantly reduced microbial diversity in the maternal oral microbiome and altered the composition of the maternal gut microbiome. In offspring, α-diversity was reduced in the gut microbiome. Behavioral analyses revealed impaired social interaction and reduced spontaneous locomotion, while motor coordination and memory-related behaviors were preserved. RNA sequencing identified region-specific changes in gene expression, particularly in the cerebellum, highlighting its vulnerability to maternal inflammatory conditions. DNA methylation analysis revealed epigenetic alterations during the fetal stage, suggesting early programming effects. Immunohistochemical analysis demonstrated a significant increase in astrocyte density in the cerebellum and frontal cortex, whereas oligodendrocytes and microglia were unaffected. Furthermore, calcium imaging revealed disrupted neuronal synchrony among Purkinje cells without significant changes in individual neuronal activity parameters. Maternal oral microbiome disruption induces coordinated alterations in maternal and offspring microbiomes and leads to persistent neurobehavioral, molecular, and cellular changes in offspring. These findings provide new insights into the link between maternal oral health and offspring neurodevelopment, highlighting the potential role of microbiome-mediated mechanisms in shaping brain function.",
   "tags": [
-   "alveolar bone loss",
-   "humoral immunity",
-   "immunoglobulins",
-   "mortality",
-   "neutropenia",
-   "viridans streptococci"
+   "DNA methylation",
+   "astrocytes",
+   "microbiome",
+   "neurodevelopment",
+   "periodontal diseases",
+   "social behavior"
   ]
  },
  "scan": [
   {
-   "id": "10.1016/j.actbio.2026.10.065",
-   "pmid": "42982156",
-   "doi": "10.1016/j.actbio.2026.10.065",
-   "title": "Long-Term Structural Stability and Maturation of Centimeter-Scale Stretch-Grown Sensory Axons Following Collagen Encapsulation",
+   "id": "10.1016/j.actbio.2026.11.007",
+   "pmid": "42982153",
+   "doi": "10.1016/j.actbio.2026.11.007",
+   "title": "Protein nanocages: Programmable biomaterial platforms for therapeutics, bioimaging, and diagnostics",
    "title_zh": null,
    "journal": "Acta biomaterialia",
    "date": "2026-11-04",
    "authors": [
-    "Vargas VA",
-    "Lin C",
-    "Shultz RB",
-    "Lee HH",
-    "Cullen DK"
+    "Shin J",
+    "Jung S",
+    "Lee AS",
+    "Kim CS"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42982156/",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982153/",
    "pmcid": "",
    "cited_by": 0,
-   "design": "cohort",
-   "design_label": "队列",
-   "design_level": 5,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
    "sample_n": null,
    "sample_note": "",
    "tier": "A",
    "domain": "生物材料表面/降解产物如…",
    "methods": [],
    "pub_types": [
-    "Journal Article"
+    "Journal Article",
+    "Review"
    ],
    "is_open_access": false,
    "cluster": "生物材料表面/降解产物如…",
@@ -120,135 +118,140 @@
    "so_what": "",
    "caution": "",
    "score": {
-    "final": 57.6
+    "final": 53.0
    },
-   "heuristic": 57.6,
+   "heuristic": 53.0,
    "breakdown": {
-    "topic": 21.6,
+    "topic": 22.0,
     "journal": 15.0,
-    "design": 15,
+    "design": 10,
     "sample": 0.0,
     "fresh": 6.0,
     "method": 0.0
    },
-   "abstract": "Peripheral nerve injury (PNI) remains a significant clinical challenge due to limited biologically active regeneration strategies. Tissue engineered nerve grafts (TENGs) comprising long-projecting, stretch-grown axon tracts have emerged as a promising strategy to guide regeneration by creating a living bridge guiding and aiding native regeneration processes. However, their long-term structural stability remains incompletely understood. In this study, we evaluated the effects of dorsal root ganglia (DRG) plating density on the structural stability and morphology of mechanically stretch-grown TENGs over 5-7 weeks after three-dimensional collagen-encapsulation and removal from the mechanobioreactor. TENGs generated from 20, 40, or 80 DRG maintained neuronal-axonal phenotype and exhibited robust longitudinal axonal alignment across all conditions. While higher-density TENGs demonstrated a modest but significant reduction in length over time, overall contraction remained limited, and contraction rates were not significantly different among the groups. Stretch-grown axons maintained over 90% of their immediate post-stretch length out to 5-7 weeks post-encapsulation. Higher density TENGs also exhibited increased integration and fusion of DRG, forming continuous neuronal somatic fields and the ends of the TENGs and running perpendicular to the stretch-grown axons. Moreover, quantitative analyses revealed density- and time-dependent remodeling of axonal fascicular architecture, characterized by increased fascicle diameter without substantial changes in fascicle number, consistent with progressive axonal thickening, bundling and network consolidation. Despite this maturation-associated remodeling, TENGs preserved overall structural integrity and alignment through 7 weeks in culture. Collectively, these findings establish TENGs as mechanically stable, dynamically remodeling tissues and support their potential use as nerve repair strategies requiring graft stability over clinically relevant timeframes. STATEMENT OF SIGNIFICANCE: Tissue-engineered nerve grafts (TENGs) use living, stretch-grown axons to guide repair after peripheral nerve injury, but their long-term structural stability has remained unclear. In this study, we show that collagen-encapsulated TENGs generated with different dorsal root ganglia densities remain intact for up to seven weeks, preserve longitudi",
+   "abstract": "Protein nanocages are monodisperse, hollow structures formed through the symmetric self-assembly of protein subunits. Their genetically encoded architectures combine the geometric precision of nanoscale assemblies with the intrinsic biocompatibility and functional versatility of naturally evolved proteins. Well-defined internal cavities and engineerable interior and exterior surfaces enable the spatial organization of therapeutic cargoes, molecular recognition elements, and bioactive components within a single nanoscale platform. In this Review, we examine the structural organization, self-assembly mechanisms, physicochemical properties, and functional diversity of representative protein nanocages, including ferritin, the pyruvate dehydrogenase E2 core, DNA-binding proteins from starved cells (Dps), small heat shock proteins (sHSPs), encapsulins, and lumazine synthase. We discuss how their structural features and assembly behavior govern biological performance and support biomedical applications in targeted drug delivery, cancer immunotherapy, vaccine development, and in vivo and in vitro diagnostics. Beyond describing individual platforms, we establish a unifying framework that positions protein nanocages as programmable molecular organizers and highlights five transferable design principles: multivalent ligand display, spatial compartmentalization, receptor-guided targeting, reporter organization and signal enhancement, and stimulus-responsive cargo release and functional activation. We also examine persistent challenges in structural stability, immunogenicity, scalable manufacturing, and clinical translation, alongside emerging opportunities in protein engineering, synthetic biology, and computational protein design. Collectively, these principles establish protein nanocages as versatile biomaterial platforms for integrating sensing, targeting, imaging, and therapy within a single molecular architecture, providing a foundation for next-generation precision nanomedicine. STATEMENT OF SIGNIFICANCE: Reviews typically treat protein nanocages individually, obscuring shared structural features and the extent to which design strategies transfer across systems. This Review addresses this gap by establishing a comparative framework spanning structurally diverse nanocages and distilling their similarities into a concise set of generalizable design principles. It re",
    "tags": [
-    "Collagen Hydrogel",
-    "Living Biomaterials",
-    "Neural Tissue Engineering",
-    "Peripheral Nerve Regeneration"
+    "Precision nanomedicine",
+    "Programmable biomaterials",
+    "Protein engineering",
+    "Protein nanocages",
+    "Targeted drug delivery"
    ]
   },
   {
-   "id": "10.1111/cdoe.70142",
-   "pmid": "42984489",
-   "doi": "10.1111/cdoe.70142",
-   "title": "Fifteen Years of the PUFA Index in Oral Epidemiology: A Systematic Review of Global Application and Reporting",
+   "id": "10.1111/odi.70563",
+   "pmid": "42989576",
+   "doi": "10.1111/odi.70563",
+   "title": "Metronomic Tegafur-Uracil Maintenance Therapy in Oral Squamous Cell Carcinoma Following Adjuvant Chemoradiotherapy",
    "title_zh": null,
-   "journal": "Community dentistry and oral epidemiology",
+   "journal": "Oral diseases",
    "date": "2026-11-05",
    "authors": [
-    "Nagdeo KP",
-    "van Wely J",
-    "Duijster D",
-    "Monse B",
-    "Kozman R",
-    "Deierlein AL",
-    "Benzian H"
+    "Lu HJ",
+    "Chiu YW",
+    "Tseng HC",
+    "Peng CY",
+    "Hsin CH",
+    "Chuang CY",
+    "Wu MF",
+    "Huang WS"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42984489/",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42989576/",
    "pmcid": "",
    "cited_by": 0,
-   "design": "meta",
-   "design_label": "系统评价/Meta",
-   "design_level": 7,
-   "sample_n": 4438,
-   "sample_note": "260 项研究",
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": null,
+   "sample_note": "",
    "tier": "B",
-   "domain": "儿童口腔与预防",
-   "methods": [],
-   "pub_types": [
-    "Journal Article",
-    "Review"
-   ],
-   "is_open_access": false,
-   "cluster": "儿童口腔与预防",
-   "one_line": "",
-   "so_what": "",
-   "caution": "",
-   "score": {
-    "final": 57.2
-   },
-   "heuristic": 57.2,
-   "breakdown": {
-    "topic": 14.2,
-    "journal": 10.0,
-    "design": 18,
-    "sample": 8.0,
-    "fresh": 7.0,
-    "method": 0.0
-   },
-   "abstract": "OBJECTIVES: The PUFA index records the presence of pulpal involvement, ulceration, fistula, and abscess to quantify the clinical consequences of untreated dental caries. The PUFA index captures the prevalence and severity of oral conditions, making it useful for surveillance, research, and advocacy. After 15 years of global use, this systematic review synthesises how the PUFA index has been applied and reported. METHODS: Following PRISMA 2020 guidelines, seven databases were searched: PubMed, Embase, Scopus, Web of Science, CINAHL, Global Health, and Google Scholar. Eligible studies were published between 2010 and 2025 and reported original epidemiological data using the PUFA index. Data extraction captured study design, population, dentition type, PUFA reporting formats, examiner details, and use of complementary indices. Descriptive synthesis was performed with high inter-rater reliability among reviewers (96.5%). RESULTS: Out of 4438 records, 260 studies from 53 countries met the inclusion criteria. PUFA was predominantly applied in low- and middle-income countries across the life course, but with a focus on children and adolescents. Nearly half of the studies (48.8%) examined associations between PUFA and health outcomes, and over one-third (37.7%) applied PUFA in population surveillance. Reporting practices varied, and examiner type was specified in about half of the studies (47.3%), with dentists being the most common (82.9%). While methodological rigour was generally good, there were inconsistencies in reporting formats and limited availability of inter- and intra-examiner reliability data. CONCLUSIONS: The PUFA index is a recognized oral health index that has shown steady adoption across numerous studies and diverse populations. Its global credibility has positioned it for integration into modern surveillance frameworks, including the updated WHO STEPS Oral Health Module. Future priorities include standardizing reporting, strengthening integration into surveillance systems, and exploring how the PUFA index can be used in program evaluation to better inform policy and reduce oral health inequities.",
-   "tags": [
-    "dental caries",
-    "dental health surveys",
-    "epidemiology",
-    "public health dentistry",
-    "public health surveillance",
-    "tooth diseases"
-   ]
-  },
-  {
-   "id": "10.1111/clr.70195",
-   "pmid": "42984420",
-   "doi": "10.1111/clr.70195",
-   "title": "Probe Accuracy and Agreement and Patient Preferences in Peri-Implant Probing Depth Assessment: A Cross-Sectional Study",
-   "title_zh": null,
-   "journal": "Clinical oral implants research",
-   "date": "2026-11-05",
-   "authors": [
-    "Mayol M",
-    "Bertl K",
-    "Pandis N",
-    "Stavropoulos A"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42984420/",
-   "pmcid": "",
-   "cited_by": 0,
-   "design": "cross_sectional",
-   "design_label": "横断面",
-   "design_level": 3,
-   "sample_n": 85,
-   "sample_note": "n=85 implants",
-   "tier": "B",
-   "domain": "种植体周的免疫微环境（巨…",
+   "domain": "口腔鳞癌的免疫微环境与微…",
    "methods": [],
    "pub_types": [
     "Journal Article"
    ],
    "is_open_access": false,
-   "cluster": "种植体周的免疫微环境（巨…",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
    "one_line": "",
    "so_what": "",
    "caution": "",
    "score": {
-    "final": 52.6
+    "final": 49.8
    },
-   "heuristic": 52.6,
+   "heuristic": 49.8,
    "breakdown": {
-    "topic": 20.4,
+    "topic": 17.8,
     "journal": 10.0,
-    "design": 10,
-    "sample": 5.2,
+    "design": 15,
+    "sample": 0.0,
     "fresh": 7.0,
     "method": 0.0
    },
-   "abstract": "OBJECTIVES: To record the accuracy and agreement of three types of probes (i.e., a common metal probe and two types of flexible probes) for peri-implant probing depth (PD) assessment, including patient-reported outcomes (PRO). METHODS: Fifty patients (85 implants) with an implant-supported restoration were included. Peri-implant PD was recorded with a metal, plastic, and electronic probe. Pain/discomfort and patient preference were registered. After removing the prosthetic restoration, the correct peri-implant PD (cPD), the mucosal height (MH), and the PD measured from the implant level (iPD) were assessed. RESULTS: Good accuracy and agreement were noted for PD measurements with the metal and plastic probe. They differed in approximately 80% of the measurements by < 1.5 mm from cPD, and on average, an underestimation of 0.5 mm occurred. The accuracy of the metal probe was negatively influenced by a thick peri-implant mucosal phenotype. A direct comparison of the metal and plastic probes showed perfect agreement in 68.7% of the cases. Patients reported significantly less pain/discomfort when the plastic probe was used compared to the metal probe. The electronic probe was unreliable and differed by ≥ 1.5 mm from cPD in 65% of the measurements. CONCLUSIONS: While the electronic probe was unreliable, the metal and plastic probes were relatively accurate and comparable for assessing peri-implant PD; the plastic probe caused less pain/discomfort. However, in approximately 1/5 of the measurements a ≥ 1.5 mm deviation from the correct value (cPD) may occur, and the accuracy of the metal probe appears negatively influenced by a thick peri-implant mucosal phenotype. TRIAL REGISTRATION: The protocol was registered at clinicaltrials.gov (NCT05332327).",
+   "abstract": "OBJECTIVE: Oral cavity squamous cell carcinoma (OCSCC) is the predominant subtype of head and neck squamous cell carcinoma in Taiwan. Despite the guideline-recommended adjuvant chemoradiotherapy (CRT) for advanced pathological risk factors, long-term survival remains suboptimal. We evaluated the efficacy of tegafur-uracil as metronomic maintenance therapy following adjuvant CRT. METHODS: This single-center retrospective cohort study analyzed 197 OCSCC patients who underwent curative resection followed by adjuvant CRT. Patients were stratified by receipt of metronomic tegafur-uracil maintenance therapy. Survival outcomes were assessed using Cox proportional hazards regression and Kaplan-Meier analyses. RESULTS: Patients receiving metronomic maintenance therapy (49.2%, 97/197) demonstrated favorable survival trends compared with those who did not. Five-year disease-free survival and disease-specific survival rates were 57.4% vs. 53.0% (p = 0.101), and 70.1% versus 60.8% (p = 0.092), respectively. Patients with ≥ 2 risk factors-extreme body mass index, positive margins, extranodal extension, and advanced depth of invasion-demonstrated significantly better outcomes following metronomic maintenance therapy. Therapy initiation at 1-3 months post-CRT and a treatment duration exceeding 12 months were also associated with a better prognosis. CONCLUSION: Metronomic tegafur-uracil maintenance therapy was associated with favorable outcomes, particularly in patients presenting with ≥ 2 identified risk factors. Prospective multicenter validation is warranted.",
    "tags": [
-    "dental implant",
-    "diagnosis",
+    "adjuvant chemoradiotherapy",
+    "maintenance chemotherapy",
+    "metronomic administration",
+    "oral cavity squamous cell carcinoma",
+    "survival analysis"
+   ]
+  },
+  {
+   "id": "10.1111/clr.70199",
+   "pmid": "42989498",
+   "doi": "10.1111/clr.70199",
+   "title": "Immediate Implants With or Without a Volume Stable Collagen Matrix: A Randomized Clinical Trial",
+   "title_zh": null,
+   "journal": "Clinical oral implants research",
+   "date": "2026-11-05",
+   "authors": [
+    "Cinquini C",
+    "Baldi N",
+    "Izzetti R",
+    "Simonini R",
+    "Buti J",
+    "Barone A"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42989498/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 40,
+   "sample_note": "n=40 patients",
+   "tier": "B",
+   "domain": "种植与骨再生",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "种植与骨再生",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 49.4
+   },
+   "heuristic": 49.4,
+   "breakdown": {
+    "topic": 7.9,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 4.3,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "AIM: This randomized clinical trial evaluated soft tissue thickness (STT) around immediate implants with or without soft tissue augmentation using a volume-stable collagen matrix (VCMX). Secondary outcomes included clinical, esthetic, volumetric, and patient-reported outcomes. MATERIALS AND METHODS: Participants received immediate implants in the anterior esthetic zone with (Test) or without (Control) simultaneous VCMX augmentation. Outcomes were assessed before surgery, immediately after surgery, and at 6 and 12 months. The primary outcome was STT. Within- and between-group comparisons were performed using the Friedman rank test and Mann-Whitney U test, respectively. Secondary outcomes included mucosal level (ML), marginal bone level (MBL), esthetic and patient-reported outcomes, and volumetric changes. RESULTS: Thirty-eight out of 40 patients completed the study. STT was significantly greater in the Test group at all follow-ups (p < 0.05). At 12 months, STT in the Test group increased significantly at 3 mm from the gingival margin (1.85 mm, SE 0.19, p < 0.0001) and non-significantly at 6 mm (1.29 mm, SE 0.24, p = 0.0917), whereas STT in the Control group decreased non-significantly at 3 mm (0.18 mm, SE 0.18, p = 0.6213) and at 6 mm (0.36 mm, SE 0.10, p = 0.1054). ML remained stable in the Test group but showed significant recession in the Control group. Selected esthetic and patient-reported outcomes favored the Test group. MBL did not change significantly over time in either group. Volumetric analysis showed no significant change over time in the Test group, whereas the Control group showed significant shrinkage (p = 0.0201). CONCLUSIONS: VCMX augmentation may improve soft tissue stability around immediate implants. TRIAL REGISTRATION: The study protocol was registered on September 20, 2021 in the ClinicalTrials.gov database (registration number: NCT05081284).",
+   "tags": [
+    "dental implants",
+    "esthetics",
     "patient reported outcome measures",
-    "periodontal probe"
+    "soft tissue augmentation",
+    "soft tissue thickness"
    ]
   }
  ],
