@@ -148,6 +148,34 @@ class TestAnalyzeCleaning(unittest.TestCase):
         self.assertEqual(out["reading_minutes"], 40)
 
 
+class TestScoreMatching(unittest.TestCase):
+    def test_index_resolves_to_paper(self):
+        batch = [fake_paper(id="10.1/a"), fake_paper(id="10.1/b")]
+        by_id = {p["id"]: p for p in batch}
+        self.assertEqual(analyze._match_item({"i": 1}, batch, by_id)["id"], "10.1/b")
+
+    def test_uppercase_id(self):
+        batch = [fake_paper(id="10.1000/abc")]
+        by_id = {p["id"]: p for p in batch}
+        self.assertEqual(analyze._match_item({"id": "10.1000/ABC"}, batch, by_id)["id"], "10.1000/abc")
+
+    def test_unknown_id(self):
+        batch = [fake_paper(id="a")]
+        by_id = {"a": batch[0]}
+        self.assertIsNone(analyze._match_item({"id": "zzz"}, batch, by_id))
+        self.assertIsNone(analyze._match_item({}, batch, by_id))
+
+    def test_score_batch_keys_by_paper_id(self):
+        class FakeLLM:
+            def chat_json(self, messages, max_tokens=0):
+                return [{"i": 0, "match": 90, "one_line": "ok"}, {"i": 1, "match": 40}]
+
+        batch = [fake_paper(id="10.1/one"), fake_paper(id="10.1/two")]
+        got = analyze.score_batch(FakeLLM(), load_profile(), batch)
+        self.assertEqual(set(got), {"10.1/one", "10.1/two"})
+        self.assertEqual(got["10.1/one"]["match"], 90.0)
+
+
 class TestPubmedParsing(unittest.TestCase):
     def test_parse(self):
         papers = fetch.parse_articles(PUBMED_XML)

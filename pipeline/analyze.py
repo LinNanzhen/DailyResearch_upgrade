@@ -55,7 +55,7 @@ def score_batch(llm: AgnesLLM, profile: Dict[str, Any], batch: List[Dict[str, An
 - transfer：它的方法/概念能否迁移到 q1–q5 的课题上？（能直接借用实验设计的给高分）
 
 输出 JSON 数组，每篇一个对象，字段：
-id, title_zh（≤30 字的中文标题）, match, novelty, rigor, impact, transfer, cluster（2–6 字主题簇，如"种植体周炎"）,
+i（必填，就是上面方括号里的序号）, id（可留空）, title_zh（≤30 字的中文标题）, match, novelty, rigor, impact, transfer, cluster（2–6 字主题簇，如"种植体周炎"）,
 one_line（≤40 字：做了什么 + 结论，禁止"本文研究了"开头）,
 so_what（≤35 字：对我的课题意味着什么；无关联写"仅背景"）,
 caution（≤30 字：最可能被高估的地方，如"体外高浓度"、"单中心回顾"）,
@@ -64,15 +64,41 @@ skip（true/false：是否根本不值得占用今天的阅读位）
     data = llm.chat_json([{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}], max_tokens=3600)
     if isinstance(data, dict):
         data = data.get("results") or data.get("papers") or data.get("data") or []
+    by_id = {str(p["id"]).strip().lower(): p for p in batch}
     out: Dict[str, Dict[str, Any]] = {}
     for item in data if isinstance(data, list) else []:
         if not isinstance(item, dict):
             continue
-        pid = str(item.get("id") or "").strip()
-        if not pid:
+        paper = _match_item(item, batch, by_id)
+        if paper is None:
             continue
-        out[pid] = _clean_scores(item)
+        out[paper["id"]] = _clean_scores(item)
     return out
+
+
+def _match_item(item: Dict[str, Any], batch: List[Dict[str, Any]], by_id: Dict[str, Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    """Resolve a model row to a candidate.
+
+    Models often echo the bracket index instead of the DOI, or upper-case the
+    DOI. Both are fine: index first, then case-insensitive id.
+    """
+    idx = item.get("i", item.get("index", item.get("n")))
+    try:
+        if idx is not None and not isinstance(idx, bool):
+            i = int(str(idx).strip())
+            if 0 <= i < len(batch):
+                return batch[i]
+    except (TypeError, ValueError):
+        pass
+    pid = str(item.get("id") or "").strip().lower()
+    if not pid:
+        return None
+    paper = by_id.get(pid)
+    if paper:
+        return paper
+    # tolerate "id=..." / "pmid:..." decorations
+    pid = pid.replace("id=", "").strip()
+    return by_id.get(pid)
 
 
 def _num(v: Any, default: float = 50.0) -> float:

@@ -72,8 +72,9 @@ def run(args: argparse.Namespace) -> int:
             batch = pool[i : i + batch_size]
             for attempt in range(2):
                 try:
-                    scores.update(analyze.score_batch(llm, profile, batch, abstract_chars))
-                    log(f"[3/6] 评分批次 {i // batch_size + 1}/{-(-len(pool) // batch_size)}：{len(batch)} 篇")
+                    got = analyze.score_batch(llm, profile, batch, abstract_chars)
+                    scores.update(got)
+                    log(f"[3/6] 评分批次 {i // batch_size + 1}/{-(-len(pool) // batch_size)}：{len(batch)} 篇 → 合并 {len(got)} 条")
                     break
                 except (LLMError, Exception) as exc:  # noqa: BLE001
                     log(f"      批次失败（{attempt + 1}/2）：{exc}")
