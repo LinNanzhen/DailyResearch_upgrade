@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-11-06T21:51:39+08:00",
+ "updated_at": "2026-11-06T21:57:13+08:00",
  "latest": "2026-11-06",
  "days": [
   {
    "date": "2026-11-06",
-   "must_title": "Hoxa10 governs lifelong skeletal stem cell maintenance and bone repair",
-   "must_title_zh": "Hoxa10调控终身骨骼干细胞维持与骨修复",
-   "cluster": "骨再生机制",
-   "count": 4,
-   "ai": true
+   "must_title": "Lifetime Fluoride Exposure and Cognition in Older Irish Adults",
+   "must_title_zh": "Lifetime Fluoride Exposure and Cognition in Older Irish Adults",
+   "cluster": "牙体牙髓与龋病",
+   "count": 2,
+   "ai": false
   }
  ],
  "weeks": []

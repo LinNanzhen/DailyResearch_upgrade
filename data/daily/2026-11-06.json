@@ -1,339 +1,141 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06T21:51:39+08:00",
- "model": "agnes-2.5-flash",
- "ai": true,
+ "generated_at": "2026-11-06T21:57:13+08:00",
+ "model": "heuristic-only",
+ "ai": false,
  "usage": {
-  "calls": 4,
-  "prompt_tokens": 16492,
-  "completion_tokens": 12014
+  "calls": 0,
+  "prompt_tokens": 0,
+  "completion_tokens": 0
  },
  "stats": {
   "candidates": 179,
   "raw": 172,
-  "fetched": 140,
+  "fetched": 136,
   "raw_dropped_type": 15,
   "no_abstract": 1,
-  "gated": 140,
-  "scored": 24,
-  "shown": 4,
-  "ai": true,
+  "gated": 136,
+  "scored": 0,
+  "shown": 2,
+  "ai": false,
   "feedback_files": 0,
-  "calls": 4
+  "calls": 0
  },
  "must_read": {
-  "id": "10.1126/sciadv.aeg2088",
-  "pmid": "42981418",
-  "doi": "10.1126/sciadv.aeg2088",
-  "title": "Hoxa10 governs lifelong skeletal stem cell maintenance and bone repair",
-  "title_zh": "Hoxa10调控终身骨骼干细胞维持与骨修复",
-  "journal": "Science advances",
+  "id": "10.1177/00220345261490925",
+  "pmid": "42984125",
+  "doi": "10.1177/00220345261490925",
+  "title": "Lifetime Fluoride Exposure and Cognition in Older Irish Adults",
+  "title_zh": null,
+  "journal": "Journal of dental research",
   "date": "2026-11-04",
   "authors": [
-   "Leclerc K",
-   "Sambon M",
-   "Weng R",
-   "Suhardi VJ",
-   "Ramsukh M",
-   "Phadke R",
-   "Pack G",
-   "Rytel M",
-   "Zhong J",
-   "Schaffler B",
-   "Butron S",
-   "Morgani SM"
+   "Sharma V",
+   "O'Connell B",
+   "Zgaga L",
+   "Cronin M",
+   "Winning L",
+   "Scarlett S",
+   "Hughes G",
+   "Crowe M"
   ],
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42981418/",
-  "pmcid": "PMC13733894",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42984125/",
+  "pmcid": "",
   "cited_by": 0,
-  "design": "animal",
-  "design_label": "动物实验",
-  "design_level": 2,
-  "sample_n": null,
-  "sample_note": "",
+  "design": "cohort",
+  "design_label": "队列",
+  "design_level": 5,
+  "sample_n": 2495,
+  "sample_note": "n=2495 participants",
   "tier": "A",
-  "domain": "种植与骨再生",
-  "methods": [
-   "single-cell",
-   "multiomics"
-  ],
+  "domain": "牙体牙髓与龋病",
+  "methods": [],
   "pub_types": [
    "Journal Article"
   ],
-  "is_open_access": true,
-  "cluster": "骨再生机制",
-  "one_line": "诱导性Hoxa10敲除导致骨骼干细胞耗竭与骨再生缺陷；机制上抑制过早分化并促进胶原III生成与排列",
-  "so_what": "直接指向q1种植体-骨界面成骨调控与q4生物材料表面编程干细胞的分子靶点；单细胞+谱系示踪方法可迁移",
-  "caution": "纯小鼠机制研究；Hox基因功能存在物种差异，人体SSPCs仅初步验证",
+  "is_open_access": false,
+  "cluster": "牙体牙髓与龋病",
+  "one_line": "",
+  "so_what": "",
+  "caution": "",
   "score": {
-   "final": 75.2,
-   "match": 88.0,
-   "novelty": 82.0,
-   "rigor": 76.0,
-   "impact": 72.0,
-   "transfer": 86.0
+   "final": 53.2
   },
-  "heuristic": 49.3,
+  "heuristic": 53.2,
   "breakdown": {
-   "topic": 14.9,
+   "topic": 9.2,
    "journal": 15.0,
-   "design": 9,
-   "sample": 0.0,
+   "design": 15,
+   "sample": 8.0,
    "fresh": 6.0,
-   "method": 4.4
+   "method": 0.0
   },
-  "abstract": "Skeletal stem and progenitor cells (SSPCs) sustain bone homeostasis and regeneration throughout life, yet the transcriptional programs that preserve their identity remain poorly defined. Here we identify the distal Hox gene Hoxa10 as a cell-autonomous regulator of skeletal stem cell maintenance. Using inducible genetic deletion, lineage tracing, single-cell transcriptomics, and injury models, we show that loss of Hoxa10 leads to progressive depletion of SSPCs, impaired bone regeneration, and defective matrix organization. Mechanistically, Hoxa10 maintains the undifferentiated state of skeletal stem cells by restraining premature osteogenic, adipogenic, and chondrogenic commitment, while promoting collagen III production and collagen fiber alignment within regenerative niches. Hoxa10-dependent regulation of extracellular matrix composition is restricted to primitive progenitors and is uncoupled from osteoblast differentiation. Notably, transient depletion of distal Hox genes in primary human SSPCs recapitulates the murine defects in proliferation, self-renewal, and differentiation restraint. Together, these findings define a conserved Hox-dependent program that preserves skeletal stem cell identity and regenerative competence, revealing how developmental transcription factors are repurposed to sustain the adult skeleton across the life span.",
+  "abstract": "Community water fluoridation (CWF) is an effective public health intervention to prevent dental caries. This study investigated potential associations between lifetime fluoride exposure from CWF and cognitive outcomes in older Irish adults and whether early-life exposure modified these associations. Data from the Irish Longitudinal Study on Ageing (TILDA; wave 3, 2014 to 2015) were analyzed (n = 6,684). Lifetime (≥50 y) and early-life (ages 0 to 5 y) fluoride exposures were estimated by linking residential histories to national water fluoride monitoring data and were available for N = 2,495 participants (mean age 65.32 y, standard deviation 8.64 y). Primary exposures were cumulative lifetime exposure to fluoridated water (CLEFW; continuous) and percentage lifetime exposure to fluoridated water (%LEFW), classified as low ( 75%). Cognitive outcomes were Mini-Mental State Examination (MMSE) and Montreal Cognitive Assessment (MoCA) error scores (30 minus raw scores), with higher scores indicating poorer cognition. Associations were examined using multivariable negative binomial regression models, adjusted for sociodemographic, lifestyle, health, loneliness, and health care access factors. Effect modification by early-life fluoride exposure (any/none) was tested using interaction terms. CLEFW showed no association with cognitive errors (incidence rate ratio [IRR]MMSE = 1.00, 95% confidence interval [CI]: 0.99 to 1.01; IRRMoCA = 1.00, 95% CI: 1.00 to 1.01). In unadjusted models, the high-exposure %LEFW group had lower cognition errors than the low-exposure reference group (IRRMMSE = 0.62, 95% CI: 0.49 to 0.79; IRRMoCA = 0.72, 95% CI: 0.62 to 0.83), but these became nonsignificant in fully adjusted models (IRRMMSE = 1.17, 95% CI: 0.88 to 1.56; IRRMoCA = 1.10, 95% CI: 0.94 to 1.29). There was no evidence of effect modification by early-life fluoride exposure for either cognitive outcome (pinteraction > 0.05). Lifetime fluoride exposure from CWF was not associated with later-life cognitive function in older Irish adults, and there was no statistical evidence of effect modification by early-life exposure.",
   "tags": [
-   "Animals",
-   "Homeobox A10 Proteins",
-   "Mice",
-   "Bone Regeneration",
-   "Humans",
-   "Cell Differentiation"
-  ],
-  "deep": {
-   "title_zh": "Hoxa10调控终身骨骼干细胞维持与骨修复",
-   "one_sentence": "Hoxa10是骨骼干细胞身份维持的关键转录因子，通过抑制过早分化和调控胶原基质组织决定终身骨再生能力（因果证据强）。",
-   "question": "发育期表达的Hox基因如何在成年后被重新用于维持成体干细胞池并调控组织再生？",
-   "design": "诱导性基因敲除小鼠模型+谱系追踪+单细胞转录组+骨损伤修复模型，比较Hoxa10缺失与对照组的干细胞动态与再生结局。",
-   "sample_desc": "摘要未说明",
-   "findings": [
-    {
-     "claim": "Hoxa10缺失导致骨骼干细胞进行性耗竭",
-     "evidence": "摘要未说明具体数据"
-    },
-    {
-     "claim": "Hoxa10通过抑制过早分化维持干细胞未分化状态",
-     "evidence": "摘要未说明具体数据"
-    },
-    {
-     "claim": "Hoxa10促进胶原III生成和胶原纤维排列",
-     "evidence": "摘要未说明具体数据"
-    },
-    {
-     "claim": "Hoxa10对基质的调控局限于原始前体细胞，与成骨细胞分化解偶联",
-     "evidence": "摘要未说明具体数据"
-    }
-   ],
-   "effect": "未报告",
-   "relation": "与q4高度相关——为生物材料/支架如何「编程」宿主免疫和干细胞命运提供了上游转录调控层面的机制解释；与q1间接相关——SSPCs状态影响种植体周骨结合质量。",
-   "why": "它颠覆了一个认知：Hox基因不仅是发育阶段的标记物，而是被成年组织重新征用来维持干细胞池。这意味着我们在材料设计中若忽视「去分化维持」这一维度，仅关注促分化信号，可能导致植入后干细胞提前耗竭。",
-   "limitations": [
-    "摘要未说明Hoxa10调控下游靶基因的具体分子机制（直接靶标未列出）",
-    "未验证其他distal Hox基因（如Hoxa11/12）是否具有冗余或替代功能",
-    "人类数据仅来自原代细胞体外实验，体内临床相关性待验证"
-   ],
-   "transferable": "1. 诱导性基因敲除+谱系追踪的时间分辨率设计；2. 将SSPCs状态评估纳入材料生物相容性评价维度；3. 单细胞转录组解析干细胞命运决定的策略。",
-   "followups": [
-    "Hoxa10的直接下游靶基因有哪些？是否有染色质免疫共沉淀（ChIP-seq）数据支持？",
-    "在骨缺损模型中，Hoxa10缺失导致的再生缺陷是否可通过外源性胶原III补充部分挽救？",
-    "Hoxa10的表达是否受局部微环境信号（如机械力、炎症因子）调控？还是纯自主性表达？"
-   ],
-   "glossary": [
-    {
-     "en": "Skeletal stem and progenitor cells (SSP…",
-     "cn": "骨骼干细胞与前体细胞"
-    },
-    {
-     "en": "Lineage tracing",
-     "cn": "谱系追踪"
-    },
-    {
-     "en": "Cell-autonomous",
-     "cn": "细胞自主性"
-    }
-   ],
-   "reading_minutes": 12
-  }
+   "Ireland",
+   "cognitive dysfunction",
+   "cohort studies",
+   "drinking water",
+   "fluoridation",
+   "public health"
+  ]
  },
  "scan": [
   {
-   "id": "10.1016/j.actbio.2026.11.002",
-   "pmid": "42977137",
-   "doi": "10.1016/j.actbio.2026.11.002",
-   "title": "Nano-armor empowers mesenchymal stem cells to actively target and reverse synovial inflammation in rheumatoid arthritis",
-   "title_zh": "纳米装甲 MSC 靶向逆转类风湿关节炎滑膜炎",
-   "journal": "Acta biomaterialia",
-   "date": "2026-11-03",
+   "id": "10.1111/jcpe.70224",
+   "pmid": "42987418",
+   "doi": "10.1111/jcpe.70224",
+   "title": "Periodontal Phenotype Modification of Mandibular Incisors Following Augmented Corticotomy During Orthodontic-Orthognathic Treatment in Skeletal Class III Patients: A Long-Term Prospective Cohort Study",
+   "title_zh": null,
+   "journal": "Journal of clinical periodontology",
+   "date": "2026-11-05",
    "authors": [
-    "Chen Y",
-    "Li N",
-    "Deng T",
-    "Liang M",
-    "Li G",
-    "Xue Z",
-    "Shu J",
-    "Li G",
-    "Yang X",
-    "Lu Y"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42977137/",
-   "pmcid": "",
-   "cited_by": 0,
-   "design": "animal",
-   "design_label": "动物实验",
-   "design_level": 2,
-   "sample_n": null,
-   "sample_note": "",
-   "tier": "A",
-   "domain": "牙周炎通过哪些可验证的通…",
-   "methods": [],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": false,
-   "cluster": "材料编程免疫",
-   "one_line": "RGD-MXene/MnO₂纳米装甲修饰MSC，通过类SOD/CAT级联抗氧化并促进M1→M2极化，在RA小鼠中靶向清…",
-   "so_what": "直接呼应q4：生物材料表面如何编程宿主免疫（巨噬细胞极化）；纳米装甲策略可迁移至种植体/骨修复材料…",
-   "caution": "动物实验，RA与口腔微环境差异大；体内长期安全性未评估",
-   "score": {
-    "final": 57.1,
-    "match": 65.0,
-    "novelty": 68.0,
-    "rigor": 48.0,
-    "impact": 40.0,
-    "transfer": 78.0
-   },
-   "heuristic": 43.9,
-   "breakdown": {
-    "topic": 14.9,
-    "journal": 15.0,
-    "design": 9,
-    "sample": 0.0,
-    "fresh": 5.0,
-    "method": 0.0
-   },
-   "abstract": "Mesenchymal stem cell (MSC) therapy for rheumatoid arthritis (RA) remains hindered by the oxidative-induced pro-inflammatory synovial microenvironment, which largely impairs MSC homing, survival, and immunomodulatory function. Although nanomaterial modification holds promise for enhancing MSC therapeutic efficacy, conventional intracellular modification approaches carry risks of cytotoxicity and unpredictable stem cell fate alteration. Here, we empower MSCs with a surface-anchored, multifunctional RGD-MXene/MnO₂ nano-armor (RMM). MXene, with its large specific surface area, supports the in-situ growth of MnO₂ nanozymes and conjugation of RGD targeting peptides, while enabling stable covalent anchoring onto the MSC membrane via click chemistry. The RMM-armored MSCs exhibit robust protection against ROS-induced damage and fully restored immunomodulatory capacity due to the cascade catalase- and superoxide dismutase-like activities of MnO2, efficiently promoting macrophage polarization from pro-inflammatory M1 type to anti-inflammatory M2 type. In RA mouse models, the RGD peptide facilitates active MSC homing to inflamed synovial tissues by specifically recognizing integrin αvβ3. Thus, RMM@MSCs not only alleviate synovial inflammation but also prevent bone destruction and cartilage erosion, achieving highly efficient RA therapy with only one dose. This surface modification strategy resolves the long-standing translational barriers of conventional MSC therapy, providing a versatile and translatable platform for treating RA and other inflammatory diseases. STATEMENT OF SIGNIFICANCE: Although mesenchymal stem cells (MSCs) are promising for rheumatoid arthritis (RA) due to their inherent immunomodulatory properties, their translation is hindered by poor homing to inflammatory joints and ROS-induced functional impairment. This work reports the use of a multifunctional RGD-MXene/MnO2 (RMM) nano-armor to enhance MSC therapy in RA. Specifically, MXene provides a large specific surface area for the in-situ growth of MnO2 nanoenzyme and the peptide conjugation, as well as the covalent anchoring on MSCs (favoring safe surface modification); MnO2's cascade enzyme-like activity establishes an antioxidant shield to reverse ROS-induced MSC apoptosis and exhaustion (maintaining MSC viability and biofunctions); RGD peptide targets highly expressed integrin αvβ3 in synovial pann",
-   "tags": [
-    "Mesenchymal stem cells",
-    "Nanomaterial modification",
-    "Rheumatoid arthritis",
-    "Synovial inflammation"
-   ]
-  },
-  {
-   "id": "10.1016/j.celrep.2026.118263",
-   "pmid": "42981187",
-   "doi": "10.1016/j.celrep.2026.118263",
-   "title": "Temporal shifts in post-asthmatic immune responses define tumor outcomes via strain-specific monocyte reprogramming",
-   "title_zh": "哮喘后免疫时序重塑决定肿瘤结局的单核细胞重编程",
-   "journal": "Cell reports",
-   "date": "2026-11-04",
-   "authors": [
+    "Liu J",
+    "Pan M",
+    "Li J",
+    "Li X",
     "Wang X",
-    "Chen C",
-    "Wan Y",
-    "Dang B",
-    "Liu X",
-    "Gao Q",
-    "Zhang J",
-    "Cheng SC"
+    "Xu L",
+    "Hou J"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42981187/",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42987418/",
    "pmcid": "",
    "cited_by": 0,
-   "design": "animal",
-   "design_label": "动物实验",
-   "design_level": 2,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
    "sample_n": null,
    "sample_note": "",
    "tier": "A",
-   "domain": "口腔微生物组的失衡（dy…",
-   "methods": [],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": false,
-   "cluster": "先天免疫记忆与代谢重编程",
-   "one_line": "OVA诱导哮喘模型显示急性期嗜酸性粒细胞促肿瘤、恢复期骨髓单核细胞训练免疫经代谢分化决定肿瘤结局。",
-   "so_what": "q1/q5的关键概念移植：慢性炎症后'训练免疫'如何通过代谢重编程（OXPHOS vs 糖酵解）决…",
-   "caution": "哮喘-肺癌模型与口腔种植体周炎/口腔鳞癌微环境不可直接等同。",
-   "score": {
-    "final": 50.9,
-    "match": 45.0,
-    "novelty": 70.0,
-    "rigor": 60.0,
-    "impact": 45.0,
-    "transfer": 55.0
-   },
-   "heuristic": 40.8,
-   "breakdown": {
-    "topic": 10.8,
-    "journal": 15.0,
-    "design": 9,
-    "sample": 0.0,
-    "fresh": 6.0,
-    "method": 0.0
-   },
-   "abstract": "Epidemiological evidence linking asthma to lung cancer risk remains contradictory, presenting asthma as either a risk factor or a protective condition. We hypothesize that this heterogeneity stems from the temporal dynamics of inflammatory response and host genetic background. Using ovalbumin (OVA)-induced asthma models, we identify a temporal shift in immune effectors driving post-asthmatic tumorigenesis. During acute airway inflammation, eosinophil infiltration accelerates tumor growth across mouse strains. Following resolution, however, tumorigenic outcomes in recovery diverge along genetic lines. Prior asthma reshapes chromatin landscapes of bone marrow myeloid progenitors, establishing innate immune memory that differentially programs monocytes across strains. In C57BL/6 mice, trained monocytes adopt oxidative phosphorylation (OXPHOS), acquiring a suppressive, tissue-remodeling phenotype that promotes tumor progression. Conversely, BALB/c-trained monocytes utilize glycolysis to maintain a pro-phagocytic state, enabling tumor clearance. These findings delineate a biphasic mechanism wherein temporal shifts in post-asthmatic immune responses define tumor outcomes via strain-specific monocyte metabolic reprogramming.",
-   "tags": [
-    "CP: cancer",
-    "CP: immunology",
-    "asthma",
-    "immunogenetic heterogeneity",
-    "lung tumorigenesis",
-    "monocyte reprogramming"
-   ]
-  },
-  {
-   "id": "10.1007/s00784-026-07241-8",
-   "pmid": "42972138",
-   "doi": "10.1007/s00784-026-07241-8",
-   "title": "Eight anthropometric indices, including relative fat mass, and CPI-defined periodontal status: A nationwide cross-sectional study",
-   "title_zh": "八项人体测量指数与CPI牙周状态关联",
-   "journal": "Clinical oral investigations",
-   "date": "2026-11-03",
-   "authors": [
-    "Lee YW",
-    "Kim JE",
-    "Kim YJ",
-    "Kim SM",
-    "Chung KH"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42972138/",
-   "pmcid": "9275292",
-   "cited_by": 0,
-   "design": "cross_sectional",
-   "design_label": "横断面",
-   "design_level": 3,
-   "sample_n": 33310,
-   "sample_note": "n=33310 adults",
-   "tier": "B",
    "domain": "牙周与宿主免疫",
    "methods": [],
    "pub_types": [
     "Journal Article"
    ],
-   "is_open_access": true,
-   "cluster": "牙周-代谢关联",
-   "one_line": "n=33310韩国成年人横断面显示相对脂肪质量指数与CPI牙周状态呈独立正相关，OR约1.17/SD。",
-   "so_what": "为q2（牙周炎→全身疾病）提供肥胖/脂肪分布作为混杂/中介的可操作指标，可用于孟德尔随机化变量选择。",
-   "caution": "横断面无法推断因果；CPI未区分活动性与非活动性病变。",
+   "is_open_access": false,
+   "cluster": "牙周与宿主免疫",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
    "score": {
-    "final": 45.0,
-    "match": 50.0,
-    "novelty": 35.0,
-    "rigor": 60.0,
-    "impact": 30.0,
-    "transfer": 45.0
+    "final": 51.6
    },
-   "heuristic": 41.8,
+   "heuristic": 51.6,
    "breakdown": {
-    "topic": 8.8,
-    "journal": 10.0,
-    "design": 10,
-    "sample": 8.0,
-    "fresh": 5.0,
+    "topic": 14.6,
+    "journal": 15.0,
+    "design": 15,
+    "sample": 0.0,
+    "fresh": 7.0,
     "method": 0.0
    },
-   "abstract": "OBJECTIVES: To compare the associations of eight anthropometric indices with Community Periodontal Index (CPI)-defined periodontal status in a nationally representative sample of Korean adults. MATERIALS AND METHODS: This cross-sectional study analyzed 33,310 adults aged 19-79 years from the 2010-2018 Korea National Health and Nutrition Examination Survey. Each index was standardized within sex. Survey-weighted ordinal logistic regression estimated odds ratios (ORs) per 1-SD increase for a three-level outcome (CPI 0-2, CPI 3, CPI 4). Differences between indices were assessed with bootstrap ratios of ORs. Restricted cubic spline, subgroup and sensitivity analyses were performed. RESULTS: Seven of the eight indices were associated with worse CPI-defined periodontal status in the fully adjusted model. ORs were 1.166 (95% confidence interval [CI] 1.121-1.214) for relative fat mass (RFM), 1.151 (1.113-1.190) for body mass index, 1.149 (1.106-1.194) for waist-to-height ratio, 1.140 (1.100-1.182) for waist circumference and 1.030 (0.986-1.076) for a body shape index. The ratio of the RFM OR to the ORs for body mass index, waist-to-height ratio, waist circumference and body roundness index ranged from 1.014 to 1.024, and no upper 95% confidence limit exceeded 1.04. Associations of body mass index, waist circumference, waist-to-height ratio, body roundness index and RFM were stronger in women than in men. CONCLUSIONS: RFM showed the largest point estimate, but the differences among indices of central adiposity were small, and no index was clearly superior in this cross-sectional analysis. CLINICAL RELEVANCE: Body mass index and waist-based indices that account for height, including RFM, were modestly and consistently associated with CPI-defined periodontal status in Korean adults, but none performed meaningfully better than the others. These cross-sectional associations do not support the use of any single anthropometric index for periodontal screening.",
+   "abstract": "AIM: To prospectively evaluate periodontal soft- and hard-tissue changes in the mandibular incisor region after labial augmented corticotomy (AC) in skeletal Class III patients undergoing orthodontic-orthognathic treatment. MATERIALS AND METHODS: Thirty-five skeletal Class III patients were included. A total of 140 mandibular incisors treated with AC were evaluated at baseline, 6 months after surgery and at treatment completion. Clinical parameters, gingival thickness, cemento-enamel junction (CEJ) to alveolar crest distance and labial and lingual alveolar bone areas were assessed using clinical examination, cone-beam computed tomography and integrated digital models. RESULTS: Probing depth and labial gingival recession showed no significant overall changes. Width of keratinised gingiva and gingival thickness increased significantly and remained higher than baseline at treatment completion. Labial CEJ to alveolar crest distance decreased and remained lower than baseline, whereas the lingual distance increased. Labial alveolar bone area remained higher than baseline, whereas lingual alveolar bone area progressively decreased over time. CONCLUSIONS: Labial AC was associated with sustained improvement in periodontal soft tissue and labial alveolar bone in the mandibular incisor region through treatment completion, although lingual alveolar bone area decreased over time.",
    "tags": [
-    "Anthropometric indices",
-    "Community Periodontal Index",
-    "Cross-sectional study",
-    "KNHANES",
-    "Obesity",
-    "Relative fat mass"
+    "Augmented corticotomy",
+    "mandibular incisors",
+    "orthodontic–orthognathic treatment",
+    "periodontal phenotype",
+    "skeletal Class III malocclusion"
    ]
   }
  ],

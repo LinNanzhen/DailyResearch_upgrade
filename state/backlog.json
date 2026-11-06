@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06T21:51:39+08:00",
+ "updated_at": "2026-11-06T21:57:13+08:00",
  "items": [
   {
    "id": "10.1177/00220345261495934",
@@ -112,6 +112,17 @@
    "days_waiting": 0
   },
   {
+   "id": "10.1177/00220345261490925",
+   "title": "Lifetime Fluoride Exposure and Cognition in Older Irish Adults",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 53.2,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984125/",
+   "days_waiting": 0
+  },
+  {
    "id": "10.1016/j.actbio.2026.11.007",
    "title": "Protein nanocages: Programmable biomaterial platforms for therapeutics, bioimaging, and diagnostics",
    "journal": "Acta biomaterialia",
@@ -120,17 +131,6 @@
    "one_line": "",
    "cluster": "生物材料表面/降解产物如…",
    "url": "https://pubmed.ncbi.nlm.nih.gov/42982153/",
-   "days_waiting": 0
-  },
-  {
-   "id": "10.1111/clr.70195",
-   "title": "Probe Accuracy and Agreement and Patient Preferences in Peri-Implant Probing Depth Assessment: A Cross-Sectional Study",
-   "journal": "Clinical oral implants research",
-   "date_shown": "2026-11-06",
-   "score": 52.6,
-   "one_line": "",
-   "cluster": "种植体周的免疫微环境（巨…",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42984420/",
    "days_waiting": 0
   }
  ]
