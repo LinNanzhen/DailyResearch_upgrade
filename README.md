@@ -52,7 +52,7 @@ GitHub Actions 每天 07:30 自动跑：**一封邮件 + 一个网页**，内容
 1. **拿 Key**：到 [platform.agnes-ai.com](https://platform.agnes-ai.com) 注册 → API Keys → 新建。
    模型用 `agnes-2.5-flash`（OpenAI 兼容，当前限免；价格以 [官方定价页](https://agnes-ai.com/docs/pricing) 为准）。
 2. **存 Secret**：本仓库 `Settings → Secrets and variables → Actions → New repository secret`
-   - Name: `AGNES_API_KEY`
+   - Name: `AGNES_API_KEY`（也兼容你已有的 `AGNES`）
    - Secret: 你的 Key
 3. **开权限并试跑**：`Settings → Actions → General → Workflow permissions` 选 **Read and write**；
    然后 `Actions → daily-digest → Run workflow` 手动跑一次。

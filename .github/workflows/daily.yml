@@ -35,7 +35,7 @@ jobs:
 
       - name: Generate today's digest
         env:
-          AGNES_API_KEY: ${{ secrets.AGNES_API_KEY }}
+          AGNES_API_KEY: ${{ secrets.AGNES_API_KEY || secrets.AGNES }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
