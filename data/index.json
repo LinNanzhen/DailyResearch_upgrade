@@ -1,12 +1,12 @@
 {
- "updated_at": "2026-11-06T21:45:12+08:00",
+ "updated_at": "2026-11-06T21:51:39+08:00",
  "latest": "2026-11-06",
  "days": [
   {
    "date": "2026-11-06",
-   "must_title": "Metabolic Memory in Oral Inflammation",
-   "must_title_zh": "口腔炎症的代谢记忆",
-   "cluster": "代谢-免疫对话",
+   "must_title": "Hoxa10 governs lifelong skeletal stem cell maintenance and bone repair",
+   "must_title_zh": "Hoxa10调控终身骨骼干细胞维持与骨修复",
+   "cluster": "骨再生机制",
    "count": 4,
    "ai": true
   }

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06T21:45:12+08:00",
+ "updated_at": "2026-11-06T21:51:39+08:00",
  "items": [
   {
    "id": "10.1177/00220345261495934",
@@ -101,6 +101,17 @@
    "days_waiting": 0
   },
   {
+   "id": "10.1016/j.actbio.2026.11.002",
+   "title": "Nano-armor empowers mesenchymal stem cells to actively target and reverse synovial inflammation in rheumatoid arthritis",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 57.1,
+   "one_line": "RGD-MXene/MnO₂纳米装甲修饰MSC，通过类SOD/CAT级联抗氧化并促进M1→M2极化，在RA小鼠中靶向清…",
+   "cluster": "材料编程免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42977137/",
+   "days_waiting": 0
+  },
+  {
    "id": "10.1016/j.actbio.2026.11.007",
    "title": "Protein nanocages: Programmable biomaterial platforms for therapeutics, bioimaging, and diagnostics",
    "journal": "Acta biomaterialia",
@@ -120,17 +131,6 @@
    "one_line": "",
    "cluster": "种植体周的免疫微环境（巨…",
    "url": "https://pubmed.ncbi.nlm.nih.gov/42984420/",
-   "days_waiting": 0
-  },
-  {
-   "id": "10.1111/odi.70563",
-   "title": "Metronomic Tegafur-Uracil Maintenance Therapy in Oral Squamous Cell Carcinoma Following Adjuvant Chemoradiotherapy",
-   "journal": "Oral diseases",
-   "date_shown": "2026-11-06",
-   "score": 49.8,
-   "one_line": "",
-   "cluster": "口腔鳞癌的免疫微环境与微…",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42989576/",
    "days_waiting": 0
   }
  ]

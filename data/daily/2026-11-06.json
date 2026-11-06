@@ -1,113 +1,174 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06T21:45:12+08:00",
+ "generated_at": "2026-11-06T21:51:39+08:00",
  "model": "agnes-2.5-flash",
  "ai": true,
  "usage": {
-  "calls": 2,
-  "prompt_tokens": 10185,
-  "completion_tokens": 7200
+  "calls": 4,
+  "prompt_tokens": 16492,
+  "completion_tokens": 12014
  },
  "stats": {
   "candidates": 179,
   "raw": 172,
-  "fetched": 144,
+  "fetched": 140,
   "raw_dropped_type": 15,
   "no_abstract": 1,
-  "gated": 144,
-  "scored": 2,
+  "gated": 140,
+  "scored": 24,
   "shown": 4,
   "ai": true,
   "feedback_files": 0,
-  "calls": 2
+  "calls": 4
  },
  "must_read": {
-  "id": "10.1177/00220345261489570",
-  "pmid": "42978263",
-  "doi": "10.1177/00220345261489570",
-  "title": "Metabolic Memory in Oral Inflammation",
-  "title_zh": "口腔炎症的代谢记忆",
-  "journal": "Journal of dental research",
-  "date": "2026-11-03",
+  "id": "10.1126/sciadv.aeg2088",
+  "pmid": "42981418",
+  "doi": "10.1126/sciadv.aeg2088",
+  "title": "Hoxa10 governs lifelong skeletal stem cell maintenance and bone repair",
+  "title_zh": "Hoxa10调控终身骨骼干细胞维持与骨修复",
+  "journal": "Science advances",
+  "date": "2026-11-04",
   "authors": [
-   "Liu R",
-   "Cui A",
-   "Dong H",
-   "Graves DT",
-   "Wang Q"
+   "Leclerc K",
+   "Sambon M",
+   "Weng R",
+   "Suhardi VJ",
+   "Ramsukh M",
+   "Phadke R",
+   "Pack G",
+   "Rytel M",
+   "Zhong J",
+   "Schaffler B",
+   "Butron S",
+   "Morgani SM"
   ],
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42978263/",
-  "pmcid": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42981418/",
+  "pmcid": "PMC13733894",
   "cited_by": 0,
-  "design": "review",
-  "design_label": "综述",
-  "design_level": 3,
+  "design": "animal",
+  "design_label": "动物实验",
+  "design_level": 2,
   "sample_n": null,
   "sample_note": "",
   "tier": "A",
-  "domain": "牙周与宿主免疫",
-  "methods": [],
-  "pub_types": [
-   "Journal Article",
-   "Review"
+  "domain": "种植与骨再生",
+  "methods": [
+   "single-cell",
+   "multiomics"
   ],
-  "is_open_access": false,
-  "cluster": "代谢-免疫对话",
-  "one_line": "综述表观遗传重编程驱动的代谢记忆如何维持口腔炎症持续与复发。",
-  "so_what": "q1/q4可用：提供「宿主持久免疫编程」概念框架，指导种植体周炎转归与材料免疫编程研究设计。",
-  "caution": "纯综述，无新实验证据；需自行提炼可验证假说。",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "is_open_access": true,
+  "cluster": "骨再生机制",
+  "one_line": "诱导性Hoxa10敲除导致骨骼干细胞耗竭与骨再生缺陷；机制上抑制过早分化并促进胶原III生成与排列",
+  "so_what": "直接指向q1种植体-骨界面成骨调控与q4生物材料表面编程干细胞的分子靶点；单细胞+谱系示踪方法可迁移",
+  "caution": "纯小鼠机制研究；Hox基因功能存在物种差异，人体SSPCs仅初步验证",
   "score": {
-   "final": 57.3,
-   "match": 65.0,
-   "novelty": 45.0,
-   "rigor": 50.0,
-   "impact": 55.0,
-   "transfer": 70.0
+   "final": 75.2,
+   "match": 88.0,
+   "novelty": 82.0,
+   "rigor": 76.0,
+   "impact": 72.0,
+   "transfer": 86.0
   },
-  "heuristic": 56.3,
+  "heuristic": 49.3,
   "breakdown": {
-   "topic": 26.3,
+   "topic": 14.9,
    "journal": 15.0,
-   "design": 10,
+   "design": 9,
    "sample": 0.0,
-   "fresh": 5.0,
-   "method": 0.0
+   "fresh": 6.0,
+   "method": 4.4
   },
-  "abstract": "The global rise in metabolic diseases has increased the severity and therapeutic complexity of oral inflammatory disorders. Persistent inflammation driven by metabolic memory presents a central pathological mechanism. Even after metabolic parameters are normalized, abnormal gene expression can persist, leading to prolonged disease progression and recurrent episodes. In the oral cavity, metabolic memory is most clearly evident in periodontitis and impaired wound healing, where sustained immune dysregulation and tissue destruction remain after hyperglycemia or hyperlipidemia has been corrected. Epigenetic reprogramming presents a key molecular mechanism of metabolic memory, including DNA methylation, histone modifications, and expression of noncoding RNAs. The epigenetic alterations collectively reprogram immune cell function, driving the dysregulation of innate and adaptive immunity while influencing the fate of oral stromal cells and epithelial cells. Prolonged inflammation contributes to an altered host-microbiota interaction, reinforcing disease persistence and treatment resistance. Metabolic disorders induce coordinated epigenetic changes that can be grouped into permissive and repressive events affecting gene transcription. Permissive events include increased histone acetylation, enrichment of activating histone methylation marks (e.g., H3K4me3), and DNA demethylation at inflammatory gene loci. These modifications promote an open chromatin structure to enhance transcription factor access. Repressive events include increased DNA methylation and enrichment of repressive histone methylation marks (e.g., H3K9me3). DNA methylation typically occurs in promoter regions of genes, and repressive histone changes lead to the formation of compact chromatin, both of which reduce transcriptional activity. Noncoding RNAs generally decrease target messenger RNA stability or inhibit translation further, reinforcing a repressive effect. The combined effect of these modifications is a shift in protein expression that reinforces chronic inflammatory signaling in abnormal metabolic conditions. This review comprehensively summarizes the epigenetic mechanisms by which metabolic memory sustains oral inflammation at molecular, cellular, and tissue levels, as well as potential preventive and therapeutic interventions.",
+  "abstract": "Skeletal stem and progenitor cells (SSPCs) sustain bone homeostasis and regeneration throughout life, yet the transcriptional programs that preserve their identity remain poorly defined. Here we identify the distal Hox gene Hoxa10 as a cell-autonomous regulator of skeletal stem cell maintenance. Using inducible genetic deletion, lineage tracing, single-cell transcriptomics, and injury models, we show that loss of Hoxa10 leads to progressive depletion of SSPCs, impaired bone regeneration, and defective matrix organization. Mechanistically, Hoxa10 maintains the undifferentiated state of skeletal stem cells by restraining premature osteogenic, adipogenic, and chondrogenic commitment, while promoting collagen III production and collagen fiber alignment within regenerative niches. Hoxa10-dependent regulation of extracellular matrix composition is restricted to primitive progenitors and is uncoupled from osteoblast differentiation. Notably, transient depletion of distal Hox genes in primary human SSPCs recapitulates the murine defects in proliferation, self-renewal, and differentiation restraint. Together, these findings define a conserved Hox-dependent program that preserves skeletal stem cell identity and regenerative competence, revealing how developmental transcription factors are repurposed to sustain the adult skeleton across the life span.",
   "tags": [
-   "cytokines",
-   "epigenetics",
-   "gene expression",
-   "immunity",
-   "molecular biology",
-   "periodontal diseases"
-  ]
+   "Animals",
+   "Homeobox A10 Proteins",
+   "Mice",
+   "Bone Regeneration",
+   "Humans",
+   "Cell Differentiation"
+  ],
+  "deep": {
+   "title_zh": "Hoxa10调控终身骨骼干细胞维持与骨修复",
+   "one_sentence": "Hoxa10是骨骼干细胞身份维持的关键转录因子，通过抑制过早分化和调控胶原基质组织决定终身骨再生能力（因果证据强）。",
+   "question": "发育期表达的Hox基因如何在成年后被重新用于维持成体干细胞池并调控组织再生？",
+   "design": "诱导性基因敲除小鼠模型+谱系追踪+单细胞转录组+骨损伤修复模型，比较Hoxa10缺失与对照组的干细胞动态与再生结局。",
+   "sample_desc": "摘要未说明",
+   "findings": [
+    {
+     "claim": "Hoxa10缺失导致骨骼干细胞进行性耗竭",
+     "evidence": "摘要未说明具体数据"
+    },
+    {
+     "claim": "Hoxa10通过抑制过早分化维持干细胞未分化状态",
+     "evidence": "摘要未说明具体数据"
+    },
+    {
+     "claim": "Hoxa10促进胶原III生成和胶原纤维排列",
+     "evidence": "摘要未说明具体数据"
+    },
+    {
+     "claim": "Hoxa10对基质的调控局限于原始前体细胞，与成骨细胞分化解偶联",
+     "evidence": "摘要未说明具体数据"
+    }
+   ],
+   "effect": "未报告",
+   "relation": "与q4高度相关——为生物材料/支架如何「编程」宿主免疫和干细胞命运提供了上游转录调控层面的机制解释；与q1间接相关——SSPCs状态影响种植体周骨结合质量。",
+   "why": "它颠覆了一个认知：Hox基因不仅是发育阶段的标记物，而是被成年组织重新征用来维持干细胞池。这意味着我们在材料设计中若忽视「去分化维持」这一维度，仅关注促分化信号，可能导致植入后干细胞提前耗竭。",
+   "limitations": [
+    "摘要未说明Hoxa10调控下游靶基因的具体分子机制（直接靶标未列出）",
+    "未验证其他distal Hox基因（如Hoxa11/12）是否具有冗余或替代功能",
+    "人类数据仅来自原代细胞体外实验，体内临床相关性待验证"
+   ],
+   "transferable": "1. 诱导性基因敲除+谱系追踪的时间分辨率设计；2. 将SSPCs状态评估纳入材料生物相容性评价维度；3. 单细胞转录组解析干细胞命运决定的策略。",
+   "followups": [
+    "Hoxa10的直接下游靶基因有哪些？是否有染色质免疫共沉淀（ChIP-seq）数据支持？",
+    "在骨缺损模型中，Hoxa10缺失导致的再生缺陷是否可通过外源性胶原III补充部分挽救？",
+    "Hoxa10的表达是否受局部微环境信号（如机械力、炎症因子）调控？还是纯自主性表达？"
+   ],
+   "glossary": [
+    {
+     "en": "Skeletal stem and progenitor cells (SSP…",
+     "cn": "骨骼干细胞与前体细胞"
+    },
+    {
+     "en": "Lineage tracing",
+     "cn": "谱系追踪"
+    },
+    {
+     "en": "Cell-autonomous",
+     "cn": "细胞自主性"
+    }
+   ],
+   "reading_minutes": 12
+  }
  },
  "scan": [
   {
-   "id": "10.1126/sciadv.aeg1718",
-   "pmid": "42981406",
-   "doi": "10.1126/sciadv.aeg1718",
-   "title": "Engineered synbiotic microspheres enable system-level reprogramming of the gut-immune-vascular axis in chronic inflammatory vascular disease",
-   "title_zh": "工程合生元微球重编程肠-免疫-血管轴",
-   "journal": "Science advances",
-   "date": "2026-11-04",
+   "id": "10.1016/j.actbio.2026.11.002",
+   "pmid": "42977137",
+   "doi": "10.1016/j.actbio.2026.11.002",
+   "title": "Nano-armor empowers mesenchymal stem cells to actively target and reverse synovial inflammation in rheumatoid arthritis",
+   "title_zh": "纳米装甲 MSC 靶向逆转类风湿关节炎滑膜炎",
+   "journal": "Acta biomaterialia",
+   "date": "2026-11-03",
    "authors": [
-    "Shen L",
-    "Zhai M",
-    "Yang Z",
-    "Yu J",
-    "Pang Z",
-    "Fang Z",
-    "Ding X",
-    "Xu J",
-    "Hu Y",
-    "Fang S",
-    "Shu G",
-    "Yang Y"
+    "Chen Y",
+    "Li N",
+    "Deng T",
+    "Liang M",
+    "Li G",
+    "Xue Z",
+    "Shu J",
+    "Li G",
+    "Yang X",
+    "Lu Y"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42981406/",
-   "pmcid": "PMC13733895",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42977137/",
+   "pmcid": "",
    "cited_by": 0,
    "design": "animal",
    "design_label": "动物实验",
@@ -120,150 +181,159 @@
    "pub_types": [
     "Journal Article"
    ],
-   "is_open_access": true,
-   "cluster": "肠-血管免疫轴",
-   "one_line": "工程化酶响应合生元微球递送益生菌、代谢抑制剂与益生元，重编程肠-免疫-血管轴逆转慢性炎症血管病。",
-   "so_what": "系统水平轴重编程概念可借鉴；牙周炎-全身疾病通路设计参考。",
-   "caution": "动物实验，人体转化未知；靶器官非口腔。",
+   "is_open_access": false,
+   "cluster": "材料编程免疫",
+   "one_line": "RGD-MXene/MnO₂纳米装甲修饰MSC，通过类SOD/CAT级联抗氧化并促进M1→M2极化，在RA小鼠中靶向清…",
+   "so_what": "直接呼应q4：生物材料表面如何编程宿主免疫（巨噬细胞极化）；纳米装甲策略可迁移至种植体/骨修复材料…",
+   "caution": "动物实验，RA与口腔微环境差异大；体内长期安全性未评估",
    "score": {
-    "final": 47.0,
-    "match": 35.0,
-    "novelty": 55.0,
-    "rigor": 70.0,
+    "final": 57.1,
+    "match": 65.0,
+    "novelty": 68.0,
+    "rigor": 48.0,
     "impact": 40.0,
-    "transfer": 45.0
+    "transfer": 78.0
    },
-   "heuristic": 47.4,
+   "heuristic": 43.9,
    "breakdown": {
-    "topic": 17.4,
+    "topic": 14.9,
+    "journal": 15.0,
+    "design": 9,
+    "sample": 0.0,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "Mesenchymal stem cell (MSC) therapy for rheumatoid arthritis (RA) remains hindered by the oxidative-induced pro-inflammatory synovial microenvironment, which largely impairs MSC homing, survival, and immunomodulatory function. Although nanomaterial modification holds promise for enhancing MSC therapeutic efficacy, conventional intracellular modification approaches carry risks of cytotoxicity and unpredictable stem cell fate alteration. Here, we empower MSCs with a surface-anchored, multifunctional RGD-MXene/MnO₂ nano-armor (RMM). MXene, with its large specific surface area, supports the in-situ growth of MnO₂ nanozymes and conjugation of RGD targeting peptides, while enabling stable covalent anchoring onto the MSC membrane via click chemistry. The RMM-armored MSCs exhibit robust protection against ROS-induced damage and fully restored immunomodulatory capacity due to the cascade catalase- and superoxide dismutase-like activities of MnO2, efficiently promoting macrophage polarization from pro-inflammatory M1 type to anti-inflammatory M2 type. In RA mouse models, the RGD peptide facilitates active MSC homing to inflamed synovial tissues by specifically recognizing integrin αvβ3. Thus, RMM@MSCs not only alleviate synovial inflammation but also prevent bone destruction and cartilage erosion, achieving highly efficient RA therapy with only one dose. This surface modification strategy resolves the long-standing translational barriers of conventional MSC therapy, providing a versatile and translatable platform for treating RA and other inflammatory diseases. STATEMENT OF SIGNIFICANCE: Although mesenchymal stem cells (MSCs) are promising for rheumatoid arthritis (RA) due to their inherent immunomodulatory properties, their translation is hindered by poor homing to inflammatory joints and ROS-induced functional impairment. This work reports the use of a multifunctional RGD-MXene/MnO2 (RMM) nano-armor to enhance MSC therapy in RA. Specifically, MXene provides a large specific surface area for the in-situ growth of MnO2 nanoenzyme and the peptide conjugation, as well as the covalent anchoring on MSCs (favoring safe surface modification); MnO2's cascade enzyme-like activity establishes an antioxidant shield to reverse ROS-induced MSC apoptosis and exhaustion (maintaining MSC viability and biofunctions); RGD peptide targets highly expressed integrin αvβ3 in synovial pann",
+   "tags": [
+    "Mesenchymal stem cells",
+    "Nanomaterial modification",
+    "Rheumatoid arthritis",
+    "Synovial inflammation"
+   ]
+  },
+  {
+   "id": "10.1016/j.celrep.2026.118263",
+   "pmid": "42981187",
+   "doi": "10.1016/j.celrep.2026.118263",
+   "title": "Temporal shifts in post-asthmatic immune responses define tumor outcomes via strain-specific monocyte reprogramming",
+   "title_zh": "哮喘后免疫时序重塑决定肿瘤结局的单核细胞重编程",
+   "journal": "Cell reports",
+   "date": "2026-11-04",
+   "authors": [
+    "Wang X",
+    "Chen C",
+    "Wan Y",
+    "Dang B",
+    "Liu X",
+    "Gao Q",
+    "Zhang J",
+    "Cheng SC"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42981187/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "animal",
+   "design_label": "动物实验",
+   "design_level": 2,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "口腔微生物组的失衡（dy…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "先天免疫记忆与代谢重编程",
+   "one_line": "OVA诱导哮喘模型显示急性期嗜酸性粒细胞促肿瘤、恢复期骨髓单核细胞训练免疫经代谢分化决定肿瘤结局。",
+   "so_what": "q1/q5的关键概念移植：慢性炎症后'训练免疫'如何通过代谢重编程（OXPHOS vs 糖酵解）决…",
+   "caution": "哮喘-肺癌模型与口腔种植体周炎/口腔鳞癌微环境不可直接等同。",
+   "score": {
+    "final": 50.9,
+    "match": 45.0,
+    "novelty": 70.0,
+    "rigor": 60.0,
+    "impact": 45.0,
+    "transfer": 55.0
+   },
+   "heuristic": 40.8,
+   "breakdown": {
+    "topic": 10.8,
     "journal": 15.0,
     "design": 9,
     "sample": 0.0,
     "fresh": 6.0,
     "method": 0.0
    },
-   "abstract": "Chronic inflammatory vascular diseases are increasingly recognized as systemic disorders sustained by maladaptive cross-organ immunometabolic coupling, yet current therapeutic strategies remain largely lesion-centered and fail to address upstream drivers of disease persistence. Here, we identify the gut-immune-vascular axis as a system-level pathogenic unit that integrates gut microbial dysbiosis, intestinal barrier dysfunction, metabolic imbalance, and vascular immune activation into a self-reinforcing pathological circuit. Through integrated clinical profiling and cross-species validation, we demonstrate that disruption of this axis is characterized by coordinated probiotic depletion, expansion of proinflammatory taxa, translocation of microbial endotoxins, accumulation of microbiota-derived metabolites, and macrophage polarization toward a proinflammatory phenotype along the gut-vascular continuum. To therapeutically target this axis, we engineer enzyme-responsive synbiotic microspheres that codeliver probiotics, a microbial metabolic pathway inhibitor, and a prebiotic within a protective polymeric matrix, enabling site-specific intestinal activation and coordinated microbiota-metabolic modulation. This engineered system restores intestinal barrier integrity, reprograms microbial ecology and metabolite output, suppresses immunometabolic dysfunction, and robustly attenuates pathological vascular remodeling across cellular, murine, and large-animal models, with in-stent restenosis serving as a representative disease context. Collectively, this work establishes axis-oriented immunometabolic reprogramming as a generalizable therapeutic paradigm and highlights engineered synbiotic platforms as scalable tools for system-level intervention in chronic inflammatory diseases.",
+   "abstract": "Epidemiological evidence linking asthma to lung cancer risk remains contradictory, presenting asthma as either a risk factor or a protective condition. We hypothesize that this heterogeneity stems from the temporal dynamics of inflammatory response and host genetic background. Using ovalbumin (OVA)-induced asthma models, we identify a temporal shift in immune effectors driving post-asthmatic tumorigenesis. During acute airway inflammation, eosinophil infiltration accelerates tumor growth across mouse strains. Following resolution, however, tumorigenic outcomes in recovery diverge along genetic lines. Prior asthma reshapes chromatin landscapes of bone marrow myeloid progenitors, establishing innate immune memory that differentially programs monocytes across strains. In C57BL/6 mice, trained monocytes adopt oxidative phosphorylation (OXPHOS), acquiring a suppressive, tissue-remodeling phenotype that promotes tumor progression. Conversely, BALB/c-trained monocytes utilize glycolysis to maintain a pro-phagocytic state, enabling tumor clearance. These findings delineate a biphasic mechanism wherein temporal shifts in post-asthmatic immune responses define tumor outcomes via strain-specific monocyte metabolic reprogramming.",
    "tags": [
-    "Animals",
-    "Mice",
-    "Microspheres",
-    "Synbiotics",
-    "Humans",
-    "Gastrointestinal Microbiome"
+    "CP: cancer",
+    "CP: immunology",
+    "asthma",
+    "immunogenetic heterogeneity",
+    "lung tumorigenesis",
+    "monocyte reprogramming"
    ]
   },
   {
-   "id": "10.1038/s41591-026-04743-6",
-   "pmid": "42977756",
-   "doi": "10.1038/s41591-026-04743-6",
-   "title": "Regulatable membrane-bound IL-15 engineered TIL cell therapy for immune checkpoint inhibitor-resistant advanced melanoma: pooled analysis of phase 1 and 1/2 trials",
-   "title_zh": null,
-   "journal": "Nature medicine",
+   "id": "10.1007/s00784-026-07241-8",
+   "pmid": "42972138",
+   "doi": "10.1007/s00784-026-07241-8",
+   "title": "Eight anthropometric indices, including relative fat mass, and CPI-defined periodontal status: A nationwide cross-sectional study",
+   "title_zh": "八项人体测量指数与CPI牙周状态关联",
+   "journal": "Clinical oral investigations",
    "date": "2026-11-03",
    "authors": [
-    "Amaria RN",
-    "Chesney JA",
-    "Betof AS",
-    "In GK",
-    "Shoushtari AN",
-    "Johnson TT",
-    "Hamid O",
-    "Samhouri Y",
-    "Davies MA",
-    "Tawbi HA",
-    "Glitza Oliva IC",
-    "Aksoy BA"
+    "Lee YW",
+    "Kim JE",
+    "Kim YJ",
+    "Kim SM",
+    "Chung KH"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42977756/",
-   "pmcid": "9748991",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42972138/",
+   "pmcid": "9275292",
    "cited_by": 0,
-   "design": "cohort",
-   "design_label": "队列",
-   "design_level": 5,
-   "sample_n": 37,
-   "sample_note": "n=37 patients",
-   "tier": "A",
-   "domain": "口腔鳞癌的免疫微环境与微…",
+   "design": "cross_sectional",
+   "design_label": "横断面",
+   "design_level": 3,
+   "sample_n": 33310,
+   "sample_note": "n=33310 adults",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
    "methods": [],
    "pub_types": [
     "Journal Article"
    ],
    "is_open_access": true,
-   "cluster": "口腔鳞癌的免疫微环境与微…",
-   "one_line": "",
-   "so_what": "",
-   "caution": "",
+   "cluster": "牙周-代谢关联",
+   "one_line": "n=33310韩国成年人横断面显示相对脂肪质量指数与CPI牙周状态呈独立正相关，OR约1.17/SD。",
+   "so_what": "为q2（牙周炎→全身疾病）提供肥胖/脂肪分布作为混杂/中介的可操作指标，可用于孟德尔随机化变量选择。",
+   "caution": "横断面无法推断因果；CPI未区分活动性与非活动性病变。",
    "score": {
-    "final": 42.2
+    "final": 45.0,
+    "match": 50.0,
+    "novelty": 35.0,
+    "rigor": 60.0,
+    "impact": 30.0,
+    "transfer": 45.0
    },
-   "heuristic": 49.6,
+   "heuristic": 41.8,
    "breakdown": {
-    "topic": 10.4,
-    "journal": 15.0,
-    "design": 15,
-    "sample": 4.2,
+    "topic": 8.8,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 8.0,
     "fresh": 5.0,
     "method": 0.0
    },
-   "abstract": "Amsokigene autoleucel (amsoki-cel, OBX-115) is a tumor-infiltrating lymphocyte (TIL) cell therapy engineered to express acetazolamide (ACZ)-regulatable membrane-bound interleukin-15, abrogating the need for interleukin-2. In two single-arm trials (completed phase 1 single-center first-in-human (FIH) and ongoing phase 1/2 multicenter Agni-01), patients with immune checkpoint inhibitor (ICI)-resistant advanced melanoma received lymphodepletion and varying doses and schedules of amsoki-cel and ACZ. The primary objective of FIH and Agni-01 phase 1 was safety, tolerability and recommended phase 2 dose (RP2D); the primary objective of Agni-01 phase 2 was objective response rate (ORR) at the RP2D. The first patient treated experienced rapid lymphocyte expansion and vasogenic edema of a previously irradiated brain metastasis, prompting protocol modifications and dose deescalation in FIH, including 80% reduction in maximum amsoki-cel dose and 75% reduction in ACZ dose. After preliminary demonstration of safety at the lower dose, doses were increased in FIH, and reescalation was initiated in Agni-01. Across studies, 37 patients were treated (FIH, n = 17; Agni-01, n = 20). Post hoc pooled analysis demonstrated no dose-limiting toxicities, ICU care or treatment-related mortality. Most common grade 3 or higher treatment-emergent adverse events (TEAEs) included neutropenia (64.9% (24/37)), leukopenia/lymphopenia (56.8% (21/37) each) and anemia/thrombocytopenia (37.8% (14/37) each). Serious TEAEs were reported for 10 patients, including eight patients with grade 3 or higher events (non-hematologic, 13.5% (5/37); hematologic, 13.5% (5/37)). RP2D was selected based on overall safety and tolerability as well as preliminary anti-tumor activity in Agni-01 phase 1. The phase 2 preliminary ORR was 66.7% (6/9). In total, 15 patients were treated at RP2D and comprise the Key Efficacy Set (Agni-01: phase 1, n = 6; phase 2, n = 9), of which 10 patients (66.7%; 95% confidence interval 38-88%) achieved objective responses (including two complete responses). Amsoki-cel demonstrated favorable safety and promising early clinical activity in patients with ICI-resistant melanoma. A separate phase 2 pivotal Agni-01 cohort is ongoing. ClinicalTrials.gov identifiers: NCT05470283 and NCT06060613 .",
-   "tags": []
-  },
-  {
-   "id": "10.1111/cdoe.70140",
-   "pmid": "42984472",
-   "doi": "10.1111/cdoe.70140",
-   "title": "Exploring Community-Based Oral Health Screening and Prevention for Children, With Children, in Non-Clinical Settings: An Explanatory Parallel Mixed Methods Study",
-   "title_zh": null,
-   "journal": "Community dentistry and oral epidemiology",
-   "date": "2026-11-05",
-   "authors": [
-    "Taylor GD",
-    "Goodship N",
-    "Aquino MRJ",
-    "Currie C",
-    "Rowland C",
-    "Lim E",
-    "Stone S",
-    "Sumner O",
-    "Wakeling L"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42984472/",
-   "pmcid": "",
-   "cited_by": 0,
-   "design": "unknown",
-   "design_label": "未标注",
-   "design_level": 1,
-   "sample_n": 141,
-   "sample_note": "n=141 children",
-   "tier": "B",
-   "domain": "儿童口腔与预防",
-   "methods": [],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": false,
-   "cluster": "儿童口腔与预防",
-   "one_line": "",
-   "so_what": "",
-   "caution": "",
-   "score": {
-    "final": 41.7
-   },
-   "heuristic": 49.1,
-   "breakdown": {
-    "topic": 20.4,
-    "journal": 10.0,
-    "design": 6,
-    "sample": 5.7,
-    "fresh": 7.0,
-    "method": 0.0
-   },
-   "abstract": "OBJECTIVES: Lack of regular access to dental services for children can increase disease prevalence and burden on NHS services, which is aggravated for the most vulnerable. Non-clinical community hubs could be a feasible alternative for dental checks and oral health education. The aim of this study was to assess the oral health of children attending a non-clinical community hub, and the feasibility/acceptability of these settings to children. METHOD: This study adopted an parallel mixed-methods approach. Dental screening of children (0-16 years old) was undertaken in a non-clinical community hub by a trained and calibrated dentist in April 2024. Basic demographics, global quality of life and clinical data were collected. All children were given oral health education using tooth models and dietary advice. A sub-sample of children were recruited for qualitative inquiry, using a purposive sampling strategy. Three focus groups were facilitated with a pre-determined topic guide and creative arts-based techniques to facilitate discussion. These were audio-recorded, transcribed verbatim and inductively coded following thematic analysis. RESULTS: Over the 5-day period, 141 children were screened with a mean age of 6.4 years (SD 3.8). Mean d3mft was 1.7 (SD 2.9; 0-15), D3MFT was 0.3 (SD 0.9; 0-4), and combined d3mft/D3MFT was 2.0 (SD 3.1; 0-19). Fifteen patients had silver diamine fluoride, 125 had fluoride varnish and one refused. Forty-one children were signposted for future care. Three focus groups involving 11 children identified three themes that were constructed from the data were: 'space' requirements; promoting positive engagement; familiarity with the environment. Children were generally accepting of foodbanks as settings for oral health screening and preventive care. They emphasised the importance of child-friendly, non-threatening spaces and highlighted how familiar environments and trusted staff fostered feelings of safety and engagement. CONCLUSION: Non-clinical community hubs are feasible and acceptable spaces to children to screen for oral health, providing a unique opportunity to reduce barriers to access and to target underserved groups with following on screening activities.",
+   "abstract": "OBJECTIVES: To compare the associations of eight anthropometric indices with Community Periodontal Index (CPI)-defined periodontal status in a nationally representative sample of Korean adults. MATERIALS AND METHODS: This cross-sectional study analyzed 33,310 adults aged 19-79 years from the 2010-2018 Korea National Health and Nutrition Examination Survey. Each index was standardized within sex. Survey-weighted ordinal logistic regression estimated odds ratios (ORs) per 1-SD increase for a three-level outcome (CPI 0-2, CPI 3, CPI 4). Differences between indices were assessed with bootstrap ratios of ORs. Restricted cubic spline, subgroup and sensitivity analyses were performed. RESULTS: Seven of the eight indices were associated with worse CPI-defined periodontal status in the fully adjusted model. ORs were 1.166 (95% confidence interval [CI] 1.121-1.214) for relative fat mass (RFM), 1.151 (1.113-1.190) for body mass index, 1.149 (1.106-1.194) for waist-to-height ratio, 1.140 (1.100-1.182) for waist circumference and 1.030 (0.986-1.076) for a body shape index. The ratio of the RFM OR to the ORs for body mass index, waist-to-height ratio, waist circumference and body roundness index ranged from 1.014 to 1.024, and no upper 95% confidence limit exceeded 1.04. Associations of body mass index, waist circumference, waist-to-height ratio, body roundness index and RFM were stronger in women than in men. CONCLUSIONS: RFM showed the largest point estimate, but the differences among indices of central adiposity were small, and no index was clearly superior in this cross-sectional analysis. CLINICAL RELEVANCE: Body mass index and waist-based indices that account for height, including RFM, were modestly and consistently associated with CPI-defined periodontal status in Korean adults, but none performed meaningfully better than the others. These cross-sectional associations do not support the use of any single anthropometric index for periodontal screening.",
    "tags": [
-    "children",
-    "dental caries",
-    "health services",
-    "healthcare disparities"
+    "Anthropometric indices",
+    "Community Periodontal Index",
+    "Cross-sectional study",
+    "KNHANES",
+    "Obesity",
+    "Relative fat mass"
    ]
   }
  ],
