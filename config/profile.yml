@@ -159,6 +159,20 @@ sources:
       - Head & Neck
       - Bone
       - Journal of Bone and Mineral Research
+  # 综合大刊：参与打分，但不算「牙科期刊」——它们必须标题里点到口腔结构才留下
+  broad_journals:
+    - Nature
+    - Science
+    - Cell
+    - Nature Communications
+    - Science Advances
+    - Cell Reports
+    - eLife
+    - PNAS
+    - Nature Medicine
+    - Nature Biomedical Engineering
+    - Advanced Materials
+    - ACS Nano
   # 跨刊主题检索：抓「口腔 × 大刊」的论文（Nature/Cell 系或综合刊）
   topic_queries:
     - >-

@@ -48,8 +48,9 @@ def run(args: argparse.Namespace) -> int:
     papers = render.filter_seen(papers, seen)
     log(f"      去重历史（近 120 天已出现）+ 屏蔽后剩 {len(papers)} 篇")
 
+    broad = {str(j).strip().lower() for j in profile["sources"].get("broad_journals", [])}
     for p in papers:
-        score.attach(p, profile, tiers, today)
+        score.attach(p, profile, tiers, today, broad=broad)
     before = len(papers)
     papers = [p for p in papers if score.is_dental(p)]
     if before != len(papers):

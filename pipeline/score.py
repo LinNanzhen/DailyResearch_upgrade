@@ -45,11 +45,16 @@ METHOD_MARKERS = {
 }
 
 DENTAL_TERMS = [
-    "oral", "dental", "dentistry", "dentist", "periodont", "gingiv", "peri-implant",
-    "implant", "tooth", "teeth", "caries", "endodont", "orthodont", "prosthodont",
-    "maxillofacial", "mandib", "maxilla", "alveolar", "saliva", "osseointegration",
-    "stomat", "pulp", "enamel", "dentin", "oral microbiome", "oral squamous",
-    "head and neck cancer", "oral cancer", "oral cavity", "mucosa", "jaw", "craniofacial",
+    # strict phrases only: bare "oral" matches "oral glucose tolerance",
+    # "implant" matches breast implants, "pulp" matches paper pulp.
+    "oral cavity", "oral mucosa", "oral microbiome", "oral microbiota", "oral health",
+    "oral disease", "oral cancer", "oral squamous", "oral potentially malignant",
+    "oral lichen", "oral submucous", "oral biofilm", "oral bacteria",
+    "dental", "dentistry", "dentist", "tooth", "teeth", "dentition",
+    "periodont", "gingiv", "peri-implant", "osseointegration", "caries",
+    "endodont", "orthodont", "prosthodont", "maxillofacial", "craniofacial",
+    "mandib", "maxilla", "alveolar bone", "saliva", "stomat", "enamel", "dentin",
+    "pulpitis", "pulpal", "root canal", "edentul", "mucogingival",
 ]
 
 SIZE_RE = re.compile(
@@ -246,24 +251,25 @@ def _domain_from_question(profile: Dict[str, Any], key: str) -> str:
     return "其他"
 
 
-def attach(paper: Dict[str, Any], profile: Dict[str, Any], tiers: Dict[str, str], today: date) -> Dict[str, Any]:
+def attach(paper: Dict[str, Any], profile: Dict[str, Any], tiers: Dict[str, str], today: date,
+           broad: Optional[set] = None) -> Dict[str, Any]:
     paper.update(heuristic(paper, profile, tiers, today))
     paper["journal_key"] = _norm(paper.get("journal", ""))
-    paper["journal_whitelisted"] = paper["journal_key"] in tiers
+    # Broad journals (Nature/Cell/Science family) are in the tier list for scoring,
+    # but they are not dental journals: their papers must pass the title gate.
+    paper["journal_whitelisted"] = paper["journal_key"] in tiers and paper["journal_key"] not in (broad or set())
     paper["score"] = {"final": paper["heuristic"]}
     return paper
 
 
-def is_dental(paper: Dict[str, Any], min_hits: int = 3) -> bool:
-    """Big-journal topic hits often drag in non-dental papers (colorectal cancer,
-    pancreatic single-cell...). Whitelisted journals pass; others need the dental
-    term in the title, or at least 3 mentions in the abstract."""
+def is_dental(paper: Dict[str, Any]) -> bool:
+    """Big-journal topic queries drag in non-dental papers (colorectal cancer,
+    pancreatic α-cells, oral glucose tolerance). Whitelisted journals pass;
+    everything else must name a dental structure in the TITLE."""
     if paper.get("journal_whitelisted"):
         return True
     title = _norm(paper.get("title", ""))
-    if any(term in title for term in DENTAL_TERMS):
-        return True
-    return int(paper.get("dental_hits") or 0) >= min_hits
+    return any(term in title for term in DENTAL_TERMS)
 
 
 def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, Any]:

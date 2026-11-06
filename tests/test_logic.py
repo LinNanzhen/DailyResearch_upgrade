@@ -135,9 +135,13 @@ class TestSelection(unittest.TestCase):
 
     def test_dental_gate(self):
         tiers = {"journal of dental research": "A"}
-        ok = score.attach(fake_paper(id="a", journal="Journal of Dental Research", title="Peri-implantitis"), {"domains": []}, tiers, date(2026, 11, 6))
-        bad = score.attach(fake_paper(id="b", journal="eLife", title="Tankyrase PROTAC in colorectal cancer", abstract="colorectal tumor " * 40), {"domains": []}, tiers, date(2026, 11, 6))
-        good = score.attach(fake_paper(id="c", journal="eLife", title="Oral microbiome and periodontal inflammation", abstract="periodontal disease and oral mucosa " * 20), {"domains": []}, tiers, date(2026, 11, 6))
+        broad = {"elife", "science advances"}
+        prof = {"domains": []}
+        ok = score.attach(fake_paper(id="a", journal="Journal of Dental Research", title="Peri-implantitis"), prof, tiers, date(2026, 11, 6), broad=broad)
+        bad = score.attach(fake_paper(id="b", journal="eLife", title="Tankyrase PROTAC in colorectal cancer", abstract="colorectal tumor " * 40), prof, tiers, date(2026, 11, 6), broad=broad)
+        good = score.attach(fake_paper(id="c", journal="eLife", title="Oral microbiome and periodontal inflammation", abstract="periodontal disease and oral mucosa " * 20), prof, tiers, date(2026, 11, 6), broad=broad)
+        bare = score.attach(fake_paper(id="d", journal="Science Advances", title="Oral glucose tolerance in pancreatic beta cells"), prof, tiers, date(2026, 11, 6), broad=broad)
+        self.assertFalse(score.is_dental(bare))
         self.assertTrue(score.is_dental(ok))
         self.assertFalse(score.is_dental(bad))
         self.assertTrue(score.is_dental(good))
