@@ -40,7 +40,7 @@
     <div class="section-head reveal">
       <span class="num">01</span>
       <h2>精读</h2>
-      <span class="hint" id="mustHint">一篇，读完能改变你怎么想</span>
+      <span class="hint" id="mustHint">两篇，读完能改变你怎么想</span>
     </div>
     <div id="mustMount"></div>
   </section>
@@ -75,7 +75,7 @@
   <footer class="footer">
     <div>
       排序由你的 <code>profile.yml</code> 决定：研究问题占 40%，新颖性 20%，证据强度 18%，影响 12%，方法可迁移 10%。
-      每天只放 1 + 3 篇。改问题，就改结果。
+      每天只放 2 + 8 篇。改问题，就改结果。
     </div>
     <div class="fine" id="footerMeta"></div>
   </footer>
@@ -83,7 +83,7 @@
 
 <div class="modal" id="aboutModal" role="dialog" aria-modal="true" aria-labelledby="aboutTitle">
   <div class="modal-inner">
-    <h2 id="aboutTitle">这四篇是怎么选出来的</h2>
+    <h2 id="aboutTitle">这十篇是怎么选出来的</h2>
     <p>不是「最新的」，也不是「影响因子最高的」，而是「最可能推进你正在追问的那几个问题」的。</p>
     <h3>五维打分</h3>
     <ul>
@@ -93,8 +93,8 @@
       <li><b>影响 12%</b>：如果结论为真，会不会改变临床做法或领域共识。</li>
       <li><b>迁移 10%</b>：方法或概念能不能搬到你的课题里。</li>
     </ul>
-    <h3>为什么只有四篇</h3>
-    <p>两百多篇候选里，大部分是增量研究、病例报告或与你无关的邻域。系统先按期刊层级、设计类型、样本量、关键词做确定性粗排，再让模型在剩下的候选里做一次排序，最后强制跨期刊、跨主题各取一篇——避免你连续三天读同一个课题。</p>
+    <h3>为什么只有十篇</h3>
+    <p>两百多篇候选里，大部分是增量研究、病例报告或与你无关的邻域。系统先按期刊层级、设计类型、样本量、关键词做确定性粗排，再让模型在剩下的候选里做一次排序，两篇精读也强制不同期刊、不同主题——避免你连续三天读同一个课题。</p>
     <h3>反馈怎么生效</h3>
     <p>点「已读 / 收藏 / 不感兴趣」存在本机；点右上角「导出反馈」得到 JSON，放到仓库 <code>feedback/inbox/</code> 下，下次运行会永久屏蔽被否掉的论文。</p>
     <div class="close-row"><button class="btn" id="closeAbout" type="button">知道了</button></div>

@@ -110,16 +110,18 @@ def run(args: argparse.Namespace) -> int:
 
     papers.sort(key=lambda p: p["score"]["final"], reverse=True)
     picks = score.select(papers, profile)
-    must, scans = picks["must_read"], picks["scan"]
-    log(f"[4/6] 选定：精读 1 篇 + 速览 {len(scans)} 篇")
+    musts, scans = picks["must_reads"], picks["scan"]
+    log(f"[4/6] 选定：精读 {len(musts)} 篇 + 速览 {len(scans)} 篇")
 
-    ai_ok = use_llm and any(p.get("ai") for p in [must] + scans if p)
-    if ai_ok and must:
+    ai_ok = use_llm and any(p.get("ai") for p in musts + scans if p)
+    for idx, m in enumerate(musts, start=1):
+        if not ai_ok:
+            break
         try:
-            must["deep"] = analyze.deep_read(llm, profile, must)
-            log("      精读卡生成完成")
+            m["deep"] = analyze.deep_read(llm, profile, m)
+            log(f"      精读卡 {idx}/{len(musts)} 生成完成")
         except (LLMError, Exception) as exc:  # noqa: BLE001
-            log(f"      精读失败：{exc}")
+            log(f"      精读卡 {idx} 失败：{exc}")
 
     weekly = None
     if args.weekly or (today.weekday() == 6 and llm.enabled and not args.no_llm):
@@ -130,7 +132,7 @@ def run(args: argparse.Namespace) -> int:
                 path = render.DAILY_DIR / f"{d.isoformat()}.json"
                 if path.exists():
                     recent.append(json.loads(path.read_text(encoding="utf-8")))
-            recent.append({"date": today.isoformat(), "must_read": must, "scan": scans})
+            recent.append({"date": today.isoformat(), "must_read": musts[0] if musts else None, "must_reads": musts, "scan": scans})
             weekly = analyze.weekly_synthesis(llm, profile, recent)
             if weekly:
                 weekly["date"] = today.isoformat()
@@ -140,7 +142,7 @@ def run(args: argparse.Namespace) -> int:
         except (LLMError, Exception) as exc:  # noqa: BLE001
             log(f"      周报失败：{exc}")
 
-    picks_all = [must] + scans
+    picks_all = musts + scans
     feed = render.apply_feedback(seen)  # consume again if new files landed
     backlog_items = render.update_backlog(
         render.load_backlog(),
@@ -164,7 +166,7 @@ def run(args: argparse.Namespace) -> int:
         "calls": llm.usage().get("calls", 0),
     }
     day = render.build_day(
-        profile, must, scans, backlog, stats,
+        profile, musts, scans, backlog, stats,
         ai=bool(ai_ok),
         model=(os.environ.get("AGNES_MODEL") or profile["llm"]["model"]) if use_llm else "heuristic-only",
         usage=llm.usage(),

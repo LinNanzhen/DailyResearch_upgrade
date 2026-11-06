@@ -244,25 +244,47 @@ def attach(paper: Dict[str, Any], profile: Dict[str, Any], tiers: Dict[str, str]
 
 
 def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, Any]:
-    """Diversity-constrained pick: 1 deep + N scan."""
+    """Diversity-constrained pick: N deep reads + M scans (default 2 + 8)."""
     quota = profile["quota"]
     ranked = sorted(papers, key=lambda p: p["score"]["final"], reverse=True)
     if not ranked:
-        return {"must_read": None, "scan": [], "rest": []}
-    top = ranked[0]["score"]["final"]
-    near = [p for p in ranked if p["score"]["final"] >= top - 3 and len(p.get("abstract", "")) >= 400]
-    primary = [p for p in near if p.get("design") != "meta"]
-    must = (primary or near or ranked)[0]
+        return {"must_read": None, "must_reads": [], "scan": [], "rest": []}
 
-    used_journals = {must["journal_key"]} if must else set()
-    used_domains = {must["domain"]} if must else set()
-    used_ids = {must["id"]} if must else set()
+    target_must = int(quota.get("must_read", 1) or 1)
+    target_scan = int(quota.get("scan", 3) or 0)
+    floor = float(quota.get("min_scan_score", 0) or 0)
+
+    def long_enough(p: Dict[str, Any]) -> bool:
+        return len(p.get("abstract", "")) >= 400
+
+    # Deep reads: prefer primary research over reviews, and keep them diverse.
+    ordered = sorted(ranked, key=lambda p: (p.get("design") == "meta", -p["score"]["final"]))
+    musts: List[Dict[str, Any]] = []
+    used_ids, used_journals, used_domains = set(), set(), set()
+    for p in ordered:
+        if len(musts) >= target_must:
+            break
+        if not long_enough(p) or p["id"] in used_ids:
+            continue
+        if p["journal_key"] in used_journals or p["domain"] in used_domains:
+            continue
+        musts.append(p)
+        used_ids.add(p["id"])
+        used_journals.add(p["journal_key"])
+        used_domains.add(p["domain"])
+    for p in ordered:  # relax diversity if the pool is narrow
+        if len(musts) >= target_must:
+            break
+        if p["id"] in used_ids or not long_enough(p):
+            continue
+        musts.append(p)
+        used_ids.add(p["id"])
+        used_journals.add(p["journal_key"])
+        used_domains.add(p["domain"])
 
     scans: List[Dict[str, Any]] = []
-    target = int(quota.get("scan", 3))
-    floor = float(quota.get("min_scan_score", 0) or 0)
     for p in ranked:
-        if len(scans) >= target:
+        if len(scans) >= target_scan:
             break
         if p["id"] in used_ids:
             continue
@@ -274,9 +296,8 @@ def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, A
         used_ids.add(p["id"])
         used_journals.add(p["journal_key"])
         used_domains.add(p["domain"])
-    # relax constraints if the pool was narrow
-    for p in ranked:
-        if len(scans) >= target:
+    for p in ranked:  # relax constraints if the pool was narrow
+        if len(scans) >= target_scan:
             break
         if p["id"] in used_ids:
             continue
@@ -284,4 +305,10 @@ def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, A
             break
         scans.append(p)
         used_ids.add(p["id"])
-    return {"must_read": must, "scan": scans, "rest": [p for p in ranked if p["id"] not in used_ids]}
+
+    return {
+        "must_read": musts[0] if musts else None,
+        "must_reads": musts,
+        "scan": scans,
+        "rest": [p for p in ranked if p["id"] not in used_ids],
+    }

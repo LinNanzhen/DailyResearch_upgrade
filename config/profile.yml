@@ -175,8 +175,8 @@ sources:
 # ④ 每日配额（宁可少而精）
 # ------------------------------------------------------------
 quota:
-  must_read: 1
-  scan: 3
+  must_read: 2        # 每天精读几篇（各自生成四段式精读卡）
+  scan: 8             # 每天速览几篇；与 must_read 合计 = 每日总配额
   backlog: 6
   backlog_max_age_days: 21
   min_scan_score: 50       # 低于这个分的速览宁可不放，避免凑数

@@ -80,7 +80,7 @@ class TestEmailRender(unittest.TestCase):
 
     def test_text_version(self):
         text = emailer.render_email_text(self.day, self.profile)
-        self.assertIn("【精读】", text)
+        self.assertIn("【精读 1/1】", text)
         self.assertIn("【速览 02】", text)
         self.assertIn("追问一？", text)
 
@@ -153,7 +153,7 @@ class TestProvider(unittest.TestCase):
         self.assertEqual(payload["to"], ["lnz985211@gmail.com"])
         self.assertIn("口腔文献日课", payload["subject"])
         self.assertIn("迈向性别特异性的牙周炎宿主调节治疗", payload["html"])
-        self.assertIn("【精读】", payload["text"])
+        self.assertIn("【精读 1/1】", payload["text"])
 
     def test_send_skipped_without_recipient(self):
         profile = load_profile()

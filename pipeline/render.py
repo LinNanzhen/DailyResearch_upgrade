@@ -45,7 +45,7 @@ def paper_payload(p: Dict[str, Any]) -> Dict[str, Any]:
 
 def build_day(
     profile: Dict[str, Any],
-    must: Optional[Dict[str, Any]],
+    musts: List[Dict[str, Any]],
     scans: List[Dict[str, Any]],
     backlog: List[Dict[str, Any]],
     stats: Dict[str, Any],
@@ -64,6 +64,8 @@ def build_day(
                 base["one_line"] = p["deep"]["one_sentence"]
         return base
 
+    musts = [m for m in musts if m]
+    must = musts[0] if musts else None
     return {
         "date": date.today().isoformat(),
         "generated_at": now_iso(),
@@ -72,6 +74,7 @@ def build_day(
         "usage": usage,
         "stats": stats,
         "must_read": pack(must) if must else None,
+        "must_reads": [pack(p) for p in musts],
         "scan": [pack(p) for p in scans],
         "backlog": backlog,
         "weekly": weekly,
@@ -106,7 +109,7 @@ def write_index(latest: Optional[str] = None) -> Dict[str, Any]:
             "must_title": must.get("title", ""),
             "must_title_zh": must.get("title_zh") or must.get("title", ""),
             "cluster": must.get("cluster", ""),
-            "count": (1 if must else 0) + len(d.get("scan") or []),
+            "count": len(d.get("must_reads") or ([d["must_read"]] if d.get("must_read") else [])) + len(d.get("scan") or []),
             "ai": bool(d.get("ai")),
         })
     weeks = []
@@ -230,9 +233,62 @@ def is_blocked(pid: str) -> bool:
 
 
 # ---------------------------------------------------------------- markdown note
-def write_note(day: Dict[str, Any]) -> Path:
-    must = day.get("must_read") or {}
+def _must_markdown(must: Dict[str, Any], index: int, total: int) -> List[str]:
     deep = must.get("deep") or {}
+    lines: List[str] = [
+        f"## 精读 {index}/{total}｜{must.get('title_zh') or must.get('title')}",
+        "",
+        f"- 期刊：{must.get('journal')}（{must.get('tier')} 级）｜{must.get('date')}",
+        f"- 设计：{must.get('design_label')}｜样本：{must.get('sample_note') or '未提及'}",
+        f"- 评分：{must.get('score', {}).get('final', '?')}/100",
+        f"- 链接：{must.get('url')}",
+        "",
+    ]
+    if not deep:
+        return lines + [
+            "> 本次未启用模型，没有生成精读卡。以下为摘要原文。",
+            "",
+            f"{must.get('abstract', '')[:1200]}",
+            "",
+        ]
+    lines += [
+        f"**一句话**：{must.get('one_line', '')}",
+        "",
+        f"**研究问题**：{deep.get('question', '')}",
+        "",
+        f"**设计与样本**：{deep.get('design', '')}；{deep.get('sample_desc', '')}",
+        "",
+    ]
+    if deep.get("findings"):
+        lines.append("**关键证据**")
+        lines.append("")
+        for f in deep["findings"]:
+            lines.append(f"- {f.get('claim', '')} —— {f.get('evidence', '')}")
+        lines.append("")
+    lines += [
+        f"**效应量**：{deep.get('effect', '')}",
+        "",
+        f"**与我的课题**：{deep.get('relation', '')}",
+        "",
+        f"**局限**：{'；'.join(deep.get('limitations') or [])}",
+        "",
+        f"**可迁移**：{deep.get('transferable', '')}",
+        "",
+        "**三个追问**",
+        "",
+    ]
+    for q in deep.get("followups") or []:
+        lines.append(f"- [ ] {q}")
+    lines.append("")
+    if deep.get("glossary"):
+        lines.append("**术语**：" + "；".join(f"{g['en']} = {g['cn']}" for g in deep["glossary"]))
+        lines.append("")
+    return lines
+
+
+def write_note(day: Dict[str, Any]) -> Path:
+    musts = day.get("must_reads") or ([day["must_read"]] if day.get("must_read") else [])
+    scans = day.get("scan") or []
     lines: List[str] = [
         "---",
         f"date: {day['date']}",
@@ -241,66 +297,18 @@ def write_note(day: Dict[str, Any]) -> Path:
         "tags: [literature, 口腔医学]",
         "---",
         "",
-        f"# {day['date']}｜今日 1 篇精读 + {len(day.get('scan') or [])} 篇速览",
+        f"# {day['date']}｜今日 {len(musts)} 篇精读 + {len(scans)} 篇速览",
         "",
-        f"> 候选 {day.get('stats', {}).get('fetched', '?')} 篇 → 通过筛选 {day.get('stats', {}).get('gated', '?')} 篇 → 今日呈现 {(1 if must else 0) + len(day.get('scan') or [])} 篇。",
+        f"> 候选 {day.get('stats', {}).get('fetched', '?')} 篇 → 通过筛选 {day.get('stats', {}).get('gated', '?')} 篇 → 今日呈现 {len(musts) + len(scans)} 篇。",
         "",
     ]
-    if must:
-        lines += [
-            f"## 精读｜{must.get('title_zh') or must.get('title')}",
-            "",
-            f"- 期刊：{must.get('journal')}（{must.get('tier')} 级）｜{must.get('date')}",
-            f"- 设计：{must.get('design_label')}｜样本：{must.get('sample_note') or '未提及'}",
-            f"- 评分：{must.get('score', {}).get('final', '?')}/100",
-            f"- 链接：{must.get('url')}",
-            "",
-        ]
-        if deep:
-            lines += [
-                f"**一句话**：{must.get('one_line', '')}",
-                "",
-                f"**研究问题**：{deep.get('question', '')}",
-                "",
-                f"**设计与样本**：{deep.get('design', '')}；{deep.get('sample_desc', '')}",
-                "",
-            ]
-            if deep.get("findings"):
-                lines.append("**关键证据**")
-                lines.append("")
-                for f in deep["findings"]:
-                    lines.append(f"- {f.get('claim', '')} —— {f.get('evidence', '')}")
-                lines.append("")
-            lines += [
-                f"**效应量**：{deep.get('effect', '')}",
-                "",
-                f"**与我的课题**：{deep.get('relation', '')}",
-                "",
-                f"**局限**：{'；'.join(deep.get('limitations') or [])}",
-                "",
-                f"**可迁移**：{deep.get('transferable', '')}",
-                "",
-                "**三个追问**",
-                "",
-            ]
-            for q in deep.get("followups") or []:
-                lines.append(f"- [ ] {q}")
-            lines.append("")
-            if deep.get("glossary"):
-                lines.append("**术语**：" + "；".join(f"{g['en']} = {g['cn']}" for g in deep["glossary"]))
-                lines.append("")
-        else:
-            lines += [
-                "> 本次未启用模型，没有生成精读卡。以下为摘要原文。",
-                "",
-                f"{must.get('abstract', '')[:1200]}",
-                "",
-            ]
-    if day.get("scan"):
+    for i, m in enumerate(musts, start=1):
+        lines += _must_markdown(m, i, len(musts))
+    if scans:
         lines += ["## 速览", ""]
-        for p in day["scan"]:
+        for p in scans:
             lines += [
-                f"### {p.get('title')}",
+                f"### {p.get('title_zh') or p.get('title')}",
                 f"- {p.get('journal')}｜{p.get('date')}｜{p.get('design_label')}｜{p.get('score', {}).get('final', '?')}/100",
                 f"- {p.get('one_line', '')}",
                 f"- 对我：{p.get('so_what', '')}（{p.get('caution', '')}）",

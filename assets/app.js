@@ -85,10 +85,17 @@
     renderAll();
   }
 
+  function mustReads() {
+    const d = state.day;
+    if (!d) return [];
+    if (Array.isArray(d.must_reads) && d.must_reads.length) return d.must_reads;
+    return [d.must_read].filter(Boolean);
+  }
+
   function shownPapers() {
     const d = state.day;
     if (!d) return [];
-    return [d.must_read, ...(d.scan || [])].filter(Boolean);
+    return [...mustReads(), ...(d.scan || [])].filter(Boolean);
   }
 
   function renderAll() {
@@ -110,13 +117,12 @@
     const stats = d.stats || {};
     const shown = shownPapers().length;
     const scans = (d.scan || []).length;
-    const minutes = d.must_read?.deep?.reading_minutes
-      ? Number(d.must_read.deep.reading_minutes) + Math.max(0, scans) * 2
-      : 20;
+    const deepMinutes = mustReads().reduce((sum, p) => sum + Number(p?.deep?.reading_minutes || 0), 0);
+    const minutes = deepMinutes ? deepMinutes + Math.max(0, scans) * 2 : 20;
     if (shown === 0) {
       $("#lede").textContent = "今天没有值得占用你阅读位的论文。这是正常结果，不是故障。";
     } else if (d.ai) {
-      $("#lede").innerHTML = `今天从 <em>${esc(stats.fetched ?? stats.gated ?? "?")}</em> 篇新论文里留下 ${shown} 篇：1 篇精读，${scans} 篇速览。读完约 ${minutes} 分钟。`;
+      $("#lede").innerHTML = `今天从 <em>${esc(stats.fetched ?? stats.gated ?? "?")}</em> 篇新论文里留下 ${shown} 篇：${mustReads().length} 篇精读，${scans} 篇速览。读完约 ${minutes} 分钟。`;
     } else {
       $("#lede").innerHTML = `今天从 <em>${esc(stats.fetched ?? stats.gated ?? "?")}</em> 篇新论文里按规则留下 ${shown} 篇。模型未启用，所以没有精读卡与点评。`;
     }
@@ -166,15 +172,7 @@
       .join("")}</div>`;
   }
 
-  function renderMust(d) {
-    const p = d.must_read;
-    const mount = $("#mustMount");
-    if (!p) {
-      $("#mustSection").hidden = false;
-      mount.innerHTML = `<p class="empty">今天没有一篇够格做精读。</p>`;
-      return;
-    }
-    $("#mustSection").hidden = false;
+  function mustCard(p, idx, total) {
     const deep = p.deep || {};
     const title = p.title_zh || deep.title_zh || p.title;
     const orig = p.title_zh && p.title ? p.title : "";
@@ -215,12 +213,12 @@
 
     const pdf = p.pmcid ? `https://europepmc.org/articles/${esc(p.pmcid)}?pdf=render` : "";
 
-    mount.innerHTML = `
+    return `
       <div class="must-wrap reveal ${store.read.has(p.id) ? "is-read" : ""}" data-id="${esc(p.id)}">
         ${probe(p.design_level, p.design_label || "未标注")}
         <article class="sheet">
           <header class="sheet-head">
-            <p class="eyebrow">精读 <span class="tier">${esc(p.tier || "C")} 级</span> ${p.cluster ? `<span class="tier">${esc(p.cluster)}</span>` : ""}</p>
+            <p class="eyebrow">${String(idx).padStart(2, "0")} · 精读 ${idx}/${total} <span class="tier">${esc(p.tier || "C")} 级</span> ${p.cluster ? `<span class="tier">${esc(p.cluster)}</span>` : ""}</p>
             <h3>${esc(title)}</h3>
             ${orig ? `<p class="orig-title">${esc(orig)}</p>` : ""}
             <div class="meta-line">${meta.map((m) => `<span>${esc(m)}</span>`).join("")}</div>
@@ -241,17 +239,28 @@
           </div>
         </article>
       </div>`;
-    mount.dataset.deep = JSON.stringify(deep);
-    mount.dataset.raw = JSON.stringify({ id: p.id, title, journal: p.journal, url: p.url });
+  }
+
+  function renderMust(d) {
+    const list = mustReads();
+    const mount = $("#mustMount");
+    if (!list.length) {
+      $("#mustSection").hidden = false;
+      mount.innerHTML = `<p class="empty">今天没有一篇够格做精读。</p>`;
+      return;
+    }
+    $("#mustSection").hidden = false;
+    mount.innerHTML = list.map((p, i) => mustCard(p, i + 1, list.length)).join("");
   }
 
   function renderScan(d) {
     const list = d.scan || [];
     $("#scanSection").hidden = list.length === 0;
     const mount = $("#scanMount");
+    const offset = mustReads().length;
     mount.innerHTML = list
       .map((p, i) => {
-        const num = String(i + 2).padStart(2, "0");
+        const num = String(offset + i + 1).padStart(2, "0");
         const title = p.title_zh || p.title;
         const score = p.score?.final;
         return `
@@ -354,7 +363,7 @@
 
   function noteText() {
     const d = state.day;
-    const p = d.must_read;
+    const p = mustReads()[0];
     if (!p) return "";
     const deep = p.deep || {};
     const lines = [

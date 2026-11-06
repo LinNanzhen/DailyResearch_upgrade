@@ -118,9 +118,9 @@ class TestSelection(unittest.TestCase):
         profile = load_profile()
         tiers = {"journal of dental research": "A"}
         papers = []
-        for i in range(8):
+        for i in range(14):
             p = score.attach(
-                fake_paper(id=f"p{i}", title=f"Dental implant study number {i}", journal=f"Journal {i % 3}", date="2026-11-05"),
+                fake_paper(id=f"p{i}", title=f"Dental implant study number {i}", journal=f"Journal {i}", date="2026-11-05"),
                 profile, tiers, date(2026, 11, 6),
             )
             p["score"] = {"final": 90 - i}
@@ -128,6 +128,7 @@ class TestSelection(unittest.TestCase):
             papers.append(p)
         picked = score.select(papers, profile)
         self.assertIsNotNone(picked["must_read"])
+        self.assertEqual(len(picked["must_reads"]), profile["quota"]["must_read"])
         self.assertEqual(len(picked["scan"]), profile["quota"]["scan"])
         journals = [p["journal"] for p in picked["scan"]]
         self.assertEqual(len(journals), len(set(journals)), "scan should not repeat a journal")
@@ -221,7 +222,7 @@ class TestRender(unittest.TestCase):
         must["score"] = {"final": 88, "match": 90}
         must["deep"] = {"title_zh": "必读", "one_sentence": "一句话", "followups": ["q1"]}
         scan = [fake_paper(id="s", title="Scan")]
-        day = render.build_day(profile, must, scan, [], {"shown": 2}, ai=True, model="m", usage={})
+        day = render.build_day(profile, [must], scan, [], {"shown": 2}, ai=True, model="m", usage={})
         self.assertEqual(day["must_read"]["title_zh"], "必读")
         self.assertEqual(len(day["scan"]), 1)
         json.dumps(day, ensure_ascii=False)  # must be serialisable

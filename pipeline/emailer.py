@@ -55,7 +55,7 @@ def day_url(day: Dict[str, Any], cfg: Dict[str, Any]) -> str:
 
 def subject_for(day: Dict[str, Any]) -> str:
     must = day.get("must_read") or {}
-    title = must.get("title_zh") or must.get("title") or "今日四篇"
+    title = must.get("title_zh") or must.get("title") or "今日文献"
     title = str(title).strip()
     if len(title) > 46:
         title = title[:45] + "…"
@@ -84,8 +84,7 @@ def _section_label(text: str) -> str:
     )
 
 
-def _must_read_block(day: Dict[str, Any], cfg: Dict[str, Any]) -> str:
-    p = day.get("must_read")
+def _must_read_block(p: Dict[str, Any], day: Dict[str, Any], cfg: Dict[str, Any]) -> str:
     if not p:
         return ""
     deep = p.get("deep") or {}
@@ -172,7 +171,7 @@ def _must_read_block(day: Dict[str, Any], cfg: Dict[str, Any]) -> str:
     </table>"""
 
 
-def _scan_block(day: Dict[str, Any]) -> str:
+def _scan_block(day: Dict[str, Any], start: int = 1) -> str:
     items = day.get("scan") or []
     if not items:
         return ""
@@ -184,7 +183,7 @@ def _scan_block(day: Dict[str, Any]) -> str:
         rows.append(f"""
       <tr><td style="border-top:1px solid #e2e4da;padding:16px 0">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-          <td valign="top" style="width:36px;font-family:{MONO};font-size:11px;color:{FAINT};padding-top:3px">{i + 2:02d}</td>
+          <td valign="top" style="width:36px;font-family:{MONO};font-size:11px;color:{FAINT};padding-top:3px">{start + i:02d}</td>
           <td valign="top">
             <a href="{_esc(p.get('url'))}" style="font-family:{SERIF};font-size:17px;line-height:1.4;color:{INK};text-decoration:none">{_esc(title)}</a>
             <div style="font-size:14px;line-height:1.65;color:{INK};margin-top:5px">{_esc(p.get('one_line'))}</div>
@@ -196,7 +195,7 @@ def _scan_block(day: Dict[str, Any]) -> str:
         </tr></table>
       </td></tr>""")
     return f"""
-    <div style="font-family:{MONO};font-size:10px;letter-spacing:.16em;color:{EOSIN};text-transform:uppercase;margin:34px 0 2px">02 · 速览</div>
+    <div style="font-family:{MONO};font-size:10px;letter-spacing:.16em;color:{EOSIN};text-transform:uppercase;margin:34px 0 2px">{start:02d} · 速览</div>
     <div style="font-size:12px;color:{MUTED};margin-bottom:4px">每篇 30 秒：做了什么 · 与我何关 · 哪里可能虚</div>
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0">{''.join(rows)}</table>"""
 
@@ -236,15 +235,23 @@ def _weekly_block(day: Dict[str, Any]) -> str:
 def render_email_html(day: Dict[str, Any], profile: Dict[str, Any]) -> str:
     cfg = _cfg(profile)
     stats = day.get("stats") or {}
-    shown = (1 if day.get("must_read") else 0) + len(day.get("scan") or [])
+    musts = day.get("must_reads") or ([day["must_read"]] if day.get("must_read") else [])
+    shown = len(musts) + len(day.get("scan") or [])
     minutes = 20
-    deep = (day.get("must_read") or {}).get("deep") or {}
-    if deep.get("reading_minutes"):
-        minutes = int(deep["reading_minutes"]) + 2 * len(day.get("scan") or [])
+    reads = musts
+    deep_minutes = sum(int((m.get("deep") or {}).get("reading_minutes") or 0) for m in reads)
+    if deep_minutes:
+        minutes = deep_minutes + 2 * len(day.get("scan") or [])
     funnel = (
         f'<span style="color:{INK};font-weight:600">{_esc(stats.get("candidates", "?"))}</span> 篇候选'
         f' → <span style="color:{INK};font-weight:600">{_esc(stats.get("gated", "?"))}</span> 篇过筛'
         f' → <span style="color:{TEAL};font-weight:600">{shown}</span> 篇留下 · 约 {minutes} 分钟'
+    )
+    musts_html = "".join(
+        f'<tr><td><div style="font-family:{MONO};font-size:10px;letter-spacing:.16em;color:{EOSIN};'
+        f'text-transform:uppercase;margin:28px 0 0">{i:02d} · 精读 {i}/{len(musts)}</div>'
+        f'{_must_read_block(m, day, cfg)}</td></tr>'
+        for i, m in enumerate(musts, start=1)
     )
     banner = ""
     if not day.get("ai"):
@@ -259,7 +266,7 @@ def render_email_html(day: Dict[str, Any], profile: Dict[str, Any]) -> str:
 <title>{_esc(subject_for(day))}</title>
 </head>
 <body style="margin:0;padding:0;background:{PAPER};-webkit-font-smoothing:antialiased">
-<div style="display:none;font-size:1px;color:{PAPER};max-height:0;overflow:hidden">今天只读四篇：1 篇精读，3 篇速览。</div>
+<div style="display:none;font-size:1px;color:{PAPER};max-height:0;overflow:hidden">今天只读十篇：2 篇精读，8 篇速览。</div>
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:{PAPER};padding:26px 12px">
   <tr><td align="center">
     <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:600px;max-width:100%">
@@ -269,15 +276,12 @@ def render_email_html(day: Dict[str, Any], profile: Dict[str, Any]) -> str:
         <div style="font-family:{MONO};font-size:11px;color:{MUTED}">{funnel}</div>
         {banner}
       </td></tr>
-      <tr><td>
-        <div style="font-family:{MONO};font-size:10px;letter-spacing:.16em;color:{EOSIN};text-transform:uppercase;margin:28px 0 0">01 · 精读</div>
-        {_must_read_block(day, cfg)}
-      </td></tr>
-      <tr><td>{_scan_block(day)}</td></tr>
+      {musts_html}
+      <tr><td>{_scan_block(day, start=len(musts) + 1)}</td></tr>
       <tr><td>{_weekly_block(day)}</td></tr>
       <tr><td style="padding:30px 0 0">
         <div style="border-top:1px solid {INK};padding-top:12px;font-size:11.5px;line-height:1.8;color:{MUTED}">
-          排序由你的 profile.yml 决定：研究问题 40%、新颖 20%、证据 18%、影响 12%、迁移 10%。每天只放 1+3 篇。<br>
+          排序由你的 profile.yml 决定：研究问题 40%、新颖 20%、证据 18%、影响 12%、迁移 10%。每天只放 2+8 篇。<br>
           想暂停邮件：把 <span style="font-family:{MONO};font-size:10.5px">delivery.email.enabled</span> 改成 false。<br>
           {_esc(day.get("model") or "")} · {_esc(day.get("generated_at") or "")}
         </div>
@@ -291,11 +295,11 @@ def render_email_html(day: Dict[str, Any], profile: Dict[str, Any]) -> str:
 def render_email_text(day: Dict[str, Any], profile: Dict[str, Any]) -> str:
     cfg = _cfg(profile)
     lines: List[str] = [f"{day.get('date')} 口腔文献日课", ""]
-    must = day.get("must_read") or {}
-    deep = must.get("deep") or {}
-    if must:
+    musts = day.get("must_reads") or ([day["must_read"]] if day.get("must_read") else [])
+    for n, must in enumerate(musts, start=1):
+        deep = must.get("deep") or {}
         lines += [
-            "【精读】" + str(must.get("title_zh") or must.get("title")),
+            f"【精读 {n}/{len(musts)}】" + str(must.get("title_zh") or must.get("title")),
             f"{must.get('journal')} · {must.get('date')} · {must.get('design_label')}",
             f"{must.get('one_line') or ''}",
             "",
