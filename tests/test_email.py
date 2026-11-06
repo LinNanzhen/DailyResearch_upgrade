@@ -128,6 +128,33 @@ class TestProvider(unittest.TestCase):
         result = emailer.send_day(sample_day(), {"delivery": {"email": {"enabled": False}}})
         self.assertFalse(result["sent"])
 
+    def test_resend_payload(self):
+        class FakeResp:
+            status_code = 200
+
+            @staticmethod
+            def json():
+                return {"id": "email_123"}
+
+        captured = {}
+
+        def fake_post(url, headers=None, json=None, timeout=None):
+            captured.update({"url": url, "headers": headers, "json": json})
+            return FakeResp()
+
+        with patch.dict(os.environ, {"RESEND_API_KEY": "re_test"}, clear=True):
+            with patch("pipeline.emailer.requests.post", side_effect=fake_post):
+                result = emailer.send_day(sample_day(), load_profile())
+
+        self.assertTrue(result["sent"])
+        self.assertEqual(result["provider"], "resend")
+        self.assertEqual(captured["headers"]["Authorization"], "Bearer re_test")
+        payload = captured["json"]
+        self.assertEqual(payload["to"], ["lnz985211@gmail.com"])
+        self.assertIn("口腔文献日课", payload["subject"])
+        self.assertIn("迈向性别特异性的牙周炎宿主调节治疗", payload["html"])
+        self.assertIn("【精读】", payload["text"])
+
     def test_send_skipped_without_recipient(self):
         profile = load_profile()
         profile["delivery"]["email"]["to"] = ""

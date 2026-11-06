@@ -145,7 +145,7 @@ export AGNES_API_KEY=sk-...        # 不设也能跑，只是没有精读卡
 python -m pipeline.main --dry-run  # 只看排序，不写文件
 python -m pipeline.main            # 写入 data/ notes/ state/
 
-python -m unittest discover -s tests -v   # 27 个离线测试
+python -m unittest discover -s tests -v   # 28 个离线测试
 python -m http.server 8000                # 打开 http://localhost:8000
 ```
 
