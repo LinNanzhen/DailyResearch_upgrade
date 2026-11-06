@@ -1,13 +1,13 @@
 {
- "updated_at": "2026-11-07T00:20:58+08:00",
+ "updated_at": "2026-11-07T00:25:11+08:00",
  "latest": "2026-11-06",
  "days": [
   {
    "date": "2026-11-06",
-   "must_title": "An Update of Management Strategies in Locally Advanced Oral Cancer",
-   "must_title_zh": "局部晚期口腔鳞状细胞癌管理策略更新",
-   "cluster": "口腔癌免疫微环境",
-   "count": 7,
+   "must_title": "Programmed bacterial lysis in vivo alters host immune responses and microbial pathogenesis",
+   "must_title_zh": "体内程序化细菌裂解改变宿主免疫应答与微生物致病性",
+   "cluster": "细菌裂解-免疫编程",
+   "count": 10,
    "ai": true
   }
  ],
