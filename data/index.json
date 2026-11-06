@@ -1,13 +1,13 @@
 {
- "updated_at": "2026-11-07T00:30:58+08:00",
+ "updated_at": "2026-11-07T00:33:52+08:00",
  "latest": "2026-11-06",
  "days": [
   {
    "date": "2026-11-06",
-   "must_title": "Does Neoadjuvant Chemotherapy Increase Reconstructive Risk? A Comparative Analysis of Surgical Efficiency and Microvascular Success in Advanced OSCC",
-   "must_title_zh": "新辅助化疗对晚期 OSCC 显微重建风险的影响",
-   "cluster": "口腔鳞癌手术重建",
-   "count": 3,
+   "must_title": "Impact of Body Mass Index on Treatment Outcomes in Locally Advanced Head and Neck Cancer Patients Treated With Definitive Chemoradiotherapy or Radiotherapy Alone",
+   "must_title_zh": "体重指数对局部晚期头颈部癌根治性放化疗或单纯放疗疗效的影响",
+   "cluster": "头颈癌营养与预后",
+   "count": 10,
    "ai": true
   }
  ],
