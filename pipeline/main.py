@@ -58,7 +58,7 @@ def run(args: argparse.Namespace) -> int:
     papers = [p for p in papers if p["heuristic"] >= 18]
     papers.sort(key=lambda p: p["heuristic"], reverse=True)
 
-    pool_cap = 36
+    pool_cap = int(profile["scoring"].get("pool_cap", 48) or 48)
     pool = papers[:pool_cap]
     log(f"[2/6] 粗排：{len(papers)} 篇 → 送模型 {len(pool)} 篇（阈值 18）")
 

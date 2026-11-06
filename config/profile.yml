@@ -173,6 +173,8 @@ sources:
     - Nature Biomedical Engineering
     - Advanced Materials
     - ACS Nano
+    - Biomaterials
+    - Acta Biomaterialia
   # 跨刊主题检索：抓「口腔 × 大刊」的论文（Nature/Cell 系或综合刊）
   topic_queries:
     - >-
@@ -193,7 +195,7 @@ quota:
   scan: 8             # 每天速览几篇；与 must_read 合计 = 每日总配额
   backlog: 6
   backlog_max_age_days: 21
-  min_scan_score: 30       # 速览的绝对下限（模型打分集中在 40–65，别用 50 卡）
+  min_scan_score: 25       # 速览的绝对下限（模型打分集中在 40–65，别用 50 卡）
   max_gap_from_top: 30     # 且不能比当天最高分低超过 30 分
 
 # ------------------------------------------------------------
@@ -212,6 +214,7 @@ scoring:
     impact: 0.12
     transfer: 0.10
   show_score_breakdown: true
+  pool_cap: 48             # 送给模型的候选数；调大召回更全，代价是调用次数
 
 # ------------------------------------------------------------
 # ⑥ 模型（Agnes AI，OpenAI 兼容）
