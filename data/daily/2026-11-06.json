@@ -1,147 +1,154 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-07T00:25:11+08:00",
+ "generated_at": "2026-11-07T00:28:19+08:00",
  "model": "agnes-2.5-flash",
  "ai": true,
  "usage": {
-  "calls": 8,
-  "prompt_tokens": 23743,
-  "completion_tokens": 19558
+  "calls": 7,
+  "prompt_tokens": 19841,
+  "completion_tokens": 15956
  },
  "stats": {
   "candidates": 179,
   "raw": 172,
-  "fetched": 125,
+  "fetched": 36,
   "raw_dropped_type": 15,
   "no_abstract": 1,
-  "gated": 125,
-  "scored": 34,
-  "shown": 10,
+  "gated": 36,
+  "scored": 35,
+  "shown": 8,
   "ai": true,
   "feedback_files": 0,
-  "calls": 8
+  "calls": 7
  },
  "must_read": {
-  "id": "10.1016/j.celrep.2026.118256",
-  "pmid": "42981194",
-  "doi": "10.1016/j.celrep.2026.118256",
-  "title": "Programmed bacterial lysis in vivo alters host immune responses and microbial pathogenesis",
-  "title_zh": "体内程序化细菌裂解改变宿主免疫应答与微生物致病性",
-  "journal": "Cell reports",
-  "date": "2026-11-04",
+  "id": "10.1016/j.biomaterials.2026.124735",
+  "pmid": "42987700",
+  "doi": "10.1016/j.biomaterials.2026.124735",
+  "title": "Mitochondria-protective polysaccharide augments burn wound repair through immunometabolic reprogramming",
+  "title_zh": "线粒体保护型多糖通过免疫代谢重编程促进烧伤创面修复",
+  "journal": "Biomaterials",
+  "date": "2026-11-03",
   "authors": [
-   "Lembke M",
-   "Simmons DP",
-   "Robins WP",
-   "Toska J",
-   "Meader BT",
-   "Mekalanos JJ"
+   "Zhong G",
+   "Liang Q",
+   "Pu J",
+   "Zhai X",
+   "Hu Z",
+   "Wu H",
+   "Xu N",
+   "Hu C",
+   "Luo Y",
+   "Liu Y",
+   "Zhao J",
+   "Sun P"
   ],
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42981194/",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42987700/",
   "pmcid": "",
   "cited_by": 0,
-  "design": "unknown",
-  "design_label": "未标注",
-  "design_level": 1,
+  "design": "animal",
+  "design_label": "动物实验",
+  "design_level": 2,
   "sample_n": null,
   "sample_note": "",
   "tier": "A",
   "domain": "生物材料表面/降解产物如…",
-  "methods": [
-   "crispr"
-  ],
+  "methods": [],
   "pub_types": [
    "Journal Article"
   ],
   "is_open_access": false,
-  "cluster": "细菌裂解-免疫编程",
-  "one_line": "工程化温和裂解菌株释放肽聚糖碎片，选择性激活宿主固有免疫，增强旁观者致病菌定植与致病性。",
-  "so_what": "直接回答q3（微生物组失衡是因果还是标志物）：细菌裂解产物本身可作为免疫编程信号；为q4'材料降解…",
-  "caution": "霍乱弧菌肠道模型与口腔种植体周微环境存在解剖学和菌群组成差异，不能直接平移。",
+  "cluster": "生物材料免疫编程",
+  "one_line": "微生物源多糖colanic acid经TLR4内化保护线粒体，驱动巨噬细胞M2极化并加速伤口修复。",
+  "so_what": "q4直接回答：生物材料可通过免疫代谢重编程调控宿主修复，种植体表面策略可借鉴此机制",
+  "caution": "烧伤模型，软组织修复与硬组织骨结合存在差异",
   "score": {
-   "final": 65.8,
-   "match": 78.0,
-   "novelty": 72.0,
-   "rigor": 75.0,
-   "impact": 55.0,
-   "transfer": 82.0
+   "final": 64.1,
+   "match": 75.0,
+   "novelty": 70.0,
+   "rigor": 70.0,
+   "impact": 65.0,
+   "transfer": 80.0
   },
-  "heuristic": 37.1,
+  "heuristic": 34.8,
   "breakdown": {
-   "topic": 7.9,
+   "topic": 5.8,
    "journal": 15.0,
-   "design": 6,
+   "design": 9,
    "sample": 0.0,
-   "fresh": 6.0,
-   "method": 2.2
+   "fresh": 5.0,
+   "method": 0.0
   },
-  "abstract": "Vibrio cholerae injects toxic type VI secretion system (T6SS) effectors to lyse sensitive intestinal commensals, but how this bacterial antagonism enhances mucosal host immune responses and its pathogenicity remains unknown. To mimic T6SS-mediated killing, we engineered V. cholerae lysis strains by using CRISPR interference (CRISPRi) to knockdown essential genes in peptidoglycan biogenesis or lipopolysaccharide (LPS) transport. Our results indicate that controlled bacterial lysis in vivo leads to divergent mucosal immune responses that directly modulate colonization and pathogenicity of a bystander, non-lysing V. cholerae ΔT6SS strain. Mass spectrometric analysis of the lysis debris revealed proinflammatory muropeptides correlating with these changes. We confirmed that oral co-administration of a synthetic peptidoglycan-derived metabolite with a V. cholerae ΔT6SS mutant, but not the wild type, shows dramatic enhancement of disease symptoms. These findings show that intestinal exposure to discrete bacterial cell wall metabolites can differentially modulate host innate immune responses and consequently bacterial pathogenesis.",
+  "abstract": "Effective wound healing requires coordinated extracellular matrix (ECM) deposition, immune regulation, and metabolic adaptation-processes governed by fibroblast mitochondria. Conventional burn therapies fail to address the mitochondrial dysfunction that impedes tissue regeneration. Here, we show that colanic acid (CA), a microbial-derived exopolysaccharide, acts as a mitochondrial-protecting biomaterial that accelerates burn repair by restoring immuno-metabolic crosstalk. In a murine deep second-degree burn model, CA enhanced wound closure 3.1-fold over controls, reduced reactive oxidative species by 54%, and increased mature collagen deposition by 193%. Mechanistically, CA undergoes intracellular internalization with the assistance of the membrane receptor TLR4 and maintains mitochondrial integrity, evidenced by restored cristae ultrastructure, a 1.4-fold increase in oxidative phosphorylation flux, and a 1.5-fold elevation in ATP production-effects abolished upon silencing the mitochondrial regulator Thap11. Bulk RNA-seq indicated that CA reshaped the wound immune landscape by driving macrophage recruitment and M2 polarization via mitochondrial metabolic reprogramming. By synchronizing mitochondrial rescue with immune-guided ECM remodeling, CA outperformed hyaluronic acid dressings in wound closure and extracellular matrix remodeling.The preliminary translational proof-of-concept of CA was confirmed in a Bama minipig model of deep second-degree burn wound, where it enhanced re-epithelialization, angiogenesis, and tissue perfusion. Together, these findings suggest that CA is a multifunctional polysaccharide with mitochondrial protective effects capable of addressing the multifaceted pathology of burn wounds across species.",
   "tags": [
-   "CP: microbiology",
-   "CRISPRi",
-   "Vibrio cholerae",
-   "bacterial lysis",
-   "host innate immune response",
-   "immunomodulation"
+   "Burn-wound healing",
+   "Colanic acid (CA)",
+   "Exopolysaccharide",
+   "Immuno-metabolic crosstalk",
+   "Mitochondrial protection"
   ],
   "deep": {
-   "title_zh": "体内程序化细菌裂解改变宿主免疫应答与微生物致病性",
-   "one_sentence": "工程化可控细菌裂解释放的肽聚糖代谢物可编程宿主先天免疫，进而显著增强非T6SS霍乱弧菌的定植与致病力。",
-   "question": "细菌细胞壁代谢物（特别是促炎muropeptides）能否作为信号分子，在体外竞争与体内定植之间架起因果桥梁——即裂解产物如何通过重塑宿主免疫改变旁观者病原体的命运？",
-   "design": "体内动物模型中，将CRISPRi工程化霍乱弧菌裂解株（靶向肽聚糖生物合成或LPS运输）与野生型/ΔT6SS突变株进行共定植实验，设置裂解组、非裂解组及合成代谢物干预组进行对照比较。",
-   "sample_desc": "摘要未说明",
+   "title_zh": "线粒体保护型多糖通过免疫代谢重编程促进烧伤创面修复",
+   "one_sentence": "微生物源多糖CA经TLR4内吞保护线粒体功能，驱动巨噬细胞M2极化，显著加速烧伤创面修复，机制清晰且跨物种验证。",
+   "question": "微生物源胞外多糖能否作为线粒体保护性生物材料，通过重建免疫-代谢串扰促进深层烧伤创面再生？",
+   "design": "小鼠深II度烧伤模型 + 巴马迷你猪深II度烧伤验证模型；CA治疗组 vs 对照组（透明质酸敷料对比），单因素干预，未说明随访时间。",
+   "sample_desc": "小鼠+巴马迷你猪；细胞实验（TLR4敲低、Thap11敲低）；摘要未说明各组具体n值。",
    "findings": [
     {
-     "claim": "体内程序化细菌裂解引发分化的黏膜免疫应答，直接调节旁观者非裂解V. cholerae ΔT6SS的定植与致病性",
-     "evidence": "工程化裂解株与共存的ΔT6SS突变株共定植后，观察到定植负荷和疾病严重度的显著变化；效应方向取决于裂解产生的代谢物谱"
+     "claim": "CA显著加速烧伤创面愈合",
+     "evidence": "Closure较对照组快3.1倍；活性氧降低54%；成熟胶原沉积增加193%"
     },
     {
-     "claim": "裂解碎片的质谱分析揭示了促炎性muropeptides，其与上述免疫和致病性改变存在关联",
-     "evidence": "质谱检测到特定的肽聚糖来源代谢物，其丰度与免疫表型及细菌定植变化呈相关性"
+     "claim": "CA通过TLR4介导的膜受体辅助实现细胞内内吞",
+     "evidence": "需TLR4参与CA的细胞摄取，敲低TLR4后效应被阻断（摘要未给出具体数值）"
     },
     {
-     "claim": "口服给合成分泌的肽聚糖代谢物可戏剧性增强ΔT6SS突变株的致病症状，但对野生型无此效应",
-     "evidence": "合成muropeptide + ΔT6SS株的联合给药组表现出显著增强的疾病表型；而野生型V. cholerae组无此增强效应，提示T6SS活性可抵消或掩盖该代谢物的免疫调节效应"
+     "claim": "CA保护线粒体完整性并恢复代谢功能",
+     "evidence": "恢复线粒体嵴超微结构；氧化磷酸化通量提高1.4倍；ATP产量提高1.5倍；以上效应均被Thap11敲低所 abolishes"
+    },
+    {
+     "claim": "CA通过免疫代谢重编程重塑创面免疫微环境",
+     "evidence": "Bulk RNA-seq显示CA驱动巨噬细胞募集及M2极化，机制依赖于线粒体代谢重编程"
     }
    ],
-   "effect": "未报告",
-   "relation": "q4——提供新解释：细菌细胞壁降解产物可作为'信号'编程宿主免疫，这一机制可直接迁移到种植体表面/生物材料降解产物如何'编程'免疫微环境的理解框架中。同时与q3部分相关，揭示了dysbiosis中细菌-细菌互作产物如何影响宿主-微生物关系。",
-   "why": "它打破了'细菌互作仅通过直接杀伤或分泌抗菌物质实现'的传统认知，提供了一个'裂解→代谢物释放→宿主免疫编程→病原体适应性改变'的因果链条。对种植体周围微环境的理解有启示：材料表面的降解产物或细菌生物膜的裂解片段，可能以类似方式'编程'巨噬细胞极化和后续炎症结局。",
+   "effect": "未报告置信区间；点估计：愈合速度↑3.1倍，ROS↓54%，胶原↑193%，OXPHOS↑1.4倍，ATP↑1.5倍",
+   "relation": "与 q4 高度相关——直接展示多糖类生物材料如何通过TLR4受体→线粒体保护→Thap11通路→M2极化的级联反应「编程」宿主免疫，从而决定组织再生结局；与 q1 部分相关，涉及巨噬细胞极化的代谢调控机制。",
+   "why": "将'多糖-线粒体-免疫代谢'三者串联起来提供了完整的因果链条：不止描述CA促进愈合，而是证明其机制依赖Thap11介导的线粒体保护，并阐明由此驱动的M2极化是ECM重塑的前提。对材料免疫编程领域的认知贡献在于：证明了代谢重编程是生物材料「免疫指令」的核心执行环节。",
    "limitations": [
-    "使用CRISPRi工程化裂解株模拟T6SS介导的细菌竞争，属于替代模型，体内实际裂解动力学与天然T6SS攻击可能存在差异",
-    "研究模型为霍乱弧菌肠道感染，其发现能否外推到口腔环境（不同pH、氧分压、菌群组成、宿主免疫特征）尚待验证",
-    "作者仅展示了相关性（muropeptides与免疫变化的关联），具体受体/信号通路机制未阐明"
+    "摘要未提供各实验组的样本量（n值）及统计学检验细节（如p值、CI），无法评估证据强度。",
+    "未在炎性期和时间窗维度阐明CA的作用时机——是仅在早期抗炎，还是贯穿再生全程？对临床应用场景的界定模糊。",
+    "Thap11的具体分子机制（它如何调控线粒体稳态）仅以'敲低 abolishes 效应'概括，缺乏下游靶标或通路细节。"
    ],
-   "transferable": "1）CRISPRi靶向细胞壁生物合成基因构建可控裂解菌株的策略，可移植到口腔致病菌研究中；2）质谱鉴定细菌细胞壁代谢物并结合合成化合物进行功能验证的范式；3）'裂解产物→宿主免疫→旁观者病原体适应性'的实验设计逻辑，可用于研究种植体周生物膜中细菌死亡产物如何影响免疫微环境。",
+   "transferable": "① Thap11作为线粒体-免疫代谢轴的关键节点，可迁移至种植体界面或牙周组织的免疫代谢研究；② 'TLR4→线粒体→代谢重编程→巨噬细胞极化'这一验证逻辑可直接用于评价口腔生物材料（如钛种植体表面改性、牙周再生膜）的免疫编程效应；③ 用bulk RNA-seq结合代谢通量+ATP检测三联指标来描述材料-免疫互作，方…",
    "followups": [
-    "具体是哪种muropeptide结构（如MurNAc-L-Ala-D-Glu型或带特定氨基酸修饰的版本）发挥了关键的免疫调节活性？它是否通过NOD样受体或其他PRR signal…",
-    "ΔT6SS株为何对该muropeptide效应敏感而野生型不敏感——T6SS注射的效应蛋白是否直接抑制了宿主对该代谢物的免疫应答通路？",
-    "该muropeptide来源的代谢物能否作为口腔感染（如种植体周炎）的潜在诊断标志物或治疗佐剂？"
+    "Thap11下游的直接靶基因是什么？是调控线粒体生物发生（PGC-1α）、融合/裂变（MFN1/2、DRP1），还是调控代谢酶活性？",
+    "CA在创面不同时间窗（炎症期vs增殖期vs重塑期）的剂量-效应关系如何？是否存在治疗时间窗限制？",
+    "在免疫缺陷或TLR4缺陷小鼠模型中，CA的促愈合效应是否完全消失？以确认TLR4依赖性是否为唯一通路。"
    ],
    "glossary": [
     {
-     "en": "T6SS",
-     "cn": "VI型分泌系统"
+     "en": "Colanic acid (CA)",
+     "cn": "科兰糖/肠杆菌胞外多糖"
     },
     {
-     "en": "CRISPRi",
-     "cn": "CRISPR干扰（dCas9介导的转录沉默）"
+     "en": "Immunometabolism",
+     "cn": "免疫代谢"
     },
     {
-     "en": "muropeptides",
-     "cn": "肽聚糖单体片段（肽聚糖水解产物）"
+     "en": "Oxidative phosphorylation (OXPHOS)",
+     "cn": "氧化磷酸化"
     },
     {
-     "en": "bystander strain",
-     "cn": "旁观者菌株（未被直接攻击的共存菌株）"
+     "en": "M2 polarization",
+     "cn": "M2型巨噬细胞极化"
     },
     {
-     "en": "peptidoglycan biogenesis",
-     "cn": "肽聚糖生物合成"
+     "en": "Thap11",
+     "cn": "THAP结构域含11蛋白（转录调控因子）"
     },
     {
-     "en": "LPS transport",
-     "cn": "脂多糖运输"
+     "en": "Reactive oxygen species (ROS)",
+     "cn": "活性氧"
     }
    ],
    "reading_minutes": 12
@@ -149,153 +156,29 @@
  },
  "must_reads": [
   {
-   "id": "10.1016/j.celrep.2026.118256",
-   "pmid": "42981194",
-   "doi": "10.1016/j.celrep.2026.118256",
-   "title": "Programmed bacterial lysis in vivo alters host immune responses and microbial pathogenesis",
-   "title_zh": "体内程序化细菌裂解改变宿主免疫应答与微生物致病性",
-   "journal": "Cell reports",
-   "date": "2026-11-04",
+   "id": "10.1016/j.biomaterials.2026.124735",
+   "pmid": "42987700",
+   "doi": "10.1016/j.biomaterials.2026.124735",
+   "title": "Mitochondria-protective polysaccharide augments burn wound repair through immunometabolic reprogramming",
+   "title_zh": "线粒体保护型多糖通过免疫代谢重编程促进烧伤创面修复",
+   "journal": "Biomaterials",
+   "date": "2026-11-03",
    "authors": [
-    "Lembke M",
-    "Simmons DP",
-    "Robins WP",
-    "Toska J",
-    "Meader BT",
-    "Mekalanos JJ"
+    "Zhong G",
+    "Liang Q",
+    "Pu J",
+    "Zhai X",
+    "Hu Z",
+    "Wu H",
+    "Xu N",
+    "Hu C",
+    "Luo Y",
+    "Liu Y",
+    "Zhao J",
+    "Sun P"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42981194/",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42987700/",
    "pmcid": "",
-   "cited_by": 0,
-   "design": "unknown",
-   "design_label": "未标注",
-   "design_level": 1,
-   "sample_n": null,
-   "sample_note": "",
-   "tier": "A",
-   "domain": "生物材料表面/降解产物如…",
-   "methods": [
-    "crispr"
-   ],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": false,
-   "cluster": "细菌裂解-免疫编程",
-   "one_line": "工程化温和裂解菌株释放肽聚糖碎片，选择性激活宿主固有免疫，增强旁观者致病菌定植与致病性。",
-   "so_what": "直接回答q3（微生物组失衡是因果还是标志物）：细菌裂解产物本身可作为免疫编程信号；为q4'材料降解…",
-   "caution": "霍乱弧菌肠道模型与口腔种植体周微环境存在解剖学和菌群组成差异，不能直接平移。",
-   "score": {
-    "final": 65.8,
-    "match": 78.0,
-    "novelty": 72.0,
-    "rigor": 75.0,
-    "impact": 55.0,
-    "transfer": 82.0
-   },
-   "heuristic": 37.1,
-   "breakdown": {
-    "topic": 7.9,
-    "journal": 15.0,
-    "design": 6,
-    "sample": 0.0,
-    "fresh": 6.0,
-    "method": 2.2
-   },
-   "abstract": "Vibrio cholerae injects toxic type VI secretion system (T6SS) effectors to lyse sensitive intestinal commensals, but how this bacterial antagonism enhances mucosal host immune responses and its pathogenicity remains unknown. To mimic T6SS-mediated killing, we engineered V. cholerae lysis strains by using CRISPR interference (CRISPRi) to knockdown essential genes in peptidoglycan biogenesis or lipopolysaccharide (LPS) transport. Our results indicate that controlled bacterial lysis in vivo leads to divergent mucosal immune responses that directly modulate colonization and pathogenicity of a bystander, non-lysing V. cholerae ΔT6SS strain. Mass spectrometric analysis of the lysis debris revealed proinflammatory muropeptides correlating with these changes. We confirmed that oral co-administration of a synthetic peptidoglycan-derived metabolite with a V. cholerae ΔT6SS mutant, but not the wild type, shows dramatic enhancement of disease symptoms. These findings show that intestinal exposure to discrete bacterial cell wall metabolites can differentially modulate host innate immune responses and consequently bacterial pathogenesis.",
-   "tags": [
-    "CP: microbiology",
-    "CRISPRi",
-    "Vibrio cholerae",
-    "bacterial lysis",
-    "host innate immune response",
-    "immunomodulation"
-   ],
-   "deep": {
-    "title_zh": "体内程序化细菌裂解改变宿主免疫应答与微生物致病性",
-    "one_sentence": "工程化可控细菌裂解释放的肽聚糖代谢物可编程宿主先天免疫，进而显著增强非T6SS霍乱弧菌的定植与致病力。",
-    "question": "细菌细胞壁代谢物（特别是促炎muropeptides）能否作为信号分子，在体外竞争与体内定植之间架起因果桥梁——即裂解产物如何通过重塑宿主免疫改变旁观者病原体的命运？",
-    "design": "体内动物模型中，将CRISPRi工程化霍乱弧菌裂解株（靶向肽聚糖生物合成或LPS运输）与野生型/ΔT6SS突变株进行共定植实验，设置裂解组、非裂解组及合成代谢物干预组进行对照比较。",
-    "sample_desc": "摘要未说明",
-    "findings": [
-     {
-      "claim": "体内程序化细菌裂解引发分化的黏膜免疫应答，直接调节旁观者非裂解V. cholerae ΔT6SS的定植与致病性",
-      "evidence": "工程化裂解株与共存的ΔT6SS突变株共定植后，观察到定植负荷和疾病严重度的显著变化；效应方向取决于裂解产生的代谢物谱"
-     },
-     {
-      "claim": "裂解碎片的质谱分析揭示了促炎性muropeptides，其与上述免疫和致病性改变存在关联",
-      "evidence": "质谱检测到特定的肽聚糖来源代谢物，其丰度与免疫表型及细菌定植变化呈相关性"
-     },
-     {
-      "claim": "口服给合成分泌的肽聚糖代谢物可戏剧性增强ΔT6SS突变株的致病症状，但对野生型无此效应",
-      "evidence": "合成muropeptide + ΔT6SS株的联合给药组表现出显著增强的疾病表型；而野生型V. cholerae组无此增强效应，提示T6SS活性可抵消或掩盖该代谢物的免疫调节效应"
-     }
-    ],
-    "effect": "未报告",
-    "relation": "q4——提供新解释：细菌细胞壁降解产物可作为'信号'编程宿主免疫，这一机制可直接迁移到种植体表面/生物材料降解产物如何'编程'免疫微环境的理解框架中。同时与q3部分相关，揭示了dysbiosis中细菌-细菌互作产物如何影响宿主-微生物关系。",
-    "why": "它打破了'细菌互作仅通过直接杀伤或分泌抗菌物质实现'的传统认知，提供了一个'裂解→代谢物释放→宿主免疫编程→病原体适应性改变'的因果链条。对种植体周围微环境的理解有启示：材料表面的降解产物或细菌生物膜的裂解片段，可能以类似方式'编程'巨噬细胞极化和后续炎症结局。",
-    "limitations": [
-     "使用CRISPRi工程化裂解株模拟T6SS介导的细菌竞争，属于替代模型，体内实际裂解动力学与天然T6SS攻击可能存在差异",
-     "研究模型为霍乱弧菌肠道感染，其发现能否外推到口腔环境（不同pH、氧分压、菌群组成、宿主免疫特征）尚待验证",
-     "作者仅展示了相关性（muropeptides与免疫变化的关联），具体受体/信号通路机制未阐明"
-    ],
-    "transferable": "1）CRISPRi靶向细胞壁生物合成基因构建可控裂解菌株的策略，可移植到口腔致病菌研究中；2）质谱鉴定细菌细胞壁代谢物并结合合成化合物进行功能验证的范式；3）'裂解产物→宿主免疫→旁观者病原体适应性'的实验设计逻辑，可用于研究种植体周生物膜中细菌死亡产物如何影响免疫微环境。",
-    "followups": [
-     "具体是哪种muropeptide结构（如MurNAc-L-Ala-D-Glu型或带特定氨基酸修饰的版本）发挥了关键的免疫调节活性？它是否通过NOD样受体或其他PRR signal…",
-     "ΔT6SS株为何对该muropeptide效应敏感而野生型不敏感——T6SS注射的效应蛋白是否直接抑制了宿主对该代谢物的免疫应答通路？",
-     "该muropeptide来源的代谢物能否作为口腔感染（如种植体周炎）的潜在诊断标志物或治疗佐剂？"
-    ],
-    "glossary": [
-     {
-      "en": "T6SS",
-      "cn": "VI型分泌系统"
-     },
-     {
-      "en": "CRISPRi",
-      "cn": "CRISPR干扰（dCas9介导的转录沉默）"
-     },
-     {
-      "en": "muropeptides",
-      "cn": "肽聚糖单体片段（肽聚糖水解产物）"
-     },
-     {
-      "en": "bystander strain",
-      "cn": "旁观者菌株（未被直接攻击的共存菌株）"
-     },
-     {
-      "en": "peptidoglycan biogenesis",
-      "cn": "肽聚糖生物合成"
-     },
-     {
-      "en": "LPS transport",
-      "cn": "脂多糖运输"
-     }
-    ],
-    "reading_minutes": 12
-   }
-  },
-  {
-   "id": "10.1126/sciadv.aei0410",
-   "pmid": "42981408",
-   "doi": "10.1126/sciadv.aei0410",
-   "title": "Pancreatic α cells function as MHC class II-dependent antigen-presenting cells in type 1 diabetes",
-   "title_zh": "胰腺α细胞在1型糖尿病中发挥MHC II类分子依赖的抗原呈递细胞功能",
-   "journal": "Science advances",
-   "date": "2026-11-04",
-   "authors": [
-    "Li Z",
-    "Wu X",
-    "Ma S",
-    "Zeng Q",
-    "Wang X",
-    "Xi Q",
-    "Jin QW",
-    "Jie Z",
-    "Wong FS",
-    "Li M"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42981408/",
-   "pmcid": "PMC13733896",
    "cited_by": 0,
    "design": "animal",
    "design_label": "动物实验",
@@ -303,102 +186,231 @@
    "sample_n": null,
    "sample_note": "",
    "tier": "A",
-   "domain": "牙周炎通过哪些可验证的通…",
+   "domain": "生物材料表面/降解产物如…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "生物材料免疫编程",
+   "one_line": "微生物源多糖colanic acid经TLR4内化保护线粒体，驱动巨噬细胞M2极化并加速伤口修复。",
+   "so_what": "q4直接回答：生物材料可通过免疫代谢重编程调控宿主修复，种植体表面策略可借鉴此机制",
+   "caution": "烧伤模型，软组织修复与硬组织骨结合存在差异",
+   "score": {
+    "final": 64.1,
+    "match": 75.0,
+    "novelty": 70.0,
+    "rigor": 70.0,
+    "impact": 65.0,
+    "transfer": 80.0
+   },
+   "heuristic": 34.8,
+   "breakdown": {
+    "topic": 5.8,
+    "journal": 15.0,
+    "design": 9,
+    "sample": 0.0,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "Effective wound healing requires coordinated extracellular matrix (ECM) deposition, immune regulation, and metabolic adaptation-processes governed by fibroblast mitochondria. Conventional burn therapies fail to address the mitochondrial dysfunction that impedes tissue regeneration. Here, we show that colanic acid (CA), a microbial-derived exopolysaccharide, acts as a mitochondrial-protecting biomaterial that accelerates burn repair by restoring immuno-metabolic crosstalk. In a murine deep second-degree burn model, CA enhanced wound closure 3.1-fold over controls, reduced reactive oxidative species by 54%, and increased mature collagen deposition by 193%. Mechanistically, CA undergoes intracellular internalization with the assistance of the membrane receptor TLR4 and maintains mitochondrial integrity, evidenced by restored cristae ultrastructure, a 1.4-fold increase in oxidative phosphorylation flux, and a 1.5-fold elevation in ATP production-effects abolished upon silencing the mitochondrial regulator Thap11. Bulk RNA-seq indicated that CA reshaped the wound immune landscape by driving macrophage recruitment and M2 polarization via mitochondrial metabolic reprogramming. By synchronizing mitochondrial rescue with immune-guided ECM remodeling, CA outperformed hyaluronic acid dressings in wound closure and extracellular matrix remodeling.The preliminary translational proof-of-concept of CA was confirmed in a Bama minipig model of deep second-degree burn wound, where it enhanced re-epithelialization, angiogenesis, and tissue perfusion. Together, these findings suggest that CA is a multifunctional polysaccharide with mitochondrial protective effects capable of addressing the multifaceted pathology of burn wounds across species.",
+   "tags": [
+    "Burn-wound healing",
+    "Colanic acid (CA)",
+    "Exopolysaccharide",
+    "Immuno-metabolic crosstalk",
+    "Mitochondrial protection"
+   ],
+   "deep": {
+    "title_zh": "线粒体保护型多糖通过免疫代谢重编程促进烧伤创面修复",
+    "one_sentence": "微生物源多糖CA经TLR4内吞保护线粒体功能，驱动巨噬细胞M2极化，显著加速烧伤创面修复，机制清晰且跨物种验证。",
+    "question": "微生物源胞外多糖能否作为线粒体保护性生物材料，通过重建免疫-代谢串扰促进深层烧伤创面再生？",
+    "design": "小鼠深II度烧伤模型 + 巴马迷你猪深II度烧伤验证模型；CA治疗组 vs 对照组（透明质酸敷料对比），单因素干预，未说明随访时间。",
+    "sample_desc": "小鼠+巴马迷你猪；细胞实验（TLR4敲低、Thap11敲低）；摘要未说明各组具体n值。",
+    "findings": [
+     {
+      "claim": "CA显著加速烧伤创面愈合",
+      "evidence": "Closure较对照组快3.1倍；活性氧降低54%；成熟胶原沉积增加193%"
+     },
+     {
+      "claim": "CA通过TLR4介导的膜受体辅助实现细胞内内吞",
+      "evidence": "需TLR4参与CA的细胞摄取，敲低TLR4后效应被阻断（摘要未给出具体数值）"
+     },
+     {
+      "claim": "CA保护线粒体完整性并恢复代谢功能",
+      "evidence": "恢复线粒体嵴超微结构；氧化磷酸化通量提高1.4倍；ATP产量提高1.5倍；以上效应均被Thap11敲低所 abolishes"
+     },
+     {
+      "claim": "CA通过免疫代谢重编程重塑创面免疫微环境",
+      "evidence": "Bulk RNA-seq显示CA驱动巨噬细胞募集及M2极化，机制依赖于线粒体代谢重编程"
+     }
+    ],
+    "effect": "未报告置信区间；点估计：愈合速度↑3.1倍，ROS↓54%，胶原↑193%，OXPHOS↑1.4倍，ATP↑1.5倍",
+    "relation": "与 q4 高度相关——直接展示多糖类生物材料如何通过TLR4受体→线粒体保护→Thap11通路→M2极化的级联反应「编程」宿主免疫，从而决定组织再生结局；与 q1 部分相关，涉及巨噬细胞极化的代谢调控机制。",
+    "why": "将'多糖-线粒体-免疫代谢'三者串联起来提供了完整的因果链条：不止描述CA促进愈合，而是证明其机制依赖Thap11介导的线粒体保护，并阐明由此驱动的M2极化是ECM重塑的前提。对材料免疫编程领域的认知贡献在于：证明了代谢重编程是生物材料「免疫指令」的核心执行环节。",
+    "limitations": [
+     "摘要未提供各实验组的样本量（n值）及统计学检验细节（如p值、CI），无法评估证据强度。",
+     "未在炎性期和时间窗维度阐明CA的作用时机——是仅在早期抗炎，还是贯穿再生全程？对临床应用场景的界定模糊。",
+     "Thap11的具体分子机制（它如何调控线粒体稳态）仅以'敲低 abolishes 效应'概括，缺乏下游靶标或通路细节。"
+    ],
+    "transferable": "① Thap11作为线粒体-免疫代谢轴的关键节点，可迁移至种植体界面或牙周组织的免疫代谢研究；② 'TLR4→线粒体→代谢重编程→巨噬细胞极化'这一验证逻辑可直接用于评价口腔生物材料（如钛种植体表面改性、牙周再生膜）的免疫编程效应；③ 用bulk RNA-seq结合代谢通量+ATP检测三联指标来描述材料-免疫互作，方…",
+    "followups": [
+     "Thap11下游的直接靶基因是什么？是调控线粒体生物发生（PGC-1α）、融合/裂变（MFN1/2、DRP1），还是调控代谢酶活性？",
+     "CA在创面不同时间窗（炎症期vs增殖期vs重塑期）的剂量-效应关系如何？是否存在治疗时间窗限制？",
+     "在免疫缺陷或TLR4缺陷小鼠模型中，CA的促愈合效应是否完全消失？以确认TLR4依赖性是否为唯一通路。"
+    ],
+    "glossary": [
+     {
+      "en": "Colanic acid (CA)",
+      "cn": "科兰糖/肠杆菌胞外多糖"
+     },
+     {
+      "en": "Immunometabolism",
+      "cn": "免疫代谢"
+     },
+     {
+      "en": "Oxidative phosphorylation (OXPHOS)",
+      "cn": "氧化磷酸化"
+     },
+     {
+      "en": "M2 polarization",
+      "cn": "M2型巨噬细胞极化"
+     },
+     {
+      "en": "Thap11",
+      "cn": "THAP结构域含11蛋白（转录调控因子）"
+     },
+     {
+      "en": "Reactive oxygen species (ROS)",
+      "cn": "活性氧"
+     }
+    ],
+    "reading_minutes": 12
+   }
+  },
+  {
+   "id": "10.1007/s00784-026-07246-3",
+   "pmid": "42986471",
+   "doi": "10.1007/s00784-026-07246-3",
+   "title": "AI-driven infrared spectroscopy in salivary oral leukoplakia",
+   "title_zh": "AI驱动的唾液红外光谱在口腔白斑中的应用",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-05",
+   "authors": [
+    "da Silva SMSD",
+    "Rizzato JMB",
+    "Taromaru ACY",
+    "de Lima Medeiros Y",
+    "Alves FA",
+    "Pereira TM",
+    "de Barros Gallo C",
+    "Lima FS",
+    "das Chagas E Silva de Carvalho LF"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42986471/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": 22,
+   "sample_note": "n=22",
+   "tier": "B",
+   "domain": "方法与交叉",
    "methods": [
-    "single-cell"
+    "ml"
    ],
    "pub_types": [
     "Journal Article"
    ],
-   "is_open_access": true,
-   "cluster": "自身免疫与抗原提呈",
-   "one_line": "发现α细胞在T1D进展中获MHC‑II依赖性抗原提呈能力，机制涉及JAK‑STAT通路。",
-   "so_what": "为q2提供可验证的旁路机制：牙周炎症细胞（如成纤维细胞、内皮细胞）是否也在慢性炎症中获抗原提呈功能…",
-   "caution": "动物模型（NOD小鼠）与人类胰岛数据需口腔局部炎症模型验证；因果方向未明。",
+   "is_open_access": false,
+   "cluster": "OPMD与机器学习诊断",
+   "one_line": "FTIR唾液光谱联合机器学习分类口腔白斑与正常对照（n=22 vs n=22），区分度有限。",
+   "so_what": "q5延伸：无创唾液生物标志物思路可迁移至种植体周炎早期诊断",
+   "caution": "n=22过小，未验证独立队列，临床转化尚早",
    "score": {
-    "final": 59.2,
-    "match": 50.0,
-    "novelty": 75.0,
-    "rigor": 70.0,
-    "impact": 60.0,
-    "transfer": 80.0
+    "final": 44.7,
+    "match": 55.0,
+    "novelty": 50.0,
+    "rigor": 30.0,
+    "impact": 35.0,
+    "transfer": 55.0
    },
-   "heuristic": 46.3,
+   "heuristic": 36.0,
    "breakdown": {
-    "topic": 14.1,
-    "journal": 15.0,
-    "design": 9,
-    "sample": 0.0,
-    "fresh": 6.0,
+    "topic": 7.2,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 3.6,
+    "fresh": 7.0,
     "method": 2.2
    },
-   "abstract": "Type 1 diabetes (T1D) is an autoimmune disease characterized by T cell-mediated destruction of pancreatic β cells, in which antigen presentation is essential. Although professional antigen-presenting cells initiate autoreactive T cell responses, whether endocrine cells contribute to antigen presentation within inflamed islets remains unclear. Here, we show that pancreatic α cells acquire major histocompatibility complex (MHC) class II (MHC-II)-dependent antigen-presenting capacity during T1D progression. Reanalysis of single-cell RNA sequencing datasets from nonobese diabetic (NOD) mice and human T1D islets revealed progressive up-regulation of MHC-II associated genes in α cells. Immunostaining validated the increased of MHC-II level both in NOD mice and patients with T1D. Mechanistically, inflammatory cytokines activated the Janus kinase-signal transducer and activator of transcription (JAK-STAT) pathway in α cells, leading to JAK-STAT-dependent MHC-II induction. Functionally, activated α cells internalized, processed, and presented exogenous antigens, acquired expression of costimulatory molecules, and promoted antigen-specific CD4+ T cell activation. These findings identify pancreatic α cells as nonprofessional antigen-presenting cells and expand the current understanding of antigen presentation in autoimmune diabetes.",
+   "abstract": "OBJECTIVES: Oral potentially malignant disorders (OPMDs), particularly leukoplakia, are strongly linked to an increased risk of oral squamous cell carcinoma. Saliva has gained attention as a diagnostic biofluid due to its simple, non-invasive collection and complex biochemical composition. This study aimed to investigate the application of Fourier-transform infrared (FTIR) spectroscopy combined with machine learning to identify salivary biochemical changes. MATERIALS AND METHODS: Saliva samples were collected from healthy control participants (n = 22), participants with oral leukoplakia (n = 22). Spectral data were acquired by ATR-FTIR, pre-processed with derivative analysis, normalization, and baseline correction, then analyzed using PCA and classified with Extra Trees, Random Forest, and XGBoost algorithms. RESULTS: The analysis revealed consistent biochemical differences within the 900-1800 cm⁻¹ region, mainly associated with proteins (Amide I and II), nucleic acids, and collagen. PCA revealed partial but relevant group separation, while machine learning models, especially Extra Trees and Random Forest, the MLP classifier achieved an AUC of 0.992 for initial dysplasia and 0.974 for severe dysplasia versus controls, indicating promising classification perfomance. CONCLUSION: These findings support FTIR spectroscopy integrated with machine learning, as a powerful, non-invasive approach for salivary profiling in leukoplakia. This optical biopsy method shows promise as an auxiliary diagnostic tool for early detection and monitoring of OPMDs, enhancing preventive strategies in oral oncology.",
    "tags": [
-    "Animals",
-    "Diabetes Mellitus, Type 1",
-    "Histocompatibility Antigens Class II",
-    "Antigen-Presenting Cells",
-    "Humans",
-    "Mice"
+    "FTIR spectroscopy",
+    "Leukoplakia",
+    "Machine learning",
+    "Oral potentially malignant disorders",
+    "Saliva"
    ],
    "deep": {
-    "title_zh": "胰腺α细胞在1型糖尿病中发挥MHC II类分子依赖的抗原呈递细胞功能",
-    "one_sentence": "胰腺α细胞在T1D炎症微环境中获得MHC-II依赖性抗原呈递能力并激活CD4+ T细胞，挑战了α细胞仅分泌胰高血糖素的…",
-    "question": "在胰岛炎症微环境中，胰岛内分泌细胞（尤其是α细胞）能否被「重新编程」为非专业抗原呈递细胞，从而参与启动或放大自身 reactive T细胞应答？",
-    "design": "多中心回顾性scRNA-seq数据重分析（NOD小鼠+人T1D胰岛）→ 免疫组化/免疫荧光验证 → 体外α细胞MHC-II诱导与抗原呈递功能实验 → 体内CD4+ T细胞激活验证的动物实验，对照为NOD野生型 vs 不同病程阶段 vs 非糖尿病对照。",
-    "sample_desc": "NOD小鼠胰岛scRNA-seq数据 + 人T1D患者及健康对照胰岛组织；摘要未说明具体n值。",
+    "title_zh": "AI驱动的唾液红外光谱在口腔白斑中的应用",
+    "one_sentence": "FTIR+机器学习从唾液区分白斑与对照组，AUC高达0.97–0.99，作为辅助筛查工具有潜力但证据仍局限。",
+    "question": "能否用唾液的红外光谱指纹+ML分类，无创区分口腔白斑患者与健康人，并分辨轻/重度异型增生的生化差异？",
+    "design": "横断面病例对照，白斑组n=22 vs 健康对照组n=22，ATR-FTIR采集唾液光谱，经衍生化/归一化/基线校正后做PCA降维，Extra Trees/Random Forest/XGBoost/MLP分类。",
+    "sample_desc": "人类唾液样本，白斑组n=22、对照组n=22；分组标准（异型增生程度分层）、入排标准、是否多中心摘要未说明。",
     "findings": [
      {
-      "claim": "α细胞在T1D进展中渐进性上调MHC-II相关基因表达",
-      "evidence": "NOD小鼠和人T1D胰岛scRNA-seq重分析显示α细胞MHC-II关联基因随疾病进展逐步上调；免疫组化在NOD小鼠和T1D患者胰岛中验证MHC-II蛋白水平升高"
+      "claim": "白斑患者唾液生化指纹与健康人不同，主要差异集中在蛋白质（Amide I/II）、核酸、胶原蛋白区域",
+      "evidence": "900–1800 cm⁻¹区段频谱差异一致；PCA显示'部分但相关的组间分离'（partial but relevant group separation）"
      },
      {
-      "claim": "炎症细胞因子通过JAK-STAT通路诱导α细胞MHC-II表达",
-      "evidence": "机制实验显示JAK-STAT通路激活是MHC-II诱导的关键上游信号（摘要未给出具体细胞因子列表及抑制剂实验细节）"
+      "claim": "MLP分类器对轻/重度异型增生 discriminating 能力极高",
+      "evidence": "初不典型增生（initial dysplasia）vs 对照 AUC=0.992；重度异型增生（severe dysplasia）vs 对照 AUC=0.974"
      },
      {
-      "claim": "激活的α细胞获得完整抗原呈递功能：内化、加工、呈递外源性抗原并表达共刺激分子",
-      "evidence": "功能实验证实α细胞可内化并处理外源性抗原，上调共刺激分子表达，并促进抗原特异性CD4+ T细胞活化"
-     },
-     {
-      "claim": "α细胞被鉴定为非专业抗原呈递细胞",
-      "evidence": "上述功能实验综合得出结论：α细胞在炎症条件下获得APC特性"
+      "claim": "FTIR+ML可作为辅助诊断工具用于OPMD早期筛查与监测",
+      "evidence": "结论定性表述；摘要未报告敏感性/特异性/PPV/NPV或外部验证结果"
      }
     ],
-    "effect": "未报告",
-    "relation": "与q2强相关——提供了一条牙周炎→T1D通路的全新机制解释：口腔致病菌抗原能否被胰岛α细胞呈递并激活自身reactive T细胞？这与q4（生物材料/炎症如何「编程」宿主免疫）高度交叉。不直接涉及q1/q3/q5。",
-    "why": "它颠覆了胰岛α细胞的经典功能认知（仅分泌胰高血糖素），证明内分泌细胞在炎症微环境中可被「重编程」为非专业APC，通过JAK-STAT-MHC-II轴主动参与自身免疫应答。这对理解T1D发病机制、以及牙周炎-糖尿病双向关系中的「抗原跨屏障呈递」提供了新的分子框架。",
+    "effect": "AUC 0.974–0.992（MLP分类器）；95%CI未报告；外部验证未说明",
+    "relation": "与q5最相关——为口腔鳞癌前病变（OPMD/白斑）的无创筛查提供新工具；也与q3部分相关（唾液标志物概念）。但本研究是诊断方法学，不回答微生物组或免疫机制问题。",
+    "why": "用'光学活检'（optical biopsy）替代部分侵入性活检测筛选白斑患者，若可验证将改变临床路径；但当前证据链止于小样本单一中心内部验证，距临床落地有距离。",
     "limitations": [
-     "摘要未报告关键功能实验的效应量和统计学显著性，无法评估α细胞抗原呈递能力的生物学重要性（是生理性还是病理性过量）",
-     "JAK-STAT通路的具体上游细胞因子（IFN-γ？TNF-α？IL-1β？）未明确列出，机制链条存在断点",
-     "人源数据仅为scRNA-seq重分析+免疫组化验证，缺乏功能性实验（如人α细胞的抗原呈递能力直接验证）"
+     "样本量极小（每组n=22），无外部独立验证集，AUC可能过拟合；作者未报告交叉验证策略或Hold-out集",
+     "横断面设计，无法判断FTIR指纹是白斑的驱动因素还是继发标志物——因果方向不明",
+     "未说明异型增生分级标准（WHO？）、白斑病因为何（烟草/嚼槟榔/ Candida？）、光谱预处理细节（衍生化阶数、归一化方式）均摘要未说明"
     ],
-    "transferable": "JAK-STAT通路诱导MHC-II表达的体外细胞模型可用于种植体周炎症微环境研究；α细胞作为非专业APC的「炎症编程」概念可直接迁移到牙周炎中成纤维细胞或上皮细胞的抗原呈递功能研究；scRNA-seq重分析NOD小鼠胰岛数据的方法论可复用于种植体周炎的单细胞研究。",
+    "transferable": "FTIR+ML的唾液谱分析pipeline可借鉴到q3（口腔微生物组/代谢物标志物）或q5（OPMD→OSCC转化）；但需扩大样本、加入外部验证、报告临床效能指标（ sens/spec/ROC曲线）。",
     "followups": [
-     "激活的α细胞呈递的是自身抗原（如proinsulin-derived peptides）还是外源性抗原（如口腔病原菌来源肽段）？哪类在T1D发病中占主导？",
-     "JAK-STAT通路抑制剂（如ruxolitinib）能否在NOD小鼠模型中阻断α细胞APC功能并延缓T1D进展？",
-     "牙周炎患者血清中是否存在可被胰岛α细胞摄取并呈递的口腔来源抗原肽？这可通过肽段组学+MHC-II结合预测验证。"
+     "AUC 0.992/0.974是否来自内部交叉验证还是过拟合的train-set结果？原文是否报告了混淆矩阵、精确率-召回率曲线或校准曲线？",
+     "频谱差异（900–1800 cm⁻¹）中Amide I/II、核酸、胶原的具体峰位偏移是多少？能否对应到特定蛋白/胶原亚型（如I型 vs III型胶原）？",
+     "该FTIR模型在前瞻性队列或OSCC进展患者中的验证结果如何？有无随访数据证明其能预测白斑恶变？"
     ],
     "glossary": [
      {
-      "en": "MHC class II",
-      "cn": "主要组织相容性复合体II类分子"
+      "en": "FTIR / ATR-FTIR",
+      "cn": "傅里叶变换红外光谱 / 衰减全反射红外光谱"
      },
      {
-      "en": "JAK-STAT pathway",
-      "cn": "Janus激酶-信号转导与转录激活因子通路"
+      "en": "OPMD",
+      "cn": "口腔潜在恶性疾患"
      },
      {
-      "en": "NOD mouse",
-      "cn": "非肥胖糖尿病小鼠（T1D经典动物模型）"
+      "en": "dysplasia",
+      "cn": "异型增生（上皮发育不良）"
      },
      {
-      "en": "nonprofessional antigen-presenting cell",
-      "cn": "非专业抗原呈递细胞"
+      "en": "Amide I / Amide II",
+      "cn": "酰胺I带（~1650 cm⁻¹，蛋白质C=O伸缩）/ 酰胺II带（~1550 …"
      },
      {
-      "en": "costimulatory molecule",
-      "cn": "共刺激分子"
+      "en": "optical biopsy",
+      "cn": "光学活检——以光谱/影像替代物理穿刺取样"
+     },
+     {
+      "en": "Extra Trees / XGBoost / MLP",
+      "cn": "超树集成 / 梯度提升机 / 多层感知机（神经网络）"
      }
     ],
     "reading_minutes": 12
@@ -407,145 +419,23 @@
  ],
  "scan": [
   {
-   "id": "10.1038/s41591-026-04686-y",
-   "pmid": "42977758",
-   "doi": "10.1038/s41591-026-04686-y",
-   "title": "A live biotherapeutic product for adult allogeneic hematopoietic cell transplantation recipients: a partially randomized, placebo-controlled phase 1b trial",
-   "title_zh": "移植患者口服活生物治疗产品Phase 1b试验",
-   "journal": "Nature medicine",
-   "date": "2026-11-03",
-   "authors": [
-    "Ponce DM",
-    "DeFilipp Z",
-    "Ford CB",
-    "Tejura B",
-    "Lombardo MJ",
-    "Lichter DI",
-    "Chafee M",
-    "Kosuri S",
-    "Khera N",
-    "Murthy HS",
-    "Sandhu KS",
-    "Fredricks DN"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42977758/",
-   "pmcid": "5565685",
-   "cited_by": 0,
-   "design": "rct",
-   "design_label": "随机对照",
-   "design_level": 6,
-   "sample_n": 45,
-   "sample_note": "n=45 participants",
-   "tier": "A",
-   "domain": "口腔微生物组的失衡（dy…",
-   "methods": [
-    "rct"
-   ],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": true,
-   "cluster": "微生物组干预",
-   "one_line": "Phase 1b试验证实SER‑155在造血细胞移植患者中安全性良好，主要终点为耐受性。",
-   "so_what": "活生物治疗产品的临床开发流程与安全性评价框架可直接借鉴至口腔微生态干预研究。",
-   "caution": "Phase 1b以安全性为主，疗效信号弱；靶器官为肠道，与口腔微生态差异大。",
-   "score": {
-    "final": 57.3,
-    "match": 55.0,
-    "novelty": 68.0,
-    "rigor": 62.0,
-    "impact": 50.0,
-    "transfer": 70.0
-   },
-   "heuristic": 48.7,
-   "breakdown": {
-    "topic": 4.1,
-    "journal": 15.0,
-    "design": 18,
-    "sample": 4.4,
-    "fresh": 5.0,
-    "method": 2.2
-   },
-   "abstract": "Gastrointestinal (GI) microbiome disruption and impaired GI barrier integrity increase the risk of bloodstream infection (BSI) following allogeneic hematopoietic cell transplant. Here we report results from a two-cohort (open-label, n = 15; randomized, placebo-controlled, n = 45) phase 1b study of SER-155, an investigational, cultivated, multi-strain, oral live biotherapeutic designed to address GI microbiome disruption GI epithelial barrier integrity in allogeneic hematopoietic cell transplant recipients. In cohort 2, 34 of 45 participants received either SER-155 treatment (n = 20, SER-155 following microbiome conditioning with oral vancomycin), or placebo (n = 14), and subsequently received transplant. For the primary safety endpoint, SER-155 was well tolerated, with a safety profile comparable to placebo, no treatment-related serious adverse events and no infections with SER-155 species; the most common adverse events were diarrhea and nausea. Four participants in cohort 1 and four participants in cohort 2 (two participants in the SER-155 arm and two in the placebo arm) died during the study; none was attributable to SER-155. For the primary pharmacokinetic endpoint, engraftment was detected for 16 of 16 SER-155 strains, with a median of 11.5 strains detected after the first treatment course. The key secondary efficacy endpoint revealed a significantly lower incidence of BSI with SER-155 versus placebo (10.0% versus 43%; OR 0.15; 95% CI 0.01-1.13; P = 0.0423; 77% relative risk reduction). Other secondary efficacy endpoints (GI infection, acute graft-versus-host disease ≥grade 2, febrile neutropenia and a composite endpoint of BSI, GI infection or acute graft-versus-host disease) were not statistically significant. The secondary pharmacodynamic endpoint of GI domination by Enterococcus and Enterobacteriaceae spp. was not achieved. ClinicalTrials.gov identifier: NCT04995653 .",
-   "tags": []
-  },
-  {
-   "id": "10.1016/j.jdent.2026.107149",
-   "pmid": "42977115",
-   "doi": "10.1016/j.jdent.2026.107149",
-   "title": "Salivary biosensors for peptide and protein biomarkers in oral diseases: an analytical framework and narrative review",
-   "title_zh": null,
-   "journal": "Journal of dentistry",
-   "date": "2026-11-03",
-   "authors": [
-    "Filho GM",
-    "Damião REV",
-    "Ferrari CR",
-    "Ventura TMO",
-    "Buzalaf MAR"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42977115/",
-   "pmcid": "",
-   "cited_by": 0,
-   "design": "review",
-   "design_label": "综述",
-   "design_level": 3,
-   "sample_n": null,
-   "sample_note": "",
-   "tier": "B",
-   "domain": "牙周与宿主免疫",
-   "methods": [],
-   "pub_types": [
-    "Journal Article",
-    "Review"
-   ],
-   "is_open_access": false,
-   "cluster": "牙周与宿主免疫",
-   "one_line": "",
-   "so_what": "",
-   "caution": "",
-   "score": {
-    "final": 40.6
-   },
-   "heuristic": 47.8,
-   "breakdown": {
-    "topic": 22.8,
-    "journal": 10.0,
-    "design": 10,
-    "sample": 0.0,
-    "fresh": 5.0,
-    "method": 0.0
-   },
-   "abstract": "OBJECTIVES: This narrative review examines current approaches to salivary biosensing for peptide and protein biomarker detection in oral diseases and develops an analytical framework explaining why the strategies used in this field differ in their constraints on clinical translation. DATA SOURCES: Medline (PubMed), Scopus and Web of Science were searched between April and June 2026, combining the terms saliva, biosensor, peptide, protein and oral disease, complemented by manual screening of reference lists. Screening was performed independently by two authors. STUDY SELECTION: English-language studies reporting biosensor development or application in salivary matrices between 2005 and 2025 were prioritized. The literature was organized into four domains: protein-targeted biosensing, peptide-responsive systems, peptide-enabled recognition, and direct detection of endogenous salivary peptides. For every study we extracted the validation matrix, clinical sample size, reference standard and diagnostic metrics. CONCLUSIONS: The four domains differ in what is physically measured, and this difference determines the dominant failure mode in whole saliva and the reference standard that validation requires. Protein-targeted platforms are the most mature because they alone combine a stable measurand, an established reference method and an accepted clinical case definition. Reported limits of detection already fall below clinically relevant concentrations, frequently below those of the commercial chairside active MMP-8 test, whereas reference standards and diagnostic metrics are unreported for most platforms. CLINICAL SIGNIFICANCE: Progress towards chairside use depends less on analytical sensitivity than on fixed case definitions, validation in unprocessed patient saliva, routine reporting of confounders such as smoking, diabetes and recent periodontal therapy, and benchmarking against available point-of-care tests.",
-   "tags": [
-    "Biosensing Techniques",
-    "Oral Health",
-    "Peptides",
-    "Periodontitis",
-    "Point-of-Care Testing",
-    "Proteins"
-   ]
-  },
-  {
-   "id": "10.1016/j.bone.2026.118162",
-   "pmid": "42982263",
-   "doi": "10.1016/j.bone.2026.118162",
-   "title": "Procyanidin B2 ameliorates osteoporosis by modulating osteoclast precursor differentiation through activation of the PI3K/Akt/Nrf2 axis",
-   "title_zh": "原花青素B2激活PI3K/Akt/Nrf2轴抑制破骨分化改善骨质疏松",
-   "journal": "Bone",
+   "id": "10.1016/j.archoralbio.2026.106792",
+   "pmid": "42987447",
+   "doi": "10.1016/j.archoralbio.2026.106792",
+   "title": "Sleeve gastrectomy reverses obesity-associated transcriptional signatures in the salivary glands of female mice",
+   "title_zh": "袖状胃切除术逆转肥胖小鼠唾液腺转录特征",
+   "journal": "Archives of oral biology",
    "date": "2026-11-04",
    "authors": [
-    "Zou Y",
-    "Wang C",
-    "Zhang T",
-    "Huang Y",
-    "Xu H",
-    "Ma X",
-    "Li L",
-    "Lyu F",
-    "Zhang F"
+    "Guo C",
+    "Chen Y",
+    "Zhou R",
+    "Chen Y",
+    "Cheng P",
+    "Wu J",
+    "Tao W"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42982263/",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42987447/",
    "pmcid": "",
    "cited_by": 0,
    "design": "animal",
@@ -554,194 +444,69 @@
    "sample_n": null,
    "sample_note": "",
    "tier": "B",
-   "domain": "种植与骨再生",
-   "methods": [],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": false,
-   "cluster": "骨免疫代谢",
-   "one_line": "证实原花青素B2通过PI3K/Akt/Nrf2抗氧化通路抑制RANKL诱导的破骨细胞分化，改善绝经后骨质疏松小鼠骨量。",
-   "so_what": "提供抗氧化-破骨生成轴的实验方案参考；Nrf2激活路径可作为q4中'材料降解产物调控骨免疫'的机制…",
-   "caution": "单一天然化合物动物实验，体外高浓度剂量难以直接转化；未涉及种植体界面微环境。",
-   "score": {
-    "final": 36.3,
-    "match": 35.0,
-    "novelty": 38.0,
-    "rigor": 50.0,
-    "impact": 12.0,
-    "transfer": 40.0
-   },
-   "heuristic": 37.2,
-   "breakdown": {
-    "topic": 12.2,
-    "journal": 10.0,
-    "design": 9,
-    "sample": 0.0,
-    "fresh": 6.0,
-    "method": 0.0
-   },
-   "abstract": "Osteoporosis (OP) is a chronic, systemic skeletal disorder characterized by excessive osteoclast activation and bone resorption, for which effective therapies with minimal adverse effects remain limited. Reactive oxygen species (ROS) generated during oxidative stress promote osteoclast differentiation and are considered a primary contributor to OP pathogenesis. Procyanidin B2 is a natural flavonoid with potent anti-inflammatory and antioxidant properties; however, its therapeutic efficacy and underlying mechanisms of action in OP remain unclear. In this study, we investigated the effects of procyanidin B2 on osteoclastogenesis using tartrate-resistant acid phosphatase staining, quantitative real-time polymerase chain reaction, and pit formation assays. Our findings indicate that procyanidin B2 inhibits RANKL-induced osteoclastogenesis in a dose-dependent manner. Mechanistically, procyanidin B2 activates the phosphatidylinositol 3-kinase (PI3K)/protein kinase B (Akt) signaling pathway, thereby upregulating nuclear factor erythroid 2-related factor 2 (Nrf2) expression. This induction of Nrf2 enhances ROS clearance in osteoclast precursors (OCPs), leading to functional modulation of their differentiation trajectory rather than mere suppression of OCP proliferation. Moreover, micro-computed tomography and histological analyses reveal that procyanidin B2 alleviates ovariectomy-induced bone loss in mice and demonstrates favorable in vivo biocompatibility. Collectively, these findings indicate that procyanidin B2 mitigates OP by modulating OCP differentiation throughout activation of the PI3K/Akt/Nrf2 axis and highlight its potential as a novel natural therapeutic agent for the prevention and treatment of OP.",
-   "tags": [
-    "Nrf2",
-    "Osteoclast precursor",
-    "Osteoporosis",
-    "Oxidative stress",
-    "PI3K/Akt",
-    "Procyanidin B2"
-   ]
-  },
-  {
-   "id": "10.1016/j.celrep.2026.118242",
-   "pmid": "42981189",
-   "doi": "10.1016/j.celrep.2026.118242",
-   "title": "Plagl2 reprograms adult mouse retinal Müller glia for proliferation and injury-enhanced neurogenic competence",
-   "title_zh": "Plagl2重编程视网膜Müller胶质细胞",
-   "journal": "Cell reports",
-   "date": "2026-11-04",
-   "authors": [
-    "Masaki T",
-    "Watanabe M",
-    "Mandai M",
-    "Kihara M",
-    "Abe T",
-    "Kageyama R"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42981189/",
-   "pmcid": "",
-   "cited_by": 0,
-   "design": "animal",
-   "design_label": "动物实验",
-   "design_level": 2,
-   "sample_n": null,
-   "sample_note": "",
-   "tier": "A",
-   "domain": "方法与交叉",
+   "domain": "牙周炎通过哪些可验证的通…",
    "methods": [
-    "single-cell",
     "multiomics"
    ],
    "pub_types": [
     "Journal Article"
    ],
    "is_open_access": false,
-   "cluster": "再生与重编程",
-   "one_line": "Plagl2驱动成人视网膜胶质细胞增殖并获神经再生能力，单细胞验证机制",
-   "so_what": "重编程策略可迁移至q4（生物材料诱导细胞命运改变），方法学参考价值高",
-   "caution": "视网膜模型，组织特异性结论需谨慎外推",
+   "cluster": "代谢-唾液腺轴",
+   "one_line": "高脂饮食诱导肥胖小鼠唾液腺转录组重塑，袖状胃切除可部分逆转。",
+   "so_what": "q2延伸：代谢疾病重塑口腔腺体分子表型，可迁移至全身-口腔轴研究",
+   "caution": "雌性小鼠模型，临床外推需谨慎",
    "score": {
-    "final": 42.1,
-    "match": 30.0,
+    "final": 44.4,
+    "match": 40.0,
     "novelty": 55.0,
-    "rigor": 65.0,
-    "impact": 25.0,
+    "rigor": 60.0,
+    "impact": 35.0,
     "transfer": 50.0
    },
-   "heuristic": 39.9,
+   "heuristic": 35.1,
    "breakdown": {
-    "topic": 5.5,
-    "journal": 15.0,
+    "topic": 7.9,
+    "journal": 10.0,
     "design": 9,
-    "sample": 0.0,
-    "fresh": 6.0,
-    "method": 4.4
-   },
-   "abstract": "Müller glia (MG) in the adult mammalian retina have long been recognized as a potential endogenous source for the regeneration of lost retinal neurons. However, existing MG reprogramming strategies yield an incomplete regenerative response by favoring either proliferation or neurogenic differentiation. Here, we show that the zinc-finger transcription factor gene Plagl2, previously shown to reactivate quiescent neural stem cells, is sufficient to reprogram adult mouse MG into a progenitor-like state with coupled proliferative and neurogenic competence. Using histology, time-lapse imaging, and single-cell transcriptomics, we find that Plagl2 drives regulated rounds of MG cell cycle re-entry, while N-methyl-D-aspartate-induced retinal injury further promotes the acquisition of neurogenic competence biased toward inner nuclear layer neuronal identities. These findings indicate that Plagl2 regulates mammalian MG reprogramming, and supports a broader approach to tissue regeneration through the adaptation of reprogramming modules across distinct cell types.",
-   "tags": [
-    "CP: neuroscience",
-    "Müller glia",
-    "Plagl2",
-    "adult mouse retina",
-    "neurogenesis",
-    "regeneration"
-   ]
-  },
-  {
-   "id": "10.1016/j.celrep.2026.118271",
-   "pmid": "42981190",
-   "doi": "10.1016/j.celrep.2026.118271",
-   "title": "A single-cell atlas of pediatric undifferentiated recurrent fever reveals candidate immune regulators",
-   "title_zh": "儿童不明原因复发热单细胞图谱揭示免疫调控候选因子",
-   "journal": "Cell reports",
-   "date": "2026-11-04",
-   "authors": [
-    "Jung S",
-    "Wiedemuth R",
-    "Martinez Perez A",
-    "Wannige CT",
-    "Strauss T",
-    "Körholz J",
-    "Pietzsch L",
-    "Thieme S",
-    "Morbach H",
-    "Schuetz C",
-    "Del Sol A"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42981190/",
-   "pmcid": "",
-   "cited_by": 0,
-   "design": "unknown",
-   "design_label": "未标注",
-   "design_level": 1,
-   "sample_n": null,
-   "sample_note": "",
-   "tier": "A",
-   "domain": "方法与交叉",
-   "methods": [
-    "single-cell"
-   ],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": false,
-   "cluster": "单细胞免疫图谱",
-   "one_line": "29例SURF患者scRNA-seq揭示NAMPT介导单核细胞代谢-炎症反馈环路。",
-   "so_what": "q1/q5相关：单细胞+代谢-免疫耦合分析方法可直接迁移至种植体周或OSCC微环境研究。",
-   "caution": "罕见病队列，样本量小；发现的通路需独立验证。",
-   "score": {
-    "final": 38.6,
-    "match": 20.0,
-    "novelty": 50.0,
-    "rigor": 65.0,
-    "impact": 30.0,
-    "transfer": 55.0
-   },
-   "heuristic": 37.9,
-   "breakdown": {
-    "topic": 8.7,
-    "journal": 15.0,
-    "design": 6,
     "sample": 0.0,
     "fresh": 6.0,
     "method": 2.2
    },
-   "abstract": "Children with periodic fever syndromes not attributable to infections, rheumatic disorders, malignancies, or known monogenic autoinflammatory conditions are classified as \"syndrome of undifferentiated recurrent fever\" (SURF). To date, treatment remains empirical, often resulting in only a partial response, underscoring the unmet clinical need for new therapeutic strategies. To advance the molecular understanding of SURF, we generated a large-scale single-cell RNA-seq immune atlas of 29 SURF patients with more than 200,000 cells. Comparison of patients with three healthy cohorts revealed large-scale metabolic shifts together with a distinct cytokine signature already observable during afebrile periods. This indicates that afebrile SURF cannot be considered a less inflammatory resting state but rather as a distinct homeostatic state. Furthermore, our analysis suggests an NAMPT-mediated autocrine feedback loop connecting the metabolic dysregulations with the pro-inflammatory phenotype in monocytes. This study offers insights into the SURF immunopathology and generates testable hypotheses to guide future therapies.",
+   "abstract": "OBJECTIVES: This study aimed to characterize obesity-associated transcriptomic alterations in mouse salivary glands and determine the extent to which sleeve gastrectomy (SG) modifies or reverses these changes. DESIGN: Female C57BL/6 mice were fed a high-fat diet for 20 weeks to induce obesity and assigned to control (C), obese (D), sham-operated (S), or SG groups. Salivary glands were collected at postoperative week 10 for H&E-based histomorphometry and transcriptome sequencing. Differentially expressed genes (DEGs) were analyzed by Gene Ontology and Kyoto Encyclopedia of Genes and Genomes enrichment, protein-protein interaction, and transcription factor regulatory network analyses. Key findings were evaluated by qRT-PCR. RESULTS: H&E morphometry showed limited structural alterations. SMG duct number showed a significant group effect (χ² = 6.61, P = 0.037), with estimated duct numbers higher in SG than in C (+5.8 ducts/field, 95% CI -1.8-13.4) and S (+5.2 ducts/field, 95% CI -2.4-12.8), although neither pairwise comparison was significant after Tukey adjustment. RNA sequencing identified 218 DEGs in D vs. C, including upregulation of TCR-associated genes, and 198 DEGs in SG vs. D; 95% were downregulated. These DEGs were enriched in immune- and inflammation-related pathways, including T cell receptor signaling. Among 113 TCR pathway genes, 91 (80.5%) showed reversed expression direction after SG. Only 9 DEGs remained between SG and C. CONCLUSIONS: Obesity was associated with prominent immune- and inflammation-related transcriptional changes despite limited histological alterations. SG substantially attenuated these changes, with few transcriptional differences remaining from controls.",
    "tags": [
-    "CP: genomics",
-    "CP: immunology",
-    "NAMPT",
-    "autoinflammatory disease",
-    "computational modeling",
-    "immunology"
+    "bariatric surgery",
+    "inflammation",
+    "lipid metabolism",
+    "obesity",
+    "salivary gland",
+    "transcriptomics"
    ]
   },
   {
-   "id": "10.1126/sciadv.aei1146",
-   "pmid": "42981425",
-   "doi": "10.1126/sciadv.aei1146",
-   "title": "Rapid, voxel-based 3D printing with yield-stress fluid inks",
-   "title_zh": "屈服应力流体墨水 voxel 级 3D 打印新方法",
+   "id": "10.1126/sciadv.aeg5744",
+   "pmid": "42981395",
+   "doi": "10.1126/sciadv.aeg5744",
+   "title": "Self-charged toothbrush facilitates tooth healthcare maintenance",
+   "title_zh": "自充电压电牙刷的临床与机制评价",
    "journal": "Science advances",
    "date": "2026-11-04",
    "authors": [
-    "Kaarthik P",
-    "Bayer ME",
-    "Oh E",
-    "Kane AQ",
-    "Truby RL"
+    "Lu Y",
+    "Song J",
+    "Chi X",
+    "Li W",
+    "Wu L",
+    "Guo Y",
+    "Cui Q",
+    "Zheng X",
+    "Bai Y",
+    "Heng BC",
+    "Han X",
+    "Zhang X"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42981425/",
-   "pmcid": "PMC13733904",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42981395/",
+   "pmcid": "PMC13733809",
    "cited_by": 0,
    "design": "unknown",
    "design_label": "未标注",
@@ -749,57 +514,61 @@
    "sample_n": null,
    "sample_note": "",
    "tier": "A",
-   "domain": "材料与生物材料",
+   "domain": "牙周与宿主免疫",
    "methods": [],
    "pub_types": [
     "Journal Article"
    ],
    "is_open_access": true,
-   "cluster": "生物材料制造",
-   "one_line": "开发DIAL技术实现支持材料无、快速高分辨率3D打印功能材料。",
-   "so_what": "q4相关：可迁移至种植体表面/骨再生支架制造，但缺乏生物学验证。",
-   "caution": "纯工程论文，未见植入体内或免疫相互作用数据。",
+   "cluster": "材料-微生物互作",
+   "one_line": "压电牙刷通过静态电位+动态刺激产ROS，破坏致病菌膜ATP转运体，临床减少菌斑和牙龈炎。",
+   "so_what": "q4相关：展示物理信号（电刺激）如何直接重编程细菌生理；可迁移至种植体表面功能化设计。",
+   "caution": "机制停留在细菌层面，未涉及宿主免疫反应；临床样本和随访时长不明。",
    "score": {
-    "final": 38.1,
-    "match": 25.0,
+    "final": 41.1,
+    "match": 38.0,
     "novelty": 55.0,
-    "rigor": 50.0,
-    "impact": 30.0,
-    "transfer": 45.0
+    "rigor": 48.0,
+    "impact": 42.0,
+    "transfer": 40.0
    },
-   "heuristic": 38.2,
+   "heuristic": 31.1,
    "breakdown": {
-    "topic": 11.2,
+    "topic": 4.1,
     "journal": 15.0,
     "design": 6,
     "sample": 0.0,
     "fresh": 6.0,
     "method": 0.0
    },
-   "abstract": "Despite decades of progress, 3D printing still presents trade-offs in what materials can be printed and at what resolutions, speeds, and part volumes. We introduce direct ink additive lithography, or DIAL, to alleviate these trade-offs when printing with yield-stress, complex fluid inks used to print functional materials. DIAL combines translational photopatterning with ink sheet deposition for rapid, voxel-based 3D printing. Using model DIAL inks with kilopascal-scale yield stresses, we evaluate how ink rheology influences printing and compare DIAL against digital light processing (DLP) and direct ink writing (DIW). Since DIAL enables fast, high-throughput, support-free, and large-area printing, we showcase its broad potential for producing functional materials by printing multiscale architected, multimaterial, structural electrolyte, and hydrogel structures that are difficult if not impossible to 3D print today.",
-   "tags": []
+   "abstract": "Toothbrushes have undergone no substantive improvements beyond their mechanical function for about 1118 years to date. Conventional toothbrushes often fail to establish an antibacterial environment on the tooth surface, allowing bacteria to recover and recolonize. Here, we developed an innovative self-charged toothbrush that integrates daily tooth brushing with piezoelectric functionality, synergizing both optimal mechanical properties and stable electrical activity. The self-charged toothbrushes can generate reactive oxygen species to disrupt bacterial membrane integrity and diminish bacterial adhesion by combining static antibacterial inhibition through surface potential with dynamic piezoelectric stimulation. Clinical evaluation revealed that the localized piezoelectric stimulation of self-charged toothbrushes can mitigate plaque formation and gingival inflammation. Mechanistic studies further revealed that the self-charged toothbrushes induced oxidative damage to the oral pathogenic bacterial membranes, thereby impairing the ATP-binding cassette transporter pathway. Hence, this study developed a concept of piezoelectric PVDF toothbrushes that combine physical cleaning with sustained antibacterial effect, thus highlighting the potential of self-charged materials in advancing oral healthcare.",
+   "tags": [
+    "Toothbrushing",
+    "Humans",
+    "Bacterial Adhesion",
+    "Anti-Bacterial Agents",
+    "Reactive Oxygen Species",
+    "Dental Plaque"
+   ]
   },
   {
-   "id": "10.7554/elife.108250",
-   "pmid": "42985907",
-   "doi": "10.7554/elife.108250",
-   "title": "A novel mechanism for morphological change during bacterial sporulation based on programmed peptidoglycan degradation",
-   "title_zh": "细菌孢子形成中肽聚糖程序性降解的新机制",
-   "journal": "eLife",
-   "date": "2026-11-05",
+   "id": "10.1016/j.actbio.2026.11.005",
+   "pmid": "42982155",
+   "doi": "10.1016/j.actbio.2026.11.005",
+   "title": "Ultrasound-activated Cu4SnS4 nanoplatform for dual-pathway amplification of reactive oxygen species and enhanced antibacterial therapy",
+   "title_zh": "超声激活Cu4SnS4双通道ROS放大抗菌平台",
+   "journal": "Acta biomaterialia",
+   "date": "2026-11-04",
    "authors": [
-    "Ramirez Carbo CA",
-    "Irazoki O",
-    "Venkatesan S",
-    "Chen LJS",
-    "Morales HA",
-    "Garcia Avila AJ",
-    "Cheung HL",
-    "Cava F",
-    "Nan B"
+    "Zhao J",
+    "Li R",
+    "Zhu W",
+    "Wu J",
+    "Kang Y",
+    "Xue P"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42985907/",
-   "pmcid": "PMC13739271",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982155/",
+   "pmcid": "",
    "cited_by": 0,
    "design": "unknown",
    "design_label": "未标注",
@@ -812,95 +581,224 @@
    "pub_types": [
     "Journal Article"
    ],
-   "is_open_access": true,
-   "cluster": "细菌细胞壁动力学",
-   "one_line": "发现粘质沙雷菌非分裂型孢子形成依赖LTG酶程序性降解肽聚糖，且降解速率由LtgB调控以防止异常伪孢子产生。",
-   "so_what": "方法学间接参考：PG降解-免疫识别的关联逻辑可迁移至q4材料降解产物研究；孢子形成机制对口腔难治性…",
-   "caution": "模房杆菌非口腔致病菌，发现距临床决策和种植体周病理链条较远。",
+   "is_open_access": false,
+   "cluster": "抗菌纳米材料",
+   "one_line": "Cu4SnS4纳米颗粒经超声激活同步产·OH和¹O₂，酸性感染微环境持续放大ROS实现高效抗菌。",
+   "so_what": "q4直接相关：证明材料表面化学可主动编程宿主感染微环境；q1也可借其ROS-免疫互作思路。",
+   "caution": "体外为主，体内样本量和免疫结局未明，ROS双通路是否导致宿主损伤未验证。",
    "score": {
-    "final": 37.6,
-    "match": 22.0,
-    "novelty": 58.0,
-    "rigor": 68.0,
-    "impact": 18.0,
-    "transfer": 30.0
+    "final": 50.2,
+    "match": 58.0,
+    "novelty": 62.0,
+    "rigor": 50.0,
+    "impact": 45.0,
+    "transfer": 52.0
    },
-   "heuristic": 36.8,
+   "heuristic": 32.6,
    "breakdown": {
-    "topic": 8.8,
-    "journal": 15.0,
-    "design": 6,
-    "sample": 0.0,
-    "fresh": 7.0,
-    "method": 0.0
-   },
-   "abstract": "Many bacteria form spores to endure unfavorable conditions. While Firmicutes generate endospores through cell division, sporulation in non-Firmicutes remains less understood. The Gram-negative bacterium Myxococcus xanthus undergoes sporulation through two distinct mechanisms: rapid sporulation triggered by chemical induction and slow sporulation driven by starvation, both occurring independently of cell division. Instead, these processes depend on the complete degradation of the peptidoglycan (PG) cell wall by two lytic transglycosylases (LTGs), LtgA and LtgB. Remarkably, LtgB programs the pace of PG degradation by LtgA during rapid sporulation, ensuring a controlled process that prevents abrupt PG breakdown and the formation of non-resistant pseudospores. In addition to regulation between LTGs, PG degradation is also influenced by its synthesis; cells exhibiting increased muropeptide production often circumvent sporulation. These findings not only reveal novel mechanisms of bacterial sporulation but also shed light on the regulatory network governing PG dynamics.",
-   "tags": [
-    "Gram-negative sporulation",
-    "bacterial morphology",
-    "cell wall dynamics",
-    "infectious disease",
-    "lytic transglycosylases",
-    "microbiology"
-   ]
-  },
-  {
-   "id": "10.1126/sciadv.aef9661",
-   "pmid": "42981397",
-   "doi": "10.1126/sciadv.aef9661",
-   "title": "Oxygen-mediated projection microstereolithography for sub-100-μm zirconia dental veneers",
-   "title_zh": "氧介导投影微立体光刻氧化锆贴面",
-   "journal": "Science advances",
-   "date": "2026-11-04",
-   "authors": [
-    "Shen Y",
-    "Wang X",
-    "Yang C",
-    "Jiang Y",
-    "Wang F",
-    "Pan Z",
-    "Li J",
-    "Fang NX",
-    "Sun Y"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42981397/",
-   "pmcid": "PMC13733828",
-   "cited_by": 0,
-   "design": "unknown",
-   "design_label": "未标注",
-   "design_level": 1,
-   "sample_n": null,
-   "sample_note": "",
-   "tier": "A",
-   "domain": "种植与骨再生",
-   "methods": [],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": true,
-   "cluster": "牙科材料制造",
-   "one_line": "氧抑制场实现亚100μm氧化锆高精度3D打印，工艺创新非机制研究",
-   "so_what": "材料与q4相关，但聚焦制造精度而非免疫编程",
-   "caution": "仅工艺优化，无生物活性评估",
-   "score": {
-    "final": 33.1,
-    "match": 20.0,
-    "novelty": 40.0,
-    "rigor": 55.0,
-    "impact": 20.0,
-    "transfer": 30.0
-   },
-   "heuristic": 39.5,
-   "breakdown": {
-    "topic": 12.5,
+    "topic": 5.6,
     "journal": 15.0,
     "design": 6,
     "sample": 0.0,
     "fresh": 6.0,
     "method": 0.0
    },
-   "abstract": "High-resolution vat photopolymerization of ceramics is constrained by light scattering, which broadens cured features, and by shallow penetration, which limits interlayer bonding. This trade-off is particularly damaging for microscale structures such as no-preparation dental veneers. We introduce an oxygen-mediated projection microstereolithography strategy in which an oxygen-permeable release film creates an interfacial inhibition field in high-solid-loading zirconia slurry. Rather than uniformly reducing curing, oxygen preferentially filters low-dose scattered light at pattern edges while preserving curing in the projected core. This anisotropic inhibition reshapes the accuracy-depth trade-off, enabling optimized multilayer printing of thin-wall zirconia. The process enabled reproducible fabrication of ∼80-micrometer zirconia veneers with high trueness, improved marginal adaptation, and handling-related strength comparable to substantially thicker milled veneers. The approach provides the potential for minimally invasive dental restoration and a general strategy for high-resolution additive manufacturing of strongly scattering ceramic suspensions.",
-   "tags": []
+   "abstract": "Effective eradication of bacterial infections remains significantly restricted by poor drug penetration, persistent biofilms, and insufficient reactive oxygen species (ROS) generation within complex infectious microenvironments. Herein, a multi-metal sulfide semiconductor, Cu4SnS4 (CTS), is engineered as an ultrasound (US)-activatable nanoplatform that integrates chemodynamic therapy (CDT) and sonodynamic therapy (SDT) to achieve spatiotemporally controlled ROS amplification for enhanced antibacterial therapy. In acidic and H2O2-enriched infection microenvironments, CTS catalyzes a Fenton-like reaction through a dynamic Cu+/Cu2+ redox cycle, enabling continuous hydroxyl radical (·OH) production. Upon US irradiation, sonogenerated charge-carrier separation accelerates electron transfer and copper valence cycling, further amplifying ·OH generation efficiency. Simultaneously, the narrow-bandgap electronic structure of CTS promotes efficient sonodynamic energy transfer to molecular oxygen, resulting in substantial singlet oxygen (1O2) generation. Coupled with US-induced cavitation effects, the platform establishes a dual-pathway ROS amplification mechanism that markedly enhances bacterial membrane disruption and biofilm eradication. Consequently, CTS exhibits potent broad-spectrum antibacterial activity and admire anti-biofilm efficacy under US activation, enabling efficient bacterial clearance in challenging infection environments. Collectively, this work presents a semiconductor-based, US-responsive antibacterial strategy for programmable ROS amplification and highlights the therapeutic potential of multi-metal sulfide nanoagents for the treatment of deep-seated and drug-resistant bacterial infections. STATEMENT OF SIGNIFICANCE: Antibiotic-resistant infections and biofilm-associated diseases remain difficult to treat because of limited antimicrobial penetration and therapeutic resistance. Here, we report a Cu4SnS4 (CTS) semiconductor nanozyme that overcomes the insufficient reactive oxygen species generation of conventional sonodynamic antibacterial systems by integrating chemodynamic and sonodynamic mechanisms. Ultrasound activation enables enhanced ROS amplification through coordinated catalytic and semiconductor properties, leading to effective bacterial eradication, biofilm disruption, and tissue repair. This work provides a new design strategy for ultraso",
+   "tags": [
+    "Reactive oxygen species",
+    "chemodynamic therapy",
+    "sonodynamic therapy",
+    "wound healing"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107144",
+   "pmid": "42982218",
+   "doi": "10.1016/j.jdent.2026.107144",
+   "title": "Comparison of Accuracy and Operator Confidence between Freehand and Dynamic Navigation Systems in the Socket-Shield Technique: An In Vitro Model Study",
+   "title_zh": "动态导航vs自由手牙桥保存术精度研究",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-04",
+   "authors": [
+    "Sun Z",
+    "Wang X",
+    "Cao Z",
+    "Wu J",
+    "Hou L",
+    "Li T",
+    "Li C",
+    "Ni J"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982218/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "种植技术评估",
+   "one_line": "体外交叉试验显示动态导航显著提高牙桥保存预备精度、降低根尖穿孔率并提升操作者信心。",
+   "so_what": "q1边缘相关：技术层面优化，不涉及免疫微环境或骨结合机制，仅改变手术操作路径。",
+   "caution": "体外模型非活体，n=24偏小， novices为主，临床转化外推需谨慎。",
+   "score": {
+    "final": 32.5,
+    "match": 35.0,
+    "novelty": 30.0,
+    "rigor": 38.0,
+    "impact": 30.0,
+    "transfer": 25.0
+   },
+   "heuristic": 31.0,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To evaluate whether dynamic navigation (DN) improves preparation accuracy and operator confidence compared with freehand (FH) in the socket shield technique among novices, and to explore DN as a training tool. METHODS: Eight novice dentists performed freehand (FH) and dynamic navigation (DN) socket shield preparations on standardized models (crossover). Outcomes included Dice similarity coefficient (DSC), perforation rate, length deviation, and confidence scores. An exploratory phase with four operators (two experienced FH, two novice DN) prepared five maxillary anterior teeth. Due to unbalanced experience and technique and a limited sample size, this phase was analyzed descriptively without inferential testing. RESULTS: In the main experiment, the DN group showed significantly higher DSC (78.0% vs. 63.5%) and lower length deviation (1.12 mm vs. 2.68 mm), with higher self-reported confidence scores (all P<0.01) than FH. Apical perforation occurred in 5/24 FH preparations (20.8%) and 0/24 DN preparations. Attempt number did not significantly affect DSC. In the exploratory phase, novice DN showed a DSC of 72.7% and a length deviation of 1.59 mm, whereas experienced FH showed values of 66.9% and 1.97 mm, respectively. The novice DN observations showed lower dispersion in the two-metric PCA space. CONCLUSIONS: Within the limitations of this in vitro study, DN was associated with greater geometric conformity to the planned preparation, lower length deviation, a lower observed laboratory perforation frequency, and higher operator confidence. The exploratory validation phase showed descriptively similar patterns across different anterior tooth anatomies, although preparation technique and operator experience could not be disentangled. These findings support further investigation of DN as an adjunct to initial technical training and should not be interpreted as evidence of clinical safety or therapeutic efficacy. CLINICAL SIGNIFICANCE: DN may facilitate novice training by providing real-time guidance in vitro; translation to skill acquisition and patient outcomes requires longitudinal and clinical validation.",
+   "tags": [
+    "Dynamic navigation",
+    "Freehand",
+    "Socket-shield technique"
+   ]
+  },
+  {
+   "id": "10.1002/hed.70499",
+   "pmid": "42984456",
+   "doi": "10.1002/hed.70499",
+   "title": "Stereotactic Body Radiation Therapy for Head and Neck Cancers With Perineural Spread",
+   "title_zh": "头颈部癌神经周围扩散的SBRT治疗",
+   "journal": "Head & neck",
+   "date": "2026-11-05",
+   "authors": [
+    "Lawless AK",
+    "Goodman CD",
+    "Wang CH",
+    "Wang XW",
+    "Frank SJ",
+    "Fuller CD",
+    "Garden AS",
+    "Gunn GB",
+    "Moreno AC",
+    "Morrison WH",
+    "Reddy JP",
+    "Rosenthal DI"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984456/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "颌面肿瘤与分子机制",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "头颈肿瘤放疗",
+   "one_line": "多中心回顾36例HNC伴PNS行SBRT，2年OS 79%/PFS 54%/LC 72%，cSCC优于ACC",
+   "so_what": "q5边缘：神经周围扩散是HNC转移途径，但本文无免疫/微生物数据，仅放疗结局",
+   "caution": "n=36单臂回顾，无对照；ACC仅2例失败，统计效力不足",
+   "score": {
+    "final": 32.1,
+    "match": 35.0,
+    "novelty": 25.0,
+    "rigor": 40.0,
+    "impact": 20.0,
+    "transfer": 15.0
+   },
+   "heuristic": 39.0,
+   "breakdown": {
+    "topic": 7.0,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Perineural spread (PNS) in head and neck cancer (HNC) is technically challenging due to complex target volumes adjacent to critical organs. Data on stereotactic body radiation therapy (SBRT) for PNS is scarce. METHODS: This retrospective study included patients treated with SBRT for PNS across two centers in the USA and Canada from 2015 to 2025. Endpoints included overall survival (OS), progression-free survival (PFS), local control (LC), and treatment-related toxicity. RESULTS: Thirty-six patients were included, with median follow up of 47.5 months. Two-year OS, PFS, and LC were 79%, 54%, and 72% respectively. Patients with cutaneous squamous cell carcinoma (cSCC) had superior PFS and LC compared with non-cSCC histologies. Adenoid cystic carcinoma (ACC) accounted for the only in-field failures. Grade ≥ 3 toxicity occurred in 22% (8/36), including grade ≥ 3 osteoradionecrosis in 6% (2/36). Temporal lobe necrosis was solely Grade 1-2 (32%). CONCLUSIONS: SBRT demonstrated durable LC for selected patients with PNS, particularly cSCC, while ACC may warrant a dose-escalated approach.",
+   "tags": [
+    "Skull Base",
+    "perineural spread",
+    "stereotactic body radiation therapy"
+   ]
+  },
+  {
+   "id": "10.1111/odi.70560",
+   "pmid": "42989707",
+   "doi": "10.1111/odi.70560",
+   "title": "Systemic Therapies for Recurrent Aphthous Stomatitis: A Systematic Review of Efficacy and Safety",
+   "title_zh": "复发性阿弗他口炎全身治疗系统评价",
+   "journal": "Oral diseases",
+   "date": "2026-11-05",
+   "authors": [
+    "Sánchez Sáez G",
+    "Gómez García FJ",
+    "Ruíz Roca JA",
+    "Galera Molero F"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42989707/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙周炎通过哪些可验证的通…",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "黏膜免疫与治疗",
+   "one_line": "PRISMA系统评价：沙利度胺等全身药物对RAS有效但安全性受限，证据异质性大仅作定性合成。",
+   "so_what": "沙利度胺/IL-1β通路与你q1免疫微环境有部分机制重叠，可借用法学框架评估RAS免疫治疗证据等级。",
+   "caution": "定性合成因异质性无法Meta，结论证据层级受限。",
+   "score": {
+    "final": 30.0,
+    "match": 25.0,
+    "novelty": 25.0,
+    "rigor": 40.0,
+    "impact": 15.0,
+    "transfer": 15.0
+   },
+   "heuristic": 46.0,
+   "breakdown": {
+    "topic": 8.8,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVES: To evaluate the efficacy and safety of systemic pharmacological and nutritional interventions for recurrent aphthous stomatitis (RAS). MATERIALS AND METHODS: Following PRISMA 2020, five databases were searched for studies published from 2001 to 2026. Clinical trials and analytical observational studies of systemic treatments for RAS were included. Risk of bias was assessed using design-appropriate tools. Owing to clinical and methodological heterogeneity, findings were synthesized qualitatively. RESULTS: Twenty studies were included: 16 randomized trials, three non-randomized intervention studies, and one observational cohort. Interventions included corticosteroids, colchicine, thalidomide, levamisole, pentoxifylline, dapsone, clofazimine, sulodexide, montelukast, roflumilast, rebamipide, vitamin B12, vitamin C, multivitamins, zinc, and omega-3 fatty acids. Several therapies improved pain, ulcer burden, healing, or recurrence-related outcomes, but comparative evidence was inconsistent. Thalidomide showed potential benefit but important safety limitations and a high risk of bias. Nutritional interventions showed mixed results. CONCLUSIONS: Selected systemic therapies may benefit severe, frequent, or refractory RAS, but no intervention can be considered clearly superior. Evidence certainty is limited by heterogeneity, small samples, limited direct comparisons, and risk of bias.",
+   "tags": [
+    "colchicine",
+    "corticosteroids",
+    "immunomodulatory agents",
+    "oral ulcers",
+    "recurrent aphthous stomatitis",
+    "systematic review"
+   ]
   }
  ],
  "backlog": [],
