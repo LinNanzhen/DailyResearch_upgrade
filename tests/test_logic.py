@@ -64,6 +64,14 @@ class TestJsonExtraction(unittest.TestCase):
         raw = '好的，结果如下：\n{"match": 80, "note": "含 } 的花括号"}\n希望有用'
         self.assertEqual(_extract_json(raw)["match"], 80)
 
+    def test_jsonl(self):
+        raw = '{"match": 80}\n{"match": 60}\n{"match": 40}'
+        self.assertEqual([x["match"] for x in _extract_json(raw)], [80, 60, 40])
+
+    def test_concatenated_arrays(self):
+        raw = '[{"a": 1}]\n[{"a": 2}]'
+        self.assertEqual(_extract_json(raw), [{"a": 1}, {"a": 2}])
+
     def test_nested(self):
         raw = 'x {"a": [{"b": 1}], "c": {"d": 2}} y'
         self.assertEqual(_extract_json(raw), {"a": [{"b": 1}], "c": {"d": 2}})

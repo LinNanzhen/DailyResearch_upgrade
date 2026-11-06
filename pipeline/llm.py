@@ -14,8 +14,32 @@ class LLMError(RuntimeError):
     pass
 
 
+def _decode_many(text: str) -> list:
+    """Decode concatenated / newline-delimited JSON values in one string."""
+    dec = json.JSONDecoder()
+    out: list = []
+    idx = 0
+    length = len(text)
+    while idx < length:
+        while idx < length and text[idx] in " \t\r\n,`":
+            idx += 1
+        if idx >= length:
+            break
+        try:
+            value, end = dec.raw_decode(text, idx)
+        except ValueError:
+            nxt = min([p for p in (text.find("{", idx + 1), text.find("[", idx + 1)) if p != -1] or [length])
+            if nxt <= idx:
+                break
+            idx = nxt
+            continue
+        out.append(value)
+        idx = end
+    return out
+
+
 def _extract_json(text: str) -> Any:
-    """Pull the first JSON array/object out of a model reply."""
+    """Pull JSON out of a model reply: array, object, JSONL or concatenated."""
     if not text:
         raise LLMError("empty reply")
     cleaned = re.sub(r"```(?:json)?", "", text).strip()
@@ -24,33 +48,13 @@ def _extract_json(text: str) -> Any:
         return json.loads(cleaned)
     except Exception:
         pass
-    # scan for the first balanced { } or [ ] — whichever appears first in the text
-    found = [(cleaned.find(op), op, cl) for op, cl in (("[", "]"), ("{", "}")) if cleaned.find(op) >= 0]
-    for start, opener, closer in sorted(found):
-        depth = 0
-        in_str = False
-        esc = False
-        for i in range(start, len(cleaned)):
-            ch = cleaned[i]
-            if in_str:
-                if esc:
-                    esc = False
-                elif ch == "\\":
-                    esc = True
-                elif ch == '"':
-                    in_str = False
-                continue
-            if ch == '"':
-                in_str = True
-            elif ch == opener:
-                depth += 1
-            elif ch == closer:
-                depth -= 1
-                if depth == 0:
-                    try:
-                        return json.loads(cleaned[start : i + 1])
-                    except Exception:
-                        break
+    values = _decode_many(cleaned)
+    if len(values) == 1:
+        return values[0]
+    if values and all(isinstance(v, list) for v in values):
+        return [item for group in values for item in group]
+    if values:
+        return values
     raise LLMError(f"no JSON found in reply: {text[:160]}")
 
 
@@ -89,7 +93,7 @@ class AgnesLLM:
             payload["response_format"] = {"type": "json_object"}
 
         last_err: Optional[Exception] = None
-        for attempt in range(4):
+        for attempt in range(5):
             try:
                 resp = requests.post(
                     f"{self.base_url}/chat/completions",
@@ -100,8 +104,10 @@ class AgnesLLM:
                     json=payload,
                     timeout=self.timeout,
                 )
-                if resp.status_code in (408, 409, 429, 500, 502, 503, 504) and attempt < 3:
-                    time.sleep(2 * (attempt + 1))
+                if resp.status_code in (408, 409, 429, 500, 502, 503, 504) and attempt < 4:
+                    # Agnes returns 503 "request queue is full" during peak hours:
+                    # back off patiently instead of burning the batch.
+                    time.sleep(5 * (attempt + 1) ** 1.5)
                     continue
                 if resp.status_code >= 400:
                     raise LLMError(f"HTTP {resp.status_code}: {resp.text[:300]}")
