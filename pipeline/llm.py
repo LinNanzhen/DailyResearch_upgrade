@@ -87,7 +87,8 @@ class AgnesLLM:
             "model": self.model,
             "messages": messages,
             "temperature": self.temperature,
-            "max_tokens": max_tokens,
+            # Agnes caps output at 4096 even for 2.5-flash; larger values are a 400.
+            "max_tokens": min(int(max_tokens), 4096),
         }
         if json_mode:
             payload["response_format"] = {"type": "json_object"}
@@ -107,7 +108,8 @@ class AgnesLLM:
                 if resp.status_code in (408, 409, 429, 500, 502, 503, 504) and attempt < 4:
                     # Agnes returns 503 "request queue is full" during peak hours:
                     # back off patiently instead of burning the batch.
-                    time.sleep(5 * (attempt + 1) ** 1.5)
+                    wait = 10 * (attempt + 1) if resp.status_code == 429 else 5 * (attempt + 1) ** 1.5
+                    time.sleep(wait)
                     continue
                 if resp.status_code >= 400:
                     raise LLMError(f"HTTP {resp.status_code}: {resp.text[:300]}")

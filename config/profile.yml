@@ -206,7 +206,7 @@ llm:
   base_url: https://apihub.agnes-ai.com/v1
   model: agnes-2.5-flash
   temperature: 0.2
-  batch_size: 12
+  batch_size: 8          # 4096 输出上限下，8 篇约 1500 tokens，留足余量
   abstract_chars: 1100
   timeout: 120
 

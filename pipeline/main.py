@@ -178,6 +178,16 @@ def run(args: argparse.Namespace) -> int:
                 log(f"  {p['score']['final']:>5} | {p.get('tier')} | {p['journal'][:34]:<34} | {p['title'][:70]}")
         return 0
 
+    existing = render.DAILY_DIR / f"{today.isoformat()}.json"
+    if not ai_ok and existing.exists():
+        try:
+            old = json.loads(existing.read_text(encoding="utf-8"))
+        except Exception:
+            old = {}
+        if old.get("ai") and (1 + len(old.get("scan") or [])) >= 2:
+            log("[guard] 本次模型不可用，保留已有的 AI 结果，不用降级结果覆盖")
+            return 0
+
     render.mark_seen(seen, picks_all)
     render.save_seen(seen)
     render.save_backlog(backlog_items)
