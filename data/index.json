@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-11-06T21:39:47+08:00",
+ "updated_at": "2026-11-06T21:45:12+08:00",
  "latest": "2026-11-06",
  "days": [
   {
    "date": "2026-11-06",
-   "must_title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
-   "must_title_zh": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
-   "cluster": "牙周与宿主免疫",
+   "must_title": "Metabolic Memory in Oral Inflammation",
+   "must_title_zh": "口腔炎症的代谢记忆",
+   "cluster": "代谢-免疫对话",
    "count": 4,
-   "ai": false
+   "ai": true
   }
  ],
  "weeks": []

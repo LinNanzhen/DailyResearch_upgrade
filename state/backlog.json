@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06T21:39:47+08:00",
+ "updated_at": "2026-11-06T21:45:12+08:00",
  "items": [
   {
    "id": "10.1177/00220345261495934",
@@ -79,6 +79,17 @@
    "days_waiting": 0
   },
   {
+   "id": "10.1177/00220345261489570",
+   "title": "Metabolic Memory in Oral Inflammation",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 57.3,
+   "one_line": "综述表观遗传重编程驱动的代谢记忆如何维持口腔炎症持续与复发。",
+   "cluster": "代谢-免疫对话",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978263/",
+   "days_waiting": 0
+  },
+  {
    "id": "10.1111/cdoe.70142",
    "title": "Fifteen Years of the PUFA Index in Oral Epidemiology: A Systematic Review of Global Application and Reporting",
    "journal": "Community dentistry and oral epidemiology",
@@ -120,17 +131,6 @@
    "one_line": "",
    "cluster": "口腔鳞癌的免疫微环境与微…",
    "url": "https://pubmed.ncbi.nlm.nih.gov/42989576/",
-   "days_waiting": 0
-  },
-  {
-   "id": "10.1111/clr.70199",
-   "title": "Immediate Implants With or Without a Volume Stable Collagen Matrix: A Randomized Clinical Trial",
-   "journal": "Clinical oral implants research",
-   "date_shown": "2026-11-06",
-   "score": 49.4,
-   "one_line": "",
-   "cluster": "种植与骨再生",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42989498/",
    "days_waiting": 0
   }
  ]
