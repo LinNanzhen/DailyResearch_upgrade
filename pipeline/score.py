@@ -254,10 +254,16 @@ def attach(paper: Dict[str, Any], profile: Dict[str, Any], tiers: Dict[str, str]
     return paper
 
 
-def is_dental(paper: Dict[str, Any], min_hits: int = 2) -> bool:
-    """Big-journal topic hits often drag in non-dental papers (e.g. colorectal cancer).
-    Whitelisted journals pass automatically; others need real dental signal."""
-    return bool(paper.get("journal_whitelisted")) or int(paper.get("dental_hits") or 0) >= min_hits
+def is_dental(paper: Dict[str, Any], min_hits: int = 3) -> bool:
+    """Big-journal topic hits often drag in non-dental papers (colorectal cancer,
+    pancreatic single-cell...). Whitelisted journals pass; others need the dental
+    term in the title, or at least 3 mentions in the abstract."""
+    if paper.get("journal_whitelisted"):
+        return True
+    title = _norm(paper.get("title", ""))
+    if any(term in title for term in DENTAL_TERMS):
+        return True
+    return int(paper.get("dental_hits") or 0) >= min_hits
 
 
 def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, Any]:
@@ -274,7 +280,7 @@ def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, A
     floor = max(abs_floor, top_final - float(quota.get("max_gap_from_top", 25) or 25))
 
     def long_enough(p: Dict[str, Any]) -> bool:
-        return len(p.get("abstract", "")) >= 400
+        return len(p.get("abstract", "")) >= 250
 
     # Deep reads: prefer primary research over reviews, and keep them diverse.
     ordered = sorted(ranked, key=lambda p: (p.get("design") == "meta", -p["score"]["final"]))
@@ -321,6 +327,16 @@ def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, A
         if p["id"] in used_ids:
             continue
         if p["score"]["final"] < floor:
+            break
+        scans.append(p)
+        used_ids.add(p["id"])
+
+    for p in ranked:  # last resort: fill the daily quota down to the absolute floor
+        if len(scans) >= target_scan:
+            break
+        if p["id"] in used_ids:
+            continue
+        if p["score"]["final"] < abs_floor:
             break
         scans.append(p)
         used_ids.add(p["id"])
