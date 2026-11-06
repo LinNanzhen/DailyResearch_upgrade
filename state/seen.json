@@ -1,1 +1,28 @@
-{"papers": {}}
+{
+ "papers": {
+  "10.1177/00220345261495934": {
+   "first_seen": "2026-11-06",
+   "times": 1,
+   "last_shown": "2026-11-06",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis"
+  },
+  "10.1016/j.actbio.2026.11.004": {
+   "first_seen": "2026-11-06",
+   "times": 1,
+   "last_shown": "2026-11-06",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche"
+  },
+  "10.1007/s00784-026-07209-8": {
+   "first_seen": "2026-11-06",
+   "times": 1,
+   "last_shown": "2026-11-06",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial"
+  },
+  "10.1038/s41591-026-04744-5": {
+   "first_seen": "2026-11-06",
+   "times": 1,
+   "last_shown": "2026-11-06",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases"
+  }
+ }
+}

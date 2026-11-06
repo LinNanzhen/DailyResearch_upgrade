@@ -1,6 +1,6 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06T20:42:46+08:00",
+ "generated_at": "2026-11-06T21:12:03+08:00",
  "model": "heuristic-only",
  "ai": false,
  "usage": {
@@ -26,6 +26,7 @@
   "pmid": "42984391",
   "doi": "10.1177/00220345261495934",
   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+  "title_zh": null,
   "journal": "Journal of dental research",
   "date": "2026-11-05",
   "authors": [
@@ -83,6 +84,7 @@
    "pmid": "42982154",
    "doi": "10.1016/j.actbio.2026.11.004",
    "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "title_zh": null,
    "journal": "Acta biomaterialia",
    "date": "2026-11-04",
    "authors": [
@@ -146,6 +148,7 @@
    "pmid": "42983131",
    "doi": "10.1007/s00784-026-07209-8",
    "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "title_zh": null,
    "journal": "Clinical oral investigations",
    "date": "2026-11-05",
    "authors": [
@@ -204,6 +207,7 @@
    "pmid": "42988934",
    "doi": "10.1038/s41591-026-04744-5",
    "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "title_zh": null,
    "journal": "Nature medicine",
    "date": "2026-11-05",
    "authors": [
