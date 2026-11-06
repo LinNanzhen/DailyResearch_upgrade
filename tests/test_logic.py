@@ -136,7 +136,7 @@ class TestSelection(unittest.TestCase):
         profile = load_profile()
         profile["quota"]["min_scan_score"] = 70
         papers = []
-        for i, final in enumerate([90, 98, 65, 60]):
+        for i, final in enumerate([90, 65, 60, 55]):
             p = score.attach(fake_paper(id=f"f{i}", title=f"Study {i}", journal=f"J{i}", date="2026-11-05"), profile, {"journal of dental research": "A"}, date(2026, 11, 6))
             p["score"] = {"final": final}
             p["domain"] = f"D{i}"
