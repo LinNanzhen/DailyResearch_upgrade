@@ -1,0 +1,210 @@
+# ============================================================
+# 个人研究画像 / Personal research profile
+# 你唯一需要长期维护的文件。改这里 = 改「什么算 match 我」。
+# 每天流水线会把它连同候选论文一起喂给模型做排序。
+# ============================================================
+version: 1
+
+identity:
+  name: Lin Nanzhen
+  stage: 口腔医学研究生（临床实习阶段）
+  language: zh-CN
+
+# ------------------------------------------------------------
+# ① 你正在追问的问题（最重要的一栏）
+# 每篇论文最终会被问一句：「它是否推进了下面任何一个问题？」
+# 建议 3–5 条，写成能回答「是/否/部分」的句子，而不是大词。
+# ------------------------------------------------------------
+research_questions:
+  - id: q1
+    text: 种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？
+    keywords:
+      - peri-implant
+      - osseointegration
+      - macrophage polarization
+      - titanium
+      - bone-implant interface
+      - foreign body reaction
+  - id: q2
+    text: 牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？
+    keywords:
+      - periodontitis
+      - systemic
+      - cardiovascular
+      - diabetes
+      - bacteremia
+      - inflammation
+  - id: q3
+    text: 口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？
+    keywords:
+      - oral microbiome
+      - dysbiosis
+      - Fusobacterium
+      - Porphyromonas
+      - metagenomics
+      - strain
+  - id: q4
+    text: 生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？
+    keywords:
+      - biomaterial
+      - surface modification
+      - immunomodulation
+      - macrophage
+      - hydrogel
+      - scaffold
+      - degradation
+  - id: q5
+    text: 口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？
+    keywords:
+      - oral squamous cell carcinoma
+      - tumor microenvironment
+      - immunotherapy
+      - immune checkpoint
+      - microbiome
+      - prognosis
+
+# ------------------------------------------------------------
+# ② 领域与关键词（用于召回与粗排；weight 0–1）
+# 你之前 8 个方向全选了 —— 所以「领域」只决定召回，
+# 真正决定排序的是上面的 research_questions 与下面 methods。
+# ------------------------------------------------------------
+domains:
+  - name: 种植与骨再生
+    weight: 1.0
+    keywords: [dental implant, osseointegration, peri-implantitis, bone regeneration, osteogenesis, osteoclast, alveolar bone, guided bone regeneration, titanium, zirconia]
+  - name: 牙周与宿主免疫
+    weight: 1.0
+    keywords: [periodontitis, periodontal, gingival, host response, inflammasome, neutrophil, T cell, cytokine, senescence]
+  - name: 口腔微生物组
+    weight: 0.9
+    keywords: [oral microbiome, microbiota, dysbiosis, metagenomics, biofilm, Fusobacterium nucleatum, Porphyromonas gingivalis, Streptococcus]
+  - name: 牙体牙髓与龋病
+    weight: 0.85
+    keywords: [dental caries, enamel, dentin, pulp, endodontic, remineralization, fluoride, pulpitis, root canal]
+  - name: 材料与生物材料
+    weight: 0.85
+    keywords: [biomaterial, resin composite, adhesive, 3D printing, additive manufacturing, hydrogel, scaffold, surface modification, wear]
+  - name: 颌面肿瘤与分子机制
+    weight: 0.8
+    keywords: [oral squamous cell carcinoma, OSCC, head and neck cancer, tumor microenvironment, immunotherapy, metastasis, biomarker]
+  - name: 儿童口腔与预防
+    weight: 0.7
+    keywords: [children, early childhood caries, prevention, epidemiology, sealant, fluoride varnish, oral health survey]
+  - name: 方法与交叉
+    weight: 0.6
+    keywords: [single-cell, spatial transcriptomics, machine learning, deep learning, mendelian randomization, multi-omics, organoid, causal inference]
+
+# 你希望优先看到的方法（命中加分；也是「方法迁移」推荐的依据）
+methods_of_interest:
+  - 单细胞 / 空间转录组
+  - 类器官与器官芯片
+  - 孟德尔随机化 / 因果推断
+  - 机器学习与影像组学
+  - 多组学整合
+  - 随机对照试验（RCT）
+  - 系统评价 / 网状 Meta
+  - 前瞻性队列
+
+# 明确不想看的东西（命中直接降权或过滤）
+negative_patterns:
+  - case report
+  - technical note
+  - in vitro only
+  - questionnaire survey
+  - finite element analysis
+  - retrospective single-center
+
+# ------------------------------------------------------------
+# ③ 检索范围
+# ------------------------------------------------------------
+sources:
+  window_days: 3          # 每次回看几天（配合每日运行，3 天可覆盖周末与漏抓）
+  max_candidates: 220     # 原始召回上限，超过后按粗排截断
+  journals:
+    tier_a:
+      - Journal of Dental Research
+      - International Journal of Oral Science
+      - Journal of Clinical Periodontology
+      - Dental Materials
+      - Oral Oncology
+      - Acta Biomaterialia
+      - Biomaterials
+      - Nature Communications
+      - Science Advances
+      - PNAS
+      - eLife
+      - Cell Reports
+      - Nature Medicine
+    tier_b:
+      - Journal of Periodontology
+      - Clinical Oral Implants Research
+      - Journal of Endodontics
+      - International Endodontic Journal
+      - Journal of Prosthodontic Research
+      - Journal of Oral Rehabilitation
+      - Caries Research
+      - Community Dentistry and Oral Epidemiology
+      - Clinical Oral Investigations
+      - Journal of Dentistry
+      - Journal of Periodontal Research
+      - Journal of Oral Microbiology
+      - Molecular Oral Microbiology
+      - Oral Diseases
+      - Journal of Oral Pathology & Medicine
+      - Clinical Implant Dentistry and Related Research
+      - International Journal of Implant Dentistry
+      - European Journal of Oral Sciences
+      - Archives of Oral Biology
+      - Journal of Cranio-Maxillofacial Surgery
+      - Head & Neck
+      - Bone
+      - Journal of Bone and Mineral Research
+  # 跨刊主题检索：抓「口腔 × 大刊」的论文（Nature/Cell 系或综合刊）
+  topic_queries:
+    - >-
+      ("oral"[Title/Abstract] OR "periodontal"[Title/Abstract] OR "dental"[Title/Abstract]
+      OR "peri-implant"[Title/Abstract] OR "oral microbiome"[Title/Abstract])
+      AND ("Nature"[Journal] OR "Science"[Journal] OR "Cell"[Journal]
+      OR "Nature Communications"[Journal] OR "Nature Medicine"[Journal] OR "PNAS"[Journal]
+      OR "eLife"[Journal] OR "Cell Reports"[Journal] OR "Science Advances"[Journal]
+      OR "Nature Biomedical Engineering"[Journal] OR "Advanced Materials"[Journal]
+      OR "ACS Nano"[Journal] OR "Biomaterials"[Journal])
+      AND {window}
+
+# ------------------------------------------------------------
+# ④ 每日配额（宁可少而精）
+# ------------------------------------------------------------
+quota:
+  must_read: 1
+  scan: 3
+  backlog: 6
+  backlog_max_age_days: 21
+
+# ------------------------------------------------------------
+# ⑤ 打分权重（合计 1.0）
+# match     = 是否推进你的研究问题
+# novelty   = 是否提供了新证据/新机制/新方法
+# rigor     = 设计与样本能撑住结论吗
+# impact    = 是否可能改变临床/领域共识
+# transfer  = 方法或概念能否迁移到你的课题
+# ------------------------------------------------------------
+scoring:
+  weights:
+    match: 0.40
+    novelty: 0.20
+    rigor: 0.18
+    impact: 0.12
+    transfer: 0.10
+  show_score_breakdown: true
+
+# ------------------------------------------------------------
+# ⑥ 模型（Agnes AI，OpenAI 兼容）
+# Key 放 GitHub Secrets: AGNES_API_KEY
+# ------------------------------------------------------------
+llm:
+  base_url: https://apihub.agnes-ai.com/v1
+  model: agnes-2.5-flash
+  temperature: 0.2
+  batch_size: 12
+  abstract_chars: 1100
+  timeout: 120

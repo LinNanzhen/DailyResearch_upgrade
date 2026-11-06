@@ -1,0 +1,56 @@
+name: daily-digest
+
+on:
+  schedule:
+    # 07:30 Asia/Shanghai = 23:30 UTC (previous day)
+    - cron: "30 23 * * *"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "回看天数"
+        required: false
+        default: "3"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate today's digest
+        env:
+          AGNES_API_KEY: ${{ secrets.AGNES_API_KEY }}
+        run: python -m pipeline.main --days ${{ github.event.inputs.days || 3 }}
+
+      - name: Commit digest, notes and state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data notes state feedback
+          if git diff --cached --quiet; then
+            echo "No changes today."
+            exit 0
+          fi
+          git commit -m "digest: $(date -u +%F)"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push
+
+      - name: Job summary
+        if: always()
+        run: python -m pipeline.summary >> "$GITHUB_STEP_SUMMARY"
