@@ -133,6 +133,31 @@ class TestSelection(unittest.TestCase):
         journals = [p["journal"] for p in picked["scan"]]
         self.assertEqual(len(journals), len(set(journals)), "scan should not repeat a journal")
 
+    def test_dental_gate(self):
+        tiers = {"journal of dental research": "A"}
+        ok = score.attach(fake_paper(id="a", journal="Journal of Dental Research", title="Peri-implantitis"), {"domains": []}, tiers, date(2026, 11, 6))
+        bad = score.attach(fake_paper(id="b", journal="eLife", title="Tankyrase PROTAC in colorectal cancer", abstract="colorectal tumor " * 40), {"domains": []}, tiers, date(2026, 11, 6))
+        good = score.attach(fake_paper(id="c", journal="eLife", title="Oral microbiome and periodontal inflammation", abstract="periodontal disease and oral mucosa " * 20), {"domains": []}, tiers, date(2026, 11, 6))
+        self.assertTrue(score.is_dental(ok))
+        self.assertFalse(score.is_dental(bad))
+        self.assertTrue(score.is_dental(good))
+
+    def test_relative_scan_floor(self):
+        profile = load_profile()
+        profile["quota"]["min_scan_score"] = 40
+        profile["quota"]["max_gap_from_top"] = 25
+        finals = [63, 55, 45, 42, 30]
+        papers = []
+        for i, final in enumerate(finals):
+            p = score.attach(fake_paper(id=f"r{i}", title=f"Study {i}", journal=f"J{i}", date="2026-11-05"), profile, {"journal of dental research": "A"}, date(2026, 11, 6))
+            p["score"] = {"final": final}
+            p["domain"] = f"D{i}"
+            papers.append(p)
+        picked = score.select(papers, profile)
+        finals_shown = [p["score"]["final"] for p in picked["scan"]]
+        self.assertIn(45, finals_shown)
+        self.assertNotIn(30, finals_shown)
+
     def test_scan_floor_drops_weak_items(self):
         profile = load_profile()
         profile["quota"]["min_scan_score"] = 70

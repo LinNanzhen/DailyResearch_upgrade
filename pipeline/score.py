@@ -44,6 +44,14 @@ METHOD_MARKERS = {
     "causal": r"causal inference|target trial|instrumental variable|mediation analys",
 }
 
+DENTAL_TERMS = [
+    "oral", "dental", "dentistry", "dentist", "periodont", "gingiv", "peri-implant",
+    "implant", "tooth", "teeth", "caries", "endodont", "orthodont", "prosthodont",
+    "maxillofacial", "mandib", "maxilla", "alveolar", "saliva", "osseointegration",
+    "stomat", "pulp", "enamel", "dentin", "oral microbiome", "oral squamous",
+    "head and neck cancer", "oral cancer", "oral cavity", "mucosa", "jaw", "craniofacial",
+]
+
 SIZE_RE = re.compile(
     r"(\d[\d,]{1,6})\s*(patients|participants|subjects|individuals|implants|teeth|samples|specimens|mice|rats|children|adults|cases|papers|studies|articles|records|scans|images)\b",
     re.I,
@@ -159,6 +167,7 @@ def heuristic(paper: Dict[str, Any], profile: Dict[str, Any], tiers: Dict[str, s
     abstract = _norm(paper.get("abstract", ""))
     text = f"{title} {abstract}"
 
+    dental_hits = sum(1 for term in DENTAL_TERMS if term in text)
     design_key, design_label, design_pts = detect_design(paper)
     n, sample_note = parse_sample(paper)
     tier = tier_of(paper.get("journal", ""), tiers)
@@ -213,6 +222,7 @@ def heuristic(paper: Dict[str, Any], profile: Dict[str, Any], tiers: Dict[str, s
         "tier": tier,
         "domain": primary_domain if not primary_domain.startswith("Q:") else _domain_from_question(profile, primary_domain),
         "methods": markers,
+        "dental_hits": dental_hits,
         "penalty": round(penalty, 1),
         "penalty_hits": hits,
         "heuristic": round(total, 1),
@@ -239,8 +249,15 @@ def _domain_from_question(profile: Dict[str, Any], key: str) -> str:
 def attach(paper: Dict[str, Any], profile: Dict[str, Any], tiers: Dict[str, str], today: date) -> Dict[str, Any]:
     paper.update(heuristic(paper, profile, tiers, today))
     paper["journal_key"] = _norm(paper.get("journal", ""))
+    paper["journal_whitelisted"] = paper["journal_key"] in tiers
     paper["score"] = {"final": paper["heuristic"]}
     return paper
+
+
+def is_dental(paper: Dict[str, Any], min_hits: int = 2) -> bool:
+    """Big-journal topic hits often drag in non-dental papers (e.g. colorectal cancer).
+    Whitelisted journals pass automatically; others need real dental signal."""
+    return bool(paper.get("journal_whitelisted")) or int(paper.get("dental_hits") or 0) >= min_hits
 
 
 def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, Any]:
@@ -252,7 +269,9 @@ def select(papers: List[Dict[str, Any]], profile: Dict[str, Any]) -> Dict[str, A
 
     target_must = int(quota.get("must_read", 1) or 1)
     target_scan = int(quota.get("scan", 3) or 0)
-    floor = float(quota.get("min_scan_score", 0) or 0)
+    top_final = ranked[0]["score"]["final"]
+    abs_floor = float(quota.get("min_scan_score", 0) or 0)
+    floor = max(abs_floor, top_final - float(quota.get("max_gap_from_top", 25) or 25))
 
     def long_enough(p: Dict[str, Any]) -> bool:
         return len(p.get("abstract", "")) >= 400

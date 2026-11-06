@@ -50,6 +50,10 @@ def run(args: argparse.Namespace) -> int:
 
     for p in papers:
         score.attach(p, profile, tiers, today)
+    before = len(papers)
+    papers = [p for p in papers if score.is_dental(p)]
+    if before != len(papers):
+        log(f"      牙科相关性过滤：去掉 {before - len(papers)} 篇大刊里的非口腔论文")
     papers = [p for p in papers if p["heuristic"] >= 18]
     papers.sort(key=lambda p: p["heuristic"], reverse=True)
 
