@@ -1,13 +1,13 @@
 {
- "updated_at": "2026-11-07T00:33:52+08:00",
+ "updated_at": "2026-11-07T00:36:03+08:00",
  "latest": "2026-11-06",
  "days": [
   {
    "date": "2026-11-06",
-   "must_title": "Impact of Body Mass Index on Treatment Outcomes in Locally Advanced Head and Neck Cancer Patients Treated With Definitive Chemoradiotherapy or Radiotherapy Alone",
-   "must_title_zh": "体重指数对局部晚期头颈部癌根治性放化疗或单纯放疗疗效的影响",
-   "cluster": "头颈癌营养与预后",
-   "count": 10,
+   "must_title": "Oral and maxillofacial malignant tumors: a 50-year clinicopathologic study from a dental school in Thailand",
+   "must_title_zh": "泰国某牙科大学50年口腔颌面恶性肿瘤临床病理学研究",
+   "cluster": "口腔鳞癌流行病学",
+   "count": 2,
    "ai": true
   }
  ],

@@ -1,143 +1,146 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-07T00:33:52+08:00",
+ "generated_at": "2026-11-07T00:36:03+08:00",
  "model": "agnes-2.5-flash",
  "ai": true,
  "usage": {
-  "calls": 6,
-  "prompt_tokens": 14959,
-  "completion_tokens": 11966
+  "calls": 4,
+  "prompt_tokens": 9305,
+  "completion_tokens": 7125
  },
  "stats": {
   "candidates": 179,
   "raw": 172,
-  "fetched": 23,
+  "fetched": 13,
   "raw_dropped_type": 15,
   "no_abstract": 1,
-  "gated": 23,
-  "scored": 23,
-  "shown": 10,
+  "gated": 13,
+  "scored": 13,
+  "shown": 2,
   "ai": true,
   "feedback_files": 0,
-  "calls": 6
+  "calls": 4
  },
  "must_read": {
-  "id": "10.1002/hed.70537",
-  "pmid": "42980345",
-  "doi": "10.1002/hed.70537",
-  "title": "Impact of Body Mass Index on Treatment Outcomes in Locally Advanced Head and Neck Cancer Patients Treated With Definitive Chemoradiotherapy or Radiotherapy Alone",
-  "title_zh": "体重指数对局部晚期头颈部癌根治性放化疗或单纯放疗疗效的影响",
-  "journal": "Head & neck",
+  "id": "10.1007/s00784-026-07240-9",
+  "pmid": "42980856",
+  "doi": "10.1007/s00784-026-07240-9",
+  "title": "Oral and maxillofacial malignant tumors: a 50-year clinicopathologic study from a dental school in Thailand",
+  "title_zh": "泰国某牙科大学50年口腔颌面恶性肿瘤临床病理学研究",
+  "journal": "Clinical oral investigations",
   "date": "2026-11-04",
   "authors": [
-   "Pandey A",
-   "Pandey L",
-   "Mishra V",
-   "Singh P",
-   "Kunduru HPR",
-   "Lohia S",
-   "Pasricha R",
-   "Pasricha Y"
+   "Juengsomjit R",
+   "Panutyotin N",
+   "Suksanguan K",
+   "Subanpawongs C",
+   "Jaruchaijinda N",
+   "Lalitthamsiri N",
+   "Apimuntagul T",
+   "Kosanwat T"
   ],
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42980345/",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42980856/",
   "pmcid": "",
   "cited_by": 0,
   "design": "cohort",
   "design_label": "队列",
   "design_level": 5,
-  "sample_n": 212,
-  "sample_note": "n=212 patients",
+  "sample_n": 791,
+  "sample_note": "n=791 cases",
   "tier": "B",
-  "domain": "颌面肿瘤与分子机制",
+  "domain": "儿童口腔与预防",
   "methods": [],
   "pub_types": [
    "Journal Article"
   ],
   "is_open_access": false,
-  "cluster": "头颈癌营养与预后",
-  "one_line": "回顾性队列：BMI<25kg/m²患者放化疗后毒性更高、OS更低，BMI为独立预后因素。",
-  "so_what": "营养-免疫代谢关联，提示q5中肿瘤微环境营养状态可调，但无分子机制。",
-  "caution": "单中心回顾性，BMI为营养代理指标，混杂因素多，因果力弱。",
+  "cluster": "口腔鳞癌流行病学",
+  "one_line": "50年间791例口腔颌面恶性肿瘤，SCC占主导，牙龈最常见原发部位。",
+  "so_what": "与q5有弱关联，仅作区域肿瘤流行病学背景，无免疫/微生物机制数据。",
+  "caution": "纯回顾性档案分析，无机制、无免疫微环境数据。",
   "score": {
-   "final": 35.1,
-   "match": 28.0,
-   "novelty": 25.0,
-   "rigor": 55.0,
-   "impact": 35.0,
-   "transfer": 22.0
+   "final": 31.7,
+   "match": 30.0,
+   "novelty": 20.0,
+   "rigor": 45.0,
+   "impact": 20.0,
+   "transfer": 15.0
   },
-  "heuristic": 44.2,
+  "heuristic": 44.9,
   "breakdown": {
-   "topic": 7.0,
+   "topic": 6.1,
    "journal": 10.0,
    "design": 15,
-   "sample": 6.2,
+   "sample": 7.7,
    "fresh": 6.0,
    "method": 0.0
   },
-  "abstract": "BACKGROUND: Body Mass Index (BMI) is a readily measured indicator of nutritional status; however, its impact on outcomes in head and neck cancer (HNC) patients remains understudied. This study evaluated the impact of pre-treatment BMI on toxicities and survival in such patients. METHODS: This retrospective study included 212 patients of locally advanced HNC treated with definitive concurrent chemoradiotherapy or radiotherapy alone. Patients were categorized into BMI < 25 kg/m2 and ≥ 25 kg/m2. Toxicities were assessed using CTCAE v5.0. Overall survival (OS) and locoregional control (LRC) were analyzed using the Kaplan-Meier method. RESULTS: Eighty-six percent of patients had BMI of < 25Kg/m2. These patients experienced significantly higher rates of grade ≥ 2 mucositis, dermatitis, candidiasis, and greater need for nutritional support (44.7%; p = 0.039). Median OS and LRC were 25 and 24 months, respectively. Three-year OS and LRC were 46.3% and 39%. BMI category, T stage, and nodal stage independently predicted OS. CONCLUSION: BMI < 25 Kg/m2 patients treated with definitive chemoradiotherapy or radiotherapy alone are more prone to treatment-related toxicities and have inferior survival outcomes. Early nutritional assessment and intervention should be integrated into routine management to improve treatment outcomes.",
+  "abstract": "OBJECTIVES: Oral and maxillofacial malignant tumors show variation in frequency and demographic characteristics across countries. Due to their diverse clinical presentations, clinical diagnosis remains challenging. This study aimed to investigate clinicopathologic data of these malignancies over 50-year period in a Thai dental school. MATERIALS AND METHODS: Archival biopsy records were reviewed for cases diagnosed with malignant tumors in the oral and maxillofacial region. Demographic and clinicopathologic data including sites, clinical presentations, clinical diagnoses made by clinicians, and histopathologic diagnoses were analyzed. RESULTS: Of 22,292 biopsy specimens, 791 cases (3.5%) were diagnosed as malignant tumors in this location. Epithelial tumor was the most common (60.3%), followed by salivary gland (16.6%) and hematologic (7.3%) groups. Squamous cell carcinoma (SCC) was the most common. Mean age of patients was 55.9 years, with male-to-female ratio of 1:1.02. Gingiva was the most common site (27.5%) and soft tissue mass was predominant clinical presentation (46.0%). Only 54.5% of cases were clinically diagnosed as malignancy while remaining cases were clinically diagnosed as benign tumor, reactive lesion, infection, cyst, or other lesions. CONCLUSIONS: In this cohort, oral and maxillofacial malignant tumors were uncommon with SCC being predominant. High proportion of gingival involvement and slight female predominance differed from general trends in the literature. Discrepancy between clinical and histopathologic diagnoses highlights diagnostic challenges. CLINICAL RELEVANCE: Discordant diagnosis of oral and maxillofacial malignancies as benign conditions is of clinical significance. Integrating demographic data along with clinicopathologic features may assist clinicians in diagnosis, leading to prompt histopathologic confirmation and appropriate patient management.",
   "tags": [
-   "body mass index",
-   "chemoradiotherapy",
-   "head and neck cancer",
-   "nutritional status",
-   "overall survival",
-   "treatment toxicity"
+   "Epidemiology",
+   "Malignant tumors",
+   "Oral cancer",
+   "Primary intraosseous carcinoma",
+   "Squamous cell carcinoma"
   ],
   "deep": {
-   "title_zh": "体重指数对局部晚期头颈部癌根治性放化疗或单纯放疗疗效的影响",
-   "one_sentence": "BMI<25kg/m2的局部晚期HNC患者接受根治性放化疗/单纯放疗后，毒性反应更高、生存更差；BMI是OS的独立预测…",
-   "question": "在根治性放化疗或单纯放疗的局部晚期头颈部癌患者中，低BMI（<25kg/m2）是否通过影响治疗耐受性和抗肿瘤免疫微环境，进而降低生存获益？",
-   "design": "回顾性单中心队列研究，按BMI<25 vs ≥25分组，比较放化疗/单纯放疗患者的急性毒性（CTCAE v5.0）与OS、LRC；多变量Cox分析校正T/N分期。",
-   "sample_desc": "212例局部晚期头颈部癌患者，接受根治性同步放化疗或单纯放疗；摘要未说明医院/地区来源。",
+   "title_zh": "泰国某牙科大学50年口腔颌面恶性肿瘤临床病理学研究",
+   "one_sentence": "SCC是口腔颌面恶性肿瘤最常见类型，但仅54.5%在临床阶段被正确识别为恶性，诊断挑战突出。",
+   "question": "在泰国这一特定人群中，口腔颌面恶性肿瘤的流行病学特征与既往欧美文献有何差异？临床诊断与病理诊断之间是否存在系统性误差？",
+   "design": "单中心回顾性队列研究，基于50年间全部口腔颌面区域活检标本进行病理归档回顾，比较临床初步诊断与组织病理学最终诊断的一致性。",
+   "sample_desc": "791例口腔颌面恶性肿瘤（来自22,292例活检标本中的3.5%），来自泰国一所牙科大学的病理档案。摘要未说明单中心还是多中心。",
    "findings": [
     {
-     "claim": "BMI<25患者更常发生≥2级黏膜炎、皮炎、念珠菌病，营养支持需求更高。",
-     "evidence": "86%患者BMI<25；营养支持需求44.7% vs ≥25组（p=0.039）。"
+     "claim": "上皮来源恶性肿瘤占绝对多数",
+     "evidence": "60.3%（791例中的477例）"
     },
     {
-     "claim": "低BMI与较差OS和LRC相关。",
-     "evidence": "中位OS 25月、LRC 24月；3年OS 46.3%、3年LRC 39%。BMI为OS独立预测因子（与T分期、N分期并列）。"
+     "claim": "鳞状细胞癌（SCC）是最常见的单一肿瘤类型",
+     "evidence": "未报告具体百分比，仅描述为most common"
     },
     {
-     "claim": "BMI在HNC放化疗人群中独立于TN分期预测生存。",
-     "evidence": "多变量Cox回归显示BMI分类、T分期、N分期均独立预测OS。"
+     "claim": "牙龈是最常见的发病部位",
+     "evidence": "27.5%"
+    },
+    {
+     "claim": "性别分布与文献描述的男性优势相反",
+     "evidence": "男女比1:1.02，女性略多"
     }
    ],
-   "effect": "未报告（HR、CI均未提供）",
-   "relation": "与q5（口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？）相关，提供新解释：低BMI/营养不良状态可能是'治疗抵抗'的外周驱动因素——通过增加急性毒性、迫使治疗中断或剂量削减，间接降低肿瘤控制率；营养支持可能是可转化的干预点。与q2的'宿主代谢-肿瘤'轴亦有交叉。",
-   "why": "大多数HNC预后研究聚焦于HPV状态、基因突变或肿瘤微环境；本研究以'可操作的临床指标'BMI为切入点，证实营养状态是OS独立预测因子，并直接给出'早期营养评估+干预应纳入常规管理'的临床转化路径。对做头颈肿瘤/口腔鳞癌免疫微环境课题的研究者，提示：不应忽略患者的代谢-营养背景对治疗反应和免疫微环境的系统性调制作用。",
+   "effect": "未报告",
+   "relation": "与q5（口腔鳞癌）有部分相关，但仅涉及SCC的流行病学描述，不涉及免疫微环境或微生物组机制。对其他q1–q4问题无直接关联。该论文是一篇纯描述性流行病学研究，无法支持任何机制性结论。",
+   "why": "唯一值得读的层面是：它明确量化了口腔颌面恶性肿瘤的临床误诊率（约45%），且发现该人群牙龈受累比例和女性优势与西方文献不同。如果你研究口腔鳞癌，这篇论文至少提醒你：在泰国人群中SCC的发病部位分布和性别特征可能存在差异，设计区域性队列时需考虑混杂。但对机制研究无实质帮助。",
    "limitations": [
-    "回顾性单中心设计，BMI仅采用单一截断值（25kg/m2），无法捕捉剂量-反应关系或非线性效应；也未报告BMI变化轨迹（治疗前后）。",
-    "未校正合并症（如糖尿病、心血管疾病）、吸烟史、饮酒史、KPS评分、ALB/前白蛋白等营养/炎症指标，存在残余混杂；'独立预测'结论需谨慎。",
-    "未区分原发部位（口咽 vs 非口咽），而口咽癌HPV状态与预后密切相关，混合入组可能掩盖异质性。"
+    "纯回顾性单中心研究，无法推断因果关系，也无法评估治疗结局或生存数据。",
+    "摘要未说明是否进行了多变量校正或风险因素分析，难以判断哪些临床特征真正具有提示意义。",
+    "50年的归档数据存在分期标准变化、诊断技术演进的历史偏倚，结果外推到现代临床决策的证据强度有限。"
    ],
-   "transferable": "（1）将'营养风险筛查（NRS-2002或PG-SGA）'与'放化疗毒性预测'联合设计，纳入自己的HNC免疫微环境课题；（2）若做口腔鳞癌类器官/器官芯片，可模拟营养不良状态（低葡萄糖/低氨基酸）与免疫细胞共培养，观察对放化疗敏感性的影响；（3）用孟德尔随机化检验BMI与HNC放化疗毒性/预后的因果方向，弥补回顾性研…",
+   "transferable": "无明显可直接移植的方法或设计。唯一的借鉴是：在回顾性病理队列中，系统比较临床初步诊断与最终病理诊断的一致性，可量化误诊率，这一分析框架可用于其他头颈肿瘤亚组。",
    "followups": [
-    "原始数据是否报告了BMI各等级（如<18.5、18.5–24.9、25–29.9、≥30）的剂量-反应趋势？截断值25是否来自预设还是数据驱动？",
-    "多变量Cox模型的HR及95%CI是多少？模型是否经过比例风险假设检验？",
-    "研究是否报告了放化疗中断率、剂量削减率与BMI的关系？毒性升高是否中介了生存差异？"
+    "该队列中SCC的具体分化程度（高分化/中分化/低分化）分布如何？分化程度是否与临床误诊率相关？",
+    "50年间诊断一致性是否随时间改善？是否有分期年份的趋势分析？",
+    "牙龈SCC在该队列中的具体位置（牙槽嵴/游离龈/附着龈）是否优于颊黏膜或舌的预后差异被报告？"
    ],
    "glossary": [
     {
-     "en": "CTCAE v5.0",
-     "cn": "常见不良反应事件评价标准第5版"
+     "en": "clinicopathologic",
+     "cn": "临床病理学的"
     },
     {
-     "en": "OS",
-     "cn": "总生存期"
+     "en": "histopathologic diagnosis",
+     "cn": "组织病理学诊断"
     },
     {
-     "en": "LRC",
-     "cn": "局部区域控制率"
+     "en": "squamous cell carcinoma (SCC)",
+     "cn": "鳞状细胞癌"
     },
     {
-     "en": "HNC",
-     "cn": "头颈部癌"
+     "en": "reactive lesion",
+     "cn": "反应性病变"
     },
     {
-     "en": "definitive chemoradiotherapy",
-     "cn": "根治性同步放化疗"
+     "en": "discordant diagnosis",
+     "cn": "诊断不一致"
     }
    ],
    "reading_minutes": 12
@@ -145,395 +148,31 @@
  },
  "must_reads": [
   {
-   "id": "10.1002/hed.70537",
-   "pmid": "42980345",
-   "doi": "10.1002/hed.70537",
-   "title": "Impact of Body Mass Index on Treatment Outcomes in Locally Advanced Head and Neck Cancer Patients Treated With Definitive Chemoradiotherapy or Radiotherapy Alone",
-   "title_zh": "体重指数对局部晚期头颈部癌根治性放化疗或单纯放疗疗效的影响",
-   "journal": "Head & neck",
+   "id": "10.1007/s00784-026-07240-9",
+   "pmid": "42980856",
+   "doi": "10.1007/s00784-026-07240-9",
+   "title": "Oral and maxillofacial malignant tumors: a 50-year clinicopathologic study from a dental school in Thailand",
+   "title_zh": "泰国某牙科大学50年口腔颌面恶性肿瘤临床病理学研究",
+   "journal": "Clinical oral investigations",
    "date": "2026-11-04",
    "authors": [
-    "Pandey A",
-    "Pandey L",
-    "Mishra V",
-    "Singh P",
-    "Kunduru HPR",
-    "Lohia S",
-    "Pasricha R",
-    "Pasricha Y"
+    "Juengsomjit R",
+    "Panutyotin N",
+    "Suksanguan K",
+    "Subanpawongs C",
+    "Jaruchaijinda N",
+    "Lalitthamsiri N",
+    "Apimuntagul T",
+    "Kosanwat T"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42980345/",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42980856/",
    "pmcid": "",
    "cited_by": 0,
    "design": "cohort",
    "design_label": "队列",
    "design_level": 5,
-   "sample_n": 212,
-   "sample_note": "n=212 patients",
-   "tier": "B",
-   "domain": "颌面肿瘤与分子机制",
-   "methods": [],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": false,
-   "cluster": "头颈癌营养与预后",
-   "one_line": "回顾性队列：BMI<25kg/m²患者放化疗后毒性更高、OS更低，BMI为独立预后因素。",
-   "so_what": "营养-免疫代谢关联，提示q5中肿瘤微环境营养状态可调，但无分子机制。",
-   "caution": "单中心回顾性，BMI为营养代理指标，混杂因素多，因果力弱。",
-   "score": {
-    "final": 35.1,
-    "match": 28.0,
-    "novelty": 25.0,
-    "rigor": 55.0,
-    "impact": 35.0,
-    "transfer": 22.0
-   },
-   "heuristic": 44.2,
-   "breakdown": {
-    "topic": 7.0,
-    "journal": 10.0,
-    "design": 15,
-    "sample": 6.2,
-    "fresh": 6.0,
-    "method": 0.0
-   },
-   "abstract": "BACKGROUND: Body Mass Index (BMI) is a readily measured indicator of nutritional status; however, its impact on outcomes in head and neck cancer (HNC) patients remains understudied. This study evaluated the impact of pre-treatment BMI on toxicities and survival in such patients. METHODS: This retrospective study included 212 patients of locally advanced HNC treated with definitive concurrent chemoradiotherapy or radiotherapy alone. Patients were categorized into BMI < 25 kg/m2 and ≥ 25 kg/m2. Toxicities were assessed using CTCAE v5.0. Overall survival (OS) and locoregional control (LRC) were analyzed using the Kaplan-Meier method. RESULTS: Eighty-six percent of patients had BMI of < 25Kg/m2. These patients experienced significantly higher rates of grade ≥ 2 mucositis, dermatitis, candidiasis, and greater need for nutritional support (44.7%; p = 0.039). Median OS and LRC were 25 and 24 months, respectively. Three-year OS and LRC were 46.3% and 39%. BMI category, T stage, and nodal stage independently predicted OS. CONCLUSION: BMI < 25 Kg/m2 patients treated with definitive chemoradiotherapy or radiotherapy alone are more prone to treatment-related toxicities and have inferior survival outcomes. Early nutritional assessment and intervention should be integrated into routine management to improve treatment outcomes.",
-   "tags": [
-    "body mass index",
-    "chemoradiotherapy",
-    "head and neck cancer",
-    "nutritional status",
-    "overall survival",
-    "treatment toxicity"
-   ],
-   "deep": {
-    "title_zh": "体重指数对局部晚期头颈部癌根治性放化疗或单纯放疗疗效的影响",
-    "one_sentence": "BMI<25kg/m2的局部晚期HNC患者接受根治性放化疗/单纯放疗后，毒性反应更高、生存更差；BMI是OS的独立预测…",
-    "question": "在根治性放化疗或单纯放疗的局部晚期头颈部癌患者中，低BMI（<25kg/m2）是否通过影响治疗耐受性和抗肿瘤免疫微环境，进而降低生存获益？",
-    "design": "回顾性单中心队列研究，按BMI<25 vs ≥25分组，比较放化疗/单纯放疗患者的急性毒性（CTCAE v5.0）与OS、LRC；多变量Cox分析校正T/N分期。",
-    "sample_desc": "212例局部晚期头颈部癌患者，接受根治性同步放化疗或单纯放疗；摘要未说明医院/地区来源。",
-    "findings": [
-     {
-      "claim": "BMI<25患者更常发生≥2级黏膜炎、皮炎、念珠菌病，营养支持需求更高。",
-      "evidence": "86%患者BMI<25；营养支持需求44.7% vs ≥25组（p=0.039）。"
-     },
-     {
-      "claim": "低BMI与较差OS和LRC相关。",
-      "evidence": "中位OS 25月、LRC 24月；3年OS 46.3%、3年LRC 39%。BMI为OS独立预测因子（与T分期、N分期并列）。"
-     },
-     {
-      "claim": "BMI在HNC放化疗人群中独立于TN分期预测生存。",
-      "evidence": "多变量Cox回归显示BMI分类、T分期、N分期均独立预测OS。"
-     }
-    ],
-    "effect": "未报告（HR、CI均未提供）",
-    "relation": "与q5（口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？）相关，提供新解释：低BMI/营养不良状态可能是'治疗抵抗'的外周驱动因素——通过增加急性毒性、迫使治疗中断或剂量削减，间接降低肿瘤控制率；营养支持可能是可转化的干预点。与q2的'宿主代谢-肿瘤'轴亦有交叉。",
-    "why": "大多数HNC预后研究聚焦于HPV状态、基因突变或肿瘤微环境；本研究以'可操作的临床指标'BMI为切入点，证实营养状态是OS独立预测因子，并直接给出'早期营养评估+干预应纳入常规管理'的临床转化路径。对做头颈肿瘤/口腔鳞癌免疫微环境课题的研究者，提示：不应忽略患者的代谢-营养背景对治疗反应和免疫微环境的系统性调制作用。",
-    "limitations": [
-     "回顾性单中心设计，BMI仅采用单一截断值（25kg/m2），无法捕捉剂量-反应关系或非线性效应；也未报告BMI变化轨迹（治疗前后）。",
-     "未校正合并症（如糖尿病、心血管疾病）、吸烟史、饮酒史、KPS评分、ALB/前白蛋白等营养/炎症指标，存在残余混杂；'独立预测'结论需谨慎。",
-     "未区分原发部位（口咽 vs 非口咽），而口咽癌HPV状态与预后密切相关，混合入组可能掩盖异质性。"
-    ],
-    "transferable": "（1）将'营养风险筛查（NRS-2002或PG-SGA）'与'放化疗毒性预测'联合设计，纳入自己的HNC免疫微环境课题；（2）若做口腔鳞癌类器官/器官芯片，可模拟营养不良状态（低葡萄糖/低氨基酸）与免疫细胞共培养，观察对放化疗敏感性的影响；（3）用孟德尔随机化检验BMI与HNC放化疗毒性/预后的因果方向，弥补回顾性研…",
-    "followups": [
-     "原始数据是否报告了BMI各等级（如<18.5、18.5–24.9、25–29.9、≥30）的剂量-反应趋势？截断值25是否来自预设还是数据驱动？",
-     "多变量Cox模型的HR及95%CI是多少？模型是否经过比例风险假设检验？",
-     "研究是否报告了放化疗中断率、剂量削减率与BMI的关系？毒性升高是否中介了生存差异？"
-    ],
-    "glossary": [
-     {
-      "en": "CTCAE v5.0",
-      "cn": "常见不良反应事件评价标准第5版"
-     },
-     {
-      "en": "OS",
-      "cn": "总生存期"
-     },
-     {
-      "en": "LRC",
-      "cn": "局部区域控制率"
-     },
-     {
-      "en": "HNC",
-      "cn": "头颈部癌"
-     },
-     {
-      "en": "definitive chemoradiotherapy",
-      "cn": "根治性同步放化疗"
-     }
-    ],
-    "reading_minutes": 12
-   }
-  },
-  {
-   "id": "10.1177/00220345261496178",
-   "pmid": "42978339",
-   "doi": "10.1177/00220345261496178",
-   "title": "Artificial Intelligence in Dental Research: Innovation versus Integrity?",
-   "title_zh": "人工智能在牙科研究中的创新与诚信挑战",
-   "journal": "Journal of dental research",
-   "date": "2026-11-03",
-   "authors": [
-    "Schwendicke F",
-    "Jakubovics N",
-    "Lam W",
-    "Pauwels R",
-    "Samaranayake L",
-    "Uribe S",
-    "Tichy A"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42978339/",
-   "pmcid": "",
-   "cited_by": 0,
-   "design": "unknown",
-   "design_label": "未标注",
-   "design_level": 1,
-   "sample_n": null,
-   "sample_note": "",
-   "tier": "A",
-   "domain": "其他",
-   "methods": [
-    "ml"
-   ],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": false,
-   "cluster": "AI与方法学",
-   "one_line": "探讨LLM与智能体管道重塑口腔研究知识生产的机遇与风险",
-   "so_what": "提醒AI辅助写作/分析的诚信边界，可迁移到多组学数据分析流程设计",
-   "caution": "观点性文章无原创数据，引用需独立核实",
-   "score": {
-    "final": 26.8,
-    "match": 25.0,
-    "novelty": 30.0,
-    "rigor": 25.0,
-    "impact": 20.0,
-    "transfer": 35.0
-   },
-   "heuristic": 28.2,
-   "breakdown": {
-    "topic": 0.0,
-    "journal": 15.0,
-    "design": 6,
-    "sample": 0.0,
-    "fresh": 5.0,
-    "method": 2.2
-   },
-   "abstract": "The integration of artificial intelligence (AI), particularly large language models and agentic pipelines, is reshaping dental research. This article examines the opportunities and risks of AI in knowledge production in oral health research. On one hand, AI accelerates literature synthesis, data analysis, and manuscript drafting; on the other, it introduces new risks, including fabricated findings and citations, overconfident inference, and homogenization of research focus. These shifts challenge the mechanisms that maintain scientific credibility such as peer review, reproducibility, and human judgment, especially in fields like dentistry, where small datasets and limited editorial capacity may amplify vulnerabilities. We here identify 3 structural asymmetries: 1) the growing gap between the rapid pace of AI-assisted production and slow human validation, 2) the divergence between AI-generated linguistic fluency and the true robustness of the generated evidence, and 3) unequal institutional capacity to govern AI and the incentives set by the research system for (mis)using AI for research. We conclude with a call for proportional and enforceable governance frameworks, including mandatory AI disclosure standards, provenance tracking, structured adversarial testing of research tools, and interdisciplinary oversight. Moreover, we suggest institutional reform, including revising incentive structures, fostering AI literacy, and enforcing auditability to safeguard research integrity. In the age of machine-assisted content, credibility becomes a scarce resource. Dental science must not merely adopt AI but actively govern it to ensure that its accelerated outputs remain trustworthy, equitable, and clinically meaningful.",
-   "tags": [
-    "AI",
-    "Big Data",
-    "bioinformatics",
-    "clinical studies/trials",
-    "computer vision/convolutional neural networks",
-    "outcomes research"
-   ],
-   "deep": {
-    "title_zh": "人工智能在牙科研究中的创新与诚信挑战",
-    "one_sentence": "AI加速牙科研究但引入伪造风险，亟需治理框架保障学术诚信。",
-    "question": "AI技术如何影响牙科研究的诚信机制与知识生产质量？",
-    "design": "观点论述文章，无实验设计",
-    "sample_desc": "摘要未说明",
-    "findings": [
-     {
-      "claim": "AI加速文献合成、数据分析与稿件撰写",
-      "evidence": "大语言模型与智能体流水线提升研究效率"
-     },
-     {
-      "claim": "AI引入伪造发现与引文风险",
-      "evidence": "生成式AI可能编造不存在的结果与参考文献"
-     },
-     {
-      "claim": "过自信推断与同质化研究焦点出现",
-      "evidence": "AI生成内容高语言流畅性掩盖证据薄弱"
-     },
-     {
-      "claim": "三项结构性不对称加剧诚信危机",
-      "evidence": "AI生产速度远超人工验证、语言质量与证据稳健性背离、机构治理能力不均"
-     }
-    ],
-    "effect": "未报告",
-    "relation": "与方法学交叉相关，提示q3微生物组研究依赖小数据集时更易受AI伪造影响",
-    "why": "首次系统提出牙科AI研究的三大结构性不对称，将技术伦理转化为可操作的治理议程",
-    "limitations": [
-     "非实证研究，无数据验证",
-     "未提供具体AI工具的性能指标",
-     "治理建议缺乏强制力保证"
-    ],
-    "transferable": "AI披露标准与溯源追踪可作为方法学课题的合规要求",
-    "followups": [
-     "现有AI检测工具对牙科文献伪造的准确率是多少？",
-     "JDR是否已制定强制性AI使用披露政策？",
-     "哪些口腔研究领域的小样本数据最易受AI污染？"
-    ],
-    "glossary": [
-     {
-      "en": "agentic pipelines",
-      "cn": "智能体流水线"
-     },
-     {
-      "en": "provenance tracking",
-      "cn": "溯源追踪"
-     },
-     {
-      "en": "adversarial testing",
-      "cn": "对抗性测试"
-     }
-    ],
-    "reading_minutes": 12
-   }
-  }
- ],
- "scan": [
-  {
-   "id": "10.1111/jre.70185",
-   "pmid": "42975547",
-   "doi": "10.1111/jre.70185",
-   "title": "The Coronally Advanced Flap: The Past, the Present, and the Future",
-   "title_zh": "冠向复位瓣：过去、现在与未来",
-   "journal": "Journal of periodontal research",
-   "date": "2026-11-03",
-   "authors": [
-    "De Sanctis M",
-    "Stefanini M",
-    "Zucchelli G"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42975547/",
-   "pmcid": "",
-   "cited_by": 0,
-   "design": "unknown",
-   "design_label": "未标注",
-   "design_level": 1,
-   "sample_n": null,
-   "sample_note": "",
-   "tier": "B",
-   "domain": "牙周与宿主免疫",
-   "methods": [],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": false,
-   "cluster": "牙周手术",
-   "one_line": "叙述性综述追踪冠向复位瓣从根覆盖技术发展为综合手术哲学的历程。",
-   "so_what": "q4相关：手术创伤编程免疫反应的临床实例",
-   "caution": "叙述性综述，缺乏系统评价",
-   "score": {
-    "final": 24.2,
-    "match": 25.0,
-    "novelty": 15.0,
-    "rigor": 30.0,
-    "impact": 20.0,
-    "transfer": 10.0
-   },
-   "heuristic": 32.7,
-   "breakdown": {
-    "topic": 11.7,
-    "journal": 10.0,
-    "design": 6,
-    "sample": 0.0,
-    "fresh": 5.0,
-    "method": 0.0
-   },
-   "abstract": "The story of the coronally advanced flap is the story of periodontal evolution. What began as a predictable root-coverage technique has become a comprehensive surgical philosophy-applicable to esthetic recession, regeneration, and implant rehabilitation. The future? Reconstructive bone surgery with less surgical burden for patients.",
-   "tags": [
-    "connective tissue graft",
-    "coronally advanced flap",
-    "implant placement",
-    "muco‐gingival surgery",
-    "periodontal regeneration",
-    "peri‐implant dehiscence"
-   ]
-  },
-  {
-   "id": "10.1016/j.joen.2026.10.015",
-   "pmid": "42977247",
-   "doi": "10.1016/j.joen.2026.10.015",
-   "title": "Generative AI in Endodontics: A Scoping Review of Applications, Performance, and Limitations",
-   "title_zh": "生成式AI在牙体牙髓的应用范围综述",
-   "journal": "Journal of endodontics",
-   "date": "2026-11-03",
-   "authors": [
-    "Meng X",
-    "Ohara N",
-    "Hamada M",
-    "Suzuki S"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42977247/",
-   "pmcid": "",
-   "cited_by": 0,
-   "design": "review",
-   "design_label": "综述",
-   "design_level": 3,
-   "sample_n": 50,
-   "sample_note": "50 项研究",
-   "tier": "B",
-   "domain": "牙体牙髓与龋病",
-   "methods": [
-    "ml"
-   ],
-   "pub_types": [
-    "Journal Article",
-    "Review"
-   ],
-   "is_open_access": false,
-   "cluster": "AI应用",
-   "one_line": "范围综述汇总50项研究，生成式AI主要用于牙体牙髓教育、诊断支持和患者沟通。",
-   "so_what": "可了解AI工具边界，不涉机制",
-   "caution": "纳入大量case report/技术说明",
-   "score": {
-    "final": 16.3,
-    "match": 15.0,
-    "novelty": 25.0,
-    "rigor": 40.0,
-    "impact": 15.0,
-    "transfer": 10.0
-   },
-   "heuristic": 39.2,
-   "breakdown": {
-    "topic": 7.4,
-    "journal": 10.0,
-    "design": 10,
-    "sample": 4.6,
-    "fresh": 5.0,
-    "method": 2.2
-   },
-   "abstract": "INTRODUCTION: Generative artificial intelligence (AI), particularly large language models (LLMs), has been increasingly studied and applied in endodontics, offering accessible tools for clinical decision support, education, and patient communication without requiring advanced technical expertise. This scoping review aimed to map current applications of LLM-based generative AI in endodontics and to synthesize evidence on their performance, limitations, and key evidence gaps. METHODS: A comprehensive literature search using a predefined Boolean search strategy was conducted in PubMed, Scopus, and Web of Science Core Collection for studies published between January 1, 2023 and November 19, 2025. English-language studies evaluating LLM-based generative AI applications in endodontics were included. Data were independently extracted by two reviewers and synthesized to identify applications, key outcomes, and limitations. RESULTS: A total of 50 studies were included. Applications were categorized into education and training (n = 20), diagnosis and clinical support (n = 21), and patient communication (n = 9). GPT-series models via ChatGPT were the most frequently assessed. In education, LLMs demonstrated high accuracy in structured multiple-choice assessments, but showed lower performance in open-ended and case-based tasks; in the four studies that included human comparators, LLMs outperformed students in two and fell below human examinees in two. In diagnostic and clinical decision-making contexts, performance was promising, but inconsistent, with improvements being observed when structured clinical input was provided, yet remaining below expert-level performance. In patient communication, LLMs were associated with improved patient ratings and engagement, but revealed a trade-off between accuracy, readability, and completeness. CONCLUSIONS: This review shows the potential of LLM-based generative AI in endodontics; however, its performance is strongly affected by task type and both model- and implementation-related factors. Therefore, the development of standardized, prospectively validated evaluation frameworks is important for supporting a reliable assessment and is expected to facilitate the safe and effective integration of generative AI into clinical and educational practice.",
-   "tags": [
-    "Artificial intelligence",
-    "endodontics",
-    "large language models"
-   ]
-  },
-  {
-   "id": "10.1111/joor.70354",
-   "pmid": "42983893",
-   "doi": "10.1111/joor.70354",
-   "title": "Oral Aspects in Adolescents Born Extremely Preterm: Results From the National Swedish Cohort Study",
-   "title_zh": "极早产青少年口腔健康全国性队列研究",
-   "journal": "Journal of oral rehabilitation",
-   "date": "2026-11-04",
-   "authors": [
-    "Brogårdh-Roth S",
-    "Serenius F",
-    "Paulsson L",
-    "Alm A",
-    "Tai S",
-    "Abrahamsson T",
-    "Ley D",
-    "Thorell LB",
-    "Källén K",
-    "Ekberg E"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42983893/",
-   "pmcid": "",
-   "cited_by": 0,
-   "design": "cohort",
-   "design_label": "队列",
-   "design_level": 5,
-   "sample_n": null,
-   "sample_note": "",
+   "sample_n": 791,
+   "sample_note": "n=791 cases",
    "tier": "B",
    "domain": "儿童口腔与预防",
    "methods": [],
@@ -541,52 +180,112 @@
     "Journal Article"
    ],
    "is_open_access": false,
-   "cluster": "儿童口腔/预防",
-   "one_line": "横断面电话调查比较<27周早产与足月青少年TMD疼痛、正畸需求及口腔行为差异",
-   "so_what": "仅背景",
-   "caution": "横断面设计，问卷主诉，无法推断因果",
+   "cluster": "口腔鳞癌流行病学",
+   "one_line": "50年间791例口腔颌面恶性肿瘤，SCC占主导，牙龈最常见原发部位。",
+   "so_what": "与q5有弱关联，仅作区域肿瘤流行病学背景，无免疫/微生物机制数据。",
+   "caution": "纯回顾性档案分析，无机制、无免疫微环境数据。",
    "score": {
-    "final": 16.2,
-    "match": 15.0,
-    "novelty": 25.0,
-    "rigor": 50.0,
-    "impact": 15.0,
-    "transfer": 10.0
+    "final": 31.7,
+    "match": 30.0,
+    "novelty": 20.0,
+    "rigor": 45.0,
+    "impact": 20.0,
+    "transfer": 15.0
    },
-   "heuristic": 32.4,
+   "heuristic": 44.9,
    "breakdown": {
-    "topic": 1.4,
+    "topic": 6.1,
     "journal": 10.0,
     "design": 15,
-    "sample": 0.0,
+    "sample": 7.7,
     "fresh": 6.0,
     "method": 0.0
    },
-   "abstract": "BACKGROUND: Taking a holistic approach to the health outcomes of extremely preterm (EPT) adolescents, where oral health is a part of general health, is important to ensure lifelong wellbeing. OBJECTIVE: This interdisciplinary cross-sectional survey investigated oral health aspects, including temporomandibular disorders (TMD) pain, desire for orthodontic treatment, dental fear and anxiety (DFA), and oral health behaviour in adolescents born before 27 weeks of gestation. Comparisons were made with term-born controls (≥ 37 weeks of gestation). METHODS: Structured telephone interviews were conducted with adolescents and their parents. The questionnaire included validated screening questions on TMD pain and DFA, as well as questions on subjective orthodontic treatment need and oral health behaviour. Group comparisons were performed using chi-square and Fisher's exact tests. Logistic regression analyses were used to estimate crude and adjusted odds ratios (ORs), controlling for sex, age, and dental fear. RESULTS: A total of 198 EPT adolescents (mean age 15.8) and 152 controls (mean age 15.7) participated. The odds of reporting TMD pain were 2.43 times higher in the EPT group than in controls (p = 0.002), and the odds of reporting a desire for orthodontic treatment were 3.48 times higher (p = 0.001). Additionally, the EPT group showed significantly higher Children's Fear Survey Schedule-Dental Subscale (CFSS-DS) scores, indicating higher DFA and less stable toothbrushing habits than controls. CONCLUSION: EPT adolescents showed a less favourable oral health profile than controls. These findings highlight the need for increased awareness in dental care, tailored preventive interventions, and support during the transition to adult healthcare to promote lifelong oral health and wellbeing.",
+   "abstract": "OBJECTIVES: Oral and maxillofacial malignant tumors show variation in frequency and demographic characteristics across countries. Due to their diverse clinical presentations, clinical diagnosis remains challenging. This study aimed to investigate clinicopathologic data of these malignancies over 50-year period in a Thai dental school. MATERIALS AND METHODS: Archival biopsy records were reviewed for cases diagnosed with malignant tumors in the oral and maxillofacial region. Demographic and clinicopathologic data including sites, clinical presentations, clinical diagnoses made by clinicians, and histopathologic diagnoses were analyzed. RESULTS: Of 22,292 biopsy specimens, 791 cases (3.5%) were diagnosed as malignant tumors in this location. Epithelial tumor was the most common (60.3%), followed by salivary gland (16.6%) and hematologic (7.3%) groups. Squamous cell carcinoma (SCC) was the most common. Mean age of patients was 55.9 years, with male-to-female ratio of 1:1.02. Gingiva was the most common site (27.5%) and soft tissue mass was predominant clinical presentation (46.0%). Only 54.5% of cases were clinically diagnosed as malignancy while remaining cases were clinically diagnosed as benign tumor, reactive lesion, infection, cyst, or other lesions. CONCLUSIONS: In this cohort, oral and maxillofacial malignant tumors were uncommon with SCC being predominant. High proportion of gingival involvement and slight female predominance differed from general trends in the literature. Discrepancy between clinical and histopathologic diagnoses highlights diagnostic challenges. CLINICAL RELEVANCE: Discordant diagnosis of oral and maxillofacial malignancies as benign conditions is of clinical significance. Integrating demographic data along with clinicopathologic features may assist clinicians in diagnosis, leading to prompt histopathologic confirmation and appropriate patient management.",
    "tags": [
-    "TMD",
-    "adolescence",
-    "born extremely preterm",
-    "dental fear",
-    "oral aspects",
-    "orthodontics"
-   ]
+    "Epidemiology",
+    "Malignant tumors",
+    "Oral cancer",
+    "Primary intraosseous carcinoma",
+    "Squamous cell carcinoma"
+   ],
+   "deep": {
+    "title_zh": "泰国某牙科大学50年口腔颌面恶性肿瘤临床病理学研究",
+    "one_sentence": "SCC是口腔颌面恶性肿瘤最常见类型，但仅54.5%在临床阶段被正确识别为恶性，诊断挑战突出。",
+    "question": "在泰国这一特定人群中，口腔颌面恶性肿瘤的流行病学特征与既往欧美文献有何差异？临床诊断与病理诊断之间是否存在系统性误差？",
+    "design": "单中心回顾性队列研究，基于50年间全部口腔颌面区域活检标本进行病理归档回顾，比较临床初步诊断与组织病理学最终诊断的一致性。",
+    "sample_desc": "791例口腔颌面恶性肿瘤（来自22,292例活检标本中的3.5%），来自泰国一所牙科大学的病理档案。摘要未说明单中心还是多中心。",
+    "findings": [
+     {
+      "claim": "上皮来源恶性肿瘤占绝对多数",
+      "evidence": "60.3%（791例中的477例）"
+     },
+     {
+      "claim": "鳞状细胞癌（SCC）是最常见的单一肿瘤类型",
+      "evidence": "未报告具体百分比，仅描述为most common"
+     },
+     {
+      "claim": "牙龈是最常见的发病部位",
+      "evidence": "27.5%"
+     },
+     {
+      "claim": "性别分布与文献描述的男性优势相反",
+      "evidence": "男女比1:1.02，女性略多"
+     }
+    ],
+    "effect": "未报告",
+    "relation": "与q5（口腔鳞癌）有部分相关，但仅涉及SCC的流行病学描述，不涉及免疫微环境或微生物组机制。对其他q1–q4问题无直接关联。该论文是一篇纯描述性流行病学研究，无法支持任何机制性结论。",
+    "why": "唯一值得读的层面是：它明确量化了口腔颌面恶性肿瘤的临床误诊率（约45%），且发现该人群牙龈受累比例和女性优势与西方文献不同。如果你研究口腔鳞癌，这篇论文至少提醒你：在泰国人群中SCC的发病部位分布和性别特征可能存在差异，设计区域性队列时需考虑混杂。但对机制研究无实质帮助。",
+    "limitations": [
+     "纯回顾性单中心研究，无法推断因果关系，也无法评估治疗结局或生存数据。",
+     "摘要未说明是否进行了多变量校正或风险因素分析，难以判断哪些临床特征真正具有提示意义。",
+     "50年的归档数据存在分期标准变化、诊断技术演进的历史偏倚，结果外推到现代临床决策的证据强度有限。"
+    ],
+    "transferable": "无明显可直接移植的方法或设计。唯一的借鉴是：在回顾性病理队列中，系统比较临床初步诊断与最终病理诊断的一致性，可量化误诊率，这一分析框架可用于其他头颈肿瘤亚组。",
+    "followups": [
+     "该队列中SCC的具体分化程度（高分化/中分化/低分化）分布如何？分化程度是否与临床误诊率相关？",
+     "50年间诊断一致性是否随时间改善？是否有分期年份的趋势分析？",
+     "牙龈SCC在该队列中的具体位置（牙槽嵴/游离龈/附着龈）是否优于颊黏膜或舌的预后差异被报告？"
+    ],
+    "glossary": [
+     {
+      "en": "clinicopathologic",
+      "cn": "临床病理学的"
+     },
+     {
+      "en": "histopathologic diagnosis",
+      "cn": "组织病理学诊断"
+     },
+     {
+      "en": "squamous cell carcinoma (SCC)",
+      "cn": "鳞状细胞癌"
+     },
+     {
+      "en": "reactive lesion",
+      "cn": "反应性病变"
+     },
+     {
+      "en": "discordant diagnosis",
+      "cn": "诊断不一致"
+     }
+    ],
+    "reading_minutes": 12
+   }
   },
   {
-   "id": "10.1111/odi.70565",
-   "pmid": "42989595",
-   "doi": "10.1111/odi.70565",
-   "title": "Direct Oral Healthcare Costs Associated With Xerostomia and Hyposalivation: A Scoping Review and Annual Cost Synthesis",
-   "title_zh": "口干症直接口腔医疗成本的范围综述",
-   "journal": "Oral diseases",
+   "id": "10.1002/hed.70538",
+   "pmid": "42989572",
+   "doi": "10.1002/hed.70538",
+   "title": "Reconstructing Skull Base Reconstruction: The State of the Art",
+   "title_zh": "颅底重建的重构：当前艺术状态",
+   "journal": "Head & neck",
    "date": "2026-11-05",
    "authors": [
-    "Dutra MJ",
-    "Martins MD",
-    "Dame-Teixeira N",
-    "Wagner VP"
+    "El Shatanofy M",
+    "Sargi Z",
+    "Nisenbaum E"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42989595/",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42989572/",
    "pmcid": "",
    "cited_by": 0,
    "design": "review",
@@ -595,293 +294,111 @@
    "sample_n": null,
    "sample_note": "",
    "tier": "B",
-   "domain": "种植与骨再生",
+   "domain": "生物材料表面/降解产物如…",
    "methods": [],
    "pub_types": [
     "Journal Article",
     "Review"
    ],
    "is_open_access": false,
-   "cluster": "卫生经济学",
-   "one_line": "范围综述汇总8项研究估算口干症相关直接口腔医疗成本，证据异质性高",
-   "so_what": "仅背景",
-   "caution": "异质性大，成本估算基于假设频率，临床转化弱",
+   "cluster": "颅底重建与再生材料",
+   "one_line": "颅底重建已进入「分级重建」时代，强调用最微创的可靠方案恢复颅腔-鼻窦屏障，生物材料前景分化：L-PRF有初步临床支持，…",
+   "so_what": "弱关联q4（生物材料编程宿主免疫），再生 scaffold 和 dural substitute …",
+   "caution": "综述非原创研究，无机制数据，临床转化距离远。",
    "score": {
-    "final": 11.6,
-    "match": 10.0,
-    "novelty": 15.0,
-    "rigor": 30.0,
-    "impact": 10.0,
-    "transfer": 5.0
+    "final": 31.7,
+    "match": 25.0,
+    "novelty": 30.0,
+    "rigor": 50.0,
+    "impact": 25.0,
+    "transfer": 20.0
    },
-   "heuristic": 30.8,
+   "heuristic": 37.8,
    "breakdown": {
-    "topic": 3.8,
+    "topic": 10.8,
     "journal": 10.0,
     "design": 10,
     "sample": 0.0,
     "fresh": 7.0,
     "method": 0.0
    },
-   "abstract": "OBJECTIVE: To map the available evidence on direct oral healthcare costs associated with xerostomia and hyposalivation. METHODS: A scoping review was conducted following PRISMA-ScR guidelines. Searches were performed in PubMed, Scopus, Embase, and Web of Science, with additional screening of gray literature. Studies reporting direct oral healthcare costs associated with xerostomia or/and hyposalivation were eligible. Reported costs were standardized to a common currency and price year. Exploratory annual cost scenarios were generated by combining reported unit costs with reported guideline-based or hypothetical frequencies. RESULTS: Eight studies met the inclusion criteria. Six (75%) were conducted in the United States and two (25%) in the United Kingdom. Reported cost components included dental consultations, salivary stimulants and substitutes, restorative treatments, dental implants, fluoride applications, and management of oral infections. Evidence was heterogeneous in populations, etiologies, healthcare settings, cost components, and reporting methods. Illustrative base-case scenarios ranged from USD 3296.08 to USD 10,414.51 per patient per year (USD 1791.23-5658.99 when hypothetical events and possible overlaps were excluded). CONCLUSION: The evidence base is limited and heterogeneous. The exploratory annual synthesis provides an initial framework for mapping reported cost components but does not represent a definitive estimate of economic burden.",
+   "abstract": "BACKGROUND: Skull base reconstruction has continued to evolve in parallel with advances in endoscopic skull base ablation in order to accomplish the goal of restoring larger and more complicated defects between the cranial and nasal cavities while balancing morbidity, cost, and recovery. METHODS: We reviewed recent literature on advances in skull base reconstruction including graded endoscopic reconstruction, appropriate use of perioperative adjuncts, endoscopic free tissue inset, patient-specific planning, dural substitutes, regenerative scaffolds, and autologous biologics. RESULTS: Graded reconstruction supports free grafts or local flaps for selected low-flow defects and multilayer vascularized closure for high-flow defects. Lumbar drainage benefits selected high-risk patients, whereas routine packing and prolonged antibiotic prophylaxis are not consistently supported. Endoscopic free flap inset, virtual surgical planning, and patient-specific implants expand options for complex composite and salvage defects. Synthetic dural substitutes can reduce donor-site morbidity in appropriate cases. Leukocyte- and platelet-rich fibrin (L-PRF) has emerging clinical support, while most regenerative scaffolds, platelet-rich plasma (PRP), and cell-based strategies remain preclinical. CONCLUSIONS: With advancements in skull base reconstruction, the paradigm has shifted toward using the least morbid construct that reliably restores the intracranial-sinonasal barrier while preserving function and quality of life. Standardized, prospective studies with attention to patient- and value-centric outcomes are crucial for improving care. Material science advances will continue to expand reconstructive options.",
    "tags": [
-    "Sjögren's syndrome",
-    "costs and cost analysis",
-    "head and neck neoplasms",
-    "xerostomia"
-   ]
-  },
-  {
-   "id": "10.1002/hed.70531",
-   "pmid": "42984294",
-   "doi": "10.1002/hed.70531",
-   "title": "Outcomes Following Extreme Elective Nodal De-Escalation in HNSCC Treated With Curative Intent: A Community Program Experience",
-   "title_zh": "超选择性淋巴结降剂量放疗在HNSCC中的应用",
-   "journal": "Head & neck",
-   "date": "2026-11-05",
-   "authors": [
-    "Katzenberg AM",
-    "Hockstein L",
-    "Ross C",
-    "Hanlon AL",
-    "Lozano AJ",
-    "Ji W",
-    "Park S",
-    "Clements LI",
-    "De Souza-Lawrence LM",
-    "Amin JD",
-    "Raben A"
+    "bioengineered scaffolds",
+    "cerebrospinal fluid leak",
+    "nasoseptal flap",
+    "skull base reconstruction",
+    "virtual surgical planning"
    ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42984294/",
-   "pmcid": "",
-   "cited_by": 0,
-   "design": "cohort",
-   "design_label": "队列",
-   "design_level": 5,
-   "sample_n": 2025,
-   "sample_note": "n=2025 patients",
-   "tier": "B",
-   "domain": "牙周炎通过哪些可验证的通…",
-   "methods": [],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": false,
-   "cluster": "头颈癌放疗策略",
-   "one_line": "大样本回顾：30-40Gy超选择性淋巴结降剂量放疗未增加复发风险，疗效可控。",
-   "so_what": "涉及治疗抵抗场景，但为临床技术描述，无免疫/微生物机制，q5转化价值有限。",
-   "caution": "单中心回顾性大样本，选择偏倚难消除，非RCT证据。",
-   "score": {
-    "final": 31.8,
-    "match": 25.0,
-    "novelty": 22.0,
-    "rigor": 50.0,
-    "impact": 30.0,
-    "transfer": 15.0
-   },
-   "heuristic": 43.7,
-   "breakdown": {
-    "topic": 3.7,
-    "journal": 10.0,
-    "design": 15,
-    "sample": 8.0,
-    "fresh": 7.0,
-    "method": 0.0
-   },
-   "abstract": "PURPOSE/OBJECTIVE(S): To evaluate elective nodal recurrence rates in HNSCC patients treated with extreme dose de-escalation to 30 or 40 Gy followed by a sequential boost to gross disease or high-risk sites. MATERIALS/METHODS: Between May 2017 and May 2025, patients diagnosed with SCC of the oropharynx, larynx, or hypopharynx were treated with definitive chemoradiotherapy or surgery followed by adjuvant (chemo)radiotherapy. Elective nodal volumes (ENV) defined as any uninvolved adjacent, distant ipsilateral or contralateral anatomic nodal level were treated to either 30 or 40 Gy, followed by a sequential boost to the PTVp/PTVn+ or high-risk surgical bed (PTVp+ PTVn+). A subset of 6 patients received 24-36 Gy (1.5-1.8 Gy BID) based on the Mayo-DART regimen. Assignment to 40 Gy versus 30 Gy reflected the radiation oncologist preference based on emerging trial evidence. All cases were reviewed prospectively in a head and neck multidisciplinary conference, and treatment planning required diagnostic FDG PET-CT fused to the planning CT. Concurrent systemic therapy was administered in 99% of patients. The primary endpoint was regional failure rate within the de-escalated ENV. Secondary endpoints included 1- and 2-year locoregional control (LRC), progression-free survival (PFS), distant metastasis-free survival (DMFS), and failure patterns. RESULTS: The analysis included 102 patients of whom the majority 81.4% received definitive chemoradiotherapy, 17.6% underwent surgery with adjuvant chemoradiotherapy, and 1% received surgery with adjuvant radiation alone. The elective nodal volume was treated to 40 Gy at 2 Gy per fraction in 81 patients and to 30 Gy at 2 Gy per fraction in 15 patients; the remaining 6 adjuvant patients received 24-36 Gy at 1.5-1.8 Gy twice daily per the Mayo-DART regimen. With a median follow-up of 26.4 months, no elective nodal failures were observed in either dose cohort. The 1- and 2-year LRC rates were 93.5%. The 1- and 2-year progression-free survival (PFS) rates were 88.6% and 87.3%, respectively, while distant metastasis-free survival (DMFS) rates were 95.0% and 95.0%, respectively. In total, 13 recurrences were recorded comprising 7 locoregional and 6 distant failures. CONCLUSION: This represents the largest report demonstrating the efficacy of extreme dose de-escalation to ENV's for HNSCC within an NCI designated community cancer program.",
-   "tags": []
-  },
-  {
-   "id": "10.1111/jcpe.70223",
-   "pmid": "42987426",
-   "doi": "10.1111/jcpe.70223",
-   "title": "A Split-Mouth Randomised Controlled Clinical Trial: Comparing Ostectomy Performed With Piezosurgery Versus Burs for Aesthetic Crown-Lengthening Surgery",
-   "title_zh": "超声骨刀vs手机冠延长术RCT",
-   "journal": "Journal of clinical periodontology",
-   "date": "2026-11-05",
-   "authors": [
-    "Janaphan K",
-    "Sathitthammaphon T",
-    "Budsaba K",
-    "Chitkraisorn T",
-    "Hanroongsri J",
-    "Lim HC",
-    "Thoma DS",
-    "Rakmanee T"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42987426/",
-   "pmcid": "",
-   "cited_by": 0,
-   "design": "rct",
-   "design_label": "随机对照",
-   "design_level": 6,
-   "sample_n": null,
-   "sample_note": "",
-   "tier": "A",
-   "domain": "牙周与宿主免疫",
-   "methods": [
-    "rct"
-   ],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": false,
-   "cluster": "牙周手术技术",
-   "one_line": "半口RCT：超声骨刀与高速手机行美容性冠延长术，6个月牙龈边缘及骨改建无显著差异。",
-   "so_what": "纯技术对比，不涉及免疫微环境或骨结合机制，仅背景。",
-   "caution": "n=15极小，半口设计虽控偏但外展推广需谨慎。",
-   "score": {
-    "final": 19.2,
-    "match": 12.0,
-    "novelty": 18.0,
-    "rigor": 70.0,
-    "impact": 20.0,
-    "transfer": 10.0
-   },
-   "heuristic": 48.0,
-   "breakdown": {
-    "topic": 5.8,
-    "journal": 15.0,
-    "design": 18,
-    "sample": 0.0,
-    "fresh": 7.0,
-    "method": 2.2
-   },
-   "abstract": "AIM: To assess the clinical, profilometric, radiographic and patient-reported outcomes following aesthetic crown lengthening (ECL) with ostectomy performed using either piezosurgery (PS) or rotary burs (RB). METHODS: Fifteen patients with altered passive eruption underwent ECL from maxillary premolar to premolar in a 6-month split-mouth randomised design. Ostectomy was performed with either PS or RB. Clinical, profilometric and radiographic assessments, as well as patient-reported outcomes, were collected. The primary outcome was the change in gingival margin (GM) position between 6 weeks and 6 months, analysed with a linear mixed model with treatment as a fixed effect and patient as a random effect. RESULTS: Between 6 weeks and 6 months (primary outcome), GM change was 0.16 ± 0.19 mm in the PS group and 0.12 ± 0.21 mm in the RB group (p = 0.170). The greatest reduction in crown height occurred between suturing and 7 days (-0.63 ± 0.35 mm). CEJ-BC remodelling from surgery to 6 months was -0.22 ± 0.42 mm (PS) and -0.26 ± 0.44 mm (RB) (p = 0.491). CONCLUSION: PS and RB showed no significant difference in GM stability following ECL, with the greatest changes in the first week and stability by 6 weeks.",
-   "tags": [
-    "aesthetic crown lengthening",
-    "altered passive eruption",
-    "cone‐beam computed tomography",
-    "excessive gingival display",
-    "randomised clinical trial"
-   ]
-  },
-  {
-   "id": "10.1002/hed.70542",
-   "pmid": "42988558",
-   "doi": "10.1002/hed.70542",
-   "title": "The Association Between Muscle Health and Quality of Life in Patients With Head and Neck Cancer: A Systematic Review",
-   "title_zh": "头颈癌肌肉健康与QoL系统评价",
-   "journal": "Head & neck",
-   "date": "2026-11-05",
-   "authors": [
-    "Zuijlen T",
-    "van Lint L",
-    "Preissner C",
-    "de Bree R",
-    "Speksnijder CM"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42988558/",
-   "pmcid": "",
-   "cited_by": 0,
-   "design": "meta",
-   "design_label": "系统评价/Meta",
-   "design_level": 7,
-   "sample_n": null,
-   "sample_note": "",
-   "tier": "B",
-   "domain": "颌面肿瘤与分子机制",
-   "methods": [],
-   "pub_types": [
-    "Journal Article",
-    "Review"
-   ],
-   "is_open_access": false,
-   "cluster": "头颈癌生活质量",
-   "one_line": "系统评价：较差肌肉健康与HNC患者QoL多个维度下降相关，但证据不支持meta分析。",
-   "so_what": "综述确认关联，但缺乏因果推断，q5关注的是免疫机制而非功能结局。",
-   "caution": "纳入研究异质性高，QUINS工具评估主观性强，结论为弱关联。",
-   "score": {
-    "final": 17.3,
-    "match": 15.0,
-    "novelty": 20.0,
-    "rigor": 45.0,
-    "impact": 20.0,
-    "transfer": 12.0
-   },
-   "heuristic": 44.0,
-   "breakdown": {
-    "topic": 9.0,
-    "journal": 10.0,
-    "design": 18,
-    "sample": 0.0,
-    "fresh": 7.0,
-    "method": 0.0
-   },
-   "abstract": "BACKGROUND: Patients with head and neck cancer (HNC) are at risk of impaired muscle health due to metabolic disturbances, reduced nutritional intake, and treatment-related toxicities. Because muscle health supports physical capacity and independence, its decline may affect quality of life (QoL). This systematic review examined the association between muscle health and QoL in patients with HNC. METHODS: Studies were included if they involved patients with HNC, used validated muscle health and QoL measures, and examined their association. Risk of bias was assessed using the Quality In Prognosis Studies (QUIPS) tool. RESULTS: Thirteen studies were included. Poorer muscle health was associated with lower global QoL, poorer physical and role functioning, greater fatigue, swallowing difficulties, restricted mouth opening, social eating problems, and salivary toxicities. Methodological limitations and heterogeneity precluded meta-analysis. CONCLUSIONS: Poorer muscle health was associated with worse QoL in patients with HNC, although this evidence does not establish causality. Prospective studies using standardized measures are needed. TRIAL REGISTRATION: PROSPERO Number: CRD42025105208.",
-   "tags": [
-    "body composition",
-    "functional status",
-    "head and neck neoplasms",
-    "muscle health",
-    "quality of life"
-   ]
-  },
-  {
-   "id": "10.1126/sciadv.aei5129",
-   "pmid": "42981410",
-   "doi": "10.1126/sciadv.aei5129",
-   "title": "Effector-triggered stomatal immunity prevents leaf invasion by bacterial pathogens",
-   "title_zh": "效应因子触发气孔免疫阻止细菌入侵",
-   "journal": "Science advances",
-   "date": "2026-11-04",
-   "authors": [
-    "Av-Shalom TV",
-    "Lai Y",
-    "Singh RA",
-    "Wang DY",
-    "Gohmann R",
-    "Mackey D",
-    "Desveaux D",
-    "Guttman DS"
-   ],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42981410/",
-   "pmcid": "PMC13733848",
-   "cited_by": 0,
-   "design": "unknown",
-   "design_label": "未标注",
-   "design_level": 1,
-   "sample_n": null,
-   "sample_note": "",
-   "tier": "A",
-   "domain": "其他",
-   "methods": [],
-   "pub_types": [
-    "Journal Article"
-   ],
-   "is_open_access": true,
-   "cluster": "植物免疫",
-   "one_line": "拟南芥CAR1受体识别P.syringae AvrE1效应蛋白，延长气孔免疫关闭时间",
-   "so_what": "仅背景",
-   "caution": "植物模型，免疫机制与人类口腔免疫差异巨大",
-   "score": {
-    "final": 16.7,
-    "match": 5.0,
-    "novelty": 40.0,
-    "rigor": 70.0,
-    "impact": 15.0,
-    "transfer": 10.0
-   },
-   "heuristic": 27.0,
-   "breakdown": {
-    "topic": 0.0,
-    "journal": 15.0,
-    "design": 6,
-    "sample": 0.0,
-    "fresh": 6.0,
-    "method": 0.0
-   },
-   "abstract": "The phytopathogen Pseudomonas syringae must enter the leaf interior through natural openings such as stomata to cause disease. Plants restrict pathogen entry into the leaf through non-self-recognition-driven stomatal closure. P. syringae counters this stomatal immunity by deploying a range of toxins and effectors. Here, we show that stomatal immunity in Arabidopsis thaliana is reinforced upon recognition of the ubiquitous P. syringae type III effector AvrE1 by the resistance protein CAR1. CAR1 expression is enriched in guard cells, and its activation prolongs the effective duration of stomatal immunity. We also show that CAR1 prevents the invasion of leaf tissue by natural isolates of P. syringae, demonstrating that stomatal immunity provides a broadly significant barrier to host accessibility by P. syringae that carry the conserved effector AvrE1.",
-   "tags": [
-    "Pseudomonas syringae",
-    "Plant Stomata",
-    "Arabidopsis",
-    "Arabidopsis Proteins",
-    "Plant Diseases",
-    "Plant Leaves"
-   ]
+   "deep": {
+    "title_zh": "颅底重建的重构：当前艺术状态",
+    "one_sentence": "颅底重建已进入「分级重建」时代，强调用最微创的可靠方案恢复颅腔-鼻窦屏障，生物材料前景分化：L-PRF有初步临床支持，…",
+    "question": "面对不同大小和流量风险的颅底缺损，如何系统性地选择重建策略以最小化并发症同时最大化屏障重建可靠性？",
+    "design": "文献综述（narrative review），系统检索近期颅底重建相关文献，未提及具体检索策略与纳入标准",
+    "sample_desc": "综述性文章，摘要未说明具体样本",
+    "findings": [
+     {
+      "claim": "分级重建策略是核心框架：低流量缺损用游离移植物或局部皮瓣，高流量缺损需多层血管化闭合",
+      "evidence": "基于近期文献综述的综合推荐，摘要未提供具体统计数据"
+     },
+     {
+      "claim": "腰大池引流仅适用于 selected 高风险患者，而非常规应用",
+      "evidence": "文献综述发现支持，摘要未提供具体数据"
+     },
+     {
+      "claim": "常规鼻腔填塞和长期抗生素预防缺乏一致证据支持",
+      "evidence": "综述结论，摘要未提供具体数据"
+     },
+     {
+      "claim": "L-PRF正在获得临床支持，而PRP、多数再生支架和细胞策略仍停留在临床前阶段",
+      "evidence": "作者对现有证据等级的判断，摘要未提供具体数据"
+     }
+    ],
+    "effect": "未报告",
+    "relation": "与q4高度相关——讨论了生物材料（合成脑膜替代物、再生支架、L-PRF）如何影响组织愈合结局；与q5部分相关——涉及肿瘤切除后的重建策略",
+    "why": "提供了颅底重建领域从「单一术式」向「分级重建+患者定制化」转型的系统认知，明确区分了哪些生物材料策略已有临床证据、哪些仍停留在概念阶段，帮助研究者避免盲目跟进 preclinical-only 的技术路线",
+    "limitations": [
+     "综述性质，缺乏系统性文献检索策略和GRADE证据评级",
+     "未提供具体的并发症率、CSF漏发生率等量化数据，难以进行效应量评估",
+     "聚焦颅底重建，与口腔种植/牙周领域的转化距离较远，机制层面的讨论有限"
+    ],
+    "transferable": "分级重建（graded reconstruction）的理念——根据缺损特征选择匹配的重建层级，可类比到口腔种植缺损的类型-方法匹配决策；L-PRF的临床证据等级评估方法可借鉴用于评价口腔领域PRP/L-PRF的临床转化进度",
+    "followups": [
+     "L-PRF在颅底重建中的具体临床结局数据（CSF漏率、愈合时间）在哪些前瞻性研究中报道？",
+     "合成脑膜替代物的长期安全性数据如何？有无类似q4所关注的免疫反应/纤维化反应报道？",
+     "虚拟手术规划（VSP）和患者特异性植入物在口腔种植/颌面重建中的应用证据等级如何？"
+    ],
+    "glossary": [
+     {
+      "en": "Graded reconstruction",
+      "cn": "分级重建"
+     },
+     {
+      "en": "L-PRF (Leukocyte- and platelet-rich fib…",
+      "cn": "白细胞和富血小板纤维蛋白"
+     },
+     {
+      "en": "Dural substitute",
+      "cn": "脑膜替代物"
+     },
+     {
+      "en": "CSF leak",
+      "cn": "脑脊液漏"
+     },
+     {
+      "en": "Free tissue inset",
+      "cn": "游离组织移植瓣"
+     },
+     {
+      "en": "Virtual surgical planning (VSP)",
+      "cn": "虚拟手术规划"
+     }
+    ],
+    "reading_minutes": 12
+   }
   }
  ],
+ "scan": [],
  "backlog": [],
  "weekly": null,
  "profile": {
