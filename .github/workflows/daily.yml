@@ -14,6 +14,10 @@ on:
 permissions:
   contents: write
 
+env:
+  # runner 默认 UTC；07:30 CST = 23:30 UTC，若不指定 TZ，date.today() 仍算前一天
+  TZ: Asia/Shanghai
+
 concurrency:
   group: daily-digest
   cancel-in-progress: false
@@ -52,7 +56,7 @@ jobs:
             echo "No changes today."
             exit 0
           fi
-          git commit -m "digest: $(date -u +%F)"
+          git commit -m "digest: $(date +%F)"
           git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
           git push
 
