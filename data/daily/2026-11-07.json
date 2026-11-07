@@ -1,0 +1,625 @@
+{
+ "date": "2026-11-07",
+ "generated_at": "2026-11-07T10:59:56+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 3,
+  "prompt_tokens": 5585,
+  "completion_tokens": 5832
+ },
+ "stats": {
+  "candidates": 189,
+  "raw": 184,
+  "fetched": 4,
+  "raw_dropped_type": 12,
+  "no_abstract": 1,
+  "gated": 4,
+  "scored": 4,
+  "shown": 4,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 3
+ },
+ "must_read": {
+  "id": "10.1007/s00784-026-07249-0",
+  "pmid": "42993298",
+  "doi": "10.1007/s00784-026-07249-0",
+  "title": "Anti-plaque effect of a surface pre-reacted glass-ionomer-based prophylactic paste under cariogenic challenge: a randomized in situ study",
+  "title_zh": "含S-PRG填料的防龋凝胶在龋风险挑战下的抗菌斑效应：一项随机原位研究",
+  "journal": "Clinical oral investigations",
+  "date": "2026-11-06",
+  "authors": [
+   "Gentile A",
+   "Arima LY",
+   "Ferreira PS",
+   "Garcia RM",
+   "Scaramucci T",
+   "Honório HM",
+   "Rios D",
+   "Bönecker M"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42993298/",
+  "pmcid": "2257872",
+  "cited_by": 0,
+  "design": "rct",
+  "design_label": "随机对照",
+  "design_level": 6,
+  "sample_n": null,
+  "sample_note": "",
+  "tier": "B",
+  "domain": "牙体牙髓与龋病",
+  "methods": [
+   "rct"
+  ],
+  "pub_types": [
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ],
+  "is_open_access": true,
+  "cluster": "龋病预防材料",
+  "one_line": "双盲split-mouth体内研究，S-PRG填料糊剂在致龋挑战下显著降低菌斑累积面积。",
+  "so_what": "q4中S-PRG填料释放离子调控宿主反应的方向可延伸，但本研究未触及免疫机制。",
+  "caution": "n=18偏小，24h/7d短期观察，长期效应未知。",
+  "score": {
+   "final": 37.6,
+   "match": 30.0,
+   "novelty": 35.0,
+   "rigor": 55.0,
+   "impact": 45.0,
+   "transfer": 20.0
+  },
+  "heuristic": 42.2,
+  "breakdown": {
+   "topic": 5.0,
+   "journal": 10.0,
+   "design": 18,
+   "sample": 0.0,
+   "fresh": 7.0,
+   "method": 2.2
+  },
+  "abstract": "OBJECTIVES: To evaluate the anti-plaque effect of a prophylactic paste containing Surface Pre-Reacted Glass-ionomer (S-PRG) fillers under cariogenic challenge using a randomized in situ model. MATERIALS AND METHODS: This randomized, double-blind study involved 18 volunteers; both the participants and the outcome assessor were blinded to the prophylactic agent allocation. The prophylactic agents were the S-PRG-based Pro-Care Gel (Shofu Inc.; test), Herjos (Vigodent; conventional comparator), and pumice and water (negative control). The other factors were cariogenic challenge (presence or absence) and time of plaque accumulation (24 h and 7 days). During 8 days, volunteers wore intraoral appliances with enamel blocks divided into 2 rows (split-mouth design), in one of them a cariogenic challenge was applied (20% sucrose, 8x/day). Prophylaxis was performed at baseline and again after the 24-hour assessment. The three agent phases were separated by 7-day washout periods. Plaque accumulation was evaluated by quantitative digital image analysis of plaque-covered area (mm²) and adapted Simplified Oral Hygiene Index (OHI-S) scores. RESULTS: Three-way repeated-measures ANOVA showed significant main effects of Time, Cariogenic Challenge, and Prophylactic Agent (all p < 0.001). A significant Time × Prophylactic Agent interaction (p = 0.022) indicated different temporal patterns among agents. Plaque accumulation increased from 24 h to 7 days in all groups, while Pro-Care Gel showed the lowest plaque-covered area at both evaluations; the OHI-S analysis showed the same overall group/time pattern. CONCLUSIONS: Under the conditions of this short-term in situ study, the tested S-PRG-based prophylactic paste (Pro-Care Gel) resulted in lower stainable plaque accumulation than the tested conventional paste (Herjos) and pumice/water. These findings are specific to the products and outcomes evaluated. CLINICAL RELEVANCE: S-PRG prophylactic paste exhibits a sustained anti-plaque effect, markedly reducing dental plaque accumulation relative to the two comparators during the 7-day evaluation period. This strategy could particularly be effective for high-caries-risk patients, as the material's efficacy is not compromised by frequent sucrose exposure.",
+  "tags": [
+   "Anti-plaque",
+   "Bioactive dental materials",
+   "Cariogenic challenge",
+   "Dental enamel",
+   "In situ",
+   "Ion-releasing materials"
+  ],
+  "deep": {
+   "title_zh": "含S-PRG填料的防龋凝胶在龋风险挑战下的抗菌斑效应：一项随机原位研究",
+   "one_sentence": "S-PRG基防龋凝胶在每日8次蔗糖挑战下，24h至7天均显著低于传统洁牙膏和浮石/水对照组的菌斑积聚面积。",
+   "question": "S-PRG材料释放离子的能力能否在高频蔗糖暴露条件下转化为持续抗菌斑效果，而非仅在清洁后短期有效？",
+   "design": "双盲、随机、split-mouth原位研究；3组干预（S-PRG凝胶、Herjos、浮石/水）×2个时间点（24h/7d），龋风险挑战（20%蔗糖，每日8次）与非挑战对照，组间7天washout。",
+   "sample_desc": "18名志愿者，口内佩戴带釉质块的义齿装置（摘要未说明入选/排除标准）。",
+   "findings": [
+    {
+     "claim": "S-PRG凝胶在龋风险挑战下仍优于传统对照组，且效果可持续至7天",
+     "evidence": "三因素重复测量ANOVA显示Time、Cariogenic Challenge、Prophylactic Agent主效应均显著（p<0.001）；时间×干预交互显著（p=0.022）；Pro-Care Gel在24h和7天均显示最低菌斑覆盖面积"
+    },
+    {
+     "claim": "龋风险挑战显著促进菌斑积聚，且该效应在各组一致",
+     "evidence": "所有组别菌斑面积从24h到7d均增加；OHI-S评分呈现相同总体趋势"
+    },
+    {
+     "claim": "干预方式改变了菌斑积累的时序模式",
+     "evidence": "Time × Prophylactic Agent交互p=0.022，提示三组的时间进程不同"
+    }
+   ],
+   "effect": "未报告",
+   "relation": "q3（口腔微生物组的dysbiosis是因果还是标志物）。本研究提供间接证据：S-PRG材料通过离子释放改变菌斑微环境（抑制细菌代谢），从而影响菌斑量，提示材料-微生物-宿主三重互作可成为龋病干预的干预点，而非单纯控制菌斑量。",
+   "why": "颠覆'防龋产品只在清洁后立即有效'的假设：证明S-PRG的缓释机制可在蔗糖反复攻击下维持抗菌斑效果，为高龋风险患者的日常维护提供材料学依据。同时展示了in situ模型的龋风险挑战设计。",
+   "limitations": [
+    "仅24h和7天两个时间点，无法判断7天后的维持效应或耐受性",
+    "仅评估stainable plaque面积和OHI-S，未检测菌斑微生物组成或代谢产物变化，无法回答材料是否改变了菌斑生态",
+    "未报告效应量和置信区间，无法评估临床意义大小"
+   ],
+   "transferable": "split-mouth原位设计结合龋风险挑战（蔗糖漱口方案）可用于评估任何口腔材料/产品的长期抗菌斑效果；定量菌斑面积分析（digital image analysis）可作为标准化终点。",
+   "followups": [
+    "原文是否报告了具体的菌斑面积均值±SD及95%CI？如报告，S-PRG组vs对照组的mean difference是多少？",
+    "该研究在7天结束时是否计划延长随访？原文是否提及safety监测（如牙体损伤、软组织刺激）？",
+    "S-PRG的抗菌斑机制是否归因于氟/锶/铝离子释放？原文discuss部分是否引用pre-reacted glass-ionomer的离子缓释文献？"
+   ],
+   "glossary": [
+    {
+     "en": "S-PRG (Surface Pre-Reacted Glass-ionome…",
+     "cn": "表面预反应玻璃离子填料"
+    },
+    {
+     "en": "in situ study",
+     "cn": "原位研究（口内佩戴装置模拟体内环境）"
+    },
+    {
+     "en": "split-mouth design",
+     "cn": "半口对照设计"
+    },
+    {
+     "en": "cariogenic challenge",
+     "cn": "龋风险挑战（人为施加致龋条件）"
+    },
+    {
+     "en": "washout period",
+     "cn": "洗脱期（两组干预之间的无干预间隔）"
+    },
+    {
+     "en": "stainable plaque",
+     "cn": "染色可见菌斑"
+    }
+   ],
+   "reading_minutes": 12
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1007/s00784-026-07249-0",
+   "pmid": "42993298",
+   "doi": "10.1007/s00784-026-07249-0",
+   "title": "Anti-plaque effect of a surface pre-reacted glass-ionomer-based prophylactic paste under cariogenic challenge: a randomized in situ study",
+   "title_zh": "含S-PRG填料的防龋凝胶在龋风险挑战下的抗菌斑效应：一项随机原位研究",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-06",
+   "authors": [
+    "Gentile A",
+    "Arima LY",
+    "Ferreira PS",
+    "Garcia RM",
+    "Scaramucci T",
+    "Honório HM",
+    "Rios D",
+    "Bönecker M"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42993298/",
+   "pmcid": "2257872",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
+   "is_open_access": true,
+   "cluster": "龋病预防材料",
+   "one_line": "双盲split-mouth体内研究，S-PRG填料糊剂在致龋挑战下显著降低菌斑累积面积。",
+   "so_what": "q4中S-PRG填料释放离子调控宿主反应的方向可延伸，但本研究未触及免疫机制。",
+   "caution": "n=18偏小，24h/7d短期观察，长期效应未知。",
+   "score": {
+    "final": 37.6,
+    "match": 30.0,
+    "novelty": 35.0,
+    "rigor": 55.0,
+    "impact": 45.0,
+    "transfer": 20.0
+   },
+   "heuristic": 42.2,
+   "breakdown": {
+    "topic": 5.0,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVES: To evaluate the anti-plaque effect of a prophylactic paste containing Surface Pre-Reacted Glass-ionomer (S-PRG) fillers under cariogenic challenge using a randomized in situ model. MATERIALS AND METHODS: This randomized, double-blind study involved 18 volunteers; both the participants and the outcome assessor were blinded to the prophylactic agent allocation. The prophylactic agents were the S-PRG-based Pro-Care Gel (Shofu Inc.; test), Herjos (Vigodent; conventional comparator), and pumice and water (negative control). The other factors were cariogenic challenge (presence or absence) and time of plaque accumulation (24 h and 7 days). During 8 days, volunteers wore intraoral appliances with enamel blocks divided into 2 rows (split-mouth design), in one of them a cariogenic challenge was applied (20% sucrose, 8x/day). Prophylaxis was performed at baseline and again after the 24-hour assessment. The three agent phases were separated by 7-day washout periods. Plaque accumulation was evaluated by quantitative digital image analysis of plaque-covered area (mm²) and adapted Simplified Oral Hygiene Index (OHI-S) scores. RESULTS: Three-way repeated-measures ANOVA showed significant main effects of Time, Cariogenic Challenge, and Prophylactic Agent (all p < 0.001). A significant Time × Prophylactic Agent interaction (p = 0.022) indicated different temporal patterns among agents. Plaque accumulation increased from 24 h to 7 days in all groups, while Pro-Care Gel showed the lowest plaque-covered area at both evaluations; the OHI-S analysis showed the same overall group/time pattern. CONCLUSIONS: Under the conditions of this short-term in situ study, the tested S-PRG-based prophylactic paste (Pro-Care Gel) resulted in lower stainable plaque accumulation than the tested conventional paste (Herjos) and pumice/water. These findings are specific to the products and outcomes evaluated. CLINICAL RELEVANCE: S-PRG prophylactic paste exhibits a sustained anti-plaque effect, markedly reducing dental plaque accumulation relative to the two comparators during the 7-day evaluation period. This strategy could particularly be effective for high-caries-risk patients, as the material's efficacy is not compromised by frequent sucrose exposure.",
+   "tags": [
+    "Anti-plaque",
+    "Bioactive dental materials",
+    "Cariogenic challenge",
+    "Dental enamel",
+    "In situ",
+    "Ion-releasing materials"
+   ],
+   "deep": {
+    "title_zh": "含S-PRG填料的防龋凝胶在龋风险挑战下的抗菌斑效应：一项随机原位研究",
+    "one_sentence": "S-PRG基防龋凝胶在每日8次蔗糖挑战下，24h至7天均显著低于传统洁牙膏和浮石/水对照组的菌斑积聚面积。",
+    "question": "S-PRG材料释放离子的能力能否在高频蔗糖暴露条件下转化为持续抗菌斑效果，而非仅在清洁后短期有效？",
+    "design": "双盲、随机、split-mouth原位研究；3组干预（S-PRG凝胶、Herjos、浮石/水）×2个时间点（24h/7d），龋风险挑战（20%蔗糖，每日8次）与非挑战对照，组间7天washout。",
+    "sample_desc": "18名志愿者，口内佩戴带釉质块的义齿装置（摘要未说明入选/排除标准）。",
+    "findings": [
+     {
+      "claim": "S-PRG凝胶在龋风险挑战下仍优于传统对照组，且效果可持续至7天",
+      "evidence": "三因素重复测量ANOVA显示Time、Cariogenic Challenge、Prophylactic Agent主效应均显著（p<0.001）；时间×干预交互显著（p=0.022）；Pro-Care Gel在24h和7天均显示最低菌斑覆盖面积"
+     },
+     {
+      "claim": "龋风险挑战显著促进菌斑积聚，且该效应在各组一致",
+      "evidence": "所有组别菌斑面积从24h到7d均增加；OHI-S评分呈现相同总体趋势"
+     },
+     {
+      "claim": "干预方式改变了菌斑积累的时序模式",
+      "evidence": "Time × Prophylactic Agent交互p=0.022，提示三组的时间进程不同"
+     }
+    ],
+    "effect": "未报告",
+    "relation": "q3（口腔微生物组的dysbiosis是因果还是标志物）。本研究提供间接证据：S-PRG材料通过离子释放改变菌斑微环境（抑制细菌代谢），从而影响菌斑量，提示材料-微生物-宿主三重互作可成为龋病干预的干预点，而非单纯控制菌斑量。",
+    "why": "颠覆'防龋产品只在清洁后立即有效'的假设：证明S-PRG的缓释机制可在蔗糖反复攻击下维持抗菌斑效果，为高龋风险患者的日常维护提供材料学依据。同时展示了in situ模型的龋风险挑战设计。",
+    "limitations": [
+     "仅24h和7天两个时间点，无法判断7天后的维持效应或耐受性",
+     "仅评估stainable plaque面积和OHI-S，未检测菌斑微生物组成或代谢产物变化，无法回答材料是否改变了菌斑生态",
+     "未报告效应量和置信区间，无法评估临床意义大小"
+    ],
+    "transferable": "split-mouth原位设计结合龋风险挑战（蔗糖漱口方案）可用于评估任何口腔材料/产品的长期抗菌斑效果；定量菌斑面积分析（digital image analysis）可作为标准化终点。",
+    "followups": [
+     "原文是否报告了具体的菌斑面积均值±SD及95%CI？如报告，S-PRG组vs对照组的mean difference是多少？",
+     "该研究在7天结束时是否计划延长随访？原文是否提及safety监测（如牙体损伤、软组织刺激）？",
+     "S-PRG的抗菌斑机制是否归因于氟/锶/铝离子释放？原文discuss部分是否引用pre-reacted glass-ionomer的离子缓释文献？"
+    ],
+    "glossary": [
+     {
+      "en": "S-PRG (Surface Pre-Reacted Glass-ionome…",
+      "cn": "表面预反应玻璃离子填料"
+     },
+     {
+      "en": "in situ study",
+      "cn": "原位研究（口内佩戴装置模拟体内环境）"
+     },
+     {
+      "en": "split-mouth design",
+      "cn": "半口对照设计"
+     },
+     {
+      "en": "cariogenic challenge",
+      "cn": "龋风险挑战（人为施加致龋条件）"
+     },
+     {
+      "en": "washout period",
+      "cn": "洗脱期（两组干预之间的无干预间隔）"
+     },
+     {
+      "en": "stainable plaque",
+      "cn": "染色可见菌斑"
+     }
+    ],
+    "reading_minutes": 12
+   }
+  },
+  {
+   "id": "10.1159/cre/abuag019",
+   "pmid": "42993157",
+   "doi": "10.1159/cre/abuag019",
+   "title": "Implementation strategies for integration of evidence-based caries management approach in dental education: a scoping review",
+   "title_zh": "循证龋病管理方法在牙科教育中整合的实施策略：范畴综述",
+   "journal": "Caries research",
+   "date": "2026-11-06",
+   "authors": [
+    "Amirhosseini B",
+    "Kengne Talla P",
+    "Morris M",
+    "Arunagiri KP",
+    "Tikhonova S"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42993157/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": 25,
+   "sample_note": "25 项研究",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙科教育实施",
+   "one_line": "25项研究综述EBCM在本科牙科教育中的实施策略与 Outcome，发现课程整合与教师培训是关键杠杆。",
+   "so_what": "纯教育实施研究，与q1–q5任一课题均无直接关联。",
+   "caution": "灰色文献占比高，发表偏倚风险大，结论难以外推至临床。",
+   "score": {
+    "final": 10.8,
+    "match": 5.0,
+    "novelty": 10.0,
+    "rigor": 35.0,
+    "impact": 15.0,
+    "transfer": 5.0
+   },
+   "heuristic": 30.8,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 3.8,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "INTRODUCTION: The adoption of Evidence-Based Caries Management (EBCM) approach, introduced over two decades ago, has been slow and inconsistent in dental education and practice. There is a need for enhancing the implementation of EBCM in dental educational settings. This scoping review aims to map and summarizing evidence on EBCM implementation strategies and implementation outcomes in undergraduate dental schools. METHODS: A comprehensive search strategy was conducted using MEDLINE, Scopus, Embase, and ERIC databases along with gray literature, and hand searches. Studies looking at implementation strategies for the EBCM approach in dental education were included. Data were screened, selected, and extracted by two independent reviewers. Qualitative content analysis was performed. Findings were reported following PRISMA-ScR guidelines. RESULTS: One webinar and 25 studies, published between 2007 and 2023 across dental faculties in America, Europe, and Asia were included in the scoping review. Seven studies focused on developing comprehensive cariology curricula tailored to specific contexts, corresponding to the exploration/preparation phase. In the implementation phase, caries detection was the most frequently reported component of EBCM (n=7), followed by caries risk assessment (n=3), caries risk assessment and management (n=4) or multiple components of EBCM (n=4). According to ERIC classification, 22 out of 73 implementation strategies grouped in seven clusters were identified. The most frequent ERIC strategies were \"make training dynamic\" and \"promote adaptability\", and the most frequent ERIC strategies' cluster was \"train and educate stakeholders\". Among the most frequent implementation outcomes identified were \"acceptability\", \"appropriateness\", \"fidelity\" and \"adoption\". Less frequent outcomes were \"sustainability\" and \"implementation cost\". Only three evidence sources reported about the implementation of the whole EBCM approach withing all graduate years of the undergraduate dental education. CONCLUSION: Overall, the findings underscore the need for more comprehensive and coordinated approaches to effectively integrate EBCM into dental curricula. The EBCM approach in undergraduate dental education remains in its early implementation stages and characterised by inconsistent adoption, as many institutions focus on isolated components rather than the entir",
+   "tags": [],
+   "deep": {
+    "title_zh": "循证龋病管理方法在牙科教育中整合的实施策略：范畴综述",
+    "one_sentence": "EBCM在牙本科教育中处于碎片化早期阶段，多数院校仅推行孤立组件（如龋病检测），完整框架的系统整合缺乏证据。",
+    "question": "循证龋病管理（EBCM）从理念到课堂再到临床实践的转化瓶颈在哪，什么实施策略最有效？",
+    "design": "范畴综述（scoping review），检索MEDLINE/Scopus/Embase/ERIC及灰色文献，2007–2023年文献，遵循PRISMA-ScR报告规范，ERIC框架对实施策略进行归类。",
+    "sample_desc": "25项研究（2007–2023年）+1次网络研讨会，来自美洲、欧洲、亚洲多国牙科学院，摘要未说明具体国家数量。",
+    "findings": [
+     {
+      "claim": "完整EBCM框架在本科全年级的系统整合证据极少",
+      "evidence": "仅3项证据来源报告在全部毕业生年级实施完整EBCM"
+     },
+     {
+      "claim": "实施多聚焦于孤立组件而非整体框架",
+      "evidence": "龋病检测为最常报告组件（n=7），其次为龋病风险评估（n=3）或风险+管理（n=4）或多组件并行（n=4）"
+     },
+     {
+      "claim": "ERIC框架下识别出高频策略指向'培训+适应性'",
+      "evidence": "73种策略中22种归入7个簇；最常用策略为'make training dynamic'和'promote adaptability'；最多策略簇为'train and educate stakeholders'"
+     },
+     {
+      "claim": "主要结果指标聚焦过程性指标而非患者结局",
+      "evidence": "高频结果为可接受性（acceptability）、适用性（appropriateness）、依从性（fidelity）和采用率（adoption）；可持续性（sustainability）和实施成本（implementation cost）报告极少"
+     }
+    ],
+    "effect": "未报告（范畴综述，非效应量研究）",
+    "relation": "与q1–q5均无直接关联；该论文属于医学教育实施科学范畴，若强行映射，与q3（微生物组→疾病因果链）的唯一弱关联在于：EBCM框架本身强调以风险因素（含微生物）为导向的个体化管理，但本文不涉及机制证据。",
+    "why": "对于从事口腔基础/临床研究但不涉教育的研究生，本文价值在于提供ERC框架作为'从实验室到课堂/临床'转化的工具——任何新机制或新技术最终都需经过实施路径才能改变临床实践，本文是第一篇系统描绘EBCM在教育场景中'卡在哪一步'的地图。",
+    "limitations": [
+     "范畴综述本质为描述性地图，无法判定哪些策略真正'有效'，作者已承认这一点；若要回答'什么策略改变患者结局'，需等待RCT或阶梯楔形设计",
+     "纳入研究跨越2007–2023年，EBCM定义和牙科学课程结构在此期间已发生变化，历史混杂难以控制",
+     "ERIC策略归类依赖作者二次编码，不同编码者对同一干预的分类可能存在主观偏差，摘要未报告编码者一致性（Kappa值）"
+    ],
+    "transferable": "ERIC框架（实现科学策略分类）和PRISMA-ScR报告规范——若你的课题涉及'新疗法/新技术如何进入临床路径'，可借鉴此框架绘制自身研究的实施策略地图；此外，'fidelity（依从性）'作为核心结果指标的概念可迁移到任何转化研究。",
+    "followups": [
+     "完整EBCM框架（含龋病检测+风险评估+风险分层管理+再评估）纳入结局变量后，患者caries增量是否显著优于传统方法？是否有RCT或前瞻性队列数据？",
+     "ERIC框架下的'promote adaptability'（促进适应性）策略在跨文化语境（如中国口腔医学教育体系）下如何重新定义和验证？",
+     "'可持续性（sustainability）'作为EBCM实施结果被报告极少——这是真实情况还是研究方法学缺陷（缺乏长期随访）？"
+    ],
+    "glossary": [
+     {
+      "en": "Evidence-Based Caries Management (EBCM)",
+      "cn": "循证龋病管理"
+     },
+     {
+      "en": "ERIC (Extension for Health Care Researc…",
+      "cn": "健康照护研究与实施咨询扩展框架"
+     },
+     {
+      "en": "Scoping Review",
+      "cn": "范畴综述"
+     },
+     {
+      "en": "Fidelity",
+      "cn": "依从性（指实施过程与原方案的一致性程度）"
+     },
+     {
+      "en": "PRISMA-ScR",
+      "cn": "范围综述 Preferred Reporting Items for Syst…"
+     }
+    ],
+    "reading_minutes": 12
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1007/s00784-026-07245-4",
+   "pmid": "42993321",
+   "doi": "10.1007/s00784-026-07245-4",
+   "title": "Biocompatibility of Nile tilapia (Oreochromis niloticus) skin as a xenogeneic graft in the gingival mucosa of Wistar rats (Rattus norvegicus)",
+   "title_zh": "罗非鱼皮异种移植牙龈黏膜的生物相容性",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-06",
+   "authors": [
+    "Landa Román C",
+    "Vázquez Chilmalhua E",
+    "Nieto Aguilar R",
+    "Herrera Vargas MA",
+    "Patiño Merlos L",
+    "Gómez Pamatz FJ",
+    "Gómez Cárdenas GE",
+    "Mejía Mejía GP",
+    "Rodríguez Orozco AR",
+    "Rangel González P",
+    "Vargas Merino FE",
+    "Arias Martínez M"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42993321/",
+   "pmcid": "8882825",
+   "cited_by": 0,
+   "design": "animal",
+   "design_label": "动物实验",
+   "design_level": 2,
+   "sample_n": 6,
+   "sample_note": "n=6",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "生物材料相容性",
+   "one_line": "Wistar大鼠牙龈下植入罗非鱼皮7天，组织病理学显示胶原沉积与成纤维细胞增殖可接受。",
+   "so_what": "q4相关但仅有宏观组织学，无免疫极化或NETs数据；ISO 10993-6评分框架可参考。",
+   "caution": "n=6/组，7天终点，无法支撑任何机制结论。",
+   "score": {
+    "final": 15.6,
+    "match": 15.0,
+    "novelty": 20.0,
+    "rigor": 25.0,
+    "impact": 10.0,
+    "transfer": 30.0
+   },
+   "heuristic": 43.1,
+   "breakdown": {
+    "topic": 14.9,
+    "journal": 10.0,
+    "design": 9,
+    "sample": 2.3,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To evaluate the biocompatibility of processed Nile tilapia (Oreochromis niloticus) skin (NTS) following submucosal implantation into the gingival mucosa of Wistar rats using histopathological criteria established by ISO 10993-6. MATERIALS AND METHODS: An in vivo experimental study was conducted using eighteen female Wistar rats (Rattus norvegicus) allocated to three groups (n = 6): control group (CG), wound treatment group (WTG), and treated tilapia graft group (TTGG). Sterility of NTS was confirmed by microbiological culture before implantation. Animals were monitored for 7 days, recording body weight, food intake, and water consumption. Gingival mucosal specimens were processed for histopathological evaluation using a semiquantitative scoring system for inflammatory cells, multinucleated giant cells, regenerative cells, and collagen fibers. Data were analyzed using repeated-measures ANOVA, Kruskal-Wallis, and Dunn's post hoc tests (p < 0.05). RESULTS: The TTGG demonstrated preservation of tissue architecture, moderate collagen deposition, fibroblastic proliferation, neovascularization, and predominantly mononuclear inflammatory infiltrates without extensive necrosis or abscess formation. No significant differences were observed among groups for lymphocytes, neutrophils, macrophages, regenerative cells, or collagen fibers (p > 0.05). Multinucleated giant cell scores differed significantly among groups (H = 6.273, p = 0.043), with higher scores in TTGG than in CG after Dunn-Bonferroni adjustment (p = 0.038). Body weight trajectories differed among groups (group × time interaction, p < 0.001), although no significant between-group differences were observed at baseline or at the final assessment (p = 0.200 and p = 0.438, respectively). CONCLUSIONS: Processed NTS demonstrated favorable local biocompatibility following submucosal implantation into the oral mucosa of Wistar rats. The findings support further preclinical evaluation of NTS for oral soft tissue applications; regenerative efficacy remains to be established.",
+   "tags": [
+    "Biocompatible materials",
+    "Gingival mucosa",
+    "Tilapia",
+    "Wistar rats",
+    "Xenografts"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107153",
+   "pmid": "42988350",
+   "doi": "10.1016/j.jdent.2026.107153",
+   "title": "Clinical management of intrusive luxation in primary teeth: A systematic review of treatment approaches and outcomes",
+   "title_zh": "乳牙嵌入性脱位临床管理的系统评价",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-05",
+   "authors": [
+    "Nunes GP",
+    "Alves RO",
+    "Hannig C",
+    "Flemming J",
+    "Hertel S",
+    "Danelon M"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988350/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 21,
+   "sample_note": "21 项研究",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "儿童口腔外伤",
+   "one_line": "纳入21项研究（9项回顾性+12项病例报告），自发再萌出是乳牙嵌入最常用且效果可接受的策略。",
+   "so_what": "q2/q5均不涉及乳牙外伤领域，仅背景参考。",
+   "caution": "主体为病例报告/回顾性研究，证据层级低，无法形成高质量推荐。",
+   "score": {
+    "final": 13.9,
+    "match": 10.0,
+    "novelty": 15.0,
+    "rigor": 40.0,
+    "impact": 20.0,
+    "transfer": 5.0
+   },
+   "heuristic": 36.5,
+   "breakdown": {
+    "topic": 6.9,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 3.6,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: This systematic review aimed to evaluate management strategies for intrusive luxation in primary teeth according to the degree of intrusion and to analyze associated clinical and radiographic outcomes. DATA SOURCES: Following PRISMA 2020 guidelines, PubMed (MEDLINE), Web of Science, Scopus, Embase, and Library Cochrane were systematically searched for eligible studies published up to July 23, 2026. STUDY SELECTION: Clinical trials, observational studies, case reports, and case series involving children with intrusive luxation of primary teeth were included. Findings were synthesized qualitatively by study design and management approach. Risk of bias was assessed using the Newcastle-Ottawa Scale and the Joanna Briggs Institute critical appraisal checklist. RESULTS: Among 1,331 identified records, 21 studies were included (nine retrospective studies and 12 case reports). Spontaneous re-eruption was the most frequently reported management approach, with favorable outcomes across different degrees of intrusion, although recovery was slower and less predictable in severe cases. Post-traumatic complications in primary teeth, including pulp necrosis, pathological root resorption, ankylosis, infection, and premature tooth loss, as well as enamel and structural abnormalities in permanent successors, were reported during follow-up. Surgical repositioning and fixation were described in few studies, with variable outcomes and complications. Overall, most studies had a low risk of bias. CONCLUSIONS: Current evidence supports conservative management as the preferred approach for intrusive luxation in primary teeth. Long-term follow-up and prospective studies remain essential to strengthen the evidence and refine treatment recommendations. CLINICAL RELEVANCE: Conservative management of intruded primary teeth may minimize unnecessary invasive procedures and preserve the developing permanent dentition. However, long-term follow-up remains essential for early detection of delayed pulpal, periodontal, and developmental complications.",
+   "tags": [
+    "deciduous dentition",
+    "dental trauma",
+    "intrusive luxation",
+    "primary teeth",
+    "spontaneous re-eruption"
+   ]
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 1
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 1
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 1
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 1
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 1
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 1
+  }
+ ],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}

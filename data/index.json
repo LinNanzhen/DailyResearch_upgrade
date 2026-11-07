@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-07T00:37:52+08:00",
- "latest": "2026-11-06",
+ "updated_at": "2026-11-07T10:59:56+08:00",
+ "latest": "2026-11-07",
  "days": [
+  {
+   "date": "2026-11-07",
+   "must_title": "Anti-plaque effect of a surface pre-reacted glass-ionomer-based prophylactic paste under cariogenic challenge: a randomized in situ study",
+   "must_title_zh": "含S-PRG填料的防龋凝胶在龋风险挑战下的抗菌斑效应：一项随机原位研究",
+   "cluster": "龋病预防材料",
+   "count": 4,
+   "ai": true
+  },
   {
    "date": "2026-11-06",
    "must_title": "Three-Dimensional Condylar Subtyping and Its Association With Obstructive Sleep Apnea Severity in Adults: Implication for Craniofacial Skeletal Phenotype",
