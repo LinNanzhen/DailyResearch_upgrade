@@ -1,0 +1,632 @@
+{
+ "date": "2026-11-08",
+ "generated_at": "2026-11-08T10:38:12+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 5,
+  "prompt_tokens": 9838,
+  "completion_tokens": 9088
+ },
+ "stats": {
+  "candidates": 152,
+  "raw": 148,
+  "fetched": 4,
+  "raw_dropped_type": 7,
+  "no_abstract": 0,
+  "gated": 4,
+  "scored": 4,
+  "shown": 4,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 5
+ },
+ "must_read": {
+  "id": "10.1016/j.jdent.2026.107156",
+  "pmid": "42994552",
+  "doi": "10.1016/j.jdent.2026.107156",
+  "title": "Additively Manufactured Titanium Implants and Customised Meshes: Clinical Evidence in Implant Dentistry, Bone Regeneration and Maxillofacial Rehabilitation",
+  "title_zh": "增材制造钛种植体与定制网：口腔种植学、骨再生及颌面康复的临床证据",
+  "journal": "Journal of dentistry",
+  "date": "2026-11-06",
+  "authors": [
+   "Mangano C"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42994552/",
+  "pmcid": "",
+  "cited_by": 0,
+  "design": "review",
+  "design_label": "综述",
+  "design_level": 3,
+  "sample_n": null,
+  "sample_note": "",
+  "tier": "B",
+  "domain": "种植与骨再生",
+  "methods": [
+   "rct"
+  ],
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "is_open_access": false,
+  "cluster": "种植修复材料",
+  "one_line": "系统综述增材制造钛种植体与网板在口腔颌面重建中的临床结局数据。",
+  "so_what": "覆盖q4材料侧宏观临床证据，但对免疫编程/骨结合机制无推进。",
+  "caution": "含回顾性与病例系列，证据层级不均；非机制研究。",
+  "score": {
+   "final": 43.0,
+   "match": 42.0,
+   "novelty": 30.0,
+   "rigor": 55.0,
+   "impact": 40.0,
+   "transfer": 20.0
+  },
+  "heuristic": 55.2,
+  "breakdown": {
+   "topic": 35.0,
+   "journal": 10.0,
+   "design": 10,
+   "sample": 0.0,
+   "fresh": 6.0,
+   "method": 2.2
+  },
+  "abstract": "OBJECTIVES: To critically evaluate human clinical evidence on additively manufactured (AM) titanium implants and other devices used in oral and maxillofacial rehabilitation and guided bone regeneration (GBR), focusing on clinical outcomes, complications and long-term predictability. DATA: Original human clinical investigations involving AM titanium endosseous implants, root-analogue implants, subperiosteal and maxillofacial implants, and customised titanium meshes were eligible, including randomised controlled trials, prospective and retrospective studies, case series and case reports. Studies without clinical outcomes, animal and laboratory investigations, technical reports and reviews were excluded from the primary clinical synthesis. SOURCES: A structured, indication-specific literature search was conducted in PubMed/MEDLINE for studies available up to 22 October 2026, combining terms related to AM, implant design, clinical applications and outcomes. Additional publications were identified through publisher platforms and backward and forward citation tracking. STUDY SELECTION: Conventional AM endosseous implants demonstrated favourable short- and medium-term outcomes, with survival rates ranging from 94.5% to 100% across selected clinical cohorts. Root-analogue implants showed promising results in anatomically selected patients, although evidence remains limited. Patient-specific subperiosteal and maxillofacial devices enabled rehabilitation in challenging anatomical conditions, but long-term complications, particularly mucosal exposure, infection and reintervention, remained significant concerns. Customised titanium meshes achieved clinically meaningful bone augmentation, although randomised trials demonstrated no consistent superiority over established barriers. Methodological heterogeneity and limited long-term follow-up restricted comparative interpretation. CONCLUSIONS: AM titanium represents a promising and clinically viable technology, with particularly encouraging evidence supporting conventional endosseous implants. Patient-specific applications expand therapeutic possibilities in complex clinical situations, although controlled long-term investigations are required to establish their predictability and comparative effectiveness. CLINICAL SIGNIFICANCE: AM titanium devices offer valuable opportunities for implant rehabilitation, patient-specific r",
+  "tags": [
+   "Additive manufacturing",
+   "Endosseous implants",
+   "Guided bone regeneration",
+   "Root-analogue implants",
+   "Subperiosteal implants",
+   "Titanium devices"
+  ],
+  "deep": {
+   "title_zh": "增材制造钛种植体与定制网：口腔种植学、骨再生及颌面康复的临床证据",
+   "one_sentence": "传统骨内AM种植体短期/中期存活率高，患者特异性装置拓展了复杂病例治疗选择但长期并发症显著，证据质量受限。",
+   "question": "增材制造（AM）钛种植体和定制网在不同口腔颌面适应证下是否具备可预测的长期临床结局？不同装置类型之间是否存在疗效差异？",
+   "design": "对PubMed/MEDLINE截至2026年10月22日的文献进行系统性检索，纳入人源临床研究（RCT、前瞻性/回顾性研究、病例系列），按适应症分层合成证据；排除动物实验、实验室研究、纯技术报告和纯综述。",
+   "sample_desc": "系统评价，纳入多项已发表临床研究；单篇研究的样本量摘要未说明",
+   "findings": [
+    {
+     "claim": "传统AM骨内种植体具有良好的短期和中期临床结局",
+     "evidence": "选定临床队列中存活率94.5%–100%"
+    },
+    {
+     "claim": "根类似物种植体在解剖选择的患者中前景良好，但证据有限",
+     "evidence": "摘要未说明具体数值，仅定性描述\"promising results\""
+    },
+    {
+     "claim": "患者特异性骨膜下和颌面植入物使困难解剖条件下获得康复成为可能，但长期并发症突出",
+     "evidence": "黏膜暴露、感染和再次干预为主要 Concerns；摘要未说明发生率数据"
+    },
+    {
+     "claim": "定制钛网可实现有临床意义的骨增量，但RCT未显示持续优于现有屏障材料",
+     "evidence": "无一致 superiority 证据；摘要未说明效应量数据"
+    }
+   ],
+   "effect": "未报告（本文为综述性证据综合，非原始研究报告效应量）",
+   "relation": "与 q1（种植体周免疫微环境决定骨结合）弱相关，提供AM钛表面临床结局层面的支撑证据，但机制层面几乎未涉及；与 q4（生物材料表面/降解产物如何编程宿主免疫反应）中度相关，因为AM钛的表面拓扑结构是其'程序'宿主反应的关键物理变量，本文从临床侧面对此提供了验证场景。",
+   "why": "AM钛与传统车削钛的比较仍是热点争议，本文首次系统汇总了人类临床证据并按适应症分层，明确区分了'已有较强证据支持'（传统骨内种植体）与'仍处于探索阶段'（患者特异性装置）两个层级，帮助临床研究生建立证据分级的判断框架。此外，它对定制钛网的有效性给出了否定性结论（RCT无一致优势），可能对避免临床滥用有直接价值。",
+   "limitations": [
+    "纳入研究高度异质，适应症、AM工艺参数（SLM/DMLS/EBM）、表面状态、随访时长均不统一，难以合并效应量或得出跨研究一致结论。",
+    "大量证据来自回顾性研究和病例系列，偏倚风险未系统评估；RCT数量少且多为小样本。",
+    "摘要未提及对纳入研究进行GRADE分级或偏倚风险评估的结果，也缺失微生物组或宿主免疫层面的亚组分析。"
+   ],
+   "transferable": "适应症分层的证据合成框架可照搬到其他新型材料（如PEEK、可降解镁合金）的综述写作中；检索策略中的组合词框架（AM + implant design + clinical outcomes + outcomes）可直接复用。",
+   "followups": [
+    "纳入的各个研究中，AM钛表面的粗糙度（Sa）和孔隙率是否与临床结局存在剂量-反应关系？能否从原始研究中提取该变量进行亚组分析？",
+    "定制钛网在RCT中与CBM/钛网等传统屏障材料的失败率（黏膜暴露、感染）是否有统计学显著差异？原文是否报告了具体数值？",
+    "不同AM工艺（SLM vs DMLS vs EBM）是否在纳入研究中导致了显著不同的临床结局？是否有工艺类型作为效应修饰因子的证据？"
+   ],
+   "glossary": [
+    {
+     "en": "Additively manufactured (AM)",
+     "cn": "增材制造（3D打印）"
+    },
+    {
+     "en": "Root-analogue implant",
+     "cn": "根类似物种植体"
+    },
+    {
+     "en": "Subperiosteal implant",
+     "cn": "骨膜下种植体"
+    },
+    {
+     "en": "Customised titanium mesh",
+     "cn": "定制钛网"
+    },
+    {
+     "en": "Guided bone regeneration (GBR)",
+     "cn": "引导骨再生"
+    },
+    {
+     "en": "Maxillofacial rehabilitation",
+     "cn": "颌面康复"
+    }
+   ],
+   "reading_minutes": 12
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1016/j.jdent.2026.107156",
+   "pmid": "42994552",
+   "doi": "10.1016/j.jdent.2026.107156",
+   "title": "Additively Manufactured Titanium Implants and Customised Meshes: Clinical Evidence in Implant Dentistry, Bone Regeneration and Maxillofacial Rehabilitation",
+   "title_zh": "增材制造钛种植体与定制网：口腔种植学、骨再生及颌面康复的临床证据",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-06",
+   "authors": [
+    "Mangano C"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42994552/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "种植与骨再生",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "种植修复材料",
+   "one_line": "系统综述增材制造钛种植体与网板在口腔颌面重建中的临床结局数据。",
+   "so_what": "覆盖q4材料侧宏观临床证据，但对免疫编程/骨结合机制无推进。",
+   "caution": "含回顾性与病例系列，证据层级不均；非机制研究。",
+   "score": {
+    "final": 43.0,
+    "match": 42.0,
+    "novelty": 30.0,
+    "rigor": 55.0,
+    "impact": 40.0,
+    "transfer": 20.0
+   },
+   "heuristic": 55.2,
+   "breakdown": {
+    "topic": 35.0,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVES: To critically evaluate human clinical evidence on additively manufactured (AM) titanium implants and other devices used in oral and maxillofacial rehabilitation and guided bone regeneration (GBR), focusing on clinical outcomes, complications and long-term predictability. DATA: Original human clinical investigations involving AM titanium endosseous implants, root-analogue implants, subperiosteal and maxillofacial implants, and customised titanium meshes were eligible, including randomised controlled trials, prospective and retrospective studies, case series and case reports. Studies without clinical outcomes, animal and laboratory investigations, technical reports and reviews were excluded from the primary clinical synthesis. SOURCES: A structured, indication-specific literature search was conducted in PubMed/MEDLINE for studies available up to 22 October 2026, combining terms related to AM, implant design, clinical applications and outcomes. Additional publications were identified through publisher platforms and backward and forward citation tracking. STUDY SELECTION: Conventional AM endosseous implants demonstrated favourable short- and medium-term outcomes, with survival rates ranging from 94.5% to 100% across selected clinical cohorts. Root-analogue implants showed promising results in anatomically selected patients, although evidence remains limited. Patient-specific subperiosteal and maxillofacial devices enabled rehabilitation in challenging anatomical conditions, but long-term complications, particularly mucosal exposure, infection and reintervention, remained significant concerns. Customised titanium meshes achieved clinically meaningful bone augmentation, although randomised trials demonstrated no consistent superiority over established barriers. Methodological heterogeneity and limited long-term follow-up restricted comparative interpretation. CONCLUSIONS: AM titanium represents a promising and clinically viable technology, with particularly encouraging evidence supporting conventional endosseous implants. Patient-specific applications expand therapeutic possibilities in complex clinical situations, although controlled long-term investigations are required to establish their predictability and comparative effectiveness. CLINICAL SIGNIFICANCE: AM titanium devices offer valuable opportunities for implant rehabilitation, patient-specific r",
+   "tags": [
+    "Additive manufacturing",
+    "Endosseous implants",
+    "Guided bone regeneration",
+    "Root-analogue implants",
+    "Subperiosteal implants",
+    "Titanium devices"
+   ],
+   "deep": {
+    "title_zh": "增材制造钛种植体与定制网：口腔种植学、骨再生及颌面康复的临床证据",
+    "one_sentence": "传统骨内AM种植体短期/中期存活率高，患者特异性装置拓展了复杂病例治疗选择但长期并发症显著，证据质量受限。",
+    "question": "增材制造（AM）钛种植体和定制网在不同口腔颌面适应证下是否具备可预测的长期临床结局？不同装置类型之间是否存在疗效差异？",
+    "design": "对PubMed/MEDLINE截至2026年10月22日的文献进行系统性检索，纳入人源临床研究（RCT、前瞻性/回顾性研究、病例系列），按适应症分层合成证据；排除动物实验、实验室研究、纯技术报告和纯综述。",
+    "sample_desc": "系统评价，纳入多项已发表临床研究；单篇研究的样本量摘要未说明",
+    "findings": [
+     {
+      "claim": "传统AM骨内种植体具有良好的短期和中期临床结局",
+      "evidence": "选定临床队列中存活率94.5%–100%"
+     },
+     {
+      "claim": "根类似物种植体在解剖选择的患者中前景良好，但证据有限",
+      "evidence": "摘要未说明具体数值，仅定性描述\"promising results\""
+     },
+     {
+      "claim": "患者特异性骨膜下和颌面植入物使困难解剖条件下获得康复成为可能，但长期并发症突出",
+      "evidence": "黏膜暴露、感染和再次干预为主要 Concerns；摘要未说明发生率数据"
+     },
+     {
+      "claim": "定制钛网可实现有临床意义的骨增量，但RCT未显示持续优于现有屏障材料",
+      "evidence": "无一致 superiority 证据；摘要未说明效应量数据"
+     }
+    ],
+    "effect": "未报告（本文为综述性证据综合，非原始研究报告效应量）",
+    "relation": "与 q1（种植体周免疫微环境决定骨结合）弱相关，提供AM钛表面临床结局层面的支撑证据，但机制层面几乎未涉及；与 q4（生物材料表面/降解产物如何编程宿主免疫反应）中度相关，因为AM钛的表面拓扑结构是其'程序'宿主反应的关键物理变量，本文从临床侧面对此提供了验证场景。",
+    "why": "AM钛与传统车削钛的比较仍是热点争议，本文首次系统汇总了人类临床证据并按适应症分层，明确区分了'已有较强证据支持'（传统骨内种植体）与'仍处于探索阶段'（患者特异性装置）两个层级，帮助临床研究生建立证据分级的判断框架。此外，它对定制钛网的有效性给出了否定性结论（RCT无一致优势），可能对避免临床滥用有直接价值。",
+    "limitations": [
+     "纳入研究高度异质，适应症、AM工艺参数（SLM/DMLS/EBM）、表面状态、随访时长均不统一，难以合并效应量或得出跨研究一致结论。",
+     "大量证据来自回顾性研究和病例系列，偏倚风险未系统评估；RCT数量少且多为小样本。",
+     "摘要未提及对纳入研究进行GRADE分级或偏倚风险评估的结果，也缺失微生物组或宿主免疫层面的亚组分析。"
+    ],
+    "transferable": "适应症分层的证据合成框架可照搬到其他新型材料（如PEEK、可降解镁合金）的综述写作中；检索策略中的组合词框架（AM + implant design + clinical outcomes + outcomes）可直接复用。",
+    "followups": [
+     "纳入的各个研究中，AM钛表面的粗糙度（Sa）和孔隙率是否与临床结局存在剂量-反应关系？能否从原始研究中提取该变量进行亚组分析？",
+     "定制钛网在RCT中与CBM/钛网等传统屏障材料的失败率（黏膜暴露、感染）是否有统计学显著差异？原文是否报告了具体数值？",
+     "不同AM工艺（SLM vs DMLS vs EBM）是否在纳入研究中导致了显著不同的临床结局？是否有工艺类型作为效应修饰因子的证据？"
+    ],
+    "glossary": [
+     {
+      "en": "Additively manufactured (AM)",
+      "cn": "增材制造（3D打印）"
+     },
+     {
+      "en": "Root-analogue implant",
+      "cn": "根类似物种植体"
+     },
+     {
+      "en": "Subperiosteal implant",
+      "cn": "骨膜下种植体"
+     },
+     {
+      "en": "Customised titanium mesh",
+      "cn": "定制钛网"
+     },
+     {
+      "en": "Guided bone regeneration (GBR)",
+      "cn": "引导骨再生"
+     },
+     {
+      "en": "Maxillofacial rehabilitation",
+      "cn": "颌面康复"
+     }
+    ],
+    "reading_minutes": 12
+   }
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107154",
+   "pmid": "42994555",
+   "doi": "10.1016/j.jdent.2026.107154",
+   "title": "Bioadhesive polymer-containing toothpastes and their anti-erosive potential on enamel",
+   "title_zh": "含生物粘附性聚合物的牙膏及其对牙釉质的抗侵蚀潜力",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-06",
+   "authors": [
+    "Garcia RM",
+    "de Lima LC",
+    "Sakae LO",
+    "Viana ÍEL",
+    "Aoki IV",
+    "Borges AB",
+    "Lippert F",
+    "Hara AT",
+    "Scaramucci T"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42994555/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 8,
+   "sample_note": "n=8",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙体硬组织病",
+   "one_line": "牛牙块体外模型比较三种聚合物+氟/锡组合的抗酸蚀脱矿能力（n=8/组）。",
+   "so_what": "仅背景，与q1–q5无任何直接或间接关联。",
+   "caution": "in vitro only，牛牙块模型不可外推人体临床，n极小。",
+   "score": {
+    "final": 13.7,
+    "match": 0.0,
+    "novelty": 25.0,
+    "rigor": 30.0,
+    "impact": 10.0,
+    "transfer": 0.0
+   },
+   "heuristic": 54.9,
+   "breakdown": {
+    "topic": 18.3,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 2.5,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To test the ability of experimental toothpastes containing different polymers (0.5% chitosan/CHI; 2% sodium linear polyphosphate/LPP; 0.1% polyacrylic acid/PAA), isolated or associated with fluoride (1350ppm as NaF/F), and/or fluoride plus stannous ions (3500ppm Sn as SnCl2/F+Sn) to prevent enamel erosion and erosion-abrasion. METHODS: Bovine enamel blocks (n=8) were randomly allocated into 24 groups [two models (erosive-abrasive/erosion-only) × 12 treatments]. Toothpastes were: anti-erosive commercial toothpaste (Elmex Opti-namel®/EE); placebo; CHI; LPP; PAA; CHI+F; LPP+F; PAA+F; CHI+F+Sn; LPP+F+Sn; PAA+F+Sn; and negative control (distilled water/DIW). In both models, blocks were daily exposed to human saliva (2 h), four erosive challenges (1% citric acid, 5 min, pH 2.6), and toothpaste slurries (2 min, 1:3/toothpaste: DIW) twice/day. The erosive-abrasive model included toothbrushing (45 strokes) during slurry treatment. After 5 days of cycling, surface loss (SL) was measured using optical profilometry. Data were analyzed using two-way ANOVA and Tukey's test (α = 0.05). RESULTS: There was a difference between the models (p<0.001), with the erosive-abrasive model showing the highest SL, except for the PAA formulation (brushing vs. no brushing; µm: 12.6±5.0 vs. 16.1±2.6). In the erosive-abrasive model, the PAA formulation showed the greatest protective effect, affording greater protection than EE (24.9±3.0, p<0.001) and not differing from PAA+F+Sn (16.7±2.5, p=0.113), while CHI (33.2 ±2.5) and LPP (32.6±4.0) were indistinguishable from DIW (29.8±2.6, p≥0.352). In the erosion-only model, the PAA+F+Sn formulation (7.8 ± 2.0) showed the greatest protective effect with no difference from EE (9.1 ± 2.5, p=0.999) or LPP+F+Sn (10.6 ± 1.7, p=0.709). Among the polymer-only formulations, the PAA formulation (16.1 ± 2.6 µm) significantly reduced enamel loss compared with DIW (23.0 ± 2.4 µm, p < 0.001), whereas CHI (19.3 ± 2.4 µm) and LPP (19.6 ± 4.5 µm) did not differ significantly from DIW (p = 0.226 and p = 0.356, respectively). CONCLUSION: PAA-containing formulations showed promising protective performance under erosive-abrasive conditions, whereas CHI and LPP formulations did not demonstrate protection. Under erosion-only conditions, the PAA formulations significantly reduced enamel surface loss compared with distilled water, while the PAA+F+Sn and LPP+F",
+   "tags": [
+    "Chitosan",
+    "Dental erosion",
+    "Polyacrylic acid",
+    "Polyphosphates"
+   ],
+   "deep": {
+    "title_zh": "含生物粘附性聚合物的牙膏及其对牙釉质的抗侵蚀潜力",
+    "one_sentence": "聚丙烯酸（PAA）在侵蚀-磨蚀条件下显著保护牙釉质，效果优于商业对照牙膏；壳聚糖和多磷酸钠无效。",
+    "question": "不同生物粘附性聚合物（壳聚糖、线性多磷酸钠、聚丙烯酸）单独或与氟/锡联用时，能否通过物理屏障效应减少酸蚀导致的牙釉质表面损失？哪种组合在侵蚀-磨蚀双重应力下最稳定？",
+    "design": "体外牛牙釉质块随机对照实验，24组（2种模型×12种处理），5天动态循环（唾液浸泡+4次酸蚀+每日2次牙膏处理），侵蚀-磨蚀组额外加入牙刷摩擦（45次stroke），光学轮廓仪测表面损失，双因素ANOVA+Tukey检验。",
+    "sample_desc": "牛牙釉质块（n=8/组），摘要未说明来源细节",
+    "findings": [
+     {
+      "claim": "PAA是唯一下滑两种模型中均显著优于DIW的单一聚合物。",
+      "evidence": "侵蚀-磨蚀模型：PAA 16.1±2.6 μm vs DIW 29.8±2.6 μm（p<0.001）；单纯侵蚀模型：PAA 16.1±2.6 μm vs DIW 23.0±2.4 μm（p<0.001）。CHI和LPP在两种模型中与DIW均无显著差异（p≥0.226）。"
+     },
+     {
+      "claim": "PAA在侵蚀-磨蚀模型中的保护效果甚至超过商业抗侵蚀牙膏（Elmex Opti-namel®）。",
+      "evidence": "PAA 24.9±3.0 μm vs EE 33.2±2.5 μm（p<0.001），且PAA+F+Sn（16.7±2.5 μm）与PAA本身无显著差异（p=0.113）。"
+     },
+     {
+      "claim": "添加刷磨时PAA保护效果并未下降，提示其具有机械稳定性。",
+      "evidence": "PAA formulation：不刷牙12.6±5.0 μm vs 刷牙16.1±2.6 μm（差异不显著，摘要未给出p值方向明确）。"
+     },
+     {
+      "claim": "单纯侵蚀模型中最优组合为PAA+F+Sn，与商业牙膏等效。",
+      "evidence": "PAA+F+Sn 7.8±2.0 μm vs EE 9.1±2.5 μm（p=0.999）；LPP+F+Sn 10.6±1.7 μm与前者亦无差异（p=0.709）。"
+     }
+    ],
+    "effect": "未报告（原文仅报告组间均值±SD及p值，未见效应量如Cohen's d或OR等）",
+    "relation": "与q4（生物材料如何编程宿主反应改变再生结局）部分相关——本文探讨的是材料物理屏障效应而非免疫编程，但对'材料-牙体硬组织相互作用'这一交叉点提供了新数据。与q1–q3、q5无直接关联。",
+    "why": "颠覆常见认知：临床上广泛使用的壳聚糖基抗敏/抗龋产品在此严格模型下毫无保护力；聚丙烯酸（常用于黏膜粘合剂）反而是最强候选，提示抗侵蚀的关键可能是强阴离子性聚合物的致密成膜能力，而非传统的'生物粘附'标签。",
+    "limitations": [
+     "牛牙釉质vs人牙釉质存在矿化度差异，结果外推需谨慎",
+     "仅5天动态循环，无法反映长期临床磨损累积效应",
+     "体外唾液模型缺少完整微生物群落及pH波动动力学"
+    ],
+    "transferable": "双模型设计（侵蚀-only vs 侵蚀-磨蚀）可直接移植到任何口腔材料抗表面丧失研究中；光学轮廓仪定量表面损失是比称重法更精确的终点指标；将'刷磨条件'作为独立因子纳入两因素ANOVA有助于解析材料机械稳定性。",
+    "followups": [
+     "PAA的抗侵蚀机制是否在SEM/TEM下可见连续保护膜？是否有XPS证明其与羟基磷灰石的配位键合？",
+     "该PAA浓度（0.1%）与市售含锡氟化物牙膏（如Presidium、Corega）的直接头对头RCT是否存在？",
+     "CHI/LPP失效的根本原因是分子量太低、溶解度过高，还是缺乏阴离子基团无法锚定到釉质表面？可查其结构式验证。"
+    ],
+    "glossary": [
+     {
+      "en": "Chitosan (CHI)",
+      "cn": "壳聚糖"
+     },
+     {
+      "en": "Sodium linear polyphosphate (LPP)",
+      "cn": "线性多磷酸钠"
+     },
+     {
+      "en": "Polyacrylic acid (PAA)",
+      "cn": "聚丙烯酸"
+     },
+     {
+      "en": "Surface loss (SL)",
+      "cn": "表面损失"
+     },
+     {
+      "en": "Erosive-abrasive model",
+      "cn": "侵蚀-磨蚀复合模型"
+     },
+     {
+      "en": "Optical profilometry",
+      "cn": "光学轮廓术"
+     }
+    ],
+    "reading_minutes": 12
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1016/j.jdent.2026.107155",
+   "pmid": "42994553",
+   "doi": "10.1016/j.jdent.2026.107155",
+   "title": "Accuracy of Robotic Computer-Assisted Implant Surgery in Fully Edentulous Patients: A Systematic Review and Meta-Analysis",
+   "title_zh": "全口无牙颌患者机器人计算机辅助种植手术精度Meta分析",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-06",
+   "authors": [
+    "Zhu Y",
+    "Unkovskiy A",
+    "Chen J",
+    "Li P",
+    "Sadilina S",
+    "Atay EN",
+    "Jennes ME",
+    "Mao Z"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42994553/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 231,
+   "sample_note": "n=231 records",
+   "tier": "B",
+   "domain": "种植与骨再生",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "数字化种植外科",
+   "one_line": "纳5项研究（35例）， pooled偏差平台0.73mm/根尖0.74mm/角度1.64°。",
+   "so_what": "与q1间接相关：精准导航影响种植体周生物学宽度建立，但偏离免疫/微环境主线。",
+   "caution": "仅35例纳入，单臂研究为主，异质性高，结论不稳健。",
+   "score": {
+    "final": 38.1,
+    "match": 35.0,
+    "novelty": 30.0,
+    "rigor": 48.0,
+    "impact": 42.0,
+    "transfer": 15.0
+   },
+   "heuristic": 48.3,
+   "breakdown": {
+    "topic": 5.8,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 6.3,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVES: To evaluate the accuracy of robotic computer-assisted implant surgery (r-CAIS) in fully edentulous patients. DATA, SOURCES, AND STUDY SELECTION: PubMed, EMBASE, Cochrane Library, and Web of Science were searched for clinical studies reporting implant placement accuracy using r-CAIS in fully edentulous or terminal dentition patients. Eligible studies reported global platform, apex, and angular deviations. Risk of bias was assessed using design-specific tools. A single-arm random-effects meta-analysis was performed, with subgroup and sensitivity analyses to explore heterogeneity and accuracy-related factors. A total of 231 records were identified, and 123 remained after duplicate removal. Five studies involving 35 patients were included, comprising four single-arm studies and one non-randomized comparative study. RESULTS: The pooled mean global platform, global apex, and angular deviations were 0.73 mm (95% confidence interval [CI]: 0.59-0.87), 0.74 mm (95% CI: 0.62-0.86), and 1.64° (95% CI: 1.25-2.04), respectively. Exploratory subgroup analysis suggested lower platform and apex deviations with higher-autonomy systems than with operator-dependent systems (p < 0.05), with no significant angular difference. Sensitivity analysis showed stable pooled results, although excluding one passive haptic-guided study reduced angular heterogeneity. Three single-arm studies were high quality, one was moderate quality, and the non-randomized comparative study had serious risk of bias. The certainty of evidence for the pooled accuracy outcomes was very low. CONCLUSIONS: r-CAIS shows promising preliminary accuracy for implant placement in fully edentulous patients, though randomized controlled trials with larger samples and long-term follow-up are needed to confirm its clinical advantages over static and dynamic CAIS. CLINICAL SIGNIFICANCE: r-CAIS showed encouraging preliminary placement accuracy in fully edentulous patients. Evidence on implant survival, complications, patient-reported outcomes, treatment efficiency, and cost-effectiveness remains limited.",
+   "tags": [
+    "Accuracy",
+    "Computer-assisted implant surgery",
+    "Dental implant",
+    "Fully edentulous",
+    "Robot-assisted surgery"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107151",
+   "pmid": "42994554",
+   "doi": "10.1016/j.jdent.2026.107151",
+   "title": "A Systematic Review of Bias, Validation, and Explainability in Artificial Intelligence Algorithms for Dental Diagnostics",
+   "title_zh": "牙科AI诊断算法偏倚、验证与可解释性系统评价",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-06",
+   "authors": [
+    "Alrayes A",
+    "Kollias D",
+    "Baysan A"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42994554/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "方法与交叉",
+   "methods": [
+    "ml",
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "AI方法学",
+   "one_line": "PRISMA系统评价评估AI牙科诊断的工具质量、偏倚风险与TRIPOD-AI合规性。",
+   "so_what": "若用户后续做ML项目可作为方法学参考模板，但与q1–q5科学问题本身无推进。",
+   "caution": "方法学综述不产出新发现，对机制/临床决策无直接改变力。",
+   "score": {
+    "final": 17.3,
+    "match": 10.0,
+    "novelty": 20.0,
+    "rigor": 50.0,
+    "impact": 25.0,
+    "transfer": 12.0
+   },
+   "heuristic": 45.7,
+   "breakdown": {
+    "topic": 7.3,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 4.4
+   },
+   "abstract": "OBJECTIVES: To critically evaluate the current role of artificial intelligence (AI) in dental diagnosis across multiple dental disciplines, assessing diagnostic performance, methodological quality, risk of bias, validation, explainability, and clinical applicability. DATA AND SOURCES: This systematic review was conducted in accordance with PRISMA guidelines and registered in PROSPERO (CRD42025639340). PubMed/MEDLINE, Scopus, Embase, LILACS, Cochrane Central Register of Controlled Trials, Web of Science, and ClinicalTrials.gov were searched up to December-2025. Two reviewers independently performed study selection, data extraction, and risk-of-bias assessment. Risk of bias in diagnostic accuracy studies was assessed using QUADAS-2-tool, evaluating the domains of patient selection, index test, reference standard, flow and timing whilst randomised studies were assessed using Cochrane RoB 2-tool. Reporting quality and transparency of AI-model development and validation were assessed using the selected items from TRIPOD-AI reporting guideline. Methodological quality and risk of bias in AI model development and evaluation were additionally assessed using PROBAST+AI. STUDY SELECTION: Ninety-six studies met the inclusion criteria, of which 90.6% were retrospective. Convolutional neural networks (CNN) were the most frequently used architecture (82.3%). Sixteen studies failed to specify the CNN architecture used. Reported diagnostic accuracy ranged from 81% to 99% across dental specialties, with high performance in implantology (92-99%), orthodontics (88-99%), endodontics (87-99%). Panoramic radiographs and cone-beam computed tomography were the most used imaging modalities. QUADAS-2 analysis indicated that high-risk of bias in 55.2% of studies and most lacked external validation, whilst Assessment using selected TRIPOD+AI items identified important gaps in reporting completeness and transparency, particularly in sample-size justification, missing-data handling, protocol availability, study registration, and data or code availability. CONCLUSIONS: AI demonstrates substantial technical capability to enhance diagnostic accuracy and efficiency. However, the predominance of retrospective designs, limited external validation, and methodological weaknesses constrain the strength of current evidence. CLINICAL SIGNIFICANCE: The use of AI is potentially considered as a decisio",
+   "tags": [
+    "Artificial intelligence",
+    "clinical decision support",
+    "deep learning",
+    "dental diagnostics",
+    "diagnostic accuracy",
+    "explainability"
+   ]
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 2
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 2
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 2
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 2
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 2
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 2
+  }
+ ],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}
