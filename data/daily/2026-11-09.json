@@ -1,0 +1,673 @@
+{
+ "date": "2026-11-09",
+ "generated_at": "2026-11-09T10:52:53+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 4,
+  "prompt_tokens": 8985,
+  "completion_tokens": 9981
+ },
+ "stats": {
+  "candidates": 129,
+  "raw": 126,
+  "fetched": 5,
+  "raw_dropped_type": 8,
+  "no_abstract": 0,
+  "gated": 5,
+  "scored": 5,
+  "shown": 5,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 4
+ },
+ "must_read": {
+  "id": "10.1111/iej.70307",
+  "pmid": "42995471",
+  "doi": "10.1111/iej.70307",
+  "title": "Predicting Vital Pulp Therapy Outcomes Using Pulpal Biomarkers and Clinical Indicators: A Prospective Clinical Study",
+  "title_zh": "基于牙髓生物标志物与临床指标预测活髓治疗预后：一项前瞻性临床研究",
+  "journal": "International endodontic journal",
+  "date": "2026-11-06",
+  "authors": [
+   "Tosunoğlu HN",
+   "Laloğlu E",
+   "Karataş E"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42995471/",
+  "pmcid": "",
+  "cited_by": 0,
+  "design": "cohort",
+  "design_label": "队列",
+  "design_level": 5,
+  "sample_n": null,
+  "sample_note": "",
+  "tier": "B",
+  "domain": "牙体牙髓与龋病",
+  "methods": [],
+  "pub_types": [
+   "Journal Article"
+  ],
+  "is_open_access": false,
+  "cluster": "牙髓生物学",
+  "one_line": "前瞻性队列检测牙髓生物标志物预测活髓治疗结局。",
+  "so_what": "生物标志物方案可借鉴至种植体周免疫研究。",
+  "caution": "样本量小，需验证。",
+  "score": {
+   "final": 46.0,
+   "match": 30.0,
+   "novelty": 60.0,
+   "rigor": 50.0,
+   "impact": 50.0,
+   "transfer": 70.0
+  },
+  "heuristic": 46.2,
+  "breakdown": {
+   "topic": 16.2,
+   "journal": 10.0,
+   "design": 15,
+   "sample": 0.0,
+   "fresh": 5.0,
+   "method": 0.0
+  },
+  "abstract": "AIM: The aim of this prospective clinical study was to investigate whether patient history, preoperative clinical findings and intraoperative parameters, including pulpal biomarker profiles, are associated with the outcome of vital pulp therapy (VPT) in mature permanent teeth and to evaluate their potential prognostic value. METHODOLOGY: Fifty mature permanent teeth diagnosed with reversible or irreversible pulpitis underwent partial or full pulpotomy and were followed for 6 months and 1 year. Patient history, including spontaneous and nocturnal pain, preoperative cold response time and intraoperative bleeding time, were recorded. Following removal of clinically unsuitable pulp tissue, pulpal blood samples were collected from the clinically evaluable and preservable pulp surface using sterile paper points. Samples were stored in phosphate-buffered saline at -80°C until analysis. MMP-1, MCP-1, IL-1β, MDA, MMP-12, SOD, RANTES, TIMP-1, TGF-β, TNF-α, TAS and TOS were quantified by ELISA. Demographic, clinical and biochemical parameters were compared between successful and failed cases. RESULTS: All 50 included cases were available for analysis at the 1-year follow-up; 41 were classified as successful and nine as failed, yielding an overall success rate of 82%. Patient-reported symptoms and the preoperative diagnosis of reversible or irreversible pulpitis were not associated with treatment outcome (p > 0.05). In contrast, prolonged cold response time and bleeding time were significantly greater in failed cases than in successful cases (p < 0.05). ROC analysis demonstrated good discriminatory ability for both cold response time (AUC = 0.764, p = 0.014) and bleeding time (AUC = 0.809, p = 0.004). Among the intraoperative biomarkers, levels of MMP-1, MCP-1, IL-1β, MDA, MMP-12, TGF-β and TNF-α were significantly higher in failed cases, whereas SOD, TIMP-1 and TAS levels were significantly higher in successful cases (p < 0.05). CONCLUSIONS: Within the study cohort, prolonged cold response time and bleeding time were associated with treatment failure, whereas conventional classification as reversible or irreversible pulpitis was not significantly associated with outcome. Cold response > 30 s and bleeding time > 350 s were associated with failure, and pulpal biomarker profiles may provide complementary prognostic information but should not be considered definitive predi",
+  "tags": [
+   "ELISA",
+   "bleeding time",
+   "matrix metalloproteinases",
+   "mature permanent teeth",
+   "oxidative stress",
+   "prolonged cold response"
+  ],
+  "deep": {
+   "title_zh": "基于牙髓生物标志物与临床指标预测活髓治疗预后：一项前瞻性临床研究",
+   "one_sentence": "传统牙髓炎分类（可逆/不可逆）不能预测VPT成败，而冷测反应时间>30s、出血时间>350s及特定炎症/抗氧化标志物组…",
+   "question": "在活髓治疗中，临床参数和牙髓局部生物标志物能否比传统「可逆/不可逆」诊断更准确地预测治疗结局？",
+   "design": "单中心、前瞻性队列研究，纳入50颗成熟恒牙行部分或全牙髓切断术，随访1年，比较成功与失败组的临床与分子指标差异。",
+   "sample_desc": "50颗成熟恒牙，诊断为可逆性或不可逆性牙髓炎，未说明来源细节",
+   "findings": [
+    {
+     "claim": "传统可逆/不可逆牙髓炎分类对VPT预后无预测价值",
+     "evidence": "两组间p>0.05，无明显统计学差异"
+    },
+    {
+     "claim": "冷测反应时间延长是失败预测因子",
+     "evidence": "失败组显著高于成功组，ROC AUC=0.764，界值>30s时p=0.014"
+    },
+    {
+     "claim": "术中出血时间延长是失败预测因子",
+     "evidence": "失败组显著高于成功组，ROC AUC=0.809，界值>350s时p=0.004"
+    },
+    {
+     "claim": "炎症介导的生物标志物谱与失败相关",
+     "evidence": "失败组MMP-1、MCP-1、IL-1β、MDA、MMP-12、TGF-β、TNF-α水平显著升高（p<0.05）"
+    }
+   ],
+   "effect": "冷测反应时间AUC=0.764；出血时间AUC=0.809；具体效应量（OR、HR等）摘要未说明",
+   "relation": "与q4最相关：牙髓组织的免疫微环境状态（炎症-氧化应激平衡）如何决定组织再生结局。本研究提供了从种植/牙周方向可迁移到牙髓方向的机制框架——即宿主免疫应答的质量决定再生成败。同时间接涉及q1中巨噬细胞极化相关通路。",
+   "why": "颠覆了临床上依赖「可逆/不可逆」二元诊断指导治疗决策的习惯做法，证明这一分类系统缺乏预后分层能力；首次系统性描绘了牙髓生物标志物谱对VPT结局的预测价值，将牙髓生物学从形态学判断推进到分子表型判断，为未来个体化治疗方案选择提供了可操作的生物标志物组合框架。",
+   "limitations": [
+    "样本量较小（n=50），且仅1年随访，无法评估长期稳定性及迟发失败模式",
+    "未进行多变量联合建模，各标志物的独立贡献度与交互效应不清",
+    "ELISA检测的是单一时间点点采样，未能反映牙髓炎症动态演变过程"
+   ],
+   "transferable": "可将「出血时间+冷测反应时间」简化临床指标作为快速预后筛查工具引入自己的课题；若研究方向涉及口腔软组织愈合，可借鉴其生物标志物panel策略（MMPs/TIMPs/细胞因子/氧化还原平衡维度）。",
+   "followups": [
+    "该研究中MMP-1、MMP-12、TIMP-1的比例关系是否可推导牙髓基质降解-修复的动态平衡状态？原始数据中这些指标的比值是否有更强预测力？",
+    "出血时间的测定方法是否标准化？不同研究者之间的测量重复性如何？这一指标在多大程度上反映的是血管通透性而非单纯的出血量？",
+    "IL-1β、TNF-α、MCP-1三者的协同作用是否意味着存在特定的促炎小胶质样或巨噬细胞活化表型？后续可否通过单细胞分型验证这一假设？"
+   ],
+   "glossary": [
+    {
+     "en": "Vital pulp therapy (VPT)",
+     "cn": "活髓治疗"
+    },
+    {
+     "en": "MMP-1 / MMP-12",
+     "cn": "基质金属蛋白酶-1 / 基质金属蛋白酶-12"
+    },
+    {
+     "en": "TIMP-1",
+     "cn": "组织抑制剂金属蛋白酶-1"
+    },
+    {
+     "en": "TAS / TOS",
+     "cn": "总抗氧化活性 / 总氧化应激"
+    },
+    {
+     "en": "SOD",
+     "cn": "超氧化物歧化酶"
+    },
+    {
+     "en": "MDA",
+     "cn": "丙二醛（脂质过氧化标志物）"
+    }
+   ],
+   "reading_minutes": 12
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1111/iej.70307",
+   "pmid": "42995471",
+   "doi": "10.1111/iej.70307",
+   "title": "Predicting Vital Pulp Therapy Outcomes Using Pulpal Biomarkers and Clinical Indicators: A Prospective Clinical Study",
+   "title_zh": "基于牙髓生物标志物与临床指标预测活髓治疗预后：一项前瞻性临床研究",
+   "journal": "International endodontic journal",
+   "date": "2026-11-06",
+   "authors": [
+    "Tosunoğlu HN",
+    "Laloğlu E",
+    "Karataş E"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42995471/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙髓生物学",
+   "one_line": "前瞻性队列检测牙髓生物标志物预测活髓治疗结局。",
+   "so_what": "生物标志物方案可借鉴至种植体周免疫研究。",
+   "caution": "样本量小，需验证。",
+   "score": {
+    "final": 46.0,
+    "match": 30.0,
+    "novelty": 60.0,
+    "rigor": 50.0,
+    "impact": 50.0,
+    "transfer": 70.0
+   },
+   "heuristic": 46.2,
+   "breakdown": {
+    "topic": 16.2,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 0.0,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "AIM: The aim of this prospective clinical study was to investigate whether patient history, preoperative clinical findings and intraoperative parameters, including pulpal biomarker profiles, are associated with the outcome of vital pulp therapy (VPT) in mature permanent teeth and to evaluate their potential prognostic value. METHODOLOGY: Fifty mature permanent teeth diagnosed with reversible or irreversible pulpitis underwent partial or full pulpotomy and were followed for 6 months and 1 year. Patient history, including spontaneous and nocturnal pain, preoperative cold response time and intraoperative bleeding time, were recorded. Following removal of clinically unsuitable pulp tissue, pulpal blood samples were collected from the clinically evaluable and preservable pulp surface using sterile paper points. Samples were stored in phosphate-buffered saline at -80°C until analysis. MMP-1, MCP-1, IL-1β, MDA, MMP-12, SOD, RANTES, TIMP-1, TGF-β, TNF-α, TAS and TOS were quantified by ELISA. Demographic, clinical and biochemical parameters were compared between successful and failed cases. RESULTS: All 50 included cases were available for analysis at the 1-year follow-up; 41 were classified as successful and nine as failed, yielding an overall success rate of 82%. Patient-reported symptoms and the preoperative diagnosis of reversible or irreversible pulpitis were not associated with treatment outcome (p > 0.05). In contrast, prolonged cold response time and bleeding time were significantly greater in failed cases than in successful cases (p < 0.05). ROC analysis demonstrated good discriminatory ability for both cold response time (AUC = 0.764, p = 0.014) and bleeding time (AUC = 0.809, p = 0.004). Among the intraoperative biomarkers, levels of MMP-1, MCP-1, IL-1β, MDA, MMP-12, TGF-β and TNF-α were significantly higher in failed cases, whereas SOD, TIMP-1 and TAS levels were significantly higher in successful cases (p < 0.05). CONCLUSIONS: Within the study cohort, prolonged cold response time and bleeding time were associated with treatment failure, whereas conventional classification as reversible or irreversible pulpitis was not significantly associated with outcome. Cold response > 30 s and bleeding time > 350 s were associated with failure, and pulpal biomarker profiles may provide complementary prognostic information but should not be considered definitive predi",
+   "tags": [
+    "ELISA",
+    "bleeding time",
+    "matrix metalloproteinases",
+    "mature permanent teeth",
+    "oxidative stress",
+    "prolonged cold response"
+   ],
+   "deep": {
+    "title_zh": "基于牙髓生物标志物与临床指标预测活髓治疗预后：一项前瞻性临床研究",
+    "one_sentence": "传统牙髓炎分类（可逆/不可逆）不能预测VPT成败，而冷测反应时间>30s、出血时间>350s及特定炎症/抗氧化标志物组…",
+    "question": "在活髓治疗中，临床参数和牙髓局部生物标志物能否比传统「可逆/不可逆」诊断更准确地预测治疗结局？",
+    "design": "单中心、前瞻性队列研究，纳入50颗成熟恒牙行部分或全牙髓切断术，随访1年，比较成功与失败组的临床与分子指标差异。",
+    "sample_desc": "50颗成熟恒牙，诊断为可逆性或不可逆性牙髓炎，未说明来源细节",
+    "findings": [
+     {
+      "claim": "传统可逆/不可逆牙髓炎分类对VPT预后无预测价值",
+      "evidence": "两组间p>0.05，无明显统计学差异"
+     },
+     {
+      "claim": "冷测反应时间延长是失败预测因子",
+      "evidence": "失败组显著高于成功组，ROC AUC=0.764，界值>30s时p=0.014"
+     },
+     {
+      "claim": "术中出血时间延长是失败预测因子",
+      "evidence": "失败组显著高于成功组，ROC AUC=0.809，界值>350s时p=0.004"
+     },
+     {
+      "claim": "炎症介导的生物标志物谱与失败相关",
+      "evidence": "失败组MMP-1、MCP-1、IL-1β、MDA、MMP-12、TGF-β、TNF-α水平显著升高（p<0.05）"
+     }
+    ],
+    "effect": "冷测反应时间AUC=0.764；出血时间AUC=0.809；具体效应量（OR、HR等）摘要未说明",
+    "relation": "与q4最相关：牙髓组织的免疫微环境状态（炎症-氧化应激平衡）如何决定组织再生结局。本研究提供了从种植/牙周方向可迁移到牙髓方向的机制框架——即宿主免疫应答的质量决定再生成败。同时间接涉及q1中巨噬细胞极化相关通路。",
+    "why": "颠覆了临床上依赖「可逆/不可逆」二元诊断指导治疗决策的习惯做法，证明这一分类系统缺乏预后分层能力；首次系统性描绘了牙髓生物标志物谱对VPT结局的预测价值，将牙髓生物学从形态学判断推进到分子表型判断，为未来个体化治疗方案选择提供了可操作的生物标志物组合框架。",
+    "limitations": [
+     "样本量较小（n=50），且仅1年随访，无法评估长期稳定性及迟发失败模式",
+     "未进行多变量联合建模，各标志物的独立贡献度与交互效应不清",
+     "ELISA检测的是单一时间点点采样，未能反映牙髓炎症动态演变过程"
+    ],
+    "transferable": "可将「出血时间+冷测反应时间」简化临床指标作为快速预后筛查工具引入自己的课题；若研究方向涉及口腔软组织愈合，可借鉴其生物标志物panel策略（MMPs/TIMPs/细胞因子/氧化还原平衡维度）。",
+    "followups": [
+     "该研究中MMP-1、MMP-12、TIMP-1的比例关系是否可推导牙髓基质降解-修复的动态平衡状态？原始数据中这些指标的比值是否有更强预测力？",
+     "出血时间的测定方法是否标准化？不同研究者之间的测量重复性如何？这一指标在多大程度上反映的是血管通透性而非单纯的出血量？",
+     "IL-1β、TNF-α、MCP-1三者的协同作用是否意味着存在特定的促炎小胶质样或巨噬细胞活化表型？后续可否通过单细胞分型验证这一假设？"
+    ],
+    "glossary": [
+     {
+      "en": "Vital pulp therapy (VPT)",
+      "cn": "活髓治疗"
+     },
+     {
+      "en": "MMP-1 / MMP-12",
+      "cn": "基质金属蛋白酶-1 / 基质金属蛋白酶-12"
+     },
+     {
+      "en": "TIMP-1",
+      "cn": "组织抑制剂金属蛋白酶-1"
+     },
+     {
+      "en": "TAS / TOS",
+      "cn": "总抗氧化活性 / 总氧化应激"
+     },
+     {
+      "en": "SOD",
+      "cn": "超氧化物歧化酶"
+     },
+     {
+      "en": "MDA",
+      "cn": "丙二醛（脂质过氧化标志物）"
+     }
+    ],
+    "reading_minutes": 12
+   }
+  },
+  {
+   "id": "10.1007/s00784-026-07236-5",
+   "pmid": "42995302",
+   "doi": "10.1007/s00784-026-07236-5",
+   "title": "Wear performance of microlayered zirconia crowns and method-dependent comparison of integrated and external scanning workflows",
+   "title_zh": "微层叠氧化锆全瓷冠的磨损性能及基于不同方法的集成扫描与外部扫描工作流程的比较",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-07",
+   "authors": [
+    "Stuhr S",
+    "Dönmez MB",
+    "Meinen J",
+    "Edelhoff D",
+    "Ioannidis A",
+    "Stawarczyk B"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42995302/",
+   "pmcid": "8920625",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 8,
+   "sample_note": "n=8",
+   "tier": "B",
+   "domain": "种植与骨再生",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Comparative Study"
+   ],
+   "is_open_access": true,
+   "cluster": "修复材料学",
+   "one_line": "体外模拟咀嚼测试微层氧化锆冠磨损，STR组体积损失最低。",
+   "so_what": "仅背景参考。",
+   "caution": "体外条件，临床外推需谨慎。",
+   "score": {
+    "final": 20.7,
+    "match": 20.0,
+    "novelty": 30.0,
+    "rigor": 40.0,
+    "impact": 30.0,
+    "transfer": 20.0
+   },
+   "heuristic": 49.7,
+   "breakdown": {
+    "topic": 16.2,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 2.5,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: This in vitro study evaluated the wear performance of microlayered (ML) zirconia crowns and investigated method-dependent differences in volumetric loss estimates obtained using scanner-integrated and external laser-scanning workflows. MATERIALS AND METHODS: A mandibular first molar crown design was used to fabricate ML (CER, IQS, MIY, and STR; n = 8 per ceramic) and monolithic zirconia (MZ) crowns (n = 3). All crowns were subjected to 600000 cycles in a scanner-integrated mastication simulator (50 N, 2.5 Hz), with surface data recorded at baseline and after 60000, 120000, and 600000 cycles. External laser scans were additionally obtained at baseline and after 600000 cycles. Separate linear mixed-effects models were used to assess longitudinal volumetric loss across evaluation time points for the 4 microlayering ceramics and to compare post-aging volumetric loss estimates between scanning workflows at 600000 cycles. MZ was evaluated descriptively as a negative control (α = 0.05). RESULTS: STR showed lower volumetric loss than MIY and IQS (p ≤ 0.018). Volumetric loss increased significantly with mastication cycles (p < 0.001). No measurable volumetric loss was observed for MZ. Volumetric loss estimates were affected by the scanning workflow and its interaction with the microlayering ceramic (p ≤ 0.001). External laser-scanning yielded significantly higher volumetric loss estimates (p ≤ 0.048). CONCLUSIONS: STR exhibited significantly lower estimated marginal mean volumetric loss than MIY and IQS, while the volumetric loss increased progressively. No measurable volumetric loss was observed for MZ. Volumetric loss estimates were higher with the external laser-scanning workflow, with material-dependent differences. CLINICAL RELEVANCE: Tested microlayering ceramics influenced the wear behavior of ML crowns. The scanner-integrated workflow enabled longitudinal monitoring of relative wear; however, workflow-dependent volumetric loss estimates precluded conclusions on absolute wear, agreement, interchangeability, or measurement superiority.",
+   "tags": [
+    "Chewing simulation",
+    "Digital scanning workflow",
+    "Microlayered zirconia",
+    "Two-body wear",
+    "Veneering ceramics",
+    "Volumetric loss"
+   ],
+   "deep": {
+    "title_zh": "微层叠氧化锆全瓷冠的磨损性能及基于不同方法的集成扫描与外部扫描工作流程的比较",
+    "one_sentence": "ML氧化锆冠磨损呈材料依赖性，STR磨损最低；外部激光扫描高估体积损失，两方法不可互换。",
+    "question": "不同微层叠陶瓷品牌（CER/IQS/MIY/STR）的ML氧化锆冠在模拟咀嚼下的体积损失是否存在差异？扫描工作流程（集成 vs 外部激光）是否会导致体积损失的系统性高估或低估？",
+    "design": "体外模拟咀嚼试验：四种ML陶瓷+一种MZ对照，60万次循环加载，在多个时间点采集表面数据进行纵向比较。",
+    "sample_desc": "n=8 per ceramic for ML crowns, n=3 for MZ (negative control)",
+    "findings": [
+     {
+      "claim": "STR品牌的ML冠体积损失显著低于MIY和IQS",
+      "evidence": "p ≤ 0.018，基于线性混合效应模型的边际均值比较"
+     },
+     {
+      "claim": "体积损失随咀嚼循环次数递增",
+      "evidence": "p < 0.001，在0、60000、120000、600000 cycle时间节点均记录"
+     },
+     {
+      "claim": "单块氧化锆（MZ）无可见磨损",
+      "evidence": "No measurable volumetric loss observed"
+     },
+     {
+      "claim": "扫描工作流显著影响体积损失估计值，且存在材料与工作流的交互效应",
+      "evidence": "p ≤ 0.001；外部激光扫描给出更高的体积损失估计，p ≤ 0.048"
+     }
+    ],
+    "effect": "未报告具体效应量数值及置信区间",
+    "relation": "与 q4 相关：生物材料（ML氧化锆各品牌）的表面/结构特性直接影响磨损行为；提供证据——不同ML成分虽同为'氧化锆冠'类别，但磨损性能差异显著，材料选择不是中立的。",
+    "why": "它改变了两个认知：一是ML冠并非同质材料，品牌间磨损量存在统计学显著差异（STR最优），临床选材不能仅凭'氧化锆'这一大类命名决策；二是扫描方法学本身引入了系统误差——外部激光扫描高估磨损，若用该方法做纵向随访可能得出误导性结论，提醒研究者方法选择本身就是混杂因素。",
+    "limitations": [
+     "体外模拟环境无法复制真实口腔的温湿度循环、唾液成分、咬合力变化，60万次循环对应的临床时间尚不明确",
+     "各组样本量小（ML n=8，MZ仅n=3），统计效能受限，尤其是MZ仅作阴性对照而未纳入建模"
+    ],
+    "transferable": "① 线性混合效应模型处理纵向重复测量数据的分析框架；② 多时间点表面数据采集策略用于跟踪磨损动态；③ 对比两种扫描工作流的方法学验证思路可用于其他数字化修复流程研究。",
+    "followups": [
+     "四个ML品牌（CER/IQS/MIY/STR）各自的内部层状结构成分是否有公开数据？能否从制造配方角度解释STR为何磨损更低？",
+     "60万次循环对应的等效临床使用年限是多少？该研究未提及，需通过文献查找咀嚼频率换算。",
+     "外部激光扫描高估磨损的幅度是否在后续研究中给出了具体的偏差百分比？还是仅报告了统计显著性？"
+    ],
+    "glossary": [
+     {
+      "en": "Microlayered (ML) zirconia",
+      "cn": "微层叠氧化锆：通过多层叠加不同着色/透明度的氧化锆坯体实现美学效果的材料"
+     },
+     {
+      "en": "Monolithic zirconia (MZ)",
+      "cn": "单块氧化锆：整体由单一氧化锆材料构成，无表层着色层"
+     },
+     {
+      "en": "Scanner-integrated workflow",
+      "cn": "扫描集成工作流：内置于椅旁口扫设备或实验室扫描仪的直接测量方案"
+     },
+     {
+      "en": "External laser-scanning workflow",
+      "cn": "外部激光扫描工作流：将修复体单独放置于独立高精度激光扫描仪进行表面数据采集的方案"
+     },
+     {
+      "en": "Linear mixed-effects model",
+      "cn": "线性混合效应模型：适用于纵向重复测量数据的统计分析方法"
+     }
+    ],
+    "reading_minutes": 12
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1111/joor.70371",
+   "pmid": "42995454",
+   "doi": "10.1111/joor.70371",
+   "title": "Effect of Photobiomodulation Applied to Masticatory Muscle Tender Points Combined With the Rocabado Approach in Patients With Myogenic Temporomandibular Disorders: A Double-Blind, Randomized Controlled Trial",
+   "title_zh": "光生物调节联合Rocabado治疗TMD的RCT",
+   "journal": "Journal of oral rehabilitation",
+   "date": "2026-11-06",
+   "authors": [
+    "Mohamed WM",
+    "Saleh MS"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42995454/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 26,
+   "sample_note": "n=26",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "颞下颌关节紊乱",
+   "one_line": "双盲RCT证实光生物调节辅助治疗咀嚼肌TMD有效。",
+   "so_what": "仅背景。",
+   "caution": "样本小，外部效度有限。",
+   "score": {
+    "final": 19.1,
+    "match": 10.0,
+    "novelty": 40.0,
+    "rigor": 50.0,
+    "impact": 30.0,
+    "transfer": 20.0
+   },
+   "heuristic": 39.0,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 3.8,
+    "fresh": 5.0,
+    "method": 2.2
+   },
+   "abstract": "BACKGROUND: Temporomandibular Joint Disorder (TMD) is a complex condition of multifactorial aetiology. Consequently, numerous studies have investigated optimal treatment strategies, with several reporting that multimodal approaches can effectively enhance pain relief and mandibular mobility. OBJECTIVES: To investigate the effect of adding Photobiomodulation (PBM) to the Rocabado approach on pain intensity, pain threshold, mouth opening, and TMJ function in patients with myogenic TMDs. METHODS: Fifty-two patients of both genders, from 18 to 40 years old, with myogenic TMDs were randomly assigned either to the PBM group or the placebo group. The PBM group (n = 26) received active PBM in addition to the Rocabado approach, while the control group (n = 26) received placebo PBM in addition to the Rocabado approach. All patients received 3 sessions a week for 6 weeks. Clinical assessment, including pain pressure threshold, pain intensity, maximum mouth opening, and TMJ function were assessed for all participants before and after the treatment program. RESULTS: Fifty-two participants completed the study. Both groups showed significant within-group improvements across all outcomes (p < 0.05). Post-treatment, the Photobiomodulation group showed significantly greater improvements than the placebo group in pressure pain thresholds across all tested masticatory muscle sites (p < 0.05). Furthermore, the Photobiomodulation group achieved superior outcomes in mouth opening ROM (MD = 5.84 mm, 95% CI: 3.06 to 8.63, p = 0.001), pain intensity reduction (MD = -1.81, 95% CI: -2.46 to -1.02, p = 0.013), and TMJ functional scores: TMDDI (MD = -24.97, 95% CI: -32.72 to -18.39, p = 0.001), TMDSIS (MD = -16.83, 95% CI: -22.64 to -11.17, p = 0.001), and TMDSFS (MD = -14.98, 95% CI: -21.67 to -11.82, p = 0.001). CONCLUSION: Photobiomodulation combined with the Rocabado approach is more effective than the Rocabado approach alone in improving pain intensity, pain threshold, maximum mouth opening, and TMJ function in patients with myogenic TMDs. All procedures were performed in accordance with the 1964 Declaration of Helsinki and its later amendments. This study was registered in the ClinicalTrials.gov registry, registration number: NCT07026617.",
+   "tags": [
+    "myogenic tmds",
+    "pain management",
+    "photobiomodulation",
+    "randomized controlled trial",
+    "rocabado approach",
+    "temporomandibular disorder"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107159",
+   "pmid": "42998745",
+   "doi": "10.1016/j.jdent.2026.107159",
+   "title": "Preparation and Characterization of a Novel Bioactive Cement with Antibacterial and Remineralizing Effects",
+   "title_zh": "新型生物活性水泥制备与表征",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-07",
+   "authors": [
+    "Zhang C",
+    "Liu S",
+    "Wu J",
+    "Yu Y",
+    "Wang S",
+    "Dong Y"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42998745/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "in_vitro",
+   "design_label": "体外/细胞",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "生物材料开发",
+   "one_line": "新型生物活性水泥展现抗菌与再矿化性能。",
+   "so_what": "材料表征流程可参考，但未涉免疫编程。",
+   "caution": "体外研究，未验证体内效果。",
+   "score": {
+    "final": 41.7,
+    "match": 40.0,
+    "novelty": 60.0,
+    "rigor": 40.0,
+    "impact": 50.0,
+    "transfer": 30.0
+   },
+   "heuristic": 32.9,
+   "breakdown": {
+    "topic": 9.9,
+    "journal": 10.0,
+    "design": 7,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVE: This study aimed to develop a novel bioactive cement with favorable antibacterial and remineralization properties, thereby providing a superior temporary sealing material following selective caries removal in deep caries treatment. MATERIALS AND METHODS: The powder was composed of PSC bioactive glass (10.8% P₂O₅-54.2% SiO₂-35% CaO, mol%), ZrO₂, and MgO nanoparticles; the liquid consisted of phosphate solution and O-carboxymethyl chitosan. Physicochemical properties were tested according to ISO 9917-1:2025. Antibacterial activity was evaluated by colony-forming unit counting and agar diffusion assay. Remineralization was examined by micro-computed tomography with an artificial dentin caries model. RESULTS: In terms of physicochemical properties, the PSC bioactive cement meets ISO standards for compressive strength and acid erosion depth, exhibiting a setting time of 7.3 ± 1.3 minutes, a solubility of 9.86% ± 1.12%, and a radiopacity of 3.12 ± 0.06 mm Al. After immersion in simulated body fluid (SBF), the set cement shows a pH range of 8.90-9.19, which is narrower and has a lower maximum compared to the 8.37-9.48 range of the Biodentine control. Regarding antibacterial properties, colony-unit counting and agar diffusion assays demonstrate that PSC bioactive cement possesses strong activity against both S. mutans and L. casei, and its in vitro antibacterial effect against S. mutans was greater than that of Biodentine. Furthermore, after 4 weeks of SBF immersion, the Micro-CT analysis shows that the increase in dentin mineral density produced by PSC bioactive cement was significantly greater than that of Biodentine in vitro, with a statistically significant increase in mineral density (P < 0.05). CONCLUSION: In vitro, the novel bioactive cement met the ISO 9917-1:2025 requirements for setting time, compressive strength, and erosion depth. It also exhibited stronger antibacterial activity against S. mutans and a greater increase in dentin mineral density than Biodentine, while maintaining a more stable pH. These findings support the potential of this cement as a promising candidate for temporary coronal sealing after selective caries removal. CLINICAL SIGNIFICANCE: In vitro, the novel bioactive cement exhibited favorable physicochemical, antibacterial and remineralizing properties. These results support its potential as a candidate material for tempora",
+   "tags": [
+    "Antibacterial",
+    "Bioactive glass",
+    "Dentin caries",
+    "Remineralization",
+    "Temporary sealing material"
+   ]
+  },
+  {
+   "id": "10.1159/cre/abuag020",
+   "pmid": "42998264",
+   "doi": "10.1159/cre/abuag020",
+   "title": "Progression of underlying dentin shadows (ICDAS 4 caries lesions) in young adults: a 5-year cohort study",
+   "title_zh": "年轻成人深层牙本质阴影5年队列",
+   "journal": "Caries research",
+   "date": "2026-11-07",
+   "authors": [
+    "Dettmer BS",
+    "Comim LD",
+    "de Castro NC",
+    "Takahama RK",
+    "Zenkner JEDA",
+    "Alves LS",
+    "Marquezan PK"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42998264/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 570,
+   "sample_note": "n=570 participants",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "龋病流行病学",
+   "one_line": "前瞻性队列显示ICDAS 4病变5年进展率及风险因素。",
+   "so_what": "仅提供龋病自然史数据，无关q1-q5。",
+   "caution": "分析单元少，结论限于特定人群。",
+   "score": {
+    "final": 23.2,
+    "match": 10.0,
+    "novelty": 50.0,
+    "rigor": 60.0,
+    "impact": 30.0,
+    "transfer": 40.0
+   },
+   "heuristic": 47.5,
+   "breakdown": {
+    "topic": 9.2,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 7.4,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "INTRODUCTION: This study aimed to evaluate the progression of underlying dentin shadow (UDS) lesions and associated factors in young adults over a 5-year period. METHODS: A population-based prospective cohort study was conducted in southern Brazil. At baseline (2018), 1,197 adolescents aged 15-19 years were examined through a school-based survey. After a mean follow-up of 5 years (2022-2024), 570 participants were re-evaluated, of whom 49 participants presenting 66 UDS lesions were included in the present analysis. Sociodemographic and behavioral data were collected using structured self-administered questionnaires, including toothbrushing frequency and sugar consumption. At both time points, clinical examinations to assess dental caries experience were performed under standardized conditions using visual-tactile criteria. UDS lesions (ICDAS 4) on occlusal surfaces were assessed. The outcome was lesion progression, defined as restoration, dentin cavitation, or tooth loss at follow-up. Logistic regression models with generalized estimating equation were used to estimate odds ratios (OR) and 95% confidence intervals. RESULTS: A total of 66 UDS lesions were identified at baseline, with a progression rate of 36.4% over the follow-up period (n=24). Frequent consumption of sugary foods was associated with UDS progression in both unadjusted (> twice/day, OR = 5.46, 95% CI = 1.67-17.86, p = 0.005) and adjusted (> twice/day, OR = 4.68, 95% CI = 1.36-16.07, p = 0.01) analysis. CONCLUSION: UDS lesions showed a moderate progression rate over 5 years. Higher frequency of sugary food consumption was associated with an increased risk of lesion progression, reinforcing the importance of promoting healthy dietary habits among adolescents and young adults.",
+   "tags": []
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 3
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 3
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 3
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 3
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 3
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 3
+  }
+ ],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}

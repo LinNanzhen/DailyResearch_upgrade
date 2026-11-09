@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-08T10:38:12+08:00",
- "latest": "2026-11-08",
+ "updated_at": "2026-11-09T10:52:53+08:00",
+ "latest": "2026-11-09",
  "days": [
+  {
+   "date": "2026-11-09",
+   "must_title": "Predicting Vital Pulp Therapy Outcomes Using Pulpal Biomarkers and Clinical Indicators: A Prospective Clinical Study",
+   "must_title_zh": "基于牙髓生物标志物与临床指标预测活髓治疗预后：一项前瞻性临床研究",
+   "cluster": "牙髓生物学",
+   "count": 5,
+   "ai": true
+  },
   {
    "date": "2026-11-08",
    "must_title": "Additively Manufactured Titanium Implants and Customised Meshes: Clinical Evidence in Implant Dentistry, Bone Regeneration and Maxillofacial Rehabilitation",
