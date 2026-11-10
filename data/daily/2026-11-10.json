@@ -1,0 +1,938 @@
+{
+ "date": "2026-11-10",
+ "generated_at": "2026-11-10T12:44:14+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 5,
+  "prompt_tokens": 15584,
+  "completion_tokens": 11077
+ },
+ "stats": {
+  "candidates": 28,
+  "raw": 28,
+  "fetched": 15,
+  "raw_dropped_type": 2,
+  "no_abstract": 0,
+  "gated": 15,
+  "scored": 14,
+  "shown": 10,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 5
+ },
+ "must_read": {
+  "id": "10.1016/j.jdent.2026.107157",
+  "pmid": "43003216",
+  "doi": "10.1016/j.jdent.2026.107157",
+  "title": "Smoking-Related Oral Health and Dental Aesthetic Signature: Digital and Clinical Findings from the SMILE Study",
+  "title_zh": "吸烟相关的口腔健康与牙齿美学特征：SMILE研究的数字化与临床发现",
+  "journal": "Journal of dentistry",
+  "date": "2026-11-09",
+  "authors": [
+   "Kowalski J",
+   "Isola G",
+   "La Rosa GRM",
+   "Cibella F",
+   "Urso S",
+   "Wychowański P",
+   "Fala V",
+   "Polosa R",
+   "SMILE study working group"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43003216/",
+  "pmcid": "",
+  "cited_by": 0,
+  "design": "cohort",
+  "design_label": "队列",
+  "design_level": 5,
+  "sample_n": 374,
+  "sample_note": "n=374 participants",
+  "tier": "B",
+  "domain": "牙周与宿主免疫",
+  "methods": [],
+  "pub_types": [
+   "Journal Article"
+  ],
+  "is_open_access": false,
+  "cluster": "牙周流行病学",
+  "one_line": "前瞻性队列n=374现吸烟vs不吸烟用MGI/WID/MLSΔR比较龈炎染色牙齿白度OHRQoL自评",
+  "so_what": "q2因果推断关键：吸烟→龈炎时序数据证dysbiosis是否疾病因果",
+  "caution": "队列非RCT因果推断有限；多因素调整但混杂残留可能",
+  "score": {
+   "final": 44.2,
+   "match": 45.0,
+   "novelty": 42.0,
+   "rigor": 58.0,
+   "impact": 35.0,
+   "transfer": 25.0
+  },
+  "heuristic": 46.7,
+  "breakdown": {
+   "topic": 7.9,
+   "journal": 10.0,
+   "design": 15,
+   "sample": 6.9,
+   "fresh": 7.0,
+   "method": 0.0
+  },
+  "abstract": "OBJECTIVES: To compare oral health, dental aesthetic, and patient-reported outcomes between current and never smokers in the SMILE cohort and characterize the oral signature associated with smoking. METHODS: This analysis included 374 participants (308 current smokers, 66 never smokers). Gingival inflammation was assessed using the Modified Gingival Index (MGI), extrinsic staining using the MacPherson-modified Lobene Stain Index (MLSI), tooth colour using the Whiteness Index for Dentistry (WID), and plaque/tartar using quantitative light-induced fluorescence (ΔR30, ΔR120) and the Simple Oral Hygiene (SOH) score. Oral health-related quality of life (OHRQoL) and self-perceived general health (EQ-VAS) were also assessed. Multivariable models adjusted for age, sex, and nationality. RESULTS: In the unadjusted analysis, never smokers showed lower MGI (p < 0.0001), buccal (p = 0.002) and lingual MLSI (p < 0.0001), ΔR30 (p = 0.013), ΔR120 (p = 0.004) and SOH (p = 0.001), and higher WID (p = 0.004) and EQ-VAS (p < 0.0001) than smokers, whereas OHRQoL did not differ (p = 0.137). After adjustment, never-smoking status remained associated with lower MGI, staining, and SOH and higher WID and EQ-VAS. Associations with ΔR30 and ΔR120 were attenuated and no longer significant. CONCLUSIONS: Current smoking was independently associated with an oral signature characterized by greater gingival inflammation and extrinsic staining, reduced tooth whiteness, poorer oral hygiene, and lower perceived general health. CLINICAL SIGNIFICANCE: Combining calibrated digital measures with established clinical indices provides a reproducible approach to characterizing smoking-related oral differences and monitoring changes following smoking cessation or substitution. TRIAL REGISTRATION: ClinicalTrials.gov ID, NCT04649645, Date registration: Nov 25, 2020.",
+  "tags": [
+   "Modified Gingival Index",
+   "Whiteness Index for Dentistry",
+   "oral health",
+   "quantitative light-induced fluorescence",
+   "smoking"
+  ],
+  "deep": {
+   "title_zh": "吸烟相关的口腔健康与牙齿美学特征：SMILE研究的数字化与临床发现",
+   "one_sentence": "当前吸烟独立 association 于更强的牙龈炎症、更多外源性染色、更低牙齿白度、更差口腔卫生及更低自评健康，但这…",
+   "question": "吸烟如何通过可测量的口腔表型变化反映其系统性危害？这种数字化-临床整合方法能否成为戒烟干预效果监测的标准化工具？",
+   "design": "来自SMILE随机试验（NCT04649645）的基线横断面分析：374名参与者（308名当前吸烟者 vs 66名从不吸烟者），在校正年龄、性别、国籍后采用多变量模型比较两组间口腔健康与美学指标。",
+   "sample_desc": "374名人类参与者（308当前吸烟者，66从不吸烟者），来源为SMILE队列，具体人群特征摘要未说明",
+   "findings": [
+    {
+     "claim": "从不吸烟与更低牙龈炎症独立相关",
+     "evidence": "校正后never-smoking仍显著关联lower MGI（p值方向维持，摘要未报告具体数值）"
+    },
+    {
+     "claim": "吸烟与更多颊侧及舌侧外源性染色相关",
+     "evidence": "校正后never-smoking显著关联lower buccal MLSI（p=0.002）和lower lingual MLSI（p<0.0001）"
+    },
+    {
+     "claim": "吸烟者牙齿白度更低",
+     "evidence": "校正后never-smoking显著关联higher WID（p值方向维持）"
+    },
+    {
+     "claim": "吸烟与更差口腔卫生状况相关",
+     "evidence": "校正后never-smoking显著关联lower SOH（p值方向维持）"
+    }
+   ],
+   "effect": "未报告",
+   "relation": "与q2（牙周-全身关联）轻度相关：EQ-VAS结果支持'吸烟通过口腔炎症影响全身健康感知'的假设，但未提供任何生物学通路证据；与q3（微生物组）无关；对q1/q4/q5无直接关联。本质是一篇临床表型描述论文，不是机制研究。",
+   "why": "价值在于方法学示范：将传统临床指数（MGI、MLSI、SOH）与数字化定量荧光（ΔR30/ΔR120、WID）整合，形成可重复的'smoking oral signature'表型组合；对关注'esthetic and functional outcome monitoring'的研究生有方法迁移价值，但机制层面信息量极低。",
+   "limitations": [
+    "横断面设计，无法推断因果关系，也无法回答'reversibility after cessation'这一核心临床问题（作者自己也仅在conclusion中提到monitoring followin…",
+    "never-smoker组仅66人，与current smoker（308人）比例严重失衡，统计效能不对称",
+    "校正了年龄/性别/国籍，但关键的confounders（饮酒、口腔卫生习惯、 socioeconomic status、既往牙周治疗史）摘要未提及是否纳入"
+   ],
+   "transferable": "ΔR30/ΔR120定量光诱导荧光法 + WID白度指数的联合使用策略，可迁移至评估任何表面处理（如q4中的材料表面改性）对患者报告的color aesthetics影响的RCT设计",
+   "followups": [
+    "这篇论文的'oral signature'具体包含哪些变量的标准化阈值？是否有published cut-off用于界定'significant smoking-related …",
+    "SMILE研究中是否有smokers who quit follow-up数据？如果有，戒烟后哪些指标最先恢复正常（时间维度）？",
+    "ΔR30和ΔR120分别代表什么测量参数？原始方法学论文是什么？能否获取其技术细节？"
+   ],
+   "glossary": [
+    {
+     "en": "Modified Gingival Index (MGI)",
+     "cn": "改良牙龈指数"
+    },
+    {
+     "en": "MacPherson-modified Lobene Stain Index …",
+     "cn": "MacPherson改良Lobene染色指数"
+    },
+    {
+     "en": "Whiteness Index for Dentistry (WID)",
+     "cn": "牙科白度指数"
+    },
+    {
+     "en": "Quantitative light-induced fluorescence…",
+     "cn": "定量光诱导荧光，ΔR30/ΔR120代表不同距离的反射率差值"
+    },
+    {
+     "en": "Simple Oral Hygiene (SOH)",
+     "cn": "简单口腔卫生评分"
+    },
+    {
+     "en": "Oral health-related quality of life (OH…",
+     "cn": "口腔健康相关生活质量"
+    }
+   ],
+   "reading_minutes": 12
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1016/j.jdent.2026.107157",
+   "pmid": "43003216",
+   "doi": "10.1016/j.jdent.2026.107157",
+   "title": "Smoking-Related Oral Health and Dental Aesthetic Signature: Digital and Clinical Findings from the SMILE Study",
+   "title_zh": "吸烟相关的口腔健康与牙齿美学特征：SMILE研究的数字化与临床发现",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-09",
+   "authors": [
+    "Kowalski J",
+    "Isola G",
+    "La Rosa GRM",
+    "Cibella F",
+    "Urso S",
+    "Wychowański P",
+    "Fala V",
+    "Polosa R",
+    "SMILE study working group"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43003216/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 374,
+   "sample_note": "n=374 participants",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙周流行病学",
+   "one_line": "前瞻性队列n=374现吸烟vs不吸烟用MGI/WID/MLSΔR比较龈炎染色牙齿白度OHRQoL自评",
+   "so_what": "q2因果推断关键：吸烟→龈炎时序数据证dysbiosis是否疾病因果",
+   "caution": "队列非RCT因果推断有限；多因素调整但混杂残留可能",
+   "score": {
+    "final": 44.2,
+    "match": 45.0,
+    "novelty": 42.0,
+    "rigor": 58.0,
+    "impact": 35.0,
+    "transfer": 25.0
+   },
+   "heuristic": 46.7,
+   "breakdown": {
+    "topic": 7.9,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 6.9,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To compare oral health, dental aesthetic, and patient-reported outcomes between current and never smokers in the SMILE cohort and characterize the oral signature associated with smoking. METHODS: This analysis included 374 participants (308 current smokers, 66 never smokers). Gingival inflammation was assessed using the Modified Gingival Index (MGI), extrinsic staining using the MacPherson-modified Lobene Stain Index (MLSI), tooth colour using the Whiteness Index for Dentistry (WID), and plaque/tartar using quantitative light-induced fluorescence (ΔR30, ΔR120) and the Simple Oral Hygiene (SOH) score. Oral health-related quality of life (OHRQoL) and self-perceived general health (EQ-VAS) were also assessed. Multivariable models adjusted for age, sex, and nationality. RESULTS: In the unadjusted analysis, never smokers showed lower MGI (p < 0.0001), buccal (p = 0.002) and lingual MLSI (p < 0.0001), ΔR30 (p = 0.013), ΔR120 (p = 0.004) and SOH (p = 0.001), and higher WID (p = 0.004) and EQ-VAS (p < 0.0001) than smokers, whereas OHRQoL did not differ (p = 0.137). After adjustment, never-smoking status remained associated with lower MGI, staining, and SOH and higher WID and EQ-VAS. Associations with ΔR30 and ΔR120 were attenuated and no longer significant. CONCLUSIONS: Current smoking was independently associated with an oral signature characterized by greater gingival inflammation and extrinsic staining, reduced tooth whiteness, poorer oral hygiene, and lower perceived general health. CLINICAL SIGNIFICANCE: Combining calibrated digital measures with established clinical indices provides a reproducible approach to characterizing smoking-related oral differences and monitoring changes following smoking cessation or substitution. TRIAL REGISTRATION: ClinicalTrials.gov ID, NCT04649645, Date registration: Nov 25, 2020.",
+   "tags": [
+    "Modified Gingival Index",
+    "Whiteness Index for Dentistry",
+    "oral health",
+    "quantitative light-induced fluorescence",
+    "smoking"
+   ],
+   "deep": {
+    "title_zh": "吸烟相关的口腔健康与牙齿美学特征：SMILE研究的数字化与临床发现",
+    "one_sentence": "当前吸烟独立 association 于更强的牙龈炎症、更多外源性染色、更低牙齿白度、更差口腔卫生及更低自评健康，但这…",
+    "question": "吸烟如何通过可测量的口腔表型变化反映其系统性危害？这种数字化-临床整合方法能否成为戒烟干预效果监测的标准化工具？",
+    "design": "来自SMILE随机试验（NCT04649645）的基线横断面分析：374名参与者（308名当前吸烟者 vs 66名从不吸烟者），在校正年龄、性别、国籍后采用多变量模型比较两组间口腔健康与美学指标。",
+    "sample_desc": "374名人类参与者（308当前吸烟者，66从不吸烟者），来源为SMILE队列，具体人群特征摘要未说明",
+    "findings": [
+     {
+      "claim": "从不吸烟与更低牙龈炎症独立相关",
+      "evidence": "校正后never-smoking仍显著关联lower MGI（p值方向维持，摘要未报告具体数值）"
+     },
+     {
+      "claim": "吸烟与更多颊侧及舌侧外源性染色相关",
+      "evidence": "校正后never-smoking显著关联lower buccal MLSI（p=0.002）和lower lingual MLSI（p<0.0001）"
+     },
+     {
+      "claim": "吸烟者牙齿白度更低",
+      "evidence": "校正后never-smoking显著关联higher WID（p值方向维持）"
+     },
+     {
+      "claim": "吸烟与更差口腔卫生状况相关",
+      "evidence": "校正后never-smoking显著关联lower SOH（p值方向维持）"
+     }
+    ],
+    "effect": "未报告",
+    "relation": "与q2（牙周-全身关联）轻度相关：EQ-VAS结果支持'吸烟通过口腔炎症影响全身健康感知'的假设，但未提供任何生物学通路证据；与q3（微生物组）无关；对q1/q4/q5无直接关联。本质是一篇临床表型描述论文，不是机制研究。",
+    "why": "价值在于方法学示范：将传统临床指数（MGI、MLSI、SOH）与数字化定量荧光（ΔR30/ΔR120、WID）整合，形成可重复的'smoking oral signature'表型组合；对关注'esthetic and functional outcome monitoring'的研究生有方法迁移价值，但机制层面信息量极低。",
+    "limitations": [
+     "横断面设计，无法推断因果关系，也无法回答'reversibility after cessation'这一核心临床问题（作者自己也仅在conclusion中提到monitoring followin…",
+     "never-smoker组仅66人，与current smoker（308人）比例严重失衡，统计效能不对称",
+     "校正了年龄/性别/国籍，但关键的confounders（饮酒、口腔卫生习惯、 socioeconomic status、既往牙周治疗史）摘要未提及是否纳入"
+    ],
+    "transferable": "ΔR30/ΔR120定量光诱导荧光法 + WID白度指数的联合使用策略，可迁移至评估任何表面处理（如q4中的材料表面改性）对患者报告的color aesthetics影响的RCT设计",
+    "followups": [
+     "这篇论文的'oral signature'具体包含哪些变量的标准化阈值？是否有published cut-off用于界定'significant smoking-related …",
+     "SMILE研究中是否有smokers who quit follow-up数据？如果有，戒烟后哪些指标最先恢复正常（时间维度）？",
+     "ΔR30和ΔR120分别代表什么测量参数？原始方法学论文是什么？能否获取其技术细节？"
+    ],
+    "glossary": [
+     {
+      "en": "Modified Gingival Index (MGI)",
+      "cn": "改良牙龈指数"
+     },
+     {
+      "en": "MacPherson-modified Lobene Stain Index …",
+      "cn": "MacPherson改良Lobene染色指数"
+     },
+     {
+      "en": "Whiteness Index for Dentistry (WID)",
+      "cn": "牙科白度指数"
+     },
+     {
+      "en": "Quantitative light-induced fluorescence…",
+      "cn": "定量光诱导荧光，ΔR30/ΔR120代表不同距离的反射率差值"
+     },
+     {
+      "en": "Simple Oral Hygiene (SOH)",
+      "cn": "简单口腔卫生评分"
+     },
+     {
+      "en": "Oral health-related quality of life (OH…",
+      "cn": "口腔健康相关生活质量"
+     }
+    ],
+    "reading_minutes": 12
+   }
+  },
+  {
+   "id": "10.1016/j.oraloncology.2026.108222",
+   "pmid": "43002986",
+   "doi": "10.1016/j.oraloncology.2026.108222",
+   "title": "A prospective comparative evaluation of dysphagia in surgically resected oral cavity cancers treated by dysphagia optimized volumetric modulated arc therapy (DO-VMAT) versus standard volumetric modulated arc therapy (S-VMAT): DECODE trial",
+   "title_zh": "吞咽优化放疗DECODE前瞻比较试验",
+   "journal": "Oral oncology",
+   "date": "2026-11-09",
+   "authors": [
+    "Mondal P",
+    "Nanda SS",
+    "Mukherji A",
+    "Choubey AK",
+    "Dhanush",
+    "Dokania S",
+    "Patil NH",
+    "Krishnan AS",
+    "Kumar N",
+    "Barman S",
+    "Mishra A",
+    "Sarkar S"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43002986/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 50,
+   "sample_note": "n=50 patients",
+   "tier": "A",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔肿瘤",
+   "one_line": "前瞻性随机DO-VMATvsS-VMAT(n=50)头颈术后OCSCC吞咽功能MDADIFEES-DIGEST毒性分层",
+   "so_what": "q5免疫微环境间接相关；临床决策价值高于基础研究机制提示少",
+   "caution": "样本量小n=50；主要终点吞咽而非OS/DFS生存获益待验证",
+   "score": {
+    "final": 36.1,
+    "match": 25.0,
+    "novelty": 30.0,
+    "rigor": 65.0,
+    "impact": 40.0,
+    "transfer": 20.0
+   },
+   "heuristic": 41.6,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 15.0,
+    "design": 15,
+    "sample": 4.6,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Radiotherapy induced dysphagia is a common side effect in post-operative oral cavity squamous cell carcinoma (OCSCC) patients, affecting quality of life (QOL). Dysphagia-optimized radiotherapy reduces dose to dysphagia aspiration-related structures (DARS) while maintaining oncological efficacy. This prospective study compared dysphagia outcomes between DO-VMAT and S-VMAT in resected oral cavity cancers. MATERIALS AND METHODS: This was a two-arm comparative, prospective, interventional study conducted between June 2022 and December 2023 with 50 patients of OCSCC on adjuvant chemoradiation divided in 1:1 ratio to either arm. Acute and chronic toxicities were graded by RTOG criteria. Dysphagia assessment by physician-reported toxicity, 100 ml water swallow test (WST), fiberoptic endoscopic evaluation of swallowing (FEES-DIGEST), and patient-reported QOL using MD Anderson Dysphagia Inventory (MDADI) were performed. Kaplan-Meier method was used to analyze disease-free survival (DFS) and overall survival (OS). RESULTS: DO-VMAT achieved significantly lower mean doses to DARS (superior constrictor p = 0.023, middle constrictor p = 0.003, inferior constrictor p = 0.001) compared with S-VMAT. Acute dysphagia rates were comparable (p = 0.238), chronic effects including dysphagia (p = 0.041) and feeding tube dependency (p = 0.041) were significantly lower with DO-VMAT. At 12 months, objective swallowing outcomes favored DO-VMAT, with lower FEES-DIGEST scores (p = 0.018) and higher MDADI composite scores (p = 0.03). 2-year OS (82% vs 78%) and DFS (74% vs 76%) were comparable between S-VMAT and DO-VMAT. CONCLUSION: DO-VMAT is safe and feasible for adjuvant radiotherapy in OCSCC. It significantly reduces late dysphagia and improves patient-reported QOL without affecting disease control or survival.",
+   "tags": [
+    "DARS",
+    "Dysphagia",
+    "Oral cancers",
+    "Radiotherapy",
+    "Volumetric arc radiotherapy"
+   ]
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1111/eos.70168",
+   "pmid": "43002517",
+   "doi": "10.1111/eos.70168",
+   "title": "Artificial intelligence analysis of oral mucosal lesions in white-light clinical photographs: A systematic review of visual features and validation",
+   "title_zh": "AI分析口腔黏膜白斑病变系统评价",
+   "journal": "European journal of oral sciences",
+   "date": "2026-11-09",
+   "authors": [
+    "Ardila CM",
+    "Vivares-Builes AM",
+    "Pineda-Vélez E"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43002517/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "方法与交叉",
+   "methods": [
+    "ml"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔肿瘤AI",
+   "one_line": "系统评价53项研究AI白光照片识别分类定位黏膜病变表现形变纹理空间模式",
+   "so_what": "q5影像组学可迁移至肿瘤免疫微环境空间分析可借鉴PROBAST+AI偏倚框架",
+   "caution": "多数为隐式深度学习黑箱；外部验证不足临床转化谨慎",
+   "score": {
+    "final": 34.5,
+    "match": 25.0,
+    "novelty": 30.0,
+    "rigor": 50.0,
+    "impact": 35.0,
+    "transfer": 35.0
+   },
+   "heuristic": 40.7,
+   "breakdown": {
+    "topic": 3.5,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "Artificial intelligence (AI) is increasingly applied to conventional oral photographs for recognition, classification, localization, segmentation, and risk assessment of oral mucosal lesions. This systematic review evaluated how clinically relevant visual information-including color, texture, morphology, borders, and spatial patterns-is represented by AI systems and assessed performance, validation, explainability, human comparison, and clinical translation. PubMed, Embase, Scopus, and Google Scholar were searched for studies directly analyzing conventional white-light clinical photographs. Risk of bias was assessed with PROBAST + AI, and certainty with Grading of Recommendations Assessment, Development, and Evaluation-based approaches. Fifty-three studies were included, 30 published in 2025-2026. Forty-six used implicit deep-learning visual representations, three multimodal vision-language models, two explicit color analyses, and two explicit texture analyses. Thirty-one studies primarily addressed image-level diagnostic classification/recognition, 15 spatial detection/localization or lesion delineation, six screening/triage/referral or biopsy-oriented decision support, and one longitudinal malignant-transformation prediction. Six used independent external cohorts and five compared AI with human readers. Methodological concerns were frequent, no sufficiently coherent group supported meta-analysis, and certainty remained limited across evidence bodies. Current evidence therefore supports technical feasibility rather than established clinical effectiveness, with translation requiring stronger patient-level independence, external validation, prospective multicenter evaluation, and evidence of clinical benefit.",
+   "tags": [
+    "artificial intelligence",
+    "clinical photography",
+    "computer vision",
+    "deep learning",
+    "oral mucosal lesions"
+   ]
+  },
+  {
+   "id": "10.1111/odi.70574",
+   "pmid": "43001807",
+   "doi": "10.1111/odi.70574",
+   "title": "Mutational Profile of Oropharyngeal Squamous Cell Carcinoma in Relation to HPV: Comparison of Taiwan Data With Published Studies",
+   "title_zh": "台美德裔OPSCC HPVK状态突变谱比较",
+   "journal": "Oral diseases",
+   "date": "2026-11-09",
+   "authors": [
+    "Wang HC",
+    "Chen SH",
+    "Lou PJ"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43001807/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": 187,
+   "sample_note": "n=187",
+   "tier": "B",
+   "domain": "颌面肿瘤与分子机制",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔鳞癌基因组",
+   "one_line": "TCOG T1322亚组HPV阳性/阴性OPSCC median TMB均为3.2 mutations/Mb，驱动基因…",
+   "so_what": "q5（口腔鳞癌免疫微环境+微生物组）直接相关；虽无正式推断统计，但TMB框架可作基线对照引入后续课…",
+   "caution": "非正式meta分析，跨研究比较无Harmonized质控，不可做定量推断",
+   "score": {
+    "final": 34.4,
+    "match": 40.0,
+    "novelty": 30.0,
+    "rigor": 30.0,
+    "impact": 20.0,
+    "transfer": 45.0
+   },
+   "heuristic": 34.7,
+   "breakdown": {
+    "topic": 1.6,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 6.1,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: To descriptively compare genomic profiles by human papillomavirus (HPV) status in a Taiwanese multicenter registry with published Western cohorts. METHODS: We reviewed aggregate findings from 290 OPSCC cases in TCOG T1322 (ACTOnco + 440-gene panel) and selected studies from the United States and Europe. No formal cross-cohort statistical comparison was performed. RESULTS AND DISCUSSION: Major driver-gene patterns were broadly similar across cohorts. In the T1322 TMB-evaluable subset (HPV-positive n = 187; HPV-negative n = 99), the supplied summary reported a median TMB of 3.2 mutations/Mb in both groups, with interquartile ranges of 1.3-5.7 and 1.9-4.4 mutations/Mb, respectively. A verified p value for this updated subset was unavailable; therefore, no inference about statistical significance is made. CONCLUSION: Cross-study patterns are hypothesis-generating, and quantitative biomarker comparisons require harmonized methodology and independent validation.",
+   "tags": [
+    "APOBEC mutagenesis",
+    "comparative genomics",
+    "human papillomavirus",
+    "next‐generation sequencing",
+    "oropharyngeal squamous cell carcinoma",
+    "tumor mutational burden"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07252-5",
+   "pmid": "43002257",
+   "doi": "10.1007/s00784-026-07252-5",
+   "title": "Material-dependent effects of fish-scale-derived nano-hydroxyapatite on the mechanical, physicochemical, and optical properties of conventional glass ionomer cements",
+   "title_zh": null,
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-09",
+   "authors": [
+    "Abozaid D",
+    "El-Aal MA",
+    "Ahmed MH",
+    "Azab A",
+    "Alhotan A",
+    "Mohamed PA"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43002257/",
+   "pmcid": "10591371",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": 10,
+   "sample_note": "n=10",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "牙体牙髓与龋病",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 24.8
+   },
+   "heuristic": 29.2,
+   "breakdown": {
+    "topic": 3.5,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 2.8,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To evaluate the effects of fish-scale-derived nano-hydroxyapatite (nHA) incorporation on the mechanical properties, surface characteristics, hydrolytic behavior, and color stability of conventional glass ionomer cements (GICs). METHODS: Nano-hydroxyapatite synthesized from black tilapia (Oreochromis niloticus) fish scales was incorporated into Fuji IX GP and Riva Self Cure conventional GICs at 5 wt% and 10 wt%. Unmodified materials served as controls (n = 10/group). Flexural strength, flexural modulus, surface roughness, and color stability were evaluated before and after thermocycling. Water sorption and solubility were evaluated once, without thermocycling. Data were analyzed using ANOVA, Mann-Whitney U, and Kruskal-Wallis tests (α = 0.05). RESULTS: nHA significantly affected the mechanical and physicochemical properties of both GICs. The 10 wt% nHA-Riva group exhibited the highest flexural strength before (40.34 ± 6.84 MPa) and after thermocycling (38.32 ± 2.93 MPa), with the smallest median percentage change following aging (- 4.75%). In contrast, the 10 wt% nHA-Fuji group demonstrated a median percentage change of - 56.90% after thermocycling. Water sorption was reduced in the modified Fuji groups, with the lowest value observed in the 10 wt% nHA-Fuji group (2.05 ± 0.13%). Surface roughness increased with increasing nHA concentration and after thermocycling. Most modified groups exhibited color changes exceeding clinically acceptable CIEDE2000 thresholds. CONCLUSIONS: Fish-scale-derived nHA affected the measured properties of conventional GICs in a material- and concentration-dependent manner. Reinforcing effects were most evident in Riva Self Cure, whereas 10 wt% nHA was associated with a pronounced loss of flexural strength in Fuji IX GP after thermocycling. Although nHA reduced water sorption in selected formulations, increased surface roughness and compromised color stability may limit clinical applicability. As remineralization and ion-release behavior were not assessed, these findings should be interpreted as material-performance data rather than evidence of clinical bioactivity. CLINICAL RELEVANCE: Conventional glass ionomer cements are widely used because of their fluoride release and chemical adhesion but remain limited by insufficient mechanical durability. Bio-derived nano-hydroxyapatite has emerged as a promising reinforcing addi",
+   "tags": [
+    "Color stability",
+    "Fish scale",
+    "Flexural strength",
+    "Glass ionomer cement",
+    "Hydroxyapatite",
+    "Water sorption"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07244-5",
+   "pmid": "43000485",
+   "doi": "10.1007/s00784-026-07244-5",
+   "title": "Differential expression of circadian clock genes and proteins in gingival tissues from patients with stage III grade B periodontitis: a cross-sectional study",
+   "title_zh": "牙周炎牙龈昼夜钟基因表达谱",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-09",
+   "authors": [
+    "Çevik M",
+    "Aral K",
+    "Özgen N",
+    "Kantarcı A",
+    "Dündar M",
+    "Menevşe İN",
+    "Koç A",
+    "Toy VE",
+    "Aral CA"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43000485/",
+   "pmcid": "6501790",
+   "cited_by": 0,
+   "design": "cross_sectional",
+   "design_label": "横断面",
+   "design_level": 3,
+   "sample_n": 20,
+   "sample_note": "n=20",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "牙周免疫",
+   "one_line": "横断面n=20/组比较三阶段牙周炎症牙龈CLOCK/CRY1/Per3蛋白mRNA表达并关联IL-1β与IL-6",
+   "so_what": "q2关联方向可借ELISA+RT-qPCR做时序炎症实验设计",
+   "caution": "n<20单时间点无对照干预无法证昼夜节律决定骨结合失败",
+   "score": {
+    "final": 39.0,
+    "match": 38.0,
+    "novelty": 35.0,
+    "rigor": 30.0,
+    "impact": 20.0,
+    "transfer": 28.0
+   },
+   "heuristic": 60.9,
+   "breakdown": {
+    "topic": 30.3,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 3.5,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: This study tested the hypothesis that gingival circadian clock gene and protein expressions differ among periodontal health, gingivitis, and stage III grade B periodontitis. MATERIALS AND METHODS: Sixty systemically healthy, non-smoking individuals with regular sleep schedules, assessed by the Munich Chronotype Questionnaire, were classified as periodontally healthy (n = 20), gingivitis (n = 20), or stage III grade B periodontitis (n = 20). Gingival biopsies were obtained at a single time point (09:00 to 11:00). Clock gene and protein expressions were analyzed using RT-qPCR and Western blotting. Inflammatory mediators were quantified by RT-qPCR, and IL-1β and IL-6 protein levels were measured by ELISA. RESULTS: Age, sex distribution, sleep duration, and chronotype scores were comparable among groups (p > 0.05). In periodontitis, CLOCK and Per3 were higher, and CRY1, CRY2, and Rev-Erb-β were lower at both gene and protein levels (p 0.05). In pooled exploratory analyses, proinflammatory mediators correlated positively with CLOCK and Per3 and negatively with CRY1, CRY2, Per1, Per2, and Rev-Erb-β, which in turn correlated positively with OPG (FDR-adjusted p < 0.05). RANKL was higher and OPG lower in periodontitis (p < 0.05). Clock gene expressions were also correlated with clinical periodontal parameters. CONCLUSIONS: Gingival tissues affected by stage III grade B periodontitis showed differential clock gene and protein expression. Because measurements were obtained at a single time point, these findings indicate differential expression rather than disrupted circadian clock function.",
+   "tags": [
+    "Circadian clocks",
+    "Cryptochromes",
+    "NF-kappa B",
+    "Period circadian proteins",
+    "Periodontitis",
+    "RANK ligand"
+   ]
+  },
+  {
+   "id": "10.1111/eos.70152",
+   "pmid": "43002525",
+   "doi": "10.1111/eos.70152",
+   "title": "Comparative cytocompatibility of commercial theobromine- and fluoride-containing topical varnish extracts in human gingival fibroblast-1 cell",
+   "title_zh": "茶碱含氟涂料人牙龈成纤维细胞生物相容性",
+   "journal": "European journal of oral sciences",
+   "date": "2026-11-09",
+   "authors": [
+    "Gokce ANP",
+    "Gokce M",
+    "Kargul B"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43002525/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "in_vitro",
+   "design_label": "体外/细胞",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "种植体周免疫",
+   "one_line": "HGF-1细胞暴露0.06%~2%三种涂料提取物24h测MTT/LDH迁移伤口愈合IC50对比",
+   "so_what": "q4材料表面编程免疫微环境可直接借用MTT+LDH评估巨噬细胞极化",
+   "caution": "仅一种细胞系；浓度换算至体内剂量需谨慎",
+   "score": {
+    "final": 34.1,
+    "match": 30.0,
+    "novelty": 28.0,
+    "rigor": 45.0,
+    "impact": 15.0,
+    "transfer": 32.0
+   },
+   "heuristic": 46.3,
+   "breakdown": {
+    "topic": 22.3,
+    "journal": 10.0,
+    "design": 7,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "Theobromine has been proposed as a non-fluoride remineralizing alternative; however, its cellular biocompatibility in oral cell models remains insufficiently characterized. This study compared the cytocompatibility of a theobromine-containing varnish with two fluoride-containing varnishes in human gingival fibroblast cell line (HGF-1). HGF-1 cells were exposed to extracts prepared from Group 1, Rennou Varnish; Group 2, MI Varnish; and Group 3, Clinpro Clear Fluoride Treatment at concentrations ranging from 0.0625% to 2%. Cell viability and cytotoxicity were evaluated using MTT and lactate dehydrogenase (LDH) assays after 24 h. Cell migration was assessed by wound-healing assay using IC50/2 concentrations. Estimated IC50 values were 0.611% for Group 1, 0.056% for Group 2, and 0.117% for Group 3, with corresponding 95% confidence intervals. Group 1 maintained higher viability and lower LDH release than the fluoride-containing varnishes across most concentrations. Migration was comparable between Groups 1 and 2, whereas Group 3 caused the greatest reduction. These findings should be interpreted as preliminary formulation-level in vitro responses of commercial varnish extracts and should not be attributed to the intrinsic cytocompatibility of any single active ingredient or excipient.",
+   "tags": [
+    "IC50",
+    "LDH release",
+    "MTT assay",
+    "biocompatibility",
+    "cytotoxicity",
+    "fluoride varnish"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107161",
+   "pmid": "43000097",
+   "doi": "10.1016/j.jdent.2026.107161",
+   "title": "Diagnostic Implications of Dental Interventions for Pulp Testing in Endodontics: A Scoping Review",
+   "title_zh": "牙髓活力检测干预伪阳性综述",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-08",
+   "authors": [
+    "Afkhami F",
+    "Rostami G",
+    "Hashemi N",
+    "Peters OA"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43000097/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": 2679,
+   "sample_note": "78 项研究",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "牙体牙髓",
+   "one_line": "综述78项研究归纳正畸/手术/创伤等干预后冷测假阴性发生率及恢复规律",
+   "so_what": "仅文献编辑参考值q4材料-神经末梢交互无新证据链",
+   "caution": "检索策略未报告PROBAST未见偏倚量化GRADE分级",
+   "score": {
+    "final": 31.5,
+    "match": 20.0,
+    "novelty": 18.0,
+    "rigor": 55.0,
+    "impact": 25.0,
+    "transfer": 15.0
+   },
+   "heuristic": 50.9,
+   "breakdown": {
+    "topic": 16.9,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 8.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To map and synthesize the evidence on how dental interventions and trauma-related conditions affect the outcomes and diagnostic reliability of pulp testing methods, including sensibility and vitality tests. DATA: Original studies evaluating the effects of dental interventions or trauma-related conditions on pulp testing outcomes in human teeth. SOURCES: PubMed (MEDLINE), Scopus, and Web of Science were searched, supplemented by grey literature and reference-list screening. The final search was conducted on July 1, 2026. STUDY SELECTION: Studies assessing the effects of orthodontic, surgical, periodontal, traumatic, and restorative or aesthetic interventions on pulp sensibility or vitality test responses were included. Of 2,679 records identified, 78 studies were included. CONCLUSIONS: Dental interventions and trauma-related conditions may transiently alter pulp test responses without indicating pulpal necrosis, producing false-negative sensibility results after disruption of pulpal neural activity or vascular supply. Cold testing was generally more reliable than electric pulp testing, particularly in traumatized and restored teeth. Pulse oximetry and laser Doppler flowmetry assess pulpal blood flow more directly and appear less affected by temporary neural impairment, but limited availability and cost restrict routine use. Gaps remain regarding long-term effects and standardized protocols. Test results should be interpreted together with clinical and radiographic findings. CLINICAL SIGNIFICANCE: Understanding how interventions and trauma influence pulp test responses can help clinicians avoid false diagnoses and unnecessary endodontic treatment, and select appropriate tests in challenging situations. REGISTRATION: The protocol for this scoping review was prospectively registered with the Open Science Framework (OSF) (link masked for double-anonymized review).",
+   "tags": [
+    "Dental Interventions",
+    "Dental Pulp Test",
+    "Endodontics",
+    "Laser-Doppler Flowmetry",
+    "Pulse Oximetry"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107160",
+   "pmid": "43000099",
+   "doi": "10.1016/j.jdent.2026.107160",
+   "title": "Dopamine-Assisted Nanocarriers for Radicular Dentin Reinforcement and Sealing: Topographical and Biomechanical Evaluation",
+   "title_zh": "多巴胺纳米载体强化根管牙本质",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-08",
+   "authors": [
+    "Toledano M",
+    "Cifuentes C",
+    "Muñoz-Soto E",
+    "Titos F",
+    "Osorio MT",
+    "Toledano R",
+    "Aguilera FS"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43000099/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "in_vitro",
+   "design_label": "体外/细胞",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙体材料/根管",
+   "one_line": "Dop-NPs实现根管牙本质最低微渗漏及矿化沉积，TDg/PTH-NPs分别在不同根段提升纳米硬度",
+   "so_what": "q4'材料编程宿主反应'的角度有间接启发；多巴胺介导生物矿化机制值得关注。",
+   "caution": "纯体外研究，无任何细胞或动物验证，不可外推体内效应",
+   "score": {
+    "final": 31.2,
+    "match": 25.0,
+    "novelty": 35.0,
+    "rigor": 40.0,
+    "impact": 20.0,
+    "transfer": 30.0
+   },
+   "heuristic": 37.1,
+   "breakdown": {
+    "topic": 14.1,
+    "journal": 10.0,
+    "design": 7,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To investigate the effectiveness of novel polymeric nanoparticles (NPs) doped with dexamethasone (Dex-NPs), Dex and zinc (Dex-Zn-NPs), parathyroid hormone (PTH-NPs), tideglusib (TDg-NPs) and dopamine (Dop-NPs) in reducing dentin permeability and facilitating dentin remineralization after endodontic treatment. METHODS: The effect of Dex-NPs, Dex-Zn-NPs, PTH-NPs, TDg-NPs and Dop-NPs was tested in radicular dentin, at 24 h and 6 m. A control group without NPs was included. Radicular dentin was assessed for fluid filtration. Dentin remineralization was analyzed by scanning electron microscopy, AFM, nanohardness (Hi), and Raman analysis. RESULTS: Dop-NPs treated dentin exhibited the lowest micropermeability, and showed hermetically sealed dentinal tubules and extended mineral deposits onto dentin. Root dentin 6 m storage showed similar nanohardness in all groups, though PTH-NPs provoked low Hi, and TDg-NPs facilitated high Hi at cervical and apical dentin, respectively. Both TDg-NPs and PTH-NPs created dentin porosities with amorphous mineral that originated micropermeability, jeopardizing sealing ability. The presence of Zn at radicular dentin facilitated the substrate mineralization and an improvement of the dentin sealing. Dentin treated with undoped NPs showed immature hydroxyapatite and multiple porosities that enabled micropermeability. CONCLUSIONS: Dop-NPs promoted radicular dentin sealing by reducing porosity and favoring occlusion of dentinal tubules, but it also resulted in limited reinforcement of the root dentin. CLINICAL SIGNIFICANCE: Dop-NPs improved radicular dentin sealing but provided limited structural reinforcement. Combining dopamine and tideglusib may enhance dentin sealing and strengthening; however, these findings should be interpreted cautiously because they are based on an ex vivo model and lack biological, cytocompatibility, and in vivo validation.",
+   "tags": [
+    "Dentin",
+    "PTH",
+    "dexamethasone",
+    "dopamine",
+    "microscopy",
+    "remineralization"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107163",
+   "pmid": "43000098",
+   "doi": "10.1016/j.jdent.2026.107163",
+   "title": "Additively manufactured porous and lattice structures in metallic, ceramic and polymer-based dental implants and implant-supported prostheses: a scoping review",
+   "title_zh": "3D打印多孔金属陶瓷种植体综述",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-08",
+   "authors": [
+    "Mosaddad SA",
+    "Khanzadeh H",
+    "Peláez J",
+    "Revilla-León M",
+    "Gómez-Polo M",
+    "Molinero-Mourelle P",
+    "Suárez MJ"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43000098/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "种植与骨再生",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "种植材料",
+   "one_line": "Scoping review检索五大库139报告涵盖89植入装置+40植入材料机械生物学终点设计特征",
+   "so_what": "q1/q4界面微结构可参照架构图但无机制新证据增量式重复",
+   "caution": "定性综合缺乏Meta；异质性高难下结论",
+   "score": {
+    "final": 30.7,
+    "match": 25.0,
+    "novelty": 20.0,
+    "rigor": 40.0,
+    "impact": 20.0,
+    "transfer": 28.0
+   },
+   "heuristic": 45.8,
+   "breakdown": {
+    "topic": 19.8,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To map materials, architecture, manufacturing, performance and clinical translation of additively manufactured porous dental implants and implant-supported prostheses. DATA: Material and process characteristics, geometry, comparators, mechanical and biological outcomes, clinical follow-up, methodological limitations and report relationships were charted. Evidence was classified by physical realization, validation domain and architecture-specific attribution. SOURCES: PubMed, Embase, Scopus, Web of Science, the Cochrane Library and Google Scholar were searched through 26 August 2026; supplementary searches covered publications through 10 October 2026, with targeted verification on 2 November 2026. STUDY SELECTION: Eligible English-language original reports combined deliberate porous architecture, additive manufacturing or an explicitly manufacturing-linked computational design, and a dental implant or implant-supported prosthetic application. Preprints and studies of roughness alone were excluded. The 139 included reports comprised 89 implant-device, 40 implant-material and 10 prosthetic investigations. Materials included titanium alloys, cobalt-chromium alloys, zirconia and polymer-based constructs. Eighteen reports evaluated designs without physical fabrication; 121 investigated manufactured structures. Validation included physical mechanical testing in 72 reports, cellular or antimicrobial testing in 37, animal experiments in 23, human tissue assessment in eight and clinical outcomes in 18. Clinical publications included related reports and did not isolate an architecture-specific benefit. CONCLUSIONS: Porous architecture can modify stiffness, mass and tissue interaction, but manufacturing deviations and mechanical trade-offs limit translation. Evidence volume does not establish independent clinical confirmation. CLINICAL SIGNIFICANCE: Current evidence supports design feasibility and selected clinical use, without establishing superior clinical outcomes attributable to porosity. Validation should connect manufactured geometry, component durability and comparative clinical performance.",
+   "tags": [
+    "additive manufacturing",
+    "dental implants",
+    "implant-supported prosthesis",
+    "lattice structures",
+    "porosity",
+    "scoping review"
+   ]
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 4
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 4
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 4
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 4
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 4
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 4
+  }
+ ],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}

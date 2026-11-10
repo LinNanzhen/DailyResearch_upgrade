@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-09T10:52:53+08:00",
- "latest": "2026-11-09",
+ "updated_at": "2026-11-10T12:44:14+08:00",
+ "latest": "2026-11-10",
  "days": [
+  {
+   "date": "2026-11-10",
+   "must_title": "Smoking-Related Oral Health and Dental Aesthetic Signature: Digital and Clinical Findings from the SMILE Study",
+   "must_title_zh": "吸烟相关的口腔健康与牙齿美学特征：SMILE研究的数字化与临床发现",
+   "cluster": "牙周流行病学",
+   "count": 10,
+   "ai": true
+  },
   {
    "date": "2026-11-09",
    "must_title": "Predicting Vital Pulp Therapy Outcomes Using Pulpal Biomarkers and Clinical Indicators: A Prospective Clinical Study",
