@@ -266,6 +266,17 @@ def make_judge(profile: Dict[str, Any]) -> Optional[AgnesLLM]:
     return make_client((profile.get("quality") or {}).get("judge") or {})
 
 
+def primary_client(profile: Dict[str, Any]) -> Optional[AgnesLLM]:
+    """The everyday Agnes client, used as a stopgap when OpenCode isn't configured."""
+    llm = profile.get("llm") or {}
+    return AgnesLLM(
+        base_url=str(llm.get("base_url") or "https://apihub.agnes-ai.com/v1"),
+        model=str(llm.get("model") or "agnes-2.5-flash"),
+        temperature=0.2,
+        timeout=int(llm.get("timeout", 120)),
+    )
+
+
 def make_repair(profile: Dict[str, Any]) -> Optional[AgnesLLM]:
     if not (profile.get("quality") or {}).get("enabled", True):
         return None

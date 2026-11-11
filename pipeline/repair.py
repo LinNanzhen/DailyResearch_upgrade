@@ -25,10 +25,13 @@ def repair_day(date: str, profile: Dict[str, Any], dry_run: bool = False, send_e
 
     judge = quality.make_judge(profile)
     repair_client = quality.make_repair(profile)
-    if not repair_client:
-        print("缺少 OPENCODE_API_KEY（或 quality.repair.enabled=false），无法修复。")
+    primary = quality.primary_client(profile)
+    if not repair_client and not (primary and primary.enabled):
+        print("缺少 OPENCODE_API_KEY，且没有可用的 AGNES_API_KEY，无法修复。")
         return 2
-    print(f"评委：{judge.model if judge else '仅规则'}｜修复：{repair_client.model}｜共 {len(musts)} 篇精读")
+    if not repair_client:
+        print("提示：未配置 OPENCODE_API_KEY，本次用 Agnes 重试；配置后会自动改用 MiMo-V2.6-Flash。")
+    print(f"评委：{judge.model if judge else '仅规则'}｜修复：{repair_client.model if repair_client else primary.model}｜共 {len(musts)} 篇精读")
 
     repaired = 0
     for i, m in enumerate(musts, start=1):
@@ -37,6 +40,7 @@ def repair_day(date: str, profile: Dict[str, Any], dry_run: bool = False, send_e
             m.get("deep"), m, profile,
             judge_client=judge,
             repair_client=repair_client,
+            primary_client=primary,
         )
         m["deep"] = deep
         if deep:
