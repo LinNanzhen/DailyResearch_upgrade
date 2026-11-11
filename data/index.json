@@ -1,11 +1,11 @@
 {
- "updated_at": "2026-11-11T12:58:30+08:00",
+ "updated_at": "2026-11-11T13:12:02+08:00",
  "latest": "2026-11-11",
  "days": [
   {
    "date": "2026-11-11",
    "must_title": "Leveraging Mendelian Randomisation for Causal Inference in Endodontics",
-   "must_title_zh": "利用孟德尔随机化进行牙髓病学因果推断",
+   "must_title_zh": "孟德尔随机化在牙髓病学因果推断中的应用与证据评估",
    "cluster": "根尖周骨免疫机制",
    "count": 10,
    "ai": true
