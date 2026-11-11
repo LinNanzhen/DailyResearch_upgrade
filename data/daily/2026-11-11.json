@@ -1,0 +1,860 @@
+{
+ "date": "2026-11-11",
+ "generated_at": "2026-11-11T10:55:08+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 5,
+  "prompt_tokens": 12693,
+  "completion_tokens": 10791
+ },
+ "stats": {
+  "candidates": 62,
+  "raw": 62,
+  "fetched": 18,
+  "raw_dropped_type": 7,
+  "no_abstract": 1,
+  "gated": 18,
+  "scored": 18,
+  "shown": 10,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 5
+ },
+ "must_read": {
+  "id": "10.1111/iej.70303",
+  "pmid": "43006218",
+  "doi": "10.1111/iej.70303",
+  "title": "Leveraging Mendelian Randomisation for Causal Inference in Endodontics",
+  "title_zh": "CDKN1A介导成骨细胞RCD致根尖骨破坏",
+  "journal": "International endodontic journal",
+  "date": "2026-11-10",
+  "authors": [
+   "Wang Y",
+   "Wu B",
+   "Liu L",
+   "Yang F",
+   "Peng Y",
+   "Cao Y",
+   "Huang D",
+   "Bashir NZ"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43006218/",
+  "pmcid": "",
+  "cited_by": 0,
+  "design": "review",
+  "design_label": "综述",
+  "design_level": 3,
+  "sample_n": 10,
+  "sample_note": "10 项研究",
+  "tier": "B",
+  "domain": "牙体牙髓与龋病",
+  "methods": [
+   "mendelian",
+   "gwas",
+   "causal"
+  ],
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "is_open_access": false,
+  "cluster": "根尖周骨免疫机制",
+  "one_line": "scRNA-seq筛hub基因→DIA蛋白组验证→AAV体内过表达/ silenced，CDKN1A促进成骨细胞RCD…",
+  "so_what": "q1巨噬细胞极化之外，成骨细胞自身RCD也是骨丢失驱动因素；实验管线（scRNA+DIA+AAV）…",
+  "caution": "P. gingivalis体外感染model不能完整模拟人体根尖感染生态",
+  "score": {
+   "final": 75.9,
+   "match": 85.0,
+   "novelty": 78.0,
+   "rigor": 82.0,
+   "impact": 72.0,
+   "transfer": 88.0
+  },
+  "heuristic": 54.9,
+  "breakdown": {
+   "topic": 18.5,
+   "journal": 10.0,
+   "design": 10,
+   "sample": 2.8,
+   "fresh": 7.0,
+   "method": 6.6
+  },
+  "abstract": "BACKGROUND: Endodontic diseases have been linked to many potential risk factors and systemic conditions. However, observational associations may reflect sources of bias such as confounding and reverse causality. Mendelian randomisation (MR) can strengthen causal inference, although its assumptions require scrutiny. OBJECTIVES: To provide an overview of MR in endodontic research and synthesise evidence specifically on causal relationships of endodontic diseases. METHOD: PubMed/MEDLINE, Web of Science and Scopus were searched to May 2026. The narrative component established MR's conceptual and analytical framework, including core assumptions, MR designs, data sources, instrument selection, estimators, diagnostics, implementation and appraisal of MR evidence. Original MR studies involving endodontic diseases were identified and compared by phenotype, data source, direction, estimates, replication and assumption support. RESULTS: The narrative part of the review mapped MR from formulation of a causal question and basic principles to credibility assessment, emphasising the distinction between statistical robustness and biological validity when interpreting causal claims. The systematic search identified 10 studies (2023-2025). Rheumatoid arthritis liability showed the most consistent positive association with endodontic outcomes, but effects were biologically non-specific and unreplicated. Other systemic exposures were mainly null, heterogeneous, borderline or unreplicated; evidence that endodontic disease causes systemic outcomes was limited to isolated findings, including a single lacunar-stroke analysis. Core assumption appraisal showed that instrument relevance was generally well supported from a solely statistical perspective, with most studies using genome-wide instrument selection, reporting strength metrics and drawing on large GWAS datasets. Independence was also addressed in many analyses through ancestry matching, linkage disequilibrium control and confounder screening. The principal limitation concerned exclusion restriction: shared biological pathways and broad pulp and periapical phenotypes often weakened biological specificity and plausibility, while absent colocalisation, relaxed or sparse instrument selection and limited replication left horizontal pleiotropy unresolved. CONCLUSION: MR offers a valuable framework for generating and testing causal",
+  "tags": [
+   "Mendelian randomisation",
+   "causal inference",
+   "endodontic disease",
+   "genetic epidemiology"
+  ],
+  "deep": {
+   "title_zh": "",
+   "one_sentence": "",
+   "question": "",
+   "design": "",
+   "sample_desc": "",
+   "findings": [],
+   "effect": "",
+   "relation": "",
+   "why": "",
+   "limitations": [],
+   "transferable": "",
+   "followups": [],
+   "glossary": [],
+   "reading_minutes": 12
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1111/iej.70303",
+   "pmid": "43006218",
+   "doi": "10.1111/iej.70303",
+   "title": "Leveraging Mendelian Randomisation for Causal Inference in Endodontics",
+   "title_zh": "CDKN1A介导成骨细胞RCD致根尖骨破坏",
+   "journal": "International endodontic journal",
+   "date": "2026-11-10",
+   "authors": [
+    "Wang Y",
+    "Wu B",
+    "Liu L",
+    "Yang F",
+    "Peng Y",
+    "Cao Y",
+    "Huang D",
+    "Bashir NZ"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43006218/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": 10,
+   "sample_note": "10 项研究",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [
+    "mendelian",
+    "gwas",
+    "causal"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "根尖周骨免疫机制",
+   "one_line": "scRNA-seq筛hub基因→DIA蛋白组验证→AAV体内过表达/ silenced，CDKN1A促进成骨细胞RCD…",
+   "so_what": "q1巨噬细胞极化之外，成骨细胞自身RCD也是骨丢失驱动因素；实验管线（scRNA+DIA+AAV）…",
+   "caution": "P. gingivalis体外感染model不能完整模拟人体根尖感染生态",
+   "score": {
+    "final": 75.9,
+    "match": 85.0,
+    "novelty": 78.0,
+    "rigor": 82.0,
+    "impact": 72.0,
+    "transfer": 88.0
+   },
+   "heuristic": 54.9,
+   "breakdown": {
+    "topic": 18.5,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 2.8,
+    "fresh": 7.0,
+    "method": 6.6
+   },
+   "abstract": "BACKGROUND: Endodontic diseases have been linked to many potential risk factors and systemic conditions. However, observational associations may reflect sources of bias such as confounding and reverse causality. Mendelian randomisation (MR) can strengthen causal inference, although its assumptions require scrutiny. OBJECTIVES: To provide an overview of MR in endodontic research and synthesise evidence specifically on causal relationships of endodontic diseases. METHOD: PubMed/MEDLINE, Web of Science and Scopus were searched to May 2026. The narrative component established MR's conceptual and analytical framework, including core assumptions, MR designs, data sources, instrument selection, estimators, diagnostics, implementation and appraisal of MR evidence. Original MR studies involving endodontic diseases were identified and compared by phenotype, data source, direction, estimates, replication and assumption support. RESULTS: The narrative part of the review mapped MR from formulation of a causal question and basic principles to credibility assessment, emphasising the distinction between statistical robustness and biological validity when interpreting causal claims. The systematic search identified 10 studies (2023-2025). Rheumatoid arthritis liability showed the most consistent positive association with endodontic outcomes, but effects were biologically non-specific and unreplicated. Other systemic exposures were mainly null, heterogeneous, borderline or unreplicated; evidence that endodontic disease causes systemic outcomes was limited to isolated findings, including a single lacunar-stroke analysis. Core assumption appraisal showed that instrument relevance was generally well supported from a solely statistical perspective, with most studies using genome-wide instrument selection, reporting strength metrics and drawing on large GWAS datasets. Independence was also addressed in many analyses through ancestry matching, linkage disequilibrium control and confounder screening. The principal limitation concerned exclusion restriction: shared biological pathways and broad pulp and periapical phenotypes often weakened biological specificity and plausibility, while absent colocalisation, relaxed or sparse instrument selection and limited replication left horizontal pleiotropy unresolved. CONCLUSION: MR offers a valuable framework for generating and testing causal",
+   "tags": [
+    "Mendelian randomisation",
+    "causal inference",
+    "endodontic disease",
+    "genetic epidemiology"
+   ],
+   "deep": {
+    "title_zh": "",
+    "one_sentence": "",
+    "question": "",
+    "design": "",
+    "sample_desc": "",
+    "findings": [],
+    "effect": "",
+    "relation": "",
+    "why": "",
+    "limitations": [],
+    "transferable": "",
+    "followups": [],
+    "glossary": [],
+    "reading_minutes": 12
+   }
+  },
+  {
+   "id": "10.1007/s00784-026-07238-3",
+   "pmid": "43007501",
+   "doi": "10.1007/s00784-026-07238-3",
+   "title": "Evaluation of the acceleration of orthodontic movements by applying low-level laser therapy. A randomized clinical trial",
+   "title_zh": "低强度激光加速正畸移动RCT",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-10",
+   "authors": [
+    "Lazăr L",
+    "Bud E",
+    "Sufaru IG",
+    "Solomon SM",
+    "Dakó T",
+    "Oprica M",
+    "Vlasa A",
+    "Lazăr AP"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43007501/",
+   "pmcid": "8916849",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
+   "is_open_access": true,
+   "cluster": "正畸骨生物学",
+   "one_line": "RCT表明低强度激光显著增加正畸期骨形成标志物OC水平，促进牙移动。",
+   "so_what": "提示光生物调节可调控骨代谢，对种植骨结合或生物材料界面研究有启发。",
+   "caution": "样本量未报告，长期效果及最佳参数需进一步验证。",
+   "score": {
+    "final": 58.4,
+    "match": 60.0,
+    "novelty": 60.0,
+    "rigor": 70.0,
+    "impact": 65.0,
+    "transfer": 70.0
+   },
+   "heuristic": 40.9,
+   "breakdown": {
+    "topic": 3.7,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "BACKGROUND AND OBJECTIVES: Adult orthodontic treatment is often prolonged due to biological factors. This randomized split-mouth clinical trial evaluated the effects of low-level laser therapy (LLLT) on orthodontic tooth movement in adults by assessing osteocalcin (OC) and N-telopeptide (NTx) levels as biomarkers of bone remodeling, together with the rate of canine distalization. MATERIALS AND METHODS: Thirty adults (18-35 years) requiring extraction of the maxillary first premolars and canine distalization were included. LLLT (980 nm, 1000 mW, 15 s/point) was applied to selected hemiarches immediately after appliance activation and every two weeks for four months. Gingival crevicular fluid samples were collected before, and 14 days after activation to determine OC and NTx concentrations by ELISA. Canine distalization was measured monthly over four months. RESULTS: Laser-treated hemiarches showed a significant increase in OC levels compared with baseline (mean difference 0.251 ng/mL, p < 0.0001), whereas changes in control hemiarches were not significant. NTx concentrations also increased significantly following orthodontic activation and were higher in laser-treated than control hemiarches (1.374 ± 0.400 vs. 1.169 ± 0.325 ng/mL, p < 0.0001). After four months, canine distalization was significantly greater in laser-treated hemiarches (4.95 ± 0.64 mm) than in controls (3.79 ± 0.56 mm, p < 0.001). CONCLUSIONS: LLLT enhanced bone remodeling by stimulating both bone formation and resorption, resulting in accelerated orthodontic tooth movement. CLINICAL RELEVANCE: These findings support LLLT as a promising adjunctive approach for reducing treatment time and contribute to the evidence needed to optimize laser-assisted orthodontic protocols.",
+   "tags": [
+    "Bone remodeling",
+    "Laser therapy",
+    "N-telopeptide",
+    "Orthodontic treatment",
+    "Osteocalcin"
+   ]
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1111/clr.70194",
+   "pmid": "43004549",
+   "doi": "10.1111/clr.70194",
+   "title": "Effects of Flap Management and Membrane Fixation on Augmented Ridge Dimensions in Guided Bone Regeneration: A Preclinical In Vivo Study",
+   "title_zh": "GBR中皮瓣管理与膜固定的交互效应",
+   "journal": "Clinical oral implants research",
+   "date": "2026-11-09",
+   "authors": [
+    "Kim JY",
+    "Yoo SH",
+    "Hwang B",
+    "Park SH",
+    "Park JY",
+    "Lee JS"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43004549/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 6,
+   "sample_note": "n=6",
+   "tier": "B",
+   "domain": "种植与骨再生",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "骨再生手术技术",
+   "one_line": "2×2析因设计，犬非contained缺损12周micro-CT证实皮瓣释放×膜固定存在显著交互",
+   "so_what": "q1/q4的实验设计框架可直接迁移：析因设计+split-mouth+micro-CT定量，n=6…",
+   "caution": "n=6 per condition，histomorphometry终点单一，…",
+   "score": {
+    "final": 53.6,
+    "match": 58.0,
+    "novelty": 45.0,
+    "rigor": 52.0,
+    "impact": 35.0,
+    "transfer": 62.0
+   },
+   "heuristic": 59.6,
+   "breakdown": {
+    "topic": 23.3,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 2.3,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To investigate the main effects of flap management and membrane fixation and their interaction on augmented ridge dimensions 12 weeks after guided bone regeneration (GBR) in chronic noncontained defects. MATERIALS AND METHODS: Implants were placed into chronic noncontained defects in six male dogs using a split-mouth 2 × 2 factorial design (n = 6 sites per condition). Buccal defects were augmented with particulate bone substitute and resorbable collagen membranes and assigned to four groups based on the stabilization strategy: retentive flap (limited periosteal release) with or without membrane fixation (Ret-F, Ret-UF) and extensive flap release with or without membrane fixation (Ex-F, Ex-UF). Augmented ridge dimensions and tissue composition were assessed using micro-computed tomography and histomorphometric analyses at 12 weeks. RESULTS: Flap × fixation interactions were identified for micro-CT augmented ridge area (p = 0.015) and volume (p = 0.005) and for several histomorphometric outcomes. A flap main effect occurred only at 5-mm augmented tissue width (p = 0.033). Micro-CT volume was greater for Ret-UF than for Ex-UF (difference, 106.70 mm3; p = 0.029) and for Ex-F than for Ex-UF (114.65 mm3; p = 0.021). Micro-CT area was greater for Ex-F than for Ex-UF (8.072 mm2; p = 0.042), and tissue width at 5 mm was greater for Ret-UF than for Ex-UF (2.442 mm; p = 0.015). CONCLUSION: In this exploratory study, flap management and membrane fixation had context-dependent associations with augmented dimensions. Limited release without fixation and extensive release with fixation showed greater dimensions than extensive release without fixation in selected comparisons.",
+   "tags": [
+    "alveolar bone loss",
+    "animals",
+    "bone regeneration",
+    "bone screws",
+    "bone substitutes",
+    "membrane"
+   ]
+  },
+  {
+   "id": "10.1111/odi.70570",
+   "pmid": "43006159",
+   "doi": "10.1111/odi.70570",
+   "title": "Betel-Quid Exposure and Site-Specific Prognostic Patterns in Oral Cavity Squamous Cell Carcinoma",
+   "title_zh": "槟榔暴露与口腔鳞癌部位特异性预后",
+   "journal": "Oral diseases",
+   "date": "2026-11-10",
+   "authors": [
+    "Leelasawatsuk P",
+    "Plodpai Y",
+    "Prayuenyong P",
+    "Tangthongkum M"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43006159/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 454,
+   "sample_note": "n=454 patients",
+   "tier": "B",
+   "domain": "口腔鳞癌的免疫微环境与微…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔癌流行病学",
+   "one_line": "回顾性队列显示槟榔咀嚼与颊黏膜等亚部位癌症风险相关，DOI阈值因状态而异（7mm vs 15mm）。",
+   "so_what": "提供部位特异性预后数据，但对免疫微环境机制无直接启示。",
+   "caution": "回顾性设计无法确认因果，人群为泰国南部。",
+   "score": {
+    "final": 50.1,
+    "match": 40.0,
+    "novelty": 50.0,
+    "rigor": 60.0,
+    "impact": 65.0,
+    "transfer": 70.0
+   },
+   "heuristic": 44.9,
+   "breakdown": {
+    "topic": 5.8,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 7.1,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVE: Betel-quid chewing is a risk factor for oral cavity squamous cell carcinoma (OCSCC), but its associations with tumour subsite and depth-of-invasion (DOI) related prognosis remain unclear. We examined site-specific associations and exposure-stratified DOI thresholds for disease-specific survival (DSS). METHODS: This retrospective cohort included 454 patients from southern Thailand. Tumour-subsite associations were assessed using multivariable logistic regression. Exploratory DSS thresholds were derived among surgically treated patients using maximally selected log-rank statistics and evaluated with an exposure-stratified Cox model. RESULTS: Of 454 patients, 154 (33.9%) were betel chewers. Exposure was associated with tumours of the buccal mucosa (adjusted odds ratio, 5.43), lip (3.96), retromolar trigone (3.28) and gingiva (3.13), relative to oral tongue tumours. Exploratory DOI thresholds were 7 mm in chewers (log-rank p = 0.006) and 15 mm in non-chewers (p 7 mm remained associated with poorer DSS in chewers (hazard ratio, 3.55; 95% confidence interval, 1.32-9.52; p = 0.012), whereas the association for DOI > 15 mm in non-chewers was attenuated (hazard ratio, 1.56; 95% confidence interval, 0.97-2.53; p = 0.069). CONCLUSIONS: Betel-quid exposure was associated with OCSCC at quid-contact subsites. Chewers showed a lower exploratory DOI threshold for DSS than non-chewers.",
+   "tags": [
+    "anatomical subsite",
+    "betel quid",
+    "depth of invasion",
+    "oral cavity squamous cell carcinoma",
+    "prognosis"
+   ]
+  },
+  {
+   "id": "10.1002/hed.70541",
+   "pmid": "43001552",
+   "doi": "10.1002/hed.70541",
+   "title": "Self-Reported Dysphagia in Head and Neck Cancer Survivors From Diagnosis to Twelve Months Post Treatment and Predictors for Moderate to Severe Long-Term Dysphagia",
+   "title_zh": "头颈癌幸存者吞咽困难自我管理报告",
+   "journal": "Head & neck",
+   "date": "2026-11-09",
+   "authors": [
+    "Johansson-Malmeling C",
+    "Petersson K",
+    "Finizia C",
+    "Tuomi L"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43001552/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": 445,
+   "sample_note": "n=445 patients",
+   "tier": "B",
+   "domain": "颌面肿瘤与分子机制",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "头颈癌康复",
+   "one_line": "头颈癌治疗期间吞咽相关生活质量下降，手术联合放化疗是严重长期吞咽困难的风险因素。",
+   "so_what": "仅背景信息，对机制或实验设计无帮助。",
+   "caution": "问卷调查，主观报告可能有偏差。",
+   "score": {
+    "final": 20.6,
+    "match": 10.0,
+    "novelty": 40.0,
+    "rigor": 60.0,
+    "impact": 55.0,
+    "transfer": 10.0
+   },
+   "heuristic": 36.1,
+   "breakdown": {
+    "topic": 7.0,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 7.1,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Dysphagia is a common complication of head and neck cancer (HNC) and its treatment. This study examined swallowing-related quality of life from diagnosis to 12 months after treatment, compared swallowing outcomes across tumor sites and treatment modalities, and identified predictors of moderate-to-severe dysphagia. METHODS: The M. D. Anderson Dysphagia Inventory (MDADI) was completed by 445 patients receiving curatively intended HNC treatment pre-treatment and at 3-, 6-, and 12-months post-treatment. RESULTS: Swallowing-related quality of life worsened during treatment, the poorest scores at 3 months post-treatment; 21.6% reported moderate-to-severe dysphagia, decreasing to 12.5% at 12 months. Risk factors for dysphagia at 12 months included stage IV disease, surgery combined with (chemo)radiotherapy, smoking cessation within 12 months, and pre-treatment sick leave. Patients with cervical carcinoma of unknown primary (CCUP) had the poorest outcomes. CONCLUSIONS: Swallowing function declined during treatment. Patients receiving surgery combined with (chemo)radiotherapy and patients with CCUP are at increased risk of long-term dysphagia and require closer follow-up.",
+   "tags": [
+    "MDADI",
+    "dysphagia",
+    "head‐ and neck cancer"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107165",
+   "pmid": "43003217",
+   "doi": "10.1016/j.jdent.2026.107165",
+   "title": "Whiter Is Not Necessarily Better Matched: A 12-Month CIEDE2000 and Dental Whiteness Reanalysis of Intracoronal Bleaching",
+   "title_zh": "内漂白色彩匹配再分析",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-09",
+   "authors": [
+    "Miranda CB",
+    "Ledezma P",
+    "Martín J",
+    "Chaple-Gil A",
+    "Carneiro CS",
+    "Mancheno EV",
+    "Fernández-Godoy E",
+    "Loguercio AD"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43003217/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 38,
+   "sample_note": "n=38 teeth",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙科美学",
+   "one_line": "内漂白后更高白度值不一定意味着更好的天然牙匹配，过氧化氢组颜色变化更大。",
+   "so_what": "仅背景，对研究课题无直接意义。",
+   "caution": "观察性再分析，推广需谨慎。",
+   "score": {
+    "final": 18.5,
+    "match": 10.0,
+    "novelty": 30.0,
+    "rigor": 50.0,
+    "impact": 55.0,
+    "transfer": 10.0
+   },
+   "heuristic": 35.2,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 4.2,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To determine whether color displacement, dental whiteness, longitudinal dynamics, and natural-tooth matching represent equivalent outcomes after intracoronal bleaching. MATERIALS AND METHODS: This post hoc secondary reanalysis used archived individual CIELAB coordinates from NCT02718183, comparing 35% hydrogen peroxide (HP) with 37% carbamide peroxide (CP) applied using four weekly walking-bleach sessions. CIEDE2000 (ΔE00), Whiteness Index for Dentistry (WID), baseline-referenced ΔWID, consecutive inter-visit changes, and paired treated-versus-homologous tooth mismatch were calculated through 12 months. Linear mixed-effects models used all available observations. Participant-specific homologous-tooth coordinates were available for 38 teeth. RESULTS: At 12 months, mean ΔE00 was 10.45 ± 4.50 for HP and 7.65 ± 2.58 for CP, whereas ΔWID was 27.21 ± 13.03 and 24.48 ± 11.09, respectively. Across post-baseline assessments, HP produced a greater ΔE00 than CP (equal-weight marginal contrast 2.12; 95% CI 0.16 to 4.09; p = 0.034), whereas between-treatment effects were not significant for WID or ΔWID. At 12 months, paired ΔE00match was 7.25 ± 2.23 for HP and 6.13 ± 4.09 for CP. The highest observed WID coincided with the minimum ΔE00match in only 5/38 teeth (13.2%); in 24/38 teeth (63.2%), maximum whiteness occurred after the closest observed natural match. Between 6 and 12 months, near-zero mean signed ΔWID concealed substantial individual absolute changes. CONCLUSIONS: Color displacement, dental whiteness, longitudinal dynamics, and natural-tooth matching were non-equivalent outcomes. Maximum whitening rarely coincided with closest natural-tooth matching. CLINICAL SIGNIFICANCE: Intracoronal bleaching should not be judged solely by the magnitude of whitening. Participant-specific natural-tooth matching together with sustained inter-visit stability warrants prospective evaluation as an individualized treatment endpoint.",
+   "tags": [
+    "CIEDE2000",
+    "Whiteness Index for Dentistry",
+    "color matching",
+    "color stability",
+    "intracoronal bleaching",
+    "non-vital bleaching"
+   ]
+  },
+  {
+   "id": "10.1111/iej.70304",
+   "pmid": "43006281",
+   "doi": "10.1111/iej.70304",
+   "title": "CDKN1A Mediates Regulated Cell Death in Osteoblasts and Exacerbates Periapical Bone Destruction in Apical Periodontitis",
+   "title_zh": "孟德尔随机化在牙髓病学因果推断的应用综述",
+   "journal": "International endodontic journal",
+   "date": "2026-11-10",
+   "authors": [
+    "Liao Z",
+    "Liang A",
+    "Qiu Y",
+    "Liao C",
+    "Quan J",
+    "Liu W",
+    "Zeng R",
+    "Xie Y",
+    "Tong Z",
+    "Gong Q"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43006281/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "animal",
+   "design_label": "动物实验",
+   "design_level": 2,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [
+    "single-cell",
+    "multiomics"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "因果推断方法学",
+   "one_line": "系统梳理MR概念框架、instrument选择、敏感性分析及已发表牙髓病MR研究",
+   "so_what": "q2的因果推断核心方法学指南，直接影响后续课题设计和审稿回复策略",
+   "caution": "综述非原始研究，需自行掌握TwoSampleMR/R代码落地",
+   "score": {
+    "final": 67.7,
+    "match": 72.0,
+    "novelty": 68.0,
+    "rigor": 75.0,
+    "impact": 65.0,
+    "transfer": 78.0
+   },
+   "heuristic": 54.0,
+   "breakdown": {
+    "topic": 23.6,
+    "journal": 10.0,
+    "design": 9,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 4.4
+   },
+   "abstract": "BACKGROUND: Apical periodontitis is a chronic inflammatory bone-destructive disease driven by intracanal microbial infection and host immune-inflammatory responses. Periapical bone destruction arises not only from excessive osteoclastic resorption but also from osteoblast dysfunction and dysregulated regulated cell death (RCD). CDKN1A (p21) is a canonical cell-cycle regulator implicated in multiple RCD programs, yet its role in osteoblast injury and apical periodontitis pathogenesis remains undefined. METHODS: Single-cell RNA sequencing (ScRNA) was used to profile osteoblast subpopulations and RCD-related gene expression in human periapical lesions. Porphyromonas gingivalis infection models were established in MG63 and MC3T3-E1 osteoblasts, and DIA proteomics and western blot were used to evaluate RCD-related proteins. The effects of CDKN1A, a disease-associated hub gene screened out in DIA proteomics, on RCD-related proteins were further examined by western blot. Lentiviral silencing and AAV-mediated overexpression were performed in vitro and in rat apical periodontitis models. Bone destruction, RCD activation and osteogenic capacity were assessed by micro-CT, histomorphology and multiplex immunofluorescence. RESULTS: ScRNA data of apical periodontitis showed that osteoblasts in apical lesions exhibited enhanced apoptosis and pyroptosis and reduced ferroptosis. Single-bacteria P. gingivalis infection markedly upregulated CDKN1A, which promoted osteoblast apoptosis and pyroptosis while suppressing necroptosis and ferroptosis. In vivo, CDKN1A expression increased with disease progression and was negatively correlated with the osteogenic marker OPN. CDKN1A overexpression aggravated bone destruction, whereas its knockdown significantly attenuated bone loss and restored osteogenic activity. CONCLUSION: CDKN1A acts as a critical regulator that mediates RCD of osteoblasts, impairs osteogenesis and exacerbates periapical bone destruction in apical periodontitis. Targeting CDKN1A-mediated RCD represents a promising therapeutic strategy to limit bone destruction and promote repair in apical periodontitis.",
+   "tags": [
+    "CDKN1A",
+    "apical periodontitis",
+    "osteoblast",
+    "rat model of apical periodontitis",
+    "regulated cell death"
+   ]
+  },
+  {
+   "id": "10.1016/j.oraloncology.2026.108206",
+   "pmid": "43002987",
+   "doi": "10.1016/j.oraloncology.2026.108206",
+   "title": "Prognostic value of pre-treatment nodal appearance, volume and kinetics in High-Risk non-HPV related oropharyngeal squamous cell carcinoma",
+   "title_zh": "高危非HPV口咽鳞癌淋巴结预后价值",
+   "journal": "Oral oncology",
+   "date": "2026-11-09",
+   "authors": [
+    "Li GJ",
+    "Bin Johari MH",
+    "Hindle D",
+    "Su S",
+    "Huang SH",
+    "Tadic T",
+    "Spreafico A",
+    "de Almeida JR",
+    "Bratman S",
+    "Bayley A",
+    "Hahn E",
+    "Hope A"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43002987/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": 79,
+   "sample_note": "n=79 patients",
+   "tier": "A",
+   "domain": "口腔鳞癌的免疫微环境与微…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "口咽癌预后",
+   "one_line": "高危非HPV口咽鳞癌治疗前淋巴结生长缓慢，影像间隔时间与预后无关。",
+   "so_what": "为放疗去escalation提供依据，但未涉及免疫微环境。",
+   "caution": "单中心回顾性研究，可能存在选择偏倚。",
+   "score": {
+    "final": 48.6,
+    "match": 40.0,
+    "novelty": 50.0,
+    "rigor": 60.0,
+    "impact": 65.0,
+    "transfer": 70.0
+   },
+   "heuristic": 37.9,
+   "breakdown": {
+    "topic": 5.8,
+    "journal": 15.0,
+    "design": 6,
+    "sample": 5.1,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "PURPOSE: We investigated the risk and prognostic value of pre-treatment nodal progression to inform the safe de-escalation of elective nodal irradiation (ENI) in high-risk oropharyngeal squamous cell carcinoma (OPSCC). METHODS: We identified patients with p16-negative, clinical T4, node-positive OPSCC treated consecutively with definitive radiotherapy between 2008 and 2021 from a prospectively maintained database. Pre-treatment diagnostic scans were compared against simulation scans to evaluate nodal disease based on pre-specified criteria, growth kinetics, and imaging-detected extranodal extension (iENE). Association of nodal factors and oncologic outcomes were assessed using regression models. RESULTS: A total of 79 patients with a median 30-day interval between diagnostic and simulation scan were identified. Nodal growth was minimal with a median absolute change of + 0.5 cc and growth rate of 0.3%/day. Nodal kinetics and duration between imaging were not prognostic for treatment response. While no patients developed de novo pathological nodal disease, 14% of patients had indeterminant nodes on diagnostic scan, with 27% of these becoming pathological at time of simulation. Total nodal volume was highly correlated with presence of iENE, and was prognostic for locoregional failure (HR = 1.02, p = 0.03), distant failure (HR = 1.02, p = 0.02), and progression-free survival (HR = 1.02, p = 0.05). All regional failures were in-field of high dose treatment volumes. CONCLUSIONS: Pre-treatment nodal disease volume, but not growth kinetics, was a prognostic factor in locally advanced OPSCC. While lack of new nodal disease and minimal growth over a 30-day pre-treatment interval supports the investigation of novel timing of ENI, particular care should be taken in patients to identify and appropriately manage indeterminate nodes at risk for progression.",
+   "tags": [
+    "Kinetics",
+    "Nodal",
+    "Oropharyngeal",
+    "Prognosis",
+    "Radiotherapy",
+    "SCC"
+   ]
+  },
+  {
+   "id": "10.1111/odi.70562",
+   "pmid": "43006139",
+   "doi": "10.1111/odi.70562",
+   "title": "Adjunctive Use of Azithromycin to Non-Surgical Periodontal Therapy: Rationale and Evidence for Its Use in Periodontitis-A Scoping Review",
+   "title_zh": "阿奇霉素辅助牙周治疗的宿主调节证据",
+   "journal": "Oral diseases",
+   "date": "2026-11-10",
+   "authors": [
+    "Ramachandra SS",
+    "Woodford V",
+    "Lee RSB",
+    "Arora S",
+    "Han P"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43006139/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": 677,
+   "sample_note": "57 项研究",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "牙周宿主调节",
+   "one_line": "汇总57项研究的scoping review，阿奇霉素 adjunct 对深袋有益但证据不一致",
+   "so_what": "q1的宿主调节思路可参考，但结论不足以改变用药决策",
+   "caution": "回顾性纳入异质性大，多数为small RCT，证据层级不高",
+   "score": {
+    "final": 46.5,
+    "match": 42.0,
+    "novelty": 35.0,
+    "rigor": 55.0,
+    "impact": 30.0,
+    "transfer": 45.0
+   },
+   "heuristic": 63.0,
+   "breakdown": {
+    "topic": 26.2,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 7.5,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "BACKGROUND: Antimicrobials are added as adjuncts to non-surgical periodontal therapy in certain cases to achieve improved outcomes. Among the adjunct antimicrobials that have gained renewed interest is azithromycin, owing to its additional anti-inflammatory and host-modulating properties. This review aims to summarise the pharmacology, adverse effects, and the current evidence for the adjunct use of azithromycin in different forms of periodontitis. METHODS: In vitro studies, randomized controlled trials, and longitudinal studies published in English were searched in MEDLINE, Scopus, Web of Science and Google Scholar (https://osf.io/m8enj/overview). Following screening of 677 articles, 70 articles were subjected to full-text review and ultimately 57 articles were included. RESULTS: In vitro studies demonstrated anti-bacterial, host-modulating, and anti-inflammatory properties of azithromycin with drug concentrating in inflamed tissues. The additional benefits of adjunctive azithromycin are moderate and inconsistent, although deep periodontal pockets may show enhanced improvements. Local delivery of azithromycin demonstrated additional benefits in single-rooted teeth. CONCLUSION: Azithromycin may provide clinical and microbiological benefits, especially in deep periodontal pockets. However, the World Health Organization categorizes azithromycin as a critically important antimicrobial for human medicine. Due to inconsistent results and owing to the importance of azithromycin, the adjunctive use of azithromycin with non-surgical periodontal therapy is currently not recommended.",
+   "tags": [
+    "antibiotic resistance",
+    "anti‐bacterial agents",
+    "azithromycin",
+    "periodontitis",
+    "scoping review"
+   ]
+  },
+  {
+   "id": "10.1111/odi.70569",
+   "pmid": "43006167",
+   "doi": "10.1111/odi.70569",
+   "title": "Bioactive Peptide HX-12C Ameliorates Oral Submucous Fibrosis via Inhibition of TGF-β/Smad-Driven Myofibroblast Activation: A Potential Therapeutic Strategy",
+   "title_zh": "HX-12C肽抑制TGF-β/Smad治疗OSF",
+   "journal": "Oral diseases",
+   "date": "2026-11-10",
+   "authors": [
+    "Huang W",
+    "Shi R",
+    "Wang Y",
+    "Wang X",
+    "Qin Z",
+    "Luo X",
+    "Li K",
+    "Wang B",
+    "Hu Y"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43006167/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "animal",
+   "design_label": "动物实验",
+   "design_level": 2,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "纤维化与免疫",
+   "one_line": "HX-12C肽结合TGFBR1抑制Smad2/3磷酸化，在体内外改善OSF胶原沉积",
+   "so_what": "TGF-β/Smad在q2牙周炎纤维化、q4材料界面响应中均为核心通路，方法可迁移",
+   "caution": "体外→体内跨度大，未验证选择性",
+   "score": {
+    "final": 44.6,
+    "match": 50.0,
+    "novelty": 55.0,
+    "rigor": 45.0,
+    "impact": 40.0,
+    "transfer": 60.0
+   },
+   "heuristic": 26.0,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 9,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To investigate the anti-fibrotic effects and mechanism of action of the bioactive peptide HX-12C in oral submucous fibrosis. MATERIALS AND METHODS: Primary human buccal mucosal fibroblasts were treated with arecoline to induce a myofibroblast phenotype. The effects of HX-12C on cell proliferation, migration and fibrotic markers were assessed. Molecular docking and immunofluorescence were used to examine HX-12C binding to transforming growth factor-beta receptor I, validated by the inhibitor SB-431542. In vivo efficacy was evaluated in a bleomycin-induced rat model of oral submucous fibrosis. RESULTS: HX-12C promoted fibroblast proliferation and migration but suppressed arecoline-induced myofibroblast activation, downregulating alpha-smooth muscle actin, fibronectin and collagens I/III. Mechanistically, HX-12C bound to transforming growth factor-beta receptor I, inhibited SMAD2/3 phosphorylation and downstream pro-fibrotic gene expression, effects attenuated by SB-431542. In vivo, HX-12C improved mouth opening and reduced collagen deposition. CONCLUSIONS: HX-12C exerts potent anti-fibrotic effects by directly targeting transforming growth factor-beta receptor I and inhibiting the canonical transforming growth factor-beta/Smad signalling pathway. Our findings identify HX-12C as a promising therapeutic candidate for oral submucous fibrosis and provide a rationale for developing peptide-based therapies for transforming growth factor-beta-driven fibrotic diseases.",
+   "tags": [
+    "HX‐12C",
+    "TGF‐β/Smad signalling",
+    "arecoline",
+    "bioactive peptide",
+    "fibroblast",
+    "myofibroblast"
+   ]
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 5
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 5
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 5
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 5
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 5
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 5
+  }
+ ],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}

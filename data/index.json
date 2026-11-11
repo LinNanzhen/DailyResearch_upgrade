@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-10T12:44:14+08:00",
- "latest": "2026-11-10",
+ "updated_at": "2026-11-11T10:55:08+08:00",
+ "latest": "2026-11-11",
  "days": [
+  {
+   "date": "2026-11-11",
+   "must_title": "Leveraging Mendelian Randomisation for Causal Inference in Endodontics",
+   "must_title_zh": "CDKN1A介导成骨细胞RCD致根尖骨破坏",
+   "cluster": "根尖周骨免疫机制",
+   "count": 10,
+   "ai": true
+  },
   {
    "date": "2026-11-10",
    "must_title": "Smoking-Related Oral Health and Dental Aesthetic Signature: Digital and Clinical Findings from the SMILE Study",
