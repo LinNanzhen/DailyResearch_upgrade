@@ -1,7 +1,7 @@
 # 口腔文献日课 · Daily Research
 
 每天 **2 篇精读 + 8 篇速览**，从 150–250 篇新论文里筛出来。
-GitHub Actions 每天 07:30 自动跑：**一封邮件 + 一个网页**，内容是同一份结果；你在页面上读、标记、否决，反馈回流到下一次筛选。
+GitHub Actions 每天 05:30 自动跑：**一封邮件 + 一个网页**，内容是同一份结果；你在页面上读、标记、否决，反馈回流到下一次筛选。
 
 旧版界面保留在 [`legacy/index.html`](legacy/index.html)。
 
@@ -11,7 +11,7 @@ GitHub Actions 每天 07:30 自动跑：**一封邮件 + 一个网页**，内容
 
 ![每日邮件](docs/preview-email.png)
 
-<sub>上图：每天 07:30 的邮件（演示数据）。</sub>
+<sub>上图：每天 05:30 的邮件（演示数据）。</sub>
 
 ---
 
@@ -62,7 +62,7 @@ Pages 保持 `Settings → Pages → Deploy from a branch → main / (root)` 即
 
 ## 邮件推送
 
-默认每天 07:30 把当天十篇发到 **lnz985211@gmail.com**（收件人在 `config/profile.yml → delivery.email.to`，可改）。
+默认每天 05:30 把当天十篇发到 **lnz985211@gmail.com**（收件人在 `config/profile.yml → delivery.email.to`，可改）。
 
 ### 推荐：Resend（约 5 分钟）
 

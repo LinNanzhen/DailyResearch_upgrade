@@ -2,8 +2,8 @@ name: daily-digest
 
 on:
   schedule:
-    # 07:30 Asia/Shanghai = 23:30 UTC (previous day)
-    - cron: "30 23 * * *"
+    # 05:30 Asia/Shanghai = 21:30 UTC (previous day)
+    - cron: "30 21 * * *"
   workflow_dispatch:
     inputs:
       days:
@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 env:
-  # runner 默认 UTC；07:30 CST = 23:30 UTC，若不指定 TZ，date.today() 仍算前一天
+  # runner 默认 UTC；05:30 CST = 21:30 UTC，若不指定 TZ，date.today() 仍算前一天
   TZ: Asia/Shanghai
 
 concurrency:
