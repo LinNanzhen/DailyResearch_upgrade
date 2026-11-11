@@ -243,3 +243,28 @@ delivery:
     from: "口腔文献日课 <onboarding@resend.dev>"
     site_url: https://linnanzhen.github.io/DailyResearch_upgrade/
     send_when_empty: false
+
+# ------------------------------------------------------------
+# ⑧ 质检与修复（OpenCode Go）
+# 流程：规则质检 → OpenCode Go 评委复核 → 不合格则用 MiMo-V2.6-Flash 重写
+# Secret: OPENCODE_API_KEY（GitHub → Settings → Secrets → Actions）
+# 文档：https://opencode.ai/docs/console/go/
+# ------------------------------------------------------------
+quality:
+  enabled: true
+  min_score: 70
+  max_repairs: 1
+  judge:
+    enabled: true
+    base_url: https://opencode.ai/inference/go/openai/v1
+    model: glm-5.3-flash
+    api_key_env: OPENCODE_API_KEY
+    temperature: 0.1
+    timeout: 120
+  repair:
+    enabled: true
+    base_url: https://opencode.ai/inference/go/openai/v1
+    model: mimo-v2.6-flash
+    api_key_env: OPENCODE_API_KEY
+    temperature: 0.2
+    timeout: 180

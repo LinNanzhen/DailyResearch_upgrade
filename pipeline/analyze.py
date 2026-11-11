@@ -148,7 +148,11 @@ def _clean_scores(item: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 
-def deep_read(llm: AgnesLLM, profile: Dict[str, Any], paper: Dict[str, Any]) -> Dict[str, Any]:
+def deep_read(llm: AgnesLLM, profile: Dict[str, Any], paper: Dict[str, Any],
+              issues: Optional[List[str]] = None) -> Dict[str, Any]:
+    fixes = ""
+    if issues:
+        fixes = "\n上一版被质检判为不合格，问题如下，本次必须逐条补齐：\n" + "\n".join(f"- {x}" for x in issues[:6]) + "\n"
     prompt = f"""{_profile_brief(profile)}
 
 精读这篇论文，写成一份能让我 20 分钟内真正消化的结构化笔记。
@@ -156,7 +160,7 @@ def deep_read(llm: AgnesLLM, profile: Dict[str, Any], paper: Dict[str, Any]) -> 
 标题：{paper['title']}
 期刊：{paper['journal']}｜{paper.get('date')}｜设计粗判：{paper.get('design_label')}
 摘要：{paper.get('abstract', '')[:2600]}
-
+{fixes}
 严格按下面的 JSON 输出（中文；不能从摘要确认的信息写"摘要未说明"，禁止编造数字）：
 {{
  "title_zh": "准确的中文标题",

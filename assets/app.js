@@ -135,9 +135,13 @@
       <span style="margin-left:auto">屏蔽 ${esc(stats.raw_dropped_type ?? 0)} 条社论/病例 · 无摘要 ${esc(stats.no_abstract ?? 0)} 条</span>`;
 
     const notice = $("#notice");
-    notice.innerHTML = d.ai
+    const failed = Number(stats.quality_failed || 0);
+    const qBanner = failed
+      ? `<div class="banner"><b>质检未过 ${failed} 篇</b><span>规则或评委模型判定精读卡不完整；已尝试用 MiMo 重写，仍未过。看卡片里的「质检」标记，或等下一班。</span></div>`
+      : "";
+    notice.innerHTML = (d.ai
       ? ""
-      : `<div class="banner"><b>未接入模型</b><span>这一班只有确定性排序：没有精读卡、没有「与我的关系」点评。在仓库 Secrets 里加上 AGNES_API_KEY，下一班会自动补上。</span></div>`;
+      : `<div class="banner"><b>未接入模型</b><span>这一班只有确定性排序：没有精读卡、没有「与我的关系」点评。在仓库 Secrets 里加上 AGNES_API_KEY，下一班会自动补上。</span></div>`) + qBanner;
   }
 
   function probe(level, label) {
@@ -218,7 +222,7 @@
         ${probe(p.design_level, p.design_label || "未标注")}
         <article class="sheet">
           <header class="sheet-head">
-            <p class="eyebrow">${String(idx).padStart(2, "0")} · 精读 ${idx}/${total} <span class="tier">${esc(p.tier || "C")} 级</span> ${p.cluster ? `<span class="tier">${esc(p.cluster)}</span>` : ""}</p>
+            <p class="eyebrow">${String(idx).padStart(2, "0")} · 精读 ${idx}/${total} <span class="tier">${esc(p.tier || "C")} 级</span> ${p.cluster ? `<span class="tier">${esc(p.cluster)}</span>` : ""}${qualityBadge(p)}</p>
             <h3>${esc(title)}</h3>
             ${orig ? `<p class="orig-title">${esc(orig)}</p>` : ""}
             <div class="meta-line">${meta.map((m) => `<span>${esc(m)}</span>`).join("")}</div>
@@ -239,6 +243,13 @@
           </div>
         </article>
       </div>`;
+  }
+
+  function qualityBadge(p) {
+    const q = p.deep && p.deep.quality;
+    if (!q) return "";
+    const label = q.repaired_by ? `质检 ${Math.round(q.score)} · ${q.repaired_by} 重写` : `质检 ${Math.round(q.score)}`;
+    return `<span class="tier ${q.passed ? "" : "tier-bad"}">${esc(label)}</span>`;
   }
 
   function renderMust(d) {

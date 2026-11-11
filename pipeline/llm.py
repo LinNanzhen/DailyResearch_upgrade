@@ -1,4 +1,4 @@
-"""Minimal OpenAI-compatible client for Agnes AI (agnes-2.5-flash)."""
+"""Minimal OpenAI-compatible client (Agnes / OpenCode Go / any compatible gateway)."""
 from __future__ import annotations
 
 import json
@@ -66,12 +66,16 @@ class AgnesLLM:
         model: str = "agnes-2.5-flash",
         temperature: float = 0.2,
         timeout: int = 120,
+        user_agent: str = "daily-dental-digest/1.0",
+        session_id: str = "",
     ) -> None:
         self.api_key = api_key or os.environ.get("AGNES_API_KEY", "")
         self.base_url = base_url.rstrip("/")
         self.model = model
         self.temperature = temperature
         self.timeout = timeout
+        self.user_agent = user_agent
+        self.session_id = session_id or os.urandom(8).hex()
         self.calls = 0
         self.prompt_tokens = 0
         self.completion_tokens = 0
@@ -82,7 +86,7 @@ class AgnesLLM:
 
     def chat(self, messages: List[Dict[str, str]], max_tokens: int = 3000, json_mode: bool = False) -> str:
         if not self.enabled:
-            raise LLMError("AGNES_API_KEY not set")
+            raise LLMError("no API key for this client")
         payload: Dict[str, Any] = {
             "model": self.model,
             "messages": messages,
@@ -98,10 +102,7 @@ class AgnesLLM:
             try:
                 resp = requests.post(
                     f"{self.base_url}/chat/completions",
-                    headers={
-                        "Authorization": f"Bearer {self.api_key}",
-                        "Content-Type": "application/json",
-                    },
+                    headers=self._headers(),
                     json=payload,
                     timeout=self.timeout,
                 )
@@ -131,6 +132,19 @@ class AgnesLLM:
                 if attempt < 3:
                     time.sleep(2 * (attempt + 1))
         raise LLMError(f"request failed: {last_err}")
+
+    def _headers(self) -> Dict[str, str]:
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json",
+            "User-Agent": self.user_agent,
+            "Accept": "application/json",
+        }
+        # OpenCode Go asks clients to send a stable session id so it can route
+        # and cache properly (see opencode.ai/docs/console/go#where-can-i-use-it).
+        if "opencode.ai" in self.base_url:
+            headers["x-opencode-session"] = self.session_id
+        return headers
 
     def chat_json(self, messages: List[Dict[str, str]], max_tokens: int = 3000) -> Any:
         raw = self.chat(messages, max_tokens=max_tokens, json_mode=False)

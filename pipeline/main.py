@@ -9,7 +9,7 @@ import traceback
 from datetime import date, timedelta
 from typing import Any, Dict, List
 
-from . import analyze, fetch, render, score
+from . import analyze, fetch, quality, render, score
 from .llm import AgnesLLM, LLMError
 from .settings import ROOT, load_profile, journal_tiers
 
@@ -120,14 +120,36 @@ def run(args: argparse.Namespace) -> int:
     log(f"[4/6] 选定：精读 {len(musts)} 篇 + 速览 {len(scans)} 篇")
 
     ai_ok = use_llm and any(p.get("ai") for p in musts + scans if p)
+    judge_client = quality.make_judge(profile)
+    repair_client = quality.make_repair(profile)
+    if judge_client:
+        log(f"      质检模型：{judge_client.model}（opencode go）")
+    if repair_client:
+        log(f"      修复模型：{repair_client.model}（opencode go）")
+
     for idx, m in enumerate(musts, start=1):
-        if not ai_ok:
-            break
-        try:
-            m["deep"] = analyze.deep_read(llm, profile, m)
-            log(f"      精读卡 {idx}/{len(musts)} 生成完成")
-        except (LLMError, Exception) as exc:  # noqa: BLE001
-            log(f"      精读卡 {idx} 失败：{exc}")
+        deep = None
+        if ai_ok:
+            try:
+                deep = analyze.deep_read(llm, profile, m)
+            except (LLMError, Exception) as exc:  # noqa: BLE001
+                log(f"      精读卡 {idx} 生成失败：{exc}")
+        if deep is None and not (repair_client and repair_client.enabled):
+            m["deep"] = None
+            continue
+        deep, record = quality.ensure(
+            deep, m, profile,
+            judge_client=judge_client,
+            repair_client=repair_client,
+            primary_client=llm if llm.enabled else None,
+        )
+        m["deep"] = deep
+        if record["passed"]:
+            log(f"      精读卡 {idx} 质检通过（{record['score']:.0f} 分"
+                + (f"，judge {record['judge_score']:.0f}" if record.get("judge_score") is not None else "")
+                + (f"，由 {record['repaired_by']} 重写" if record.get("repaired_by") else "") + "）")
+        else:
+            log(f"      精读卡 {idx} 质检未过（{record['score']:.0f} 分）：" + "；".join(record["problems"][:3]))
 
     weekly = None
     if args.weekly or (today.weekday() == 6 and llm.enabled and not args.no_llm):
@@ -170,6 +192,8 @@ def run(args: argparse.Namespace) -> int:
         "ai": bool(ai_ok),
         "feedback_files": feedback.get("files", 0),
         "calls": llm.usage().get("calls", 0),
+        "quality_failed": len([m for m in musts if ((m.get("deep") or {}).get("quality") or {}).get("passed") is False]),
+        "quality_repaired": len([m for m in musts if ((m.get("deep") or {}).get("quality") or {}).get("repaired_by")]),
     }
     day = render.build_day(
         profile, musts, scans, backlog, stats,

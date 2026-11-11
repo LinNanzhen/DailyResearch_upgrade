@@ -795,3 +795,5 @@ a:hover { text-decoration-thickness: 2px; }
 
 /* multiple deep reads */
 .must-wrap + .must-wrap { margin-top: 64px; padding-top: 8px; }
+
+.tier-bad { border-color: var(--eosin) !important; color: var(--eosin) !important; }

@@ -77,6 +77,19 @@ def _button(label: str, href: str, primary: bool = True) -> str:
     return f'<a href="{_esc(href)}" style="{style}">{_esc(label)}</a>'
 
 
+def quality_note(p: Dict[str, Any]) -> str:
+    q = ((p.get("deep") or {}).get("quality") or {})
+    if not q:
+        return ""
+    label = f"质检 {round(float(q.get('score') or 0))} 分"
+    if q.get("repaired_by"):
+        label += f" · 由 {q['repaired_by']} 重写"
+    if not q.get("passed"):
+        label += " · 未通过，内容可能残缺"
+    color = TEAL if q.get("passed") else EOSIN
+    return f'<div style="font-family:{MONO};font-size:10px;color:{color};padding-top:10px">{_esc(label)}</div>'
+
+
 def _section_label(text: str) -> str:
     return (
         f'<div style="font-family:{MONO};font-size:10px;letter-spacing:.14em;color:{FAINT};'
@@ -167,6 +180,7 @@ def _must_read_block(p: Dict[str, Any], day: Dict[str, Any], cfg: Dict[str, Any]
           {_button("打开原文", p.get("url") or "#")}
           &nbsp;&nbsp;{_button("在网页里读", day_url(day, cfg), primary=False)}
         </div>
+        {quality_note(p)}
       </td></tr>
     </table>"""
 

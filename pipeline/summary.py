@@ -23,6 +23,10 @@ def main() -> int:
     print(f"- 候选 {day.get('stats', {}).get('candidates', '?')} 篇 → 留下 {(1 if must else 0) + len(day.get('scan') or [])} 篇")
     if must:
         print(f"- 精读：**{must.get('title_zh') or must.get('title')}** (`{must.get('journal')}`)")
+        passed = sum(1 for m in (day.get("must_reads") or []) if ((m.get("deep") or {}).get("quality") or {}).get("passed"))
+        repaired = sum(1 for m in (day.get("must_reads") or []) if ((m.get("deep") or {}).get("quality") or {}).get("repaired_by"))
+        if passed or repaired:
+            print(f"- 质检：{passed}/{len(day.get('must_reads') or [])} 通过，{repaired} 篇自动重写")
     for p in day.get("scan") or []:
         print(f"- 速览：{p.get('title_zh') or p.get('title')}")
     return 0

@@ -45,11 +45,12 @@ GitHub Actions 每天 07:30 自动跑：**一封邮件 + 一个网页**，内容
 
 ## 接入（3 步，约 5 分钟）
 
-1. **拿 Key**：到 [platform.agnes-ai.com](https://platform.agnes-ai.com) 注册 → API Keys → 新建。
+1. **拿 Key**：到 [platform.agnes-ai.com](https://platform.agnes-ai.com) 注册 → API Keys → 新建；质检还需要 [OpenCode Go](https://opencode.ai/console) 的 `OPENCODE_API_KEY`（见下文「质检与自动修复」）。
    模型用 `agnes-2.5-flash`（OpenAI 兼容，当前限免；价格以 [官方定价页](https://agnes-ai.com/docs/pricing) 为准）。
 2. **存 Secret**：本仓库 `Settings → Secrets and variables → Actions → New repository secret`
-   - Name: `AGNES_API_KEY`（也兼容你已有的 `AGNES`）
-   - Secret: 你的 Key
+   - Name: `AGNES_API_KEY`（也兼容你已有的 `AGNES`）｜Secret: 你的 Agnes Key
+   - Name: `OPENCODE_API_KEY`（可选，质检 + MiMo 重写）｜Secret: OpenCode Go 的 Key
+   - Name: `RESEND_API_KEY`（可选，邮件）｜Secret: Resend 的 Key
 3. **开权限并试跑**：`Settings → Actions → General → Workflow permissions` 选 **Read and write**；
    然后 `Actions → daily-digest → Run workflow` 手动跑一次。
 
@@ -92,6 +93,47 @@ Gmail 要先开两步验证才能生成[应用专用密码](https://myaccount.go
 - HTML + 纯文本双版本，手机邮件客户端可读；
 - 周日多一段「本周地图」；
 - 发信失败不会让当天的数据丢失（数据先落盘、再发信）。
+
+---
+
+## 质检与自动修复
+
+每张精读卡生成后要过三道关，全部记录在 `deep.quality` 里，页面和邮件都会显示「质检 92 · 已重写」这类标记。
+
+| 层 | 谁来做 | 查什么 | 失败后 |
+|---|---|---|---|
+| 1. 规则质检 | 本地代码，无需 Key | 字段为空/占位符、证据不足 2 条、追问不足、文本截断、多条证据文案重复 | 进第 2 层 |
+| 2. 评委复核 | OpenCode Go（默认 `glm-5.3-flash`） | 完整性、是否忠实于摘要（禁止编造数字）、是否具体 | 进第 3 层 |
+| 3. 重写 | OpenCode Go（`mimo-v2.6-flash`） | 带着前两层的 `problems` 重新生成，再走一次规则质检 + 评委 | 仍不过就标记「质检未过」 |
+
+### 需要加一个 Secret
+
+`OPENCODE_API_KEY`（Settings → Secrets and variables → Actions）。
+
+获取方式：登录 [OpenCode Console](https://opencode.ai/console)，订阅 Go（$10/月），在 Console 复制 API key。模型走 OpenAI 兼容端点：
+
+```
+https://opencode.ai/inference/go/openai/v1
+model: glm-5.3-flash   # 质检
+model: mimo-v2.6-flash # 重写
+```
+
+没有这个 Key 时，第 1 层规则质检仍然工作，只是不会调用评委、也不会自动重写；卡片上会显示规则质检的分数。
+
+### 修复已经生成的那一天
+
+如果某天的卡片已经坏了，不用等下一班：
+
+- **网页操作**：Actions → `repair-digest` → Run workflow → 填日期（如 `2026-11-11`）
+- **本地**：
+
+```bash
+export OPENCODE_API_KEY=...
+python -m pipeline.repair --date 2026-11-11
+python -m pipeline.repair --date 2026-11-11 --dry-run   # 只看分数，不写文件
+```
+
+只重写没过质检的卡片，通过的保持原样；修完会重写 `data/`、`notes/`，Pages 自动更新。
 
 ---
 
