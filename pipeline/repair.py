@@ -15,7 +15,7 @@ from . import quality, render
 from .settings import DAILY_DIR, load_profile
 
 
-def repair_day(date: str, profile: Dict[str, Any], dry_run: bool = False) -> int:
+def repair_day(date: str, profile: Dict[str, Any], dry_run: bool = False, send_email: bool = False) -> int:
     path = DAILY_DIR / f"{date}.json"
     if not path.exists():
         print(f"找不到 {path}")
@@ -61,6 +61,14 @@ def repair_day(date: str, profile: Dict[str, Any], dry_run: bool = False) -> int
     render.write_note(day)
     render.write_index(day["date"])
     print(f"已写回 data/daily/{date}.json 与 notes/{date}.md")
+
+    if send_email:
+        try:
+            from .emailer import send_day
+            result = send_day(day, profile)
+            print(f"[email] {result}" if result.get("sent") else f"[email] 跳过：{result.get('reason')}")
+        except Exception as exc:  # noqa: BLE001
+            print(f"[email] 发送失败：{exc}")
     return 0
 
 
@@ -68,8 +76,9 @@ def main(argv: List[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Repair deep-read cards in an existing digest")
     parser.add_argument("--date", required=True, help="YYYY-MM-DD")
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--email", action="store_true", help="修好后重发一封邮件")
     args = parser.parse_args(argv)
-    return repair_day(args.date, load_profile(), dry_run=args.dry_run)
+    return repair_day(args.date, load_profile(), dry_run=args.dry_run, send_email=args.email)
 
 
 if __name__ == "__main__":

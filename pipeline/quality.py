@@ -147,7 +147,7 @@ AI 写的精读卡：
     return [{"role": "system", "content": JUDGE_SYSTEM}, {"role": "user", "content": user}]
 
 
-def judge(client: AgnesLLM, paper: Dict[str, Any], deep: Dict[str, Any]) -> Dict[str, Any]:
+def judge(client: AgnesLLM, paper: Dict[str, Any], deep: Dict[str, Any], min_score: float = 70.0) -> Dict[str, Any]:
     data = client.chat_json(judge_prompt(paper, deep), max_tokens=900)
     if not isinstance(data, dict):
         raise LLMError("judge returned non-object")
@@ -160,7 +160,7 @@ def judge(client: AgnesLLM, paper: Dict[str, Any], deep: Dict[str, Any]) -> Dict
     faithful = bool(data.get("faithful"))
     return {
         "score": max(0.0, min(100.0, score)),
-        "passed": score >= 70 and complete and faithful,
+        "passed": score >= min_score and complete and faithful,
         "problems": problems,
         "complete": complete,
         "faithful": faithful,
@@ -187,7 +187,7 @@ def ensure(
         if not judge_client or not judge_client.enabled:
             return None
         try:
-            return judge(judge_client, paper, card)
+            return judge(judge_client, paper, card, min_score=min_score)
         except Exception as exc:  # noqa: BLE001 - a judge failure must not kill the run
             print(f"[quality] judge failed: {exc}")
             return None
@@ -242,7 +242,12 @@ def make_client(section: Dict[str, Any], default_env: str = "OPENCODE_API_KEY") 
     """Build a client from a quality.{judge,repair} config block."""
     if not section or not section.get("enabled", True):
         return None
-    key = os.environ.get(str(section.get("api_key_env") or default_env), "").strip()
+    env_names = [str(section.get("api_key_env") or default_env), "OPENCODE_API_KEY", "OPENCODE_GO_API_KEY", "OPENCODE_KEY"]
+    key = ""
+    for name in env_names:
+        key = os.environ.get(name, "").strip()
+        if key:
+            break
     if not key:
         return None
     return AgnesLLM(
@@ -256,8 +261,12 @@ def make_client(section: Dict[str, Any], default_env: str = "OPENCODE_API_KEY") 
 
 
 def make_judge(profile: Dict[str, Any]) -> Optional[AgnesLLM]:
+    if not (profile.get("quality") or {}).get("enabled", True):
+        return None
     return make_client((profile.get("quality") or {}).get("judge") or {})
 
 
 def make_repair(profile: Dict[str, Any]) -> Optional[AgnesLLM]:
+    if not (profile.get("quality") or {}).get("enabled", True):
+        return None
     return make_client((profile.get("quality") or {}).get("repair") or {})

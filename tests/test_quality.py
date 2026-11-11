@@ -143,6 +143,22 @@ class TestEnsure(unittest.TestCase):
         self.assertFalse(result["passed"])
 
 
+class TestHeaders(unittest.TestCase):
+    def test_opencode_session_header(self):
+        from pipeline.llm import AgnesLLM
+        client = AgnesLLM(api_key="sk-test", base_url="https://opencode.ai/inference/go/openai/v1",
+                          model="mimo-v2.6-flash", user_agent="daily-dental-digest/2.0")
+        headers = client._headers()
+        self.assertEqual(headers["Authorization"], "Bearer sk-test")
+        self.assertIn("x-opencode-session", headers)
+        self.assertEqual(headers["User-Agent"], "daily-dental-digest/2.0")
+
+    def test_non_opencode_has_no_session_header(self):
+        from pipeline.llm import AgnesLLM
+        client = AgnesLLM(api_key="sk-test", base_url="https://apihub.agnes-ai.com/v1")
+        self.assertNotIn("x-opencode-session", client._headers())
+
+
 class TestClientFactory(unittest.TestCase):
     def test_missing_key(self):
         with patch.dict("os.environ", {}, clear=True):

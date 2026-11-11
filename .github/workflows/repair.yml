@@ -7,6 +7,11 @@ on:
         description: "要修复的日期（YYYY-MM-DD）"
         required: true
         type: string
+      send_email:
+        description: "修好后重发一封邮件"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -33,7 +38,7 @@ jobs:
         env:
           OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
           AGNES_API_KEY: ${{ secrets.AGNES_API_KEY || secrets.AGNES }}
-        run: python -m pipeline.repair --date "${{ inputs.date }}"
+        run: python -m pipeline.repair --date "${{ inputs.date }}" ${{ inputs.send_email && '--email' || '' }}
 
       - name: Commit
         run: |
