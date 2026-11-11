@@ -445,9 +445,7 @@
      "score": 100.0,
      "judge_score": 92.0,
      "problems": [
-      "transferable 似乎被截断",
-      "relation 字段引用的 q1/q4 为外部研究问题，非摘要内容，若验收仅以摘要为事实来源需确认其合理性",
-      "transferable 字段末尾被截断（'拿到机…'），内容不完整"
+      "transferable 似乎被截断"
      ],
      "repaired_by": "",
      "attempts": 0
