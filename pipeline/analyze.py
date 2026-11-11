@@ -5,7 +5,7 @@ import json
 import re
 from typing import Any, Dict, List, Optional
 
-from .llm import AgnesLLM, LLMError
+from .llm import AgnesLLM, LLMError, _extract_json
 from .score import DESIGN_POINTS
 
 SYSTEM = (
@@ -161,7 +161,7 @@ def deep_read(llm: AgnesLLM, profile: Dict[str, Any], paper: Dict[str, Any],
 期刊：{paper['journal']}｜{paper.get('date')}｜设计粗判：{paper.get('design_label')}
 摘要：{paper.get('abstract', '')[:2600]}
 {fixes}
-严格按下面的 JSON 输出（中文；不能从摘要确认的信息写"摘要未说明"，禁止编造数字）：
+严格按下面的 JSON 输出（中文）。事实边界：只能写摘要里出现过的设计细节（随机/盲法/分组/剂量/随访）；摘要没写的，写"摘要未说明"，不要补全，也不要自己算百分比。
 {{
  "title_zh": "准确的中文标题",
  "one_sentence": "≤40 字：一句话结论（含方向与强度）",
@@ -179,12 +179,40 @@ def deep_read(llm: AgnesLLM, profile: Dict[str, Any], paper: Dict[str, Any],
  "reading_minutes": 12
 }}
 只输出对象。"""
-    data = llm.chat_json([{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}], max_tokens=2600)
+    messages = [{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}]
+    data = llm.chat_json(messages, max_tokens=2600)
+    card = _coerce_card(data)
+    if card is None:
+        # MiMo sometimes wraps the object in prose or a JSON string; ask once more,
+        # explicitly and tersely, before giving up.
+        print(f"[analyze] deep read non-object ({type(data).__name__}): {str(data)[:300]}")
+        retry = messages + [
+            {"role": "assistant", "content": str(data)[:800]},
+            {"role": "user", "content": "只输出一个 JSON 对象（不要数组、不要 markdown、不要解释），字段与上面要求完全一致。"},
+        ]
+        card = _coerce_card(llm.chat_json(retry, max_tokens=2600))
+    if card is None:
+        raise LLMError("deep read returned non-object")
+    return _clean_deep(card)
+
+
+def _coerce_card(data: Any) -> Optional[Dict[str, Any]]:
+    """Accept the many shapes models use for one card."""
+    if isinstance(data, str):
+        try:
+            data = _extract_json(data)
+        except Exception:
+            return None
     if isinstance(data, list):
         data = next((x for x in data if isinstance(x, dict)), None)
-    if not isinstance(data, dict):
-        raise LLMError("deep read returned non-object")
-    return _clean_deep(data)
+    if isinstance(data, dict):
+        for key in ("deep", "card", "result", "data", "output", "笔记"):
+            inner = data.get(key)
+            if isinstance(inner, dict) and any(k in inner for k in ("findings", "question", "one_sentence")):
+                return inner
+        if any(k in data for k in ("findings", "question", "one_sentence", "design")):
+            return data
+    return None
 
 
 def _clean_deep(d: Dict[str, Any]) -> Dict[str, Any]:
@@ -194,7 +222,7 @@ def _clean_deep(d: Dict[str, Any]) -> Dict[str, Any]:
             findings.append({"claim": _clip(f.get("claim"), 120), "evidence": _clip(f.get("evidence"), 160)})
         elif isinstance(f, str):
             findings.append({"claim": _clip(f, 120), "evidence": ""})
-    followups = [_clip(x, 90) for x in (d.get("followups") or []) if str(x).strip()][:3]
+    followups = [_clip(x, 140) for x in (d.get("followups") or []) if str(x).strip()][:3]
     limits = [_clip(x, 100) for x in (d.get("limitations") or []) if str(x).strip()][:3]
     glossary = []
     for g in d.get("glossary") or []:
@@ -206,7 +234,7 @@ def _clean_deep(d: Dict[str, Any]) -> Dict[str, Any]:
         minutes = 12
     return {
         "title_zh": _clip(d.get("title_zh"), 120),
-        "one_sentence": _clip(d.get("one_sentence"), 60),
+        "one_sentence": _clip(d.get("one_sentence"), 90),
         "question": _clip(d.get("question"), 200),
         "design": _clip(d.get("design"), 200),
         "sample_desc": _clip(d.get("sample_desc"), 160),

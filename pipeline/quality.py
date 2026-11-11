@@ -77,7 +77,7 @@ def lint(deep: Optional[Dict[str, Any]]) -> Dict[str, Any]:
         elif len(value) < min_len:
             penalise(6, f"{field} 过短（{len(value)} 字）")
         elif TRUNCATED_RE.search(value):
-            penalise(4, f"{field} 似乎被截断")
+            problems.append(f"{field} 似乎被截断")
 
     if not _s(deep.get("title_zh")):
         penalise(4, "缺少中文标题")
