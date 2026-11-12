@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-11T13:26:44+08:00",
- "latest": "2026-11-11",
+ "updated_at": "2026-11-12T10:26:47+08:00",
+ "latest": "2026-11-12",
  "days": [
+  {
+   "date": "2026-11-12",
+   "must_title": "BMPR1A in Periodontal Ligament Stem Cells Controls Periodontal Bone Homeostasis via Dual Roles",
+   "must_title_zh": "BMPR1A在牙周韧带干细胞中通过双重作用控制牙周骨稳态",
+   "cluster": "牙周骨稳态免疫调控",
+   "count": 10,
+   "ai": true
+  },
   {
    "date": "2026-11-11",
    "must_title": "Leveraging Mendelian Randomisation for Causal Inference in Endodontics",

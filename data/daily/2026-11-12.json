@@ -1,0 +1,1047 @@
+{
+ "date": "2026-11-12",
+ "generated_at": "2026-11-12T10:26:47+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 6,
+  "prompt_tokens": 14800,
+  "completion_tokens": 11087
+ },
+ "stats": {
+  "candidates": 138,
+  "raw": 138,
+  "fetched": 21,
+  "raw_dropped_type": 14,
+  "no_abstract": 2,
+  "gated": 21,
+  "scored": 21,
+  "shown": 10,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 6,
+  "quality_failed": 0,
+  "quality_repaired": 1
+ },
+ "must_read": {
+  "id": "10.1177/00220345261498043",
+  "pmid": "43012386",
+  "doi": "10.1177/00220345261498043",
+  "title": "BMPR1A in Periodontal Ligament Stem Cells Controls Periodontal Bone Homeostasis via Dual Roles",
+  "title_zh": "BMPR1A在牙周韧带干细胞中通过双重作用控制牙周骨稳态",
+  "journal": "Journal of dental research",
+  "date": "2026-11-11",
+  "authors": [
+   "Yang Y",
+   "Liu Y",
+   "Cai Y",
+   "Xue K",
+   "Xu C",
+   "Ding Y",
+   "Wang J",
+   "Xie X"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43012386/",
+  "pmcid": "",
+  "cited_by": 0,
+  "design": "animal",
+  "design_label": "动物实验",
+  "design_level": 2,
+  "sample_n": null,
+  "sample_note": "",
+  "tier": "A",
+  "domain": "种植与骨再生",
+  "methods": [
+   "multiomics"
+  ],
+  "pub_types": [
+   "Journal Article"
+  ],
+  "is_open_access": false,
+  "cluster": "牙周骨稳态免疫调控",
+  "one_line": "Gli1+ PDLSC特异性敲除Bmpr1a的小鼠出现牙槽骨吸收和骨形成缺陷，条件培养基促进破骨分化，蛋白组学揭示潜在…",
+  "so_what": "直接回应q1/q4：干细胞谱系-BMP信号-破骨耦合是新机制锚点，条件培养基+空间邻近分析可直接迁…",
+  "caution": "主要在啮齿类验证；人源PDLSC条件培养需进一步确认临床相关性。",
+  "score": {
+   "final": 71.1,
+   "match": 82.0,
+   "novelty": 72.0,
+   "rigor": 70.0,
+   "impact": 65.0,
+   "transfer": 78.0
+  },
+  "heuristic": 55.7,
+  "breakdown": {
+   "topic": 22.5,
+   "journal": 15.0,
+   "design": 9,
+   "sample": 0.0,
+   "fresh": 7.0,
+   "method": 2.2
+  },
+  "abstract": "Periodontal homeostasis, the delicate balance between bone formation and resorption, is essential for tooth support. While Gli1 is an established marker for periodontal ligament stem cells (PDLSCs), the molecular pathways governing their homeostatic function remain largely unknown. We found that canonical bone morphogenetic protein (BMP) signaling activity is positively correlated with periodontal tissue status. To establish a causal relationship, we specifically ablated the BMP receptor type 1A (Bmpr1a) in Gli1+ PDLSCs of male mice. This genetic manipulation resulted in a periodontal destruction phenotype, featuring alveolar bone loss, cementum defects, and disrupted collagen fiber organization. At the mechanistic level, Bmpr1a deletion not only compromised the osteogenic capacity of Gli1+ PDLSCs but also promoted osteoclastogenesis. The enhanced bone resorption was associated with a close spatial proximity between Gli1-lineage cells and osteoclasts. Conditioned medium from BMPR1A-deficient human PDLSCs significantly enhanced osteoclast differentiation, and proteomic analysis identified an elevated RANKL/OPG ratio as the underlying cause. Our results uncover a novel role for PDLSCs in bone remodeling, demonstrating that BMPR1A in Gli1+ PDLSCs orchestrates periodontal homeostasis by coupling the direct promotion of osteogenic differentiation with the indirect inhibition of osteoclastogenesis via paracrine RANKL/OPG regulation.",
+  "tags": [
+   "RANK ligand",
+   "cell lineage",
+   "osteoclastogenesis",
+   "osteogenesis",
+   "periodontal diseases",
+   "periodontium"
+  ],
+  "deep": {
+   "title_zh": "BMPR1A在牙周韧带干细胞中通过双重作用控制牙周骨稳态",
+   "one_sentence": "BMPR1A在Gli1+ PDLSC中同时发挥直接促骨形成与间接抑骨吸收的双向调控作用，双路径共同维持牙周骨稳态。",
+   "question": "Gli1+ PDLSC中的BMPR1A如何通过直接成骨效应和间接破骨调控两条通路共同维持牙周骨稳态？",
+   "design": "小鼠条件性基因敲除模型：在Gli1+ PDLSC中特异性删除Bmpr1a；人源PDLSC条件培养基实验；蛋白质组学分析",
+   "sample_desc": "雄性小鼠（摘要未说明具体品系与数量）；人PDLSC（来源摘要未说明）",
+   "findings": [
+    {
+     "claim": "BMP经典信号活性与牙周组织健康状态呈正相关",
+     "evidence": "观察到的相关性描述，具体数据摘要未提供"
+    },
+    {
+     "claim": "Bmpr1a特异性敲除导致牙周破坏表型",
+     "evidence": "牙槽骨丢失、牙骨质缺陷、胶原纤维排列紊乱，摘要未说明具体测量指标与统计结果"
+    },
+    {
+     "claim": "Bmpr1a缺失损害Gli1+ PDLSC的成骨分化能力",
+     "evidence": "摘要未提供具体定量数据"
+    },
+    {
+     "claim": "Bmpr1a缺失促进破骨细胞生成",
+     "evidence": "Gli1谱系细胞与破骨细胞呈现紧密空间邻近关系"
+    }
+   ],
+   "effect": "未报告",
+   "relation": "q1（种植体周免疫微环境）与q4（生物材料如何编程宿主免疫）。本文聚焦牙周而非种植体，但巨噬细胞极化虽未直接涉及，破骨-成骨偶联的旁分泌机制对理解种植体周炎骨吸收有参考价值；同时为Q4中材料表面调控免疫再生的逻辑提供了细胞水平的机制原型。",
+   "why": "它打破了PDLSC仅被视为'成骨前体'的传统认知，揭示了同一细胞群通过RANKL/OPG旁分泌同时抑制破骨的'双向守卫'功能，为理解牙周骨稳态失衡提供了整合框架。",
+   "limitations": [
+    "仅在雄性小鼠中验证，雌性的性别差异未涉及，临床转化需补充",
+    "RANKL/OPG的具体变化幅度与统计显著性未在摘要中呈现，机制证据链不完整"
+   ],
+   "transferable": "条件培养基+破骨分化实验组合可用于评估任何干预对RANKL/OPG轴的影响；Gli1-Cre衍生谱系示踪策略可迁移至其他干细胞标记物体系",
+   "followups": [
+    "敲除组RANKL与OPG各自的绝对表达量及Fold Change具体数值是多少？",
+    "条件培养基实验中破骨细胞形成的具体定量指标（TRAP+多核细胞数/珠面积）是什么？",
+    "Gli1+ PDLSC与破骨细胞的空间邻近关系是通过何种成像技术（显微镜类型）和定量分析方法得出的？"
+   ],
+   "glossary": [
+    {
+     "en": "PDLSC",
+     "cn": "牙周韧带干细胞"
+    },
+    {
+     "en": "RANKL",
+     "cn": "核因子κB受体激活因子配体"
+    },
+    {
+     "en": "OPG",
+     "cn": "骨保护素"
+    },
+    {
+     "en": "BMPR1A",
+     "cn": "骨形态发生蛋白受体1A"
+    },
+    {
+     "en": "Gli1",
+     "cn": "GLI钾通道辅助因子1"
+    }
+   ],
+   "reading_minutes": 12,
+   "quality": {
+    "passed": true,
+    "score": 98.0,
+    "judge_score": 85.0,
+    "problems": [
+     "效应量只有占位符",
+     "relation 字段引入了摘要之外的 q1/q4 主题框架和巨噬细胞极化讨论，与本文内容关联牵强",
+     "effect 字段仅写'未报告'，摘要中 RANKL/OPG 比值升高这一核心效应方向其实可以填写"
+    ],
+    "repaired_by": "",
+    "attempts": 0
+   }
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1177/00220345261498043",
+   "pmid": "43012386",
+   "doi": "10.1177/00220345261498043",
+   "title": "BMPR1A in Periodontal Ligament Stem Cells Controls Periodontal Bone Homeostasis via Dual Roles",
+   "title_zh": "BMPR1A在牙周韧带干细胞中通过双重作用控制牙周骨稳态",
+   "journal": "Journal of dental research",
+   "date": "2026-11-11",
+   "authors": [
+    "Yang Y",
+    "Liu Y",
+    "Cai Y",
+    "Xue K",
+    "Xu C",
+    "Ding Y",
+    "Wang J",
+    "Xie X"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43012386/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "animal",
+   "design_label": "动物实验",
+   "design_level": 2,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "种植与骨再生",
+   "methods": [
+    "multiomics"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙周骨稳态免疫调控",
+   "one_line": "Gli1+ PDLSC特异性敲除Bmpr1a的小鼠出现牙槽骨吸收和骨形成缺陷，条件培养基促进破骨分化，蛋白组学揭示潜在…",
+   "so_what": "直接回应q1/q4：干细胞谱系-BMP信号-破骨耦合是新机制锚点，条件培养基+空间邻近分析可直接迁…",
+   "caution": "主要在啮齿类验证；人源PDLSC条件培养需进一步确认临床相关性。",
+   "score": {
+    "final": 71.1,
+    "match": 82.0,
+    "novelty": 72.0,
+    "rigor": 70.0,
+    "impact": 65.0,
+    "transfer": 78.0
+   },
+   "heuristic": 55.7,
+   "breakdown": {
+    "topic": 22.5,
+    "journal": 15.0,
+    "design": 9,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "Periodontal homeostasis, the delicate balance between bone formation and resorption, is essential for tooth support. While Gli1 is an established marker for periodontal ligament stem cells (PDLSCs), the molecular pathways governing their homeostatic function remain largely unknown. We found that canonical bone morphogenetic protein (BMP) signaling activity is positively correlated with periodontal tissue status. To establish a causal relationship, we specifically ablated the BMP receptor type 1A (Bmpr1a) in Gli1+ PDLSCs of male mice. This genetic manipulation resulted in a periodontal destruction phenotype, featuring alveolar bone loss, cementum defects, and disrupted collagen fiber organization. At the mechanistic level, Bmpr1a deletion not only compromised the osteogenic capacity of Gli1+ PDLSCs but also promoted osteoclastogenesis. The enhanced bone resorption was associated with a close spatial proximity between Gli1-lineage cells and osteoclasts. Conditioned medium from BMPR1A-deficient human PDLSCs significantly enhanced osteoclast differentiation, and proteomic analysis identified an elevated RANKL/OPG ratio as the underlying cause. Our results uncover a novel role for PDLSCs in bone remodeling, demonstrating that BMPR1A in Gli1+ PDLSCs orchestrates periodontal homeostasis by coupling the direct promotion of osteogenic differentiation with the indirect inhibition of osteoclastogenesis via paracrine RANKL/OPG regulation.",
+   "tags": [
+    "RANK ligand",
+    "cell lineage",
+    "osteoclastogenesis",
+    "osteogenesis",
+    "periodontal diseases",
+    "periodontium"
+   ],
+   "deep": {
+    "title_zh": "BMPR1A在牙周韧带干细胞中通过双重作用控制牙周骨稳态",
+    "one_sentence": "BMPR1A在Gli1+ PDLSC中同时发挥直接促骨形成与间接抑骨吸收的双向调控作用，双路径共同维持牙周骨稳态。",
+    "question": "Gli1+ PDLSC中的BMPR1A如何通过直接成骨效应和间接破骨调控两条通路共同维持牙周骨稳态？",
+    "design": "小鼠条件性基因敲除模型：在Gli1+ PDLSC中特异性删除Bmpr1a；人源PDLSC条件培养基实验；蛋白质组学分析",
+    "sample_desc": "雄性小鼠（摘要未说明具体品系与数量）；人PDLSC（来源摘要未说明）",
+    "findings": [
+     {
+      "claim": "BMP经典信号活性与牙周组织健康状态呈正相关",
+      "evidence": "观察到的相关性描述，具体数据摘要未提供"
+     },
+     {
+      "claim": "Bmpr1a特异性敲除导致牙周破坏表型",
+      "evidence": "牙槽骨丢失、牙骨质缺陷、胶原纤维排列紊乱，摘要未说明具体测量指标与统计结果"
+     },
+     {
+      "claim": "Bmpr1a缺失损害Gli1+ PDLSC的成骨分化能力",
+      "evidence": "摘要未提供具体定量数据"
+     },
+     {
+      "claim": "Bmpr1a缺失促进破骨细胞生成",
+      "evidence": "Gli1谱系细胞与破骨细胞呈现紧密空间邻近关系"
+     }
+    ],
+    "effect": "未报告",
+    "relation": "q1（种植体周免疫微环境）与q4（生物材料如何编程宿主免疫）。本文聚焦牙周而非种植体，但巨噬细胞极化虽未直接涉及，破骨-成骨偶联的旁分泌机制对理解种植体周炎骨吸收有参考价值；同时为Q4中材料表面调控免疫再生的逻辑提供了细胞水平的机制原型。",
+    "why": "它打破了PDLSC仅被视为'成骨前体'的传统认知，揭示了同一细胞群通过RANKL/OPG旁分泌同时抑制破骨的'双向守卫'功能，为理解牙周骨稳态失衡提供了整合框架。",
+    "limitations": [
+     "仅在雄性小鼠中验证，雌性的性别差异未涉及，临床转化需补充",
+     "RANKL/OPG的具体变化幅度与统计显著性未在摘要中呈现，机制证据链不完整"
+    ],
+    "transferable": "条件培养基+破骨分化实验组合可用于评估任何干预对RANKL/OPG轴的影响；Gli1-Cre衍生谱系示踪策略可迁移至其他干细胞标记物体系",
+    "followups": [
+     "敲除组RANKL与OPG各自的绝对表达量及Fold Change具体数值是多少？",
+     "条件培养基实验中破骨细胞形成的具体定量指标（TRAP+多核细胞数/珠面积）是什么？",
+     "Gli1+ PDLSC与破骨细胞的空间邻近关系是通过何种成像技术（显微镜类型）和定量分析方法得出的？"
+    ],
+    "glossary": [
+     {
+      "en": "PDLSC",
+      "cn": "牙周韧带干细胞"
+     },
+     {
+      "en": "RANKL",
+      "cn": "核因子κB受体激活因子配体"
+     },
+     {
+      "en": "OPG",
+      "cn": "骨保护素"
+     },
+     {
+      "en": "BMPR1A",
+      "cn": "骨形态发生蛋白受体1A"
+     },
+     {
+      "en": "Gli1",
+      "cn": "GLI钾通道辅助因子1"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 98.0,
+     "judge_score": 85.0,
+     "problems": [
+      "效应量只有占位符",
+      "relation 字段引入了摘要之外的 q1/q4 主题框架和巨噬细胞极化讨论，与本文内容关联牵强",
+      "effect 字段仅写'未报告'，摘要中 RANKL/OPG 比值升高这一核心效应方向其实可以填写"
+     ],
+     "repaired_by": "",
+     "attempts": 0
+    }
+   }
+  },
+  {
+   "id": "10.1002/hed.70544",
+   "pmid": "43010591",
+   "doi": "10.1002/hed.70544",
+   "title": "Current Evidence of Precision Medicine via Multi-Omic Approaches in Head and Neck Squamous Cell Carcinoma",
+   "title_zh": "多组学精准医学在头颈鳞癌中的当前证据综述",
+   "journal": "Head & neck",
+   "date": "2026-11-10",
+   "authors": [
+    "Leoni ER",
+    "Abbenante ED",
+    "Contrera KJ",
+    "Unrue KC",
+    "Hanania AN",
+    "Kansara SG"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43010591/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "颌面肿瘤与分子机制",
+   "methods": [
+    "single-cell",
+    "multiomics"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "肿瘤免疫多组学",
+   "one_line": "综述整合单细胞转录组与空间蛋白组证据，指出TLS、DC网络及蛋白标志物可预测HNSCC免疫治疗响应。",
+   "so_what": "直接支撑q5：scRNA-seq + 空间 proteomics 构建肿瘤免疫微环境图谱的方法框架…",
+   "caution": "叙事性综述非系统评价；前瞻验证仍不足。",
+   "score": {
+    "final": 64.1,
+    "match": 75.0,
+    "novelty": 68.0,
+    "rigor": 55.0,
+    "impact": 72.0,
+    "transfer": 65.0
+   },
+   "heuristic": 48.0,
+   "breakdown": {
+    "topic": 17.6,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 4.4
+   },
+   "abstract": "BACKGROUND: Perioperative and adjuvant immunotherapy are new standards of care for selected patients with resectable locoregionally advanced HPV-negative HNSCC, but low pathologic response rates and a lack of predictive biomarkers limit patient selection and response-adapted care. This review examines multi-omic approaches to predicting immunotherapy response and personalizing therapy. METHODS: A narrative review of current multi-omic strategies for HNSCC was performed. Data providing predictive, prognostic, diagnostic, surveillance, or exploratory value was summarized. RESULTS: Multi-omics may identify those likely to benefit from immunotherapy. Single-cell transcriptomics reveals changes in the tumor immune microenvironment while spatial proteomics reveals tertiary lymphoid structures, dendritic cell networks, and protein signatures predicting immunotherapy response. Obstacles include unstandardized protocols, limited prospective validation, and small sample sizes. CONCLUSIONS: Multi-omics can reshape biomarker-driven HNSCC care, but implementation requires prospective validation, standardized protocols, and multi-platform integration.",
+   "tags": [
+    "biomarkers",
+    "head and neck squamous cell carcinoma",
+    "immunotherapy",
+    "multi‐omics",
+    "precision medicine"
+   ],
+   "deep": {
+    "title_zh": "多组学精准医学在头颈鳞癌中的当前证据综述",
+    "one_sentence": "多组学或可预测免疫治疗获益人群，但尚缺前瞻验证与标准化。",
+    "question": "多组学（单细胞转录组、空间蛋白组等）能否可靠预测头颈鳞癌患者的免疫治疗反应，从而实现分层治疗与个体化决策？",
+    "design": "叙述性综述（narrative review），汇总多组学策略在预测、预后、诊断、监测及探索方面的证据；无对照、分组、盲法、随访设计。",
+    "sample_desc": "摘要未说明（为综述，未给出纳入研究数量与样本量）",
+    "findings": [
+     {
+      "claim": "单细胞转录组学可揭示肿瘤免疫微环境的动态变化",
+      "evidence": "摘要给出的现象：单细胞转录组显示肿瘤免疫微环境发生改变；未提供具体细胞群或方向数据"
+     },
+     {
+      "claim": "空间蛋白组学可识别三级淋巴结构、树突状细胞网络及可预测免疫治疗反应的蛋白特征",
+      "evidence": "摘要给出的具体对象：TLS、树突状细胞网络与蛋白特征，且这些特征被描述为与免疫治疗反应预测相关；未报告效应量"
+     },
+     {
+      "claim": "多组学可能识别出最可能从免疫治疗中获益的人群",
+      "evidence": "摘要中的结论性陈述（may identify those likely to benefit），本综述未报告效能数据或验证结果"
+     },
+     {
+      "claim": "当前多组学应用面临三大障碍",
+      "evidence": "摘要列出：方案未标准化、前瞻验证有限、样本量小"
+     }
+    ],
+    "effect": "未报告",
+    "relation": "部分对应 q5：直接涉及头颈鳞癌免疫微环境与免疫治疗反应的生物标志物，但未涉及微生物组，也未讨论治疗抵抗机制本身；对 q5 属提供方法学线索而非直接证据。",
+    "why": "它把讨论从'某个单一标志物'拉到'多组学整合 + 前瞻验证'的证据层级，明确指出当前结论多为探索性、缺乏标准化与前瞻确认，可校正对组学预测标志物成熟度的乐观预期；但作为叙述性综述，无效能数据，不足以改变临床决策。",
+    "limitations": [
+     "叙述性综述，未说明检索与纳入标准，存在选择性偏倚风险",
+     "作者承认：方案未标准化、前瞻验证有限、样本量小",
+     "摘要未报告任何效应量或验证队列结果，预测价值的实际强度无法判断"
+    ],
+    "transferable": "空间蛋白组学评估组织原位结构（如类TLS结构、免疫细胞空间分布）的思路，可用于我关注的种植体周或牙周组织切片；但迁移属方法类比，本摘要未提供可直接外推的依据。",
+    "followups": [
+     "文中提到的空间蛋白组学预测免疫治疗反应的蛋白特征，来源于哪项原始研究？其验证队列是否为前瞻性？",
+     "单细胞转录组部分引用的HNSCC研究中，免疫微环境变化具体指哪些细胞群的变化方向？",
+     "综述所列'多组学可识别免疫治疗获益人群'是否有任何效能数据（AUC、敏感度）在正文中支持？"
+    ],
+    "glossary": [
+     {
+      "en": "HNSCC",
+      "cn": "头颈部鳞状细胞癌"
+     },
+     {
+      "en": "multi-omics",
+      "cn": "多组学"
+     },
+     {
+      "en": "single-cell transcriptomics",
+      "cn": "单细胞转录组学"
+     },
+     {
+      "en": "spatial proteomics",
+      "cn": "空间蛋白组学"
+     },
+     {
+      "en": "tertiary lymphoid structures (TLS)",
+      "cn": "三级淋巴结构"
+     },
+     {
+      "en": "dendritic cell",
+      "cn": "树突状细胞"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 98.0,
+     "judge_score": 88.0,
+     "problems": [
+      "效应量只有占位符",
+      "摘要本身无效应量与样本数据，卡片只能如实标注'未报告'，证据强度判断受限",
+      "transferable 部分迁移到种植体周/牙周组织属方法类比，与摘要内容关联较弱"
+     ],
+     "repaired_by": "mimo-v2.6-flash",
+     "attempts": 1
+    }
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1016/j.bone.2026.118164",
+   "pmid": "43009082",
+   "doi": "10.1016/j.bone.2026.118164",
+   "title": "Multi-omics analysis reveals new mechanistic insights underlying the osteoanabolic effects of short chain fructooligosaccharide",
+   "title_zh": "短链果寡糖促骨形成的多组学机制",
+   "journal": "Bone",
+   "date": "2026-11-10",
+   "authors": [
+    "Adedigba P",
+    "Grez-Capdeville M",
+    "Knotts TA",
+    "Peng G",
+    "Cooper B",
+    "O'Connell TM",
+    "Prideaux M",
+    "Lucas EA",
+    "Smith BJ"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43009082/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "animal",
+   "design_label": "动物实验",
+   "design_level": 2,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "口腔微生物组",
+   "methods": [
+    "multiomics"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "肠-骨轴与微生物组",
+   "one_line": "小鼠FOS干预提升骨量，多组学揭示肠道菌群-代谢物-PPAR信号轴调控成骨。",
+   "so_what": "为q3微生物组因果链和q2全身-骨代谢通路提供可直接借用的多组学整合范式。",
+   "caution": "鼠模型剂量与人群摄入差距大；FOS非种植体相关材料，需独立验证。",
+   "score": {
+    "final": 60.1,
+    "match": 60.0,
+    "novelty": 70.0,
+    "rigor": 80.0,
+    "impact": 50.0,
+    "transfer": 75.0
+   },
+   "heuristic": 39.7,
+   "breakdown": {
+    "topic": 12.5,
+    "journal": 10.0,
+    "design": 9,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "Despite evidence that short chain fructooligosaccharide (FOS) improves bone mass and intestinal mineral absorption, the mechanism driving these effects remains uncertain. This study investigated how FOS modulates molecular and cellular pathways in bone through alterations in the gut microbiota and metabolome. Eight-week-old C57BL/6 female mice were fed a control or FOS-supplemented diet (10%) for 4 weeks. Bone histomorphometry, femur and bone marrow transcriptomics, cecal content 16S rRNA sequencing, and serum untargeted metabolomics were performed. Mice fed the FOS diet exhibited greater femoral trabecular bone volume and cortical bone thickness and area. FOS increased trabecular and cortical bone formation (i.e., periosteal and endocortical surface), and enhanced mineralization on the trabecular and endocortical surfaces. These changes coincided with increased osteoblasts and osteocytes, while osteoclasts were unchanged. Transcriptomics on the flushed femur revealed enrichment of pathways involving calcium ion homeostasis, PPAR signaling and adipogenesis, while in the bone marrow pathways associated with T-cell modulation and extracellular matrix organization were enriched. FOS altered the gut microbiota, increasing the abundance of taxa associated with fermentation and aromatic compound degradation, and increased serum metabolites (e.g., indole, mevalonate, polyphenol, and fatty acid intermediates). These findings reveal new insights into gut microbial and serum metabolite shifts induced with short-term FOS supplementation accompanying a rapid increase in osteocytes as well as bone formation and mineralization.",
+   "tags": [
+    "Fructan",
+    "Fructooligosaccharide",
+    "Gut-bone axis",
+    "Metabolome",
+    "Microbiota",
+    "Prebiotics"
+   ]
+  },
+  {
+   "id": "10.1111/joor.70375",
+   "pmid": "43012381",
+   "doi": "10.1111/joor.70375",
+   "title": "Beyond Protocol Selection: A Mechanism-Based Clinical Decision Framework for Individualized Photobiomodulation in Oral Medicine",
+   "title_zh": "PBM机制导向的个体化临床决策框架综述",
+   "journal": "Journal of oral rehabilitation",
+   "date": "2026-11-11",
+   "authors": [
+    "Mafi S",
+    "Tabibnia A",
+    "Bandari AB",
+    "Omidi P"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43012381/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "光生物调节",
+   "one_line": "以机制域为框架系统归纳PBM在不同口腔疾病中的证据成熟度与治疗靶点映射关系。",
+   "so_what": "可借鉴其\"治疗靶点-生物学适用性-证据成熟度\"矩阵思路，用于q4中植入体局部抗炎策略的证据分级。",
+   "caution": "叙事综述而非系统评价，证据等级判断主观性强。",
+   "score": {
+    "final": 30.4,
+    "match": 20.0,
+    "novelty": 35.0,
+    "rigor": 45.0,
+    "impact": 30.0,
+    "transfer": 40.0
+   },
+   "heuristic": 29.2,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "BACKGROUND: Photobiomodulation (PBM) is increasingly used as an adjunctive therapy across oral medicine conditions. However, clinical translation remains protocol-driven and disease-oriented, while biological and clinical heterogeneity is often viewed as a limitation rather than a basis for individualized decision-making. OBJECTIVE: To propose a mechanism-based framework that shifts PBM implementation toward biology-driven patient selection and rehabilitation-oriented reasoning. METHODS: This evidence-informed narrative review synthesized biological knowledge, clinical evidence, guidelines, systematic reviews, meta-analyses, randomized trials and mechanistic studies across major oral medicine conditions. Evidence was mapped using shared domains, including disease biology, PBM-responsive therapeutic target, biological suitability, therapeutic objectives, evidence maturity and clinical applicability. RESULTS: Most studies, reviews, meta-analyses and guidelines evaluated PBM by disease category, efficacy, outcomes and irradiation parameters. Across conditions, they commonly reported protocol heterogeneity, variable responses and differences in evidence strength. Comparative evidence mapping identified recurring biological decision domains across otherwise heterogeneous oral medicine conditions, suggesting that variability in PBM outcomes reflects biological diversity as well as methodological differences. CONCLUSIONS: This review proposes the principle that patient selection should precede protocol selection because PBM acts on biologically responsive targets, not on diagnostic labels alone. Rather than seeking a universally optimal laser regimen, clinicians may first consider whether the individual patient presents a biologically plausible and potentially recoverable therapeutic target. Heterogeneity may therefore be reframed as an opportunity for personalized PBM implementation. Prospective studies are needed to evaluate the framework's clinical utility.",
+   "tags": [
+    "clinical decision‐making",
+    "mouth diseases",
+    "oral medicine",
+    "oral rehabilitation",
+    "patient selection",
+    "photobiomodulation"
+   ]
+  },
+  {
+   "id": "10.1111/iej.70312",
+   "pmid": "43012168",
+   "doi": "10.1111/iej.70312",
+   "title": "Consensus-Based Recommendations for the Management of Deep and Extremely Deep Carious Lesions and Vital Pulp Treatment in Permanent Teeth: A National Delphi Study",
+   "title_zh": "深龋与活髓治疗全国共识",
+   "journal": "International endodontic journal",
+   "date": "2026-11-11",
+   "authors": [
+    "Kérourédan O",
+    "Tenenbaum A",
+    "Fontaine S",
+    "Doméjean S",
+    "Gaudin A"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43012168/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙体牙髓临床决策",
+   "one_line": "22位专家经三轮Delphi形成24条深龋/活髓治疗共识推荐。",
+   "so_what": "间接参考：若q5研究涉及根面封闭或牙髓免疫微环境可对比讨论；方法学不适用。",
+   "caution": "专家共识不等于高质量证据，表述多为定性建议。",
+   "score": {
+    "final": 29.5,
+    "match": 50.0,
+    "novelty": 30.0,
+    "rigor": 60.0,
+    "impact": 65.0,
+    "transfer": 25.0
+   },
+   "heuristic": 39.2,
+   "breakdown": {
+    "topic": 16.2,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "AIM: To develop consensus-based recommendations for general dental practitioners on deep and extremely deep carious lesions (CLs) and vital pulp treatment (VPT) in mature and immature permanent teeth. METHODOLOGY: A national modified Delphi study was conducted with a purposively selected expert panel. Twenty-nine statements developed from international guidance were assessed through three anonymous online rounds using a 10-point agreement scale. Free-text justification for scores below 7 informed revision or merging. Positive consensus was predefined as a median score ≥ 7 with an interquartile range (IQR) ≤ 2; statements with greater dispersion could also be accepted when > 90% of experts scored them ≥ 7. Statements remaining uncertain after Round 3 were discussed at an online meeting and anonymously re-rated by the full panel. RESULTS: Of 34 experts invited, 22 enrolled and completed every rating stage; no item-level data were missing. Five statements reached consensus in Round 1, 10 in Round 2, and six in Round 3. Four merging procedures reduced the 29 initial statements to 24 final statements. The remaining three reached consensus after the meeting and post-meeting rating; none was rejected. Final median scores ranged from 7 to 10, IQRs from 0 to 2, and proportions of scores ≥ 7 from 59.1% to 100%. The recommendations support comprehensive and graded pulpal assessment, selective carious tissue removal for deep CLs when pulp exposure should be avoided, management of extremely deep CLs according to root maturity, and consideration of VPT after pulp exposure and in selected cases of severe pulpitis. They also address asepsis, biomaterial selection, definitive restoration and follow-up. CONCLUSIONS: This national Delphi study produced 24 consensus-based recommendations and a clinical decision-support pathway for managing deep and extremely deep CLs in permanent teeth. The framework may complement existing evidence-based guidance; however, its acceptability, feasibility, transferability, and impact on clinical and patient-reported outcomes require external evaluation.",
+   "tags": [
+    "Delphi technique",
+    "deep caries",
+    "extremely deep caries",
+    "permanent teeth",
+    "pulpitis",
+    "vital pulp treatment"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07248-1",
+   "pmid": "43013101",
+   "doi": "10.1007/s00784-026-07248-1",
+   "title": "Is there an association between awake and sleep bruxism? : a meta-analysis",
+   "title_zh": "清醒与睡眠磨牙症关联性的Meta分析",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-11",
+   "authors": [
+    "Porporatti A",
+    "Schroder ÂGD",
+    "Kuczera MS",
+    "Carra MC",
+    "dIncau E",
+    "Archer AB",
+    "Gasparello GG",
+    "de Souza BDM",
+    "Boucher Y"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43013101/",
+   "pmcid": "12408978",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 8970,
+   "sample_note": "n=8970 participants",
+   "tier": "B",
+   "domain": "儿童口腔与预防",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Systematic Review",
+    "Review"
+   ],
+   "is_open_access": true,
+   "cluster": "磨牙症流行病学",
+   "one_line": "Meta分析（49项研究，n=8970）证实睡眠与清醒磨牙症存在显著关联（OR=3.74），诊断工具异质性大。",
+   "so_what": "仅背景；方法学可参考但结论与q1–q5核心问题无直接推进。",
+   "caution": "纳入研究多为横断面；诊断标准（主体报告vs设备记录）高度异质。",
+   "score": {
+    "final": 18.2,
+    "match": 12.0,
+    "novelty": 22.0,
+    "rigor": 58.0,
+    "impact": 25.0,
+    "transfer": 8.0
+   },
+   "heuristic": 44.4,
+   "breakdown": {
+    "topic": 1.4,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 8.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To systematically review and meta-analyze the association between sleep bruxism (SB) and awake bruxism (AB) in children and adults. MATERIALS AND METHODS: Observational studies evaluating the association between SB and AB were included. Studies were classified as direct or indirect evidence and according to diagnostic certainty as subject-, clinically-, and device-based. Random effects meta-analyses were performed using odds ratios and 95% confidence intervals. RESULTS: Forty-nine studies were included. Most were cross sectional (n = 41), followed by case control studies (n = 6) and cohort studies (n = 2). Twenty-four studies were classified as direct evidence and twenty-five as indirect evidence. Most studies assessed subject-based bruxism (n = 35), followed by clinically-based bruxism (n = 10), mixed diagnostic criteria (n = 3), and device-based bruxism (n = 1). The overall meta-analysis included 8970 participants in the SB group and 25,730 in the AB group, showing a significant association between both conditions (OR = 3.74; 95% CI: 2.47; 5.67). The association remained significant in adults, children, direct studies, indirect studies, and studies assessing subject-based or clinically-based bruxism. Heterogeneity was high across all analyses. CONCLUSIONS: Current evidence indicates a significant positive association between sleep bruxism and awake bruxism. However, the predominance of cross-sectional designs, self-reported diagnostic methods, and high heterogeneity limits causal interpretation. CLINICAL RELEVANCE: SB and AB should not be assessed as completely isolated clinical findings. This meta-analysis shows that individuals with SB have higher odds of presenting AB. Therefore, when one circadian manifestation is identified, clinicians should actively investigate the other, particularly in patients with temporomandibular disorders, orofacial pain, sleep complaints, or stress related symptoms.",
+   "tags": [
+    "Association",
+    "Awake bruxism",
+    "Bruxism",
+    "Meta-analysis",
+    "Sleep bruxism",
+    "Systematic review"
+   ]
+  },
+  {
+   "id": "10.1016/j.bone.2026.118168",
+   "pmid": "43009081",
+   "doi": "10.1016/j.bone.2026.118168",
+   "title": "Age-associated alterations in morphometry, intra-cortical canals, lacunar architecture, and mineral density in Type 2 diabetes: Implications for vertebral bone fragility in ZDF rats",
+   "title_zh": "2型糖尿病大鼠椎骨微结构与矿物密度的年龄变化",
+   "journal": "Bone",
+   "date": "2026-11-10",
+   "authors": [
+    "Ali W",
+    "Monahan G",
+    "McNamara L",
+    "Vaughan T"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43009081/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "animal",
+   "design_label": "动物实验",
+   "design_level": 2,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙周炎通过哪些可验证的通…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "糖尿病与骨微结构",
+   "one_line": "ZDF大鼠晚期T2D显示骨形态劣化但平均BMD不变，皮质内微孔隙异质性增加导致椎骨脆性。",
+   "so_what": "直接支撑q2：糖尿病→骨脆性的可验证通路，启发q1中种植体周围骨质量评估需超越BMD指标。",
+   "caution": "大鼠模型不能直接平移至人种牙周炎合并糖尿病的异质性人群。",
+   "score": {
+    "final": 56.8,
+    "match": 70.0,
+    "novelty": 55.0,
+    "rigor": 65.0,
+    "impact": 55.0,
+    "transfer": 60.0
+   },
+   "heuristic": 33.8,
+   "breakdown": {
+    "topic": 8.8,
+    "journal": 10.0,
+    "design": 9,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "Type 2 Diabetes (T2D) is associated with elevated bone fracture risk despite normal or higher bone mineral density (BMD), yet the mechanisms underlying vertebral fragility remain poorly understood. We investigated age-related changes in (1) growth, (2) microarchitecture, (3) microporosity (4) mineralization and (5) mechanical properties of vertebral bone from control and diabetic male ZDF rats at 12-weeks and 46 weeks of age. We report that vertebral growth and microarchitecture were compromised in diabetic rats at late-stage diabetes (46-weeks), as compared to control rats, evident from lower vertebral height and depth, thin cortical bone, and deteriorated trabecular architecture. While control rats maintained stable mineral density distribution with ageing, diabetic rats exhibited increased heterogeneity in cortical and trabecular bone in late-stage diabetes, despite unaffected mean BMD. In central cortical bone, diabetic rats had accelerated loss of intra-cortical canals as compared to controls with an unaffected age-driven lacunae density. In the central trabecular bone, T2D induced enlarged lacunae and altered mineral density distribution at early-stage diabetes (12 weeks), while as disease progressed, lacunae became rounder whilst maintaining lacunar density. Furthermore, age-matched differences in peri-lacunar mineralization were not found between control and diabetic rats. These multifactorial changes may contribute to the reduced failure load of vertebral body in diabetic rats (35% lower than age-matched control rats) at 46-weeks of age. Our findings underscore that fracture risk assessment and therapeutic strategies must look beyond BMD in T2D patients.",
+   "tags": [
+    "Biomechanics",
+    "Bone",
+    "Lacunae",
+    "Microporosity",
+    "Mineral density",
+    "Type 2 diabetes (T2D)"
+   ]
+  },
+  {
+   "id": "10.1016/j.oraloncology.2026.108227",
+   "pmid": "43008667",
+   "doi": "10.1016/j.oraloncology.2026.108227",
+   "title": "A tumor biology-informed interpretation of TNM 9 in HPV-associated OPSCC",
+   "title_zh": "TNM-9 HPV相关口咽癌的肿瘤生物学解读",
+   "journal": "Oral oncology",
+   "date": "2026-11-10",
+   "authors": [
+    "Hoffmann M",
+    "Tribius S"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43008667/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "颌面肿瘤与分子机制",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "HPV+OPSCC免疫…",
+   "one_line": "概念综述将TNM-9解剖分期整合病毒转录活性、p16 discordance、iENE和免疫微环境分层框架。",
+   "so_what": "直接回应q5：提出免疫微环境和分子表型可重塑HPV+ OPSCC预后分层，为后续q5课题提供分层研…",
+   "caution": "非系统评价，依赖选择性文献，缺乏定量综合；框架仍需前瞻性队列验证。",
+   "score": {
+    "final": 54.1,
+    "match": 65.0,
+    "novelty": 65.0,
+    "rigor": 50.0,
+    "impact": 60.0,
+    "transfer": 50.0
+   },
+   "heuristic": 32.6,
+   "breakdown": {
+    "topic": 1.6,
+    "journal": 15.0,
+    "design": 10,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: The 9th edition of the TNM classification (TNM-9) refines anatomical staging in head and neck cancer, maintaining p16-based categorization for HPV-associated oropharyngeal squamous cell carcinoma (OPSCC). However, anatomical extent alone does not capture key biological and host-related determinants of clinical behavior. METHODS: In this concept-driven synthesis, we integrate TNM-9 anatomy with evidence on transcriptional viral activity, p16 discordance, nodal morphology including imaging-defined extranodal extension (iENE), immune microenvironment, and host modifiers such as smoking and comorbidity. We propose a layered integrative framework that preserves TNM-9 structure while contextualizing tumor biology. The review is based on a selective synthesis of key translational and clinical studies identified through literature searches and expert knowledge, without a formal systematic approach. RESULTS: TNM-9 improves anatomical prognostic stratification at the population level, but identical anatomical stages encompass biologically heterogeneous entities. HPV RNA expression distinguishes biologically favorable tumors from p16+/HPV-inactive disease. iENE retains prognostic relevance in HPV-associated OPSCC, although its radiological appearance may partly reflect immune-associated stromal remodeling and cystic nodal morphology rather than invasive behavior alone. Smoking exposure, comorbidity burden, and immune-related host factors modify survival independent of tumor extent, explaining different outcomes within identical TNM stages. CONCLUSIONS: TNM-9 should be interpreted as an anatomical framework supplemented by biological and host factors. A multidimensional understanding enhances clinical applicability, avoids overtreatment of biologically favorable disease and highlights high-risk phenotypes concealed by anatomy alone. This perspective supports precise, biology-informed risk assessment in HPV-associated OPSCC. .",
+   "tags": [
+    "Comorbidity",
+    "Extranodal extension (ENE)",
+    "HPV RNA",
+    "HPV-associated OPSCC",
+    "Immune microenvironment",
+    "TNM 9"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07254-3",
+   "pmid": "43007448",
+   "doi": "10.1007/s00784-026-07254-3",
+   "title": "Effect of oral vitamin D₃₃ supplementation on salivary vitamin D levels and orthodontic treatment duration: a randomized controlled trial",
+   "title_zh": "维生素D₃补充对唾液维生素水平及正畸疗程的影响",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-10",
+   "authors": [
+    "Sagar S",
+    "Ramani P",
+    "Moses S",
+    "Jeyaraj G"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43007448/",
+   "pmcid": "11674512",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 26,
+   "sample_note": "n=26",
+   "tier": "B",
+   "domain": "颌面肿瘤与分子机制",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
+   "is_open_access": true,
+   "cluster": "营养与正畸骨代谢",
+   "one_line": "RCT（n=52）发现口服维生素D₃（60,000 IU/20天）显著提升唾液维生素D水平，但对正畸总疗程无显著缩短效…",
+   "so_what": "间接支持q4：营养素-免疫骨代谢轴；维生素D对局部微环境的免疫调节机制值得追踪。",
+   "caution": "n=26/组统计效力不足；以唾液而非血清维生素D为核心指标。",
+   "score": {
+    "final": 41.2,
+    "match": 38.0,
+    "novelty": 32.0,
+    "rigor": 52.0,
+    "impact": 40.0,
+    "transfer": 35.0
+   },
+   "heuristic": 48.2,
+   "breakdown": {
+    "topic": 8.1,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 3.8,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVES: To evaluate the effect of systemic oral vitamin D₃ supplementation on salivary vitamin D₃ levels during different phases of orthodontic treatment and on the overall orthodontic treatment duration in adolescents undergoing fixed orthodontic treatment. MATERIALS AND METHODS: A randomized controlled trial was conducted among 52 adolescents (13-18 years) with Angle's Class I malocclusion requiring extraction of all four first premolars. Participants were randomly allocated into two groups: Group 1 (control; n = 26) received no vitamin D₃ supplementation, while Group 2 (supplementation; n = 26) received oral vitamin D₃ (60,000 IU every 20 days). Allocation concealment was achieved using the Sequentially Numbered Opaque Sealed Envelope (SNOSE) method. Unstimulated saliva samples were collected at three treatment phases: T1 (archwire insertion), T2 (extraction space closure), and T3 (debonding). Salivary vitamin D₃ concentrations were quantified using enzyme-linked immunosorbent assay (ELISA). Overall orthodontic treatment duration was recorded from initial archwire placement to appliance debonding. Statistical analysis was performed using independent samples t-tests, with statistical significance set at p ≤ 0.05. RESULTS: Baseline salivary vitamin D₃ levels were comparable between the two groups. Participants receiving vitamin D₃ supplementation demonstrated significantly higher salivary vitamin D₃ concentrations during extraction space closure (44.39 ± 5.22 ng/mL vs. 38.19 ± 8.65 ng/mL; p = 0.003) and at debonding (48.31 ± 4.86 ng/mL vs. 39.91 ± 8.04 ng/mL; p < 0.001) compared with the control group. The supplementation group also demonstrated a significantly shorter overall orthodontic treatment duration (17.81 ± 1.12 months) than the control group (19.50 ± 1.35 months), corresponding to a mean reduction of 1.69 months (approximately 51 days; p < 0.001). No significant gender-related differences in salivary vitamin D₃ levels were observed. CONCLUSION: Oral vitamin D₃ supplementation was associated with higher salivary vitamin D₃ levels during key phases of orthodontic treatment and a significant reduction in overall treatment duration. Salivary monitoring of vitamin D₃ may have potential as a useful non-invasive biomarker to guide targeted supplementation strategies aimed at improving orthodontic treatment efficiency, however, further studies are req",
+   "tags": [
+    "Bone remodelling",
+    "Disease",
+    "Health",
+    "Medicine",
+    "Orthodontic tooth movement",
+    "Orthodontic treatment duration"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07210-1",
+   "pmid": "43003934",
+   "doi": "10.1007/s00784-026-07210-1",
+   "title": "Osseointegration of Plasma-Modified Titanium Dental Implants Enhanced by Maca Nano-Suspension in New Zealand Rabbits: An Animal Study",
+   "title_zh": "等离子体联合玛卡纳米悬浮液强化钛种植体骨结合",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-10",
+   "authors": [
+    "Manie HF",
+    "Saleh HA",
+    "El Halawany M",
+    "Salama R",
+    "Khashaba MM"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43003934/",
+   "pmcid": "PMC13748016",
+   "cited_by": 0,
+   "design": "animal",
+   "design_label": "动物实验",
+   "design_level": 2,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "种植与骨再生",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "种植体表面改性",
+   "one_line": "新西兰兔胫骨植入实验，冷大气等离子体联合玛卡纳米悬浮液处理钛种植体，4周后二次稳定性显著提高。",
+   "so_what": "q4方向的材料表面改性能提升成骨，但未涉及免疫调控机制。",
+   "caution": "仅二级稳定性改善；未检测炎症或免疫细胞表型。",
+   "score": {
+    "final": 40.6,
+    "match": 35.0,
+    "novelty": 30.0,
+    "rigor": 45.0,
+    "impact": 25.0,
+    "transfer": 40.0
+   },
+   "heuristic": 60.0,
+   "breakdown": {
+    "topic": 35.0,
+    "journal": 10.0,
+    "design": 9,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To investigate the potential effect of combined cold atmospheric plasma and Maca extract nano-suspension as a dual implant surface treatment on osseointegration. MATERIALS AND METHODS: Maca nano-suspension was formulated and characterized. Thirty titanium implants were placed in the tibiae of ten adult male New Zealand rabbits and were divided into three groups: untreated, cold atmospheric plasma-treated implants, and cold atmospheric plasma + Maca extract-treated implants. Implant stability was assessed using the AnyCheck® device at the time of placement (primary stability), and then after four weeks (secondary stability). Histomorphometric analysis of the processed bone specimens was performed. Statistical significance level was set at P ≤ 0.05. RESULTS: No statistical significance difference was noted regarding the primary stability between the groups, whereas the secondary stability was significantly greater in the cold atmospheric plasma-treated group compared with the untreated control group (P-value = 0.015). Histomorphometric analysis showed significantly greater percentages of mineralized bone area around implants in the cold atmospheric plasma + Maca group compared with other groups. CONCLUSION: The combination of cold atmospheric plasma and Maca extract resulted in a greater area percentage of newly formed mineralized bone, suggesting a potential beneficial effect on peri-implant bone regeneration.",
+   "tags": [
+    "Animal study",
+    "Bone regeneration",
+    "Cold atmospheric plasma",
+    "Histomorphometric analysis",
+    "Implant stability",
+    "Maca"
+   ]
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 6
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 6
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 6
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 6
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 6
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 6
+  }
+ ],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}
