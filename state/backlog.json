@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12T10:26:47+08:00",
+ "updated_at": "2026-11-13T10:04:52+08:00",
  "items": [
   {
    "id": "10.1177/00220345261495934",
@@ -10,7 +10,7 @@
    "one_line": "",
    "cluster": "牙周与宿主免疫",
    "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
-   "days_waiting": 6
+   "days_waiting": 7
   },
   {
    "id": "10.1177/00220345261493921",
@@ -21,7 +21,7 @@
    "one_line": "",
    "cluster": "牙周与宿主免疫",
    "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
-   "days_waiting": 6
+   "days_waiting": 7
   },
   {
    "id": "10.1016/j.actbio.2026.11.004",
@@ -32,7 +32,7 @@
    "one_line": "",
    "cluster": "生物材料表面/降解产物如…",
    "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
-   "days_waiting": 6
+   "days_waiting": 7
   },
   {
    "id": "10.1007/s00784-026-07209-8",
@@ -43,7 +43,7 @@
    "one_line": "",
    "cluster": "牙体牙髓与龋病",
    "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
-   "days_waiting": 6
+   "days_waiting": 7
   },
   {
    "id": "10.1038/s41591-026-04744-5",
@@ -54,7 +54,7 @@
    "one_line": "",
    "cluster": "口腔鳞癌的免疫微环境与微…",
    "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
-   "days_waiting": 6
+   "days_waiting": 7
   },
   {
    "id": "10.1177/00220345261493495",
@@ -65,7 +65,7 @@
    "one_line": "",
    "cluster": "牙周与宿主免疫",
    "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
-   "days_waiting": 6
+   "days_waiting": 7
   },
   {
    "id": "10.1016/j.actbio.2026.10.065",
@@ -76,7 +76,7 @@
    "one_line": "",
    "cluster": "生物材料表面/降解产物如…",
    "url": "https://pubmed.ncbi.nlm.nih.gov/42982156/",
-   "days_waiting": 6
+   "days_waiting": 7
   },
   {
    "id": "10.1177/00220345261489570",
@@ -87,7 +87,7 @@
    "one_line": "综述表观遗传重编程驱动的代谢记忆如何维持口腔炎症持续与复发。",
    "cluster": "代谢-免疫对话",
    "url": "https://pubmed.ncbi.nlm.nih.gov/42978263/",
-   "days_waiting": 6
+   "days_waiting": 7
   },
   {
    "id": "10.1038/s41591-026-04686-y",
@@ -98,7 +98,7 @@
    "one_line": "Phase 1b试验证实SER‑155在造血细胞移植患者中安全性良好，主要终点为耐受性。",
    "cluster": "微生物组干预",
    "url": "https://pubmed.ncbi.nlm.nih.gov/42977758/",
-   "days_waiting": 6
+   "days_waiting": 7
   },
   {
    "id": "10.1111/cdoe.70142",
@@ -109,7 +109,7 @@
    "one_line": "",
    "cluster": "儿童口腔与预防",
    "url": "https://pubmed.ncbi.nlm.nih.gov/42984489/",
-   "days_waiting": 6
+   "days_waiting": 7
   },
   {
    "id": "10.1016/j.actbio.2026.11.002",
@@ -120,7 +120,7 @@
    "one_line": "RGD-MXene/MnO₂纳米装甲修饰MSC，通过类SOD/CAT级联抗氧化并促进M1→M2极化，在RA小鼠中靶向清…",
    "cluster": "材料编程免疫",
    "url": "https://pubmed.ncbi.nlm.nih.gov/42977137/",
-   "days_waiting": 6
+   "days_waiting": 7
   },
   {
    "id": "10.1177/00220345261490925",
@@ -131,7 +131,7 @@
    "one_line": "",
    "cluster": "牙体牙髓与龋病",
    "url": "https://pubmed.ncbi.nlm.nih.gov/42984125/",
-   "days_waiting": 6
+   "days_waiting": 7
   }
  ]
 }

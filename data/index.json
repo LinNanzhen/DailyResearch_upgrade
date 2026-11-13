@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-12T10:26:47+08:00",
- "latest": "2026-11-12",
+ "updated_at": "2026-11-13T10:04:52+08:00",
+ "latest": "2026-11-13",
  "days": [
+  {
+   "date": "2026-11-13",
+   "must_title": "Effect of enamel matrix derivative in soft tissue healing on post-extraction sockets: Histological evaluation in humans",
+   "must_title_zh": "釉基质衍生物对人类拔牙窝软组织愈合的影响：组织学评估",
+   "cluster": "生物材料免疫编程",
+   "count": 10,
+   "ai": true
+  },
   {
    "date": "2026-11-12",
    "must_title": "BMPR1A in Periodontal Ligament Stem Cells Controls Periodontal Bone Homeostasis via Dual Roles",

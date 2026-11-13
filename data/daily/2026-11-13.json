@@ -1,0 +1,1013 @@
+{
+ "date": "2026-11-13",
+ "generated_at": "2026-11-13T10:04:52+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 6,
+  "prompt_tokens": 14478,
+  "completion_tokens": 11784
+ },
+ "stats": {
+  "candidates": 141,
+  "raw": 140,
+  "fetched": 19,
+  "raw_dropped_type": 14,
+  "no_abstract": 2,
+  "gated": 19,
+  "scored": 19,
+  "shown": 10,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 6,
+  "quality_failed": 0,
+  "quality_repaired": 1
+ },
+ "must_read": {
+  "id": "10.1002/jper.70205",
+  "pmid": "43015966",
+  "doi": "10.1002/jper.70205",
+  "title": "Effect of enamel matrix derivative in soft tissue healing on post-extraction sockets: Histological evaluation in humans",
+  "title_zh": "釉基质衍生物对人类拔牙窝软组织愈合的影响：组织学评估",
+  "journal": "Journal of periodontology",
+  "date": "2026-11-11",
+  "authors": [
+   "Bontá H",
+   "Flores S",
+   "Sanchez LM",
+   "Manisagian GEP",
+   "Lacave M",
+   "Galli FG",
+   "Caride F"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43015966/",
+  "pmcid": "",
+  "cited_by": 0,
+  "design": "rct",
+  "design_label": "随机对照",
+  "design_level": 6,
+  "sample_n": null,
+  "sample_note": "",
+  "tier": "B",
+  "domain": "牙体牙髓与龋病",
+  "methods": [],
+  "pub_types": [
+   "Journal Article"
+  ],
+  "is_open_access": false,
+  "cluster": "生物材料免疫编程",
+  "one_line": "RCT发现EMD组拔牙窝软组织厚度及上皮层显著增加，提示EMD对软硬组织愈合具有促进作用。",
+  "so_what": "EMD作为'可编程生物材料'的经典案例，直接回应q4；组织学+免疫组化设计可作为q4课题的实验方案…",
+  "caution": "仅4周时间点，未评估长期骨再生结局；缺乏明确的免疫细胞表型数据。",
+  "score": {
+   "final": 53.7,
+   "match": 65.0,
+   "novelty": 55.0,
+   "rigor": 50.0,
+   "impact": 35.0,
+   "transfer": 70.0
+  },
+  "heuristic": 41.4,
+  "breakdown": {
+   "topic": 7.4,
+   "journal": 10.0,
+   "design": 18,
+   "sample": 0.0,
+   "fresh": 6.0,
+   "method": 0.0
+  },
+  "abstract": "BACKGROUND: The use of enamel matrix derivative (EMD) has the potential to stimulate soft tissue healing and reduce inflammatory response. Our aim was to evaluate histological and immunohistochemical soft tissue healing with the use of EMD in post-extraction sockets. METHODS: A total of 20 single-rooted teeth with indication of extraction were selected for the study. The patients were randomly assigned to two treatment groups: control group atraumatic extraction filled with a collagenic hemostat cone and left to heal for 4 weeks (SC group) or test group atraumatic extraction filling the socket with a collagenic hemostat cone embedded with enamel matrix derivative and left to heal for 4 weeks (EMD group). A lingual or palatal flap was elevated and displaced to obtain primary closure. Soft tissue samples were obtained during second stage surgery (implant placement) at 4 weeks to be processed for the histological assessment and statistical analysis. RESULTS: The EMD group showed a significant increase in epithelial thickness as well as greater thickness of the lamina propria compared with the control group. The EMD group had significantly higher values for blood vessel area and the total H-score for vascular endothelial growth factor (VEGF) immunostaining intensity than the control group. CONCLUSIONS: The use of EMD enhances early stages in soft tissue healing by stimulating angiogenesis and soft tissue characteristics. PLAIN LANGUAGE SUMMARY: This study looked at whether adding a biologically active material called enamel matrix derivative (EMD) could improve the healing of gum tissue after tooth extraction. Twenty patients who needed a single tooth removed were randomly assigned to one of two groups. In both groups, the tooth was carefully extracted, and the socket was filled with a collagen sponge. In the test group, the sponge was combined with EMD, while in the control group it was used alone. After 4 weeks, samples of the healing tissue were collected during implant placement and examined under a microscope. The results showed that sites treated with EMD developed thicker epithelial and connective tissue compared to the control group. They also had a greater number of blood vessels and higher levels of a protein linked to new blood vessel formation.",
+  "tags": [
+   "enamel matrix derivative",
+   "healing",
+   "regeneration"
+  ],
+  "deep": {
+   "title_zh": "釉基质衍生物对人类拔牙窝软组织愈合的影响：组织学评估",
+   "one_sentence": "EMD组4周时上皮与固有层增厚、血管面积及VEGF染色升高，提示其促进早期软组织愈合。",
+   "question": "在人类拔牙窝的自然愈合过程中，局部应用釉基质衍生物（EMD）能否改变早期软组织的组织学表型（上皮厚度、固有层厚度、血管化程度）？",
+   "design": "随机对照研究：20例单根牙拔除患者随机分为对照组（无创拔牙后以胶原止血锥充填、4周愈合）与EMD组（胶原止血锥浸润EMD充填、4周愈合）；两组均在舌/腭侧做瓣转移获得初期闭合，4周后于种植体植入二次手术时取软组织样本做组织学与免疫组化评估。",
+   "sample_desc": "20例有单根牙拔除适应证的患者（人群样本）；摘要未说明纳入/排除标准与人口学特征。",
+   "findings": [
+    {
+     "claim": "EMD组上皮厚度显著高于对照组",
+     "evidence": "组织学切片比较：EMD组上皮厚度显著增加（摘要未给出具体数值与P值）"
+    },
+    {
+     "claim": "EMD组固有层（lamina propria）厚度大于对照组",
+     "evidence": "组织学比较方向为EMD组固有层更厚（摘要未给出具体数值与P值）"
+    },
+    {
+     "claim": "EMD组血管面积显著高于对照组",
+     "evidence": "组织形态学测量：EMD组血管面积显著更高（摘要未给出具体数值与P值）"
+    },
+    {
+     "claim": "EMD组VEGF免疫染色总H-score显著高于对照组",
+     "evidence": "免疫组化半定量评分：EMD组VEGF总H-score显著更高（摘要未给出具体数值与P值）"
+    }
+   ],
+   "effect": "未报告（摘要仅给出方向性与显著性描述，无效应量与置信区间）",
+   "relation": "对应 q4（生物材料如何编程宿主免疫/再生结局）——提供支持性人体组织学证据：EMD作为生物活性材料改变了拔牙窝软组织愈合的组织学表型。对 q1 仅有间接关联（涉及血管化与炎症消退的早期软组织环境，但未涉及巨噬细胞极化、NETs或IL-1β轴，也未涉及骨结合或种植体周炎）。",
+   "why": "它把EMD的作用证据从牙周/骨再生的既往语境扩展到拔牙窝软组织愈合的早期阶段，并且是在人类活体组织（非体外、非动物）上以组织学与免疫组化双终点验证的——这为'生物材料可改变愈合组织表型'这一命题提供了人体层面的可核查证据，而非仅靠细胞实验外推。",
+   "limitations": [
+    "样本量仅20例、随访仅4周，只反映愈合极早期的组织学差异，无法判断这些差异是否在种植体负载后转化为临床可测量的软组织表型（如角化黏膜宽度、种植体周探诊深度）",
+    "摘要未说明是否设盲（组织学评估者盲法），且两组均行瓣转移获得初期闭合，手术操作本身可能影响愈合结局，构成混杂",
+    "终点全部为组织学/免疫组化替代指标，无临床硬终点；VEGF染色升高与血管面积增加仅为相关性共现，未建立EMD→VEGF→血管化的因果通路"
+   ],
+   "transferable": "① '胶原载体浸润生物活性分子'的局部给药设计——可迁移到你关注的种植体表面涂层/降解产物递送；② '二次手术时取活检做组织学+免疫组化H-score半定量'的取样与终点设计——可在种植体周炎模型中同样操作，用H-score量化VEGF、IL-1β等靶点；③ 以血管面积作为早期愈合的形态学终点，比单纯分子表达更接近功…",
+   "followups": [
+    "EMD组与对照组在上皮厚度、固有层厚度、血管面积上的具体数值、标准差与统计检验方法（t检验还是Mann-Whitney）分别是什么？",
+    "VEGF的H-score评分标准（染色强度×阳性比例）与观察者间一致性（kappa/ICC）是否在方法部分报告？",
+    "4周时的组织学差异在更长随访（种植体负载后6个月以上）中是否仍能转化为角化黏膜宽度或种植体周探诊深度的临床差异？"
+   ],
+   "glossary": [
+    {
+     "en": "enamel matrix derivative (EMD)",
+     "cn": "釉基质衍生物"
+    },
+    {
+     "en": "lamina propria",
+     "cn": "（上皮下）固有层"
+    },
+    {
+     "en": "H-score",
+     "cn": "免疫组化半定量评分（染色强度×阳性细胞比例）"
+    },
+    {
+     "en": "vascular endothelial growth factor (VEG…",
+     "cn": "血管内皮生长因子"
+    },
+    {
+     "en": "atraumatic extraction",
+     "cn": "无创/微创拔牙"
+    },
+    {
+     "en": "collagenic hemostat cone",
+     "cn": "胶原止血锥"
+    }
+   ],
+   "reading_minutes": 12,
+   "quality": {
+    "passed": true,
+    "score": 100.0,
+    "judge_score": 92.0,
+    "problems": [
+     "transferable 似乎被截断"
+    ],
+    "repaired_by": "mimo-v2.6-flash",
+    "attempts": 1
+   }
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1002/jper.70205",
+   "pmid": "43015966",
+   "doi": "10.1002/jper.70205",
+   "title": "Effect of enamel matrix derivative in soft tissue healing on post-extraction sockets: Histological evaluation in humans",
+   "title_zh": "釉基质衍生物对人类拔牙窝软组织愈合的影响：组织学评估",
+   "journal": "Journal of periodontology",
+   "date": "2026-11-11",
+   "authors": [
+    "Bontá H",
+    "Flores S",
+    "Sanchez LM",
+    "Manisagian GEP",
+    "Lacave M",
+    "Galli FG",
+    "Caride F"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43015966/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "生物材料免疫编程",
+   "one_line": "RCT发现EMD组拔牙窝软组织厚度及上皮层显著增加，提示EMD对软硬组织愈合具有促进作用。",
+   "so_what": "EMD作为'可编程生物材料'的经典案例，直接回应q4；组织学+免疫组化设计可作为q4课题的实验方案…",
+   "caution": "仅4周时间点，未评估长期骨再生结局；缺乏明确的免疫细胞表型数据。",
+   "score": {
+    "final": 53.7,
+    "match": 65.0,
+    "novelty": 55.0,
+    "rigor": 50.0,
+    "impact": 35.0,
+    "transfer": 70.0
+   },
+   "heuristic": 41.4,
+   "breakdown": {
+    "topic": 7.4,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: The use of enamel matrix derivative (EMD) has the potential to stimulate soft tissue healing and reduce inflammatory response. Our aim was to evaluate histological and immunohistochemical soft tissue healing with the use of EMD in post-extraction sockets. METHODS: A total of 20 single-rooted teeth with indication of extraction were selected for the study. The patients were randomly assigned to two treatment groups: control group atraumatic extraction filled with a collagenic hemostat cone and left to heal for 4 weeks (SC group) or test group atraumatic extraction filling the socket with a collagenic hemostat cone embedded with enamel matrix derivative and left to heal for 4 weeks (EMD group). A lingual or palatal flap was elevated and displaced to obtain primary closure. Soft tissue samples were obtained during second stage surgery (implant placement) at 4 weeks to be processed for the histological assessment and statistical analysis. RESULTS: The EMD group showed a significant increase in epithelial thickness as well as greater thickness of the lamina propria compared with the control group. The EMD group had significantly higher values for blood vessel area and the total H-score for vascular endothelial growth factor (VEGF) immunostaining intensity than the control group. CONCLUSIONS: The use of EMD enhances early stages in soft tissue healing by stimulating angiogenesis and soft tissue characteristics. PLAIN LANGUAGE SUMMARY: This study looked at whether adding a biologically active material called enamel matrix derivative (EMD) could improve the healing of gum tissue after tooth extraction. Twenty patients who needed a single tooth removed were randomly assigned to one of two groups. In both groups, the tooth was carefully extracted, and the socket was filled with a collagen sponge. In the test group, the sponge was combined with EMD, while in the control group it was used alone. After 4 weeks, samples of the healing tissue were collected during implant placement and examined under a microscope. The results showed that sites treated with EMD developed thicker epithelial and connective tissue compared to the control group. They also had a greater number of blood vessels and higher levels of a protein linked to new blood vessel formation.",
+   "tags": [
+    "enamel matrix derivative",
+    "healing",
+    "regeneration"
+   ],
+   "deep": {
+    "title_zh": "釉基质衍生物对人类拔牙窝软组织愈合的影响：组织学评估",
+    "one_sentence": "EMD组4周时上皮与固有层增厚、血管面积及VEGF染色升高，提示其促进早期软组织愈合。",
+    "question": "在人类拔牙窝的自然愈合过程中，局部应用釉基质衍生物（EMD）能否改变早期软组织的组织学表型（上皮厚度、固有层厚度、血管化程度）？",
+    "design": "随机对照研究：20例单根牙拔除患者随机分为对照组（无创拔牙后以胶原止血锥充填、4周愈合）与EMD组（胶原止血锥浸润EMD充填、4周愈合）；两组均在舌/腭侧做瓣转移获得初期闭合，4周后于种植体植入二次手术时取软组织样本做组织学与免疫组化评估。",
+    "sample_desc": "20例有单根牙拔除适应证的患者（人群样本）；摘要未说明纳入/排除标准与人口学特征。",
+    "findings": [
+     {
+      "claim": "EMD组上皮厚度显著高于对照组",
+      "evidence": "组织学切片比较：EMD组上皮厚度显著增加（摘要未给出具体数值与P值）"
+     },
+     {
+      "claim": "EMD组固有层（lamina propria）厚度大于对照组",
+      "evidence": "组织学比较方向为EMD组固有层更厚（摘要未给出具体数值与P值）"
+     },
+     {
+      "claim": "EMD组血管面积显著高于对照组",
+      "evidence": "组织形态学测量：EMD组血管面积显著更高（摘要未给出具体数值与P值）"
+     },
+     {
+      "claim": "EMD组VEGF免疫染色总H-score显著高于对照组",
+      "evidence": "免疫组化半定量评分：EMD组VEGF总H-score显著更高（摘要未给出具体数值与P值）"
+     }
+    ],
+    "effect": "未报告（摘要仅给出方向性与显著性描述，无效应量与置信区间）",
+    "relation": "对应 q4（生物材料如何编程宿主免疫/再生结局）——提供支持性人体组织学证据：EMD作为生物活性材料改变了拔牙窝软组织愈合的组织学表型。对 q1 仅有间接关联（涉及血管化与炎症消退的早期软组织环境，但未涉及巨噬细胞极化、NETs或IL-1β轴，也未涉及骨结合或种植体周炎）。",
+    "why": "它把EMD的作用证据从牙周/骨再生的既往语境扩展到拔牙窝软组织愈合的早期阶段，并且是在人类活体组织（非体外、非动物）上以组织学与免疫组化双终点验证的——这为'生物材料可改变愈合组织表型'这一命题提供了人体层面的可核查证据，而非仅靠细胞实验外推。",
+    "limitations": [
+     "样本量仅20例、随访仅4周，只反映愈合极早期的组织学差异，无法判断这些差异是否在种植体负载后转化为临床可测量的软组织表型（如角化黏膜宽度、种植体周探诊深度）",
+     "摘要未说明是否设盲（组织学评估者盲法），且两组均行瓣转移获得初期闭合，手术操作本身可能影响愈合结局，构成混杂",
+     "终点全部为组织学/免疫组化替代指标，无临床硬终点；VEGF染色升高与血管面积增加仅为相关性共现，未建立EMD→VEGF→血管化的因果通路"
+    ],
+    "transferable": "① '胶原载体浸润生物活性分子'的局部给药设计——可迁移到你关注的种植体表面涂层/降解产物递送；② '二次手术时取活检做组织学+免疫组化H-score半定量'的取样与终点设计——可在种植体周炎模型中同样操作，用H-score量化VEGF、IL-1β等靶点；③ 以血管面积作为早期愈合的形态学终点，比单纯分子表达更接近功…",
+    "followups": [
+     "EMD组与对照组在上皮厚度、固有层厚度、血管面积上的具体数值、标准差与统计检验方法（t检验还是Mann-Whitney）分别是什么？",
+     "VEGF的H-score评分标准（染色强度×阳性比例）与观察者间一致性（kappa/ICC）是否在方法部分报告？",
+     "4周时的组织学差异在更长随访（种植体负载后6个月以上）中是否仍能转化为角化黏膜宽度或种植体周探诊深度的临床差异？"
+    ],
+    "glossary": [
+     {
+      "en": "enamel matrix derivative (EMD)",
+      "cn": "釉基质衍生物"
+     },
+     {
+      "en": "lamina propria",
+      "cn": "（上皮下）固有层"
+     },
+     {
+      "en": "H-score",
+      "cn": "免疫组化半定量评分（染色强度×阳性细胞比例）"
+     },
+     {
+      "en": "vascular endothelial growth factor (VEG…",
+      "cn": "血管内皮生长因子"
+     },
+     {
+      "en": "atraumatic extraction",
+      "cn": "无创/微创拔牙"
+     },
+     {
+      "en": "collagenic hemostat cone",
+      "cn": "胶原止血锥"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": 92.0,
+     "problems": [
+      "transferable 似乎被截断"
+     ],
+     "repaired_by": "mimo-v2.6-flash",
+     "attempts": 1
+    }
+   }
+  },
+  {
+   "id": "10.1111/odi.70571",
+   "pmid": "43016180",
+   "doi": "10.1111/odi.70571",
+   "title": "aPDT Applied in Osteonecrosis of the Jaws: A Randomized Controlled Trial",
+   "title_zh": "aPDT在颌骨坏死中的应用：一项随机对照试验",
+   "journal": "Oral diseases",
+   "date": "2026-11-11",
+   "authors": [
+    "de Souza MN",
+    "das Neves Lopes F",
+    "da Silva AF",
+    "Rocha AC",
+    "Lopes RN",
+    "Moreira MS",
+    "Alves FA"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43016180/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 21,
+   "sample_note": "n=21",
+   "tier": "B",
+   "domain": "牙周炎通过哪些可验证的通…",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "骨坏死抗菌干预",
+   "one_line": "RCT显示aPDT联合标准治疗较单纯标准治疗显著提高颌骨骨坏死完全愈合率（40.6% vs 0%）。",
+   "so_what": "aPDT的光动力杀灭细菌/生物膜机制可类比种植体周炎抗菌策略，但对免疫调控无直接启示。",
+   "caution": "样本量小（n=21+39），CI极宽（2.21–704），需大样本验证。",
+   "score": {
+    "final": 44.1,
+    "match": 40.0,
+    "novelty": 50.0,
+    "rigor": 55.0,
+    "impact": 45.0,
+    "transfer": 35.0
+   },
+   "heuristic": 41.8,
+   "breakdown": {
+    "topic": 2.0,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 3.6,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVE: To evaluate the effectiveness of antimicrobial photodynamic therapy in patients with osteoradionecrosis and medication-related osteonecrosis of the jaws. METHODS: Sixty patients diagnosed with osteoradionecrosis (n = 21) or medication-related osteonecrosis of the jaws (n = 39) were randomized to receive either standard therapy (0.12% chlorhexidine irrigation and systemic antibiotics when indicated; n = 28) or standard therapy plus antimicrobial photodynamic therapy (n = 32). The antimicrobial photodynamic therapy protocol consisted of a topical methylene blue application followed by low-level laser irradiation (660 nm, 4 J, 100 mW, 40 s per point), performed weekly. The primary endpoint was complete healing. RESULTS: Complete healing was observed in 40.6% of patients treated with antimicrobial photodynamic therapy (13/32), whereas no cases were observed in the standard therapy group (0/28) (OR 39.5; 95% CI 2.21-704; p < 0.001). CONCLUSIONS: Antimicrobial photodynamic therapy improved healing outcomes and reduced the need for surgical intervention in patients with osteonecrosis of the jaws. These findings support aPDT as a promising conservative adjunct in the management of osteoradionecrosis and medication-related osteonecrosis of the jaws.",
+   "tags": [
+    "osteonecrosis",
+    "osteoradionecrosis",
+    "photodynamic therapy"
+   ],
+   "deep": {
+    "title_zh": "aPDT在颌骨坏死中的应用：一项随机对照试验",
+    "one_sentence": "抗菌光动力疗法(aPDT)联合标准治疗显著促进颌骨坏死愈合，完全愈合率较单独标准治疗提高至40.6%，差异极显著(p<0.001)。",
+    "question": "在放射性颌骨坏死(ORNJ)和药物相关颌骨坏死(MRONJ)的治疗中，aPDT作为辅助治疗能否显著提高完全愈合率？其疗效是否独立于传统抗生素冲洗和手术干预之外发挥作用？",
+    "design": "前瞻性随机对照试验，患者被随机分配至标准治疗组或标准治疗+aPDT组，aPDT每周进行一次，主要终点为完全愈合率，两组均接受0.12%氯己定冲洗，必要时使用系统性抗生素。",
+    "sample_desc": "共60例患者，其中放射性颌骨坏死(ORNJ)21例，药物相关颌骨坏死(MRONJ)39例，来自摘要未说明的具体医疗机构",
+    "findings": [
+     {
+      "claim": "aPDT组完全愈合率达到40.6%，标准治疗组无病例实现完全愈合",
+      "evidence": "aPDT组13/32例达到完全愈合，标准治疗组0/28例，OR=39.5，95%CI 2.21-704，p<0.001"
+     },
+     {
+      "claim": "aPDT可降低手术干预需求",
+      "evidence": "作者定性陈述\"reduced the need for surgical intervention\"，但摘要未提供具体手术率数据"
+     }
+    ],
+    "effect": "OR=39.5，95%CI: 2.21-704（效应量极大且置信区间极宽）",
+    "relation": "与q1相关：探讨种植体周微环境中的感染控制策略，特别是针对难治性骨髓炎的免疫调节机制——aPDT通过选择性灭活病原微生物而非直接调控宿主免疫，为骨坏死的治疗提供新视角。同时涉及q4关于生物材料表面微环境调控的问题。",
+    "why": "该研究首次通过RCT证据证实aPDT在颌骨坏死保守治疗中的显著疗效，挑战了传统的单一抗生素治疗方案。结果提示即使在不适合手术干预的患者中，局部物理化学方法也能有效控制感染并促进组织修复，这改变了我们对慢性骨髓炎治疗路径的认知。",
+    "limitations": [
+     "样本量较小(n=60)，导致OR置信区间极宽(2.21-704)，无法精确估计真实效应量",
+     "两亚组(ORNJ vs MRONJ)合并分析，未分层报告各型颌骨坏死的愈合情况，两种病理机制可能不同",
+     "摘要未说明是否设盲、随访时长及复发情况，影响结果的可重复性和长期有效性评估"
+    ],
+    "transferable": "aPDT的光敏剂选择与激光参数设置可作为其他难愈合创面研究的实验方案参考；OR值计算可作为疗效评估的统计范式； weekly protocol设计思路可移植到其他感染性骨病的间歇治疗模式。",
+    "followups": [
+     "本研究具体排除了哪些合并症或用药史（如双膦酸盐使用时长、放疗剂量阈值），这些排除标准对临床适用人群有何影响？",
+     "aPDT治疗后是否有监测细菌负荷的变化数据（如培养阴性转化率）或与炎症标志物相关的指标改变？",
+     "长期随访中复发率如何？完全愈合的定义标准是什么（临床检查还是影像学确认）？"
+    ],
+    "glossary": [
+     {
+      "en": "antimicrobial photodynamic therapy (aPD…",
+      "cn": "抗菌光动力疗法"
+     },
+     {
+      "en": "osteoradionecrosis (ORNJ)",
+      "cn": "放射性颌骨坏死"
+     },
+     {
+      "en": "medication-related osteonecrosis of the…",
+      "cn": "药物相关颌骨坏死"
+     }
+    ],
+    "reading_minutes": 15,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": 85.0,
+     "problems": [
+      "why中'首次通过RCT证实'为摘要外推断，缺乏依据",
+      "relation中q1/q4关联牵强，与颌骨坏死主题的对应关系表述含糊"
+     ],
+     "repaired_by": "",
+     "attempts": 0
+    }
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1016/j.oraloncology.2026.108220",
+   "pmid": "43014091",
+   "doi": "10.1016/j.oraloncology.2026.108220",
+   "title": "Prognostic significance of minor versus major extranodal extension in oral cavity squamous cell carcinoma: a systematic review and meta-analysis",
+   "title_zh": "口腔鳞癌微小vs主要细胞外神经侵犯的预后系统评价与Meta分析",
+   "journal": "Oral oncology",
+   "date": "2026-11-11",
+   "authors": [
+    "Vaira LA",
+    "Qadeer H",
+    "Lechien JR",
+    "Maniaci A",
+    "Maglitto F",
+    "Salzano G",
+    "Iannella G",
+    "Chiesa-Estomba CM",
+    "Boscolo-Rizzo P",
+    "De Riu G"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43014091/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "口腔鳞癌的免疫微环境与微…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "颌面肿瘤/预后分层",
+   "one_line": "Meta分析22篇报告/18个队列，主要ENE vs 微小ENE的 pooled HR=2.01（95%CI 1.10…",
+   "so_what": "q5核心相关：ENE extent是免疫逃逸强度的病理代理指标，可作为免疫微环境研究的可转化终点。",
+   "caution": "I²=60.5%提示中度异质性，部分队列调整方式不一致。",
+   "score": {
+    "final": 68.4,
+    "match": 90.0,
+    "novelty": 65.0,
+    "rigor": 75.0,
+    "impact": 80.0,
+    "transfer": 30.0
+   },
+   "heuristic": 44.8,
+   "breakdown": {
+    "topic": 5.8,
+    "journal": 15.0,
+    "design": 18,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Extranodal extension (ENE) is an established adverse prognostic factor in oral cavity squamous cell carcinoma (OCSCC), but the clinical relevance of its extent remains uncertain. This systematic review and meta-analysis evaluated the prognostic impact of quantitatively defined minor versus major ENE, with particular emphasis on the conventional 2-mm threshold. METHODS: PubMed, Scopus, Embase, and the Cochrane Library were searched from inception to August 2026. Studies of surgically treated OCSCC assessing pathological ENE extent and oncological outcomes were included. Random-effects meta-analyses using restricted maximum likelihood and Hartung-Knapp inference were performed when at least three compatible adjusted hazard ratios (HRs) were available. Risk of bias was assessed using QUIPS. RESULTS: Twenty-two reports representing 18 independent cohorts were included. Five studies contributed to the primary overall survival (OS) meta-analysis. Major ENE was associated with significantly worse OS than minor ENE (pooled HR 2.01, 95% CI 1.10-3.66; I2 = 60.5%). Three studies contributed to the disease-free survival (DFS) meta-analysis, showing a concordant but imprecise association (pooled HR 2.16, 95% CI 0.44-10.66; I2 = 59.3%). Alternative thresholds and morphological classifications also generally suggested poorer outcomes with increasing ENE extent. CONCLUSIONS: ENE extent provides prognostic information beyond binary ENE status in OCSCC. Major ENE is associated with worse OS, while evidence for DFS is directionally consistent but less precise. The 2-mm cutoff should be considered clinically useful but not yet biologically definitive.",
+   "tags": [
+    "Disease-free survival",
+    "Extranodal extension",
+    "Macroscopic extranodal extension",
+    "Meta-analysis",
+    "Microscopic extranodal extension",
+    "Oral cavity squamous cell carcinoma"
+   ]
+  },
+  {
+   "id": "10.1016/j.bone.2026.118163",
+   "pmid": "43014639",
+   "doi": "10.1016/j.bone.2026.118163",
+   "title": "The \"osteostat\": A theory of bone mechanosensing and setpoint adaptation based on osteocytes",
+   "title_zh": "基于骨细胞的骨机械感应'骨统计'理论模型",
+   "journal": "Bone",
+   "date": "2026-11-11",
+   "authors": [
+    "Pauchard Y",
+    "Buenzli PR"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43014639/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "骨力学感知机制",
+   "one_line": "将Frost机械稳态设定点具象化为骨细胞特性，构建随时间适应的动态数学模型解释骨适应性重构",
+   "so_what": "q4（生物材料-骨再生）的直接理论框架：可将表面性质视为改变骨细胞设定点的外部变量，启发负载+材料…",
+   "caution": "纯理论+数学建模，无动物/临床验证；模型假设待实验检验；偏理论非实验指南",
+   "score": {
+    "final": 42.7,
+    "match": 55.0,
+    "novelty": 50.0,
+    "rigor": 45.0,
+    "impact": 25.0,
+    "transfer": 55.0
+   },
+   "heuristic": 22.0,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "The osteocyte network in bone is believed to play an important role for how bone tissues sense and respond to mechanical stimulation. Yet, bone adaptation to mechanical loads is often conceptualised as a simple response to mechanical stimuli, such as Wolff's law, which is based on mechanical variables only and takes no account of the cellular basis of mechanosensation. Wolff's law presumes the existence of a reference mechanical stimulus, the mechanical setpoint, above which bone is added , and under which bone is removed. In this paper, we develop a theory of bone tissue sensing and adaptation based on osteocytes to provide new understanding of the role played by osteocyte signals in mechanical adaptation. In this theory, the mechanical setpoint of Frost's mechanostat is explicitly embodied as osteocyte properties involved in mechanotransduction. The mechanical setpoint is allowed to adapt due to the replacement of osteocytes during remodelling, making the setpoint space and time dependent. We propose a mathematical model to implement this new theory of bone adapation and present numerical simulations of this model to explore how mechanobiological response curves (effective Wolff's laws) are modulated by setpoint adaptation during remodelling. By accounting for varying osteocyte populations within bone tissue, we explore bone adaptation under osteocyte disruptions, which is particularly relevant to age-related bone loss. Our model suggests that biological disruptions of remodelling balance cannot always be compensated by mechanical feedback, and that setpoint adaptation during remodelling may have significant observable consequences, such as hysteresis in bone response signatures that resemble lazy zones.",
+   "tags": [
+    "Bone remodelling",
+    "Bone tissue regulation",
+    "Lazy zone",
+    "Mechanical adaptation",
+    "Mechanostat",
+    "Osteocyte"
+   ]
+  },
+  {
+   "id": "10.1002/hed.70546",
+   "pmid": "43015994",
+   "doi": "10.1002/hed.70546",
+   "title": "Risk Factors for Osteoradionecrosis After Head and Neck Radiotherapy: A Systematic Review",
+   "title_zh": "头颈放疗后下颌骨放射性骨坏死的危险因素：系统评价",
+   "journal": "Head & neck",
+   "date": "2026-11-11",
+   "authors": [
+    "Le Guevelou J",
+    "Larnaudie A",
+    "Biau J",
+    "Chaux AG",
+    "Bourhis J",
+    "Pointreau Y"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43015994/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 14,
+   "sample_note": "14 项研究",
+   "tier": "B",
+   "domain": "颌面肿瘤与分子机制",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "颌面肿瘤/放疗并发症",
+   "one_line": "系统评价14项研究（13项回顾性），OR发生率1.8%-19.8%，识别传统及新兴风险因子（含ICI使用）。",
+   "so_what": "q5相关：放疗/ICI联合治疗下的骨坏死可能与免疫失调有关，但未触及具体机制。",
+   "caution": "异质性高，无合并效应量，多为回顾性数据。",
+   "score": {
+    "final": 28.8,
+    "match": 45.0,
+    "novelty": 25.0,
+    "rigor": 55.0,
+    "impact": 25.0,
+    "transfer": 50.0
+   },
+   "heuristic": 56.4,
+   "breakdown": {
+    "topic": 19.2,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 3.1,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "INTRODUCTION: Although intensity-modulated radiotherapy (IMRT) has led to a significant reduction in mandibular osteoradionecrosis (ORN) rates, head-and-neck radiotherapy (RT) is rapidly evolving-with increasing use of altered schedules and with novel systemic regimens including immune checkpoint inhibitors (ICI). The aim of this work is to systematically review the established risk factors for ORN after head-and-neck RT and to provide a narrative outlook on emerging risk factors. MATERIAL AND METHODS: A systematic review of the literature was performed in September 2025 on three databases (PubMed/MEDLINE, Embase and Scopus), using the MeSH terms \"osteoradionecrosis\" and \"head and neck neoplasm.\" No language restriction was applied. Studies deemed eligible were studies reporting factors associated with the onset of osteoradionecrosis after photon-based head-and-neck RT. RESULTS: A total of 14 articles were included (1 prospective, 13 retrospective). The proportion of patients who developed ORN ranged from 1.8% to 19.8%, with a median interval from RT to ORN onset of 8 to 40 months. Pre-RT dental extraction (particularly within 7 days before RT start) and higher mandibular dose-volume parameters (V50Gy, V60Gy, dose to the primary site) were consistently associated with ORN onset. Smoking was associated with a shorter time to ORN onset, and bone surgery with resection of the periosteum was a strong independent risk factor (HR 5.87). No included study reported altered fractionation (accelerated, hyperfractionated) as being a risk factor to develop ORN. CONCLUSION: Risk factors for ORN include both patient-related (smoking) and treatment-related (pre-RT dental extraction, mandibular V50Gy/V60Gy) parameters. Whether these risk factors retain their relevance in modern altered-fractionation schedules and in ICI-combination regimens is currently unknown and warrants dedicated analysis from prospective studies.",
+   "tags": [
+    "chemotherapy",
+    "head and neck cancer",
+    "immunotherapy",
+    "osteoradionecrosis",
+    "radiotherapy",
+    "toxicity"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107164",
+   "pmid": "43014474",
+   "doi": "10.1016/j.jdent.2026.107164",
+   "title": "Long-Term Peri-Implant Crestal Bone Stability Following Digital and Conventional Restorative Workflows: A 5- to 11.6-Year Retrospective Follow-Up",
+   "title_zh": "数字化vs传统修复流程对种植体周 crestal bone 稳定性的长期随访",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-11",
+   "authors": [
+    "Klein M",
+    "Tarnow D"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43014474/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 65,
+   "sample_note": "n=65 implants",
+   "tier": "B",
+   "domain": "种植体周的免疫微环境（巨…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "种植体周炎",
+   "one_line": "回顾性随访（mean 9.1年）显示87.5%植入物骨水平保持稳定或改善，未做 Inferential 检验。",
+   "so_what": "q1相关边缘——长期骨稳定数据可用于讨论种植体周炎的宿主因素，但无机制层面。",
+   "caution": "无对照、无统计检验，描述性为主，n=65植入物属中小样本。",
+   "score": {
+    "final": 28.4,
+    "match": 15.0,
+    "novelty": 10.0,
+    "rigor": 30.0,
+    "impact": 40.0,
+    "transfer": 40.0
+   },
+   "heuristic": 50.4,
+   "breakdown": {
+    "topic": 14.6,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 4.9,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To assess long-term peri-implant crestal bone stability around microthreaded, platform-switched implants and explore associations with restorative workflows, abutment characteristics, and prosthetic design. METHODS: This retrospective follow-up included 65 implants in 38 patients from a previously reported cohort. Reported mean clinical observation intervals were 9.1 years after implant placement and 8.5 years after definitive restoration. Mesial and distal bone levels were classified radiographically as improved, maintained, or decreased relative to the restoration baseline. Descriptive analyses considered impression modality, abutment configuration, prosthetic splinting, and surgical variables. For eight implants without new radiographs, the most recent previous classification was retained. No inferential comparisons were conducted. RESULTS: Of 128 evaluable implant surfaces, 28 (21.9%) showed radiographic improvement, 84 (65.6%) remained stable, and 16 (12.5%) showed a decrease; the combined improvement or maintenance rate was 87.5%. Favorable outcomes were recorded for 86.9% of surfaces in the digital-impression group and 88.6% in the conventional-impression group. Bone maintenance was observed on 74.1% of splinted surfaces and 59.5% of single-unit surfaces. Multi-unit abutments showed 82.6% maintenance. Overall, 64 of 65 implants (98.5%) met the applied radiographic bone-level criterion. CONCLUSIONS: Most evaluable implant surfaces maintained or improved their radiographic crestal bone levels over the documented follow-up. Digital and conventional impression groups showed similar descriptive outcomes; associations with abutment selection and splinting remained exploratory. CLINICAL RELEVANCE: These long-term observations are reassuring for implant restorations fabricated using digital impressions. The findings do not establish biological equivalence or isolate the effects of individual restorative components; prospective studies with standardized follow-up are needed.",
+   "tags": [
+    "CAD/CAM",
+    "Dental implants",
+    "crestal bone stability",
+    "digital impression",
+    "implant abutment",
+    "splinted restoration"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07259-y",
+   "pmid": "43007557",
+   "doi": "10.1007/s00784-026-07259-y",
+   "title": "Comparison of alignment in patients with buccally displaced maxillary canines using T-loop mechanics and continuous arch mechanics: a randomized clinical trial",
+   "title_zh": "T环与连续弓丝力学矫正上颌唇向错位尖牙的RCT对比",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-10",
+   "authors": [
+    "Jain A",
+    "Chugh VK",
+    "Bhatia NK",
+    "Sardana R",
+    "Kumar P",
+    "Singh S"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43007557/",
+   "pmcid": "4711021",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 26,
+   "sample_note": "n=26 patients",
+   "tier": "B",
+   "domain": "种植与骨再生",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Comparative Study"
+   ],
+   "is_open_access": true,
+   "cluster": "正畸力学",
+   "one_line": "RCT（n=26）显示T环力学与连续弓丝力学在尖牙整齐率上无显著差异。",
+   "so_what": "与q1-q5均无关，纯正畸技术比较，仅背景。",
+   "caution": "n=26总样本偏小，双组各约13，统计效能不足。",
+   "score": {
+    "final": 18.3,
+    "match": 10.0,
+    "novelty": 25.0,
+    "rigor": 55.0,
+    "impact": 30.0,
+    "transfer": 15.0
+   },
+   "heuristic": 43.1,
+   "breakdown": {
+    "topic": 4.1,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 3.8,
+    "fresh": 5.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVE: To compare the efficiency and effects of T-loop mechanics (TLM) and continuous arch mechanics (CAM) for alignment of maxillary anterior teeth in patients with buccally displaced canines (BDC). SUBJECTS AND METHODS: In this parallel, two-arm randomized clinical trial, 26 patients with unilateral or bilateral BDC were randomly allocated to TLM and CAM groups. In the TLM group, canines were initially retracted using T-loops, whereas in the CAM group, initial distal movement of the canine was performed using elastomeric chains on a continuous 0.014-inch nickel-titanium (NiTi) archwire without full engagement. After sufficient distal movement in the TLM group and once full canine engagement was achieved in the CAM group, alignment and leveling in both groups were completed sequentially using 0.014-, 0.016-, and 0.018-inch round NiTi archwires. Study models and radiographs were obtained at baseline (T0) and after alignment (T1). The primary outcome was the rate of alignment. Secondary outcomes included anchorage loss, canine tipping, rotation, and intercanine width. Independent t-tests and generalized estimating equation (GEE) models were used for analysis. RESULTS: The rate of alignment did not differ significantly between the two treatment groups (P = 0.114). GEE model analysis showed significant changes over time for anchorage loss, canine tipping, and rotation in both groups (P 0.05). Intercanine width did not differ significantly between groups (P = 0.378). CONCLUSIONS: Within the limitations of this clinical trial, both mechanics demonstrated effective alignment of buccally displaced canines with no statistically significant differences between groups; however, the wide confidence intervals preclude any conclusion of equivalence or clinical interchangeability.",
+   "tags": [
+    "Anchorage loss",
+    "Buccally displaced canine",
+    "Continuous arch mechanics",
+    "Orthodontic alignment",
+    "Rate of alignment",
+    "T-loop mechanics"
+   ]
+  },
+  {
+   "id": "10.1016/j.bone.2026.118167",
+   "pmid": "43014640",
+   "doi": "10.1016/j.bone.2026.118167",
+   "title": "Effects of hyponatremia on bone repair in mice",
+   "title_zh": "低钠血症对小.mouse骨缺损修复的影响",
+   "journal": "Bone",
+   "date": "2026-11-11",
+   "authors": [
+    "Yamao H",
+    "Mizukami Y",
+    "Kishigami R",
+    "Kawao N",
+    "Okumoto K",
+    "Kaji H"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43014640/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 24,
+   "sample_note": "n=24",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "代谢因素影响骨愈合",
+   "one_line": "dDAVP诱导的小鼠慢性低钠血症抑制骨缺损区血管新生及成骨细胞活性，减缓骨修复进程。",
+   "so_what": "为q2中'全身疾病通路影响骨愈合'提供了动物模型验证思路；钠离子通道/Osteoblast增殖关系…",
+   "caution": "dDAVP超生理剂量诱导的低钠模型是否反映临床低钠状态存疑；n=24偏少。",
+   "score": {
+    "final": 40.2,
+    "match": 30.0,
+    "novelty": 45.0,
+    "rigor": 60.0,
+    "impact": 30.0,
+    "transfer": 55.0
+   },
+   "heuristic": 37.7,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 3.7,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "Hyponatremia, a common electrolyte abnormality in older patients, is associated with osteopenia and an increased risk of fracture. However, the effects of hyponatremia on bone repair remain unclear. In the present study, we investigated the effects of 1-desamino-8-D-arginine vasopressin (dDAVP)-induced chronic hyponatremia on bone repair after creation of a femoral bone defect. A total of 54 nine-week-old male C57BL/6J mice were randomly assigned to the control group (n = 24) or the dDAVP-treated group (n = 30), and dDAVP was administered for 6 weeks before bone defect creation. Serum sodium levels were 120.2 ± 1.2 mEq/L in dDAVP-treated mice. dDAVP administration significantly suppressed bone volume fraction (BV/TV) in the bone defect region 10 days after femoral bone injury creation in mice, compared to control (23.7 ± 3.4 vs. 39.0 ± 4.1%, p = 0.021). Histological analyses showed that dDAVP significantly reduced the numbers of alkaline phosphatase (ALP)-positive osteoblastic cells and both CD31- and endomucin-positive blood vessels in the bone injury region 10 days after femoral bone defect creation (ALP: 24.7 ± 2.0 vs. 30.0 ± 2.0 cells/mm, p = 0.043; CD31/endomucin: 107 ± 15 vs. 151 ± 9 vessels/mm2, p = 0.016). Moreover, dDAVP significantly suppressed the mRNA expression of osteogenic genes, such as Runx2, Osterix, ALP, osteocalcin, and type 1 collagen in the bone injury region. In in vitro studies, low sodium concentrations (125 mEq/L), but not dDAVP treatment, significantly suppressed ALP activity as well as the mRNA levels of Osterix and ALP enhanced by bone morphogenetic protein-2 in ST-2 cells (p = 0.029). Moreover, low sodium concentrations, but not dDAVP treatment, significantly suppressed mineralization in mouse primary osteoblasts (p = 0.007). In conclusion, we demonstrated for the first time that dDAVP-induced chronic hyponatremia delays bone repair after a femoral bone defect in mice, at least partly through impaired osteoblast differentiation and angiogenesis.",
+   "tags": [
+    "Bone repair",
+    "Desmopressin",
+    "Hyponatremia",
+    "Osteoblast"
+   ]
+  },
+  {
+   "id": "10.1111/joor.70369",
+   "pmid": "43010125",
+   "doi": "10.1111/joor.70369",
+   "title": "Exploratory Functional MRI Assessment of Trigeminal System Activation in Asymptomatic Individuals With Temporomandibular Joint Disc Displacement",
+   "title_zh": "无症状盘移位者三叉神经系统的fMRI探索性评估",
+   "journal": "Journal of oral rehabilitation",
+   "date": "2026-11-10",
+   "authors": [
+    "Savychuk NO",
+    "Bida VI",
+    "Volosovets AO",
+    "Sulik RV",
+    "Pekhnyo V",
+    "Osnach RG",
+    "Riabko IB"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43010125/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": 10,
+   "sample_note": "n=10",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "TMD中枢处理",
+   "one_line": "fMRI显示无症状盘移位者丘脑激活模式与健康人相似，但探索性设计无法得出组间差异结论",
+   "so_what": "仅提示种植体周围炎的疼痛-中枢敏化机制可借鉴fMRI范式；n=17太小，不可作为设计参考",
+   "caution": "n=17、仅描述性统计、无多重比较校正说明、fMRI结果外推能力有限",
+   "score": {
+    "final": 23.6,
+    "match": 15.0,
+    "novelty": 35.0,
+    "rigor": 42.0,
+    "impact": 10.0,
+    "transfer": 18.0
+   },
+   "heuristic": 23.8,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 2.8,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Temporomandibular disorders appear to involve central sensory processing, including the thalamus and brainstem trigeminal complex. OBJECTIVE: To explore task-based fMRI activity of the trigeminal system in asymptomatic individuals with MRI-confirmed temporomandibular joint disc displacement versus controls. METHODS: Seventeen asymptomatic participants were included: controls without temporomandibular complaints or MRI evidence of disc displacement (Group 1, n = 10) and individuals with disc displacement without pain or functional limitation (Group 2, n = 7). fMRI was acquired during centric-occlusion clenching versus relaxed jaw (block design; cluster-corrected z > 3.1). Activation maps were intersected voxel-wise with trigeminally relevant ROIs of the Adil et al. brainstem atlas. In an exploratory case-level approach, overlap volume, peak z and percentage BOLD signal change were reported per activated ROI; group comparisons were descriptive only. RESULTS: In Group 1, trigeminally relevant activation was limited to the atlas region 'thalamus excluding pulvinar' (substantive in 4/10 controls; bilateral in one; peak z 4.24-5.15; BOLD change 0.79%-1.28%). In Group 2, one participant with right-sided complete anterior disc displacement showed a medullary cluster overlapping the left spinal trigeminal tract (24 voxels, peak z 5.06, 0.95%) and nucleus interpolaris (35 voxels, peak z 5.60, 1.13%), among several adjacent structures; no thalamic activation occurred in this group. No between-group difference was statistically significant. CONCLUSIONS: A medullary activation cluster overlapping the left spinal trigeminal tract and nucleus interpolaris, among several adjacent medullary structures, was observed in one participant with asymptomatic TMJ disc displacement. This single-case, hypothesis-generating observation requires confirmation in larger cohorts using brainstem-optimized fMRI.",
+   "tags": [
+    "brainstem",
+    "functional magnetic resonance imaging",
+    "magnetic resonance imaging",
+    "temporomandibular joint disorders",
+    "thalamus",
+    "trigeminal nerve"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107167",
+   "pmid": "43014475",
+   "doi": "10.1016/j.jdent.2026.107167",
+   "title": "Fluoride toothpaste functionalized with quercetin and bioactive glass mitigates dentin erosive-abrasive wear",
+   "title_zh": "槲皮素+生物活性玻璃含氟牙膏抗牙本质侵蚀磨耗的体外研究",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-11",
+   "authors": [
+    "Lu ZC",
+    "Zheng YX",
+    "Ke MJ",
+    "Wang YC",
+    "He WH",
+    "Xie YD",
+    "Zhong BJ",
+    "Yu H"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43014475/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "in_vitro",
+   "design_label": "体外/细胞",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "材料/牙体硬组织",
+   "one_line": "体外侵蚀-磨耗循环模型显示添加槲皮素和BAG可降低牙本质有机基质脱矿厚度。",
+   "so_what": "q4相关——材料成分影响宿主细胞反应，但仅为体外终点，无法推演免疫编程。",
+   "caution": "体外研究，无细胞因子/基因表达数据，浓度未标注是否与生理相关。",
+   "score": {
+    "final": 22.8,
+    "match": 20.0,
+    "novelty": 35.0,
+    "rigor": 60.0,
+    "impact": 25.0,
+    "transfer": 10.0
+   },
+   "heuristic": 54.0,
+   "breakdown": {
+    "topic": 31.0,
+    "journal": 10.0,
+    "design": 7,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVE: To evaluate the physicochemical performance and protective effects of a novel fluoride toothpaste containing quercetin and bioactive glass (BAG) on enamel and dentin under in vitro erosion-abrasion challenges. METHODS: Experimental toothpastes incorporating 0.025, 0.050 or 0.075 wt% quercetin (Q25, Q50, Q75) and 2 or 4 wt% BAG (BAG2, BAG4) in a 1,450 ppm fluoride base were assessed for cytotoxicity on human gingival fibroblasts (HGFs). Enamel and dentin specimens underwent a 7-day in vitro erosive-abrasion cycling protocol consisting of 4 daily erosive challenges at 2 h intervals. Toothbrush abrasion was performed 30 min after the first and final erosive challenges of each day. Erosive enamel/dentin loss, the percentage of surface microhardness loss (%SMHL), surface morphology, and compositional alterations were characterized using surface profiling, microhardness tester, scanning electron microscopy (SEM), and X-ray diffraction (XRD). For dentin specimens, the thickness of the demineralized organic matrix (DOM) layer was determined from the difference between surface profiles measured before and after a 5-day digestion with type I collagenase. RESULTS: All experimental toothpastes maintained physical stability, exhibited an alkaline pH, and showed favorable biocompatibility. On enamel, the Q50-BAG2, Q75-BAG2 and Q75-BAG4 groups exhibited similar erosive surface loss comparable to the commercial control and demonstrated significantly reduced %SMHL compared to the base toothpaste. On dentin, quercetin and BAG significantly reduced erosive dentin loss and promoted the retention of the demineralized organic matrix (DOM) layer. The Q75-BAG4 formulation provided the most pronounced benefit, minimizing dentin lesion depth while optimally preserving the DOM. SEM and XRD confirmed the formation of apatite-like crystalline deposits on enamel surfaces, alongside the occlusion of dentinal tubules. CONCLUSIONS: The experimental fluoride toothpaste containing 0.075 wt% quercetin and 4 wt% BAG effectively reduced erosive-abrasive wear on dentin, whereas its protective efficacy on enamel was comparable to that of the fluoride base and commercial fluoride toothpastes. CLINICAL RELEVANCE: This novel dentifrice mitigated the abrasive wear associated with particulate additives while promoting dentin remineralization, showing potential as an adjunct preventive formul",
+   "tags": [
+    "Bioactive glass",
+    "Dental erosion",
+    "Quercetin",
+    "Remineralization",
+    "Toothpaste"
+   ]
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 7
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 7
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 7
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 7
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 7
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 7
+  }
+ ],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}
