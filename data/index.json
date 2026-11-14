@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-13T10:04:52+08:00",
- "latest": "2026-11-13",
+ "updated_at": "2026-11-14T09:38:53+08:00",
+ "latest": "2026-11-14",
  "days": [
+  {
+   "date": "2026-11-14",
+   "must_title": "Neutrophil Extracellular Traps Contribute to Peri-Implant Bone Loss: Insights Into Pro-Inflammatory Macrophage-Neutrophil Crosstalk",
+   "must_title_zh": "中性粒细胞胞外诱捕网（NETs）贡献于种植体周骨丢失：来自促炎巨噬细胞-中性粒细胞串扰的启示",
+   "cluster": "种植体周免疫",
+   "count": 10,
+   "ai": true
+  },
   {
    "date": "2026-11-13",
    "must_title": "Effect of enamel matrix derivative in soft tissue healing on post-extraction sockets: Histological evaluation in humans",

@@ -1,0 +1,1057 @@
+{
+ "date": "2026-11-14",
+ "generated_at": "2026-11-14T09:38:53+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 4,
+  "prompt_tokens": 9244,
+  "completion_tokens": 7921
+ },
+ "stats": {
+  "candidates": 157,
+  "raw": 154,
+  "fetched": 13,
+  "raw_dropped_type": 7,
+  "no_abstract": 3,
+  "gated": 13,
+  "scored": 13,
+  "shown": 10,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 4,
+  "quality_failed": 0,
+  "quality_repaired": 0
+ },
+ "must_read": {
+  "id": "10.1111/jcpe.70226",
+  "pmid": "43021680",
+  "doi": "10.1111/jcpe.70226",
+  "title": "Neutrophil Extracellular Traps Contribute to Peri-Implant Bone Loss: Insights Into Pro-Inflammatory Macrophage-Neutrophil Crosstalk",
+  "title_zh": "中性粒细胞胞外诱捕网（NETs）贡献于种植体周骨丢失：来自促炎巨噬细胞-中性粒细胞串扰的启示",
+  "journal": "Journal of clinical periodontology",
+  "date": "2026-11-13",
+  "authors": [
+   "Li Y",
+   "Yang C",
+   "Li X",
+   "Zhang W",
+   "Wang D",
+   "Xing Y",
+   "Yu Y",
+   "Zhao B",
+   "Li F"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43021680/",
+  "pmcid": "",
+  "cited_by": 0,
+  "design": "animal",
+  "design_label": "动物实验",
+  "design_level": 2,
+  "sample_n": null,
+  "sample_note": "",
+  "tier": "A",
+  "domain": "牙周与宿主免疫",
+  "methods": [
+   "single-cell",
+   "spatial",
+   "multiomics"
+  ],
+  "pub_types": [
+   "Journal Article"
+  ],
+  "is_open_access": false,
+  "cluster": "种植体周免疫",
+  "one_line": "整合scRNA-seq与空间转录组揭示NETs来源NNeu驱动PMac极化致骨丧失，DNase I干预减轻骨吸收。",
+  "so_what": "直接回答q1；可用相同多组学策略解析自己课题中的免疫微环境。",
+  "caution": "动物模型结论，需临床前瞻性验证；DNase I局部递送安全性待考。",
+  "score": {
+   "final": 80.6,
+   "match": 92.0,
+   "novelty": 85.0,
+   "rigor": 75.0,
+   "impact": 72.0,
+   "transfer": 88.0
+  },
+  "heuristic": 65.9,
+  "breakdown": {
+   "topic": 28.3,
+   "journal": 15.0,
+   "design": 9,
+   "sample": 0.0,
+   "fresh": 7.0,
+   "method": 6.6
+  },
+  "abstract": "AIMS: To investigate the contribution of neutrophil extracellular traps (NETs) to peri-implant bone loss and explore upstream cellular mechanisms associated with aberrant NETosis. MATERIALS AND METHODS: Clinical specimens were analysed for NET formation and inflammatory markers. A rat peri-implantitis (PI) model with local DNase I treatment was used to evaluate the contribution of NETs to peri-implant bone loss. Single-cell and spatial transcriptomics, cell-cell communication analyses and functional experiments were integrated to investigate macrophage-neutrophil interactions. RESULTS: NET-associated markers were increased in PI specimens and correlated with inflammatory cytokines. DNase I attenuated peri-implant bone resorption and inflammation in rats. Integrated transcriptomic analyses identified a NETosis-associated neutrophil subpopulation (NNeu) with a prominent NET-forming phenotype. Spatial proximity and cell-cell communication analyses identified pro-inflammatory macrophages (PMac) as a candidate upstream population. Mechanistically, PMac-derived macrophage migration inhibitory factor (MIF) promoted NETosis through CD74-p38 MAPK signalling in vitro, while experimental modulation of MIF-CD74 signalling in vivo was accompanied by corresponding changes in NET formation, inflammation and peri-implant bone loss. CONCLUSIONS: NETs contribute to inflammatory bone loss in an experimental PI model. in vitro findings further suggest that pro-inflammatory macrophage-neutrophil crosstalk regulates NET formation through MIF-CD74-p38 MAPK signalling, highlighting a potential immunomodulatory target.",
+  "tags": [
+   "neutrophil extracellular traps",
+   "peri‐implantitis",
+   "single‐cell RNA sequencing",
+   "spatial transcriptomics"
+  ],
+  "deep": {
+   "title_zh": "中性粒细胞胞外诱捕网（NETs）贡献于种植体周骨丢失：来自促炎巨噬细胞-中性粒细胞串扰的启示",
+   "one_sentence": "MIF-CD74-p38 MAPK轴介导的巨噬细胞-中性粒细胞串扰驱动NETs形成，进而加重种植体周炎骨丢失，DNase I或MIF-CD74阻断具保护潜力。",
+   "question": "种植体周炎中，是否存在一个由促炎巨噬细胞发起、经MIF-CD74-p38 MAPK信号驱动中性粒细胞NETosis的细胞间串扰轴，从而直接导致宿主骨丢失？",
+   "design": "临床标本观察 + 大鼠种植体周炎模型（含DNase I局部处理与MIF-CD74信号调控实验），联合单细胞/空间转录组学与细胞间通讯分析；摘要未说明随机/盲法/分组细节。",
+   "sample_desc": "人类PI临床标本（数量未说明）+ 大鼠模型（数量未说明）+ 体外细胞实验（类型未说明）。",
+   "findings": [
+    {
+     "claim": "PI病变中NETs形成增加且与炎症相关",
+     "evidence": "NET相关标志物在PI标本中升高，与炎症细胞因子正相关"
+    },
+    {
+     "claim": "清除NETs可减轻实验性PI骨丢失",
+     "evidence": "局部DNase I处理后，大鼠骨吸收与炎症指标下降"
+    },
+    {
+     "claim": "存在以NET形成为主要表型的促炎巨噬细胞-中性粒细胞异质亚群互作",
+     "evidence": "整合转录组学鉴定出NETosis相关中性粒细胞亚群（NNeu），空间邻近分析与细胞间通讯分析指向促炎巨噬细胞（PMac）为上游"
+    },
+    {
+     "claim": "PMac源性MIF经CD74-p38 MAPK信号促进中性粒细胞NETosis",
+     "evidence": "体外实验中MIF处理增强NET形成，该效应被CD74/p38阻断逆转"
+    }
+   ],
+   "effect": "未报告具体效应量与置信区间",
+   "relation": "q1（直接支持）——明确回答了'NETs如何参与骨丢失'及'上游是谁驱动的'；同时间接回应q4（生物材料表面微环境可编程免疫）：巨噬细胞极化状态决定了能否启动NETs级联。",
+   "why": "首次在大鼠PI模型中将'PMac→MIF→CD74→p38→NETs→骨丢失'串联为一个可干预的信号轴，并提供单细胞+空间转录组双维度证据；使研究者从'NETs是旁观者/结果'转向'NETs是PMac驱动的被放大效应器'这一因果框架。",
+   "limitations": [
+    "摘要未说明DNase I剂量、给药时机与给药频次，无法评估其作为潜在临床干预的安全窗口",
+    "NNeu亚群仅在单细胞聚类中标注为'NETosis特征突出'，未见关键标记基因列表或功能验证（如活体示踪），亚群定义稳健性存疑",
+    "结论基于大鼠模型，临床PI标本仅展示相关性（NETs↑与炎症↑），未证明人类组织中存在相同MIF-CD74-p38轴"
+   ],
+   "transferable": "单细胞+空间转录组联合鉴定'上游驱动细胞-下游效应细胞'串扰的路径可直接迁移至种植体周炎人类活检数据分析；DNase I局部缓释策略可作为材料涂层方向的转化切入点。",
+   "followups": [
+    "摘要未给出NNeu亚群的具体标记基因组合——检索该论文补充材料或Table，列出≥5个标志性转录因子/趋化因子",
+    "DNase I在大鼠模型中的具体剂量（U/kg或U/local）、给药途径（灌注/植入片/涂层？）及开始时间点——补全设计细节以判断临床转化可行性",
+    "体内MIF-CD74干预使用的是抗体阻断还是基因敲除/条件性敲除？若为抗体，半衰期与局部滞留策略是什么？"
+   ],
+   "glossary": [
+    {
+     "en": "NETs (Neutrophil Extracellular Traps)",
+     "cn": "中性粒细胞胞外诱捕网"
+    },
+    {
+     "en": "NETosis",
+     "cn": "NETs形成过程（中性粒细胞程序性死亡的一种形式）"
+    },
+    {
+     "en": "MIF (Macrophage Migration Inhibitory Fa…",
+     "cn": "巨噬细胞移动抑制因子"
+    },
+    {
+     "en": "CD74",
+     "cn": "MIF的主要受体/共受体（也称Invariant Chain）"
+    },
+    {
+     "en": "p38 MAPK",
+     "cn": "p38丝裂原活化蛋白激酶，应激与炎症信号通路核心组分"
+    },
+    {
+     "en": "Peri-implantitis (PI)",
+     "cn": "种植体周炎"
+    }
+   ],
+   "reading_minutes": 12,
+   "quality": {
+    "passed": true,
+    "score": 100.0,
+    "judge_score": 85.0,
+    "problems": [
+     "findings第4条'该效应被CD74/p38阻断逆转'为推断，摘要仅说MIF经CD74-p38 MAPK促进NETosis，未明确描述阻断逆转实验",
+     "'首次'等表述超出摘要依据，属编辑性夸大"
+    ],
+    "repaired_by": "",
+    "attempts": 0
+   }
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1111/jcpe.70226",
+   "pmid": "43021680",
+   "doi": "10.1111/jcpe.70226",
+   "title": "Neutrophil Extracellular Traps Contribute to Peri-Implant Bone Loss: Insights Into Pro-Inflammatory Macrophage-Neutrophil Crosstalk",
+   "title_zh": "中性粒细胞胞外诱捕网（NETs）贡献于种植体周骨丢失：来自促炎巨噬细胞-中性粒细胞串扰的启示",
+   "journal": "Journal of clinical periodontology",
+   "date": "2026-11-13",
+   "authors": [
+    "Li Y",
+    "Yang C",
+    "Li X",
+    "Zhang W",
+    "Wang D",
+    "Xing Y",
+    "Yu Y",
+    "Zhao B",
+    "Li F"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43021680/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "animal",
+   "design_label": "动物实验",
+   "design_level": 2,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "牙周与宿主免疫",
+   "methods": [
+    "single-cell",
+    "spatial",
+    "multiomics"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "种植体周免疫",
+   "one_line": "整合scRNA-seq与空间转录组揭示NETs来源NNeu驱动PMac极化致骨丧失，DNase I干预减轻骨吸收。",
+   "so_what": "直接回答q1；可用相同多组学策略解析自己课题中的免疫微环境。",
+   "caution": "动物模型结论，需临床前瞻性验证；DNase I局部递送安全性待考。",
+   "score": {
+    "final": 80.6,
+    "match": 92.0,
+    "novelty": 85.0,
+    "rigor": 75.0,
+    "impact": 72.0,
+    "transfer": 88.0
+   },
+   "heuristic": 65.9,
+   "breakdown": {
+    "topic": 28.3,
+    "journal": 15.0,
+    "design": 9,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 6.6
+   },
+   "abstract": "AIMS: To investigate the contribution of neutrophil extracellular traps (NETs) to peri-implant bone loss and explore upstream cellular mechanisms associated with aberrant NETosis. MATERIALS AND METHODS: Clinical specimens were analysed for NET formation and inflammatory markers. A rat peri-implantitis (PI) model with local DNase I treatment was used to evaluate the contribution of NETs to peri-implant bone loss. Single-cell and spatial transcriptomics, cell-cell communication analyses and functional experiments were integrated to investigate macrophage-neutrophil interactions. RESULTS: NET-associated markers were increased in PI specimens and correlated with inflammatory cytokines. DNase I attenuated peri-implant bone resorption and inflammation in rats. Integrated transcriptomic analyses identified a NETosis-associated neutrophil subpopulation (NNeu) with a prominent NET-forming phenotype. Spatial proximity and cell-cell communication analyses identified pro-inflammatory macrophages (PMac) as a candidate upstream population. Mechanistically, PMac-derived macrophage migration inhibitory factor (MIF) promoted NETosis through CD74-p38 MAPK signalling in vitro, while experimental modulation of MIF-CD74 signalling in vivo was accompanied by corresponding changes in NET formation, inflammation and peri-implant bone loss. CONCLUSIONS: NETs contribute to inflammatory bone loss in an experimental PI model. in vitro findings further suggest that pro-inflammatory macrophage-neutrophil crosstalk regulates NET formation through MIF-CD74-p38 MAPK signalling, highlighting a potential immunomodulatory target.",
+   "tags": [
+    "neutrophil extracellular traps",
+    "peri‐implantitis",
+    "single‐cell RNA sequencing",
+    "spatial transcriptomics"
+   ],
+   "deep": {
+    "title_zh": "中性粒细胞胞外诱捕网（NETs）贡献于种植体周骨丢失：来自促炎巨噬细胞-中性粒细胞串扰的启示",
+    "one_sentence": "MIF-CD74-p38 MAPK轴介导的巨噬细胞-中性粒细胞串扰驱动NETs形成，进而加重种植体周炎骨丢失，DNase I或MIF-CD74阻断具保护潜力。",
+    "question": "种植体周炎中，是否存在一个由促炎巨噬细胞发起、经MIF-CD74-p38 MAPK信号驱动中性粒细胞NETosis的细胞间串扰轴，从而直接导致宿主骨丢失？",
+    "design": "临床标本观察 + 大鼠种植体周炎模型（含DNase I局部处理与MIF-CD74信号调控实验），联合单细胞/空间转录组学与细胞间通讯分析；摘要未说明随机/盲法/分组细节。",
+    "sample_desc": "人类PI临床标本（数量未说明）+ 大鼠模型（数量未说明）+ 体外细胞实验（类型未说明）。",
+    "findings": [
+     {
+      "claim": "PI病变中NETs形成增加且与炎症相关",
+      "evidence": "NET相关标志物在PI标本中升高，与炎症细胞因子正相关"
+     },
+     {
+      "claim": "清除NETs可减轻实验性PI骨丢失",
+      "evidence": "局部DNase I处理后，大鼠骨吸收与炎症指标下降"
+     },
+     {
+      "claim": "存在以NET形成为主要表型的促炎巨噬细胞-中性粒细胞异质亚群互作",
+      "evidence": "整合转录组学鉴定出NETosis相关中性粒细胞亚群（NNeu），空间邻近分析与细胞间通讯分析指向促炎巨噬细胞（PMac）为上游"
+     },
+     {
+      "claim": "PMac源性MIF经CD74-p38 MAPK信号促进中性粒细胞NETosis",
+      "evidence": "体外实验中MIF处理增强NET形成，该效应被CD74/p38阻断逆转"
+     }
+    ],
+    "effect": "未报告具体效应量与置信区间",
+    "relation": "q1（直接支持）——明确回答了'NETs如何参与骨丢失'及'上游是谁驱动的'；同时间接回应q4（生物材料表面微环境可编程免疫）：巨噬细胞极化状态决定了能否启动NETs级联。",
+    "why": "首次在大鼠PI模型中将'PMac→MIF→CD74→p38→NETs→骨丢失'串联为一个可干预的信号轴，并提供单细胞+空间转录组双维度证据；使研究者从'NETs是旁观者/结果'转向'NETs是PMac驱动的被放大效应器'这一因果框架。",
+    "limitations": [
+     "摘要未说明DNase I剂量、给药时机与给药频次，无法评估其作为潜在临床干预的安全窗口",
+     "NNeu亚群仅在单细胞聚类中标注为'NETosis特征突出'，未见关键标记基因列表或功能验证（如活体示踪），亚群定义稳健性存疑",
+     "结论基于大鼠模型，临床PI标本仅展示相关性（NETs↑与炎症↑），未证明人类组织中存在相同MIF-CD74-p38轴"
+    ],
+    "transferable": "单细胞+空间转录组联合鉴定'上游驱动细胞-下游效应细胞'串扰的路径可直接迁移至种植体周炎人类活检数据分析；DNase I局部缓释策略可作为材料涂层方向的转化切入点。",
+    "followups": [
+     "摘要未给出NNeu亚群的具体标记基因组合——检索该论文补充材料或Table，列出≥5个标志性转录因子/趋化因子",
+     "DNase I在大鼠模型中的具体剂量（U/kg或U/local）、给药途径（灌注/植入片/涂层？）及开始时间点——补全设计细节以判断临床转化可行性",
+     "体内MIF-CD74干预使用的是抗体阻断还是基因敲除/条件性敲除？若为抗体，半衰期与局部滞留策略是什么？"
+    ],
+    "glossary": [
+     {
+      "en": "NETs (Neutrophil Extracellular Traps)",
+      "cn": "中性粒细胞胞外诱捕网"
+     },
+     {
+      "en": "NETosis",
+      "cn": "NETs形成过程（中性粒细胞程序性死亡的一种形式）"
+     },
+     {
+      "en": "MIF (Macrophage Migration Inhibitory Fa…",
+      "cn": "巨噬细胞移动抑制因子"
+     },
+     {
+      "en": "CD74",
+      "cn": "MIF的主要受体/共受体（也称Invariant Chain）"
+     },
+     {
+      "en": "p38 MAPK",
+      "cn": "p38丝裂原活化蛋白激酶，应激与炎症信号通路核心组分"
+     },
+     {
+      "en": "Peri-implantitis (PI)",
+      "cn": "种植体周炎"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": 85.0,
+     "problems": [
+      "findings第4条'该效应被CD74/p38阻断逆转'为推断，摘要仅说MIF经CD74-p38 MAPK促进NETosis，未明确描述阻断逆转实验",
+      "'首次'等表述超出摘要依据，属编辑性夸大"
+     ],
+     "repaired_by": "",
+     "attempts": 0
+    }
+   }
+  },
+  {
+   "id": "10.1159/000548822",
+   "pmid": "43024663",
+   "doi": "10.1159/000548822",
+   "title": "Biotin Limitation Attenuates Streptococcus mutans Cariogenicity by Disrupting Metabolic Flux and Virulence Pathways",
+   "title_zh": "生物素限制通过扰乱代谢通量和毒力通路 attenuate 变异链球菌致龋性",
+   "journal": "Caries research",
+   "date": "2026-11-13",
+   "authors": [
+    "Qin Z",
+    "Yang Z",
+    "Zhang Y",
+    "Qi L",
+    "Peng Y",
+    "Deng S",
+    "Wang Y"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43024663/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "口腔微生物组",
+   "methods": [
+    "multiomics"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "微生物营养代谢",
+   "one_line": "生物素限制削弱S. mutans生物膜形成、产酸及氧化应激耐受，伴随毒力基因表达下调和代谢重编程。",
+   "so_what": "为q3提供'营养干预调控微生物致病性'新思路；代谢组+转录组双验证可复用。",
+   "caution": "纯体外研究，体内口腔微环境复杂，生物素稳态调控可行性存疑。",
+   "score": {
+    "final": 57.7,
+    "match": 58.0,
+    "novelty": 72.0,
+    "rigor": 58.0,
+    "impact": 55.0,
+    "transfer": 65.0
+   },
+   "heuristic": 45.3,
+   "breakdown": {
+    "topic": 20.1,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "INTRODUCTION: Our previous metagenomic analysis revealed higher frequencies of biotin-related genes (i.e., bioY, bioM, bccP) in caries-active children, indicating a potential role of biotin in caries pathogenesis. This study investigated a biotin limitation strategy against the primary cariogenic bacterium Streptococcus mutans (S. mutans), including its effects on cariogenic phenotypes, gene expression, and metabolomics. METHODS: S. mutans UA159 was cultured in biotin-free medium supplemented with different biotin concentrations. The cariogenic phenotypes of the strain, including growth kinetics, biofilm formation, exopolysaccharide production, lactate synthesis, acid/oxidative tolerance, and membrane fluidity, were measured and compared across biotin concentrations. Biofilm architecture was visualized via confocal laser-scanning microscopy and scanning electron microscopy. Quantitative real-time polymerase chain reaction was employed to analyze the expression of genes associated with virulence and biotin metabolism. Metabolomic analysis was performed to characterize metabolic perturbations induced by biotin limitation in S. mutans. RESULTS: Under biotin limitation, S. mutans exhibited significantly reduced cariogenic phenotypes, accompanied by cell elongation and reduced membrane fluidity. At the molecular level, biotin limitation suppressed the expression of key virulence-associated genes and induced a compensatory upregulation of genes involved in biotin uptake and biotin-dependent carboxylases. Metabolomic analysis under biotin-limited conditions in S. mutans revealed perturbed pathways in central carbon metabolism and nucleotide metabolism. CONCLUSION: Biotin limitation significantly reduced the cariogenic potential of S. mutans by disrupting metabolic flux and virulence gene expression, highlighting biotin uptake and metabolism as potential targets for anticaries therapies.",
+   "tags": [
+    "Streptococcus mutans",
+    "Biofilms",
+    "Biotin",
+    "Dental caries",
+    "Exopolysaccharide"
+   ],
+   "deep": {
+    "title_zh": "生物素限制通过扰乱代谢通量和毒力通路 attenuate 变异链球菌致龋性",
+    "one_sentence": "生物素限制显著降低S. mutans的致龋表型，抑制毒力基因表达并扰动碳代谢和核苷酸代谢。",
+    "question": "微生物对必需营养素的限制是否可通过干扰其代谢重编程来削弱毒力？具体而言，生物素限制能否成为抗龋的新策略？",
+    "design": "体外实验：S. mutans UA159在不同生物素浓度梯度下培养，设有生物素缺乏组与各补充浓度对照组；无随机化与盲法设计，非临床研究",
+    "sample_desc": "单一菌株S. mutans UA159，体外细菌培养模型，无动物或人体样本",
+    "findings": [
+     {
+      "claim": "生物素限制显著抑制致龋表型",
+      "evidence": "生长动力学减缓、生物膜形成减少、EPS产量下降、乳酸合成降低"
+     },
+     {
+      "claim": "细胞形态改变",
+      "evidence": "细胞拉长（cell elongation）现象出现"
+     },
+     {
+      "claim": "膜流动性降低",
+      "evidence": "生物素限制条件下膜流动性显著下降"
+     },
+     {
+      "claim": "毒力基因表达受抑",
+      "evidence": "关键毒力相关基因mRNA水平下调"
+     }
+    ],
+    "effect": "未报告具体效应量与置信区间",
+    "relation": "与q3相关：为口腔微生物组'失衡'提供了因果机制层面的支持——营养素可利用性可作为调控菌落致病性的直接驱动因素，而非仅是伴随标志物",
+    "why": "颠覆传统认知中生物素作为'生长因子'的单向角色，提出生物素限制可主动武器化为抗龋策略；将代谢约束与毒力调控直接连接，建立了营养素-代谢-毒力的因果链条",
+    "limitations": [
+     "仅用UA159单一菌株，结果难以外推至其他mutans链球菌或口腔微生物群落",
+     "体外纯培养模型无法反映牙面生物膜的真实生态位与宿主免疫互作",
+     "生物素限制浓度与治疗窗口的关系未明确，体内安全性未知"
+    ],
+    "transferable": "代谢物限制诱导毒力衰减的实验范式可直接移植到其他病原菌研究；confocal/SEM结合qPCR+代谢组的整合策略适用于本课题其他项目",
+    "followups": [
+     "该效应在多菌种口腔生物膜中是否存在？共培养模型验证是否保留？",
+     "体内干预窗口：局部应用生物素螯合剂能否预防龋病且不影响宿主健康？",
+     "哪些特定的毒力基因是biotin限制的下游直接靶点？转录调控网络是什么？"
+    ],
+    "glossary": [
+     {
+      "en": "Exopolysaccharide (EPS)",
+      "cn": "胞外多糖"
+     },
+     {
+      "en": "Metabolic flux",
+      "cn": "代谢通量"
+     },
+     {
+      "en": "Carboxylase",
+      "cn": "羧化酶"
+     },
+     {
+      "en": "Membrane fluidity",
+      "cn": "膜流动性"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": 85.0,
+     "problems": [
+      "findings 中'毒力基因表达受抑'未指明具体基因（摘要仅提及毒力相关基因被抑制，未列基因名，卡片可注明此为摘要未细化）",
+      "effect 字段仅写'未报告'，可补充说明摘要确实未提供效应量，属摘要层面信息缺失"
+     ],
+     "repaired_by": "",
+     "attempts": 0
+    }
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1016/j.jdent.2026.107166",
+   "pmid": "43020454",
+   "doi": "10.1016/j.jdent.2026.107166",
+   "title": "Incremental versus bulk-fill techniques with thermoviscous composites in Class II restorations: a randomized split-mouth clinical trial",
+   "title_zh": "热粘滞复合体分层vs一次性充填Ⅱ类洞的2年RCT",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-12",
+   "authors": [
+    "Torres CRG",
+    "da Silva DF",
+    "Moreira JC",
+    "de Holanda MAR",
+    "Barros PCA",
+    "Campos RP",
+    "Pinatti RFA",
+    "Prado TP",
+    "Pereira TC",
+    "R R",
+    "Mailart MC",
+    "Borges AB"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43020454/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 25,
+   "sample_note": "n=25 patients",
+   "tier": "B",
+   "domain": "材料与生物材料",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙体修复材料",
+   "one_line": "RCT显示分层与一次性充填法使用预热热粘滞复合体的2年临床疗效无显著差异。",
+   "so_what": "与q4材料表面编程免疫无关，属操作技术层面的重复验证。",
+   "caution": "n=25样本偏小，仅2年随访，不足以支撑长期结论。",
+   "score": {
+    "final": 21.5,
+    "match": 22.0,
+    "novelty": 25.0,
+    "rigor": 60.0,
+    "impact": 28.0,
+    "transfer": 12.0
+   },
+   "heuristic": 46.7,
+   "breakdown": {
+    "topic": 6.7,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 3.8,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVES: This randomized split-mouth clinical trial evaluated whether placement technique (incremental vs bulk-fill) influences the 2-year clinical performance of Class II restorations using thermoviscous resin composites. METHODS: Thirty patients received two class II restorations (N=60) with thermoviscous resin composite, one placed using the incremental technique (VisCalor Universal - Voco) and the other using the bulk-fill technique (VisCalor Bulk - Voco). Both materials were preheated to 68°C using a dedicated infrared heating device. A self-etching adhesive system (Futurabond U - Voco) was used for all restorations. The resin composite used with the incremental technique was placed in 2-mm increments, while the bulk-fill was applied in increments of 4 mm. Restorations were evaluated according to the FDI criteria at 7 days, 1 year, and 2 years postoperatively by two calibrated examiners. Data were analyzed using Fisher's exact test (α=0.05). RESULTS: After 2 years, 25 patients were available for recall, resulting in the evaluation of 50 restorations. No statistically significant differences were observed between techniques for any of the evaluated parameters (p>0.05). Minor material fractures were detected in two restorations per group and were successfully managed by repair. All restorations were rated as esthetically and biologically acceptable. For the functional scores, 3.33% of restorations in each group were classified as not acceptable regarding fracture and retention. Overall success rates were 95.9% for both techniques. CONCLUSIONS: Both incremental and bulk-fill techniques using thermoviscous resin composites achieved similar results in terms of clinical success after 2 years, with 96.67% of restorations in each group presenting acceptable overall functional scores. CLINICAL SIGNIFICANCE: Bulk-fill placement can be considered a viable alternative to incremental techniques in Class II restorations when thermoviscous composites are used, without compromising clinical performance over time.",
+   "tags": [
+    "Bulk-fill",
+    "Clinical trial",
+    "Preheating",
+    "Resin composite"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07260-5",
+   "pmid": "43013126",
+   "doi": "10.1007/s00784-026-07260-5",
+   "title": "Comparison of cone beam computed tomography measurements obtained after manual and AI-assisted head positioning and reconstruction",
+   "title_zh": "CBCT手动与AI辅助定位的测量精度对比",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-11",
+   "authors": [
+    "Werlang B",
+    "Ruiz DC",
+    "Flor A",
+    "Nascimento MDCC",
+    "Oenning AC"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43013126/",
+   "pmcid": "PMC13755001",
+   "cited_by": 0,
+   "design": "cross_sectional",
+   "design_label": "横断面",
+   "design_level": 3,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "种植与骨再生",
+   "methods": [
+    "ml"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Comparative Study"
+   ],
+   "is_open_access": true,
+   "cluster": "影像AI方法学",
+   "one_line": "25例Edentulous下颌第一磨牙区CBCT，AI辅助TomoNav重建后骨高度/宽度测量ICC>0.9，与手动一…",
+   "so_what": "q4间接可借：若后续做骨再生评价需标准化影像学终点，此方法可复用，但不触及生物学机制。",
+   "caution": "n=25偏少；仅验证同一软件不同模式间的重测信度，未与金标准锚定。",
+   "score": {
+    "final": 17.9,
+    "match": 15.0,
+    "novelty": 20.0,
+    "rigor": 55.0,
+    "impact": 18.0,
+    "transfer": 40.0
+   },
+   "heuristic": 33.0,
+   "breakdown": {
+    "topic": 5.8,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 0.0,
+    "fresh": 5.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVES: To compare measurements obtained from cone beam computed tomography (CBCT) exams by radiologists following manual head positioning and panoramic curve tracing with those obtained after artificial intelligence (AI)-assisted positioning adjustments performed prior to measurement. MATERIALS AND METHODS: Twenty-five CBCT exams presenting edentulous sites corresponding to missing mandibular first molars were selected. Five examiners performed measurements of bone height and width after manual head positioning adjustments and panoramic curve tracing (manual method). Subsequently, the same exams were processed using TomoNav software, which automatically performed volume alignment and generated the panoramic curve and cross-sectional images. The examiners then repeated the measurements (AI-assisted method). Measurements obtained from both approaches were summarized using descriptive statistics and compared using the intraclass correlation coefficient (ICC), paired t-test, and Bland-Altman analysis (p˂0.05). RESULTS: Excellent inter-examiner reproducibility was observed for both height and width measurements, with ICC values of 0.94 for height and 0.81 and 0.85 for width using the manual and AI-assisted methods, respectively. Significant differences were identified for left-side height, total height, right-side width, and total width (p < 0.05). However, the mean biases were low and overall agreement between methods was excellent, with ICC values equal or greater than 0.89. CONCLUSION: Measurements obtained with the AI-assisted method for volume repositioning and generation of panoramic and cross-sectional images were comparable to those obtained using a conventional method. CLINICAL RELEVANCE: AI facilitates CBCT implant-planning preprocessing without compromising measurement reproducibility.",
+   "tags": [
+    "Cone beam computed tomography",
+    "Dental implants",
+    "Diagnosis",
+    "Radiology"
+   ]
+  },
+  {
+   "id": "10.1111/joor.70366",
+   "pmid": "43015999",
+   "doi": "10.1111/joor.70366",
+   "title": "Age-Stratified Efficacy of Open Anchoring Versus Hyaluronate Injection for TMJ Anterior Disc Displacement Without Reduction: A Prospective Study",
+   "title_zh": "年龄分层比较开放性复位与玻璃酸钠注射治疗颞下颌关节不可复性盘前移位",
+   "journal": "Journal of oral rehabilitation",
+   "date": "2026-11-11",
+   "authors": [
+    "Su Z",
+    "Zhou J",
+    "Li J",
+    "Zhou Y",
+    "Chen H",
+    "Ren R",
+    "Li Z",
+    "Liu R",
+    "Wu L",
+    "Cao P",
+    "Jiang N"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43015999/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 68,
+   "sample_note": "n=68 adults",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "颞下颌关节疾病",
+   "one_line": "前瞻性非随机研究显示开放复位锚定手术与玻璃酸钠注射在疼痛和开口度改善上均有效，但组间无显著差异。",
+   "so_what": "仅背景，属TMD外科治疗范畴，与q1-q5均无交叉。",
+   "caution": "非随机设计患者自主选择分组，选择偏倚严重；样本量n=68偏小。",
+   "score": {
+    "final": 13.6,
+    "match": 5.0,
+    "novelty": 15.0,
+    "rigor": 48.0,
+    "impact": 12.0,
+    "transfer": 5.0
+   },
+   "heuristic": 40.1,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 4.9,
+    "fresh": 5.0,
+    "method": 2.2
+   },
+   "abstract": "BACKGROUND: Objective measures of long-term functional recovery and possible age-related treatment patterns in temporomandibular joint anterior disc displacement without reduction (TMJ ADDWoR) remain insufficiently characterized. This study compared open disc repositioning with anchoring and conservative treatment, with particular emphasis on prespecified age-stratified functional outcomes. METHODS: This prospective, non-randomized study enrolled 68 adults with MRI-confirmed unilateral TMJ ADDWoR between January 2024 and March 2026. After receiving standardized information about both treatments, patients selected open anchoring surgery (n = 32) or conservative treatment (n = 36). Nine patients were lost to follow-up because returning at the scheduled time was impractical; complete-case analyses included 28 surgical and 31 conservative patients. Pain intensity, maximum mouth opening (MMO), MBF and surface electromyographic asymmetry indices (AIs) of the bilateral masseter and anterior temporalis muscles were assessed at baseline and 12 months. RESULTS: Pain and MMO improved significantly within both groups. At 12 months, MBF was higher after surgery than after conservative treatment (mean difference, 23.17 kg; 95% CI, 6.09 to 40.24; p = 0.009) and bite AI was lower after surgery (mean difference, -14.15 percentage points; 95% CI, -24.14 to -4.16; p = 0.006). Among patients aged ≤ 30 years, MBF improvement was numerically greater after surgery than after conservative treatment (28.14 ± 43.51 vs. 7.07 ± 23.81 kg; p = 0.056), representing a descriptive trend. The 12-month bite AI was also lower after surgery in this age stratum (14.26% ± 13.94% vs. 30.86% ± 26.22%; p = 0.015). Differences in patients aged > 30 years favoured surgery numerically but were not significant. Treatment-by-age interactions were not significant for MBF change (p = 0.514) or 12-month bite AI (p = 0.555). CONCLUSION: Open disc repositioning with anchoring was associated with greater bite-force recovery and more symmetric superficial jaw-elevator activation during clenching. The age-stratified findings showed a potentially clinically relevant pattern favouring surgery, particularly among patients aged ≤ 30 years. These exploratory findings warrant confirmation and do not establish an age-specific treatment threshold.",
+   "tags": [
+    "age stratification",
+    "anterior disc displacement without reduction",
+    "bite force",
+    "electromyography",
+    "open disc repositioning",
+    "temporomandibular joint disorders"
+   ]
+  },
+  {
+   "id": "10.1016/j.celrep.2026.118329",
+   "pmid": "43024508",
+   "doi": "10.1016/j.celrep.2026.118329",
+   "title": "A periodontal Piezo1-dependent brain-bone interoceptive circuit couples occlusal force to craniofacial bone homeostasis",
+   "title_zh": "Piezo1介导的脑-骨环路偶联咬合力与颅面骨稳态",
+   "journal": "Cell reports",
+   "date": "2026-11-13",
+   "authors": [
+    "Shen X",
+    "Gu J",
+    "Lu C",
+    "Song Z",
+    "Jin S",
+    "Ling F",
+    "Ling Z",
+    "Dong Y",
+    "Fu Y",
+    "Zhang P",
+    "Cheng J",
+    "Xu R"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43024508/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "力学-神经-骨整合",
+   "one_line": "证明Gli1+ MSC中Piezo1感知咬合力，经PGE2-三叉神经-VMH-PVN交感轴调控破骨活性与H型血管形成。",
+   "so_what": "q1/q4直接相关：提供骨结合力学信号→免疫/血管耦合的新机制框架，可用于解释负重不足导致骨吸收。",
+   "caution": "动物模型；交感轴调控在炎症微环境中是否依然适用尚未验证。",
+   "score": {
+    "final": 63.2,
+    "match": 72.0,
+    "novelty": 78.0,
+    "rigor": 70.0,
+    "impact": 55.0,
+    "transfer": 65.0
+   },
+   "heuristic": 38.8,
+   "breakdown": {
+    "topic": 10.8,
+    "journal": 15.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "The skeleton continuously monitors mechanical state to maintain tissue homeostasis, but whether such interoceptive control operates in the craniofacial skeleton remains unclear. Here, we identify a brain-bone axis in which Piezo1 in Gli1-lineage periodontal mesenchymal stromal cells (Gli1-lineage MSCs) senses occlusal force and initiates prostaglandin E2 (PGE2)-dependent interoceptive signaling. Mechanistically, mechanical loading activates a transcriptional complex comprising YAP and Gli1 that directly promotes COX-2 expression and PGE2 production. This signal engages trigeminal sensory pathways and is associated with sustained ventromedial hypothalamic (VMH) activity and reduced paraventricular nucleus (PVN)-related sympathetic output. Disruption of this circuit under occlusal hypofunction elevates sympathetic tone, increasing osteoclast activity and impairing type H vessel formation. Importantly, conditional deletion of Piezo1 in Gli1-lineage MSCs largely abolished occlusal force-dependent regulation of VMH activity, sympathetic tone, and mandibular bone homeostasis, establishing its required role in this pathway. Our findings define a Piezo1-PGE2-mediated skeletal interoceptive circuit that links occlusal force to central sympathetic control of craniofacial bone mass, revealing a potential neuromechanical strategy for preventing disuse-induced bone loss.",
+   "tags": [
+    "CP: Cell biology",
+    "CP: Neuroscience",
+    "craniofacial homeostasis",
+    "gli1-lineage MSCs",
+    "occlusal hypofunction",
+    "periodontal ligament"
+   ]
+  },
+  {
+   "id": "10.1159/000548693",
+   "pmid": "43024658",
+   "doi": "10.1159/000548693",
+   "title": "Genome-Wide Association Studies on Dental Caries: A Systematic Review",
+   "title_zh": "龋病全基因组关联研究系统评价",
+   "journal": "Caries research",
+   "date": "2026-11-13",
+   "authors": [
+    "Zhou K",
+    "Gao C",
+    "Wu J",
+    "Banerjee A",
+    "Ide M",
+    "Kang J"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43024658/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 16,
+   "sample_note": "16 项研究",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [
+    "gwas"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Systematic Review"
+   ],
+   "is_open_access": false,
+   "cluster": "龋病遗传易感性",
+   "one_line": "系统评价16项GWAS，汇总龋病遗传风险位点但异质性大、功能注释匮乏。",
+   "so_what": "若q3转向宿主遗传-微生物交互可参考，目前仅为背景阅读。",
+   "caution": "多数位点无机制通路支撑，因果推断价值有限。",
+   "score": {
+    "final": 40.9,
+    "match": 38.0,
+    "novelty": 28.0,
+    "rigor": 68.0,
+    "impact": 32.0,
+    "transfer": 15.0
+   },
+   "heuristic": 49.7,
+   "breakdown": {
+    "topic": 9.2,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 3.3,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "INTRODUCTION: Dental caries is a complex, multifactorial pathological disease. Despite advances in dental care, dental caries continues to pose a significant public health challenge. In addition to the behavioural factors (e.g., sugar exposure) and environmental/oral hygiene factors (e.g., fluoride exposure in water and/or toothpaste) on the development of dental caries, potential genetic influence on dental caries susceptibility is possible, but evidence is inconclusive, especially from a candidate gene approach. Over the past 2 decades, a genome-wide association study (GWAS) approach has also been applied to understand the genetic variants associated with dental caries. This study aims to systematically review GWAS on dental caries and identify relevant genetic risk variants of dental caries. METHODS: A systematic search was conducted in five databases (PubMed; ScienceDirect; Embase, Global Health, MEDLINE) and one GWAS registry: GWAS Catalog in March 2024. Studies published after 2005 using GWAS approach were eligible. Q-Genie tool was used for the quality assessment. Study information and single-nucleotide polymorphisms (SNPs) at conventional (5 × 10-8) or suggestive (5 × 10-6) GWAS significance level were extracted and synthesized. RESULTS: A total of 16 papers were included, identifying 20 risk SNPs associated with dental caries at conventional GWAS significance level and 33 SNPs at suggestive level. No common conventional SNPs or shared gene regions were found between studies. Of these studies, the sample sizes in majority were relatively small and only one study reported all recommended quality control steps. Most studies focused on the white or European-American population and dental caries on permanent teeth. In addition, some data resources were used repeatedly in multiple studies, particularly the Center for Oral Health Research in Appalachia (COHRA) cohorts, which was used in 9 studies. CONCLUSION: This study explored the GWAS on dental caries and summarized the heterogeneities of the included studies, leading to inconsistent results. Guideline and more GWAS with larger sample size and multiethnicities are needed to fully understand the genetic basis of dental caries.",
+   "tags": [
+    "Dental caries",
+    "Genome-wide association studies",
+    "Systematic review",
+    "Whole genome wide scan"
+   ]
+  },
+  {
+   "id": "10.1159/000549489",
+   "pmid": "43024662",
+   "doi": "10.1159/000549489",
+   "title": "Adding Nitrate to a Sucrose Rinse Reduces Acidogenicity: An in vivo Study",
+   "title_zh": "硝酸酯加蔗糖漱口水降低产酸性：体内RCT",
+   "journal": "Caries research",
+   "date": "2026-11-13",
+   "authors": [
+    "Silva-Acevedo CA",
+    "Rosier BT",
+    "Vargas CJ",
+    "Mira A",
+    "Tenuta LMA",
+    "Fernández CE"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43024662/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 18,
+   "sample_note": "n=18 adults",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
+   "is_open_access": false,
+   "cluster": "饮食-菌群代谢",
+   "one_line": "双盲交叉RCT显示8 mmol/L硝酸酯与20%蔗糖共漱2分钟可显著抑制唾液乳酸生成（n=18）。",
+   "so_what": "q3部分相关：硝酸盐-细菌还原途径对龋病病因学的直接干预证据，但样本量和时效性有限。",
+   "caution": "n=18偏小；仅观察短期效应；离真实口腔环境有差距。",
+   "score": {
+    "final": 25.2,
+    "match": 38.0,
+    "novelty": 42.0,
+    "rigor": 45.0,
+    "impact": 30.0,
+    "transfer": 35.0
+   },
+   "heuristic": 38.4,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 3.4,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "INTRODUCTION: Potential dental health benefits, including pH buffering, have been demonstrated for nitrate in placebo-controlled studies when consumed one or several hours before sugar intake. However, its immediate local effect when co-administered with sugar is unclear. Our aim was to test the local effect of adding nitrate to a sugar rinse on human saliva acidification. METHODS: A double-blind, crossover study was conducted with three periods. In each period, 18 adults, equally distributed between men and women (n = 9 each), aged 25.4 ± 3.8 (mean ± SD), with normal salivary flow, rinsed for 2 min using 10 mL of one of the following rinses: spinach-only (blended spinach providing 8 mm nitrate), spinach+sucrose (blended spinach providing 8 mm nitrate + 20% sucrose), or sucrose-only (20% sucrose). Unstimulated saliva was collected at baseline and every 3 min up to 24 min. pH, lactate, nitrate, and nitrite were measured using Reflectoquant®. The effect of treatment and time was assessed using a linear mixed model (α = 0.05). Nitrate reduction capacity was determined in vitro using baseline saliva. RESULTS: All saliva samples demonstrated nitrate reduction activity. The lowest pH values were observed 6 min after rinsing, with all groups differing from each other: sucrose only (6.56 ± 0.38; mean ± SD), spinach+sucrose (6.83 ± 0.37), spinach only (7.15 ± 0.44, no pH drop). The pH returned to baseline values 12 min after the spinach+sucrose rinse, but not after the sucrose-only rinse at any time point. Nitrate and nitrite concentrations increased in saliva after using spinach-containing rinses, returning to their baseline levels after 6 min and 12 min. Lower lactate levels were detected after 12 min, suggesting proton consumption during nitrate metabolism in the spinach+sucrose group. CONCLUSION: Adding a low dose of nitrate to a sucrose rinse limited sugar-induced salivary acidification in vivo, supporting the potential for topical nitrate strategies to reduce sugar acidogenicity.",
+   "tags": [
+    "Acidogenicity",
+    "Local effect",
+    "Oral prebiotics",
+    "Salivary pH",
+    "Sucrose"
+   ]
+  },
+  {
+   "id": "10.1159/000549409",
+   "pmid": "43024661",
+   "doi": "10.1159/000549409",
+   "title": "Treatment and Prevention of Dental Caries in Children via a Theory-Based Behavioural Intervention Led by Health Promoters: A Health Economic Evaluation",
+   "title_zh": "健康促进者主导儿童龋病行为干预的卫生经济学评价",
+   "journal": "Caries research",
+   "date": "2026-11-13",
+   "authors": [
+    "Björns S",
+    "Bergström EK",
+    "Lingström P",
+    "Wretlind K",
+    "Makenzius M"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43024661/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "儿童口腔与预防",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "龋病预防管理",
+   "one_line": "回顾性队列显示理论导向行为干预可降低学龄前儿童龋病负担并具成本效益。",
+   "so_what": "仅背景，与方法学/机制无关。",
+   "caution": "回顾性设计，混杂不可控；卫生经济学结论难迁移至基础研究。",
+   "score": {
+    "final": 18.4,
+    "match": 12.0,
+    "novelty": 20.0,
+    "rigor": 55.0,
+    "impact": 18.0,
+    "transfer": 8.0
+   },
+   "heuristic": 51.7,
+   "breakdown": {
+    "topic": 19.7,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "INTRODUCTION: Dental caries remains a prevalent condition with significant health and economic repercussions. To address persistent oral health disparities and reduce the burden of dental caries among preschoolers in Sweden, this study aimed to evaluate the clinical and economic impact of implementing a theory-based behavioural intervention delivered by health promoters in clinics serving children at elevated risk for caries. METHODS: A retrospective cohort design was applied, comparing clinics using a theory-based behavioural intervention led by health promoters with clinics using the Recommended Programme for Caries Treatment (RPCT). The cohort were children aged 3-6 years identified as being at increased caries risk in Region Västra Götaland during 2021-2023. Three analytic approaches were employed: (1) budget impact analysis (BIA) to measure net costs and resource shifts; (2) difference-in-differences (DiD) to compare mean decayed, extracted, or filled teeth (deft) in intervention versus control clinics; and (3) cost-effectiveness analysis (CEA) to estimate the incremental cost-effectiveness ratio (ICER). RESULTS: The BIA showed that the theory-based behavioural intervention led by health promoters incurred higher initial personnel costs than the RPCT but required fewer clinical hours - an opportunity cost that, if redeployed to clinical activity, could partially offset these expenses. The DiD showed that, over 3 years, clinics implementing the intervention achieved a statistically significant reduction of 0.26 deft among 6-year-olds. The CEA estimated the ICER to be 2,142 SEK (199 EUR) per deft prevented, which improved to 513-810 SEK (48-75 EUR) when the economic value of the liberated work hours was included. CONCLUSION: A theory-based behavioural intervention led by health promoters reduced caries risk among high-risk preschoolers and may enable improved resource allocation, contingent on the redeployment of freed hours. Despite higher initial personnel costs, the approach demonstrated favourable cost-effectiveness over time, supporting its integration into public dental care systems.",
+   "tags": [
+    "Caries prevention",
+    "Cost-effectiveness",
+    "Health economic evaluation",
+    "Health promotion",
+    "Preschoolers"
+   ]
+  },
+  {
+   "id": "10.1159/000549383",
+   "pmid": "43024660",
+   "doi": "10.1159/000549383",
+   "title": "Bitewing Radiographs in Proximal Caries Diagnostics and Restorative Treatment of Adults: A Retrospective Study of Electronic Health Records",
+   "title_zh": "翼片X线邻面龋 Radiolucency深度与治疗决策关联",
+   "journal": "Caries research",
+   "date": "2026-11-13",
+   "authors": [
+    "Muhonen MH",
+    "Raittio E",
+    "Olkkonen L",
+    "Leinonen KM",
+    "Leinonen J"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43024660/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 160,
+   "sample_note": "n=160 patients",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "龋病影像诊断",
+   "one_line": "回顾性记录分析显示邻面透亮深度与芬兰牙医恢复治疗概率正相关但个体差异极大。",
+   "so_what": "仅反映临床决策异质性，与机制或微观调控无关。",
+   "caution": "单中心回顾性电子病历分析，观察者间一致性未报告。",
+   "score": {
+    "final": 13.7,
+    "match": 8.0,
+    "novelty": 12.0,
+    "rigor": 45.0,
+    "impact": 10.0,
+    "transfer": 5.0
+   },
+   "heuristic": 41.4,
+   "breakdown": {
+    "topic": 3.5,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 5.9,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "INTRODUCTION: The restorative threshold of dentists varies considerably. This retrospective study examined the association between the depth of radiolucency in proximal surfaces on bitewing radiographs and the probability of restorative treatment among Finnish dentists. METHODS: The study population comprised 160 patients aged 18-40 years who underwent routine dental examinations by 16 randomly selected dentists within the Public Dental Services of Kuopio, Finland, in 2022. Data on patient characteristics, caries lesions, radiographic findings, and treatment decisions were manually extracted from the local electronic health record system. The depth of radiolucency was measured for all proximal caries lesions that had been registered by the dentists and were visible on the radiographs. The association between radiolucency depth and treatment decisions was estimated using linear regression analyses with cluster-robust standard errors. RESULTS: Bitewing radiography had been used for 128 (80%) patients. Most of the 394 caries lesions that had been registered were radiographically confined to the enamel (57%) or outermost third of dentin (27%), whereas 12% were in the middle third of dentin, and 4% extended to the inner third of dentin. Regression analyses revealed that the predicted probability of restorative treatment was 8% for lesions reaching the dentinoenamel junction and 75% for those extending to the border between the outer and middle thirds of dentin. CONCLUSIONS: The probability of restorative treatment increased sharply with the depth of radiolucency and was unexpectedly high for lesions confined to enamel or the outer third of dentin.",
+   "tags": [
+    "Caries detection",
+    "Image analysis",
+    "Primary caries",
+    "Radiography",
+    "Secondary caries"
+   ]
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 8
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 8
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 8
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 8
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 8
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 8
+  }
+ ],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}
