@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-14T09:38:53+08:00",
- "latest": "2026-11-14",
+ "updated_at": "2026-11-15T09:15:38+08:00",
+ "latest": "2026-11-15",
  "days": [
+  {
+   "date": "2026-11-15",
+   "must_title": "Cigarette smoking differentially alters local adaptive immune signaling in Stage III periodontitis",
+   "must_title_zh": "吸烟差异性地改变III期牙周炎局部适应性免疫信号",
+   "cluster": "牙周免疫-吸烟",
+   "count": 10,
+   "ai": true
+  },
   {
    "date": "2026-11-14",
    "must_title": "Neutrophil Extracellular Traps Contribute to Peri-Implant Bone Loss: Insights Into Pro-Inflammatory Macrophage-Neutrophil Crosstalk",

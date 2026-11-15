@@ -1,0 +1,1045 @@
+{
+ "date": "2026-11-15",
+ "generated_at": "2026-11-15T09:15:38+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 6,
+  "prompt_tokens": 17504,
+  "completion_tokens": 11379
+ },
+ "stats": {
+  "candidates": 145,
+  "raw": 143,
+  "fetched": 13,
+  "raw_dropped_type": 6,
+  "no_abstract": 3,
+  "gated": 13,
+  "scored": 13,
+  "shown": 10,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 6,
+  "quality_failed": 0,
+  "quality_repaired": 1
+ },
+ "must_read": {
+  "id": "10.1007/s00784-026-07263-2",
+  "pmid": "43026345",
+  "doi": "10.1007/s00784-026-07263-2",
+  "title": "Cigarette smoking differentially alters local adaptive immune signaling in Stage III periodontitis",
+  "title_zh": "吸烟差异性地改变III期牙周炎局部适应性免疫信号",
+  "journal": "Clinical oral investigations",
+  "date": "2026-11-14",
+  "authors": [
+   "Ural EC",
+   "Kasnak G",
+   "Haytural Ö",
+   "Kantarcı A",
+   "Demirel K"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43026345/",
+  "pmcid": "4911175",
+  "cited_by": 0,
+  "design": "cross_sectional",
+  "design_label": "横断面",
+  "design_level": 3,
+  "sample_n": 10,
+  "sample_note": "n=10",
+  "tier": "B",
+  "domain": "牙周与宿主免疫",
+  "methods": [],
+  "pub_types": [
+   "Journal Article"
+  ],
+  "is_open_access": true,
+  "cluster": "牙周免疫-吸烟",
+  "one_line": "横断面检测牙周炎患者龈沟液/血清7种细胞因子，显示吸烟者IL-16、IL-8显著降低。",
+  "so_what": "直接回应q1中宿主免疫信号与环境因素交互，但因果方向不明。",
+  "caution": "n=50横断面，无法推断吸烟→免疫抑制→骨丧失的时序因果。",
+  "score": {
+   "final": 54.5,
+   "match": 72.0,
+   "novelty": 45.0,
+   "rigor": 38.0,
+   "impact": 30.0,
+   "transfer": 50.0
+  },
+  "heuristic": 58.8,
+  "breakdown": {
+   "topic": 29.1,
+   "journal": 10.0,
+   "design": 10,
+   "sample": 2.8,
+   "fresh": 7.0,
+   "method": 0.0
+  },
+  "abstract": "OBJECTIVES: Cigarette smoking impairs periodontal host defense, yet its effects on local adaptive immune cytokine signaling remain poorly characterized. This cross-sectional study quantified a seven-cytokine panel in gingival crevicular fluid (GCF) and matched serum from patients with Stage III periodontitis and healthy controls, stratified by smoking status. MATERIALS AND METHODS: Fifty adults were enrolled across four groups: periodontally healthy non-smokers (Group 1, n = 10), periodontally healthy smokers (Group 2, n = 10), Stage III, Grade C periodontitis non-smokers (Group 3, n = 10), and periodontitis smokers (Group 4, n = 20). Seven cytokines (IL-1β, IL-2, IL-6, IL-8, IL-12p40, IL-16, TNF-α) were quantified by Luminex™ multiplex immunoassay in GCF and serum. Spearman correlations were computed per smoking stratum with Benjamini-Hochberg FDR correction; effect sizes and 95% CIs were calculated. RESULTS: GCF IL-16 and IL-8 were significantly lower in smoking than non-smoking periodontitis patients (p < 0.001 and p < 0.01, respectively). GCF IL-6, IL-12p40, and TNF-α differed significantly across groups (all p < 0.05). In non-smokers, GCF IL-16 showed positive correlations with clinical inflammatory parameters; these associations were absent in smokers. Serum IL-6 differed between non-smoking and smoking periodontitis patients (p < 0.05). Serum IL-16 and IL-8 were not significantly different by smoking status. Serum IL-2 was undetectable across all groups. CONCLUSIONS: Cigarette smoking was associated with suppression of GCF IL-16 and IL-8 in Stage III periodontitis, with concurrent loss of their positive correlations with clinical inflammatory parameters, not reflected in serum. CLINICAL RELEVANCE: Standard serum biomarkers may not capture local immune dysregulation in tobacco-exposed periodontal patients. GCF multiplex profiling of IL-16 and IL-8 may complement clinical assessment and immune monitoring in smokers with periodontitis.",
+  "tags": [
+   "Adaptive immunity",
+   "Cigarette smoking",
+   "Gingival crevicular fluid",
+   "Interleukin-16",
+   "Periodontitis",
+   "Serum"
+  ],
+  "deep": {
+   "title_zh": "吸烟差异性地改变III期牙周炎局部适应性免疫信号",
+   "one_sentence": "吸烟显著压低III期牙周炎患者GCF的IL-16与IL-8，并抹去其与临床炎症参数的正相关，血清无此改变。",
+   "question": "吸烟是否在不改变全身细胞因子谱的前提下，选择性地压制牙周局部（GCF）适应性免疫细胞因子信号，并使这些局部信号与临床炎症状态脱耦？",
+   "design": "横断面研究，按牙周状态×吸烟状态设四组（健康非吸烟n=10、健康吸烟n=10、Stage III Grade C牙周炎非吸烟n=10、牙周炎吸烟n=20），对配对采集的龈沟液（GCF）与血清用Luminex多重免疫法测7种细胞因子（IL-1β、IL-2、IL-6、IL-8、IL-12p40、IL-16、TNF-α），按吸烟分层做Spearman相关并经Benjamini-Hochberg FDR…",
+   "sample_desc": "50名成人，分四组（10/10/10/20），人群来源与招募场所摘要未说明",
+   "findings": [
+    {
+     "claim": "吸烟的III期牙周炎患者GCF IL-16显著低于非吸烟牙周炎患者",
+     "evidence": "p < 0.001"
+    },
+    {
+     "claim": "吸烟的III期牙周炎患者GCF IL-8显著低于非吸烟牙周炎患者",
+     "evidence": "p < 0.01"
+    },
+    {
+     "claim": "GCF中IL-6、IL-12p40、TNF-α在四组间存在显著差异",
+     "evidence": "各组间比较均 p < 0.05"
+    },
+    {
+     "claim": "非吸烟者GCF IL-16与临床炎症参数呈正相关，吸烟者中该关联消失",
+     "evidence": "分层Spearman相关+FDR校正后，非吸烟层显著、吸烟层无相关"
+    }
+   ],
+   "effect": "摘要明确说明计算了效应量与95%CI，但未在摘要中列出具体数值",
+   "relation": "q1相关：为'宿主免疫信号决定牙周转归'提供局部层面的新解释——吸烟不是简单加重炎症，而是选择性削弱特定适应性免疫信号并使其与临床表型脱耦；同时旁及q2（局部-全身生物标志物解耦，提示血清指标不可替代GCF）",
+   "why": "它推翻了'吸烟者牙周炎局部炎症信号更强'的直觉：同样是Stage III Grade C，吸烟者GCF的IL-16、IL-8反而更低，且原本能把细胞因子水平与牙周临床读数挂钩的正相关在吸烟者中消失。这说明吸烟造成的是一种'信号-表型解耦'的免疫失能，而非单纯促炎增强；临床上据此不能用血清指标推断吸烟患者牙周局部免疫状态，GCF多因子谱是有用的分层工具。",
+   "limitations": [
+    "四组样本量小且不均衡（10/10/10/20），效应估计与相关分析的统计功效有限，效应量与CI的具体数值未在摘要给出",
+    "横断面设计，无法区分吸烟导致免疫信号改变、还是吸烟者牙周炎表型本身不同所致的反向因果",
+    "仅测7种细胞因子且为游离浓度，无细胞表型、空间定位或吸烟累积暴露（pack-years）量化，机制上无法定位到具体免疫细胞谱系与极化状态"
+   ],
+   "transferable": "(1) GCF与配对血清的局部-全身双 compartment 同步取样+多重细胞因子面板设计，可直接搬到q1种植体周（种植体周袋冲洗液/龈沟液 vs 血清）与q4材料免疫编程的局部免疫读出；(2) 按暴露状态分层的相关性分析+Benjamini-Hochberg FDR校正，用'相关性是否在暴露层消失'作为免疫解耦…",
+   "followups": [
+    "这7种细胞因子中IL-16与IL-8的具体效应量和95%CI是多少，方向是否与p值一致？",
+    "非吸烟层IL-16与临床参数（PD、CAL、BOP、牙槽骨丧失）的相关系数分别是多少，吸烟层是否做过等效能检验（如交互项）而非仅'无相关'？",
+    "该研究是否在全文中报告了吸烟累积量（pack-years）与牙周炎分级构成，能否排除组间表型不均衡造成的混杂？"
+   ],
+   "glossary": [
+    {
+     "en": "GCF (gingival crevicular fluid)",
+     "cn": "龈沟液"
+    },
+    {
+     "en": "Luminex multiplex immunoassay",
+     "cn": "Luminex多重微球免疫检测"
+    },
+    {
+     "en": "IL-12p40",
+     "cn": "白细胞介素-12 p40亚基（IL-12/IL-23共有）"
+    },
+    {
+     "en": "Benjamini-Hochberg FDR",
+     "cn": "Benjamini-Hochberg假发现率校正"
+    },
+    {
+     "en": "Stage III Grade C periodontitis",
+     "cn": "三期C级牙周炎（进展快、骨丧失与年龄不匹配）"
+    },
+    {
+     "en": "dysbiosis",
+     "cn": "微生物组失衡/生态失调"
+    }
+   ],
+   "reading_minutes": 12,
+   "quality": {
+    "passed": true,
+    "score": 100.0,
+    "judge_score": 88.0,
+    "problems": [
+     "design 似乎被截断",
+     "transferable 似乎被截断",
+     "追问中列举的具体临床参数（PD、CAL、BOP、牙槽骨丧失）摘要未指明，属推测性细化，需核对全文",
+     "transferable 与 design 字段末尾被截断（'…'），内容不完整"
+    ],
+    "repaired_by": "mimo-v2.6-flash",
+    "attempts": 1
+   }
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1007/s00784-026-07263-2",
+   "pmid": "43026345",
+   "doi": "10.1007/s00784-026-07263-2",
+   "title": "Cigarette smoking differentially alters local adaptive immune signaling in Stage III periodontitis",
+   "title_zh": "吸烟差异性地改变III期牙周炎局部适应性免疫信号",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-14",
+   "authors": [
+    "Ural EC",
+    "Kasnak G",
+    "Haytural Ö",
+    "Kantarcı A",
+    "Demirel K"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43026345/",
+   "pmcid": "4911175",
+   "cited_by": 0,
+   "design": "cross_sectional",
+   "design_label": "横断面",
+   "design_level": 3,
+   "sample_n": 10,
+   "sample_note": "n=10",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "牙周免疫-吸烟",
+   "one_line": "横断面检测牙周炎患者龈沟液/血清7种细胞因子，显示吸烟者IL-16、IL-8显著降低。",
+   "so_what": "直接回应q1中宿主免疫信号与环境因素交互，但因果方向不明。",
+   "caution": "n=50横断面，无法推断吸烟→免疫抑制→骨丧失的时序因果。",
+   "score": {
+    "final": 54.5,
+    "match": 72.0,
+    "novelty": 45.0,
+    "rigor": 38.0,
+    "impact": 30.0,
+    "transfer": 50.0
+   },
+   "heuristic": 58.8,
+   "breakdown": {
+    "topic": 29.1,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 2.8,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: Cigarette smoking impairs periodontal host defense, yet its effects on local adaptive immune cytokine signaling remain poorly characterized. This cross-sectional study quantified a seven-cytokine panel in gingival crevicular fluid (GCF) and matched serum from patients with Stage III periodontitis and healthy controls, stratified by smoking status. MATERIALS AND METHODS: Fifty adults were enrolled across four groups: periodontally healthy non-smokers (Group 1, n = 10), periodontally healthy smokers (Group 2, n = 10), Stage III, Grade C periodontitis non-smokers (Group 3, n = 10), and periodontitis smokers (Group 4, n = 20). Seven cytokines (IL-1β, IL-2, IL-6, IL-8, IL-12p40, IL-16, TNF-α) were quantified by Luminex™ multiplex immunoassay in GCF and serum. Spearman correlations were computed per smoking stratum with Benjamini-Hochberg FDR correction; effect sizes and 95% CIs were calculated. RESULTS: GCF IL-16 and IL-8 were significantly lower in smoking than non-smoking periodontitis patients (p < 0.001 and p < 0.01, respectively). GCF IL-6, IL-12p40, and TNF-α differed significantly across groups (all p < 0.05). In non-smokers, GCF IL-16 showed positive correlations with clinical inflammatory parameters; these associations were absent in smokers. Serum IL-6 differed between non-smoking and smoking periodontitis patients (p < 0.05). Serum IL-16 and IL-8 were not significantly different by smoking status. Serum IL-2 was undetectable across all groups. CONCLUSIONS: Cigarette smoking was associated with suppression of GCF IL-16 and IL-8 in Stage III periodontitis, with concurrent loss of their positive correlations with clinical inflammatory parameters, not reflected in serum. CLINICAL RELEVANCE: Standard serum biomarkers may not capture local immune dysregulation in tobacco-exposed periodontal patients. GCF multiplex profiling of IL-16 and IL-8 may complement clinical assessment and immune monitoring in smokers with periodontitis.",
+   "tags": [
+    "Adaptive immunity",
+    "Cigarette smoking",
+    "Gingival crevicular fluid",
+    "Interleukin-16",
+    "Periodontitis",
+    "Serum"
+   ],
+   "deep": {
+    "title_zh": "吸烟差异性地改变III期牙周炎局部适应性免疫信号",
+    "one_sentence": "吸烟显著压低III期牙周炎患者GCF的IL-16与IL-8，并抹去其与临床炎症参数的正相关，血清无此改变。",
+    "question": "吸烟是否在不改变全身细胞因子谱的前提下，选择性地压制牙周局部（GCF）适应性免疫细胞因子信号，并使这些局部信号与临床炎症状态脱耦？",
+    "design": "横断面研究，按牙周状态×吸烟状态设四组（健康非吸烟n=10、健康吸烟n=10、Stage III Grade C牙周炎非吸烟n=10、牙周炎吸烟n=20），对配对采集的龈沟液（GCF）与血清用Luminex多重免疫法测7种细胞因子（IL-1β、IL-2、IL-6、IL-8、IL-12p40、IL-16、TNF-α），按吸烟分层做Spearman相关并经Benjamini-Hochberg FDR…",
+    "sample_desc": "50名成人，分四组（10/10/10/20），人群来源与招募场所摘要未说明",
+    "findings": [
+     {
+      "claim": "吸烟的III期牙周炎患者GCF IL-16显著低于非吸烟牙周炎患者",
+      "evidence": "p < 0.001"
+     },
+     {
+      "claim": "吸烟的III期牙周炎患者GCF IL-8显著低于非吸烟牙周炎患者",
+      "evidence": "p < 0.01"
+     },
+     {
+      "claim": "GCF中IL-6、IL-12p40、TNF-α在四组间存在显著差异",
+      "evidence": "各组间比较均 p < 0.05"
+     },
+     {
+      "claim": "非吸烟者GCF IL-16与临床炎症参数呈正相关，吸烟者中该关联消失",
+      "evidence": "分层Spearman相关+FDR校正后，非吸烟层显著、吸烟层无相关"
+     }
+    ],
+    "effect": "摘要明确说明计算了效应量与95%CI，但未在摘要中列出具体数值",
+    "relation": "q1相关：为'宿主免疫信号决定牙周转归'提供局部层面的新解释——吸烟不是简单加重炎症，而是选择性削弱特定适应性免疫信号并使其与临床表型脱耦；同时旁及q2（局部-全身生物标志物解耦，提示血清指标不可替代GCF）",
+    "why": "它推翻了'吸烟者牙周炎局部炎症信号更强'的直觉：同样是Stage III Grade C，吸烟者GCF的IL-16、IL-8反而更低，且原本能把细胞因子水平与牙周临床读数挂钩的正相关在吸烟者中消失。这说明吸烟造成的是一种'信号-表型解耦'的免疫失能，而非单纯促炎增强；临床上据此不能用血清指标推断吸烟患者牙周局部免疫状态，GCF多因子谱是有用的分层工具。",
+    "limitations": [
+     "四组样本量小且不均衡（10/10/10/20），效应估计与相关分析的统计功效有限，效应量与CI的具体数值未在摘要给出",
+     "横断面设计，无法区分吸烟导致免疫信号改变、还是吸烟者牙周炎表型本身不同所致的反向因果",
+     "仅测7种细胞因子且为游离浓度，无细胞表型、空间定位或吸烟累积暴露（pack-years）量化，机制上无法定位到具体免疫细胞谱系与极化状态"
+    ],
+    "transferable": "(1) GCF与配对血清的局部-全身双 compartment 同步取样+多重细胞因子面板设计，可直接搬到q1种植体周（种植体周袋冲洗液/龈沟液 vs 血清）与q4材料免疫编程的局部免疫读出；(2) 按暴露状态分层的相关性分析+Benjamini-Hochberg FDR校正，用'相关性是否在暴露层消失'作为免疫解耦…",
+    "followups": [
+     "这7种细胞因子中IL-16与IL-8的具体效应量和95%CI是多少，方向是否与p值一致？",
+     "非吸烟层IL-16与临床参数（PD、CAL、BOP、牙槽骨丧失）的相关系数分别是多少，吸烟层是否做过等效能检验（如交互项）而非仅'无相关'？",
+     "该研究是否在全文中报告了吸烟累积量（pack-years）与牙周炎分级构成，能否排除组间表型不均衡造成的混杂？"
+    ],
+    "glossary": [
+     {
+      "en": "GCF (gingival crevicular fluid)",
+      "cn": "龈沟液"
+     },
+     {
+      "en": "Luminex multiplex immunoassay",
+      "cn": "Luminex多重微球免疫检测"
+     },
+     {
+      "en": "IL-12p40",
+      "cn": "白细胞介素-12 p40亚基（IL-12/IL-23共有）"
+     },
+     {
+      "en": "Benjamini-Hochberg FDR",
+      "cn": "Benjamini-Hochberg假发现率校正"
+     },
+     {
+      "en": "Stage III Grade C periodontitis",
+      "cn": "三期C级牙周炎（进展快、骨丧失与年龄不匹配）"
+     },
+     {
+      "en": "dysbiosis",
+      "cn": "微生物组失衡/生态失调"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": 88.0,
+     "problems": [
+      "design 似乎被截断",
+      "transferable 似乎被截断",
+      "追问中列举的具体临床参数（PD、CAL、BOP、牙槽骨丧失）摘要未指明，属推测性细化，需核对全文",
+      "transferable 与 design 字段末尾被截断（'…'），内容不完整"
+     ],
+     "repaired_by": "mimo-v2.6-flash",
+     "attempts": 1
+    }
+   }
+  },
+  {
+   "id": "10.1111/joor.70377",
+   "pmid": "43026653",
+   "doi": "10.1111/joor.70377",
+   "title": "P(TMD|OSA) or P(OSA|TMD)? Estimand Heterogeneity in Temporomandibular Disorder-Obstructive Sleep Apnea Comorbidity Research",
+   "title_zh": "TMD与OSA共病研究中估计量异质性问题：P(TMD|OSA)还是P(OSA|TMD)?",
+   "journal": "Journal of oral rehabilitation",
+   "date": "2026-11-13",
+   "authors": [
+    "Comisi JC"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43026653/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "流行病学方法论反思",
+   "one_line": "综述揭示9项研究报告的TMD-OSA共现率差异源于P(TMD|OSA)与P(OSA|TMD)两种estimand混用所…",
+   "so_what": "直接回应q3的方法论反思：'因果还是标志物'之争可借鉴此estimand辨析框架；推动q2的因果推…",
+   "caution": "叙述性综述非系统评价；未纳入队列前瞻性数据。",
+   "score": {
+    "final": 47.8,
+    "match": 50.0,
+    "novelty": 55.0,
+    "rigor": 60.0,
+    "impact": 55.0,
+    "transfer": 55.0
+   },
+   "heuristic": 26.0,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Temporomandibular disorder (TMD) affects an estimated 34% of the global population, with projections suggesting further increases. A genuine but incompletely understood association with obstructive sleep apnea (OSA) has been proposed. Reported TMD-OSA co-occurrence varies from 2% to 68% across studies-a range that conflates two different measured quantities (estimands) rather than reflecting a single inconsistent phenomenon. OBJECTIVE: To determine whether apparent heterogeneity in TMD-OSA comorbidity estimates reflects true inconsistency or results from combining non-comparable measurements-studies estimating P(TMD|OSA) versus P(OSA|TMD)-alongside differences in recruitment setting, diagnostic method, severity threshold and control-group presence. METHODS: A narrative synthesis, not a systematic review, was conducted via a structured PubMed search (inception-July 2026) cross-checked against three existing systematic reviews and meta-analyses. Nine clinic-based, instrument-confirmed studies meeting predefined eligibility criteria were extracted and compared against the population-based literature underlying a 2024 meta-analysis (six studies, pooled odds ratio [OR] 2.61). Wilson 95% confidence intervals were calculated for each proportion; given the small number and clinical heterogeneity of the studies, no formal meta-analytic pooling was attempted. RESULTS: Two of the nine clinic-based studies overlapped with the existing population-based literature (one quantitatively, one qualitatively), so the two literatures are not fully independent, though most clinic-based studies lacked a control group and were excluded from pooling. Reported P(TMD|OSA) ranged from 8.6% [95% CI 4.0-17.5] to 51.7% [41.4-61.9] among studies using RDC/TMD or DC/TMD; one study using a substantially more restrictive definition of treatment-disqualifying TMJ disease reported 2.0% [0.6-7.0] and is not directly comparable to the others. P(OSA|TMD) ranged from 28% [18.0-41.6] to 68% [48.4-82.8] across three studies. The two most rigorously controlled studies did not differ significantly from each other (z = 1.14, p = 0.26), despite one reaching borderline internal significance (p < 0.05) and the other not (p = 0.83). CONCLUSION: The best-supported conclusion is that these studies measure different quantities, in different populations, using different diagnostic protocols and seve",
+   "tags": [
+    "comorbidity",
+    "conditional probability",
+    "estimand",
+    "narrative synthesis",
+    "obstructive sleep apnea",
+    "prevalence"
+   ],
+   "deep": {
+    "title_zh": "TMD与OSA共病研究中估计量异质性问题：P(TMD|OSA)还是P(OSA|TMD)?",
+    "one_sentence": "TMD-OSA共病率范围2%-68%主要由不同条件概率估计导致，而非生物学不一致。",
+    "question": "已发表TMD-OSA共病研究间的异质性是否源于使用不可比的估计量（P(TMD|OSA) vs. P(OSA|TMD)）及研究设计差异，而非真实生物学冲突？",
+    "design": "叙述性综述（非系统评价），基于结构化PubMed检索（建库至2026年7月）并与三项现有系统评价/meta分析交叉核对，提取9项诊所基础、仪器确诊研究进行比较分析。",
+    "sample_desc": "摘要未说明",
+    "findings": [
+     {
+      "claim": "共病率范围2%-68%反映的是不同条件概率估计量混合，而非单一现象的不一致",
+      "evidence": "P(TMD|OSA)范围8.6%[95% CI 4.0-17.5]至51.7%[41.4-61.9]；P(OSA|TMD)范围28%[18.0-41.6]至68%[48.4-82.8]"
+     },
+     {
+      "claim": "使用严格TMJ疾病排除标准的单一研究与其他采用RDC/TMD或DC/TMD的研究不可直接比较",
+      "evidence": "该研究报告共病率2.0%[0.6-7.0]，显著低于其他研究"
+     },
+     {
+      "claim": "两项最严格控制的研究间差异无统计学意义，尽管单项内部显著性不同",
+      "evidence": "z = 1.14, p = 0.26；一项p < 0.05，另一项p = 0.83"
+     }
+    ],
+    "effect": "未报告",
+    "relation": "与研究方法相关，对q2（牙周炎通过通路影响全身疾病）中的因果推断设计具有方法学借鉴价值；提示评估共病关联时需明确估计量方向与诊断标准一致性。",
+    "why": "改变认知：将共病率异质性归因于测量估计量差异（P(A|B) vs P(B|A)）而非生物学矛盾，为解决领域内矛盾结果提供方法学框架。",
+    "limitations": [
+     "作者承认本研究为叙述性综述而非系统评价，未进行正式meta分析合并",
+     "两个文献集存在部分重叠（9项中2项与6项重叠），独立性不完整",
+     "无法量化估计量方向差异对整体异质性的相对贡献"
+    ],
+    "transferable": "estimand审计方法（明确区分P(暴露|疾病)与P(疾病|暴露)）可应用于任何共病或关联研究的设计与解读中，尤其是孟德尔随机化或前瞻性队列研究。",
+    "followups": [
+     "在你当前课题中，哪些已发表的关联研究（如牙周炎与糖尿病）可能存在类似的估计量混淆？能否列出并检查其原始研究的具体设计？",
+     "如果要在你的课题中避免此类异质性，你将如何在研究方案阶段预先注册估计量声明与诊断标准一致性？",
+     "对于TMD-OSA这一例子，你如何利用这一框架重新评估相关领域的其他共病研究（如牙周炎与心血管疾病）？"
+    ],
+    "glossary": [
+     {
+      "en": "estimand",
+      "cn": "待估参数 / 目标估计量"
+     },
+     {
+      "en": "P(TMD|OSA)",
+      "cn": "在OSA人群中TMD的条件概率"
+     },
+     {
+      "en": "P(OSA|TMD)",
+      "cn": "在TMD人群中OSA的条件概率"
+     },
+     {
+      "en": "RDC/TMD",
+      "cn": "颞下颌关节紊乱病研究诊断标准"
+     },
+     {
+      "en": "DC/TMD",
+      "cn": "颞下颌关节紊乱病诊断标准"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 98.0,
+     "judge_score": 88.0,
+     "problems": [
+      "效应量只有占位符",
+      "'显著低于其他研究'的表述略超出摘要原文（原文仅称'不可直接比较'），属轻微推断",
+      "sample_desc 写'摘要未说明'虽忠实但削弱了完整性，可改为描述9项诊所基础研究的已知特征"
+     ],
+     "repaired_by": "",
+     "attempts": 0
+    }
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1016/j.bone.2026.118170",
+   "pmid": "43025770",
+   "doi": "10.1016/j.bone.2026.118170",
+   "title": "Weight loss at a cost: Semaglutide and PYY3-36 aggravate pre-existing metabolic osteoporosis in female Wistar rats",
+   "title_zh": "减重代价：司美格鲁肽与PYY3‑36加重雌性大鼠预存代谢性骨质疏松",
+   "journal": "Bone",
+   "date": "2026-11-13",
+   "authors": [
+    "Kloock S",
+    "Zytner P",
+    "Geiger N",
+    "Sequeira V",
+    "Schmitt-Böhrer A",
+    "Felker J",
+    "Sarwar H",
+    "Weich A",
+    "Ignatius A",
+    "Fassnacht M",
+    "Haffner-Luntzer M",
+    "Dischinger U"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43025770/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "种植与骨再生",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "代谢-骨界面",
+   "one_line": "在代谢性骨质疏松大鼠模型中，司美格鲁肽单用或联用PYY3-36均加重 Trabecular bone 丢失，RNA-s…",
+   "so_what": "提示 GLP‑1 受体激动剂可能通过代谢途径影响骨微环境，与 q4「材料/降解产物编程宿主免疫」及…",
+   "caution": "动物模型（Wistar大鼠+Western diet+L‑NAME）非人类糖尿…",
+   "score": {
+    "final": 46.7,
+    "match": 30.0,
+    "novelty": 65.0,
+    "rigor": 70.0,
+    "impact": 50.0,
+    "transfer": 55.0
+   },
+   "heuristic": 38.2,
+   "breakdown": {
+    "topic": 2.0,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "Incretin mimetics like semaglutide and peptide YY3-36 (PYY3-36) reduce appetite and body weight, however their individual and combined effects on bone in the setting of metabolic disease and associated osteoporosis (MetOP) lack mechanistic insights. Here, female Wistar rats were randomized to: [1] Healthy control, [2] MetOP-Saline, [3] MetOP-Sema, [4] MetOP-PYY, [5] MetOP-Sema+PYY. Animals in group 2-5 received a \"Western diet\" in combination with nitric oxide synthase inhibitor L-NAME to induce MetOP as previously described. Randomization to treatments occurred in week 9. After 16 weeks, femora were collected for micro-computed-tomography, histological analysis, RNA-seq, and qPCR. Serum was analyzed for bone turnover markers and steroid profiles (LC-MS/MS). Semaglutide alone and in combination with PYY3-36 significantly reduced body weight. Semaglutide induced a modest reduction in trabecular bone volume fraction (BV/TV), whereas PYY3-36 alone and in combination with semaglutide caused more pronounced trabecular deterioration, with the combination group exhibiting increased trabecular separation. Cortical bone parameters were unaffected. Osteoclast numbers were increased in the semaglutide and PYY3-36 groups. Gene expression analysis demonstrated only mild changes in femora of semaglutide-treated rats, while PYY3-36 treatment significantly upregulated angiogenesis- and extracellular matrix-associated genes. Collectively, these findings suggest that semaglutide modestly impairs bone health. PYY3-36 treatment led to deteriorated bone markers and increased resorption, potentially limiting its clinical application. Semaglutide and PYY3-36 in combination further aggravate bone loss in MetOP. These findings highlight the need to evaluate gut hormone-based weight loss strategies for long-term skeletal safety, especially in the vulnerable setting of pre-existing osteoporosis.",
+   "tags": [
+    "Animal research",
+    "L-NAME",
+    "Metabolic osteoporosis",
+    "Osteoporosis",
+    "PYY",
+    "Semaglutide"
+   ]
+  },
+  {
+   "id": "10.1016/j.oraloncology.2026.108228",
+   "pmid": "43025371",
+   "doi": "10.1016/j.oraloncology.2026.108228",
+   "title": "Predicting efficacy and toxicity of drug combinations in salivary gland cancers: A model based on phase II trials",
+   "title_zh": "基于Ⅱ期试验模型预测唾液腺癌药物联合疗效与毒性",
+   "journal": "Oral oncology",
+   "date": "2026-11-13",
+   "authors": [
+    "Jiménez-Labaig P",
+    "Sanz-Beltran J",
+    "Forster MD",
+    "Bossi P",
+    "Metcalf R",
+    "Garcia IB",
+    "Hanna GJ",
+    "Cabezas-Camarero S",
+    "Harrington KJ"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43025371/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": 524,
+   "sample_note": "n=524 patients",
+   "tier": "A",
+   "domain": "牙周炎通过哪些可验证的通…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "唾液腺癌精准治疗",
+   "one_line": "整合15项Ⅱ期试验（n=524）构建Bliss/additivity模型，预测抗肿瘤与毒性组合效果。",
+   "so_what": "间接关联q5，展示如何利用现有临床试验数据建模预测联合方案，可为口腔鳞癌治疗抵抗干预点寻找提供方法…",
+   "caution": "仅基于既往Ⅱ期数据建模，未含免疫微环境或微生物组变量，外推至q5需验证。",
+   "score": {
+    "final": 39.9,
+    "match": 25.0,
+    "novelty": 60.0,
+    "rigor": 55.0,
+    "impact": 45.0,
+    "transfer": 30.0
+   },
+   "heuristic": 38.3,
+   "breakdown": {
+    "topic": 4.1,
+    "journal": 15.0,
+    "design": 6,
+    "sample": 7.3,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Salivary gland cancers (SGCs) are rare and heterogeneous tumors lacking standard systemic treatment options in the recurrent/metastatic setting. Although clinical trials have shown activity of anti-HER2, chemotherapy, androgen receptor-targeted agents (ARTA) and androgen deprivation therapies (ADT), their combined effects remain largely unexplored. We aimed to model the potential outcomes of rational drug combinations to guide future clinical trial designs. METHODS: Fifteen phase II trials were included, encompassing 524 patients (19% female, 81% R/M, 55% ductal, 11% adenocarcinoma, 5% mucoepidermoid). 7 trials assessed cytotoxic chemotherapy, 6 ARTA ± ADT, and 5 anti-HER2 therapies (3 as antibody-drug conjugates, ADCs). Overall response rate (ORR) and grade ≥ 3 treatment-related adverse events (TRAEs) were estimated using Bliss and additivity models. Median progression-free survival and overall survival (OS) were reconstructed using parametric survival models. RESULTS: Sixty combinations were assessed. In AR + HER2 + disease, triple combinations involving ARTA-ADT and anti-HER2-ADCs, or chemotherapy plus anti-HER2 yielded the highest predicted ORRs (94.5% by Bliss). In AR + HER2-, chemotherapy-based combinations and ARTA-ADT showed a greater relative ORR gain overall compared with AR + HER2+: +14.29(1.1-21.9) vs + 6.26(0.8-14.3). Estimated median 5- and 3-year OS was achieved in AR + HER2 + and AR + HER2- combinations respectively. Grade ≥ 3 TRAEs showed the highest rates in chemotherapy regimens (93.1 by Bliss, uncapped 126.5% by additivity) and lower toxicity with ADCs (23.3%, 24.8%). CONCLUSIONS: Predicted efficacy and safety outcomes highlight potential rational drug combinations that merit evaluation in future SGC clinical trials, ideally using a sequential approach, with particularly promising incremental benefit in AR + HER2- disease. Expected toxicity may constrain the feasibility of certain combination strategies.",
+   "tags": [
+    "Additivity",
+    "Bliss Independence",
+    "Clinical Trials",
+    "Combination Efficacy Prediction",
+    "Drug Combinations",
+    "Parametric Survival Modelling"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107171",
+   "pmid": "43025745",
+   "doi": "10.1016/j.jdent.2026.107171",
+   "title": "Diagnostic accuracy of intraoral scanners in caries detection: A systematic review and meta-analysis",
+   "title_zh": "口内扫描仪龋病诊断准确性的系统评价与Meta分析",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-13",
+   "authors": [
+    "Carvalho BKG",
+    "Nolden EL",
+    "Wenning AS",
+    "Szentes BL",
+    "Kói T",
+    "Agócs G",
+    "Kerémi B",
+    "Varga G",
+    "Vág J",
+    "Hegyi P",
+    "Kivovics M"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43025745/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 4997,
+   "sample_note": "22 项研究",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "龋病诊断技术",
+   "one_line": "Meta分析显示口内扫描仪对于窝沟龋敏感性中等（0.77），邻面较低（0.53），特异性较高。",
+   "so_what": "仅背景，与q1-q5机制或微生物组问题无直接关联。",
+   "caution": "纳入研究异质性强，多数为离体研究，临床推广需谨慎。",
+   "score": {
+    "final": 19.0,
+    "match": 10.0,
+    "novelty": 25.0,
+    "rigor": 60.0,
+    "impact": 40.0,
+    "transfer": 5.0
+   },
+   "heuristic": 43.7,
+   "breakdown": {
+    "topic": 1.7,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 8.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: This systematic review and meta-analysis synthesised the available evidence on the diagnostic accuracy of intraoral scanner (IOS)-assisted caries detection and compared it with conventional diagnostic methods. METHODS: We included in vitro and clinical studies of IOS diagnostic accuracy for caries in human patients. On August 28, 2024, we performed a systematic search of PubMed, Cochrane and Embase, updated on August 28, 2026. We pooled sensitivity and specificity using a multilevel random-effects meta-regression with fixed effects for tooth surfaces and diagnostic method. A second model evaluated IOS as a function of light wavelength. RESULTS: Of 4,997 records, 22 studies were included. For the in vitro subset, the pooled sensitivities were 0.77 (0.58-0.89) and 0.53 (0.37-0.69), and the pooled specificities were 0.79 (0.25-0.98) and 0.87 (0.70-0.95) for occlusal and approximal surfaces, respectively. For the clinical subset, the pooled sensitivity and specificity were 0.61 (0.48-0.73) and 0.94 (0.86-0.97). Sensitivity was significantly higher for occlusal than approximal surfaces (p = 0.015). There were no significant differences in diagnostic performance between IOS and conventional methods. CONCLUSIONS: IOS-assisted caries detection demonstrated moderate diagnostic accuracy, with no statistically significant differences compared with conventional diagnostic methods; its diagnostic performance is influenced by tooth surface. CLINICAL SIGNIFICANCE: IOS-assisted caries assessment cannot supersede conventional diagnostic methods, and their limited sensitivity makes them insufficiently reliable for caries screening. However, within a personalised, patient-centred diagnostic approach, they may play a valuable role in monitoring early caries lesions, potentially reducing radiation exposure and supporting enamel preservation.",
+   "tags": [
+    "bitewing radiography",
+    "caries detection",
+    "intraoral scanners",
+    "visual-tactile inspection"
+   ]
+  },
+  {
+   "id": "10.1159/000549148",
+   "pmid": "43024657",
+   "doi": "10.1159/000549148",
+   "title": "The Relation between Primary Schoolchildren's Dental Plaque Index and Their Parents' Oral Health Knowledge in Rural Armenia",
+   "title_zh": "亚美尼亚农村儿童牙菌斑指数与家长口腔健康知识的关联",
+   "journal": "Caries research",
+   "date": "2026-11-13",
+   "authors": [
+    "Atanyan A",
+    "Muradyan D",
+    "Mkrtchyan M",
+    "Karbouian K",
+    "Yeretzian ST",
+    "Paranjkhoo P",
+    "Lylozian H",
+    "Demirchyan A"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43024657/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cross_sectional",
+   "design_label": "横断面",
+   "design_level": 3,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "儿童口腔与预防",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "儿童龋病防控",
+   "one_line": "横断面调查发现家长口腔知识水平与学龄儿童牙菌斑指数无显著独立关联。",
+   "so_what": "仅背景。与q1-q5均无实质关联，属低级别证据。",
+   "caution": "电话调查回忆偏倚；n未知；无法推断因果。",
+   "score": {
+    "final": 8.9,
+    "match": 5.0,
+    "novelty": 8.0,
+    "rigor": 20.0,
+    "impact": 5.0,
+    "transfer": 3.0
+   },
+   "heuristic": 33.6,
+   "breakdown": {
+    "topic": 7.6,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "INTRODUCTION: Parental awareness of oral hygiene plays a crucial role in safeguarding children's oral health. This study sought to evaluate the oral health status, habits, and dietary patterns of primary schoolchildren in rural Armenia while investigating the influence of parental oral health knowledge on their children's oral health, as assessed by child's dental plaque index. METHODS: The study involved primary schoolchildren and their parents from two rural communities in Armavir province. It was composed of two key components: (1) a cross-sectional telephone survey conducted with parents to evaluate their knowledge of oral health, their children's oral hygiene practices, dietary habits, and sociodemographic background, and (2) a clinical assessment of the children's oral health, which included measuring plaque index and recording the Decayed, Missing, and Filled Teeth (DMFT/dmft) index. To determine the relationship between parental oral health knowledge and children's plaque index, a multivariable linear regression analysis was performed. RESULTS: A total of 400 parents participated. Children had a mean plaque index of 3.1 (SD 0.7) and a mean DMFT/dmft index of 7.3 (SD 3.3). The score indicating oral health behavior averaged 3.0 out of 6.0. The mean dietary habits score was 4.5 out of 9.0. The mean score indicating oral health knowledge of parents was 6.9 out of 9.0. After adjusting for potential confounders, each one-point increase in parental oral health knowledge score was associated with a 0.05-point reduction in the child's dental plaque index (95% CI: -0.10; -0.002). CONCLUSIONS: The findings emphasize the need for comprehensive strategies to improve children's oral health, including parental education, behavioral support, caries-prevention efforts, and better access to dental care.",
+   "tags": [
+    "Child health",
+    "Oral health",
+    "Parental awareness",
+    "Plaque index",
+    "Rural health"
+   ]
+  },
+  {
+   "id": "10.1111/joor.70353",
+   "pmid": "43031397",
+   "doi": "10.1111/joor.70353",
+   "title": "Association Between Chronic Painful TMD and Accelerated Biological Aging: A Cross-Sectional Mediation Analysis of Diet Quality",
+   "title_zh": "慢性疼痛性颞下颌关节紊乱病与加速生物学衰老的横断面中介分析：饮食质量的中介作用",
+   "journal": "Journal of oral rehabilitation",
+   "date": "2026-11-13",
+   "authors": [
+    "Xu G",
+    "Liu H",
+    "Pan S",
+    "An S",
+    "Chen Q",
+    "Tang Y",
+    "Liu R"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43031397/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cross_sectional",
+   "design_label": "横断面",
+   "design_level": 3,
+   "sample_n": 100,
+   "sample_note": "n=100 patients",
+   "tier": "B",
+   "domain": "牙周炎通过哪些可验证的通…",
+   "methods": [
+    "causal"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "TMD‑衰老‑饮食轴",
+   "one_line": "横断面中介分析显示TMD疼痛与PhenoAgeAccelerated正相关，饮食质量部分中介该关联（中介效应25.8%…",
+   "so_what": "为q2「牙周炎/口腔慢性炎症→全身疾病」提供概念类比：口腔慢性疼痛可能通过行为‑营养途径加速系统性…",
+   "caution": "横断面设计无法确立饮食←疼痛→衰老的时序，且样本量小（n=100），中介效应易…",
+   "score": {
+    "final": 42.7,
+    "match": 40.0,
+    "novelty": 55.0,
+    "rigor": 45.0,
+    "impact": 35.0,
+    "transfer": 50.0
+   },
+   "heuristic": 37.2,
+   "breakdown": {
+    "topic": 3.7,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 5.3,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "BACKGROUND: Chronic pain is a potential systemic stressor contributing to biological aging. Patients with chronic painful temporomandibular disorders (TMDs) often compromise diet quality due to mechanical pain sensitivity. However, whether this behavioural adaptation mediates the association of pain on biological aging remains unclear. OBJECTIVE: To evaluate the association between chronic TMD pain and biological aging, and to explore the potential mediating role of diet quality and psychological status. METHODS: A cross-sectional study was conducted with 100 patients. Biological aging was assessed using PhenoAgeAccel based on clinical biomarkers. Mediation and moderated mediation models were employed to analyse the pathway involving diet quality and psychological comorbidities. RESULTS: Chronic painful TMDs were significantly associated with accelerated biological aging (r = 0.229, p < 0.05). Diet quality served as a significant partial mediator, explaining 25.821% of the total effect. However, psychological status moderated this pathway; in patients with severe psychological comorbidities, the diet-mediated pathway was attenuated, suggesting that psychological stress may supersede nutritional factors in accelerating aging. CONCLUSION: Chronic painful TMDs are associated with accelerated biological aging, potentially involving a diet-mediated pathway. This association appears to be modulated by psychological health. Consequently, clinical management may benefit from a phenotype-based strategy: integrating nutritional guidance for pain-predominant phenotypes and multidisciplinary interventions for psychosomatic phenotypes.",
+   "tags": [
+    "biological aging",
+    "chronic pain",
+    "diet quality",
+    "phenotypic age",
+    "psychological stress",
+    "temporomandibular disorders"
+   ]
+  },
+  {
+   "id": "10.1016/j.bone.2026.118169",
+   "pmid": "43025771",
+   "doi": "10.1016/j.bone.2026.118169",
+   "title": "Modeling bone abnormalities in Duchenne muscular dystrophy: Skeletal phenotypes, glucocorticoid responses, and translational considerations",
+   "title_zh": "DMD骨骼异常的动物模型综述与转化考量",
+   "journal": "Bone",
+   "date": "2026-11-13",
+   "authors": [
+    "Barroso E",
+    "Wang L",
+    "Li H"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43025771/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "肌肉-骨串扰机制",
+   "one_line": "系统比较C57BL/10-mdx、DBA/2 J-mdx、dystrophin缺失大鼠及GRMD犬模型在皮质/松质骨表…",
+   "so_what": "机制概念可迁移至q1（骨-免疫串扰）与q2（全身性疾病机制）；为植物体材料界面重塑宿主页面的类器官…",
+   "caution": "综述性质；动物模型外推至人存在种属差异；未提供新原始数据。",
+   "score": {
+    "final": 33.7,
+    "match": 35.0,
+    "novelty": 30.0,
+    "rigor": 40.0,
+    "impact": 35.0,
+    "transfer": 45.0
+   },
+   "heuristic": 26.0,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "Duchenne muscular dystrophy (DMD) is increasingly recognized as a multisystem disorder in which skeletal fragility is one of the major sources of morbidity. Bone deficits arise before loss of ambulation and in glucocorticoid-naïve patients, indicating that reduced mechanical loading and steroid toxicity are important but incomplete explanations. Animal models provide an opportunity to study the skeletal consequences of dystrophin deficiency, muscle degeneration, altered muscle-bone signaling, impaired growth, and glucocorticoid exposure. However, the bone phenotype varies markedly among models. The widely used C57BL/10-mdx mouse has a mild muscle phenotype and may exhibit preserved or increased cortical indices during growth, whereas DBA/2 J-mdx mice show more consistent growth and skeletal impairment. Compound murine models can intensify muscle disease but do not necessarily recapitulate human skeletal development. Dystrophin-deficient rats develop age-related trabecular deterioration, and golden retriever muscular dystrophy dogs show bone changes that track muscle structure and function, although skeletal characterization in large-animal models remains sparse. Glucocorticoid-treated mdx mice reproduce clinically relevant growth suppression, cortical thinning, suppressed bone formation, and reduced mechanical quality while retaining treatment-related gains in muscle performance. These models have supported proof-of-concept studies of bisphosphonates, intermittent parathyroid hormone, growth hormone, and mitochondrial peptides. This review summarizes and compares skeletal phenotypes across DMD models, evaluates responses to glucocorticoids, identifies methodological factors that explain discordant findings, and proposes a translational framework for incorporating bone outcomes into DMD therapeutic development.",
+   "tags": [
+    "Animal models",
+    "Bone",
+    "Deflazacort",
+    "Duchenne muscular dystrophy",
+    "Dystrophin",
+    "Glucocorticoids"
+   ]
+  },
+  {
+   "id": "10.1016/j.bone.2026.118165",
+   "pmid": "43025772",
+   "doi": "10.1016/j.bone.2026.118165",
+   "title": "Paired DXA and pQCT of bone parameters in a clinical paediatric population: A cluster analysis",
+   "title_zh": "儿童DXA与pQCT联合评估的聚类分型研究",
+   "journal": "Bone",
+   "date": "2026-11-13",
+   "authors": [
+    "Tan J",
+    "Hart NH",
+    "Chivers P",
+    "Rantalainen T",
+    "Barrat N",
+    "Beeson B",
+    "Siafarikas A"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43025772/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": 457,
+   "sample_note": "n=457 individuals",
+   "tier": "B",
+   "domain": "儿童口腔与预防",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "骨成像定量方法",
+   "one_line": "基于DXA-TBLH+BMD+pQCT参数对457例儿童行聚类分析，识别出低骨密度合并高骨折率的两个表型簇。",
+   "so_what": "方法可迁移至q1的骨结合结局分层——用影像组学替代单一BMD指标判断预后。",
+   "caution": "非干预性队列；聚类数主观确定；未区分病因亚型。",
+   "score": {
+    "final": 20.7,
+    "match": 10.0,
+    "novelty": 15.0,
+    "rigor": 40.0,
+    "impact": 10.0,
+    "transfer": 25.0
+   },
+   "heuristic": 30.5,
+   "breakdown": {
+    "topic": 1.4,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 7.1,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "Accurate assessment of bone health in paediatric clinical populations is needed for the prevention of both non-specific and condition-specific bone deficits. Dual-energy X-ray absorptiometry (DXA), particularly \"total body less head\" (TBLH), is the preferred clinical measurement. However, peripheral quantitative computed tomography (pQCT) provides additional structural insights of value to a paediatric population. Criteria are needed to establish the value of pQCT beyond use in research settings. To determine the contributions of pQCT and DXA, we analysed data from 457 individuals from a Western Australian paediatric centre routinely employing joint DXA-pQCT imaging. Sex-specific cluster analysis was performed utilising DXA-TBLH BMD, pQCT (4% and 66% arm and leg volumetric density), age and height to define clinical phenotypes and guide decision making on adding pQCT to BMD analyses. Results showed DXA and pQCT measurements were positively correlated, particularly at the 4% site. Cluster analysis showed two clusters with lower bone density and higher fracture frequency characterised by malabsorption and bone mineral metabolism conditions in females, and bone mineral metabolism and neuromuscular conditions in males. DXA and pQCT variation was greatest in these clusters, with DXA being lower. Females showed greater variability between DXA and pQCT, with height as an influencing factor. These findings reinforce the utility of combined DXA and pQCT in paediatric bone health assessment particularly in high-risk groups.",
+   "tags": [
+    "Bone density",
+    "Bone health",
+    "Dual-energy X-ray absorptiometry",
+    "Imaging",
+    "Peripheral quantitative computed tomography"
+   ]
+  },
+  {
+   "id": "10.1111/joor.70379",
+   "pmid": "43026643",
+   "doi": "10.1111/joor.70379",
+   "title": "Clinical Phenotypes and Treatment-Response Modifiers in Chronic Painful Temporomandibular Disorders: A Systematic Review and Evidence Map",
+   "title_zh": "慢性疼痛性颞下颌关节紊乱病的临床表型与治疗反应调节因素：系统评价与证据图谱",
+   "journal": "Journal of oral rehabilitation",
+   "date": "2026-11-13",
+   "authors": [
+    "Huang X",
+    "Layson MDCB",
+    "Zhao Z",
+    "Cen X"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43026643/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "口腔鳞癌的免疫微环境与微…",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "TMD表型与治疗反应",
+   "one_line": "系统评价识别出6项预后研究和3项治疗-基线特征交互研究，绘制证据地图。",
+   "so_what": "仅背景，聚焦TMD临床表现管理，不涉及免疫微环境或全身性疾病通路。",
+   "caution": "纳入研究少且多为观察性，证据强度有限。",
+   "score": {
+    "final": 19.3,
+    "match": 15.0,
+    "novelty": 30.0,
+    "rigor": 50.0,
+    "impact": 35.0,
+    "transfer": 10.0
+   },
+   "heuristic": 42.0,
+   "breakdown": {
+    "topic": 5.8,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "BACKGROUND: Treatment outcomes in painful temporomandibular disorders (TMD) vary between patients. The value of clinical characteristics for treatment selection remains unclear. OBJECTIVE: To identify clinical characteristics associated with treatment outcomes or differential treatment benefit in chronic painful TMD. METHODS: PubMed/MEDLINE, Embase, Scopus and Cochrane CENTRAL were searched through 1 May 2026. Two reviewers independently selected studies, extracted data and assessed risk of bias. Findings were synthesised narratively and presented in an evidence map. Prognostic factors, treatment-effect modifiers, mediators, treatment responses and clinical phenotypes were considered separately. RESULTS: Nineteen reports were included. Six examined prognosis, and three tested interactions between treatment and baseline characteristics. In separate cognitive-behavioural therapy (CBT) analyses, greater baseline masticatory limitation was associated with greater improvement in jaw function (interaction p = 0.001), whereas lower somatisation and higher self-efficacy or readiness were associated with greater pain reduction with the addition of CBT to standard care. The third interaction analysis was not statistically significant. One secondary analysis reported indirect effects through changes in pain beliefs and self-efficacy. Two studies identified clinical phenotypes but did not prospectively evaluate their use in treatment selection. Of the 12 randomised trial analyses assessed, eight had some concerns and four were judged to be at high risk of bias. All six prognostic analyses were judged to be at high risk of bias. CONCLUSION: Psychosocial and functional characteristics were associated with treatment outcomes in several studies. Potential modifiers of the effects of CBT were identified, but independent validation is needed before these characteristics can guide treatment selection. PROSPERO REGISTRATION: CRD420261381185.",
+   "tags": [
+    "chronic pain",
+    "pain management",
+    "phenotype",
+    "prognosis",
+    "temporomandibular joint disorders",
+    "treatment outcome"
+   ]
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 9
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 9
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 9
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 9
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 9
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 9
+  }
+ ],
+ "weekly": {},
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}
