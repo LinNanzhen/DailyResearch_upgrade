@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-15T09:15:38+08:00",
- "latest": "2026-11-15",
+ "updated_at": "2026-11-16T09:20:45+08:00",
+ "latest": "2026-11-16",
  "days": [
+  {
+   "date": "2026-11-16",
+   "must_title": "Preventive dental scaling and cardiovascular disease according to periodontal disease status: a nationwide cohort study",
+   "must_title_zh": "按牙周病状态分层的预防性洁牙与心血管病发病：全国性队列研究",
+   "cluster": "牙周-心血管关联",
+   "count": 10,
+   "ai": true
+  },
   {
    "date": "2026-11-15",
    "must_title": "Cigarette smoking differentially alters local adaptive immune signaling in Stage III periodontitis",

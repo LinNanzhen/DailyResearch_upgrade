@@ -1,0 +1,1013 @@
+{
+ "date": "2026-11-16",
+ "generated_at": "2026-11-16T09:20:45+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 4,
+  "prompt_tokens": 10118,
+  "completion_tokens": 8650
+ },
+ "stats": {
+  "candidates": 149,
+  "raw": 147,
+  "fetched": 14,
+  "raw_dropped_type": 6,
+  "no_abstract": 3,
+  "gated": 14,
+  "scored": 14,
+  "shown": 10,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 4,
+  "quality_failed": 0,
+  "quality_repaired": 1
+ },
+ "must_read": {
+  "id": "10.1007/s00784-026-07283-y",
+  "pmid": "43033299",
+  "doi": "10.1007/s00784-026-07283-y",
+  "title": "Preventive dental scaling and cardiovascular disease according to periodontal disease status: a nationwide cohort study",
+  "title_zh": "按牙周病状态分层的预防性洁牙与心血管病发病：全国性队列研究",
+  "journal": "Clinical oral investigations",
+  "date": "2026-11-14",
+  "authors": [
+   "Lee KH",
+   "Choi YY"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43033299/",
+  "pmcid": "8315386",
+  "cited_by": 0,
+  "design": "cohort",
+  "design_label": "队列",
+  "design_level": 5,
+  "sample_n": 381530,
+  "sample_note": "n=381530 participants",
+  "tier": "B",
+  "domain": "牙周与宿主免疫",
+  "methods": [],
+  "pub_types": [
+   "Journal Article"
+  ],
+  "is_open_access": true,
+  "cluster": "牙周-心血管关联",
+  "one_line": "韩国全民医保队列（n=381530）显示多次洁牙与CVD风险呈剂量递减关联（HR 0.68）。",
+  "so_what": "q2直接支持：牙周治疗可能通过全身炎症通路降低CVD风险，为大样本观察性证据。",
+  "caution": "观察性设计，残余混杂不可避免，不能证明因果。",
+  "score": {
+   "final": 62.9,
+   "match": 70.0,
+   "novelty": 55.0,
+   "rigor": 70.0,
+   "impact": 60.0,
+   "transfer": 55.0
+  },
+  "heuristic": 57.9,
+  "breakdown": {
+   "topic": 18.9,
+   "journal": 10.0,
+   "design": 15,
+   "sample": 8.0,
+   "fresh": 6.0,
+   "method": 0.0
+  },
+  "abstract": "OBJECTIVES: This study aimed to evaluate the association between the frequency of preventive dental scaling and the incidence of cardiovascular disease (CVD) in a nationwide population-based cohort. MATERIALS AND METHODS: Data from the Korean National Health Insurance Service-Health Screening Cohort were used in this study. A total of 381,530 participants were included, of whom 10,889 experienced new CVD events during the follow-up period. Preventive dental scaling was assessed using insurance claim codes over two years from 2013 to 2015, and categorized into three groups: no scaling, one session, and two or more sessions. The primary outcome was incident CVD, defined as hospitalization owing to stroke, myocardial infarction, or heart failure. Hazard ratios (HRs) and 95% confidence intervals (CIs) were estimated using Cox proportional hazard regression models. RESULTS: Compared with the no-scaling group, the fully adjusted HRs for incident CVD were 0.85 (95% CI, 0.81-0.90) in the one-session group and 0.68 (95% CI, 0.61-0.76) in the two-or-more-sessions group (P for trend < 0.001). Subgroup analyses revealed a significant inverse association among participants without claims-defined periodontal disease, whereas no significant association was observed among those with periodontal disease (P for interaction = 0.019). CONCLUSIONS: Preventive dental scaling was associated with a lower hazard of incident CVD, with a more pronounced association among participants without claims-defined periodontal disease. A causal protective effect cannot be established from these observational findings. CLINICAL RELEVANCE: The observed association between dental scaling and cardiovascular outcomes warrants further investigation but does not establish scaling as a measure for CVD prevention.",
+  "tags": [
+   "Cardiovascular disease",
+   "Cohort study",
+   "Dental scaling",
+   "Oral health",
+   "Periodontal disease"
+  ],
+  "deep": {
+   "title_zh": "按牙周病状态分层的预防性洁牙与心血管病发病：全国性队列研究",
+   "one_sentence": "洁牙次数越多CVD风险越低（≥2次HR 0.68），但关联仅见于无牙周病者。",
+   "question": "洁牙这一可干预的口腔诊疗行为，是否与心血管病发病下降存在剂量-反应关联；以及这种关联是否由牙周炎患者所驱动（即牙周炎是否为该关联的必要中介）。",
+   "design": "韩国全国健康保险体检队列的观察性队列研究，以2013–2015年两年内的理赔代码定义预防性洁牙频率（0次/1次/≥2次）为暴露，随访期内以卒中、心肌梗死或心衰住院定义新发CVD，采用Cox比例风险模型估计HR并做牙周病状态分层的交互检验；摘要未说明随机、盲法、剂量与随访时长。",
+   "sample_desc": "韩国国民健康保险服务-健康体检队列（NHIS-HEALS），共381,530名参与者，随访期间10,889人发生新发CVD事件",
+   "findings": [
+    {
+     "claim": "预防性洁牙频率与新发CVD呈剂量-反向下关联",
+     "evidence": "与不洁牙组相比，全调整后1次组HR=0.85（95%CI 0.81–0.90），≥2次组HR=0.68（95%CI 0.61–0.76），P for trend <0.001"
+    },
+    {
+     "claim": "该反向关联在无牙周病者中显著，而在牙周病患者中不显著",
+     "evidence": "按理赔定义牙周病状态分层：无牙周病者存在显著负相关，有牙周病者未观察到显著关联，P for interaction=0.019"
+    },
+    {
+     "claim": "样本中确有足量结局事件支撑该关联",
+     "evidence": "381,530名参与者随访期间10,889人发生新发CVD（以卒中、心肌梗死或心衰住院定义）"
+    }
+   ],
+   "effect": "1次组HR=0.85（95%CI 0.81–0.90）；≥2次组HR=0.68（95%CI 0.61–0.76）；P for interaction=0.019",
+   "relation": "与 q2（牙周炎-全身疾病通路）相关，但方向上提供了反直觉的新解释：关联恰恰不在牙周病患者中出现，对“牙周炎介质驱动CVD”的经典因果叙事构成挑战",
+   "why": "它用一个可证伪的交互作用检验，把“口腔护理有益心血管”的流行叙事拆成两半：若牙周炎是中介，效应应在牙周病者中更强，数据却相反，提示关联更可能来自健康使用者偏倚或非牙周炎途径；这直接改变你在设计牙周-全身因果研究时对分层变量与负对照的取舍",
+   "limitations": [
+    "作者明确指出观察性设计不能确立因果保护效应，洁牙不能视为CVD预防措施",
+    "牙周病与洁牙均以保险理赔代码定义，存在分类错误与就医可及性混杂，摘要未说明是否做倾向评分或敏感性分析",
+    "关联集中于无牙周病者，符合健康使用者偏倚的典型模式，而摘要未报告吸烟、代谢等关键混杂的调整情况"
+   ],
+   "transferable": "“暴露频率分级 + 按疾病状态做交互作用检验”这一分层框架可直接搬到你q2的课题：在检验牙周炎与糖尿病/心血管关联时，预设中介分层并报告P for interaction，能区分“疾病驱动”与“健康行为标记”两种解释",
+   "followups": [
+    "该队列随访时长、CVD事件的ICD编码与住院定义具体是什么？（需查全文方法部分）",
+    "全调整模型纳入了哪些协变量，是否包含吸烟、BMI、糖尿病、牙科就医频率等健康行为代理变量？",
+    "无牙周病者中的显著关联，是否在以“其他预防性牙科诊疗”为阴性对照暴露的敏感性分析中依然存在？"
+   ],
+   "glossary": [
+    {
+     "en": "preventive dental scaling",
+     "cn": "预防性洁牙/龈上洁治"
+    },
+    {
+     "en": "incident CVD",
+     "cn": "新发心血管疾病事件"
+    },
+    {
+     "en": "hazard ratio (HR)",
+     "cn": "风险比"
+    },
+    {
+     "en": "Cox proportional hazard regression",
+     "cn": "Cox比例风险回归"
+    },
+    {
+     "en": "claims-defined periodontal disease",
+     "cn": "理赔代码定义的牙周病"
+    },
+    {
+     "en": "P for interaction",
+     "cn": "交互作用P值"
+    }
+   ],
+   "reading_minutes": 12,
+   "quality": {
+    "passed": true,
+    "score": 100.0,
+    "judge_score": 88.0,
+    "problems": [
+     "将队列缩写为 NHIS-HEALS，但摘要原文为 Health Screening Cohort，属未经摘要支持的推断命名",
+     "limitations 中'摘要未报告吸烟、代谢等关键混杂的调整情况'表述与'fully adjusted'存在轻微张力，宜改为'摘要未列出具体协变量'"
+    ],
+    "repaired_by": "mimo-v2.6-flash",
+    "attempts": 1
+   }
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1007/s00784-026-07283-y",
+   "pmid": "43033299",
+   "doi": "10.1007/s00784-026-07283-y",
+   "title": "Preventive dental scaling and cardiovascular disease according to periodontal disease status: a nationwide cohort study",
+   "title_zh": "按牙周病状态分层的预防性洁牙与心血管病发病：全国性队列研究",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-14",
+   "authors": [
+    "Lee KH",
+    "Choi YY"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43033299/",
+   "pmcid": "8315386",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 381530,
+   "sample_note": "n=381530 participants",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "牙周-心血管关联",
+   "one_line": "韩国全民医保队列（n=381530）显示多次洁牙与CVD风险呈剂量递减关联（HR 0.68）。",
+   "so_what": "q2直接支持：牙周治疗可能通过全身炎症通路降低CVD风险，为大样本观察性证据。",
+   "caution": "观察性设计，残余混杂不可避免，不能证明因果。",
+   "score": {
+    "final": 62.9,
+    "match": 70.0,
+    "novelty": 55.0,
+    "rigor": 70.0,
+    "impact": 60.0,
+    "transfer": 55.0
+   },
+   "heuristic": 57.9,
+   "breakdown": {
+    "topic": 18.9,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 8.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: This study aimed to evaluate the association between the frequency of preventive dental scaling and the incidence of cardiovascular disease (CVD) in a nationwide population-based cohort. MATERIALS AND METHODS: Data from the Korean National Health Insurance Service-Health Screening Cohort were used in this study. A total of 381,530 participants were included, of whom 10,889 experienced new CVD events during the follow-up period. Preventive dental scaling was assessed using insurance claim codes over two years from 2013 to 2015, and categorized into three groups: no scaling, one session, and two or more sessions. The primary outcome was incident CVD, defined as hospitalization owing to stroke, myocardial infarction, or heart failure. Hazard ratios (HRs) and 95% confidence intervals (CIs) were estimated using Cox proportional hazard regression models. RESULTS: Compared with the no-scaling group, the fully adjusted HRs for incident CVD were 0.85 (95% CI, 0.81-0.90) in the one-session group and 0.68 (95% CI, 0.61-0.76) in the two-or-more-sessions group (P for trend < 0.001). Subgroup analyses revealed a significant inverse association among participants without claims-defined periodontal disease, whereas no significant association was observed among those with periodontal disease (P for interaction = 0.019). CONCLUSIONS: Preventive dental scaling was associated with a lower hazard of incident CVD, with a more pronounced association among participants without claims-defined periodontal disease. A causal protective effect cannot be established from these observational findings. CLINICAL RELEVANCE: The observed association between dental scaling and cardiovascular outcomes warrants further investigation but does not establish scaling as a measure for CVD prevention.",
+   "tags": [
+    "Cardiovascular disease",
+    "Cohort study",
+    "Dental scaling",
+    "Oral health",
+    "Periodontal disease"
+   ],
+   "deep": {
+    "title_zh": "按牙周病状态分层的预防性洁牙与心血管病发病：全国性队列研究",
+    "one_sentence": "洁牙次数越多CVD风险越低（≥2次HR 0.68），但关联仅见于无牙周病者。",
+    "question": "洁牙这一可干预的口腔诊疗行为，是否与心血管病发病下降存在剂量-反应关联；以及这种关联是否由牙周炎患者所驱动（即牙周炎是否为该关联的必要中介）。",
+    "design": "韩国全国健康保险体检队列的观察性队列研究，以2013–2015年两年内的理赔代码定义预防性洁牙频率（0次/1次/≥2次）为暴露，随访期内以卒中、心肌梗死或心衰住院定义新发CVD，采用Cox比例风险模型估计HR并做牙周病状态分层的交互检验；摘要未说明随机、盲法、剂量与随访时长。",
+    "sample_desc": "韩国国民健康保险服务-健康体检队列（NHIS-HEALS），共381,530名参与者，随访期间10,889人发生新发CVD事件",
+    "findings": [
+     {
+      "claim": "预防性洁牙频率与新发CVD呈剂量-反向下关联",
+      "evidence": "与不洁牙组相比，全调整后1次组HR=0.85（95%CI 0.81–0.90），≥2次组HR=0.68（95%CI 0.61–0.76），P for trend <0.001"
+     },
+     {
+      "claim": "该反向关联在无牙周病者中显著，而在牙周病患者中不显著",
+      "evidence": "按理赔定义牙周病状态分层：无牙周病者存在显著负相关，有牙周病者未观察到显著关联，P for interaction=0.019"
+     },
+     {
+      "claim": "样本中确有足量结局事件支撑该关联",
+      "evidence": "381,530名参与者随访期间10,889人发生新发CVD（以卒中、心肌梗死或心衰住院定义）"
+     }
+    ],
+    "effect": "1次组HR=0.85（95%CI 0.81–0.90）；≥2次组HR=0.68（95%CI 0.61–0.76）；P for interaction=0.019",
+    "relation": "与 q2（牙周炎-全身疾病通路）相关，但方向上提供了反直觉的新解释：关联恰恰不在牙周病患者中出现，对“牙周炎介质驱动CVD”的经典因果叙事构成挑战",
+    "why": "它用一个可证伪的交互作用检验，把“口腔护理有益心血管”的流行叙事拆成两半：若牙周炎是中介，效应应在牙周病者中更强，数据却相反，提示关联更可能来自健康使用者偏倚或非牙周炎途径；这直接改变你在设计牙周-全身因果研究时对分层变量与负对照的取舍",
+    "limitations": [
+     "作者明确指出观察性设计不能确立因果保护效应，洁牙不能视为CVD预防措施",
+     "牙周病与洁牙均以保险理赔代码定义，存在分类错误与就医可及性混杂，摘要未说明是否做倾向评分或敏感性分析",
+     "关联集中于无牙周病者，符合健康使用者偏倚的典型模式，而摘要未报告吸烟、代谢等关键混杂的调整情况"
+    ],
+    "transferable": "“暴露频率分级 + 按疾病状态做交互作用检验”这一分层框架可直接搬到你q2的课题：在检验牙周炎与糖尿病/心血管关联时，预设中介分层并报告P for interaction，能区分“疾病驱动”与“健康行为标记”两种解释",
+    "followups": [
+     "该队列随访时长、CVD事件的ICD编码与住院定义具体是什么？（需查全文方法部分）",
+     "全调整模型纳入了哪些协变量，是否包含吸烟、BMI、糖尿病、牙科就医频率等健康行为代理变量？",
+     "无牙周病者中的显著关联，是否在以“其他预防性牙科诊疗”为阴性对照暴露的敏感性分析中依然存在？"
+    ],
+    "glossary": [
+     {
+      "en": "preventive dental scaling",
+      "cn": "预防性洁牙/龈上洁治"
+     },
+     {
+      "en": "incident CVD",
+      "cn": "新发心血管疾病事件"
+     },
+     {
+      "en": "hazard ratio (HR)",
+      "cn": "风险比"
+     },
+     {
+      "en": "Cox proportional hazard regression",
+      "cn": "Cox比例风险回归"
+     },
+     {
+      "en": "claims-defined periodontal disease",
+      "cn": "理赔代码定义的牙周病"
+     },
+     {
+      "en": "P for interaction",
+      "cn": "交互作用P值"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": 88.0,
+     "problems": [
+      "将队列缩写为 NHIS-HEALS，但摘要原文为 Health Screening Cohort，属未经摘要支持的推断命名",
+      "limitations 中'摘要未报告吸烟、代谢等关键混杂的调整情况'表述与'fully adjusted'存在轻微张力，宜改为'摘要未列出具体协变量'"
+     ],
+     "repaired_by": "mimo-v2.6-flash",
+     "attempts": 1
+    }
+   }
+  },
+  {
+   "id": "10.1002/hed.70547",
+   "pmid": "43032914",
+   "doi": "10.1002/hed.70547",
+   "title": "Real-World Outcomes of Nivolumab in Recurrent/Metastatic Squamous Cell Carcinoma of the Oral Cavity, Pharynx, and Larynx: An Australian Population-Based Study",
+   "title_zh": "Nivolumab在复发性/转移性口腔、咽部和喉部鳞状细胞癌中的真实世界结局：一项澳大利亚人口基线研究",
+   "journal": "Head & neck",
+   "date": "2026-11-14",
+   "authors": [
+    "Sault PL",
+    "Yiu CH",
+    "Tan ECK",
+    "Lu CY"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43032914/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 1398,
+   "sample_note": "n=1398 patients",
+   "tier": "B",
+   "domain": "口腔鳞癌的免疫微环境与微…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔鳞癌免疫治疗",
+   "one_line": "澳大利亚国家登记队列1398例Nivolumab单药治疗，中位OS 9.3月，既往激素使用缩短OS。",
+   "so_what": "",
+   "caution": "回顾性登记数据，无免疫标志物分层，无法回答\"谁响应\"的问题。",
+   "score": {
+    "final": 59.6,
+    "match": 65.0,
+    "novelty": 60.0,
+    "rigor": 65.0,
+    "impact": 60.0,
+    "transfer": 50.0
+   },
+   "heuristic": 51.5,
+   "breakdown": {
+    "topic": 12.5,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 8.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Nivolumab is an immune checkpoint inhibitor used for recurrent/metastatic squamous cell carcinoma (SCC) of the oral cavity, pharynx, and larynx; yet Australian real-world evidence remains limited. METHODS: A retrospective cohort study was conducted using linked Pharmaceutical Benefits Scheme dispensing and National Death Index mortality data for patients initiating nivolumab monotherapy during 2019-2023. Overall survival (OS), time to treatment discontinuation (TTD), and dispensing-based proxies for potential immune-related adverse events (irAEs) were assessed. RESULTS: Among 1398 patients, median OS was 9.3 months and TTD was 7.8 months. Median OS was longer in males than females (10.0 vs. 7.7 months, p = 0.049), while patients with prior corticosteroid exposure had shorter OS than those without (8.3 vs. 11.5 months; aHR 1.20, 95% CI: 1.06-1.36). Incident corticosteroid and levothyroxine use occurred in 10.3% and 10.9% of patients, respectively. CONCLUSIONS: Real-world outcomes were comparable to clinical trial findings, supporting nivolumab's effectiveness in Australian clinical practice.",
+   "tags": [
+    "Australia",
+    "HNSCC",
+    "immunotherapy",
+    "nivolumab",
+    "real‐world evidence"
+   ],
+   "deep": {
+    "title_zh": "Nivolumab在复发性/转移性口腔、咽部和喉部鳞状细胞癌中的真实世界结局：一项澳大利亚人口基线研究",
+    "one_sentence": "澳大利亚真实世界数据显示Nivolumab单药治疗口腔头颈SCC中位OS 9.3月，男女预后差异显著，既往皮质类固醇暴露是独立不良预后因素。",
+    "question": "在真实世界临床实践中，Nivolumab治疗复发性/转移性口腔头颈部SCC的疗效与安全性是否与临床试验一致？哪些因素影响治疗持续时间和生存获益？",
+    "design": "回顾性人群基线队列研究，利用处方配药数据与死亡索引数据 linkage，2019–2023年 initiation 单药Nivolumab治疗患者，随访 OS 与 TTD。",
+    "sample_desc": "1398例澳大利亚成人患者，来源为 Pharmaceutical Benefits Scheme 配药数据与国家死亡索引 linkage，摘要未说明入排标准细节。",
+    "findings": [
+     {
+      "claim": "Nivolumab单药治疗的真实世界OS与临床试验相符",
+      "evidence": "中位OS 9.3月，中位TTD 7.8月"
+     },
+     {
+      "claim": "性别影响生存结局，男性预后优于女性",
+      "evidence": "男性中位OS 10.0月 vs 女性7.7月，p=0.049"
+     },
+     {
+      "claim": "既往皮质类固醇暴露与OS缩短独立相关",
+      "evidence": "暴露者中位OS 8.3月 vs 未暴露者11.5月，aHR=1.20，95%CI: 1.06–1.36"
+     },
+     {
+      "claim": "irAE发生率可通过处方代理指标估算",
+      "evidence": "新发皮质类固醇处方率10.3%，左甲状腺素处方率10.9%"
+     }
+    ],
+    "effect": "aHR 1.20 (95% CI: 1.06–1.36) for corticosteroid exposure; 性别比较仅报告p值，无效应量",
+    "relation": "与 q5 直接相关——提供真实世界中免疫检查点抑制剂疗效预测因素的证据（皮质类固醇使用作为免疫抑制标志物），提示宿主免疫状态可转化为可测量的临床预测因子；但未触及微生物组维度",
+    "why": "填补了澳大利亚真实世界 nivolumab 单药治疗口腔头颈 SCC 的数据空白，验证了 RCT 外部效度，并提出'既往皮质类固醇暴露'这一可在临床快速获取的预后分层指标，对 q5 的'可转化干预点'问题具有间接启示意义。",
+    "limitations": [
+     "回顾性处方数据无法精确捕获 irAE 严重程度与剂量调整时机，代理指标可能低估或高估真实免疫相关毒性负担",
+     "缺乏 PD-L1 CPS、EBV 状态、HPV 状态及微生物组数据，无法区分亚群疗效差异——这是理解'治疗抵抗'机制的关键缺口",
+     "未报告不同原发部位（口腔/咽/喉）的分层结局，三者生物学异质性可能被掩盖"
+    ],
+    "transferable": "利用行政/处方数据库进行真实世界 ICI 疗效与 irAE 信号监测的设计思路，可直接迁移至口腔癌免疫治疗随访研究；'既往皮质类固醇暴露'作为简化预后分层的变量值得在本土队列中验证。",
+    "followups": [
+     "该队列中是否按原发部位（口腔vs咽vs喉）分层报告了 OS/TTD？若有，各亚组间是否存在统计学差异？",
+     "Nivolumab 给药方案（剂量、周期、联合治疗比例）在真实世界中与 KEYNOTE-048 等 RCT 的差异是什么？",
+     "是否有任何亚组分析（如 age、stage、performance status、合并症 burden）能解释性别差异的来源？"
+    ],
+    "glossary": [
+     {
+      "en": "Nivolumab",
+      "cn": "纳武利尤单抗（抗PD-1免疫检查点抑制剂）"
+     },
+     {
+      "en": "TTD (Time to Treatment Discontinuation)",
+      "cn": "治疗中断时间"
+     },
+     {
+      "en": "OS (Overall Survival)",
+      "cn": "总生存期"
+     },
+     {
+      "en": "irAE (immune-related Adverse Event)",
+      "cn": "免疫相关不良事件"
+     },
+     {
+      "en": "SCC (Squamous Cell Carcinoma)",
+      "cn": "鳞状细胞癌"
+     },
+     {
+      "en": "Pharmaceutical Benefits Scheme",
+      "cn": "澳大利亚药品福利计划（国家处方报销数据库）"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": 85.0,
+     "problems": [
+      "追问中提及 KEYNOTE-048 为摘要外信息，虽以问题形式出现仍属引入外部事实",
+      "sample_desc 称'成人患者'，摘要未明确年龄范围",
+      "limitations 中 HPV/EBV 等缺失为合理推断但非摘要内容，需标注为编辑推断"
+     ],
+     "repaired_by": "",
+     "attempts": 0
+    }
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1111/joor.70378",
+   "pmid": "43026728",
+   "doi": "10.1111/joor.70378",
+   "title": "Dental Extractions Prior to Correct Diagnosis in Patients With Trigeminal Neuralgia and Related Orofacial Pain Conditions: A Systematic Review",
+   "title_zh": "三叉神经痛误诊拔牙的系统评价",
+   "journal": "Journal of oral rehabilitation",
+   "date": "2026-11-13",
+   "authors": [
+    "Chouksey G",
+    "Chauhan P",
+    "Gurav S",
+    "Gupta AS",
+    "Chouksey P",
+    "Bhargava S",
+    "Agrawal A"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43026728/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 811,
+   "sample_note": "n=811 patients",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "面部疼痛误诊",
+   "one_line": "PRISMA系统评价10篇研究共811例，三叉神经痛误诊拔牙率达高位，术后疼痛持续常见。",
+   "so_what": "与我q1-q5所有课题无实质关联，仅泛科普价值。",
+   "caution": "纳入研究多为case series/回顾性描述，证据等级低。",
+   "score": {
+    "final": 27.1,
+    "match": 15.0,
+    "novelty": 30.0,
+    "rigor": 40.0,
+    "impact": 25.0,
+    "transfer": 10.0
+   },
+   "heuristic": 40.8,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 7.8,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Trigeminal neuralgia (TN) and atypical odontalgia (AO), now categorized as persistent idiopathic dentoalveolar pain (PIDAP), frequently mimics odontogenic pain. TN is an established neuropathic pain condition, whereas PIDAP is classified as idiopathic rather than neuropathic under ICOP 2020. Misdiagnosis in these patients may result in irreversible dental extractions and persistence of the pain. The current article is aimed to evaluate the frequency, patterns and outcomes of dental extractions performed prior to correct diagnosis. METHODS: We followed PRISMA guidelines and databases included were PubMed/MEDLINE, Scopus, Cochrane Library and ScienceDirect. Observational studies reporting dental extractions that were performed before definitive diagnosis of TN, AO/PIDAP or related orofacial pain conditions were included. Data on frequency, number of teeth extracted, pain outcomes and diagnostic delay were extracted. RESULTS: Ten studies were included comprising 811 patients, trigeminal neuralgia accounted for the majority 86.2% (699/811) cases. The percentage of patients who underwent at least one dental extraction prior to correct diagnosis ranged from 41.9% to 82.2%. Per-patient burden was substantial: one cohort averaged approximately 10 extracted teeth per patient, and multiple patients across studies became completely edentulous prior to correct diagnosis. In one large cohort, 84.6% of patients were initially misdiagnosed by dental professionals and up to 92.7% reported no pain relief following extraction. Aggravation of pain was reported in 18.8% of cases. Diagnostic delay commonly exceeded 2 years and was significantly associated with repeated invasive procedures. CONCLUSION: It is alarming that a good number of patients underwent dental extractions prior to correct diagnosis and, as anticipated, the dental extractions were ineffective to resolve pain. There is a need for structured referral pathways, orofacial pain education in clinical medicine to improve diagnostic vigilance, and thus to prevent avoidable tooth loss and patient harm.",
+   "tags": [
+    "atypical odontalgia",
+    "dental extraction",
+    "idiopathic orofacial pain",
+    "misdiagnosis",
+    "orofacial pain",
+    "persistent idiopathic dentoalveolar pain"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107170",
+   "pmid": "43025747",
+   "doi": "10.1016/j.jdent.2026.107170",
+   "title": "Barriers and Facilitators to the Implementation of Fluoride-Based Caries Prevention in Nursing Homes - A Qualitative Study Using the Theoretical Domains Framework",
+   "title_zh": "养老院氟化物防龋实施的障碍与促进因素",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-13",
+   "authors": [
+    "Almashhara J",
+    "Budnick A",
+    "Göstemeyer G"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43025747/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔公共卫生",
+   "one_line": "TDF框架访谈11名护理人员+5名居民+4名牙医，提炼57个实施因素。",
+   "so_what": "仅背景。实施科学方法可借鉴，但与q1–q5机制/临床决策无直接推进。",
+   "caution": "德国单文化背景，n=20访谈难以泛化；定性研究结论不可外推至生物学机制。",
+   "score": {
+    "final": 13.8,
+    "match": 8.0,
+    "novelty": 15.0,
+    "rigor": 50.0,
+    "impact": 10.0,
+    "transfer": 5.0
+   },
+   "heuristic": 36.3,
+   "breakdown": {
+    "topic": 15.3,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: Although the use of fluoride is an evidence-based approach to preventing and managing dental caries, its implementation in nursing homes is not well established. This study aimed to identify barriers and facilitators from the perspectives of nursing professionals, residents and dentists. METHODS: Stakeholder-specific semi-structured interview guides based on the Theoretical Domains Framework (TDF) were used. The analysis included 20 interviews with 11 qualified nursing professionals, 5 nursing home residents and 4 dentists from 5 nursing homes in Krefeld, Germany. Transcripts were analysed using content-structuring qualitative content analysis. Relevant passages were coded, assigned deductively to TDF domains, synthesised into higher-level implementation factors and mapped to the Capability-Opportunity-Motivation-Behaviour (COM-B) model. RESULTS: Fifty-seven higher-level implementation factors were identified as barriers, facilitators or mixed/context-dependent influences. Main barriers included limited fluoride-specific knowledge and training, uncertainty about application and dosage, unclear responsibilities, unreliable product availability and procurement, uncertain financing, limited dental-nursing communication, and absent fluoride-specific documentation and monitoring. Main facilitators included perceived benefits, oral-care and documentation routines, teamwork, trust, relatives' openness when informed and willingness under supportive conditions. Fluoride-containing products were sometimes used in general oral care but were rarely described as indicated, planned, documented and monitored preventive measures. CONCLUSION: Fluoride measures were often perceived as beneficial and feasible but remained insufficiently operationalised. Implementation may require fluoride-specific knowledge and guidance, clear responsibilities, reliable product provision, interprofessional coordination and integration into care routines. CLINICAL SIGNIFICANCE: The findings may support practical strategies to strengthen caries prevention in nursing home residents.",
+   "tags": [
+    "Barriers and facilitators",
+    "COM-B",
+    "Fluoride",
+    "Nursing homes",
+    "Oral health",
+    "Qualitative research"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07264-1",
+   "pmid": "43033284",
+   "doi": "10.1007/s00784-026-07264-1",
+   "title": "Correlation between systemic inflammatory indicators and coagulation-fibrinolysis markers in patients with periodontitis at different stages: A cross-sectional study",
+   "title_zh": "牙周炎各期系统炎症与凝血纤溶标志物相关性",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-14",
+   "authors": [
+    "Liu Y",
+    "Li C",
+    "Zhao Y",
+    "Zhong LQ",
+    "Li Y",
+    "Xiao Z",
+    "Chen X"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43033284/",
+   "pmcid": "10719495",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 25,
+   "sample_note": "n=25",
+   "tier": "B",
+   "domain": "牙周炎通过哪些可验证的通…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "牙周-全身关联",
+   "one_line": "横断面比较四期牙周炎与健康人群WBC/NEUT/FIB水平，发现IV期显著升高并与炎症指标正相关。",
+   "so_what": "q2方向补充牙周炎严重程度与凝血激活的关联证据，但不能推因果。",
+   "caution": "横断面n≈150，各子组仅25-31，混杂多，不能推因果。",
+   "score": {
+    "final": 47.8,
+    "match": 55.0,
+    "novelty": 30.0,
+    "rigor": 35.0,
+    "impact": 40.0,
+    "transfer": 25.0
+   },
+   "heuristic": 69.8,
+   "breakdown": {
+    "topic": 35.0,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 3.8,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: This study aims to investigate the correlation between systemic inflammatory indicators and coagulation-fibrinolysis markers in patients with periodontitis at different stages. MATERIALS AND METHODS: The participants were classified according to diagnostic criteria into Stage I (n = 25), Stage II (n = 30), Stage III (n = 31), Stage IV (n = 30), and a healthy control group (n = 32). Systematic inflammatory indicators and coagulation-fibrinolysis biomarkers were compared across groups. Spearman correlation analysis was employed to investigate the relationship between periodontal inflammation severity and systemic inflammatory markers, as well as between systemic inflammatory markers and coagulation-fibrinolysis markers. Additionally, discriminatory potential of the systemic inflammatory markers for periodontitis was assessed using receiver operating characteristic curves. RESULTS: Compared with the stage I periodontitis group, the stage IV periodontitis group showed significantly elevated levels of white blood cell count (WBC), neutrophil count (NEUT), fibrinogen (FIB) (P < 0.05), SII (P < 0.01), and tissue plasminogen activator-inhibitor complex (t-PAIC) (P < 0.001). Correlation analysis revealed that the severity of periodontal inflammation was positively correlated with systemic inflammatory indicators; moreover, these systemic inflammatory markers were also positively correlated with coagulation-fibrinolysis markers (P < 0.05). Area under curve (AUC) of the WBC, NEUT, neutrophil-to-lymphocyte ratio (NLR), platelet-to-lymphocyte ratio (PLR), lymphocyte-to-monocyte ratio (LMR), and systemic immune-inflammatory (SII) for the distinction of Stage IV periodontitis were 0.730, 0.787, 0.797,0.699 ,0.676, and 0.793, respectively. CONCLUSION: Patients with periodontitis exhibit significantly elevated levels of systemic inflammatory indicators, which are positively correlated with coagulation and fibrinolysis markers. CLINICAL RELEVANCE: The study shows that certain inflammatory and coagulation/fibrinolysis-related biomarkers associated with cardiovascular conditions are also altered in patients with periodontitis. These findings suggest that there may be common inflammatory pathways linking periodontitis with cardiovascular-related systemic diseases, which calls for further longitudinal and mechanistic investigations.",
+   "tags": [
+    "Biomarkers",
+    "Blood coagulation",
+    "Disease progression",
+    "Fibrinolysis",
+    "Inflammation",
+    "Periodontitis"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07282-z",
+   "pmid": "43033303",
+   "doi": "10.1007/s00784-026-07282-z",
+   "title": "Two-year randomized clinical evaluation of catechin doped in a universal adhesive on non-carious cervical lesions restorations",
+   "title_zh": "EGCG掺入通用粘接剂修复NCCL的2年RCT",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-14",
+   "authors": [
+    "Albuquerque NLG",
+    "de Araújo Costa CAG",
+    "Mota ALM",
+    "Aragão Saboia VP",
+    "Mendonça JS",
+    "Santiago SL"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43033303/",
+   "pmcid": "3327728",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 29,
+   "sample_note": "n=29 patients",
+   "tier": "B",
+   "domain": "材料与生物材料",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
+   "is_open_access": true,
+   "cluster": "生物材料免疫调控",
+   "one_line": "24月RCT比较含0.1%E GCG与不含E GCG的ER/SE粘接策略，4组临床表现无显著差异。",
+   "so_what": "q4方向：E GCG作为抗炎/抗氧化添加剂在粘接剂中的尝试，阴性结果为材料\"免疫编程\"假设提供反向…",
+   "caution": "n=29太小，失访至24月仅72%，未检测任何免疫或微生物指标。",
+   "score": {
+    "final": 47.4,
+    "match": 50.0,
+    "novelty": 50.0,
+    "rigor": 40.0,
+    "impact": 35.0,
+    "transfer": 45.0
+   },
+   "heuristic": 52.5,
+   "breakdown": {
+    "topic": 12.4,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 3.9,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVES: This randomized, blinded clinical trial evaluated the 24-month clinical performance of a universal adhesive (Single Bond Universal) containing 0.1 wt% epigallocatechin-3-gallate (EGCG) for the restoration of non-carious cervical lesions (NCCLs using self-etch and etch-and-rinse strategies. MATERIALS AND METHODS: A total of 160 restorations were placed in 29 patients and randomly allocated to four groups: etch-and-rinse (ER), etch-and-rinse with EGCG (ER-EGCG), self-etch (SE), and self-etch with EGCG (SE-EGCG). EGCG was directly incorporated into the adhesive, which was applied according to the manufacturer's instructions. All lesions were restored with a nanofilled composite resin (Filtek Z350XT) and evaluated at baseline and after 6, 12, 18, and 24 months according to the World Dental Federation criteria. Data were analyzed using the Kruskal-Wallis and McNemar tests (α = 0.05). RESULTS: Participant recall rates were 100% at baseline and 6 months, and 93.1%, 89.7%, and 72.4% at 12, 18, and 24 months, respectively. No significant differences were observed among groups for any evaluated clinical criterion throughout the 24-month follow-up (p > 0.05). At 24 months, retention rates were 90% for SE and SE-EGCG and 100% for ER and ER-EGCG. No significant differences were observed between baseline and 24-month evaluations within any group (p > 0.05). Incorporation of 0.1 wt% EGCG into the universal adhesive did not compromise the clinical performance of NCCL restorations over 24 months, regardless of the bonding strategy. CONCLUSIONS: Incorporation of 0.1 wt% EGCG into a universal adhesive did not affect the clinical performance of NCCL restorations over 24 months. CLINICAL RELEVANCE: Incorporation of 0.1 wt% EGCG into a universal adhesive did not improve the clinical performance of NCCL restorations over 24 months compared with the unmodified adhesive. However, EGCG incorporation did not adversely affect restoration performance when the adhesive was used with either etch-and-rinse or self-etch strategies.",
+   "tags": [
+    "Catechin",
+    "Dentin bonding",
+    "Matrix metalloproteinases",
+    "Non-carious cervical lesions",
+    "Universal adhesive"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07275-y",
+   "pmid": "43033207",
+   "doi": "10.1007/s00784-026-07275-y",
+   "title": "Clinical vs. pathological staging in oral squamous cell carcinoma: frequency of misjudgment, associated risk factors, and impact on survival outcomes",
+   "title_zh": "OSCC临床与病理分期差异及对生存影响",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-14",
+   "authors": [
+    "Struckmeier AK",
+    "Gosau M",
+    "Betz C",
+    "Wilczak W",
+    "Smeets R"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43033207/",
+   "pmcid": "8525126",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 319,
+   "sample_note": "n=319 patients",
+   "tier": "B",
+   "domain": "口腔鳞癌的免疫微环境与微…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "口腔鳞癌分期",
+   "one_line": "回顾性分析319例OSCC，T/N分期不一致率约40%，神经周围侵犯与分期低估相关，影响生存。",
+   "so_what": "q5边缘相关，提示新辅助免疫治疗时代精准分期的临床必要性。",
+   "caution": "回顾性单中心，样本量中等，无法替代影像学技术进步讨论。",
+   "score": {
+    "final": 46.4,
+    "match": 40.0,
+    "novelty": 45.0,
+    "rigor": 55.0,
+    "impact": 45.0,
+    "transfer": 20.0
+   },
+   "heuristic": 60.8,
+   "breakdown": {
+    "topic": 23.1,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 6.7,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: Accurate staging of oral squamous cell carcinoma (OSCC) is crucial for prognosis and treatment planning. This study evaluates clinical staging accuracy, identifies factors contributing to discrepancies, and examines their impact on survival, particularly with the rising role of neoadjuvant immunotherapy. MATERIALS AND METHODS: A retrospective analysis of 545 OSCC patients assessed concordance between clinical and pathological staging. Logistic regression identified risk factors for misjudgment, while Kaplan-Meier curves and Cox proportional hazards models evaluated survival outcomes. RESULTS: T stage concordance was observed in 315 patients (57.79%), with 125 (22.93%) upstaged and 104 (19.08%) downstaged. N stage concordance occurred in 319 patients (58.53%), with 159 (29.17%) upstaged and 67 (12.29%) downstaged. The highest T stage concordance was seen in cT4a (76.55%) and cT1 (68.32%), while cN0 showed the highest N stage accuracy (74.21%). Histopathological factors, including grading, perineural invasion, and lymphatic invasion, were significantly associated with staging misjudgment. Both N-stage upstaging and downstaging were independently associated with worse overall survival, whereas T-stage discordance was not significantly associated with overall survival. CONCLUSIONS: Significant discrepancies exist between clinical and pathological staging in OSCC. Histopathological features such as grading, perineural invasion, and lymphatic invasion were associated with staging discordance and may help identify patients at increased risk of clinical understaging. CLINICAL RELEVANCE: These findings highlight the need for enhanced staging strategies to optimize patient outcomes.",
+   "tags": [
+    "Head and neck squamous cell carcinoma",
+    "Neck dissection",
+    "Oral squamous cell carcinoma",
+    "Staging",
+    "Survival"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07261-4",
+   "pmid": "43033322",
+   "doi": "10.1007/s00784-026-07261-4",
+   "title": "Time-dependent changes in gingival crevicular fluid volume during orthodontic tooth movement with clear aligners and fixed appliances",
+   "title_zh": "隐形矫治与固定矫治正畸移动期GCF动态变化",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-14",
+   "authors": [
+    "Tosun Balci I",
+    "Nalbantoglu AM",
+    "Albayrak E",
+    "Bingol D"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43033322/",
+   "pmcid": "9912641",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 17,
+   "sample_note": "n=17",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "正畸-牙周免疫",
+   "one_line": "前瞻性n=32队列，Periotron法测量5时点GCF体积，固定组在1月时尖牙区GCF显著高于隐形组。",
+   "so_what": "q4/Q1间接相关：GCF作为牙周免疫反应的活体采样窗口，可迁移至种植体周炎早期监测研究。",
+   "caution": "n=17/15每组极小，仅测体积不测细胞因子浓度。",
+   "score": {
+    "final": 37.7,
+    "match": 30.0,
+    "novelty": 40.0,
+    "rigor": 45.0,
+    "impact": 25.0,
+    "transfer": 35.0
+   },
+   "heuristic": 48.9,
+   "breakdown": {
+    "topic": 14.6,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 3.3,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: This study aimed to evaluate temporal changes in gingival crevicular fluid (GCF) volume during orthodontic treatment with clear aligners and fixed appliances. MATERIALS AND METHODS: Thirty-two patients were included in this prospective study (clear aligner group, n = 17; fixed appliance group, n = 15). GCF was collected from the buccal site of tooth 12 and the palatal site of tooth 16 at five time points: baseline (T0), 1 h (T1), 1 day (T2), 1 week (T3), and 1 month (T4). GCF volume was measured using a Periotron. Intergroup comparisons were performed using independent samples t-tests, and temporal changes using a repeated measures general linear model. RESULTS: At tooth 12, no significant intergroup differences occurred at T0-T3, whereas the fixed appliance group showed significantly higher values at T4 (p = 0.003). At tooth 16, the clear aligner group showed higher values at T1 (p = 0.043), with no differences at other time points. Repeated measures analysis revealed a significant time effect (p < 0.001) with a non-linear pattern. CONCLUSIONS: GCF volume showed time-dependent, non-linear fluctuations during orthodontic treatment. Although the overall group effect was not significant, a significant time × group interaction and isolated differences at tooth 16 at T1 and tooth 12 at T4 suggest that the temporal pattern, rather than overall magnitude, of GCF volume change may differ between orthodontic systems, potentially reflecting differences in local vascular and crevicular fluid dynamics. These findings provide a preliminary temporal framework rather than evidence of distinct underlying biological mechanisms. CLINICAL RELEVANCE: GCF volume changes dynamically over the course of orthodontic treatment and may provide insight into time-dependent local periodontal responses following force application. Recognizing these temporal variations may contribute to a better understanding of periodontal tissue adaptation and its dynamic course during orthodontic treatment.",
+   "tags": [
+    "Clear aligners",
+    "Fixed appliances",
+    "Gingival crevicular fluid",
+    "Orthodontic tooth movement",
+    "Periodontal response"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07277-w",
+   "pmid": "43033312",
+   "doi": "10.1007/s00784-026-07277-w",
+   "title": "Effect of minimally invasive caries management with silver diammine fluoride on caries progression and subsequent need for dental general anaesthesia in children: a retrospective cohort study",
+   "title_zh": "SDF minimally invasive 龋管理与儿童全麻需求",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-14",
+   "authors": [
+    "Abdulrahim R",
+    "Splieth CH",
+    "Vollmer M",
+    "Khole MR",
+    "Santamaría RM"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43033312/",
+   "pmcid": "5514393",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 273,
+   "sample_note": "n=273 teeth",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "儿童龋病",
+   "one_line": "回顾性分析273颗牙SDF治疗后DGA需求及牙齿级别失败率，Cox模型校正聚类效应。",
+   "so_what": "与我核心q1-q5无直接关联，仅背景阅读价值。",
+   "caution": "回顾性单中心，选择偏倚明显，非RCT。",
+   "score": {
+    "final": 35.1,
+    "match": 20.0,
+    "novelty": 25.0,
+    "rigor": 50.0,
+    "impact": 40.0,
+    "transfer": 10.0
+   },
+   "heuristic": 60.9,
+   "breakdown": {
+    "topic": 23.4,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 6.5,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: Silver diammine fluoride (SDF) has been reintroduced into paediatric dentistry for managing caries in high-risk patients. This study aimed to describe patient- and tooth-level outcomes following SDF-initiated caries management in children with early childhood caries at a German university dental centre. The primary outcome was subsequent dental general anaesthesia (DGA), and the secondary outcome was tooth-level clinical failure. MATERIALS AND METHODS: Clinical data were retrospectively extracted from the records of children aged 1-8 years who received 38% SDF between 2019 and 2020. Included patients had a high caries burden and/or limited cooperation with invasive chairside treatment. Tooth-level failure was classified as minor (reversible pulpitis or documented caries progression) or major (irreversible pulpitis or abscess). Patient-level outcomes were analysed descriptively. Tooth-level outcomes were evaluated using Kaplan-Meier survival analysis and Cox proportional hazards regression, accounting for the clustering of multiple teeth within children. RESULTS: A total of 52 patients (mean age 4.0 ± 1.5 years; mean dmft = 7.8 ± 3.7) with 304 SDF-treated primary teeth (ICDAS 3-5 lesions) were included. After a mean follow-up of 23.4 ± 12.5 months, 46 of 52 children (88.5%) were managed without DGA, while 6 (11.5%) underwent DGA. At the tooth level, 273 teeth (89.8%) remained clinically successful, whereas 31 teeth (10.2%) developed a major failure. No minor failures were documented. Of the teeth without major failure, 165 received no further restorative treatment, while 108 underwent subsequent minimally invasive restorative treatment as part of the staged treatment pathway. CONCLUSION: In this retrospective cohort, an SDF-initiated, minimally invasive treatment pathway was associated with favourable patient- and tooth-level outcomes. Initial caries stabilisation may allow time for cooperation to improve and subsequent restorative treatment to be performed without DGA. Comparative prospective studies are needed to determine the specific contribution of SDF. CLINICAL RELEVANCE: An SDF-initiated treatment pathway may support caries management in young children with a high caries burden or limited cooperation and may help postpone or potentially avoid DGA.",
+   "tags": [
+    "Dental caries",
+    "Dental general anaesthesia",
+    "Minimally invasive treatment",
+    "Paediatric dentistry",
+    "Primary teeth",
+    "Silver diammine fluoride"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07258-z",
+   "pmid": "43033277",
+   "doi": "10.1007/s00784-026-07258-z",
+   "title": "Effect of dimethyl sulfoxide on universal adhesives resin bonding to caries-affected dentine",
+   "title_zh": "DMSO预处理对通用粘接剂粘结性能的影响",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-14",
+   "authors": [
+    "Monteles CF",
+    "Wendlinger M",
+    "Cochinski GD",
+    "Stape THS",
+    "Melendez D",
+    "Tezvergil-Mutluay A",
+    "Loguercio AD"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43033277/",
+   "pmcid": "10411291",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "牙体粘接材料",
+   "one_line": "DMSO预处理显著提升两种通用粘接剂的µTBS、DC并降低渗漏，尤其龋损牙本质。",
+   "so_what": "q4方向：溶剂增塑效应可能是「编程」界面水合作用的手段，可迁移至表面改性思路。",
+   "caution": "纯体外，未涉及免疫响应；动物/体内验证缺失。",
+   "score": {
+    "final": 26.6,
+    "match": 15.0,
+    "novelty": 28.0,
+    "rigor": 55.0,
+    "impact": 12.0,
+    "transfer": 8.0
+   },
+   "heuristic": 36.9,
+   "breakdown": {
+    "topic": 14.9,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To evaluate the effect of dimethyl sulfoxide (DMSO) on the microtensile bond strength (µTBS), nanoleakage (NL), and degree of conversion (DC) of universal adhesives applied to sound and caries-affected dentine. MATERIALS AND METHODS: One hundred and twenty-eight human molars were assigned to 16 groups according to dentine substrate (sound or caries-affected), adhesive system (ZipBond Universal [ZIP] or Tetric N-Bond Universal [TNU]), application mode (etch-and-rinse or self-etch), and pretreatment (with or without 50% DMSO). Composite resin restorations were placed, and resin-dentine sticks were prepared for µTBS, NL, and DC analyses. Data were analyzed using four-way ANOVA, Tukey's test (α = 0.05), and Weibull analysis. RESULTS: DMSO pretreatment significantly affected the bonding performance of both universal adhesives. Overall, sound dentine showed higher µTBS and DC values and lower NL than caries-affected dentine (p 0.05). CONCLUSION: DMSO pretreatment improved the bonding performance, interfacial integrity, polymerization, and reliability of universal adhesives, particularly when applied to caries-affected dentine.",
+   "tags": [
+    "Adhesive interface",
+    "Caries-affected dentine",
+    "Dentin bonding",
+    "Dimethyl sulfoxide",
+    "Universal adhesives"
+   ]
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 10
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 10
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 10
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 10
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 10
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 10
+  }
+ ],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}
