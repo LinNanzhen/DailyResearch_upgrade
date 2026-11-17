@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-16T09:20:45+08:00",
- "latest": "2026-11-16",
+ "updated_at": "2026-11-17T12:08:27+08:00",
+ "latest": "2026-11-17",
  "days": [
+  {
+   "date": "2026-11-17",
+   "must_title": "FGL1 Drives Epithelial-Mesenchymal Transition and Cisplatin Resistance in Laryngeal Squamous Cell Carcinoma",
+   "must_title_zh": "FGL1驱动喉鳞癌细胞上皮间质转化及顺铂耐药",
+   "cluster": "口腔鳞癌免疫微环境",
+   "count": 10,
+   "ai": true
+  },
   {
    "date": "2026-11-16",
    "must_title": "Preventive dental scaling and cardiovascular disease according to periodontal disease status: a nationwide cohort study",

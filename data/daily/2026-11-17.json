@@ -1,0 +1,1040 @@
+{
+ "date": "2026-11-17",
+ "generated_at": "2026-11-17T12:08:27+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 4,
+  "prompt_tokens": 10265,
+  "completion_tokens": 9960
+ },
+ "stats": {
+  "candidates": 40,
+  "raw": 40,
+  "fetched": 15,
+  "raw_dropped_type": 3,
+  "no_abstract": 0,
+  "gated": 15,
+  "scored": 13,
+  "shown": 10,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 4,
+  "quality_failed": 0,
+  "quality_repaired": 1
+ },
+ "must_read": {
+  "id": "10.1002/hed.70545",
+  "pmid": "43035855",
+  "doi": "10.1002/hed.70545",
+  "title": "FGL1 Drives Epithelial-Mesenchymal Transition and Cisplatin Resistance in Laryngeal Squamous Cell Carcinoma",
+  "title_zh": "FGL1驱动喉鳞癌细胞上皮间质转化及顺铂耐药",
+  "journal": "Head & neck",
+  "date": "2026-11-15",
+  "authors": [
+   "Teng S",
+   "Jin M",
+   "Yan BR",
+   "Qu LM",
+   "Xu ZN",
+   "Liu S",
+   "Li QY",
+   "Zhang FS",
+   "Hao Q",
+   "Guo S",
+   "Zhao R",
+   "Sun YN"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43035855/",
+  "pmcid": "",
+  "cited_by": 0,
+  "design": "unknown",
+  "design_label": "未标注",
+  "design_level": 1,
+  "sample_n": null,
+  "sample_note": "",
+  "tier": "B",
+  "domain": "口腔鳞癌的免疫微环境与微…",
+  "methods": [],
+  "pub_types": [
+   "Journal Article"
+  ],
+  "is_open_access": false,
+  "cluster": "口腔鳞癌免疫微环境",
+  "one_line": "ELISA+TCGA验证+FGL1敲低实验证明其通过调控Bcl-2/Caspase-3轴促进EMT及顺铂抵抗，高表达独…",
+  "so_what": "q5直接相关：提供肿瘤源性因子重塑局部免疫抑制环境的分子范例，FGL1作为循环 biomarker…",
+  "caution": "体外功能实验浓度/时序未明确；未涉及肿瘤浸润淋巴细胞亚群或微生物组维度，机制链…",
+  "score": {
+   "final": 48.0,
+   "match": 60.0,
+   "novelty": 50.0,
+   "rigor": 45.0,
+   "impact": 40.0,
+   "transfer": 55.0
+  },
+  "heuristic": 32.5,
+  "breakdown": {
+   "topic": 10.5,
+   "journal": 10.0,
+   "design": 6,
+   "sample": 0.0,
+   "fresh": 6.0,
+   "method": 0.0
+  },
+  "abstract": "BACKGROUND: Fibrinogen-like protein 1 (FGL1) is involved in tumor progression and immune regulation, but its role in laryngeal squamous cell carcinoma (LSCC) is unclear. METHODS: Plasma FGL1 levels were measured in 120 LSCC patients and 50 controls using ELISA. Tissue expression was analyzed via TCGA-HNSC. Functional assays evaluated proliferation, migration, invasion, apoptosis, and cisplatin sensitivity. Prognostic value was assessed using survival and regression analyses. RESULTS: FGL1 was significantly elevated in LSCC plasma and tumor tissues. Functional studies showed that FGL1 promotes proliferation, migration, invasion, and EMT while inhibiting apoptosis and enhancing cisplatin resistance. Mechanistically, FGL1 knockdown increased Cleaved Caspase-3 and decreased Bcl-2 expression. High FGL1 levels were associated with poorer overall survival and independently predicted prognosis. CONCLUSION: FGL1 promotes LSCC progression and chemoresistance, highlighting its potential as a circulating biomarker and therapeutic target.",
+  "tags": [
+   "EMT",
+   "FGL1",
+   "LSCC",
+   "apoptosis",
+   "biomarker",
+   "prognosis"
+  ],
+  "deep": {
+   "title_zh": "FGL1驱动喉鳞癌细胞上皮间质转化及顺铂耐药",
+   "one_sentence": "FGL1高表达通过诱导EMT、抑制凋亡显著提升喉鳞癌侵袭性及顺铂耐药，独立预测较差总生存。",
+   "question": "FGL1是否在喉鳞癌（LSCC）中发挥促肿瘤进展与化疗抵抗的作用，其分子机制是什么？",
+   "design": "回顾性临床病例对照研究（血浆ELISA）结合TCGA-HNSC生信分析，辅以体外功能实验（增殖/迁移/侵袭/凋亡/药物敏感性），摘要未说明随机化、盲法、随访安排。",
+   "sample_desc": "LSCC患者血浆n=120，健康对照n=50；TCGA-HNSC组织数据；细胞系若干（名称未注明）",
+   "findings": [
+    {
+     "claim": "LSCC患者血浆FGL1水平显著高于健康对照",
+     "evidence": "ELISA检测，P值方向显著（具体数值未提供）"
+    },
+    {
+     "claim": "肿瘤组织FGL1表达上调",
+     "evidence": "TCGA-HNSC数据分析"
+    },
+    {
+     "claim": "FGL1促进LSCC增殖、迁移、侵袭",
+     "evidence": "功能实验证实，方向显著（具体数值未提供）"
+    },
+    {
+     "claim": "FGL1诱导EMT",
+     "evidence": "功能实验显示上皮标志物下降、间质标志物上升（具体基因未列）"
+    }
+   ],
+   "effect": "未报告具体效应量与置信区间",
+   "relation": "与q5强相关：直接阐释了LSCC中单一免疫调节蛋白如何驱动化疗抵抗；为'口腔鳞癌免疫微环境-治疗抵抗'轴提供了新的效应分子（FGL1→EMT→凋亡抑制→顺铂耐药）。",
+   "why": "改变了认知：FGL1从过去的免疫调控背景蛋白，被重新定位为LSCC化疗抵抗的关键驱动器；顺铂耐药通常归因于DNA修复或药物外排泵，本文开辟了'EMT诱导'这一并行机制路径。",
+   "limitations": [
+    "摘要未提及动物体内验证（裸鼠成瘤/转移模型），体外发现尚未经在体验证。",
+    "未阐明FGL1的上游调控网络及下游信号轴（如是否经TGF-β/Wnt/SMA D通路）。",
+    "未报告效应量与CI，无法评估FGL1作为生物标志物的区分度与临床实用性。"
+   ],
+   "transferable": "① 用ELISA检测血浆/组织循环蛋白作为LSCC生物标志物；② FGL1敲低后检测Cleaved Caspase-3与Bcl-2的比例变化作为凋亡效应的快速读数；③ 以顺铂IC50变化评估药物敏感性，方法可直接移植至种植体周炎或牙周致病菌耐药课题。",
+   "followups": [
+    "FGL1敲低后EMT关键转录因子（Snail、Twist、ZEB1）的表达是否下降？其上游受体/信号是否为TGFBR或FRP？需查证原文Western blot或qPCR数据。",
+    "本研究是否进行了体内动物实验（裸鼠皮下瘤/肺转移模型）？如有，FGL1干预能否改变原发瘤生长或远处转移灶数量？",
+    "FGL1与肿瘤浸润免疫细胞亚群（CD8⁺ T、Tregs、MDSCs）的关系如何？是否存在基于空间转录组的共定位数据？"
+   ],
+   "glossary": [
+    {
+     "en": "FGL1 (Fibrinogen-like protein 1)",
+     "cn": "纤维蛋白原样蛋白1"
+    },
+    {
+     "en": "EMT (Epithelial-Mesenchymal Transition)",
+     "cn": "上皮间质转化"
+    },
+    {
+     "en": "Cisplatin resistance",
+     "cn": "顺铂耐药"
+    },
+    {
+     "en": "Cleaved Caspase-3",
+     "cn": "剪切型Casapse-3（凋亡执行分子）"
+    },
+    {
+     "en": "TCGA-HNSC",
+     "cn": "头颈部鳞状细胞癌基因组图谱数据集"
+    }
+   ],
+   "reading_minutes": 12,
+   "quality": {
+    "passed": true,
+    "score": 100.0,
+    "judge_score": 85.0,
+    "problems": [
+     "transferable 中'方法可直接移植至种植体周炎或牙周致病菌耐药课题'与论文主题（LSCC）关联牵强，属过度外推",
+     "findings 中'上皮标志物下降、间质标志物上升'及'顺铂IC50'为摘要未明说的推断性表述，虽合理但应标注为推测"
+    ],
+    "repaired_by": "",
+    "attempts": 0
+   }
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1002/hed.70545",
+   "pmid": "43035855",
+   "doi": "10.1002/hed.70545",
+   "title": "FGL1 Drives Epithelial-Mesenchymal Transition and Cisplatin Resistance in Laryngeal Squamous Cell Carcinoma",
+   "title_zh": "FGL1驱动喉鳞癌细胞上皮间质转化及顺铂耐药",
+   "journal": "Head & neck",
+   "date": "2026-11-15",
+   "authors": [
+    "Teng S",
+    "Jin M",
+    "Yan BR",
+    "Qu LM",
+    "Xu ZN",
+    "Liu S",
+    "Li QY",
+    "Zhang FS",
+    "Hao Q",
+    "Guo S",
+    "Zhao R",
+    "Sun YN"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43035855/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "口腔鳞癌的免疫微环境与微…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔鳞癌免疫微环境",
+   "one_line": "ELISA+TCGA验证+FGL1敲低实验证明其通过调控Bcl-2/Caspase-3轴促进EMT及顺铂抵抗，高表达独…",
+   "so_what": "q5直接相关：提供肿瘤源性因子重塑局部免疫抑制环境的分子范例，FGL1作为循环 biomarker…",
+   "caution": "体外功能实验浓度/时序未明确；未涉及肿瘤浸润淋巴细胞亚群或微生物组维度，机制链…",
+   "score": {
+    "final": 48.0,
+    "match": 60.0,
+    "novelty": 50.0,
+    "rigor": 45.0,
+    "impact": 40.0,
+    "transfer": 55.0
+   },
+   "heuristic": 32.5,
+   "breakdown": {
+    "topic": 10.5,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Fibrinogen-like protein 1 (FGL1) is involved in tumor progression and immune regulation, but its role in laryngeal squamous cell carcinoma (LSCC) is unclear. METHODS: Plasma FGL1 levels were measured in 120 LSCC patients and 50 controls using ELISA. Tissue expression was analyzed via TCGA-HNSC. Functional assays evaluated proliferation, migration, invasion, apoptosis, and cisplatin sensitivity. Prognostic value was assessed using survival and regression analyses. RESULTS: FGL1 was significantly elevated in LSCC plasma and tumor tissues. Functional studies showed that FGL1 promotes proliferation, migration, invasion, and EMT while inhibiting apoptosis and enhancing cisplatin resistance. Mechanistically, FGL1 knockdown increased Cleaved Caspase-3 and decreased Bcl-2 expression. High FGL1 levels were associated with poorer overall survival and independently predicted prognosis. CONCLUSION: FGL1 promotes LSCC progression and chemoresistance, highlighting its potential as a circulating biomarker and therapeutic target.",
+   "tags": [
+    "EMT",
+    "FGL1",
+    "LSCC",
+    "apoptosis",
+    "biomarker",
+    "prognosis"
+   ],
+   "deep": {
+    "title_zh": "FGL1驱动喉鳞癌细胞上皮间质转化及顺铂耐药",
+    "one_sentence": "FGL1高表达通过诱导EMT、抑制凋亡显著提升喉鳞癌侵袭性及顺铂耐药，独立预测较差总生存。",
+    "question": "FGL1是否在喉鳞癌（LSCC）中发挥促肿瘤进展与化疗抵抗的作用，其分子机制是什么？",
+    "design": "回顾性临床病例对照研究（血浆ELISA）结合TCGA-HNSC生信分析，辅以体外功能实验（增殖/迁移/侵袭/凋亡/药物敏感性），摘要未说明随机化、盲法、随访安排。",
+    "sample_desc": "LSCC患者血浆n=120，健康对照n=50；TCGA-HNSC组织数据；细胞系若干（名称未注明）",
+    "findings": [
+     {
+      "claim": "LSCC患者血浆FGL1水平显著高于健康对照",
+      "evidence": "ELISA检测，P值方向显著（具体数值未提供）"
+     },
+     {
+      "claim": "肿瘤组织FGL1表达上调",
+      "evidence": "TCGA-HNSC数据分析"
+     },
+     {
+      "claim": "FGL1促进LSCC增殖、迁移、侵袭",
+      "evidence": "功能实验证实，方向显著（具体数值未提供）"
+     },
+     {
+      "claim": "FGL1诱导EMT",
+      "evidence": "功能实验显示上皮标志物下降、间质标志物上升（具体基因未列）"
+     }
+    ],
+    "effect": "未报告具体效应量与置信区间",
+    "relation": "与q5强相关：直接阐释了LSCC中单一免疫调节蛋白如何驱动化疗抵抗；为'口腔鳞癌免疫微环境-治疗抵抗'轴提供了新的效应分子（FGL1→EMT→凋亡抑制→顺铂耐药）。",
+    "why": "改变了认知：FGL1从过去的免疫调控背景蛋白，被重新定位为LSCC化疗抵抗的关键驱动器；顺铂耐药通常归因于DNA修复或药物外排泵，本文开辟了'EMT诱导'这一并行机制路径。",
+    "limitations": [
+     "摘要未提及动物体内验证（裸鼠成瘤/转移模型），体外发现尚未经在体验证。",
+     "未阐明FGL1的上游调控网络及下游信号轴（如是否经TGF-β/Wnt/SMA D通路）。",
+     "未报告效应量与CI，无法评估FGL1作为生物标志物的区分度与临床实用性。"
+    ],
+    "transferable": "① 用ELISA检测血浆/组织循环蛋白作为LSCC生物标志物；② FGL1敲低后检测Cleaved Caspase-3与Bcl-2的比例变化作为凋亡效应的快速读数；③ 以顺铂IC50变化评估药物敏感性，方法可直接移植至种植体周炎或牙周致病菌耐药课题。",
+    "followups": [
+     "FGL1敲低后EMT关键转录因子（Snail、Twist、ZEB1）的表达是否下降？其上游受体/信号是否为TGFBR或FRP？需查证原文Western blot或qPCR数据。",
+     "本研究是否进行了体内动物实验（裸鼠皮下瘤/肺转移模型）？如有，FGL1干预能否改变原发瘤生长或远处转移灶数量？",
+     "FGL1与肿瘤浸润免疫细胞亚群（CD8⁺ T、Tregs、MDSCs）的关系如何？是否存在基于空间转录组的共定位数据？"
+    ],
+    "glossary": [
+     {
+      "en": "FGL1 (Fibrinogen-like protein 1)",
+      "cn": "纤维蛋白原样蛋白1"
+     },
+     {
+      "en": "EMT (Epithelial-Mesenchymal Transition)",
+      "cn": "上皮间质转化"
+     },
+     {
+      "en": "Cisplatin resistance",
+      "cn": "顺铂耐药"
+     },
+     {
+      "en": "Cleaved Caspase-3",
+      "cn": "剪切型Casapse-3（凋亡执行分子）"
+     },
+     {
+      "en": "TCGA-HNSC",
+      "cn": "头颈部鳞状细胞癌基因组图谱数据集"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": 85.0,
+     "problems": [
+      "transferable 中'方法可直接移植至种植体周炎或牙周致病菌耐药课题'与论文主题（LSCC）关联牵强，属过度外推",
+      "findings 中'上皮标志物下降、间质标志物上升'及'顺铂IC50'为摘要未明说的推断性表述，虽合理但应标注为推测"
+     ],
+     "repaired_by": "",
+     "attempts": 0
+    }
+   }
+  },
+  {
+   "id": "10.1007/s00784-026-07265-0",
+   "pmid": "43035556",
+   "doi": "10.1007/s00784-026-07265-0",
+   "title": "Skeletal and orofacial muscle responses to tooth-borne and tooth-bone-borne rapid palatal expansion: a short-term prospective CBCT and ultrasound elastography study",
+   "title_zh": "牙支抗与牙-骨支抗快速扩弓的颌面骨骼与肌肉弹性短期反应：CBCT与超声弹性成像前瞻研究",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-16",
+   "authors": [
+    "Malikov I",
+    "Erhamza TS",
+    "İnal M",
+    "Çevi̇k ME"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43035556/",
+   "pmcid": "5548712",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 12,
+   "sample_note": "n=12",
+   "tier": "B",
+   "domain": "口腔微生物组的失衡（dy…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "口腔微生物组的失衡（dy…",
+   "one_line": "按腭中缝成熟度选装置时两组扩弓量与肌肉弹性反应相当，短期肌肉适应不能指导装置选择。",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 31.4
+   },
+   "heuristic": 37.0,
+   "breakdown": {
+    "topic": 2.0,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 3.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To compare transverse skeletal changes and orofacial muscle stiffness following tooth-borne rapid palatal expansion (TB-RPE) and tooth-bone-borne RPE (TBB-RPE) using a combined cone-beam computed tomography (CBCT) and ultrasonographic elastography (UE) approach. MATERIALS AND METHODS: Twenty-four adolescents with transverse maxillary deficiency were allocated non-randomly according to midpalatal suture maturation stage: TB-RPE for stages A-B (n = 12) and TBB-RPE for stage C (n = 12). CBCT scans were obtained at baseline (T0) and after active expansion (T1) as part of routine clinical assessment to evaluate skeletal changes. UE, including strain elastography (SE) and shear-wave elastography (SWE), was performed for the masseter, temporalis, geniohyoid, and anterior digastric muscles. RESULTS: Both groups showed significant transverse skeletal expansion, with no inter-group differences (p > 0.05). Muscle thickness remained stable. SE values increased in several muscles in both groups, whereas SWE values tended to decrease; no significant inter-group differences were observed. Two isolated within-group SWE reductions reached significance but should be interpreted cautiously, as no correction for multiple comparisons was applied. CONCLUSIONS: Both groups achieved similar skeletal expansion and elastographic muscle responses when appliances were selected by suture maturation stage. Equivalence between the two designs cannot be inferred, as each was applied at a different stage. CLINICAL RELEVANCE: In adolescents, short-term orofacial muscle responses were similar in both groups, suggesting that early muscular adaptation is unlikely to guide appliance selection; the relative effect of anchorage design remains undetermined.",
+   "tags": [
+    "Cone-beam computed tomography",
+    "Orofacial muscle stiffness",
+    "Rapid palatal expansion",
+    "Tooth-bone-borne expander",
+    "Tooth-borne expander",
+    "Ultrasonographic elastography"
+   ],
+   "deep": {
+    "title_zh": "牙支抗与牙-骨支抗快速扩弓的颌面骨骼与肌肉弹性短期反应：CBCT与超声弹性成像前瞻研究",
+    "one_sentence": "按腭中缝成熟度选装置时两组扩弓量与肌肉弹性反应相当，短期肌肉适应不能指导装置选择。",
+    "question": "在青少年上颌横向发育不足中，牙支抗（TB-RPE）与牙-骨支抗（TBB-RPE）快速扩弓是否在短期产生不同的颌面骨骼扩展效果与咀嚼/口底肌肉硬度适应——即肌肉的早期生物力学反应能否作为选择支抗设计的依据？",
+    "design": "前瞻性队列，非随机按腭中缝成熟度分组（A–B期用TB-RPE，n=12；C期用TBB-RPE，n=12），于扩弓前（T0）与主动扩弓后（T1）行CBCT与超声弹性成像（应变SE+剪切波SWE）双模评估，随访为短期（T0→T1）。",
+    "sample_desc": "24例青少年上颌横向发育不足患者（TB-RPE组12例、TBB-RPE组12例），摘要未说明来源人群与就诊路径。",
+    "findings": [
+     {
+      "claim": "两组均获得显著的横向骨骼扩展，组间无差异",
+      "evidence": "两组T0→T1横向扩展均达统计学显著，组间比较 p > 0.05"
+     },
+     {
+      "claim": "口面部肌肉厚度保持稳定，未见肥大或萎缩",
+      "evidence": "咬肌、颞肌、颏舌肌、二腹肌前腹厚度在两组内、组间均无显著变化"
+     },
+     {
+      "claim": "应变弹性成像（SE）值在两组多块肌肉升高，而剪切波（SWE）值倾向下降，二者方向不一致",
+      "evidence": "两组多块肌肉SE升高、SWE呈下降趋势，组间差异均不显著（p > 0.05）"
+     },
+     {
+      "claim": "仅两处组内SWE下降达显著，但因未做多重比较校正不可靠",
+      "evidence": "两处孤立的组内SWE下降 p 值显著；作者明确提示未校正多重比较，应谨慎解读"
+     }
+    ],
+    "effect": "未报告（仅给出 p > 0.05 与'显著/不显著'的定性表述，未提供效应量与置信区间）",
+    "relation": "与 q1–q5 均无直接对应；最接近 q4（器械/材料设计如何改变宿主组织反应），但本研究只到影像-力学表型层面，未涉及免疫或材料降解机制，属提供新的无创评估方法而非机制解释。",
+    "why": "它改变两点认知：其一，早期咀嚼肌与口底肌的弹性适应在两种支抗设计间无差异，意味着临床上不能用短期肌肉反应来挑选TB-RPE还是TBB-RPE——这是一条可以写进决策思路的阴性结论；其二，也是更重要的一条方法学警示：当'装置类型'与'腭中缝成熟度'完全共线时，任何组间比较都无法回答装置本身的效应，等效性更无从谈起。对设计种植/骨再生类对照研究（分期与干预捆绑）有直接的可迁移性。",
+    "limitations": [
+     "非随机分组：装置选择与腭中缝成熟度完全绑定，装置效应与分期效应不可分离，作者已明确承认等效性无法推断",
+     "样本量小（每组12例）且未做多重比较校正，两处显著的组内SWE下降很可能为假阳性，作者已提示",
+     "仅短期T0→T1两点评估，无随访期稳定性数据；SE与SWE方向相反提示两种弹性指标在活体肌肉中的测量含义尚不一致，跨指标合并解读缺乏依据"
+    ],
+    "transferable": "可直接搬走的是超声双模弹性成像（应变SE+剪切波SWE）这一无创、可重复的肌肉硬度量化手段——在种植课题中可用于评估种植体植入/加载前后咬肌与口底肌的功能适应，在牙周-宿主免疫课题中可作为咀嚼系统负荷的客观表型；同时可搬走的是本研究的反面教训：把生物学分期与干预方式捆绑分组会让对照设计失效，我的种植或材料研究必须让分…",
+    "followups": [
+     "该研究的样本量与效能计算是否事先进行？每组12例能否检出临床上有意义的弹性成像差异？（查全文方法学'Power calculation'）",
+     "SE与SWE在同一肌肉上方向相反，是否在全文中有对两种指标物理含义差异的讨论或与文献的对照？（查全文讨论部分）",
+     "作者是否给出了T0/T1的具体扩弓量毫米数与SWE的kPa数值及95%CI？（查全文结果表格，决定该阴性结论是否具备效应量层面的说服力）"
+    ],
+    "glossary": [
+     {
+      "en": "rapid palatal expansion (RPE)",
+      "cn": "快速腭扩展（快速扩弓）"
+     },
+     {
+      "en": "tooth-borne RPE (TB-RPE)",
+      "cn": "牙支抗快速扩弓"
+     },
+     {
+      "en": "tooth-bone-borne RPE (TBB-RPE)",
+      "cn": "牙-骨支抗快速扩弓（骨支抗扩弓）"
+     },
+     {
+      "en": "midpalatal suture maturation stage",
+      "cn": "腭中缝成熟度分期（A–C期）"
+     },
+     {
+      "en": "cone-beam CT (CBCT)",
+      "cn": "锥形束CT"
+     },
+     {
+      "en": "ultrasonographic elastography (UE)",
+      "cn": "超声弹性成像"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": 88.0,
+     "problems": [
+      "transferable 似乎被截断",
+      "'未见肥大或萎缩'是对'厚度保持稳定'的轻度引申解读，超出摘要字面表述",
+      "可迁移字段末句被截断（'必须让分…'），内容不完整"
+     ],
+     "repaired_by": "mimo-v2.6-flash",
+     "attempts": 1
+    }
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1186/s40729-026-00732-z",
+   "pmid": "43037834",
+   "doi": "10.1186/s40729-026-00732-z",
+   "title": "Patient-specific customized titanium mesh for alveolar bone regeneration: a systematic review and meta-analysis",
+   "title_zh": "个性化钛网用于牙槽骨再生的系统评价与Meta分析",
+   "journal": "International journal of implant dentistry",
+   "date": "2026-11-16",
+   "authors": [
+    "Alsabeeha NHM",
+    "Lambert F",
+    "Ivanovski S",
+    "Li S",
+    "Lin L",
+    "Andrade CAS",
+    "Atieh MA"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43037834/",
+   "pmcid": "11416373",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 840,
+   "sample_note": "n=840 participants",
+   "tier": "B",
+   "domain": "种植与骨再生",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Systematic Review",
+    "Network Meta-Analysis",
+    "Meta-Analysis",
+    "Review"
+   ],
+   "is_open_access": true,
+   "cluster": "种植与骨再生",
+   "one_line": "网状Meta评估个性化钛网在复杂牙槽嵴增量中的水平/垂直增量、并发症及种植存活率，优于部分传统GBR方法。",
+   "so_what": "为q4（材料如何编程免疫/骨再生）提供高证据层级的临床终点参照，但不涉免疫机制。",
+   "caution": "多为回顾性或单臂研究纳入，证据质量中等，非RCT主导。",
+   "score": {
+    "final": 62.4,
+    "match": 62.0,
+    "novelty": 35.0,
+    "rigor": 80.0,
+    "impact": 60.0,
+    "transfer": 40.0
+   },
+   "heuristic": 80.0,
+   "breakdown": {
+    "topic": 35.0,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 7.8,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVES: Customized titanium meshes are increasingly being used for guided bone regeneration (GBR) of complex alveolar ridge deficiencies. This systematic review and meta-analysis evaluated their clinical performance with respect to horizontal, vertical and volumetric bone gain, percentage of planned bone volume achieved, healing complications, and implant-related outcomes and, where comparative evidence was available, assessed their performance relative to other GBR approaches. MATERIALS AND METHODS: Electronic databases were searched up to April 15, 2026 to identify randomized and non-randomized comparative studies and prospective or retrospective single-arm studies evaluating customized titanium mesh for alveolar ridge augmentation. Random-effects meta-analyses were performed for regenerative, complication, and implant-related outcomes, and comparative evidence was additionally evaluated using network meta-analysis where appropriate. Risk of bias was assessed using Cochrane Risk of Bias 2 (RoB 2), Risk Of Bias In Non-randomized Studies of Interventions (ROBINS-I), and the Joanna Briggs Institute (JBI) Critical Appraisal Checklist. The certainty of the evidence was assessed using the Grading of Recommendations Assessment, Development and Evaluation (GRADE) approach. RESULTS: Thirty reports representing 29 independent studies involving 840 participants and 966 augmented sites were included. The pooled mean vertical and horizontal bone gains were 4.61 mm (95% confidence interval [CI], 4.08 to 5.14) and 5.45 mm (95% CI, 3.97 to 6.94), respectively, while the pooled volumetric bone gain was 1.07 cm³ (95% CI, 0.73 to 1.41). The pooled percentage of planned bone volume achieved was 82.5% (95% CI, 73.1% to 92.0%). Mesh exposure was the most frequent complication, with a pooled rate of 19.75% (95% CI, 14.41% to 26.46%), whereas postoperative infection (2.87%; 95% CI, 1.38% to 5.86%) and implant failure (1.33%; 95% CI, 0.67% to 2.64%) were less common. Network meta-analysis demonstrated no statistically significant differences in vertical bone gain between customized titanium mesh and the alternative GBR approaches evaluated. The certainty of the evidence ranged from low to very low. CONCLUSIONS: Within the limitations of the available evidence, customized titanium meshes were associated with clinically relevant alveolar ridge augmentation, while mesh exposure r",
+   "tags": [
+    "Customized titanium mesh",
+    "Dental implants",
+    "Guided bone regeneration",
+    "Meta-analysis",
+    "Systematic review"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107172",
+   "pmid": "43034007",
+   "doi": "10.1016/j.jdent.2026.107172",
+   "title": "Current status of oral hypofunction in older adults: A scoping review",
+   "title_zh": "老年人口腔低功能现状：范围综述",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-14",
+   "authors": [
+    "Li RWH",
+    "Wang J",
+    "McGrath C",
+    "Lim TW"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43034007/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": 11378,
+   "sample_note": "n=11378 records",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "老年口腔医学",
+   "one_line": "纳入15项研究，主要集中于东亚人群，梳理口腔低功能的患病率、危险因素与干预措施。",
+   "so_what": "q2（牙周炎-全身疾病轴）可借其流行病学框架思考老龄化人群的免疫代谢交叉，但非核心证据。",
+   "caution": "均为横断面研究，因果推断能力极弱；存在严重地域偏倚（93.3%东亚）。",
+   "score": {
+    "final": 28.6,
+    "match": 20.0,
+    "novelty": 25.0,
+    "rigor": 55.0,
+    "impact": 25.0,
+    "transfer": 15.0
+   },
+   "heuristic": 33.0,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 8.0,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: Oral hypofunction is classified as an intermediate stage between oral frailty and oral dysfunction, defined by seven established criteria. This scoping review aimed to consolidate globsal evidence on oral hypofunction in older adults by assessing its prevalence, elucidating associated risk factors and health outcomes, and summarizing current interventions and their reported outcomes. DATA AND SOURCES/STUDY SELECTION: This review utilized the Joanna Briggs Institute Population-Concept-Context framework and adhered to PRISMA-ScR guidelines. Literature search across four databases covered studies published from 2000 to May 2026. Title, abstract, and full-text screening were performed independently by two reviewers. RESULTS: Initial database searching retrieved 11378 records; manual screening identified 9 additional studies. Deduplication left 6860, from which 15 were included after full-text screening. Included studies were primarily in East Asia (93.3%). Most were cross-sectional (60.0%), and all but one study diagnosed oral hypofunction using variations of the Japanese Society of Gerodontology seven-item checklist (93.3%). Reported prevalence ranged from 14.3% to 95.5%. Key associated risk factors or health outcomes were malnutrition, physical frailty, cognitive impairment, and advanced age. Most interventions involved oral exercises and proper oral hygiene. CONCLUSIONS: This review underscores the narrow geographic scope of oral hypofunction research and a lack of uniformity in its diagnosis. It also illustrates substantial variance in reported prevalences and insufficient longitudinal evidence, hindering the elucidation of causal relationships with associated factors. CLINICAL SIGNIFICANCE: Standardized diagnostic criteria and longitudinal research are essential to improve early screening, targeted clinical interventions, and oral functional management in aging populations.",
+   "tags": [
+    "Oral hypofunction",
+    "health outcomes",
+    "older adults",
+    "prevalence",
+    "risk factors"
+   ]
+  },
+  {
+   "id": "10.1016/j.bone.2026.118172",
+   "pmid": "43035177",
+   "doi": "10.1016/j.bone.2026.118172",
+   "title": "Influence of ballistic and conventional resistance training on bone properties in postmenopausal women: A randomised controlled trial",
+   "title_zh": "弹道式与常规抗阻训练对绝经后妇女骨量的RCT",
+   "journal": "Bone",
+   "date": "2026-11-15",
+   "authors": [
+    "Caliskan O",
+    "Marques EA",
+    "Breasail MÓ",
+    "Duckham RL",
+    "Folland JP",
+    "Brooke-Wavell K"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43035177/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "儿童口腔与预防",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "骨代谢/运动医学",
+   "one_line": "RCT(n=109)发现弹道式抗阻训练8个月使髋部BMD增加0.008 g/cm²，效果优于对照。",
+   "so_what": "与口腔骨再生机制无关，属系统骨代谢研究。",
+   "caution": "样本流失37%，依从性虽高但外部效度有限。",
+   "score": {
+    "final": 14.0,
+    "match": 5.0,
+    "novelty": 12.0,
+    "rigor": 55.0,
+    "impact": 10.0,
+    "transfer": 8.0
+   },
+   "heuristic": 40.3,
+   "breakdown": {
+    "topic": 4.1,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "High-load conventional resistance training (CRT) is recommended for osteoporosis prevention. Ballistic resistance training (BRT) involves high velocity and impact forces with lower loads. The Resistance Exercise Programme on Risk of Osteoporosis and Osteoarthritis in Females (REPROOF) study examined effects of BRT and CRT, relative to control (CON) on proximal femur BMD. Healthy postmenopausal women aged 50-70 years were randomised into BRT, CRT or CON groups. BRT and CRT conducted supervised resistance training twice weekly for eight months. In CRT, concentric and eccentric phases each lasted ~2 s at 55-80% of one-repetition maximum (1RM). BRT involved explosive (maximum velocity) concentric movements at 20-50% of 1RM. Proximal femur and lumbar spine BMD were measured by DXA; tibia structure by peripheral QCT. Groups were compared using ANCOVA, adjusting for baseline values. Of 109 women randomised, 82 (63.1 ± 3.7 years; 24.5 ± 3.5 kgm-2; femoral neck T-score -1.1 ± 0.8) completed the study, with 98% adherence. BRT improved total hip BMD (+0.008 [0.001, 0.014] g/cm2; P = 0.02) versus CON. CRT did not affect hip BMD but tibial shaft cortical BMD increased (+4.141 [1.007, 7.274] g/cm2; P = 0.01) and cortical thickness declined relative to CON (-0.07 [-0.13, -0.01] mm; P = 0.03), accompanied by tibial shaft widening. BRT increased total hip and trochanter BMD (P ≤ 0.03) in the subgroup with low BMD. BRT benefitted proximal femur BMD relative to CON, including in the subgroup with low BMD. CRT did not affect hip BMD but caused tibial shaft structural adaptation that may affect strength in bending. BRT based interventions should be further developed and evaluated for osteoporosis prevention.",
+   "tags": [
+    "Bone mineral density",
+    "DXA",
+    "Exercise",
+    "Osteoporosis",
+    "Postmenopause",
+    "Prevention"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07278-9",
+   "pmid": "43033205",
+   "doi": "10.1007/s00784-026-07278-9",
+   "title": "Association between clinician-rated oral mucositis severity and oral mucositis-specific quality of life: A cross-sectional study",
+   "title_zh": null,
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-14",
+   "authors": [
+    "Ferreira PHG",
+    "Abreu LG",
+    "Gabrich GGF",
+    "de Meira NS",
+    "Kakehasi FM",
+    "da Silva TA",
+    "de Freitas Mattos F",
+    "Travassos DV"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43033205/",
+   "pmcid": "PMC13769721",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 56,
+   "sample_note": "n=56 adults",
+   "tier": "B",
+   "domain": "牙周炎通过哪些可验证的通…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "牙周炎通过哪些可验证的通…",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 31.2
+   },
+   "heuristic": 36.7,
+   "breakdown": {
+    "topic": 2.0,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 4.7,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "PURPOSE: To evaluate the association between clinician-rated oral mucositis (OM) severity and oral mucositis-specific quality of life (OMQoL) in adults undergoing antineoplastic therapy or hematopoietic stem cell transplantation. METHODS: This cross-sectional study included 56 adults undergoing chemotherapy, hematopoietic stem cell transplantation or head and neck radiotherapy with or without concurrent systemic chemotherapy at a Brazilian public university hospital. OM was assessed clinically according to the World Health Organization (WHO) grading scale, and oral mucositis specific quality of life (OMQoL) was assessed using the shortened Brazilian version of the questionnaire, comprising four domains: Diet, Symptoms, Social Functioning, and Swallowing. Associations between WHO grades and OMQoL scores were analyzed using non-parametric tests. Descriptive and bivariate analyses (Mann-Whitney and Kruskal-Wallis tests) was performed to evaluate associations between clinical variables and QoL scores (p < 0.05). RESULTS: Among the 56 participants, 32 (57.1%) were female, and the mean age was 51 years. WHO grades 3 and 4 were observed in 29 participants (51.8%). OMQoL scores differed significantly according to WHO grade across all domains (p = 0.001), with mean total scores ranging from 24.36 among participants with grade 0 OM to 48.67 among those with grade 4 OM. Female participants had higher OMQoL scores in the Diet domain (p = 0.023), although this finding should be interpreted as exploratory. Age and diagnostic category were not significantly associated with OMQoL scores. The sensitivity analysis excluding patients with non-malignant hematologic disease yielded similar findings. CONCLUSION: Higher clinician-rated WHO grades of OM were associated with poorer OM-specific quality of life in this sample. The association was particularly relevant for domains related to diet, symptoms, social functioning, and swallowing. Because WHO grading incorporates functional criteria related to oral intake, the observed associations should be interpreted considering the partial overlap between clinician-rated OM severity and patient-reported functional impairment. Longitudinal studies are warranted to clarify temporal relationships between OM severity and quality of life.",
+   "tags": [
+    "Antineoplastic protocols",
+    "Oral health",
+    "Patient reported outcome measures",
+    "Quality of life",
+    "Stomatitis",
+    "Symptom assessment"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107173",
+   "pmid": "43035141",
+   "doi": "10.1016/j.jdent.2026.107173",
+   "title": "Accuracy of dynamic computer-assisted implant surgery in fully edentulous patients in a private practice: A retrospective cohort study",
+   "title_zh": "全口无牙颌动态导航种植手术精度回顾性队列",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-15",
+   "authors": [
+    "Zhu R",
+    "Figueiredo R",
+    "Liao H",
+    "Camps-Font O",
+    "Valmaseda-Castellón E",
+    "He G"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43035141/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 500,
+   "sample_note": "n=500 implants",
+   "tier": "B",
+   "domain": "种植与骨再生",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "种植外科手术",
+   "one_line": "回顾性队列(n=107患者/500植体)报告动态导航平均平台偏差≈1mm、角度≈1.9°，后牙/拔牙位点偏差更大。",
+   "so_what": "仅工程参考，未触及q1免疫微环境或q4材料-免疫交互；对研究生机制课题无推进。",
+   "caution": "回顾性单中心，偏差定义与临床可接受阈值的主观性未讨论。",
+   "score": {
+    "final": 22.7,
+    "match": 28.0,
+    "novelty": 18.0,
+    "rigor": 62.0,
+    "impact": 35.0,
+    "transfer": 22.0
+   },
+   "heuristic": 44.0,
+   "breakdown": {
+    "topic": 5.8,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 7.2,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To assess the accuracy of dynamic computer-assisted implant surgery (d-CAIS) in fully edentulous patients in a private practice setting and to identify factors associated with implant placement deviations. METHODS: A retrospective cohort study was conducted including patients treated with d-CAIS between June 2020 and September 2025. Pre- and postoperative cone beam computed tomography (CBCT) scans were superimposed to quantify deviations between planned and actual implant positions. To account for clustering of implants within patients, generalized estimating equation (GEE) models were used. A significance level of p < 0.05 was applied. RESULTS: A total of 107 patients (500 implants) were analyzed. Mean angular deviation was 1.87 ± 1.65°, while mean global deviations at the platform and apex levels were 1.06 ± 0.58 mm and 1.07 ± 0.60 mm, respectively. Mean directional and absolute apical depth deviation was -0.10 ± 0.84 mm and 0.60 ± 0.59 mm. Patient age, jaw (maxilla vs. mandible), implant region (anterior vs. posterior), placement site (healed vs. post-extraction), and pterygoid implants were significantly associated with implant placement deviations. CONCLUSIONS: d-CAIS demonstrated a high level of accuracy for implant placement in fully edentulous patients, with low mean angular and linear deviations. Increased deviations were associated with older age and with implants placed in the maxilla, anterior region, post-extraction sites, and pterygoid areas. CLINICAL SIGNIFICANCE: Dynamic navigation allows reliable implant placement in fully edentulous patients, despite the absence of stable anatomical references. Awareness of factors associated with increased deviations may help optimize treatment planning and improve surgical precision in complex cases.",
+   "tags": [
+    "Accuracy",
+    "Dental implant",
+    "Dynamic computer-assisted implant surgery",
+    "Fully edentulous",
+    "Private practice"
+   ]
+  },
+  {
+   "id": "10.1002/hed.70550",
+   "pmid": "43035835",
+   "doi": "10.1002/hed.70550",
+   "title": "Specialist Palliative Care and Potentially Avoidable Acute Care at the End of Life for Head and Neck Cancer in the Immunotherapy Era: Population-Based Study",
+   "title_zh": "免疫治疗时代头颈癌早期姑息关怀减少可避免急性医疗利用",
+   "journal": "Head & neck",
+   "date": "2026-11-15",
+   "authors": [
+    "Fu R",
+    "Sun S",
+    "Sauro K",
+    "Fung AS",
+    "Dun-Dery F",
+    "Cai P",
+    "Fong A",
+    "King JA",
+    "Banerjee R",
+    "Chandarana SP",
+    "Matthews TW",
+    "Dort J"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43035835/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 1415,
+   "sample_note": "n=1415 patients",
+   "tier": "B",
+   "domain": "颌面肿瘤与分子机制",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "肿瘤支持治疗",
+   "one_line": "回顾性群体队列显示HNC死亡前早期专科姑息照护降低40%可避免ICU/急诊利用，与免疫治疗无关。",
+   "so_what": "仅背景。q5聚焦肿瘤免疫微环境，此研究为卫生服务结局，无可转化机制。",
+   "caution": "回顾性、混杂可控性存疑， immunotherapy样本仅6.9%。",
+   "score": {
+    "final": 21.0,
+    "match": 12.0,
+    "novelty": 20.0,
+    "rigor": 65.0,
+    "impact": 25.0,
+    "transfer": 5.0
+   },
+   "heuristic": 61.8,
+   "breakdown": {
+    "topic": 22.8,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 8.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: The role of specialist palliative care (SPC) alongside immunotherapy in head and neck cancer (HNC) is unclear. METHODS: This retrospective population-based cohort study included adults with HNC who died in 2013-2021 in Alberta, Canada. The primary exposure was SPC timing (early, late, none), with immunotherapy use in the last 12 months of life as a secondary exposure. The outcome was potentially avoidable acute care use (ICU admission, 15+ hospital days, or 2+ ED visits) in the last month of life. Multivariable logistic regression was performed. RESULTS: Of 1415 patients, 35.3%, 36.7%, and 28.0% received early, late, and no SPC, respectively, while 6.9% received immunotherapy. Early SPC was associated with 40% (95% CI 17%-57%) lower odds of potentially avoidable acute care use, while immunotherapy use was not associated with this outcome (p-value = 0.91). CONCLUSION: Early SPC was associated with lower potentially avoidable acute care use for HNC regardless of immunotherapy use.",
+   "tags": [
+    "end of life",
+    "head and neck cancer",
+    "immunotherapy",
+    "palliative care"
+   ]
+  },
+  {
+   "id": "10.1111/odi.70573",
+   "pmid": "43036236",
+   "doi": "10.1111/odi.70573",
+   "title": "Oral Cancer Screening in the Landscape of Randomized Controlled Trials: A Scoping Review",
+   "title_zh": "随机对照试验视野下的口腔癌筛查",
+   "journal": "Oral diseases",
+   "date": "2026-11-15",
+   "authors": [
+    "Calderipe CB",
+    "Pedroso CM",
+    "Lopes MA",
+    "Warnakulasuriya S",
+    "Santos-Silva AR"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43036236/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": 22,
+   "sample_note": "n=22",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔癌公共卫生",
+   "one_line": "范围综述揭示91项RCT覆盖9种癌症33种筛查方法，唯独口腔癌仅1项RCT评估单一视觉检查法。",
+   "so_what": "仅背景：揭示了口腔癌筛查领域RCT证据极度匮乏的现状，对q5的治疗抵抗研究无直接启示。",
+   "caution": "Scoping review非系统评价，不提供疗效结论；报道倾向可能遗漏未发表…",
+   "score": {
+    "final": 15.5,
+    "match": 10.0,
+    "novelty": 20.0,
+    "rigor": 60.0,
+    "impact": 20.0,
+    "transfer": 5.0
+   },
+   "heuristic": 31.8,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 3.6,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVE: To identify the types of cancer and the corresponding screening methods evaluated in randomized controlled trials (RCTs), with a primary focus on situating oral cancer screening within the RCT-based body of evidence. METHODS: This review followed the PRISMA-ScR guidelines. PubMed, Web of Science, Embase, Scopus, LILACS, ProQuest, and Google Scholar were searched without date restrictions for studies in English, Spanish, or Portuguese. Eligible studies were RCTs primarily evaluating cancer screening methods (clinical, imaging, endoscopic, laboratory, molecular/serological, or self-examination). Data were synthesized as means and frequencies. RESULTS: Nine cancer types and 33 distinct screening methods were identified across 97 cancer screenings in 91 RCTs spanning 57 years. Oral cancer ranked last, with only one RCT evaluating a single method, oral visual inspection, the fewest of any cancer type. By comparison, colorectal cancer was the most frequently investigated (n = 22/22.7%), followed by breast cancer (n = 21/21.6%) and lung cancer (n = 18/18.6%), with five, six, and four screening methods evaluated, respectively. CONCLUSION: These findings map the RCT landscape in cancer screening, revealing marked disparities in evidence across cancer types and identifying oral cancer as the most limited. Further RCTs are urgently needed to strengthen the evidence base and support effective oral cancer screening programs.",
+   "tags": [
+    "cancer",
+    "randomized controlled trials",
+    "screening"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107168",
+   "pmid": "43035139",
+   "doi": "10.1016/j.jdent.2026.107168",
+   "title": "Accuracy and Efficiency of Artificial Intelligence-assisted Dental Restoration Design: A systematic Review and Meta-analysis",
+   "title_zh": "AI辅助修复设计的准确性与效率：系统评价与Meta分析",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-15",
+   "authors": [
+    "Husain NA",
+    "Seker H",
+    "Yoon HI",
+    "Wierichs RJ",
+    "Yilmaz B"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43035139/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [
+    "ml"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "数字化修复",
+   "one_line": "Meta分析比较AI与常规CAD软件在修复设计中的精度与耗时，时间无显著差异，形态偏差较大。",
+   "so_what": "仅背景，与免疫/微生物/骨再生机制无关。",
+   "caution": "95%预测区间极宽，实际临床效益存疑。",
+   "score": {
+    "final": 15.1,
+    "match": 5.0,
+    "novelty": 15.0,
+    "rigor": 65.0,
+    "impact": 20.0,
+    "transfer": 5.0
+   },
+   "heuristic": 36.2,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVES: To compare the accuracy and time efficiency of artificial intelligence (AI)-assisted software with conventional dental computer-aided design (CAD) software for designing dental restorations. DATA AND SOURCES: Following PRISMA 2020, five electronic databases (PubMed, Web of Science, Embase, Scopus, and the Cochrane Library) were searched to August 4, 2026. In vitro and clinical studies comparing AI-assisted and conventional CAD software for digital dental restoration design were eligible. Outcomes included design time, morphology, restoration fit, and proximal and occlusal contacts. Risk of bias was assessed using the QUIN tool. Random-effects meta-analyses (REML, Hartung-Knapp adjustment) were performed, with 95% prediction intervals (PI), τ and I² with 95% CIs. STUDY SELECTION/RESULTS: Twenty-eight studies met the eligibility criteria; 10 were pooled. Design time (4 studies) showed a non-significant mean difference of -258.4 s (95% CI -543.2 to 26.4; 95% PI -1100.2 to 583.5). Pooled SMDs were -2.05 for root mean square deviation (8 studies; 95% CI -4.88 to 0.78; 95% PI -10.25 to 6.15). Heterogeneity was substantial (I² = 80-97%, τ=0.82-3.13). Restoration fit (marginal gap, marginal fit, internal fit; three studies or fewer each) and occlusal outcomes were synthesized narratively. AI-assisted software generally produced clinically acceptable restorations, although technician refinement remained beneficial. AI-assisted software generally produced clinically acceptable restorations, although technician refinement remained beneficial for contour, emergence profile, and occlusal contacts. CONCLUSIONS: Evidence, almost entirely in vitro studies and highly heterogeneous, is inconclusive regarding differences in design time, morphological accuracy and restoration fit. Design time tended to be shorter with AI-assisted software. CLINICAL SIGNIFICANCE: AI-assisted design software may shorten design time, but current evidence does not allow firm conclusions about restoration quality relative to conventional CAD. Well-designed, preferably clinical, comparative studies with standardized outcomes are needed for further evaluation.",
+   "tags": [
+    "Artificial Intelligence",
+    "Computer-Aided Design",
+    "Dental Restorations",
+    "Digital Dentistry"
+   ]
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 11
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 11
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 11
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 11
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 11
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 11
+  }
+ ],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}
