@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-17T12:08:27+08:00",
- "latest": "2026-11-17",
+ "updated_at": "2026-11-18T11:06:10+08:00",
+ "latest": "2026-11-18",
  "days": [
+  {
+   "date": "2026-11-18",
+   "must_title": "Differential Gene Expression in Dental Pulp of Healthy and Symptomatic Irreversible Pulpitis Cases",
+   "must_title_zh": "健康与症状性不可复性牙髓炎牙髓的差异基因表达",
+   "cluster": "牙髓炎症分子机制",
+   "count": 10,
+   "ai": true
+  },
   {
    "date": "2026-11-17",
    "must_title": "FGL1 Drives Epithelial-Mesenchymal Transition and Cisplatin Resistance in Laryngeal Squamous Cell Carcinoma",

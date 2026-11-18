@@ -1,0 +1,1031 @@
+{
+ "date": "2026-11-18",
+ "generated_at": "2026-11-18T11:06:10+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 5,
+  "prompt_tokens": 12933,
+  "completion_tokens": 10660
+ },
+ "stats": {
+  "candidates": 57,
+  "raw": 57,
+  "fetched": 19,
+  "raw_dropped_type": 7,
+  "no_abstract": 1,
+  "gated": 19,
+  "scored": 17,
+  "shown": 10,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 5,
+  "quality_failed": 0,
+  "quality_repaired": 0
+ },
+ "must_read": {
+  "id": "10.1016/j.joen.2026.11.003",
+  "pmid": "43039215",
+  "doi": "10.1016/j.joen.2026.11.003",
+  "title": "Differential Gene Expression in Dental Pulp of Healthy and Symptomatic Irreversible Pulpitis Cases",
+  "title_zh": "健康与症状性不可复性牙髓炎牙髓的差异基因表达",
+  "journal": "Journal of endodontics",
+  "date": "2026-11-16",
+  "authors": [
+   "Denis G F L",
+   "Karumaran CS",
+   "Ramachandran AK",
+   "Chandrasekaran N",
+   "Gutmann JL"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43039215/",
+  "pmcid": "",
+  "cited_by": 0,
+  "design": "unknown",
+  "design_label": "未标注",
+  "design_level": 1,
+  "sample_n": null,
+  "sample_note": "",
+  "tier": "B",
+  "domain": "牙体牙髓与龋病",
+  "methods": [],
+  "pub_types": [
+   "Journal Article"
+  ],
+  "is_open_access": false,
+  "cluster": "牙髓炎症分子机制",
+  "one_line": "患者牙髓组织RNA-seq（ symptomatic irreversible pulpitis vs healthy…",
+  "so_what": "q2机制库的直接补充；炎症级联核心基因的表达谱可为q1（IL-1β轴/巨噬细胞极化）的牙髓对应通路…",
+  "caution": "未报告样本量及批次效应处理细节；单中心横断面无法推断因果方向。",
+  "score": {
+   "final": 57.7,
+   "match": 60.0,
+   "novelty": 60.0,
+   "rigor": 62.0,
+   "impact": 55.0,
+   "transfer": 72.0
+  },
+  "heuristic": 46.1,
+  "breakdown": {
+   "topic": 24.1,
+   "journal": 10.0,
+   "design": 6,
+   "sample": 0.0,
+   "fresh": 6.0,
+   "method": 0.0
+  },
+  "abstract": "INTRODUCTION: Symptomatic irreversible pulpitis is characterized by persistent inflammation of the dental pulp, resulting in severe pain and eventual pulp necrosis if untreated. This study investigated differentially expressed genes (DEGs) in dental pulp tissues of individuals with symptomatic irreversible pulpitis compared with healthy pulp, focusing on inflammation, angiogenesis, and tissue repair. METHODS: Pulp samples were collected from patients with symptomatic irreversible pulpitis and from healthy controls undergoing elective root canal treatment. Total RNA was extracted, and high-quality samples (260/280 ratio 1.8-2.0) were subjected to RNA sequencing using the MGI platform. Differential expression analysis was performed with edgeR.. DEGs with log2 fold change (LFC) > 1 or < -1 and P < 0.05 were considered significant. RESULTS: RNA sequencing identified distinct gene expression in symptomatic irreversible pulpitis compared with healthy pulp. Pro-inflammatory mediators such as gene IL6 (LFC = 2.3), TNF (LFC = 2.2), COX-2 (LFC = 2.3), CXCL8/IL-8 (LFC = 2.2), ZBP1 (LFC = 3.5), and RANKL (LFC = 2.6) were significantly upregulated, indicating immune activation and inflammatory signalling. Angiogenesis-related genes including ANGPT2 (LFC = 4.1), BMP7 (LFC = 3.9), and VEGF-A (LFC = 2.1) were also upregulated, suggesting vascular remodeling in response to tissue injury. In contrast, anti-inflammatory and regulatory genes such as gene TGIF2 (LFC = -4.1), TGF-β1 (LFC = -2.6) were downregulated, reflecting impaired reparative pathways. CONCLUSIONS: The identified DEGs provide potential biomarkers for disease activity and targets for future diagnostic and therapeutic strategies.",
+  "tags": [
+   "RNA sequencing",
+   "Symptomatic irreversible pulpitis",
+   "angiogenesis",
+   "dental pulp",
+   "differential gene expression",
+   "inflammation"
+  ],
+  "deep": {
+   "title_zh": "健康与症状性不可复性牙髓炎牙髓的差异基因表达",
+   "one_sentence": "症状性不可复性牙髓炎牙髓呈显著促炎-抗修复基因模式，血管重塑同步激活，修复通路被抑制。",
+   "question": "症状性不可复性牙髓炎与健康牙髓相比，哪些基因通路驱动了持续性炎症、异常血管生成及组织修复衰竭？",
+   "design": "横断面病例对照设计，症状性不可复性牙髓炎患者 vs 择期根管治疗的健康供牙，直接采集牙髓组织行RNA-seq，无随访。",
+   "sample_desc": "摘要未说明具体例数，仅描述为从症状性不可复性牙髓炎患者与择期根管治疗对照组采集牙髓样本。",
+   "findings": [
+    {
+     "claim": "炎症信号轴显著激活",
+     "evidence": "IL6(LFC=2.3)、TNF(LFC=2.2)、COX-2(LFC=2.3)、CXCL8/IL-8(LFC=2.2)、ZBP1(LFC=3.5)均显著上调(P<0.05)"
+    },
+    {
+     "claim": "RANKL上调提示破骨活化风险增加",
+     "evidence": "RANKL表达上调LFC=2.6"
+    },
+    {
+     "claim": "血管重塑反应活跃",
+     "evidence": "ANGPT2(LFC=4.1)、BMP7(LFC=3.9)、VEGF-A(LFC=2.1)显著上调"
+    },
+    {
+     "claim": "修复程序受抑",
+     "evidence": "TGIF2下调LFC=-4.1、TGF-β1下调LFC=-2.6"
+    }
+   ],
+   "effect": "未报告置信区间；所有差异以log2FC>±1且P<0.05界定，边缘较宽松。",
+   "relation": "与q4（生物材料/微环境如何编程宿主免疫）部分相关——本稿揭示牙髓固有炎症-修复失衡的分子图谱，可作为材料-宿主互作实验的背景参照；不直接覆盖q1-q3、q5。",
+   "why": "首次在不可复性牙髓炎牙髓中提供一套完整的促炎/血管生成/抗修复三联谱，把临床'持续疼痛+修复无能'的现象落到可检测的转录证据；对牙体牙髓方向研究生可直接转化为课题立题依据。",
+   "limitations": [
+    "病例数与配对细节摘要未说明，统计效力存疑",
+    "RNA-seq筛选门槛宽（log2FC≥1即纳入），假阳性风险未被讨论，未做独立验证（如qPCR或IHC）",
+    "纯横断面，无法判断这些基因变化是病因还是终末结局，因果方向不明"
+   ],
+   "transferable": "edgeR差异表达流程与log2FC+P阈值组合；将IL-8/CXCL8、ZBP1、ANGPT2作为后续单细胞或空间转录组热点标记物；用RANKL作为牙髓-牙本质界面骨样改建的代理指标。",
+   "followups": [
+    "实际纳入多少对病例？是否按年龄/性别/感染源牙匹配？",
+    "差异基因是否有GO/KEGG富集结果？炎症、血管、修复三模块的通路 enrichment 分值各是多少？",
+    "关键基因（IL6/TNF/ANGPT2/TGF-β1）是否在独立队列或蛋白水平得到验证？"
+   ],
+   "glossary": [
+    {
+     "en": "Symptomatic irreversible pulpitis",
+     "cn": "症状性不可复性牙髓炎"
+    },
+    {
+     "en": "Log2 fold change (LFC)",
+     "cn": "对数2倍变化倍数"
+    },
+    {
+     "en": "ZBP1",
+     "cn": "ZDNA结合蛋白1（DAI，感知胞质DNA的Pattern Recogniti…"
+    },
+    {
+     "en": "ANGPT2",
+     "cn": "血管生成蛋白2（Vessel destabilizing factor）"
+    },
+    {
+     "en": "edgeR",
+     "cn": "基于负二项分布的RNA-seq差异表达分析R包"
+    },
+    {
+     "en": "RANKL",
+     "cn": "核因子κB受体活化因子配体"
+    }
+   ],
+   "reading_minutes": 12,
+   "quality": {
+    "passed": true,
+    "score": 100.0,
+    "judge_score": 88.0,
+    "problems": [
+     "'首次'的表述为卡片自行添加的评价性结论，摘要未支持",
+     "relation 字段引用的 q1-q5 语境来自卡片外部框架，无法据摘要核实"
+    ],
+    "repaired_by": "",
+    "attempts": 0
+   }
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1016/j.joen.2026.11.003",
+   "pmid": "43039215",
+   "doi": "10.1016/j.joen.2026.11.003",
+   "title": "Differential Gene Expression in Dental Pulp of Healthy and Symptomatic Irreversible Pulpitis Cases",
+   "title_zh": "健康与症状性不可复性牙髓炎牙髓的差异基因表达",
+   "journal": "Journal of endodontics",
+   "date": "2026-11-16",
+   "authors": [
+    "Denis G F L",
+    "Karumaran CS",
+    "Ramachandran AK",
+    "Chandrasekaran N",
+    "Gutmann JL"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43039215/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙髓炎症分子机制",
+   "one_line": "患者牙髓组织RNA-seq（ symptomatic irreversible pulpitis vs healthy…",
+   "so_what": "q2机制库的直接补充；炎症级联核心基因的表达谱可为q1（IL-1β轴/巨噬细胞极化）的牙髓对应通路…",
+   "caution": "未报告样本量及批次效应处理细节；单中心横断面无法推断因果方向。",
+   "score": {
+    "final": 57.7,
+    "match": 60.0,
+    "novelty": 60.0,
+    "rigor": 62.0,
+    "impact": 55.0,
+    "transfer": 72.0
+   },
+   "heuristic": 46.1,
+   "breakdown": {
+    "topic": 24.1,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "INTRODUCTION: Symptomatic irreversible pulpitis is characterized by persistent inflammation of the dental pulp, resulting in severe pain and eventual pulp necrosis if untreated. This study investigated differentially expressed genes (DEGs) in dental pulp tissues of individuals with symptomatic irreversible pulpitis compared with healthy pulp, focusing on inflammation, angiogenesis, and tissue repair. METHODS: Pulp samples were collected from patients with symptomatic irreversible pulpitis and from healthy controls undergoing elective root canal treatment. Total RNA was extracted, and high-quality samples (260/280 ratio 1.8-2.0) were subjected to RNA sequencing using the MGI platform. Differential expression analysis was performed with edgeR.. DEGs with log2 fold change (LFC) > 1 or < -1 and P < 0.05 were considered significant. RESULTS: RNA sequencing identified distinct gene expression in symptomatic irreversible pulpitis compared with healthy pulp. Pro-inflammatory mediators such as gene IL6 (LFC = 2.3), TNF (LFC = 2.2), COX-2 (LFC = 2.3), CXCL8/IL-8 (LFC = 2.2), ZBP1 (LFC = 3.5), and RANKL (LFC = 2.6) were significantly upregulated, indicating immune activation and inflammatory signalling. Angiogenesis-related genes including ANGPT2 (LFC = 4.1), BMP7 (LFC = 3.9), and VEGF-A (LFC = 2.1) were also upregulated, suggesting vascular remodeling in response to tissue injury. In contrast, anti-inflammatory and regulatory genes such as gene TGIF2 (LFC = -4.1), TGF-β1 (LFC = -2.6) were downregulated, reflecting impaired reparative pathways. CONCLUSIONS: The identified DEGs provide potential biomarkers for disease activity and targets for future diagnostic and therapeutic strategies.",
+   "tags": [
+    "RNA sequencing",
+    "Symptomatic irreversible pulpitis",
+    "angiogenesis",
+    "dental pulp",
+    "differential gene expression",
+    "inflammation"
+   ],
+   "deep": {
+    "title_zh": "健康与症状性不可复性牙髓炎牙髓的差异基因表达",
+    "one_sentence": "症状性不可复性牙髓炎牙髓呈显著促炎-抗修复基因模式，血管重塑同步激活，修复通路被抑制。",
+    "question": "症状性不可复性牙髓炎与健康牙髓相比，哪些基因通路驱动了持续性炎症、异常血管生成及组织修复衰竭？",
+    "design": "横断面病例对照设计，症状性不可复性牙髓炎患者 vs 择期根管治疗的健康供牙，直接采集牙髓组织行RNA-seq，无随访。",
+    "sample_desc": "摘要未说明具体例数，仅描述为从症状性不可复性牙髓炎患者与择期根管治疗对照组采集牙髓样本。",
+    "findings": [
+     {
+      "claim": "炎症信号轴显著激活",
+      "evidence": "IL6(LFC=2.3)、TNF(LFC=2.2)、COX-2(LFC=2.3)、CXCL8/IL-8(LFC=2.2)、ZBP1(LFC=3.5)均显著上调(P<0.05)"
+     },
+     {
+      "claim": "RANKL上调提示破骨活化风险增加",
+      "evidence": "RANKL表达上调LFC=2.6"
+     },
+     {
+      "claim": "血管重塑反应活跃",
+      "evidence": "ANGPT2(LFC=4.1)、BMP7(LFC=3.9)、VEGF-A(LFC=2.1)显著上调"
+     },
+     {
+      "claim": "修复程序受抑",
+      "evidence": "TGIF2下调LFC=-4.1、TGF-β1下调LFC=-2.6"
+     }
+    ],
+    "effect": "未报告置信区间；所有差异以log2FC>±1且P<0.05界定，边缘较宽松。",
+    "relation": "与q4（生物材料/微环境如何编程宿主免疫）部分相关——本稿揭示牙髓固有炎症-修复失衡的分子图谱，可作为材料-宿主互作实验的背景参照；不直接覆盖q1-q3、q5。",
+    "why": "首次在不可复性牙髓炎牙髓中提供一套完整的促炎/血管生成/抗修复三联谱，把临床'持续疼痛+修复无能'的现象落到可检测的转录证据；对牙体牙髓方向研究生可直接转化为课题立题依据。",
+    "limitations": [
+     "病例数与配对细节摘要未说明，统计效力存疑",
+     "RNA-seq筛选门槛宽（log2FC≥1即纳入），假阳性风险未被讨论，未做独立验证（如qPCR或IHC）",
+     "纯横断面，无法判断这些基因变化是病因还是终末结局，因果方向不明"
+    ],
+    "transferable": "edgeR差异表达流程与log2FC+P阈值组合；将IL-8/CXCL8、ZBP1、ANGPT2作为后续单细胞或空间转录组热点标记物；用RANKL作为牙髓-牙本质界面骨样改建的代理指标。",
+    "followups": [
+     "实际纳入多少对病例？是否按年龄/性别/感染源牙匹配？",
+     "差异基因是否有GO/KEGG富集结果？炎症、血管、修复三模块的通路 enrichment 分值各是多少？",
+     "关键基因（IL6/TNF/ANGPT2/TGF-β1）是否在独立队列或蛋白水平得到验证？"
+    ],
+    "glossary": [
+     {
+      "en": "Symptomatic irreversible pulpitis",
+      "cn": "症状性不可复性牙髓炎"
+     },
+     {
+      "en": "Log2 fold change (LFC)",
+      "cn": "对数2倍变化倍数"
+     },
+     {
+      "en": "ZBP1",
+      "cn": "ZDNA结合蛋白1（DAI，感知胞质DNA的Pattern Recogniti…"
+     },
+     {
+      "en": "ANGPT2",
+      "cn": "血管生成蛋白2（Vessel destabilizing factor）"
+     },
+     {
+      "en": "edgeR",
+      "cn": "基于负二项分布的RNA-seq差异表达分析R包"
+     },
+     {
+      "en": "RANKL",
+      "cn": "核因子κB受体活化因子配体"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": 88.0,
+     "problems": [
+      "'首次'的表述为卡片自行添加的评价性结论，摘要未支持",
+      "relation 字段引用的 q1-q5 语境来自卡片外部框架，无法据摘要核实"
+     ],
+     "repaired_by": "",
+     "attempts": 0
+    }
+   }
+  },
+  {
+   "id": "10.1111/iej.70313",
+   "pmid": "43042494",
+   "doi": "10.1111/iej.70313",
+   "title": "Sleep Deprivation Exacerbates Pulpal Inflammation and Impairs Repair Through Dysregulated Neutrophil Activity in Rats",
+   "title_zh": "睡眠剥夺通过中性粒细胞活动失调加剧牙髓炎症并损害修复的大鼠研究",
+   "journal": "International endodontic journal",
+   "date": "2026-11-17",
+   "authors": [
+    "Huang S",
+    "Liu H",
+    "Zeng W",
+    "Wang Q",
+    "Hakkinen L",
+    "Zhao S",
+    "Chen Z",
+    "Zhang G",
+    "Duncan HF",
+    "Shen Y",
+    "Zheng Y"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43042494/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "animal",
+   "design_label": "动物实验",
+   "design_level": 2,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [
+    "multiomics"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙髓炎症/全身因素交互",
+   "one_line": "大鼠睡眠剥夺模型显示中性粒细胞过度活化驱动牙髓炎症加重、修复受阻，mRNA-seq揭示相关转录特征。",
+   "so_what": "q2思路参考：全身状态→局部组织炎症的动物模型范式；中性粒细胞/NETs作为机制节点的实验设计可迁…",
+   "caution": "啮齿类模型，睡眠剥夺人为诱导；未见NETs直接证据，推至人类需谨慎。",
+   "score": {
+    "final": 56.7,
+    "match": 55.0,
+    "novelty": 55.0,
+    "rigor": 65.0,
+    "impact": 45.0,
+    "transfer": 60.0
+   },
+   "heuristic": 59.0,
+   "breakdown": {
+    "topic": 30.8,
+    "journal": 10.0,
+    "design": 9,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "AIM: To investigate the effects of sleep deprivation on pulpal inflammation and repair and determine the contribution of neutrophil activity to these changes in rat models. METHODOLOGY: Sleep deprivation was induced in rats using a modified multiple platform method. Pulp responses were evaluated using three experimental settings. Under baseline conditions, rats underwent acute sleep deprivation for four consecutive days. In the inflammatory model, pulpitis was induced by lipopolysaccharide (LPS) and assessed 1-4 days after induction. In the reparative model, direct pulp capping (DPC) was performed and pulpal healing was assessed at 14 and 28 days during sleep deprivation. Histological, vascular and inflammatory changes were evaluated by haematoxylin and eosin staining, Masson's trichrome staining, immunohistochemistry and immunofluorescence. Transcriptomic alterations in pulp tissue were analysed by mRNA sequencing. Neutrophil abundance and activation were assessed in peripheral blood and dental pulp by complete blood counts, flow cytometry and myeloperoxidase staining. To investigate the functional contribution of neutrophils and neutrophil elastase (NE), sleep-deprived rats were treated with the neutrophil-depleting antibody or the NE inhibitor Sivelestat. RESULTS: Sleep deprivation disrupted pulpal homeostasis, inducing vascular alterations and inflammatory cell infiltration. Following DPC, sleep-deprived rats exhibited impaired repair, including incomplete hard tissue bridge formation and reduced osteopontin expression at Day 14, followed by pulpal necrosis and apical periodontitis at Day 28. In the LPS-induced pulpitis model, sleep deprivation accelerated inflammatory progression and increased pulpal necrosis and leukocyte accumulation. Transcriptomic analysis revealed enrichment of immune- and neutrophil-associated pathways. Sleep deprivation increased neutrophil abundance, accumulation and activation in dental pulp, accompanied by elevated NE expression and enhanced neutrophil extracellular trap-like signals. Neutrophil depletion attenuated pulpal inflammation and tissue injury, while pharmacological inhibition of NE reduced inflammatory responses and pulpal tissue damage. CONCLUSIONS: Sleep deprivation exacerbates pulpal inflammation and impairs repair, at least in part through enhanced neutrophil activity and NE-mediated tissue injury. These finding",
+   "tags": [
+    "animal model",
+    "dental pulp",
+    "neutrophils",
+    "sleep deprivation"
+   ],
+   "deep": {
+    "title_zh": "睡眠剥夺通过中性粒细胞活动失调加剧牙髓炎症并损害修复的大鼠研究",
+    "one_sentence": "睡眠剥夺通过增强中性粒细胞活化与NE介导损伤，显著加重牙髓炎症并阻碍硬组织桥形成。",
+    "question": "睡眠剥夺如何通过中性粒细胞相关机制影响牙髓稳态、炎症进展及修复结局？",
+    "design": "采用改良多平台法诱导睡眠剥夺，设基线组、LPS诱导牙髓炎模型组（1–4天）、DPC盖髓修复模型组（14/28天），并用抗中性粒细胞抗体或NE抑制剂Sivelestat进行功能验证",
+    "sample_desc": "大鼠（摘要未说明具体数量）",
+    "findings": [
+     {
+      "claim": "睡眠剥夺破坏牙髓稳态，诱发血管改变与炎症细胞浸润",
+      "evidence": "H&E染色显示炎症细胞浸润增加"
+     },
+     {
+      "claim": "DPC后睡眠剥夺组硬组织桥形成不全、修复延迟甚至坏死",
+      "evidence": "Day 14骨桥连素表达降低；Day 28出现牙髓坏死与根尖周炎"
+     },
+     {
+      "claim": "睡眠剥夺加速LPS诱导的牙髓炎进展",
+      "evidence": "炎症进展加快、白细胞聚集增加、牙髓坏死比例上升"
+     },
+     {
+      "claim": "转录组显示免疫及中性粒细胞相关通路富集",
+      "evidence": "mRNA测序揭示中性粒细胞趋化、活化通路显著上调"
+     }
+    ],
+    "effect": "未报告",
+    "relation": "与q4部分相关——揭示了生物因素（睡眠剥夺）如何通过编程宿主免疫（中性粒细胞极化/活化状态）影响牙髓硬组织再生结局；同时为q2提供机制框架雏形",
+    "why": "首次在牙髓领域建立睡眠—免疫—修复轴，阐明NE作为可药靶环节的作用，并将NETs样信号引入牙髓病理语境，改变了'睡眠不足只影响全身健康'的粗浅认知",
+    "limitations": [
+     "仅用大鼠模型，人类牙髓对睡眠剥夺的反应未知",
+     "睡眠剥夺的时序窗口与昼夜节律分子机制未深入探究",
+     "仅聚焦中性粒细胞，其他免疫细胞（如巨噬细胞极化）的贡献未评估"
+    ],
+    "transferable": "改良多平台睡眠剥夺造模法；NE抑制剂Sivelestat的功能回补策略；mRNA-seq联合流式/MPO/NETs检测的多维度验证范式",
+    "followups": [
+     "睡眠剥夺的不同时间窗（急性vs慢性）对中性粒细胞活化的剂量效应是否有差异？",
+     "牙髓中检测到的NETs是经典NETosis还是其它形式的中性粒细胞释放颗粒？可用cit-H3/PAD4共定位验证吗？",
+     "NE抑制剂Sivelestat的临床安全性如何，能否拓展至人类牙髓保髓治疗的前景？"
+    ],
+    "glossary": [
+     {
+      "en": "Neutrophil elastase (NE)",
+      "cn": "中性粒细胞弹性蛋白酶"
+     },
+     {
+      "en": "Direct pulp capping (DPC)",
+      "cn": "直接盖髓术"
+     },
+     {
+      "en": "Sivelestat",
+      "cn": "西维来司他（NE特异性抑制剂）"
+     },
+     {
+      "en": "Neutrophil extracellular trap-like sign…",
+      "cn": "中性粒细胞胞外诱捕网样信号"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 98.0,
+     "judge_score": 85.0,
+     "problems": [
+      "效应量只有占位符",
+      "'骨桥连素'应为'骨桥蛋白'（osteopontin），术语错误",
+      "'中性粒细胞极化'及'趋化通路显著上调'超出摘要表述，属轻度演绎"
+     ],
+     "repaired_by": "",
+     "attempts": 0
+    }
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1007/s00784-026-07271-2",
+   "pmid": "43043495",
+   "doi": "10.1007/s00784-026-07271-2",
+   "title": "Impact of preoperative skeletal muscle mass and body mass index on the prognosis of patients with oral squamous cell carcinoma",
+   "title_zh": "术前肌肉量及BMI对口腔鳞癌预后的影响",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-17",
+   "authors": [
+    "Yamasaki E",
+    "Yamasaki S",
+    "Asada Y",
+    "Ueda Y",
+    "Uehara T",
+    "Odawara A",
+    "Obayashi F",
+    "Ito N",
+    "Koizumi K",
+    "Yanamoto S"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43043495/",
+   "pmcid": "2886201",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 150,
+   "sample_note": "n=150 patients",
+   "tier": "B",
+   "domain": "口腔鳞癌的免疫微环境与微…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "口腔鳞癌临床预后",
+   "one_line": "单中心回顾性队列（n=150）发现术前C3骨骼肌面积和BMI与OSCC总生存率独立相关。",
+   "so_what": "q5背景补充；营养不良作为OSCC预后因子已有共识，增量有限，但GNRI/HALP评分法可借鉴。",
+   "caution": "单中心回顾性设计，未校正放化疗细节，因果推断力弱。",
+   "score": {
+    "final": 46.5,
+    "match": 45.0,
+    "novelty": 35.0,
+    "rigor": 40.0,
+    "impact": 35.0,
+    "transfer": 40.0
+   },
+   "heuristic": 68.0,
+   "breakdown": {
+    "topic": 30.2,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 5.8,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: Skeletal muscle mass (SMM) and nutritional status influence cancer prognosis. Cancer-related systemic inflammation may drive muscle atrophy and loss of SMM. In this retrospective study, we evaluated the prognostic impact of preoperative SMM and body mass index (BMI) in patients with oral squamous cell carcinoma (OSCC). MATERIALS AND METHODS: Overall, 150 patients with OSCC (excluding carcinoma in situ) who underwent curative surgery at our department between 2010 and 2019 were included. SMM was quantified by the sternocleidomastoid muscle cross-sectional area at the third cervical vertebra (C3), using sex-specific cutoff values. BMI was categorized as underweight (<18.5), normal (18.5-<25), or obese (≥25). General condition was evaluated using the Geriatric Nutritional Risk Index (GNRI) and HALP score (Hemoglobin, Albumin, Lymphocyte, and Platelet), and their associations with overall survival (OS) were analyzed. RESULTS: Overall, 32.6% of patients had low SMM. SMM was significantly correlated with BMI, GNRI, and HALP. SMM, reconstruction (present/absent), and a combined index of SMM and BMI were significantly associated with OS. Patients with low SMM and high BMI showed poorer survival. However, this subgroup comprised only five patients, and this finding should therefore be interpreted with caution. In univariable analysis, clinical stage, reconstruction, and SMM were significantly associated with OS. In multivariable analysis, SMM remained an independent prognostic factor. CONCLUSIONS: Preoperative low SMM was independently associated with poorer OS in patients with OSCC and may provide additional prognostic information when assessed alongside BMI. CLINICAL RELEVANCE: Preoperative assessment of SMM using routine computed tomography may improve risk stratification in patients with OSCC and help identify low SMM that may not be apparent from BMI alone.",
+   "tags": [
+    "Body mass index",
+    "Prognosis",
+    "Sarcopenia",
+    "Skeletal muscle mass",
+    "Squamous cell carcinoma of head and neck",
+    "Third cervical vertebra"
+   ]
+  },
+  {
+   "id": "10.1016/j.bone.2026.118173",
+   "pmid": "43039127",
+   "doi": "10.1016/j.bone.2026.118173",
+   "title": "Intrinsic capacity and hip fracture: A multinational analysis across 15 countries",
+   "title_zh": null,
+   "journal": "Bone",
+   "date": "2026-11-16",
+   "authors": [
+    "Huang X",
+    "Ye M",
+    "Li X",
+    "Xu J",
+    "Wu J",
+    "Wu Q",
+    "Cai H",
+    "Qi L",
+    "Guo J",
+    "Chen J"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43039127/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 33452,
+   "sample_note": "n=33452",
+   "tier": "B",
+   "domain": "儿童口腔与预防",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "儿童口腔与预防",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 40.4
+   },
+   "heuristic": 47.5,
+   "breakdown": {
+    "topic": 5.5,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 8.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Managing hip fracture (HF) risk in older adults remains a major clinical challenge, with current prevention strategies heavily reliant on pharmacological agents that carry serious adverse events. The World Health Organization's intrinsic capacity (IC) framework offers a function-centred alternative, but robust cross-population evidence is limited. METHODS: We harmonized data from four longitudinal ageing cohorts across 15 countries (n = 33,452). IC was assessed across five domains, with higher scores indicating greater capacity. The primary outcome was incident HF. We employed Cox proportional hazards models, random-effects meta-analyses, bidirectional cross-lagged panel networks, and sensitivity analyses to examine baseline IC, its domains, and changes in IC over time. RESULTS: Higher baseline IC was associated with lower incident HF risk in the fully adjusted pooled individual-level analysis (hazard ratio [HR] = 0.975, 95% confidence interval [CI]: 0.966-0.985; p < 0.001). Associations were significant in CHARLS, ELSA, and SHARE, but not in HRS (HR = 0.986, 95% CI: 0.972-1.000; p = 0.0555). The random-effects summary HR was 0.951 (95% CI: 0.916-0.987), with substantial between-cohort heterogeneity (I2 = 89.43%), indicating that the association was not uniform across settings. Higher cognitive, locomotor, and psychological capacities were associated with lower HF risk, whereas sensory capacity showed a small positive association and vitality was not significantly associated with HF. Evidence for IC changes was mixed: trajectory associations varied with score weighting, and continuous IC change was not significantly associated with HF in the pooled analysis. Sensitivity analyses generally supported the baseline IC association. CONCLUSIONS: Higher baseline IC was associated with lower incident HF risk overall, but the HRS finding and substantial heterogeneity do not support a uniform association across national or cultural settings. Its value for HF risk prediction requires further evaluation.",
+   "tags": [
+    "Ageing",
+    "Cohort studies",
+    "Epidemiology",
+    "Hip fracture",
+    "Intrinsic capacity"
+   ]
+  },
+  {
+   "id": "10.1016/j.oraloncology.2026.108232",
+   "pmid": "43038651",
+   "doi": "10.1016/j.oraloncology.2026.108232",
+   "title": "Fine motor impairment in long-term survivors of nasopharyngeal carcinoma after intensity-modulated radiotherapy",
+   "title_zh": "鼻咽癌调强放疗后远期精细运动障碍剂量反应",
+   "journal": "Oral oncology",
+   "date": "2026-11-15",
+   "authors": [
+    "Wong GC",
+    "Lui JCF",
+    "Lau AMC",
+    "Cheung KM",
+    "Au KH",
+    "Lau AYL",
+    "Zee BC",
+    "Chow JC"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43038651/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": 105,
+   "sample_note": "n=105 patients",
+   "tier": "A",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "头颈肿瘤放疗神经毒性",
+   "one_line": "前瞻队列显示IMRT后中位7年终存者双侧精细运动显著下降，肿瘤期别越高运动ROI剂量越大、功能越差。",
+   "so_what": "高剂量照射→神经损伤概念框架可比照理解为：局部生物材料/微环境刺激→宿主反应梯度效应。",
+   "caution": "无健康对照基线，化疗与放疗混合效应混杂，运动区剂量分割信息有限。",
+   "score": {
+    "final": 31.9,
+    "match": 10.0,
+    "novelty": 40.0,
+    "rigor": 65.0,
+    "impact": 45.0,
+    "transfer": 30.0
+   },
+   "heuristic": 31.4,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 15.0,
+    "design": 6,
+    "sample": 5.4,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "PURPOSE: Characterize fine motor outcomes among nasopharyngeal carcinoma (NPC) survivors and associated clinical and radiation dose factors. METHODS: We enrolled 190 NPC survivors at a median of 7.0 years (range, 1.0-13.6) after definitive intensity-modulated radiotherapy (IMRT); 86.3 % (164/190) received concurrent chemotherapy. Fine motor function was evaluated using Grooved Pegboard Test (GP) Z-scores normalized to age and educational level. Motor-related regions of interest (ROIs), including bilateral precentral and postcentral gyri, thalami, striata, cerebella, brain stem, and spinal cord, were segmented in 105 patients for dosimetric analyses. RESULTS: NPC survivors exhibited significant bilateral fine motor impairment compared with normative data (median GP Z-score, -0.3; p < 0.001); 22.1 % (42/190) and 18.9 % (36/190) of patients scored ≥ 2 standard deviations below norms for their dominant and nondominant hands respectively. Advanced T-category was associated with higher radiation doses to motor ROIs and poorer GP Z-scores in both dominant (p < 0.001) and nondominant hands (p = 0.014). Higher Dmax and D1 % to the precentral gyri were associated with poorer GP Z-scores in the corresponding hands. High cumulative cisplatin exposure was associated with worse motor performance in both hands (dominant, p < 0.001; nondominant, p = 0.028); patients who received 450-600 mg/m2 had GP Z-scores equivalent to 43 years of age-related motor dexterity decline compared with those receiving 0-<150 mg/m2. CONCLUSIONS: NPC survivors demonstrated substantial long-term fine motor impairment associated with T-category, radiation dose to the precentral gyri, and cumulative cisplatin exposure. These findings highlight the importance of personalized treatment to minimize neurotoxicity, and long-term fine motor monitoring and rehabilitation for NPC survivors.",
+   "tags": [
+    "Cisplatin neurotoxicity",
+    "Fine motor dexterity",
+    "Grooved Pegboard",
+    "Intensity-modulated radiotherapy",
+    "Nasopharyngeal carcinoma",
+    "Precentral gyrus"
+   ]
+  },
+  {
+   "id": "10.1111/joor.70374",
+   "pmid": "43040397",
+   "doi": "10.1111/joor.70374",
+   "title": "Occlusal Macrowear Patterns and Initial Tooth Contacts in Patients With Temporomandibular Disorders and Asymptomatic Controls",
+   "title_zh": "TMD患者咬合磨耗模式与初始接触观察",
+   "journal": "Journal of oral rehabilitation",
+   "date": "2026-11-16",
+   "authors": [
+    "Kämmerer J",
+    "Kullmer O",
+    "Lotzmann U"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43040397/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": 24,
+   "sample_note": "n=24 individuals",
+   "tier": "B",
+   "domain": "材料与生物材料",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "咬合与TMD",
+   "one_line": "双盲对照发现TMD患者与无症状者咬合磨耗面型和初始接触分布无显著差异。",
+   "so_what": "阴性结果反驳咬合创伤致病假设，与本课题无直接关联。",
+   "caution": "n=24病例组统计效能不足，横断面设计无法判断因果时序。",
+   "score": {
+    "final": 11.8,
+    "match": 5.0,
+    "novelty": 15.0,
+    "rigor": 40.0,
+    "impact": 10.0,
+    "transfer": 5.0
+   },
+   "heuristic": 33.2,
+   "breakdown": {
+    "topic": 7.4,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 3.7,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Previous studies investigating the aetiological role of occlusion in temporomandibular disorders (TMD) have primarily focused on forms of malocclusion, whereas occlusal wear patterns and initial tooth contacts have received comparatively little attention. OBJECTIVE: This study investigated possible associations between occlusal wear facets, centric initial tooth contacts, and the tissue-specific localization of TMD-related symptoms. METHODS: A total of 52 fully dentate individuals were included in this blinded study. Occlusal wear facet patterns of 24 individuals with symptoms involving the bilaminar zone of the temporomandibular joint and/or the mandibular retractor muscles (patient group: P) were compared with 28 asymptomatic individuals (control group: C). Individual interocclusal silicone records were obtained in a habitual pain-free mandibular position, documenting the first tooth contact during gentle closure. Occlusal Fingerprint Analysis (OFA) was applied to quantify and compare wear facet patterns and initial contact. RESULTS: No significant between-group differences were observed for premolars or molars in any quadrant (p = 0.072-0.869). The P-group exhibited significantly more pronounced wear facets on maxillary incisors (p = 0.015-0.047). In 58% of the P-group, initial occlusal contacts were anterior, compared with 14% in the C-group, representing a significant between-group difference (p = 0.002). CONCLUSIONS: Occlusal wear facets may reflect the power stroke. The position and orientation of initial contacts in a relaxed, pain-free mandibular position may be functionally relevant. Wear facets indicating premature incisor contacts may reflect increased retractor muscle activity and associated posterior mandibular displacement, potentially resulting in increased loading of the bilaminar zone. However, causal relationships remain unclear and require further investigation.",
+   "tags": [
+    "Occlusal Fingerprint Analysis (OFA)",
+    "functional analysis",
+    "initial tooth contact",
+    "occlusal wear facets",
+    "occlusion",
+    "temporomandibular disorders (TMD)"
+   ]
+  },
+  {
+   "id": "10.1016/j.oraloncology.2026.108195",
+   "pmid": "43038652",
+   "doi": "10.1016/j.oraloncology.2026.108195",
+   "title": "Clinical characteristics and oncologic outcomes of young adults with squamous cell carcinoma of the tongue: A multicenter retrospective study",
+   "title_zh": null,
+   "journal": "Oral oncology",
+   "date": "2026-11-16",
+   "authors": [
+    "Gazzini L",
+    "Liberale C",
+    "Guerra G",
+    "Querzoli G",
+    "Ferrari M",
+    "Ruaro A",
+    "Pangallo S",
+    "Montenegro C",
+    "Molendi C",
+    "Belponer G",
+    "Accorona R",
+    "Mevio N"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43038652/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 375,
+   "sample_note": "n=375 patients",
+   "tier": "A",
+   "domain": "口腔鳞癌的免疫微环境与微…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 41.4
+   },
+   "heuristic": 48.7,
+   "breakdown": {
+    "topic": 5.8,
+    "journal": 15.0,
+    "design": 15,
+    "sample": 6.9,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: The prognostic significance of young age in squamous cell carcinoma of the mobile tongue and floor of mouth remains controversial. We compared clinicopathological characteristics and oncologic outcomes between young and older patients undergoing surgery. METHODS: This multicenter retrospective study included patients treated with primary curative-intent surgery at 13 high-volume European cancer centers between 2012 and 2022. Patients were stratified as young (≤40 years) or older (≥55 years); those aged 41-54 years were excluded. Clinicopathological variables, recurrence, overall survival (OS), and disease-specific survival (DSS) were compared. RESULTS: Among 375 patients, 133 were young and 242 older. Younger patients were more often never smokers (67.2% vs 47.5%; p = 0.001), non-drinkers (95.1% vs 74.5%; p < 0.001), and had early pT disease (62.9% vs 48.3%; p = 0.009) and lower tumor grade (p = 0.041). Pathological nodal involvement, lymphovascular invasion, perineural invasion, and extranodal extension were comparable. Younger patients had higher odds of positive margins (18.3% vs 10.5%; OR 1.898; p = 0.034). In advanced pT disease, perineural invasion was more frequent in younger patients (71.4% vs 54.5%; p = 0.042). OS, DSS, and recurrence did not differ significantly between groups. After adjustment for pT, pN, tobacco exposure, and alcohol consumption, age was not associated with OS or DSS. CONCLUSIONS: Young adults show lower tobacco and alcohol exposure and more favorable local tumor features without improved oncologic outcomes. Young age should not be considered an inherently favorable prognostic factor. Further translational studies are warranted to clarify the biological mechanisms underlying early-onset disease.",
+   "tags": [
+    "Early-onset cancer",
+    "Multicenter study",
+    "Oral cavity squamous cell carcinoma",
+    "Prognosis",
+    "Survival outcomes",
+    "Young adults"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07267-y",
+   "pmid": "43040127",
+   "doi": "10.1007/s00784-026-07267-y",
+   "title": "Systemic inflammatory biomarkers in hospitalized patients with odontogenic infections: a retrospective evaluation of treatment-related changes",
+   "title_zh": "牙源性感染住院患者系统性炎症标志物的纵向变化",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-17",
+   "authors": [
+    "de Souza Neto HF",
+    "de Souza HLF",
+    "de Carvalho Nogueira EF",
+    "da Costa Araújo FA",
+    "de Albuquerque Cavalcanti Almeida R"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43040127/",
+   "pmcid": "9782876",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙周炎通过哪些可验证的通…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "感染/炎症标志物",
+   "one_line": "回顾性队列（n=82）显示SIRI、AISI、NLR在抗感染治疗后下降，重度感染降幅更大，并与感染严重度相关。",
+   "so_what": "CBC衍生指数作为炎症监测工具的用法可用于q1/q2的宿主免疫表型评估框架；方法学可借用于种植体周…",
+   "caution": "单中心回顾性，混杂控制有限；标志物非特异性，不能指向特定通路。",
+   "score": {
+    "final": 27.8,
+    "match": 35.0,
+    "novelty": 30.0,
+    "rigor": 55.0,
+    "impact": 40.0,
+    "transfer": 50.0
+   },
+   "heuristic": 53.6,
+   "breakdown": {
+    "topic": 21.6,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVE: To evaluate longitudinal changes in leukocyte count and CBC-derived inflammatory indices and their association with odontogenic infection severity in hospitalized patients. MATERIALS AND METHODS: This retrospective single-centre cohort study included hospitalized patients with odontogenic infections who had complete laboratory data available at hospital admission (T0) and post-treatment assessment (T1). Leukocyte count and the CBC-derived inflammatory indices were evaluated. Patients were classified according to Severity score. Statistical analyses included paired comparisons, Mann-Whitney analysis of Δ values (T0 - T1), and Multivariable linear mixed-effects models. RESULTS: Eighty-two patients were included (43 mild and 39 severe infections). Leukocyte count, SIRI, AISI, and NLR decreased significantly between T0 and T1 in both groups. Regarding the comparison of median changes between groups, these were significantly greater in patients with severe infections for SII (P = 0.009), SIRI (P = 0.014), AISI (P = 0.016), NLR (P = 0.002), and leukocyte count (P = 0.003). Multivariable linear mixed-effects models demonstrated significant effects for time for all inflammatory markers except for PLR; significant effects of infection severity were observed for leukocyte count (6.95; P = 0.010), SII (4.16; P = 0.045), SIRI (6.64; P = 0.012)., and AISI (7.99; P = 0.006); and significant time × severity interactions were observed for leukocyte count (9.27; P = 0.003), SII (5.71; P = 0.019), and NLR (6,03; P = 0.016). Neither treatment modality (P = 0.265) nor antibiotic regimen (P = 0.140) was significantly associated with infection severity. CONCLUSION: Leukocyte count, SII, and NLR showed the most consistent longitudinal changes during hospitalization and appear to be useful complementary inflammatory parameters for monitoring treatment response and clinical recovery in patients with odontogenic infections. SIRI and AISI also demonstrated significant longitudinal changes, although their performance was not consistent for time x severity. CLINICAL RELEVANCE: Routine complete blood count parameters and CBC-derived inflammatory indices may complement clinical assessment by monitoring the longitudinal inflammatory response to treatment in hospitalized patients with odontogenic infections.",
+   "tags": [
+    "Inflammation mediators",
+    "Inflammation: dental focal infection",
+    "Systemic inflammatory response syndrome"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07281-0",
+   "pmid": "43043487",
+   "doi": "10.1007/s00784-026-07281-0",
+   "title": "Comparison of laterally closed tunnel and free gingival graft for isolated anterior mandibular recessions: a randomized controlled trial",
+   "title_zh": "侧向隧道带结缔组织移植 vs 游离龈移植治疗前牙牙龈退缩RCT",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-17",
+   "authors": [
+    "Oliveira JA",
+    "da Silveira MI",
+    "de Oliveira Alves R",
+    "Cirelli T",
+    "de Oliveira GJPL",
+    "Pigossi SC"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43043487/",
+   "pmcid": "4753713",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 10,
+   "sample_note": "n=10",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Comparative Study"
+   ],
+   "is_open_access": true,
+   "cluster": "牙周软组织手术",
+   "one_line": "小样本RCT（n=21）显示LCT+CTG与FGG根方覆盖疗效相当，但FGG获更多角化组织宽度。",
+   "so_what": "q4间接参考：软组织再生策略的围术期对比；样本过小无法得出确切结论。",
+   "caution": "n=10/组统计效能不足，12个月随访偏短，景观指数主观性强。",
+   "score": {
+    "final": 25.3,
+    "match": 25.0,
+    "novelty": 30.0,
+    "rigor": 60.0,
+    "impact": 35.0,
+    "transfer": 45.0
+   },
+   "heuristic": 50.8,
+   "breakdown": {
+    "topic": 10.8,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 2.8,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVES: To compare the laterally closed tunnel (LCT) technique combined with connective tissue graft (CTG) and free gingival graft (FGG) in the treatment of isolated gingival recessions in the anterior mandibular region. MATERIALS AND METHODS: Twenty-one patients were divided into two groups: the LCT group (n = 10), treated using the LCT technique with CTG; and the FGG group (n = 11), treated using FGG. Periodontal clinical parameters were evaluated at baseline and after 1, 3, 6, and 12 months. The Landry index, root coverage esthetic score, and visual analog scale for pain were also evaluated. Statistical modeling was used to assess the impact of treatment and clinical factors on 12-month root coverage, with scenario-based predictions supporting personalized planning. RESULTS: A progressive improvement in root coverage and keratinized tissue thickness was observed in both groups, although no significant differences were found. Greater keratinized tissue height was observed in the FGG group at all follow-up periods (p < 0.05). No differences were found in healing patterns, esthetic evaluation by professionals, or patient-reported esthetic outcomes. The FGG group reported higher pain levels after 7 days (p < 0.05). Tooth type had a significant effect (p = 0.046) on 12-month root coverage, and the best outcomes were observed in aligned incisors treated with FGG. CONCLUSIONS: Both techniques were effective, promoting root coverage and increasing keratinized tissue. While FGG showed greater keratinized tissue gain, LCT resulted in less postoperative discomfort. CLINICAL RELEVANCE: The findings highlight the specific clinical benefits of each technique, supporting personalized treatment planning based on expected outcomes and patient needs.",
+   "tags": [
+    "Aesthetics",
+    "Autografts",
+    "Gingival recession",
+    "Gum"
+   ]
+  },
+  {
+   "id": "10.1111/joor.70382",
+   "pmid": "43040583",
+   "doi": "10.1111/joor.70382",
+   "title": "Oral Sensory Loss Alters Masticatory Amplitude but Not Rhythm",
+   "title_zh": "口腔感觉缺失改变咀嚼幅度但不改变节律",
+   "journal": "Journal of oral rehabilitation",
+   "date": "2026-11-16",
+   "authors": [
+    "Espinoza S",
+    "Samson K",
+    "Jiménez S",
+    "El-Deredy W"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43040583/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": 34,
+   "sample_note": "n=34",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "咀嚼运动控制",
+   "one_line": "用表面麻醉诱导单侧口腔感觉钝化，发现咀嚼肌振幅代偿性增加但节律保持稳定。",
+   "so_what": "仅背景",
+   "caution": "麻醉时效短，结论不能外推至慢性感觉障碍。",
+   "score": {
+    "final": 19.8,
+    "match": 15.0,
+    "novelty": 50.0,
+    "rigor": 65.0,
+    "impact": 25.0,
+    "transfer": 10.0
+   },
+   "heuristic": 26.1,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 4.1,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Masticatory motor control relies on a delicate balance between central rhythmic patterning and peripheral somatosensory feedback. How these systems adapt to sensory disruption remains unclear. OBJECTIVES: To investigate how transient unilateral reduction of superficial oral somatosensory input-via topical lidocaine-influences human masseter muscle activity and chewing rhythm. METHODS: In a within-subject crossover design (N = 34), we recorded masseter electromyograms (EMG) during four consecutive chewing bouts following the application of topical anaesthesia or a placebo. This design captured the immediate effects of maximal anaesthesia and its subsequent pharmacological washout. RESULTS: At maximal anaesthesia, masseter EMG amplitude and cycle-to-cycle regularity transiently increased. This compensatory gain was highly lateralized, occurring on the working-side masseter, and decayed across subsequent bouts mirroring lidocaine clearance. In contrast, masticatory rhythm-including chewing rate, cycle duration, and bilateral synchrony-remained remarkably stable and satisfied formal equivalence criteria. CONCLUSIONS: There is a clear hierarchical dissociation between motor gain and timing during human chewing. A brainstem central pattern generator preserves the fundamental chewing rhythm, while superficial sensory feedback dynamically calibrates muscle contraction amplitude as a homeostatic sensorimotor compensation.",
+   "tags": [
+    "central pattern generator",
+    "electromyography",
+    "masseter",
+    "mastication",
+    "oral somatosensory feedback",
+    "sensorimotor compensation"
+   ]
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 12
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 12
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 12
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 12
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 12
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 12
+  }
+ ],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}
