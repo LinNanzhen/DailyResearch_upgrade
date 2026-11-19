@@ -1,0 +1,1040 @@
+{
+ "date": "2026-11-19",
+ "generated_at": "2026-11-19T10:50:03+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 8,
+  "prompt_tokens": 20423,
+  "completion_tokens": 17942
+ },
+ "stats": {
+  "candidates": 134,
+  "raw": 133,
+  "fetched": 26,
+  "raw_dropped_type": 12,
+  "no_abstract": 2,
+  "gated": 26,
+  "scored": 26,
+  "shown": 10,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 8,
+  "quality_failed": 0,
+  "quality_repaired": 1
+ },
+ "must_read": {
+  "id": "10.1111/jcpe.70231",
+  "pmid": "43044580",
+  "doi": "10.1111/jcpe.70231",
+  "title": "Spatial Transcriptomic Analysis Suggests Inflammatory Heterogeneity and Stromal-Epithelial Transcriptional Differences in Peri-Implantitis Tissues",
+  "title_zh": "种植体周炎组织的空间转录组分析揭示炎症异质性与基质-上皮转录差异",
+  "journal": "Journal of clinical periodontology",
+  "date": "2026-11-17",
+  "authors": [
+   "Wang P",
+   "Yang J",
+   "Li S",
+   "Cheng X",
+   "Zhao C",
+   "Shen Z",
+   "Zhang Y"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43044580/",
+  "pmcid": "",
+  "cited_by": 0,
+  "design": "in_vitro",
+  "design_label": "体外/细胞",
+  "design_level": 1,
+  "sample_n": null,
+  "sample_note": "",
+  "tier": "A",
+  "domain": "种植与骨再生",
+  "methods": [
+   "single-cell",
+   "spatial",
+   "multiomics"
+  ],
+  "pub_types": [
+   "Journal Article"
+  ],
+  "is_open_access": false,
+  "cluster": "种植体周炎空间免疫",
+  "one_line": "Visium HD（n=9）： peri-implantitis病灶显示免疫富集 niche，COL11A1+成纤维细…",
+  "so_what": "q1核心文献；直接展示'免疫微环境决定骨结合成败'的空间证据；CellChat通路推断可借用至NE…",
+  "caution": "n=9，无健康种植体周组织对照；模块打分依赖公共scRNA-seq重构，存在批…",
+  "score": {
+   "final": 77.1,
+   "match": 88.0,
+   "novelty": 85.0,
+   "rigor": 72.0,
+   "impact": 80.0,
+   "transfer": 82.0
+  },
+  "heuristic": 56.2,
+  "breakdown": {
+   "topic": 21.6,
+   "journal": 15.0,
+   "design": 7,
+   "sample": 0.0,
+   "fresh": 6.0,
+   "method": 6.6
+  },
+  "abstract": "AIM: To explore spatial inflammatory heterogeneity and associated stromal-epithelial transcriptional differences in peri-implantitis tissues using high-resolution spatial transcriptomics. MATERIALS AND METHODS: This exploratory study applied Visium HD spatial transcriptomics to five peri-implantitis lesions and four tooth-associated healthy gingival reference tissues. Spatial barcodes were annotated by histology, marker expression and module scoring. BANKSY, GASTON, differential expression, Gene Ontology, public scRNA-seq reanalysis, CellChat and multiplex immunofluorescence were used to assess inflammatory niches, stromal and epithelial gradients, epithelial gene sets and inferred signalling. RESULTS: Peri-implantitis lesions showed descriptively greater immune-cell enrichment in an unmatched comparison with tooth-associated gingival reference tissue. Fibroblasts in inflammation-enriched niches differed from stromal-region fibroblasts and COL11A1-positive fibroblasts localised near immune-rich areas. GASTON identified graded expression patterns along the epithelial-stromal interface and epithelial regions. An 11-gene epithelial-inflammation-associated set showed region-associated expression differences, with supportive expression trends in public epithelial scRNA-seq data. CellChat suggested descriptively increased epithelial outgoing signalling involving WNT5A, MIF and ANXA1. CONCLUSIONS: This study spatially describes host responses in peri-implantitis, including regional inflammatory heterogeneity, fibroblast-state variation and epithelial transcriptional differences. The epithelial-inflammation-associated gene set requires further validation. Interpretation should account for the small sample size, tooth-associated gingival reference tissue, absence of microbiome profiling and barcode-level Visium HD data.",
+  "tags": [
+   "epithelial heterogeneity",
+   "fibroblast heterogeneity",
+   "inflammatory niches",
+   "peri‐implantitis",
+   "spatial transcriptomics"
+  ],
+  "deep": {
+   "title_zh": "种植体周炎组织的空间转录组分析揭示炎症异质性与基质-上皮转录差异",
+   "one_sentence": "种植体周炎组织呈区域化炎症异质，上皮与基质转录梯度分层",
+   "question": "种植体周炎病变内部是否存在空间上的炎症异质性，这种异质性在多大程度上对应基质成纤维细胞与上皮细胞的转录状态差异及其相互信号传递？",
+   "design": "探索性研究：对5例种植体周炎病变与4例牙齿相关健康龈组织参照（非配对）行Visium HD高分辨率空间转录组，辅以公共单细胞数据重分析、CellChat推断与多重免疫荧光验证；随机/盲法/随访摘要未说明",
+   "sample_desc": "5例种植体周炎病变组织 + 4例牙齿相关健康龈参照组织（来源人群，非配对比较）；公共上皮单细胞数据的样本量与来源摘要未说明；多重免疫荧光样本量摘要未说明",
+   "findings": [
+    {
+     "claim": "种植体周炎病变的免疫细胞富集程度高于健康龈参照",
+     "evidence": "非配对比较中病变组织描述性显示更高的免疫细胞富集（原文以描述性方式呈现，未报告统计量）"
+    },
+    {
+     "claim": "炎症富集生态位中的成纤维细胞与基质区成纤维细胞转录状态不同",
+     "evidence": "BANKSY生态位分析显示炎症富集区成纤维细胞与stromal-region成纤维细胞存在差异表达；COL11A1阳性成纤维细胞定位于免疫富集区域附近"
+    },
+    {
+     "claim": "上皮-基质界面及其邻近区域存在连续的基因表达梯度",
+     "evidence": "GASTON识别出沿上皮-基质接口以及上皮区域的渐变（graded）表达模式"
+    },
+    {
+     "claim": "存在一个与区域相关的11基因上皮炎症相关基因集",
+     "evidence": "该11基因集在不同区域表达有差异，且在公共上皮单细胞数据中呈支持性的表达趋势（方向一致，未报告效应量）"
+    }
+   ],
+   "effect": "未报告",
+   "relation": "q1（部分支持+新解释）：在空间维度上证明种植体周炎组织内炎症并非均一分布，并给出上皮-基质互作的新解释框架；但未直接检测巨噬细胞极化、NETs或IL-1β轴，也因缺乏微生物组数据而无法触及q3的因果判定",
+   "why": "它把'种植体周炎=均一炎症浸润'这一默认认知改写为'分区化的炎症生态位+细胞状态梯度'，并提示上皮不只是被动屏障而是WNT5A/MIF/ANXA1信号的输出方；这直接改变实验设计——未来取材必须带空间坐标或分区信息，否则会把生态位差异平均掉",
+   "limitations": [
+    "样本量小（5 vs 4）且为非配对比较，参照为牙齿相关牙龈而非健康种植体位点，组间差异可能混入牙-种植体本身的组织学差异（作者已承认）",
+    "无微生物组分析，无法区分观察到的宿主转录异质是病因、结果还是标志物（作者已承认）",
+    "数据停留在barcode层面、11基因集与CellChat推断均属描述性，缺乏独立队列与功能验证（作者已承认，CellChat为计算推断而非实测）"
+   ],
+   "transferable": "BANKSY生态位注释 + GASTON空间梯度分析这一组合，可直接搬到我的种植体周或牙周取材切片上，用来定义'炎症富集区 vs 基质区'并做分区差异表达；'模块打分→公共scRNA-seq验证→多重免疫荧光原位确认'的三级验证链也可复用于任何候选基因集",
+   "followups": [
+    "这11个上皮炎症相关基因具体是哪些？在独立种植体周炎队列或公共数据中能否复现区域差异？",
+    "若改用健康种植体位点组织作对照（而非牙齿相关牙龈），免疫富集与上皮梯度差异是否依然存在？",
+    "COL11A1阳性成纤维细胞邻近的免疫富集区是否富集中性粒细胞/IL-1β信号，能否与q1的NETs-IL-1β轴拼成同一条证据链？"
+   ],
+   "glossary": [
+    {
+     "en": "Visium HD",
+     "cn": "Visium HD 高分辨率空间转录组平台"
+    },
+    {
+     "en": "spatial transcriptomics",
+     "cn": "空间转录组学"
+    },
+    {
+     "en": "BANKSY",
+     "cn": "BANKSY 空间细胞邻域/生态位注释算法"
+    },
+    {
+     "en": "GASTON",
+     "cn": "GASTON 空间梯度表达模式识别算法"
+    },
+    {
+     "en": "CellChat",
+     "cn": "CellChat 细胞间配体-受体信号推断工具"
+    },
+    {
+     "en": "COL11A1",
+     "cn": "Ⅺ型胶原蛋白α1链（成纤维细胞亚群标志）"
+    }
+   ],
+   "reading_minutes": 12,
+   "quality": {
+    "passed": true,
+    "score": 98.0,
+    "judge_score": 88.0,
+    "problems": [
+     "效应量只有占位符",
+     "relation 字段引入了摘要之外的 q1/q3 参照框架（巨噬细胞极化、NETs、IL-1β），虽属编辑自设问题而非论文结论，但严格忠实口径下略显越界",
+     "effect 字段仅写'未报告'，可补充说明摘要中所有比较均为描述性、无统计量这一整体性质"
+    ],
+    "repaired_by": "mimo-v2.6-flash",
+    "attempts": 1
+   }
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1111/jcpe.70231",
+   "pmid": "43044580",
+   "doi": "10.1111/jcpe.70231",
+   "title": "Spatial Transcriptomic Analysis Suggests Inflammatory Heterogeneity and Stromal-Epithelial Transcriptional Differences in Peri-Implantitis Tissues",
+   "title_zh": "种植体周炎组织的空间转录组分析揭示炎症异质性与基质-上皮转录差异",
+   "journal": "Journal of clinical periodontology",
+   "date": "2026-11-17",
+   "authors": [
+    "Wang P",
+    "Yang J",
+    "Li S",
+    "Cheng X",
+    "Zhao C",
+    "Shen Z",
+    "Zhang Y"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43044580/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "in_vitro",
+   "design_label": "体外/细胞",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "种植与骨再生",
+   "methods": [
+    "single-cell",
+    "spatial",
+    "multiomics"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "种植体周炎空间免疫",
+   "one_line": "Visium HD（n=9）： peri-implantitis病灶显示免疫富集 niche，COL11A1+成纤维细…",
+   "so_what": "q1核心文献；直接展示'免疫微环境决定骨结合成败'的空间证据；CellChat通路推断可借用至NE…",
+   "caution": "n=9，无健康种植体周组织对照；模块打分依赖公共scRNA-seq重构，存在批…",
+   "score": {
+    "final": 77.1,
+    "match": 88.0,
+    "novelty": 85.0,
+    "rigor": 72.0,
+    "impact": 80.0,
+    "transfer": 82.0
+   },
+   "heuristic": 56.2,
+   "breakdown": {
+    "topic": 21.6,
+    "journal": 15.0,
+    "design": 7,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 6.6
+   },
+   "abstract": "AIM: To explore spatial inflammatory heterogeneity and associated stromal-epithelial transcriptional differences in peri-implantitis tissues using high-resolution spatial transcriptomics. MATERIALS AND METHODS: This exploratory study applied Visium HD spatial transcriptomics to five peri-implantitis lesions and four tooth-associated healthy gingival reference tissues. Spatial barcodes were annotated by histology, marker expression and module scoring. BANKSY, GASTON, differential expression, Gene Ontology, public scRNA-seq reanalysis, CellChat and multiplex immunofluorescence were used to assess inflammatory niches, stromal and epithelial gradients, epithelial gene sets and inferred signalling. RESULTS: Peri-implantitis lesions showed descriptively greater immune-cell enrichment in an unmatched comparison with tooth-associated gingival reference tissue. Fibroblasts in inflammation-enriched niches differed from stromal-region fibroblasts and COL11A1-positive fibroblasts localised near immune-rich areas. GASTON identified graded expression patterns along the epithelial-stromal interface and epithelial regions. An 11-gene epithelial-inflammation-associated set showed region-associated expression differences, with supportive expression trends in public epithelial scRNA-seq data. CellChat suggested descriptively increased epithelial outgoing signalling involving WNT5A, MIF and ANXA1. CONCLUSIONS: This study spatially describes host responses in peri-implantitis, including regional inflammatory heterogeneity, fibroblast-state variation and epithelial transcriptional differences. The epithelial-inflammation-associated gene set requires further validation. Interpretation should account for the small sample size, tooth-associated gingival reference tissue, absence of microbiome profiling and barcode-level Visium HD data.",
+   "tags": [
+    "epithelial heterogeneity",
+    "fibroblast heterogeneity",
+    "inflammatory niches",
+    "peri‐implantitis",
+    "spatial transcriptomics"
+   ],
+   "deep": {
+    "title_zh": "种植体周炎组织的空间转录组分析揭示炎症异质性与基质-上皮转录差异",
+    "one_sentence": "种植体周炎组织呈区域化炎症异质，上皮与基质转录梯度分层",
+    "question": "种植体周炎病变内部是否存在空间上的炎症异质性，这种异质性在多大程度上对应基质成纤维细胞与上皮细胞的转录状态差异及其相互信号传递？",
+    "design": "探索性研究：对5例种植体周炎病变与4例牙齿相关健康龈组织参照（非配对）行Visium HD高分辨率空间转录组，辅以公共单细胞数据重分析、CellChat推断与多重免疫荧光验证；随机/盲法/随访摘要未说明",
+    "sample_desc": "5例种植体周炎病变组织 + 4例牙齿相关健康龈参照组织（来源人群，非配对比较）；公共上皮单细胞数据的样本量与来源摘要未说明；多重免疫荧光样本量摘要未说明",
+    "findings": [
+     {
+      "claim": "种植体周炎病变的免疫细胞富集程度高于健康龈参照",
+      "evidence": "非配对比较中病变组织描述性显示更高的免疫细胞富集（原文以描述性方式呈现，未报告统计量）"
+     },
+     {
+      "claim": "炎症富集生态位中的成纤维细胞与基质区成纤维细胞转录状态不同",
+      "evidence": "BANKSY生态位分析显示炎症富集区成纤维细胞与stromal-region成纤维细胞存在差异表达；COL11A1阳性成纤维细胞定位于免疫富集区域附近"
+     },
+     {
+      "claim": "上皮-基质界面及其邻近区域存在连续的基因表达梯度",
+      "evidence": "GASTON识别出沿上皮-基质接口以及上皮区域的渐变（graded）表达模式"
+     },
+     {
+      "claim": "存在一个与区域相关的11基因上皮炎症相关基因集",
+      "evidence": "该11基因集在不同区域表达有差异，且在公共上皮单细胞数据中呈支持性的表达趋势（方向一致，未报告效应量）"
+     }
+    ],
+    "effect": "未报告",
+    "relation": "q1（部分支持+新解释）：在空间维度上证明种植体周炎组织内炎症并非均一分布，并给出上皮-基质互作的新解释框架；但未直接检测巨噬细胞极化、NETs或IL-1β轴，也因缺乏微生物组数据而无法触及q3的因果判定",
+    "why": "它把'种植体周炎=均一炎症浸润'这一默认认知改写为'分区化的炎症生态位+细胞状态梯度'，并提示上皮不只是被动屏障而是WNT5A/MIF/ANXA1信号的输出方；这直接改变实验设计——未来取材必须带空间坐标或分区信息，否则会把生态位差异平均掉",
+    "limitations": [
+     "样本量小（5 vs 4）且为非配对比较，参照为牙齿相关牙龈而非健康种植体位点，组间差异可能混入牙-种植体本身的组织学差异（作者已承认）",
+     "无微生物组分析，无法区分观察到的宿主转录异质是病因、结果还是标志物（作者已承认）",
+     "数据停留在barcode层面、11基因集与CellChat推断均属描述性，缺乏独立队列与功能验证（作者已承认，CellChat为计算推断而非实测）"
+    ],
+    "transferable": "BANKSY生态位注释 + GASTON空间梯度分析这一组合，可直接搬到我的种植体周或牙周取材切片上，用来定义'炎症富集区 vs 基质区'并做分区差异表达；'模块打分→公共scRNA-seq验证→多重免疫荧光原位确认'的三级验证链也可复用于任何候选基因集",
+    "followups": [
+     "这11个上皮炎症相关基因具体是哪些？在独立种植体周炎队列或公共数据中能否复现区域差异？",
+     "若改用健康种植体位点组织作对照（而非牙齿相关牙龈），免疫富集与上皮梯度差异是否依然存在？",
+     "COL11A1阳性成纤维细胞邻近的免疫富集区是否富集中性粒细胞/IL-1β信号，能否与q1的NETs-IL-1β轴拼成同一条证据链？"
+    ],
+    "glossary": [
+     {
+      "en": "Visium HD",
+      "cn": "Visium HD 高分辨率空间转录组平台"
+     },
+     {
+      "en": "spatial transcriptomics",
+      "cn": "空间转录组学"
+     },
+     {
+      "en": "BANKSY",
+      "cn": "BANKSY 空间细胞邻域/生态位注释算法"
+     },
+     {
+      "en": "GASTON",
+      "cn": "GASTON 空间梯度表达模式识别算法"
+     },
+     {
+      "en": "CellChat",
+      "cn": "CellChat 细胞间配体-受体信号推断工具"
+     },
+     {
+      "en": "COL11A1",
+      "cn": "Ⅺ型胶原蛋白α1链（成纤维细胞亚群标志）"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 98.0,
+     "judge_score": 88.0,
+     "problems": [
+      "效应量只有占位符",
+      "relation 字段引入了摘要之外的 q1/q3 参照框架（巨噬细胞极化、NETs、IL-1β），虽属编辑自设问题而非论文结论，但严格忠实口径下略显越界",
+      "effect 字段仅写'未报告'，可补充说明摘要中所有比较均为描述性、无统计量这一整体性质"
+     ],
+     "repaired_by": "mimo-v2.6-flash",
+     "attempts": 1
+    }
+   }
+  },
+  {
+   "id": "10.1002/jper.70216",
+   "pmid": "43046704",
+   "doi": "10.1002/jper.70216",
+   "title": "Tissue monocyte chemoattractant protein-1-induced protein 1 and mucosa-associated lymphoid tissue lymphoma translocation protein 1 levels in peri-implant diseases: A cross-sectional study",
+   "title_zh": "种植体周疾病中组织MCPIP-1与MALT-1水平：一项横断面研究",
+   "journal": "Journal of periodontology",
+   "date": "2026-11-17",
+   "authors": [
+    "Yu L",
+    "Yilmaz D",
+    "Seno Aji NRA",
+    "Sorsa T",
+    "Elmanfi S",
+    "Gürsoy M",
+    "Gürsoy UK"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43046704/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cross_sectional",
+   "design_label": "横断面",
+   "design_level": 3,
+   "sample_n": 25,
+   "sample_note": "n=25 patients",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "种植体周炎免疫标志物",
+   "one_line": "横断面（n=72）：peri-mucositis组织MCPIP-1高于健康对照和peri-implantitis；MA…",
+   "so_what": "q1直接相关；MCPIP-1或为种植体周炎早期预警标志物；MALT-1-NF-κB轴连接微生物与宿…",
+   "caution": "横断面无法定因果；MCPIP-1在mucositis更高而在itis更低，生物…",
+   "score": {
+    "final": 63.2,
+    "match": 78.0,
+    "novelty": 55.0,
+    "rigor": 60.0,
+    "impact": 52.0,
+    "transfer": 70.0
+   },
+   "heuristic": 52.2,
+   "breakdown": {
+    "topic": 22.5,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 3.8,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: This cross-sectional study aimed to evaluate the peri-implant tissue levels of monocyte chemoattractant protein-1-induced protein 1 (MCPIP-1) and mucosa-associated lymphoid tissue lymphoma translocation protein 1 (MALT-1) in relation to peri-implant diseases and peri-implant tissue interleukin (IL)-1β, -6, -8, -17A, and Porphyromonas gingivalis (P. gingivalis) arginine-specific gingipain A (RgpA) levels. METHODS: Granulation tissues were collected from 25 patients with peri-implantitis and 23 patients with peri-mucositis during treatment for peri-implantitis and peri-implant mucositis. For controls, 24 primary soft tissues covering the submerged cover screws were collected during the second stage surgery of implant treatment. The tissue levels of MCPIP-1 and MALT-1 were quantified by ELISA and IL-1β, IL-6, IL-8, IL-17A were analysed by multiplex immunoassay. P. gingivalis RgpA levels were measured using an immunoblot assay. RESULTS: The peri-implant mucositis group had higher MCPIP-1 levels than the controls (p = 0.001) and the peri-implantitis group (p < 0.001). The control group had higher MALT-1 levels compared with the peri-implant mucositis group (p < 0.001) and the peri-implantitis group (p < 0.001). Linear regression analysis indicated associations between MCPIP-1 and IL-6 levels (β = 0.880, p < 0.001), MCPIP-1 and IL-8 levels (β = 0.609, p < 0.001), MCPIP-1 and IL-17A levels (β = 0.619, p < 0.001), MALT-1 and IL-1β levels (β = -0.389, p = 0.027) after being adjusted for the modified gingival index. CONCLUSION: The MCPIP-1 and MALT-1 protein expressions in tissues covering the submerged cover screw, with peri-implant mucositis and peri-implantitis showed distinct profiles. The variations in their associations with peri-implant diseases and proinflammatory cytokine levels can be related to their dual functions in the regulation of acute inflammation and infection.",
+   "tags": [
+    "MALT1",
+    "MCPIP1/Regnase‐1",
+    "P. gingivalis gingipain",
+    "peri‐implant mucositis",
+    "peri‐implantitis",
+    "proinflammatory cytokines"
+   ],
+   "deep": {
+    "title_zh": "种植体周疾病中组织MCPIP-1与MALT-1水平：一项横断面研究",
+    "one_sentence": "MCPIP-1在黏膜炎中高表达并正相关促炎因子，MALT-1在健康组织中最高，两者呈现截然不同的免疫调控模式。",
+    "question": "MCPIP-1和MALT-1这两种负性调节蛋白是否通过差异化调控炎症级联反应，决定种植体周从稳态向黏膜炎再到种植体周炎的进展轨迹？",
+    "design": "三组横断面比较：种植体周炎组(n=25)、种植体周黏膜炎组(n=23)、健康对照组(n=24)，无干预与随访，仅单次组织取样检测",
+    "sample_desc": "72例成人患者，种植体周炎与黏膜炎来源于病变部位肉芽组织，对照组来源于二期手术覆盖螺丝处的原发软组织；摘要未说明年龄、性别、吸烟史等基线特征",
+    "findings": [
+     {
+      "claim": "MCPIP-1在种植体周黏膜炎中表达最高，种植体周炎最低，呈现非单调分布",
+      "evidence": "黏膜炎组>对照组(p=0.001)；黏膜炎组>种植体周炎组(p<0.001)；调整后线性回归：MCPIP-1与IL-6(β=0.880,p<0.001)、IL-8(β=0.609,p<0.001)、IL-17A(β=0.619,p<0.001)正相关"
+     },
+     {
+      "claim": "MALT-1在健康对照组表达最高，两种疾病状态均显著降低",
+      "evidence": "对照组>MALT-1在黏膜炎组(p<0.001)和种植体周炎组(p<0.001)；调整后MALT-1与IL-1β呈弱负相关(β=-0.389,p=0.027)"
+     },
+     {
+      "claim": "P. gingivalis毒力因子RgpA纳入检测但未报告显著关联结果",
+      "evidence": "使用免疫印迹法测定组织RgpA水平，但结果部分未报告其与MCPIP-1/MALT-1或细胞因子的具体统计学关联"
+     }
+    ],
+    "effect": "未报告置信区间；回归系数：MCPIP-1→IL-6(β=0.880)、MCPIP-1→IL-8(β=0.609)、MCPIP-1→IL-17A(β=0.619)、MALT-1→IL-1β(β=-0.389)；p值已报告但CI缺失",
+    "relation": "与q1相关——提供新解释：MCPIP-1/MALT-1双蛋白的差异化表达可能揭示种植体周炎症的微环境编程机制，提示黏膜炎与种植体周炎并非简单的炎症剂量递增，而是存在免疫表型转换",
+    "why": "挑战了'炎症随疾病进展线性加重'的直觉假设——MCPIP-1在黏膜炎阶段达峰值而非种植体周炎，暗示其可能在早期急性炎症调控中发挥保护性负反馈作用，这为理解种植体周炎慢性化的免疫逃逸机制提供了新的切入点",
+    "limitations": [
+     "横断面设计无法推断因果时序——无法确定是蛋白表达改变驱动疾病状态转换，还是疾病微环境重塑了蛋白表达谱",
+     "样本量小且未进行多重比较校正（三项主要回归检验），统计效力与假阳性风险需审慎评估",
+     "未控制关键混杂因素（如吸烟、糖尿病、抗生素使用史），也未报告P. gingivalis载量与蛋白表达的关联，削弱了微生物-宿主互作机制的可信度"
+    ],
+    "transferable": "ELISA定量组织蛋白结合multiplex免疫法同时检测多种细胞因子的策略可直接借鉴；MCPIP-1作为急性炎症负调控标志物的测量方法可移植到种植体早期骨结合评估研究中",
+    "followups": [
+     "MCPIP-1在体外巨噬细胞模型中是否对LPS诱导的IL-6/IL-8释放具有剂量依赖性的负反馈抑制作用？原文摘要未提供验证实验",
+     "MALT-1的表达下调是否与种植体周炎中IL-1β通路的持续激活存在因果关系？是否有MALT-1敲除动物模型或遗传多态性数据支持？",
+     "该发现的临床转化潜力：MCPIP-1高表达是否可作为种植体周黏膜炎的早期诊断生物标志物？其敏感性与特异性如何？"
+    ],
+    "glossary": [
+     {
+      "en": "MCPIP-1",
+      "cn": "单核细胞趋化蛋白-1诱导蛋白1，一种具有RNA酶活性的负性炎症调控因子"
+     },
+     {
+      "en": "MALT-1",
+      "cn": "黏膜相关淋巴细胞组织淋巴瘤易位蛋白1，NF-κB信号通路的关键调节因子"
+     },
+     {
+      "en": "Peri-implant mucositis",
+      "cn": "种植体周黏膜炎，局限于软组织的炎症状态"
+     },
+     {
+      "en": "Peri-implantitis",
+      "cn": "种植体周炎，伴有附着丧失和骨吸收的炎症性疾病"
+     },
+     {
+      "en": "RgpA",
+      "cn": "牙龈卟啉单胞菌精氨酸特异性牙龈蛋白酶A，主要毒力因子"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": 85.0,
+     "problems": [
+      "findings第1条称'MCPIP-1在种植体周炎组最低'，但摘要未报告对照组与种植体周炎组的直接比较，'最低/非单调分布'属于超出摘要的推断",
+      "limitations中'三项主要回归检验'与摘要报告的四项回归（MCPIP-1×3 + MALT-1×1）不符",
+      "sample_desc中'成人患者'为摘要未提供的信息（摘要未报告年龄）"
+     ],
+     "repaired_by": "",
+     "attempts": 0
+    }
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1007/s00784-026-07285-w",
+   "pmid": "43049965",
+   "doi": "10.1007/s00784-026-07285-w",
+   "title": "Oral Staphylococcus carriage in healthy adults: prevalence, antimicrobial resistance, temporal patterns, and oral-nasal comparisons",
+   "title_zh": "健康成人口腔葡萄球菌定植与耐药模式队列研究",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-18",
+   "authors": [
+    "Fonseca M",
+    "Sousa M",
+    "Campos C",
+    "Campos J",
+    "Costa CFFA",
+    "Sampaio-Maia B"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43049965/",
+   "pmcid": "6186810",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "口腔微生物组",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "口腔微生物组",
+   "one_line": "队列研究发现口腔与鼻腔葡萄球菌定植高度重叠（86%共存），表皮葡萄球菌为主，多重耐药普遍，FTIR-ATR证实菌株持久…",
+   "so_what": "为q3提供口腔-鼻咽连续体定植的新证据；方法学（MALDI-TOF+FTIR-ATR纵向分型）可迁…",
+   "caution": "n=101健康牙科学生，不能直接外推至牙周炎或种植体周炎患者菌群特征。",
+   "score": {
+    "final": 42.1,
+    "match": 40.0,
+    "novelty": 45.0,
+    "rigor": 55.0,
+    "impact": 25.0,
+    "transfer": 50.0
+   },
+   "heuristic": 39.3,
+   "breakdown": {
+    "topic": 7.3,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "AIMS: The oral cavity is increasingly recognized as a reservoir of Staphylococcus species, yet knowledge gaps remain regarding species diversity, antimicrobial resistance (AMR), overlap with nasal carriage, and colonization persistence. Therefore, this study characterized oral and nasal Staphylococcus colonization in healthy young adults and explored the oral cavity as a potential niche for AMR surveillance. MATERIALS AND METHODS: Staphylococcus spp. from oral and nasal samples of 101 dentistry students were isolated and identified by Matrix-Assisted Laser Desorption/Ionization Time-of-Flight Mass Spectrometry (MALDI-TOF MS). Antimicrobial susceptibility was assessed using EUCAST/CLSI guidelines. Longitudinal oral samples from a subgroup were analysed by Fourier Transform Infrared Spectroscopy-Attenuated Total Reflectance (FTIR-ATR) to explore strain persistence and turnover. RESULTS: Staphylococcus colonization was highly prevalent (oral: 91%; nasal: 95%), with 86% concurrent oro-nasal colonization. Staphylococcus epidermidis predominated in both niches. Resistance to ≥ 1 antimicrobial was detected in 80% of coagulase-negative staphylococci (CoNS) and 73% of oral Staphylococcus aureus carriers. Multidrug-resistant phenotypes were found in 10% of CoNS carriers. Although multidrug-resistant and methicillin-resistant S. aureus was not detected, oral S. aureus frequently showed resistance to commonly prescribed dental antibiotics (amoxicillin, erythromycin, and clindamycin). Resistance frequencies were comparable between niches. Oral species-specific colonization dynamics suggested temporal turnover among Staphylococcus warneri and persistence-like clustering for S. aureus in some participants. CONCLUSIONS: Oral cavity harbours diverse, frequently antimicrobial-resistant Staphylococcus populations at rates comparable to the nasal cavity. These findings support the oral cavity as a complementary niche for Staphylococcus carriage, highlighting its relevance for future AMR-surveillance strategies in dentistry and human health.",
+   "tags": [
+    "Staphylococcus",
+    "Antibiotic surveillance",
+    "Antimicrobial resistance",
+    "Oral microbiota"
+   ]
+  },
+  {
+   "id": "10.1111/joor.70385",
+   "pmid": "43046277",
+   "doi": "10.1111/joor.70385",
+   "title": "Beyond the RMMA Index: Respiratory-Event Context and Episode Duration in Adults With Obstructive Sleep Apnea and Sleep Bruxism",
+   "title_zh": "OSA合并磨牙症患者RMMA呼吸事件时序特征分析",
+   "journal": "Journal of oral rehabilitation",
+   "date": "2026-11-17",
+   "authors": [
+    "Chen Y",
+    "Yu M",
+    "Tian Y",
+    "Luo L",
+    "Xu Y",
+    "Han F",
+    "Gao X"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43046277/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 94,
+   "sample_note": "n=94 adults",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "睡眠呼吸-磨牙",
+   "one_line": "基于20s窗口的圆形移位零模型发现RMMA发作与呼吸事件时序相关并非随机",
+   "so_what": "方法可移植到TMJ骨关节炎-咬合负荷关系研究",
+   "caution": "回顾性PSG，贝叶斯模型解释需审慎",
+   "score": {
+    "final": 33.5,
+    "match": 15.0,
+    "novelty": 55.0,
+    "rigor": 60.0,
+    "impact": 20.0,
+    "transfer": 25.0
+   },
+   "heuristic": 36.3,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 5.3,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Sleep bruxism (SB) frequently coexists with obstructive sleep apnea (OSA). However, whether rhythmic masticatory muscle activity (RMMA) reflects respiratory recovery, an airway response, or an independent motor phenomenon remains unclear. OBJECTIVE: To characterize the respiratory-event context and duration of RMMA in adults with OSA and SB. METHODS: Polysomnographic data from 94 adults with OSA and SB were retrospectively analysed. Each RMMA episode was matched to the nearest respiratory event and classified within a 20 s window as pre-respiratory, respiratory-overlap, or post-respiratory; episodes beyond 20 s were considered temporally unrelated. A circular-shift null model assessed whether RMMA-respiratory proximity exceeded within-night chance expectations. Bayesian multinomial mixed-effects models compared RMMA temporal contexts across respiratory-event types, and mixed-effects models assessed arousal linkage and RMMA duration across temporal contexts. Exploratory analyses examined associations between RMMA expression measures and polysomnographic variables. RESULTS: Among 3774 RMMA episodes, 2686 (71.2%) were temporally related to respiratory events, exceeding chance expectations (0.733 vs. 0.273; p < 0.001). Compared with obstructive apnea-related RMMA, central apnea-related RMMA showed higher odds of being pre-respiratory (OR 2.67, 95% CrI 1.76-4.19) and respiratory-overlap (OR 3.26, 95% CrI 2.03-5.29). Of post-respiratory RMMA episodes, 486 (43.0%) occurred within 5 s of respiratory-related arousal onset. Shorter RMMA episode duration was associated with greater respiratory, oxygen desaturation and arousal burden. CONCLUSION: In this predominantly male, relatively young OSA-SB cohort, RMMA showed heterogeneous temporal organization and RMMA episode duration showed exploratory associations with OSA-related physiological burden.",
+   "tags": [
+    "arousal",
+    "obstructive sleep apnea",
+    "polysomnography",
+    "rhythmic masticatory muscle activity",
+    "sleep bruxism",
+    "temporal relationship"
+   ]
+  },
+  {
+   "id": "10.1126/sciadv.aei0577",
+   "pmid": "43050541",
+   "doi": "10.1126/sciadv.aei0577",
+   "title": "Phylogeny explains differences in the crystal structures and chemistry of vertebrate tooth enamel and enameloid",
+   "title_zh": "脊椎动物牙釉质晶体结构的系统发育变异",
+   "journal": "Science advances",
+   "date": "2026-11-18",
+   "authors": [
+    "Fink JT",
+    "Kohn MJ",
+    "Negrete MA",
+    "Bemis KE",
+    "Hawkins MTR",
+    "Hsu Y",
+    "Farfan GA"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43050541/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙体硬组织进化",
+   "one_line": "22种脊椎动物釉质/釉样质XRD+化学分析证实a轴长度受碳酸盐A/B型取代共同调控",
+   "so_what": "材料学启发：矿物-有机界面调控思路可迁移到植入体表面矿化层设计",
+   "caution": "纯描述性系统发育分析，无功能性验证",
+   "score": {
+    "final": 18.2,
+    "match": 3.0,
+    "novelty": 45.0,
+    "rigor": 65.0,
+    "impact": 25.0,
+    "transfer": 10.0
+   },
+   "heuristic": 35.4,
+   "breakdown": {
+    "topic": 7.4,
+    "journal": 15.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "A phylogenetically diverse suite of modern tooth enamel/enameloid bioapatite from fishes, mammals, and reptiles from 22 species were chemically and structurally analyzed to establish whether crystal structure and chemistry are phylogenetically correlated. Rietveld refinement analysis of x-ray diffraction data suggests variable crystallographic parameters across vertebrates. Coupled chemical data show correlations between the a-axis of bioapatite and the proportions of sodium substitution for calcium, the introduction of vacancies, and carbonate substituting for phosphate (B-type substitution) or channel anions (A-type substitution). Principal component analysis of all variables suggests that a-axis lengths are highly influenced by the introduction of carbonate in both crystallographic sites. Phylogenetic variations in chemistry and structure of enamel/enameloid crystals show how biomineralization processes have changed through evolutionary time with implications for variation in biomineralization processes across vertebrate lineages. The predominant controls on tooth enamel/enameloid crystal structure are phylogeny rather than primary diet or habitat. Crystal structure variations also influence material properties across organisms, which may control how teeth are fossilized.",
+   "tags": []
+  },
+  {
+   "id": "10.1002/hed.70552",
+   "pmid": "43039669",
+   "doi": "10.1002/hed.70552",
+   "title": "EUSICA/INSICA Position Paper on Squamous Cell Carcinoma of the Nasal Vestibule: A Distinct Clinical Entity Requiring Dedicated Classification, Treatment Strategies and Outcome Measures",
+   "title_zh": "鼻前庭鳞状细胞癌位置立场宣言",
+   "journal": "Head & neck",
+   "date": "2026-11-16",
+   "authors": [
+    "de Ridder M",
+    "Breimer G",
+    "Bossi P",
+    "von Buchwald C",
+    "Bussu F",
+    "Capper D",
+    "Choby G",
+    "Devriese LA",
+    "Ferrand FR",
+    "Gallia GL",
+    "Hanna EY",
+    "Hanna GJ"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43039669/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": 609,
+   "sample_note": "n=609 patients",
+   "tier": "B",
+   "domain": "口腔鳞癌的免疫微环境与微…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "颌面肿瘤",
+   "one_line": "EUSICA/INSICA专家共识主张将鼻前庭癌列为独立临床实体，推荐统一分期与保器官放疗策略。",
+   "so_what": "与q5（口腔鳞癌免疫微环境）仅有解剖定位重叠，无免疫或微生物机制信息。",
+   "caution": "共识文件非原创研究，缺乏肿瘤免疫微环境或菌群数据支撑。",
+   "score": {
+    "final": 15.5,
+    "match": 5.0,
+    "novelty": 20.0,
+    "rigor": 50.0,
+    "impact": 25.0,
+    "transfer": 5.0
+   },
+   "heuristic": 42.9,
+   "breakdown": {
+    "topic": 10.5,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 7.4,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "PURPOSE: Cancer of the nasal vestibule (CNV) differs anatomically and clinically from both sinonasal and cutaneous squamous cell carcinoma, yet lacks formal recognition as a separate clinical entity and topographical subsite; whether it is also biologically distinct has not yet been investigated. EUSICA/INSICA advocates for formal recognition of CNV and a unified classification, treatment, and translational framework. METHOD: Published literature on CNV, including population-based cohorts, T-classification studies, brachytherapy outcomes, and quality-of-life data, was reviewed by an international multidisciplinary EUSICA/INSICA expert panel to formulate consensus recommendations. FINDING: CNV shows favorable outcomes, drains preferentially to facial and submandibular nodes, and is amenable to organ-preserving radiotherapy, in particular brachytherapy. It is staged using four non-uniform systems; multicenter validation in 609 patients from 21 centers supported the prognostic utility of the New Rome classification integrated with clinical nodal status. Validated CNV-specific quality-of-life instruments are lacking. Compared with NCCN-defined high-risk cutaneous SCC of the nose, CNV differs in topography, pattern of local spread, prognostic landmarks, nodal behavior, and treatment paradigm. Comparative molecular data versus cutaneous and sinonasal SCC are not yet available. CONCLUSION: EUSICA/INSICA calls for formal recognition of CNV as a distinct ICD-O-3 subsite, incorporation of the New Rome T classification into UICC/AJCC TNM, standardized organ-preserving treatment, and dedicated translational research, including comparative molecular studies to determine whether its clinical distinctness has a biological basis.",
+   "tags": [
+    "EUSICA",
+    "INSICA",
+    "UICC/AJCC",
+    "immunotherapy",
+    "nasal vestibule cancer",
+    "new Rome classification"
+   ]
+  },
+  {
+   "id": "10.1002/jper.70233",
+   "pmid": "43046725",
+   "doi": "10.1002/jper.70233",
+   "title": "Influence of non-surgical periodontal therapy on inflammasome biomarkers in periodontitis with and without diabetes mellitus",
+   "title_zh": "非手术牙周治疗对牙周炎合并糖尿病患者炎症小体标志物的影响",
+   "journal": "Journal of periodontology",
+   "date": "2026-11-17",
+   "authors": [
+    "Rathi RB",
+    "Kolte RA",
+    "Kolte AP",
+    "Gopalakrishnan D",
+    "Gupta M",
+    "Rathi P",
+    "Viswanathan V"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43046725/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙周-全身疾病",
+   "one_line": "队列研究：NSPT降低T2DM合并牙周炎患者血清IL-18/AIM2/IFI16，血糖控制改善更显著。",
+   "so_what": "q2机制证据，牙周治疗对糖尿病炎症轴的调控效应；可引用至Grant背景。",
+   "caution": "HbA1c仅短期评估，因果链条未闭合。",
+   "score": {
+    "final": 62.6,
+    "match": 72.0,
+    "novelty": 45.0,
+    "rigor": 58.0,
+    "impact": 55.0,
+    "transfer": 68.0
+   },
+   "heuristic": 66.0,
+   "breakdown": {
+    "topic": 35.0,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Periodontitis and type 2 diabetes mellitus (T2DM) are chronic inflammatory conditions linked through common pathogenic processes. Interleukin-18 (IL-18), absent in melanoma 2 (AIM2), and interferon gamma-inducible protein 16 (IFI16) have been associated with inflammatory pathways of both diseases. Limited data exist regarding the effect of non-surgical periodontal therapy (NSPT) on these biomarkers. This study was designed to evaluate and compare the effect of NSPT on serum levels of AIM2, IFI16, and IL-18 in stage III periodontitis patients with and without T2DM. METHODS: Ninety participants were allocated into three groups: periodontally healthy controls (group I), stage III periodontitis (group II), stage III periodontitis with T2DM (group III). The plaque index (PI), gingival index (GI), papillary bleeding index (PBI), probing pocket depth (PPD), clinical attachment level (CAL), gingival recession (GR), periodontal inflamed surface area (PISA), periodontal epithelial surface area (PESA), random blood sugar (RBS), HbA1c, AIM2, IFI16, and IL-18 were assessed at baseline in group I and also at 6 weeks in groups II and III. RESULTS: Serum AIM2, IFI16, and IL-18 levels were significantly elevated in periodontitis patients, with the highest concentrations observed in group III, followed by group II at baseline. NSPT significantly improved PPD, CAL, PISA, PESA, and glycemic status; serum biomarker levels were observed in both treatment groups with greater improvements observed in group III. CONCLUSION: Serum AIM2, IFI16, and IL-18 levels increased progressively from group I to group III and decreased significantly following NSPT, reflecting reduced periodontal and systemic inflammation. These biomarkers may serve as potential indicators linking periodontal inflammation with metabolic dysregulation in T2DM. TRIAL REGISTRATION: The trial was registered with the Clinical Trials Registry-India (CTRI/2024/06/068456). PLAIN LANGUAGE SUMMARY: Periodontitis and type 2 diabetes are closely linked because both are associated with inflammation. This study examined whether treating severe periodontitis without surgery could improve gum health and reduce inflammation in the body. Ninety participants, including healthy individuals and patients with periodontitis with or without diabetes, were evaluated before and after treatment. Patients with both periodontitis ",
+   "tags": [
+    "AIM2",
+    "IFI16",
+    "IL‐18",
+    "PISA",
+    "non‐surgical periodontal therapy",
+    "stage III periodontitis"
+   ]
+  },
+  {
+   "id": "10.1126/sciadv.aeg8698",
+   "pmid": "43050534",
+   "doi": "10.1126/sciadv.aeg8698",
+   "title": "A floss-based platform for native gingival crevicular fluid analysis enables noninvasive systemic and oral health monitoring",
+   "title_zh": "牙线基原生龈沟液检测平台实现口腔与全身健康无创监测",
+   "journal": "Science advances",
+   "date": "2026-11-18",
+   "authors": [
+    "Yan Y",
+    "Veronica A",
+    "Wang C",
+    "Guo Y",
+    "He A",
+    "Gu M",
+    "Zhang L",
+    "Han G",
+    "Cui JQ",
+    "Chandwaney SV",
+    "Cho J",
+    "Wang X"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43050534/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "GCF检测新技术",
+   "one_line": "微流控牙线平台：原位采集纳升级GCF，同步电化学检测葡萄糖、尿酸、pH、H₂O₂，与指尖血葡萄糖/尿酸强相关（r=0.…",
+   "so_what": "方法学突破——将q1/q3的GCF生物标志物检测从' pooled样品'推进至'单点位实时读数'；…",
+   "caution": "设备为原理验证（尚未CE/FDA认证）；长期稳定性与不同牙龈沟体积变异校正待验…",
+   "score": {
+    "final": 60.8,
+    "match": 40.0,
+    "novelty": 82.0,
+    "rigor": 75.0,
+    "impact": 85.0,
+    "transfer": 78.0
+   },
+   "heuristic": 49.6,
+   "breakdown": {
+    "topic": 21.6,
+    "journal": 15.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "Gingival crevicular fluid (GCF) is a serum-derived biofluid in the gingival sulcus, offering access to systemic metabolic signals and localized oral inflammation. However, its diagnostic utility remains underutilized because native submicroliter volumes cannot be analyzed without specimen pooling and reagent-mediated dilution. We overcome this barrier using a floss-based platform that enables on-demand GCF analysis during routine flossing. The device integrates a dual-fiber system exploiting shear-dependent property for efficient mobilization, liquid-bridge retention, a pyramidal microfluidic sensor stack, and real-time electrofluidic volume correction. This architecture supports multiplexed electrochemical quantification of glucose, uric acid (UA), pH, and H2O2 from native GCF within minutes. In human studies, GCF glucose and UA correlated with capillary blood (glucose: r = 0.89, UA: r = 0.78). Site-specific pH and H2O2 levels differentiated inflamed from healthy periodontal sites, correlating with probing pocket depth. By converting a daily hygiene practice into a dual tool for systemic and oral health monitoring, this platform advances comorbidity management for chronic disease populations.",
+   "tags": []
+  },
+  {
+   "id": "10.1007/s00784-026-07291-y",
+   "pmid": "43050006",
+   "doi": "10.1007/s00784-026-07291-y",
+   "title": "Alloplastic bone graft combined with injectable platelet-rich fibrin versus xenograft for horizontal ridge augmentation in the posterior mandible: a split-mouth randomized clinical trial",
+   "title_zh": "i-PRF复合人工骨 vs 异种骨用于后牙区水平骨增量：split-mouth RCT",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-18",
+   "authors": [
+    "Kenç S",
+    "Günbay T",
+    "Günbay S",
+    "Işık G"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43050006/",
+   "pmcid": "7981741",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 20,
+   "sample_note": "n=20 patients",
+   "tier": "B",
+   "domain": "种植与骨再生",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Comparative Study"
+   ],
+   "is_open_access": true,
+   "cluster": "骨再生材料比较",
+   "one_line": "split-mouth RCT（n=20）：6个月水平骨增量两组无差异（~5 mm），疼痛/肿胀i-PRF组更轻。",
+   "so_what": "",
+   "caution": "n=20偏小，6个月仅看早期骨增量，未评估骨结合或免疫表型。",
+   "score": {
+    "final": 53.7,
+    "match": 55.0,
+    "novelty": 35.0,
+    "rigor": 65.0,
+    "impact": 48.0,
+    "transfer": 60.0
+   },
+   "heuristic": 58.2,
+   "breakdown": {
+    "topic": 17.5,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 3.5,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVES: To compare 6-month horizontal bone gain and early postoperative morbidity between an alloplastic graft with injectable platelet-rich fibrin (i-PRF) and xenograft alone, both placed simultaneously with implants using the decompression technique in the posterior mandible. MATERIALS AND METHODS: In this prospective split-mouth randomized controlled trial, 20 patients with bilateral posterior mandibular edentulism and insufficient horizontal bone width were enrolled. Each received a randomly assigned treatment: alloplastic graft with i-PRF (test) on one side and xenograft (control) on the other, both with simultaneous implant placement and a collagen membrane. The primary outcome was horizontal bone gain (6-month minus baseline) assessed by cone-beam computed tomography (CBCT). Secondary outcomes were postoperative edema, pain measured on a visual analog scale (VAS) from the first to the seventh postoperative days, and soft-tissue healing evaluated using the Landry index. RESULTS: At 6 months, horizontal bone width was comparable between groups (test: 4.96 ± 0.48 mm; control: 5.03 ± 0.46 mm; p = 0.147), with a similar mean gain of approximately 0.95 mm in both groups. The alloplastic graft with i-PRF protocol resulted in significantly lower postoperative edema at days 2 and 7 (p = 0.003 for both), lower VAS pain scores throughout the first week (p < 0.001 for group effect), and higher Landry healing scores at days 2 and 7 (p < 0.001). CONCLUSIONS: The alloplastic graft with i-PRF protocol was associated with enhanced early postoperative comfort and soft-tissue healing, while achieving 6-month horizontal bone width comparable to xenograft, and may be a clinically feasible alternative for selected augmentation procedures. CLINICAL RELEVANCE: The alloplastic graft with i-PRF protocol may enhance early postoperative comfort and soft-tissue healing while providing horizontal bone width outcomes comparable to xenograft in simultaneous implant placement with guided bone regeneration.",
+   "tags": [
+    "Decompression technique",
+    "Dental implants",
+    "Guided bone regeneration",
+    "Horizontal ridge augmentation",
+    "Injectable platelet-rich fibrin",
+    "Split-mouth randomized trial"
+   ]
+  },
+  {
+   "id": "10.1111/odi.70584",
+   "pmid": "43046504",
+   "doi": "10.1111/odi.70584",
+   "title": "TM7x, an Ultrasmall Oral Episymbiont: Biology and Emerging Clinical Relevance",
+   "title_zh": "超小型口腔共生菌TM7x的生物学与临床意义",
+   "journal": "Oral diseases",
+   "date": "2026-11-17",
+   "authors": [
+    "Dimitrelou P",
+    "Alonaris E",
+    "Sergounioti A"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43046504/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔微生物组",
+   "one_line": "综述TM7x与表皮狍球菌互作机制，提示部分配体对可减少小鼠骨丢失，但未确立临床保护效应。",
+   "so_what": "为q3提供微生物组失衡的因果链条线索；动物实验提示特定epibiont-host对具抗炎潜力，可借…",
+   "caution": "叙事性综述，人类关联信号混杂于Saccharibacteria广谱数据，因果推…",
+   "score": {
+    "final": 46.3,
+    "match": 55.0,
+    "novelty": 40.0,
+    "rigor": 35.0,
+    "impact": 30.0,
+    "transfer": 60.0
+   },
+   "heuristic": 47.6,
+   "breakdown": {
+    "topic": 21.6,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVE: To review the biology of Nanosynbacter lyticus strain TM7x and critically assess its proposed relevance to periodontal disease. METHODS: This narrative review integrates foundational cultivation studies with a targeted PubMed update conducted on 29 October 2026. Human observational findings are distinguished from experimental evidence and from results concerning other Saccharibacteria. RESULTS: TM7x is an ultrasmall, genome-reduced episymbiont whose replication requires a compatible bacterial host. Studies of its interaction with Schaalia odontolytica XH001 reveal host adaptation, specialised pili, metabolic activity during transmission and changes in host physiology. Human disease associations frequently concern broader Saccharibacteria taxa and vary with population, sampling site and analytical method. Experimental studies demonstrate reduced inflammatory responses and, for several epibiont-host pairs, reduced bone loss in mice. These effects are context-dependent and do not establish clinical protection. Detailed knowledge of the species remains concentrated on the reference strain. CONCLUSIONS: Current evidence does not establish TM7x as a causative human periodontal pathogen. It supports a model of context-dependent microbial and immune modulation, with unresolved consequences for human disease.",
+   "tags": [
+    "Saccharibacteria",
+    "TM7x",
+    "episymbiosis",
+    "oral microbiome",
+    "periodontitis"
+   ]
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 13
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 13
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 13
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 13
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 13
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 13
+  }
+ ],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}

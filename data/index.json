@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-18T11:06:10+08:00",
- "latest": "2026-11-18",
+ "updated_at": "2026-11-19T10:50:03+08:00",
+ "latest": "2026-11-19",
  "days": [
+  {
+   "date": "2026-11-19",
+   "must_title": "Spatial Transcriptomic Analysis Suggests Inflammatory Heterogeneity and Stromal-Epithelial Transcriptional Differences in Peri-Implantitis Tissues",
+   "must_title_zh": "种植体周炎组织的空间转录组分析揭示炎症异质性与基质-上皮转录差异",
+   "cluster": "种植体周炎空间免疫",
+   "count": 10,
+   "ai": true
+  },
   {
    "date": "2026-11-18",
    "must_title": "Differential Gene Expression in Dental Pulp of Healthy and Symptomatic Irreversible Pulpitis Cases",
