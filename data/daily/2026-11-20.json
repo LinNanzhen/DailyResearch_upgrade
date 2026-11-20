@@ -1,0 +1,1019 @@
+{
+ "date": "2026-11-20",
+ "generated_at": "2026-11-20T10:35:45+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 6,
+  "prompt_tokens": 16290,
+  "completion_tokens": 14223
+ },
+ "stats": {
+  "candidates": 147,
+  "raw": 145,
+  "fetched": 26,
+  "raw_dropped_type": 11,
+  "no_abstract": 1,
+  "gated": 26,
+  "scored": 26,
+  "shown": 10,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 6,
+  "quality_failed": 0,
+  "quality_repaired": 1
+ },
+ "must_read": {
+  "id": "10.1111/odi.70585",
+  "pmid": "43053502",
+  "doi": "10.1111/odi.70585",
+  "title": "The Central Role of O-GlcNAcylation in Regulating Macrophages in the Pathogenesis of Periodontitis",
+  "title_zh": "O-GlcNAcylation调控巨噬细胞在牙周炎发病机制中的核心作用",
+  "journal": "Oral diseases",
+  "date": "2026-11-18",
+  "authors": [
+   "Wang Q",
+   "Wnag X",
+   "Wang Y",
+   "Jiang X"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43053502/",
+  "pmcid": "",
+  "cited_by": 0,
+  "design": "review",
+  "design_label": "综述",
+  "design_level": 3,
+  "sample_n": null,
+  "sample_note": "",
+  "tier": "B",
+  "domain": "牙周与宿主免疫",
+  "methods": [],
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "is_open_access": false,
+  "cluster": "巨噬细胞极化与代谢重编程",
+  "one_line": "综述聚焦O-GlcNAc修饰双向剂量/位点特异性调控M1/M2极化，连接代谢紊乱与牙周骨吸收",
+  "so_what": "直接回答q1中巨噬细胞极化机制的核心分子节点；O-GlcNAc作为代谢-免疫接口可用于q1和q4的…",
+  "caution": "为综述非原创数据；O-GlcNAc的位点特异性机制仍需实验验证",
+  "score": {
+   "final": 69.9,
+   "match": 85.0,
+   "novelty": 70.0,
+   "rigor": 55.0,
+   "impact": 65.0,
+   "transfer": 80.0
+  },
+  "heuristic": 56.3,
+  "breakdown": {
+   "topic": 30.3,
+   "journal": 10.0,
+   "design": 10,
+   "sample": 0.0,
+   "fresh": 6.0,
+   "method": 0.0
+  },
+  "abstract": "BACKGROUND: Periodontitis is a chronic inflammatory disease initiated by dental plaque biofilm, characterized primarily by dysregulated host immune-inflammatory responses and progressive alveolar bone resorption, in which the dynamic M1/M2 polarization of macrophages serves as a pivotal regulatory factor. O-GlcNAcylation is a nutrient-sensitive post translational modification, and the relationship between O-GlcNAcylation and periodontitis needs further elucidation. METHODS: This article systematically reviews recent advances concerning the regulatory role of O-GlcNAcylation in macrophage-mediated periodontitis pathogenesis. Particular emphasis is placed on the bidirectional dose and site-specific effects of O-GlcNAcylation on macrophage polarization. In addition, the molecular mechanisms underlying pathological O-GlcNAcylation-mediated aggravated alveolar bone loss in diabetes-associated periodontitis are summarized. RESULTS: Existing evidence identifies O-GlcNAcylation as a critical molecular hub linking metabolic derangements to periodontal osteoimmune destruction: it either potentiates M1-like pro-inflammatory responses and osteoclastogenesis, or facilitates M2-like reparative phenotypes and periodontal bone regeneration. In diabetes-associated periodontitis, aberrantly elevated O-GlcNAcylation significantly accelerates alveolar bone loss by enhancing inflammatory signaling and suppressing bone formation. CONCLUSION: O-GlcNAcylation lays novel theoretical foundations and translational strategies for precision immuno-metabolic therapy of periodontitis, especially in patients complicated with metabolic syndrome.",
+  "tags": [
+   "O‐GlcNAcylation",
+   "macrophages",
+   "osteoimmunology",
+   "periodontitis"
+  ],
+  "deep": {
+   "title_zh": "O-GlcNAcylation调控巨噬细胞在牙周炎发病机制中的核心作用",
+   "one_sentence": "O-GlcNAcylation双向调控巨噬细胞极化，糖尿病中异常升高加速牙槽骨丢失。",
+   "question": "营养敏感的翻译后修饰O-GlcNAcylation是否是连接代谢紊乱与牙周巨噬细胞介导的骨免疫破坏的分子枢纽，其如何决定M1/M2极化方向与牙槽骨结局？",
+   "design": "系统综述，梳理O-GlcNAcylation调控巨噬细胞极化与糖尿病相关牙槽骨丢失的机制；摘要未说明检索策略、纳入标准、对照、分组与随访。",
+   "sample_desc": "摘要未说明",
+   "findings": [
+    {
+     "claim": "O-GlcNAcylation是连接代谢紊乱与牙周骨免疫破坏的关键分子枢纽",
+     "evidence": "其效应呈双向、剂量与位点特异性：既可增强M1样促炎反应与破骨细胞生成，也可促进M2样修复表型与牙周骨再生"
+    },
+    {
+     "claim": "糖尿病相关牙周炎中，异常升高的O-GlcNAcylation加速牙槽骨丢失",
+     "evidence": "通过增强炎症信号并抑制骨形成两条方向相反的路径共同促成骨丢失加速"
+    },
+    {
+     "claim": "O-GlcNAcylation为牙周炎（尤其合并代谢综合征者）提供精准免疫代谢治疗的理论基础与转化策略",
+     "evidence": "基于上述双向调控机制的综述性推论；摘要未报告任何干预实验或临床数据"
+    }
+   ],
+   "effect": "未报告",
+   "relation": "q1（新解释：以营养敏感翻译后修饰解释巨噬细胞极化如何决定骨结局）；同时支持q2中糖尿病影响牙周炎的通路证据",
+   "why": "把'代谢状态→翻译后修饰→巨噬细胞极化→骨破坏/修复'串成一条可检验的机制链，使糖尿病-牙周炎共病从相关性描述升级为有分子节点的因果假说，提示OGT/OGA可作为干预靶点",
+   "limitations": [
+    "作者承认的局限：摘要未提及作者承认的任何局限",
+    "我判断：作为综述，摘要未报告检索库、纳入研究数量与质量评价，证据强度与是否存在发表偏倚无法评估",
+    "我判断：双向剂量/位点特异性的具体阈值与修饰位点在摘要中完全未给出，'双向'结论的可操作边界不清，尚不能指导实验分组或临床剂量设计"
+   ],
+   "transferable": "可把'O-GlcNAcylation作为营养敏感的代谢读出指标'搬进q1：在种植体周炎或牙周炎模型中测整体O-GlcNAc水平与OGT/OGA表达，与单细胞/空间转录组得到的M1(MNF)、M2(CD163/CD206)极化谱及破骨细胞模块做关联，检验代谢-免疫耦联；在q2糖尿病-牙周炎研究中，可将己糖胺通路/HBP…",
+   "followups": [
+    "该综述检索了哪些数据库、时间范围与纳入排除标准，共纳入多少篇原始研究？",
+    "牙周组织中糖尿病导致O-GlcNAcylation升高，是OGT上调还是OGA下调所致，有无牙周/种植体周的直接组织证据？",
+    "M1促炎与M2修复的'剂量与位点特异性'分界点具体是哪些修饰位点（如NF-κB p65、STAT1/3）与何种O-GlcNAc水平？"
+   ],
+   "glossary": [
+    {
+     "en": "O-GlcNAcylation",
+     "cn": "O-乙酰葡糖胺糖基化（营养敏感的翻译后修饰）"
+    },
+    {
+     "en": "macrophage polarization",
+     "cn": "巨噬细胞极化"
+    },
+    {
+     "en": "M1/M2",
+     "cn": "M1促炎型/M2修复型巨噬细胞"
+    },
+    {
+     "en": "osteoclastogenesis",
+     "cn": "破骨细胞生成"
+    },
+    {
+     "en": "alveolar bone loss",
+     "cn": "牙槽骨丢失"
+    },
+    {
+     "en": "immuno-metabolic therapy",
+     "cn": "免疫代谢治疗"
+    }
+   ],
+   "reading_minutes": 12,
+   "quality": {
+    "passed": true,
+    "score": 98.0,
+    "judge_score": 85.0,
+    "problems": [
+     "transferable 似乎被截断",
+     "效应量只有占位符",
+     "transferable 中出现的具体标志物（MNF、CD163/CD206、NF-κB p65、STAT1/3）与 OGT/OGA 均非摘要内容，虽以假设/追问形式呈现，但作为'可迁移方案'略显超出摘要证据边界",
+     "design 未说明检索策略与纳入研究数量，证据强度无法评估（卡片已在 limitations 自行指出）"
+    ],
+    "repaired_by": "mimo-v2.6-flash",
+    "attempts": 1
+   }
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1111/odi.70585",
+   "pmid": "43053502",
+   "doi": "10.1111/odi.70585",
+   "title": "The Central Role of O-GlcNAcylation in Regulating Macrophages in the Pathogenesis of Periodontitis",
+   "title_zh": "O-GlcNAcylation调控巨噬细胞在牙周炎发病机制中的核心作用",
+   "journal": "Oral diseases",
+   "date": "2026-11-18",
+   "authors": [
+    "Wang Q",
+    "Wnag X",
+    "Wang Y",
+    "Jiang X"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43053502/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "巨噬细胞极化与代谢重编程",
+   "one_line": "综述聚焦O-GlcNAc修饰双向剂量/位点特异性调控M1/M2极化，连接代谢紊乱与牙周骨吸收",
+   "so_what": "直接回答q1中巨噬细胞极化机制的核心分子节点；O-GlcNAc作为代谢-免疫接口可用于q1和q4的…",
+   "caution": "为综述非原创数据；O-GlcNAc的位点特异性机制仍需实验验证",
+   "score": {
+    "final": 69.9,
+    "match": 85.0,
+    "novelty": 70.0,
+    "rigor": 55.0,
+    "impact": 65.0,
+    "transfer": 80.0
+   },
+   "heuristic": 56.3,
+   "breakdown": {
+    "topic": 30.3,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Periodontitis is a chronic inflammatory disease initiated by dental plaque biofilm, characterized primarily by dysregulated host immune-inflammatory responses and progressive alveolar bone resorption, in which the dynamic M1/M2 polarization of macrophages serves as a pivotal regulatory factor. O-GlcNAcylation is a nutrient-sensitive post translational modification, and the relationship between O-GlcNAcylation and periodontitis needs further elucidation. METHODS: This article systematically reviews recent advances concerning the regulatory role of O-GlcNAcylation in macrophage-mediated periodontitis pathogenesis. Particular emphasis is placed on the bidirectional dose and site-specific effects of O-GlcNAcylation on macrophage polarization. In addition, the molecular mechanisms underlying pathological O-GlcNAcylation-mediated aggravated alveolar bone loss in diabetes-associated periodontitis are summarized. RESULTS: Existing evidence identifies O-GlcNAcylation as a critical molecular hub linking metabolic derangements to periodontal osteoimmune destruction: it either potentiates M1-like pro-inflammatory responses and osteoclastogenesis, or facilitates M2-like reparative phenotypes and periodontal bone regeneration. In diabetes-associated periodontitis, aberrantly elevated O-GlcNAcylation significantly accelerates alveolar bone loss by enhancing inflammatory signaling and suppressing bone formation. CONCLUSION: O-GlcNAcylation lays novel theoretical foundations and translational strategies for precision immuno-metabolic therapy of periodontitis, especially in patients complicated with metabolic syndrome.",
+   "tags": [
+    "O‐GlcNAcylation",
+    "macrophages",
+    "osteoimmunology",
+    "periodontitis"
+   ],
+   "deep": {
+    "title_zh": "O-GlcNAcylation调控巨噬细胞在牙周炎发病机制中的核心作用",
+    "one_sentence": "O-GlcNAcylation双向调控巨噬细胞极化，糖尿病中异常升高加速牙槽骨丢失。",
+    "question": "营养敏感的翻译后修饰O-GlcNAcylation是否是连接代谢紊乱与牙周巨噬细胞介导的骨免疫破坏的分子枢纽，其如何决定M1/M2极化方向与牙槽骨结局？",
+    "design": "系统综述，梳理O-GlcNAcylation调控巨噬细胞极化与糖尿病相关牙槽骨丢失的机制；摘要未说明检索策略、纳入标准、对照、分组与随访。",
+    "sample_desc": "摘要未说明",
+    "findings": [
+     {
+      "claim": "O-GlcNAcylation是连接代谢紊乱与牙周骨免疫破坏的关键分子枢纽",
+      "evidence": "其效应呈双向、剂量与位点特异性：既可增强M1样促炎反应与破骨细胞生成，也可促进M2样修复表型与牙周骨再生"
+     },
+     {
+      "claim": "糖尿病相关牙周炎中，异常升高的O-GlcNAcylation加速牙槽骨丢失",
+      "evidence": "通过增强炎症信号并抑制骨形成两条方向相反的路径共同促成骨丢失加速"
+     },
+     {
+      "claim": "O-GlcNAcylation为牙周炎（尤其合并代谢综合征者）提供精准免疫代谢治疗的理论基础与转化策略",
+      "evidence": "基于上述双向调控机制的综述性推论；摘要未报告任何干预实验或临床数据"
+     }
+    ],
+    "effect": "未报告",
+    "relation": "q1（新解释：以营养敏感翻译后修饰解释巨噬细胞极化如何决定骨结局）；同时支持q2中糖尿病影响牙周炎的通路证据",
+    "why": "把'代谢状态→翻译后修饰→巨噬细胞极化→骨破坏/修复'串成一条可检验的机制链，使糖尿病-牙周炎共病从相关性描述升级为有分子节点的因果假说，提示OGT/OGA可作为干预靶点",
+    "limitations": [
+     "作者承认的局限：摘要未提及作者承认的任何局限",
+     "我判断：作为综述，摘要未报告检索库、纳入研究数量与质量评价，证据强度与是否存在发表偏倚无法评估",
+     "我判断：双向剂量/位点特异性的具体阈值与修饰位点在摘要中完全未给出，'双向'结论的可操作边界不清，尚不能指导实验分组或临床剂量设计"
+    ],
+    "transferable": "可把'O-GlcNAcylation作为营养敏感的代谢读出指标'搬进q1：在种植体周炎或牙周炎模型中测整体O-GlcNAc水平与OGT/OGA表达，与单细胞/空间转录组得到的M1(MNF)、M2(CD163/CD206)极化谱及破骨细胞模块做关联，检验代谢-免疫耦联；在q2糖尿病-牙周炎研究中，可将己糖胺通路/HBP…",
+    "followups": [
+     "该综述检索了哪些数据库、时间范围与纳入排除标准，共纳入多少篇原始研究？",
+     "牙周组织中糖尿病导致O-GlcNAcylation升高，是OGT上调还是OGA下调所致，有无牙周/种植体周的直接组织证据？",
+     "M1促炎与M2修复的'剂量与位点特异性'分界点具体是哪些修饰位点（如NF-κB p65、STAT1/3）与何种O-GlcNAc水平？"
+    ],
+    "glossary": [
+     {
+      "en": "O-GlcNAcylation",
+      "cn": "O-乙酰葡糖胺糖基化（营养敏感的翻译后修饰）"
+     },
+     {
+      "en": "macrophage polarization",
+      "cn": "巨噬细胞极化"
+     },
+     {
+      "en": "M1/M2",
+      "cn": "M1促炎型/M2修复型巨噬细胞"
+     },
+     {
+      "en": "osteoclastogenesis",
+      "cn": "破骨细胞生成"
+     },
+     {
+      "en": "alveolar bone loss",
+      "cn": "牙槽骨丢失"
+     },
+     {
+      "en": "immuno-metabolic therapy",
+      "cn": "免疫代谢治疗"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 98.0,
+     "judge_score": 85.0,
+     "problems": [
+      "transferable 似乎被截断",
+      "效应量只有占位符",
+      "transferable 中出现的具体标志物（MNF、CD163/CD206、NF-κB p65、STAT1/3）与 OGT/OGA 均非摘要内容，虽以假设/追问形式呈现，但作为'可迁移方案'略显超出摘要证据边界",
+      "design 未说明检索策略与纳入研究数量，证据强度无法评估（卡片已在 limitations 自行指出）"
+     ],
+     "repaired_by": "mimo-v2.6-flash",
+     "attempts": 1
+    }
+   }
+  },
+  {
+   "id": "10.1007/s00784-026-07288-7",
+   "pmid": "43049946",
+   "doi": "10.1007/s00784-026-07288-7",
+   "title": "Characterization of mast cell abundance, degranulation-associated phenotype, and MRGPRX2 expression in human dental pulp with irreversible pulpitis: a cross-sectional study",
+   "title_zh": "不可复性牙髓炎人类牙髓中肥大细胞丰度、脱颗粒相关表型及MRGPRX2表达的特征描述：一项横断面研究",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-18",
+   "authors": [
+    "Amponnawarat A",
+    "Tonkittiratanakul P",
+    "Intawattana P",
+    "Kaewyoddee S",
+    "Kamkaewchaipak S"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43049946/",
+   "pmcid": "7867227",
+   "cited_by": 0,
+   "design": "cross_sectional",
+   "design_label": "横断面",
+   "design_level": 3,
+   "sample_n": 20,
+   "sample_note": "n=20 teeth",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "牙髓免疫微环境",
+   "one_line": "横断面研究，IF+流式证实不可逆性牙髓炎中MRGPRX2表达及脱颗粒相关肥大细胞增加",
+   "so_what": "对q1（巨噬细胞极化）的思路可迁移至牙髓免疫研究；肥大细胞-MRGPRX2轴是牙髓-免疫交叉新方向",
+   "caution": "n=20单中心横断面，无法推断因果；流式设门策略未详述",
+   "score": {
+    "final": 46.9,
+    "match": 40.0,
+    "novelty": 55.0,
+    "rigor": 50.0,
+    "impact": 30.0,
+    "transfer": 35.0
+   },
+   "heuristic": 60.2,
+   "breakdown": {
+    "topic": 30.6,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 3.5,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To determine the expression of Mas-related G protein-coupled receptor X2 (MRGPRX2) and degranulation-associated mast cell phenotypes in irreversible pulpitis compared with normal pulp. METHODS: Dental pulp tissues were obtained from 20 teeth with irreversible pulpitis and 20 normal teeth. Ten specimens per group were allocated for histological and immunofluorescence analyses, while the remaining ten were allocated for flow cytometry to quantify leukocytes, mast cells, MRGPRX2 expression, and surface CD63 expression. RESULTS: Histological examination revealed inflammatory cell infiltration and greater mast cell presence in irreversible pulpitis. Immunofluorescence demonstrated tryptase and MRGPRX2 immunoreactivity in inflamed pulp. Flow cytometric analyses showed significantly higher proportions of CD45⁺ leukocytes among viable cells (24.18 ± 12.50% vs. 4.40 ± 1.92%) and FcεRI⁺KIT⁺ mast cells among leukocytes (2.38 ± 1.10% vs. 0.75 ± 0.53%) in irreversible pulpitis compared with normal pulp. The proportion of MRGPRX2-positive mast cells was significantly greater in irreversible pulpitis (37.13 ± 24.63% vs. 12.22 ± 9.47%), as was the proportion of CD63-positive mast cells (50.14 ± 20.95% vs. 15.23 ± 13.59%). Surface CD63 mean fluorescence intensity was also significantly increased. CONCLUSIONS: Irreversible pulpitis is associated with greater relative mast cell abundance, a higher proportion of MRGPRX2-positive mast cells, and increased surface CD63 expression, consistent with a more pronounced degranulation-associated phenotype. CLINICAL RELEVANCE: These findings provide a basis for further investigation of MRGPRX2-associated mast cell responses in pulpal inflammation.",
+   "tags": [
+    "Cell degranulation",
+    "Dental pulp capping",
+    "Dental pulp diseases",
+    "Endodontics",
+    "Mast cells",
+    "Pulpitis"
+   ],
+   "deep": {
+    "title_zh": "不可复性牙髓炎人类牙髓中肥大细胞丰度、脱颗粒相关表型及MRGPRX2表达的特征描述：一项横断面研究",
+    "one_sentence": "不可复性牙髓炎牙髓中MRGPRX2⁺肥大细胞比例升高约3倍、CD63表达显著提升，证实肥大细胞处于更高程度的脱颗粒活化状态。",
+    "question": "不可复性牙髓炎是否通过MRGPRX2通路和脱颗粒表型对肥大细胞进行功能性重编程，从而参与牙髓炎症级联反应？",
+    "design": "横断面病例对照，不可复性牙髓炎组（n=20）vs 正常对照组（n=20），分组为组织学分层（10例组织学/免疫荧光 + 10例流式），无盲法、无随机，单时间点取样，无随访。",
+    "sample_desc": "共40例人牙髓组织；不可复性牙髓炎组20颗患牙（摘要未说明拔除指征如根尖周病/正畸/龋坏深度等）；对照组20颗健康牙（摘要未说明来源：正畸拔除第三磨牙？健康供牙？）",
+    "findings": [
+     {
+      "claim": "不可复性牙髓炎牙髓中CD45⁺白细胞浸润显著增加",
+      "evidence": "24.18 ± 12.50% vs 4.40 ± 1.92%"
+     },
+     {
+      "claim": "不可复性牙髓炎中FcεRI⁺KIT⁺肥大细胞占白细胞比例上升约3倍",
+      "evidence": "2.38 ± 1.10% vs 0.75 ± 0.53%"
+     },
+     {
+      "claim": "MRGPRX2阳性肥大细胞比例显著升高",
+      "evidence": "37.13 ± 24.63% vs 12.22 ± 9.47%"
+     },
+     {
+      "claim": "脱颗粒标志CD63表达显著增强",
+      "evidence": "阳性细胞比例：50.14 ± 20.95% vs 15.23 ± 13.59%；CD63平均荧光强度(MFI)亦显著升高"
+     }
+    ],
+    "effect": "未报告OR/RR/效应量及置信区间，仅给出各组均值±SD的比较结果。",
+    "relation": "q4（生物材料/局部微环境如何'编程'宿主免疫）。本文证明牙髓局部炎症微环境可使肥大细胞向MRGPRX2高表达/高频脱颗粒表型定向重编程，为该通路在其他口腔无菌性或感染性炎症中的作用提供了类比支撑。间接关联q3：肥大细胞可识别微生物产物并释放介质影响菌群生态，形成因果循环的可能。",
+    "why": "MRGPRX2是近年才被广泛关注的肥大细胞模式识别受体，能在不依赖IgE的情况下被多种激动剂（包括神经肽、抗菌肽、部分药物）激活。本文首次在人牙髓不可复性牙髓炎中系统呈现MRGPRX2⁺肥大细胞增多和脱颗粒增加的关联证据，将肥大细胞从'过敏反应者'重新定位为牙髓炎症的关键效应细胞——这一视角转换可直接迁移至牙髓-根尖周病、种植体周炎的机制探讨。",
+    "limitations": [
+     "摘要未报告统计学检验方法（t检验/Mann-Whitney?）、p值或校正策略，也无法判断是否存在多重比较校正；无法评估效应实际显著性。",
+     "横断面设计只能建立关联，不能推断因果方向：是炎症招募了更多MRGPRX2⁺肥大细胞，还是MRGPRX2激活本身驱动了炎症级联？这是本文最大的因果推断缺陷。",
+     "n=20/组偏小，且标准差大（如MRGPRX2阳性率37.13±24.63），个体异质性高；对照组来源不明，若来自正畸拔除的健康第三磨牙，年龄分布可能与患牙组不匹配，引入混杂。"
+    ],
+    "transferable": "['流式设门策略：FcεRI⁺KIT⁺鉴定肥大细胞、CD63表面MFI评估脱颗粒程度——这套panel可直接移植到种植体周炎或牙周炎活检样本的免疫分型实验中。', 'MRGPRX2作为口腔炎症中肥大细胞活化的可选标志物，在牙髓组织、牙周袋上皮、种植体周结合上皮中均可尝试检测其表达谱。', \"本研究的'组织学定性+流式…",
+    "followups": [
+     "MRGPRX2在人牙髓中的主要配体是什么？是否存在细菌来源的MRGPRX2激动剂（如某些菌体成分可模拟神经肽结构）？需要查阅PubMed检索'mast cell MRGPRX2 oral bacteria ligand'。",
+     "文中未报告的p值和统计方法是什么？CD63 MFI的显著性是否经过校正？需要获取原文或联系通讯作者索要数据细节才能完整评价证据强度。",
+     "MRGPRX2激动/阻断在体内能否改变不可复性牙髓炎的进程？是否有动物模型或离体牙培养体系可用此靶点进行干预实验？这是最直接的转化追问。"
+    ],
+    "glossary": [
+     {
+      "en": "MRGPRX2",
+      "cn": "MasRelated G protein-coupled receptor X…"
+     },
+     {
+      "en": "Irreversible pulpitis",
+      "cn": "不可复性牙髓炎，牙髓炎症已超出修复阈值，临床上表现为自发痛、冷热激发痛持续不缓解"
+     },
+     {
+      "en": "CD63",
+      "cn": "四跨膜蛋白(LAMP-3)，存在于肥大细胞分泌颗粒膜上，表面表达升高标志脱颗粒…"
+     },
+     {
+      "en": "FcεRI⁺KIT⁺",
+      "cn": "高亲和力IgE受体α链阳性、c-KIT(CD117)阳性，是肥大细胞的经典表面…"
+     },
+     {
+      "en": "Mean fluorescence intensity (MFI)",
+      "cn": "平均荧光强度，流式细胞术中反映单个细胞表面标志物表达丰度的定量指标"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": 85.0,
+     "problems": [
+      "transferable 似乎被截断",
+      "'首次'的表述摘要无依据，属于超出摘要的断言；'证实'一词过强，摘要仅为关联性描述",
+      "transferable 字段第三条被截断，内容不完整",
+      "relation 中 q3/q4 的关联为作者自行外推，摘要无此内容，应标注为推测"
+     ],
+     "repaired_by": "",
+     "attempts": 0
+    }
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1111/jcpe.70225",
+   "pmid": "43044627",
+   "doi": "10.1111/jcpe.70225",
+   "title": "Concentrated Growth Factor and Non-Cross-Linked Collagen Fleece Improve Palatal Donor-Site Healing and Reduce Post-Operative Morbidity: A Randomised Controlled Clinical Trial",
+   "title_zh": "浓缩生长因子与胶原膜对腭侧供区愈合的RCT对比",
+   "journal": "Journal of clinical periodontology",
+   "date": "2026-11-17",
+   "authors": [
+    "Gül G",
+    "Kırmızıgül ÖA",
+    "Aral K",
+    "Kantarcı A",
+    "Tuzlalı M",
+    "Aral CA"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43044627/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 13,
+   "sample_note": "n=13",
+   "tier": "A",
+   "domain": "材料与生物材料",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "软组织再生与愈合",
+   "one_line": "",
+   "so_what": "q4生物材料\"编程\"愈合反应的核心逻辑可迁移至种植体周软组织封闭研究——供区即天然植入窗口。",
+   "caution": "n=39偏低，长期随访（6月）软组织厚度测量者间变异未报告。",
+   "score": {
+    "final": 46.2,
+    "match": 45.0,
+    "novelty": 45.0,
+    "rigor": 45.0,
+    "impact": 50.0,
+    "transfer": 55.0
+   },
+   "heuristic": 45.0,
+   "breakdown": {
+    "topic": 1.7,
+    "journal": 15.0,
+    "design": 18,
+    "sample": 3.1,
+    "fresh": 5.0,
+    "method": 2.2
+   },
+   "abstract": "AIM: To compare the effects of stabilised concentrated growth factor (CGF) and collagen fleece (CF) on palatal donor-site healing, tissue thickness, pain and quality of life. MATERIALS AND METHODS: Thirty-nine patients undergoing standardised palatal graft harvesting were randomised to CGF, CF or control (gelatine sponge) groups (n = 13 per group), of whom 38 completed the study. All materials were sutured and sealed with oral dressing and tissue adhesive. Palatal soft-tissue thickness (PSTT), modified Manchester scar scale (MSS), wound area, visual analogue scale (VAS), analgesic intake and Oral Health Impact Profile-14 (OHIP-14) were evaluated over 6 months. RESULTS: The CGF group showed greater PSTT at 3 months than the control, and the CF group showed greater PSTT at 1 and 3 months versus baseline (p < 0.05). Both test groups demonstrated faster MSS normalisation (p < 0.05), smaller wound areas at Days 7 and 14 (p < 0.01), lower VAS scores during Days 0-6 (p < 0.05) and greater OHIP-14 improvements at Day 3 (p < 0.001). Analgesic use during Days 4-7 was lower in the CGF group (p = 0.013). CONCLUSIONS: Within the limits of this study, both CGF and CF appeared to enhance early palatal donor-site healing and reduce postoperative morbidity, with faster epithelialisation, smaller wound areas and improved patient-reported outcomes.",
+   "tags": [
+    "collagen fleece",
+    "concentrated growth factor",
+    "palatal wound healing",
+    "postoperative morbidity",
+    "soft tissue graft"
+   ]
+  },
+  {
+   "id": "10.1002/hed.70556",
+   "pmid": "43051928",
+   "doi": "10.1002/hed.70556",
+   "title": "Prognostic Value of Adverse Pathological Features in Early-Stage Oral Cavity Squamous Cell Carcinoma: A Systematic Review and Meta-Analysis",
+   "title_zh": "早期口腔鳞癌不良病理特征的预后Meta分析",
+   "journal": "Head & neck",
+   "date": "2026-11-18",
+   "authors": [
+    "de Castro LCM",
+    "Silva WPS",
+    "Macedo MSR",
+    "de Castro RB",
+    "Pereira-Filho FJF",
+    "Meneses WEF",
+    "Nogueira TNAG",
+    "Matos LL",
+    "Kowalski LP",
+    "da Fonseca MSR",
+    "Filho WA"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43051928/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 674,
+   "sample_note": "n=674 patients",
+   "tier": "B",
+   "domain": "颌面肿瘤与分子机制",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔鳞癌预后与分子机制",
+   "one_line": "Meta分析纳入15674例，证实神经周围浸润（HR=2.23）、WPOI等独立预测淋巴结转移和DFS恶化。",
+   "so_what": "q5肿瘤免疫微环境与微生物组交互——此篇提供预后终点量化基准，可作为自己课题的临床锚点。",
+   "caution": "异质性极高（WPOI定义各研究不一）；多为回顾性混杂偏倚，GRADE未明确报道。",
+   "score": {
+    "final": 39.8,
+    "match": 35.0,
+    "novelty": 25.0,
+    "rigor": 70.0,
+    "impact": 40.0,
+    "transfer": 25.0
+   },
+   "heuristic": 43.2,
+   "breakdown": {
+    "topic": 1.6,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 7.5,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Depth of invasion, perineural invasion, lymphovascular invasion, and worst pattern of invasion (WPOI) increasingly guide management of early-stage oral cavity squamous cell carcinoma (OCSCC), yet their prognostic value across clinically relevant outcomes remains incompletely synthesized. We systematically reviewed and meta-analyzed their association with nodal metastasis, recurrence, and survival. METHODS: MEDLINE, Embase, Scopus, Web of Science, and trial registries were searched for cohort studies of these predictors in surgically treated early-stage OCSCC (T1-T2N0M0). Study quality was assessed and data extracted per PRISMA 2020. Random-effects meta-analyses were performed when outcomes were compatible, with sensitivity analyses restricted to multivariable estimates and to alternative harmonization choices. Certainty of evidence was graded using GRADE. RESULTS: Forty studies (15 674 patients) met inclusion criteria; 30 were meta-analyzed. Perineural invasion was associated with worse disease-free survival (HR: 2.23, 95% CI: 1.80-2.77), recurrence, and nodal metastasis (OR: 4.06, 95% CI: 2.22-7.42). Depth of invasion, lymphovascular invasion, and WPOI were associated with nodal metastasis (ORs 2.92, 3.11, and 5.68, respectively), with widely overlapping confidence intervals across predictors; associations with survival outcomes were imprecise. Certainty of evidence was moderate at best and low or very low for most associations. CONCLUSIONS: Perineural invasion, depth of invasion, lymphovascular invasion, and WPOI were each associated with adverse outcomes in early-stage OCSCC, particularly nodal metastasis. These estimates derive from heterogeneous retrospective studies and do not allow ranking of the predictors against one another. Prospective studies with standardized definitions and adjusted analyses are needed.",
+   "tags": [
+    "depth of invasion",
+    "meta‐analysis",
+    "oral cavity squamous cell carcinoma",
+    "perineural invasion",
+    "prognostic risk stratification"
+   ]
+  },
+  {
+   "id": "10.1186/s40729-026-00719-w",
+   "pmid": "43049992",
+   "doi": "10.1186/s40729-026-00719-w",
+   "title": "Long-term outcomes of staged lateral-window maxillary sinus floor elevation: a 20-year retrospective cohort study",
+   "title_zh": "分期上颌窦提升术20年长期预后回顾性队列",
+   "journal": "International journal of implant dentistry",
+   "date": "2026-11-18",
+   "authors": [
+    "Raabe C",
+    "Chappuis V",
+    "Monje A",
+    "Cafferata EA",
+    "Schwarz F",
+    "Galindo-Moreno P",
+    "Couso-Queiruga E"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43049992/",
+   "pmcid": "12273748",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 63,
+   "sample_note": "n=63 implants",
+   "tier": "B",
+   "domain": "种植与骨再生",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "种植长期存活与骨维持",
+   "one_line": "63颗种植体20年随访，累计存活力95.2%，种植体周黏膜炎发生率高达73.3%",
+   "so_what": "低。对临床实习阶段的预后告知有参考价值，但对q1/q4机制无贡献",
+   "caution": "单中心回顾性，未控制微生物因素，黏膜炎诊断标准未明确",
+   "score": {
+    "final": 35.5,
+    "match": 15.0,
+    "novelty": 40.0,
+    "rigor": 45.0,
+    "impact": 30.0,
+    "transfer": 25.0
+   },
+   "heuristic": 61.2,
+   "breakdown": {
+    "topic": 25.4,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 4.8,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "PURPOSE: To evaluate long-term implant survival, peri-implant and sinus conditions, and hard tissue dimensional changes following staged lateral window maxillary sinus floor elevation (MSFE). METHODS: Adults who underwent staged MSFE followed by placement of tissue-level implants were included. Clinical and radiographic assessments were performed at baseline and at two long-term follow-up examinations. Cone-beam computed tomography (CBCT) scans obtained at a minimum of 10 and 20 years were used to assess alveolar-ridge dimensions, stability of the grafted region, and sinus-related parameters. Associations with patient-, site-, and prosthesis-related variables were analyzed. RESULTS: A total of 63 implants in 40 patients were evaluated after a mean follow-up of 14 and 22 years. The cumulative implant survival was 95.2%. Peri-implant mucositis and peri-implantitis were diagnosed in 73.3% and 8.3% of implants, respectively. Mean alveolar bone height was 4.13 ± 2.33 mm at baseline and 11.15 ± 2.25 mm after 14 years. Between follow-ups, mean reductions in alveolar bone height (-0.22 mm, p 2 mm (12.1-16.7%), and dome-shaped thickenings (5.2-11.7%) were observed. Subtotal sinus opacification related to rhinosinusitis was rare (0-3.3% of cases). CONCLUSIONS: Staged lateral window MSFE demonstrated long-term stability of the grafted area, high implant survival, low peri-implantitis prevalence, favorable clinical and radiographic outcomes, and sinus mucosal conditions within physiological limits. CLINICAL TRIAL NUMBER: Not applicable.",
+   "tags": [
+    "Bone regeneration",
+    "Bone substitutes",
+    "Clinical trial",
+    "Cone-beam computed tomography",
+    "Dental implants",
+    "Peri-implantitis"
+   ]
+  },
+  {
+   "id": "10.1111/eos.70166",
+   "pmid": "43046330",
+   "doi": "10.1111/eos.70166",
+   "title": "A novel wollastonite-modified mineral trioxide aggregate: Effect on mechanical performance and biological stability",
+   "title_zh": "硅灰石改性MTA的材料性能研究",
+   "journal": "European journal of oral sciences",
+   "date": "2026-11-17",
+   "authors": [
+    "Nalbantoglu AM",
+    "Yanık Nalbantoğlu D",
+    "Sancer O"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43046330/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "in_vitro",
+   "design_label": "体外/细胞",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "根管充填材料",
+   "one_line": "5wt%硅灰石掺入MTA提升抗压强度、降低溶解度，L-929显示抗凋亡/氧化应激基因变化",
+   "so_what": "q4参考：材料改性策略可迁移至种植体表面修饰思路",
+   "caution": "体外细胞实验，未触及免疫极化或巨噬细胞表型",
+   "score": {
+    "final": 28.8,
+    "match": 20.0,
+    "novelty": 35.0,
+    "rigor": 55.0,
+    "impact": 15.0,
+    "transfer": 40.0
+   },
+   "heuristic": 22.0,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 7,
+    "sample": 0.0,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "We aimed to evaluate the effect of 5 wt% wollastonite incorporation on the physicochemical/biological properties of mineral trioxide aggregate (MTA), including compressive strength, solubility, surface morphology, elemental composition, crystalline phases, cell migration, and gene expression related to DNA damage, apoptosis, and oxidative stress. MTA and wollastonite-incorporated MTA (MTA-W) were prepared. Compressive strength (ISO-9917-1) and solubility were evaluated (ISO-6876:2012). L-929 cells were exposed to eluates obtained after 2 h/6 h. Cell migration was analyzed using a scratch assay. Gene expression levels of p53, CASP9, Bax, Bcl-2, and SOD1 were quantified by RT-qPCR. Student's t-test and one-way analysis of variance were used. MTA-W (28.94 ± 3.04 MPa) demonstrated significantly higher compressive strength compared to MTA (22.62 ± 3.46 MPa). MTA-W solubility (1.43% ± 0.12%) is significantly lower than MTA (3.03% ± 0.33%). SEM-EDS revealed wollastonite-like particles in MTA-W. X-ray diffraction confirmed the retention of MTA's crystalline phases and detected characteristic wollastonite reflections. In the scratch assay, all groups exhibited significant wound closure at 24 h, with no differences between groups. RT-qPCR revealed no significant differences among groups in the expression levels of p53, CASP9, Bax, Bcl-2, and SOD1. The incorporation of 5 wt% wollastonite into MTA improved compressive strength and reduced solubility without affecting cell migration or gene expression markers associated with DNA damage, apoptosis, and oxidative stress.",
+   "tags": [
+    "cell migration",
+    "compressive strength",
+    "gene expression",
+    "mineral trioxide aggregate",
+    "wollastonite"
+   ]
+  },
+  {
+   "id": "10.1111/joor.70367",
+   "pmid": "43049209",
+   "doi": "10.1111/joor.70367",
+   "title": "RalA-Driven CCN3 Secretion Amplifies Inflammatory Catabolism to Promote Temporomandibular Joint Osteoarthritis",
+   "title_zh": "RalA驱动CCN3分泌促进TMJ骨关节炎的机制",
+   "journal": "Journal of oral rehabilitation",
+   "date": "2026-11-18",
+   "authors": [
+    "Han J",
+    "Wang L",
+    "Guo J",
+    "An Y",
+    "Xue X",
+    "Ma Y",
+    "Wang Y",
+    "He G",
+    "Yuan J"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43049209/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "animal",
+   "design_label": "动物实验",
+   "design_level": 2,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [
+    "multiomics"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "TMJ骨关节炎免疫",
+   "one_line": "小鼠MIA诱导模型+条件性敲除+药理学抑制，发现RalA通过促进CCN3胞外分泌放大炎症分解代谢，驱动TMJOA进展。",
+   "so_what": "直接关联q1。GTPase-囊泡分泌-炎症因子轴的逻辑可用于思考种植体周炎中巨噬细胞极化的上游调控…",
+   "caution": "MIA模型非人类病理；CcN3是否直接作用于破骨/成骨需进一步验证；体外浓度梯…",
+   "score": {
+    "final": 54.9,
+    "match": 72.0,
+    "novelty": 55.0,
+    "rigor": 58.0,
+    "impact": 45.0,
+    "transfer": 65.0
+   },
+   "heuristic": 29.2,
+   "breakdown": {
+    "topic": 2.0,
+    "journal": 10.0,
+    "design": 9,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "BACKGROUND: Temporomandibular joint osteoarthritis (TMJOA) is characterized by progressive cartilage degeneration and inflammatory catabolism, but the mechanisms linking inflammatory stress to extracellular signalling remain poorly understood. RalA is a small GTPase involved in vesicle trafficking and protein secretion, yet its role in TMJOA has not been defined. OBJECTIVE: To determine the role of RalA in TMJOA progression and investigate whether RalA promotes inflammatory and catabolic responses through regulation of extracellular signalling. METHODS: An MIA-induced murine TMJOA model was used to evaluate RalA expression and cartilage degeneration. Chondrocyte-specific RalA deletion, siRNA-mediated RalA knockdown and pharmacological inhibition with RBC8 were used to assess RalA function in vivo and in vitro. Transcriptomic profiling and functional analyses were performed to identify downstream extracellular mediators. CCN3 function was further examined using conditioned-medium assays, neutralizing antibody, recombinant CCN3 supplementation and in vivo rescue experiments. RESULTS: RalA was markedly upregulated in TMJOA cartilage and showed increased spatial overlap with catabolic and inflammatory markers. Chondrocyte-specific RalA deletion and RalA knockdown attenuated inflammatory and catabolic responses and preserved cartilage matrix markers. Transcriptomic analysis identified RalA-associated inflammatory and extracellular matrix-related programmes, and functional prioritization led to the identification of CCN3 as a candidate extracellular mediator. RalA knockdown markedly reduced extracellular CCN3 without consistent suppression of Ccn3 transcription or intracellular CCN3 protein. CCN3 neutralization reduced inflammatory cytokine production, whereas recombinant CCN3 restored inflammatory responses following RalA knockdown. In vivo, RBC8 attenuated MIA-induced cartilage degeneration, while recombinant CCN3 partially reversed these protective effects.",
+   "tags": [
+    "CCN3",
+    "RalA",
+    "chondrocytes",
+    "inflammatory catabolism",
+    "temporomandibular joint osteoarthritis"
+   ]
+  },
+  {
+   "id": "10.1111/jre.70181",
+   "pmid": "43049182",
+   "doi": "10.1111/jre.70181",
+   "title": "Plasma Matrix Metalloproteinase Profiles in Periodontitis-Associated Rheumatoid Arthritis",
+   "title_zh": "牙周炎相关类风湿关节炎患者血浆MMP谱探索性研究",
+   "journal": "Journal of periodontal research",
+   "date": "2026-11-18",
+   "authors": [
+    "Sestak KS",
+    "Mikuls TR",
+    "Sayles HR",
+    "Thiele GM",
+    "Duryee MJ",
+    "Payne JB"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43049182/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙周-全身疾病免疫标记物",
+   "one_line": "探索性研究提示循环MMP-9可能参与牙周炎合并RA的疾病关联，MMP-1与RA状态的关联模式不同",
+   "so_what": "触及q2的跨疾病通路（MMP轴），但仅为信号发现；可用孟德尔随机化或前瞻性队列进一步验证因果方向",
+   "caution": "探索性无对照，n不明确，MMP-9为已知标志物，增量贡献有限",
+   "score": {
+    "final": 43.2,
+    "match": 50.0,
+    "novelty": 35.0,
+    "rigor": 30.0,
+    "impact": 25.0,
+    "transfer": 55.0
+   },
+   "heuristic": 51.2,
+   "breakdown": {
+    "topic": 29.2,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "In this exploratory study, we found that circulating MMP-9 may be involved in the disease relationship in RA patients with comorbid PD. Associations between periodontal measures and plasma MMP-1 may differ according to underlying RA status.",
+   "tags": [
+    "alveolar bone loss",
+    "matrix metalloproteinases",
+    "matrix metalloproteinase‐1",
+    "matrix metalloproteinase‐7",
+    "matrix metalloproteinase‐9",
+    "osteoarthritis"
+   ]
+  },
+  {
+   "id": "10.1159/cre/abuag022",
+   "pmid": "43056483",
+   "doi": "10.1159/cre/abuag022",
+   "title": "Sugar intake and dental caries experience in the first 18 years of life. A birth cohort-study",
+   "title_zh": "生命周期糖摄入与龋病体验的前瞻性队列研究",
+   "journal": "Caries research",
+   "date": "2026-11-19",
+   "authors": [
+    "Carbajal Rodriguez G",
+    "Wolvius E",
+    "Kragt L"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43056483/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 2454,
+   "sample_note": "n=2454 participants",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "儿童口腔与流行病学",
+   "one_line": "Generation R队列证明SSB消费轨迹与青少年期龋病发生呈剂量-反应关系，LCGA识别出高危 trajecto…",
+   "so_what": "q3因果推断思路上有价值——孟德尔随机化外的另一种因果框架可迁移。",
+   "caution": "FFQ自评存在回忆偏差；DMFT反映的是累积损伤而非动态机制。",
+   "score": {
+    "final": 38.4,
+    "match": 25.0,
+    "novelty": 35.0,
+    "rigor": 70.0,
+    "impact": 40.0,
+    "transfer": 15.0
+   },
+   "heuristic": 47.4,
+   "breakdown": {
+    "topic": 7.4,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 8.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "Introduction Sugar-sweetened beverages (SSB) and sugar-rich food have a strong impact on caries development due to their high fermentable sugar content. It is reported that adolescents and young adults are the biggest consumers. This study investigates the association of SSB and sugar-rich food intake with dental caries at ages 14 and 18. SSB trajectories from childhood to young adulthood associated with caries incidence were also examined. Methods This study included 2454 participants (52.8% female) and was embedded in the Generation R Study, a population-based prospective cohort study conducted in Rotterdam. Sugar-rich food and SSB intake were assessed using food frequency questionnaires at ages 8, 14 and 18 years. Intra-oral photographs were used to assess caries experience, described using the decayed, missing, and filled teeth (DMFT) index at ages 14 and 18 years. Cross-sectional associations were examined using hurdle negative binomial regression models. Latent class growth analysis (LCGA) identified SSB intake trajectories, which were then examined with caries incidence from age 14 to age 18 using generalized linear mixed models. Results The proportion of adolescents with a DMFT ≥ 1 increased by 20.2% between ages 14 (32.6%) and 18 (52.8%). At age 14, daily SSB intake was associated with higher odds of having DMFT ≥ 1 (OR 1.34; 95% CI 1.06-1.68). At age 18, daily SSB intake was associated with a higher mean DMFT score (RR 1.23; 95% CI 1.03-1.47). For sugar-rich food, estimates shifted from slightly negative at age 14 to moderate positive at age 18. LCGA identified two SSB trajectories: 'stable-low' and 'moderate-increasing'; participants in the moderate-increasing trajectory showed higher DMFT, although uncertainty remained over the magnitude of the association. Conclusion Daily SSB intake during adolescence was associated with higher rates of dental caries. Associations with sugar-rich food intake and DMFT scores varied across adolescence, whereas higher caries incidence was observed among participants following a moderate-increasing SSB intake trajectory.",
+   "tags": []
+  },
+  {
+   "id": "10.1111/jcpe.70227",
+   "pmid": "43051137",
+   "doi": "10.1111/jcpe.70227",
+   "title": "Clinical Outcomes Following Non-Surgical Periodontal Therapy of Intrabony Defects With Narrow or Wide Radiographic Angle. A Short-Term Retrospective Analysis",
+   "title_zh": "窄/广角骨内缺损非手术牙周治疗的短期预后",
+   "journal": "Journal of clinical periodontology",
+   "date": "2026-11-18",
+   "authors": [
+    "Vincenzo IS",
+    "Andrea B",
+    "Alessandro C",
+    "Lorenzo M",
+    "Luigi N",
+    "Luca R"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43051137/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙周治疗临床结果",
+   "one_line": "短期回顾性队列，49例患者135个骨内缺损，基线缺损角不影响NSPT疗效",
+   "so_what": "仅背景。不涉及免疫机制或宿主反应，对q1/q4无推进",
+   "caution": "n=49，3个月随访过短，宽/深缺损人群缺失限制外推",
+   "score": {
+    "final": 20.6,
+    "match": 20.0,
+    "novelty": 25.0,
+    "rigor": 35.0,
+    "impact": 20.0,
+    "transfer": 15.0
+   },
+   "heuristic": 61.7,
+   "breakdown": {
+    "topic": 25.7,
+    "journal": 15.0,
+    "design": 15,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "AIM: To evaluate the clinical outcomes of non-surgical periodontal therapy (NSPT) in intrabony defects with narrow (< 37°) or wide (≥ 37°) radiographic defect angle (RDA). MATERIAL AND METHODS: Forty-nine patients with 135 defects (61 with RDA 4 mm) intrabony component was performed. The primary outcome was PD change. RESULTS: Clinical parameters significantly improved after 3 months (p 0.05) were found between narrow and wide defects. At 3 months, the mean change of PD was 1.7 ± 2.2 and 2.0 ± 2.2 mm for the narrow and wide defects, respectively. The proportion of pocket closure was 27% and 37.7% for narrow and wide defects, respectively. No statistically significant difference (p > 0.05) was noted. Multilevel regression analysis showed that PD was a negative predictor (OR = 0.675) of pocket closure. CONCLUSIONS: Within the study limitations, these results indicate that NSPT improves clinical outcomes of narrow and wide defects. Baseline RDA did not affect the outcomes of NSPT. Short follow-up and the absence of wide/deep defects represent the major limitation, so the results cannot be generalised to all intrabony defects.",
+   "tags": [
+    "biofilm",
+    "osseous defects",
+    "periodontal pocket",
+    "periodontal therapy",
+    "periodontitis"
+   ]
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 14
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 14
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 14
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 14
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 14
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 14
+  }
+ ],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}

@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-19T10:50:03+08:00",
- "latest": "2026-11-19",
+ "updated_at": "2026-11-20T10:35:45+08:00",
+ "latest": "2026-11-20",
  "days": [
+  {
+   "date": "2026-11-20",
+   "must_title": "The Central Role of O-GlcNAcylation in Regulating Macrophages in the Pathogenesis of Periodontitis",
+   "must_title_zh": "O-GlcNAcylation调控巨噬细胞在牙周炎发病机制中的核心作用",
+   "cluster": "巨噬细胞极化与代谢重编程",
+   "count": 10,
+   "ai": true
+  },
   {
    "date": "2026-11-19",
    "must_title": "Spatial Transcriptomic Analysis Suggests Inflammatory Heterogeneity and Stromal-Epithelial Transcriptional Differences in Peri-Implantitis Tissues",
