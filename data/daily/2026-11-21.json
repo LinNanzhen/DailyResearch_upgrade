@@ -1,0 +1,1017 @@
+{
+ "date": "2026-11-21",
+ "generated_at": "2026-11-21T10:45:01+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 6,
+  "prompt_tokens": 16874,
+  "completion_tokens": 14716
+ },
+ "stats": {
+  "candidates": 187,
+  "raw": 184,
+  "fetched": 27,
+  "raw_dropped_type": 10,
+  "no_abstract": 2,
+  "gated": 27,
+  "scored": 23,
+  "shown": 10,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 6,
+  "quality_failed": 0,
+  "quality_repaired": 1
+ },
+ "must_read": {
+  "id": "10.1002/jper.70206",
+  "pmid": "43062851",
+  "doi": "10.1002/jper.70206",
+  "title": "Long-term radiographic marginal bone level changes around implants placed in periodontally healthy and periodontally compromised patients: A retrospective case series with 17-27 years of follow-up",
+  "title_zh": "牙周健康与牙周受损患者种植体边缘骨水平的17–27年放射学变化：回顾性病例系列",
+  "journal": "Journal of periodontology",
+  "date": "2026-11-20",
+  "authors": [
+   "Giulio R",
+   "Andrea B",
+   "Paolo V",
+   "Leopoldo M",
+   "Giorgia C",
+   "Vincenzo IS",
+   "Luca R"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43062851/",
+  "pmcid": "",
+  "cited_by": 0,
+  "design": "cohort",
+  "design_label": "队列",
+  "design_level": 5,
+  "sample_n": 57,
+  "sample_note": "n=57 implants",
+  "tier": "B",
+  "domain": "牙周与宿主免疫",
+  "methods": [],
+  "pub_types": [
+   "Journal Article"
+  ],
+  "is_open_access": false,
+  "cluster": "种植体周结局",
+  "one_line": "回顾性影像分析（57颗种植体，平均随访19.5年），比较牙周健康vs牙周受损患者的边缘骨水平变化。",
+  "so_what": "为q1（骨结合成败因素）提供长期临床证据框架；方法学上可比照其病例选择与测量标准。",
+  "caution": "回顾性、单中心、样本小；混杂因素控制不足。",
+  "score": {
+   "final": 58.0,
+   "match": 65.0,
+   "novelty": 50.0,
+   "rigor": 45.0,
+   "impact": 50.0,
+   "transfer": 75.0
+  },
+  "heuristic": 59.2,
+  "breakdown": {
+   "topic": 22.5,
+   "journal": 10.0,
+   "design": 15,
+   "sample": 4.7,
+   "fresh": 7.0,
+   "method": 0.0
+  },
+  "abstract": "BACKGROUND: The aim of this retrospective radiographic case series analysis was to assess the marginal bone loss (mBL) of implants placed in periodontally healthy (PHP) and periodontally compromised (PCP) patients after an observation period of at least 17 years. METHODS: A total of 32 patients (16 PHP and 16 PCP) rehabilitated with 57 implants (16 transmucosal and 41 submerged) with a mean follow-up of 19.5 years were selected for the analysis. All data were retrospectively extracted from the Department of Periodontology, University of Naples Federico II, Naples, Italy, and from a Private Practice in Piacenza, Italy. Marginal bone loss (mBL) was set as primary outcome. mBL was calculated by subtracting the radiographic vertical distance from the implant shoulder to the most apical point of crestal bone (IS-CB) at the time of crown insertion from the IS-CB at the follow-up. In addition, setting, implant location, smoking habit, sex, type of prostheses, emergence angle (EA), healing modality (transmucosal/submerged) and presence of marginal misfit were also collected. RESULTS: After a mean follow-up of 19.5 years, implants placed in PHP showed a mean mBL of 0.04 ± 0.69 mm, while around implants placed in PCP the mean mBL was 1.02 ± 1.96 mm. No statistically significant differences between PHP and PCP were found (p > 0.05). On the contrary, the frequency distribution of implants with mBL ≥ 3 mm was significantly different between groups (p < 0.05). Logistic regression analysis did not show a significant correlation between estimated variables and BL ≥ 3 mm. CONCLUSIONS: Within the limitations of present study, the results indicate that past history of periodontitis in patients adhering to SPC may not affect the mBL around implants placed in PCP. However, the limited number of patients at each time point and the low statistical power do not allow for strong conclusions to be drawn. PLAIN LANGUAGE SUMMARY: Dental implants are considered effective for the rehabilitation of edentulous patients in both PHP and PCP with high percentage of survival rate after an observation period up to 17 years. However, limited evidence on mBL around dental implants in PHP and PCP after a mean observation period greater than 15 years was noted. Hence, the objective of the study was to assess the mBL around implants after at least 17 years of follow-up. At different time points a fe",
+  "tags": [
+   "bone loss",
+   "implants",
+   "periodontal therapy",
+   "periodontitis",
+   "submerged healing",
+   "transmucosal healing"
+  ],
+  "deep": {
+   "title_zh": "牙周健康与牙周受损患者种植体边缘骨水平的17–27年放射学变化：回顾性病例系列",
+   "one_sentence": "严格维护下，牙周炎史患者19.5年平均边缘骨丧失与健康者无显著差异，但≥3 mm重度骨丧失比例显著更高",
+   "question": "既往牙周炎患者的种植体在超过17年的尺度上，其边缘骨水平是否比牙周健康者出现更快或更多的骨丧失，以及这种风险是否以'少数种植体发生重度骨丧失'的形式而非'整体平均加速'的形式表现",
+   "design": "回顾性病例系列，比较牙周健康（PHP，16例）与牙周受损（PCP，16例）两组患者，平均随访19.5年，以冠修复时与随访时IS-CB之差为边缘骨丧失（mBL）主要结局",
+   "sample_desc": "32例患者共57枚种植体（16枚黏膜下穿出式、41枚潜入式），来自那不勒斯费德里科二世大学牙周病科与皮亚琴察一所私人诊所；均处于SPT（牙周支持治疗）维护中",
+   "findings": [
+    {
+     "claim": "两组平均mBL无统计学差异",
+     "evidence": "PHP组平均mBL为0.04 ± 0.69 mm，PCP组为1.02 ± 1.96 mm，p > 0.05"
+    },
+    {
+     "claim": "两组发生重度骨丧失（mBL ≥ 3 mm）的种植体频率分布存在显著差异",
+     "evidence": "mBL ≥ 3 mm的种植体频率分布在两组间差异显著，p < 0.05；具体各组计数摘要未给出"
+    },
+    {
+     "claim": "所收集的协变量与重度骨丧失无显著关联",
+     "evidence": "以mBL ≥ 3 mm为因变量的Logistic回归未发现设置、种植部位、吸烟、性别、修复体类型、穿龈角度、愈合方式、边缘微间隙等变量与之显著相关"
+    },
+    {
+     "claim": "作者结论：在坚持SPT的患者中，既往牙周炎史可能不影响种植体周围mBL",
+     "evidence": "基于上述平均值无差异的结果，但作者自述各时间点患者数有限、统计效力低，不足以得出强结论"
+    }
+   ],
+   "effect": "未报告（仅给出两组均值与标准差及p值方向，无效应量与置信区间）",
+   "relation": "与q1部分相关：为'牙周炎史是否决定种植体骨结合长期结局'提供临床层面的长期结局证据，但完全不涉及巨噬细胞、NETs、IL-1β等机制，属于q1的表型端而非机制端；对q3也只是间接背景（SPT维护可否抹平既往牙周炎的远期代价）",
+   "why": "它改变的是风险表述方式：既往牙周炎的长期代价可能不是平均骨丧失的普遍加速，而是尾部风险（少数种植体≥3 mm）的升高；这提示随访与统计设计应针对重度事件的分布而非均值。对临床决策，它把讨论焦点从'能不能种'转向'维护依从性下尾部风险如何监控'",
+   "limitations": [
+    "作者承认：各时间点患者数有限、统计效力低，不能得出强结论（结论段明确自述）",
+    "样本极小（16 vs 16例）却检验多协变量的Logistic回归，事件数与变量数不匹配，无显著关联很可能是功效不足而非真无关联；且摘要未报告mBL≥3 mm的具体例数，尾部风险差异的绝对幅度无法核实",
+    "摘要未说明盲法、影像类型与观测者信息，mBL为回顾性提取的放射学测量，测量误差与选择偏倚（仅纳入有长期随访片的患者）无法评估——本条仅指出摘要未提供相关方法学信息，不作确定性断言"
+   ],
+   "transferable": "'关注尾部事件分布而非均值'的分析思路可直接搬到q1的种植体周炎转归研究：以mBL≥3 mm、种植体周炎发病等二分类/事件结局为主分析，用均值作次要；'冠修复时为基线、随访复测同一放射学距离（IS-CB）'的纵向mBL量化口径可复用；Logistic回归前先核对事件数与协变量数的比例",
+   "followups": [
+    "该文中mBL≥3 mm的种植体在PHP与PCP组各有多少枚、随各时间点如何变化？（摘要未给出计数，需查正文表格）",
+    "Logistic回归纳入了几个变量、发生了多少例mBL≥3 mm事件？其功效是否足以支持'无关联'的表述？",
+    "两组患者在吸烟、修复体类型、穿龈角度、愈合方式等基线协变量上是否均衡？若不均衡，均值无差异是否被混杂抵消？"
+   ],
+   "glossary": [
+    {
+     "en": "marginal bone loss (mBL)",
+     "cn": "边缘骨丧失"
+    },
+    {
+     "en": "implant shoulder to crestal bone (IS-CB)",
+     "cn": "种植体肩台至牙槽嵴顶的距离"
+    },
+    {
+     "en": "periodontally compromised patients (PCP)",
+     "cn": "牙周受损（既往牙周炎）患者"
+    },
+    {
+     "en": "supportive periodontal therapy (SPT)",
+     "cn": "牙周支持治疗"
+    },
+    {
+     "en": "transmucosal / submerged healing",
+     "cn": "黏膜下穿出式 / 潜入式愈合"
+    },
+    {
+     "en": "emergence angle (EA)",
+     "cn": "穿龈角度"
+    }
+   ],
+   "reading_minutes": 12,
+   "quality": {
+    "passed": true,
+    "score": 100.0,
+    "judge_score": 90.0,
+    "problems": [],
+    "repaired_by": "mimo-v2.6-flash",
+    "attempts": 1
+   }
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1002/jper.70206",
+   "pmid": "43062851",
+   "doi": "10.1002/jper.70206",
+   "title": "Long-term radiographic marginal bone level changes around implants placed in periodontally healthy and periodontally compromised patients: A retrospective case series with 17-27 years of follow-up",
+   "title_zh": "牙周健康与牙周受损患者种植体边缘骨水平的17–27年放射学变化：回顾性病例系列",
+   "journal": "Journal of periodontology",
+   "date": "2026-11-20",
+   "authors": [
+    "Giulio R",
+    "Andrea B",
+    "Paolo V",
+    "Leopoldo M",
+    "Giorgia C",
+    "Vincenzo IS",
+    "Luca R"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43062851/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 57,
+   "sample_note": "n=57 implants",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "种植体周结局",
+   "one_line": "回顾性影像分析（57颗种植体，平均随访19.5年），比较牙周健康vs牙周受损患者的边缘骨水平变化。",
+   "so_what": "为q1（骨结合成败因素）提供长期临床证据框架；方法学上可比照其病例选择与测量标准。",
+   "caution": "回顾性、单中心、样本小；混杂因素控制不足。",
+   "score": {
+    "final": 58.0,
+    "match": 65.0,
+    "novelty": 50.0,
+    "rigor": 45.0,
+    "impact": 50.0,
+    "transfer": 75.0
+   },
+   "heuristic": 59.2,
+   "breakdown": {
+    "topic": 22.5,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 4.7,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: The aim of this retrospective radiographic case series analysis was to assess the marginal bone loss (mBL) of implants placed in periodontally healthy (PHP) and periodontally compromised (PCP) patients after an observation period of at least 17 years. METHODS: A total of 32 patients (16 PHP and 16 PCP) rehabilitated with 57 implants (16 transmucosal and 41 submerged) with a mean follow-up of 19.5 years were selected for the analysis. All data were retrospectively extracted from the Department of Periodontology, University of Naples Federico II, Naples, Italy, and from a Private Practice in Piacenza, Italy. Marginal bone loss (mBL) was set as primary outcome. mBL was calculated by subtracting the radiographic vertical distance from the implant shoulder to the most apical point of crestal bone (IS-CB) at the time of crown insertion from the IS-CB at the follow-up. In addition, setting, implant location, smoking habit, sex, type of prostheses, emergence angle (EA), healing modality (transmucosal/submerged) and presence of marginal misfit were also collected. RESULTS: After a mean follow-up of 19.5 years, implants placed in PHP showed a mean mBL of 0.04 ± 0.69 mm, while around implants placed in PCP the mean mBL was 1.02 ± 1.96 mm. No statistically significant differences between PHP and PCP were found (p > 0.05). On the contrary, the frequency distribution of implants with mBL ≥ 3 mm was significantly different between groups (p < 0.05). Logistic regression analysis did not show a significant correlation between estimated variables and BL ≥ 3 mm. CONCLUSIONS: Within the limitations of present study, the results indicate that past history of periodontitis in patients adhering to SPC may not affect the mBL around implants placed in PCP. However, the limited number of patients at each time point and the low statistical power do not allow for strong conclusions to be drawn. PLAIN LANGUAGE SUMMARY: Dental implants are considered effective for the rehabilitation of edentulous patients in both PHP and PCP with high percentage of survival rate after an observation period up to 17 years. However, limited evidence on mBL around dental implants in PHP and PCP after a mean observation period greater than 15 years was noted. Hence, the objective of the study was to assess the mBL around implants after at least 17 years of follow-up. At different time points a fe",
+   "tags": [
+    "bone loss",
+    "implants",
+    "periodontal therapy",
+    "periodontitis",
+    "submerged healing",
+    "transmucosal healing"
+   ],
+   "deep": {
+    "title_zh": "牙周健康与牙周受损患者种植体边缘骨水平的17–27年放射学变化：回顾性病例系列",
+    "one_sentence": "严格维护下，牙周炎史患者19.5年平均边缘骨丧失与健康者无显著差异，但≥3 mm重度骨丧失比例显著更高",
+    "question": "既往牙周炎患者的种植体在超过17年的尺度上，其边缘骨水平是否比牙周健康者出现更快或更多的骨丧失，以及这种风险是否以'少数种植体发生重度骨丧失'的形式而非'整体平均加速'的形式表现",
+    "design": "回顾性病例系列，比较牙周健康（PHP，16例）与牙周受损（PCP，16例）两组患者，平均随访19.5年，以冠修复时与随访时IS-CB之差为边缘骨丧失（mBL）主要结局",
+    "sample_desc": "32例患者共57枚种植体（16枚黏膜下穿出式、41枚潜入式），来自那不勒斯费德里科二世大学牙周病科与皮亚琴察一所私人诊所；均处于SPT（牙周支持治疗）维护中",
+    "findings": [
+     {
+      "claim": "两组平均mBL无统计学差异",
+      "evidence": "PHP组平均mBL为0.04 ± 0.69 mm，PCP组为1.02 ± 1.96 mm，p > 0.05"
+     },
+     {
+      "claim": "两组发生重度骨丧失（mBL ≥ 3 mm）的种植体频率分布存在显著差异",
+      "evidence": "mBL ≥ 3 mm的种植体频率分布在两组间差异显著，p < 0.05；具体各组计数摘要未给出"
+     },
+     {
+      "claim": "所收集的协变量与重度骨丧失无显著关联",
+      "evidence": "以mBL ≥ 3 mm为因变量的Logistic回归未发现设置、种植部位、吸烟、性别、修复体类型、穿龈角度、愈合方式、边缘微间隙等变量与之显著相关"
+     },
+     {
+      "claim": "作者结论：在坚持SPT的患者中，既往牙周炎史可能不影响种植体周围mBL",
+      "evidence": "基于上述平均值无差异的结果，但作者自述各时间点患者数有限、统计效力低，不足以得出强结论"
+     }
+    ],
+    "effect": "未报告（仅给出两组均值与标准差及p值方向，无效应量与置信区间）",
+    "relation": "与q1部分相关：为'牙周炎史是否决定种植体骨结合长期结局'提供临床层面的长期结局证据，但完全不涉及巨噬细胞、NETs、IL-1β等机制，属于q1的表型端而非机制端；对q3也只是间接背景（SPT维护可否抹平既往牙周炎的远期代价）",
+    "why": "它改变的是风险表述方式：既往牙周炎的长期代价可能不是平均骨丧失的普遍加速，而是尾部风险（少数种植体≥3 mm）的升高；这提示随访与统计设计应针对重度事件的分布而非均值。对临床决策，它把讨论焦点从'能不能种'转向'维护依从性下尾部风险如何监控'",
+    "limitations": [
+     "作者承认：各时间点患者数有限、统计效力低，不能得出强结论（结论段明确自述）",
+     "样本极小（16 vs 16例）却检验多协变量的Logistic回归，事件数与变量数不匹配，无显著关联很可能是功效不足而非真无关联；且摘要未报告mBL≥3 mm的具体例数，尾部风险差异的绝对幅度无法核实",
+     "摘要未说明盲法、影像类型与观测者信息，mBL为回顾性提取的放射学测量，测量误差与选择偏倚（仅纳入有长期随访片的患者）无法评估——本条仅指出摘要未提供相关方法学信息，不作确定性断言"
+    ],
+    "transferable": "'关注尾部事件分布而非均值'的分析思路可直接搬到q1的种植体周炎转归研究：以mBL≥3 mm、种植体周炎发病等二分类/事件结局为主分析，用均值作次要；'冠修复时为基线、随访复测同一放射学距离（IS-CB）'的纵向mBL量化口径可复用；Logistic回归前先核对事件数与协变量数的比例",
+    "followups": [
+     "该文中mBL≥3 mm的种植体在PHP与PCP组各有多少枚、随各时间点如何变化？（摘要未给出计数，需查正文表格）",
+     "Logistic回归纳入了几个变量、发生了多少例mBL≥3 mm事件？其功效是否足以支持'无关联'的表述？",
+     "两组患者在吸烟、修复体类型、穿龈角度、愈合方式等基线协变量上是否均衡？若不均衡，均值无差异是否被混杂抵消？"
+    ],
+    "glossary": [
+     {
+      "en": "marginal bone loss (mBL)",
+      "cn": "边缘骨丧失"
+     },
+     {
+      "en": "implant shoulder to crestal bone (IS-CB)",
+      "cn": "种植体肩台至牙槽嵴顶的距离"
+     },
+     {
+      "en": "periodontally compromised patients (PCP)",
+      "cn": "牙周受损（既往牙周炎）患者"
+     },
+     {
+      "en": "supportive periodontal therapy (SPT)",
+      "cn": "牙周支持治疗"
+     },
+     {
+      "en": "transmucosal / submerged healing",
+      "cn": "黏膜下穿出式 / 潜入式愈合"
+     },
+     {
+      "en": "emergence angle (EA)",
+      "cn": "穿龈角度"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": 90.0,
+     "problems": [],
+     "repaired_by": "mimo-v2.6-flash",
+     "attempts": 1
+    }
+   }
+  },
+  {
+   "id": "10.1007/s00784-026-07284-x",
+   "pmid": "43058324",
+   "doi": "10.1007/s00784-026-07284-x",
+   "title": "Streptococcus mutans serotypes and collagen-binding genes related to early childhood caries severity",
+   "title_zh": "变形链球菌血清型与胶原结合基因在儿童早期龋严重程度中的关联",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-20",
+   "authors": [
+    "de Maria Araújo Miranda M",
+    "Muniz FWMG",
+    "Regis WFM",
+    "Rocha FR",
+    "da Silva Bezerra D",
+    "de Figueiredo Guedes SF",
+    "Rodrigues LKA",
+    "Neves BG"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43058324/",
+   "pmcid": "8364507",
+   "cited_by": 0,
+   "design": "cross_sectional",
+   "design_label": "横断面",
+   "design_level": 3,
+   "sample_n": 69,
+   "sample_note": "n=69",
+   "tier": "B",
+   "domain": "口腔微生物组",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "口腔微生物组",
+   "one_line": "横断面PCR检测（n=69）显示S.mutans血清型c最常见，龋齿牙本质更富集血清型f/k和cnm/cbm基因。",
+   "so_what": "分子分型策略可直接借用于q3（微生物组作为因果vs标志物），致病基因关联提供机制线索。",
+   "caution": "横断面无法推断因果关系；样本量中等且来自巴西单一人群。",
+   "score": {
+    "final": 54.1,
+    "match": 55.0,
+    "novelty": 50.0,
+    "rigor": 50.0,
+    "impact": 35.0,
+    "transfer": 65.0
+   },
+   "heuristic": 62.5,
+   "breakdown": {
+    "topic": 30.6,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 4.9,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To assess the occurrence of S. mutans serotypes (c, e, f, and k) and collagen-binding genes (cnm/cbm) in biofilm from caries-free children and in biofilm and carious dentin from children with different severities of early childhood caries (ECC). MATERIALS AND METHODS: This cross-sectional study analyzed biofilm (n = 69) and carious dentin (n = 38) samples from 80 Brazilian children. S. mutans serotypes and cnm/cbm genes were detected by PCR using species and gene-specific primers. Associations were evaluated using crude (unadjusted) bivariable logistic regression, with Benjamini-Hochberg false-discovery-rate (FDR) correction applied within each analysis. RESULTS: Serotype c was the most frequently detected in biofilm (47.8%) and in carious dentin samples (55.3%). Multiple serotypes occurred exclusively in samples of children with dentin caries. Compared with biofilm from children with dentin lesions, carious dentin lesions were significantly more likely to harbor serotypes f (OR = 6.75; 95%CI: 1.99-22.92) and k (OR = 4.89; 95%CI: 1.43-16.73). Regarding collagen-binding genes, only the cbm gene was detected, occurring in 55.3% of dentin and 4.3% of biofilm samples, and showing a strong association with dentin lesions (OR = 12.77; 95%CI: 3.32-49.07). All three associations were significant after FDR correction. CONCLUSIONS S. MUTANS: serotypes f and k and the cbm gene were associated with carious dentin in primary teeth. CLINICAL RELEVANCE: The higher occurrence of S. mutans serotypes f and k and the collagen-binding cbm gene in dentin caries lesions compared with biofilm samples indicates that these molecular findings may represent candidate markers of ECC severity.",
+   "tags": [
+    "Streptococcus mutans",
+    "biofilm",
+    "collagen-binding genes",
+    "dental caries",
+    "dentin",
+    "serotypes"
+   ],
+   "deep": {
+    "title_zh": "变形链球菌血清型与胶原结合基因在儿童早期龋严重程度中的关联",
+    "one_sentence": "S. mutans血清型f/k和cbm基因显著富集于牙本质龋损而非菌斑，提示可作为ECC严重程度的候选分子标志物。",
+    "question": "口腔致龋微生物的特定分子特征（血清型+粘附基因）能否区分龋损深度？是单纯相关性还是具有临床预警价值？",
+    "design": "横断面研究，比较龋齿儿童的不同样本类型（无龋菌斑/有龋菌斑/牙本质龋），无干预、无对照随访设计",
+    "sample_desc": "80名巴西儿童，菌斑样本n=69，牙本质龋样本n=38",
+    "findings": [
+     {
+      "claim": "血清型c是最常见血清型",
+      "evidence": "菌斑中检出率47.8%，牙本质龋中55.3%"
+     },
+     {
+      "claim": "多种血清型仅出现在牙本质龋损",
+      "evidence": "仅在dentinal caries样本中检测到多重血清型"
+     },
+     {
+      "claim": "血清型f/k与牙本质龋正相关",
+      "evidence": "serotype f OR=6.75(95%CI:1.99-22.92); serotype k OR=4.89(95%CI:1.43-16.73)"
+     },
+     {
+      "claim": "cbm基因强关联牙本质龋",
+      "evidence": "牙本质龋中检出率55.3%，菌斑中仅4.3%，OR=12.77(95%CI:3.32-49.07)，经FDR校正后仍显著"
+     }
+    ],
+    "effect": "关键效应量：cbm基因OR=12.77(95%CI:3.32-49.07)；血清型f OR=6.75(95%CI:1.99-22.92)；血清型k OR=4.89(95%CI:1.43-16.73)",
+    "relation": "q3直接相关——关于口腔微生物组失衡与疾病的关系。本研究提供证据支持特定S. mutans血清型和结痂基因可以区分龋损严重程度，从\"是什么\"推进到\"哪些分子特征对应更严重的龋损\"，但未验证因果方向。",
+    "why": "首次系统报告S. mutans血清型f/k和cbm基因在牙本质龋损中的特异性富集，将分子特征与临床严重程度建立了可检验的关联，为ECC的分子分型提供了候选标志物。",
+    "limitations": [
+     "横断面设计无法推断因果方向——是这些血清型导致更深龋损，还是深龋环境选择了这些血清型？摘要未说明",
+     "样本来源单一（巴西），其他人群的普适性未知；摘要未说明",
+     "未检测其他潜在致病因素（如饮食、宿主免疫状态）对结果的混杂影响"
+    ],
+    "transferable": "PCR检测特定细菌血清型和功能基因+临床表型关联的设计思路可直接迁移到牙周炎或龋病的分子分型研究；Benjamini-Hochberg FDR校正方法适用于多指标筛查场景",
+    "followups": [
+     "血清型f/k和cbm基因在其他人群（非巴西）中是否同样富集于牙本质龋？需检索多中心横断面研究验证",
+     "这些分子标志物能否在菌斑阶段预测未来牙本质龋的发生？需前瞻性队列研究追踪",
+     "cbm基因编码的胶原蛋白结合蛋白在S. mutans致龋机制中的功能如何？需体外实验或动物模型验证其生物学作用"
+    ],
+    "glossary": [
+     {
+      "en": "early childhood caries (ECC)",
+      "cn": "儿童早期龋"
+     },
+     {
+      "en": "S. mutans",
+      "cn": "变形链球菌"
+     },
+     {
+      "en": "serotype",
+      "cn": "血清型"
+     },
+     {
+      "en": "cbm gene",
+      "cn": "胶原蛋白结合基因"
+     },
+     {
+      "en": "cnm gene",
+      "cn": "神经氨酸酶依赖性黏附素基因"
+     },
+     {
+      "en": "cross-sectional study",
+      "cn": "横断面研究"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": 85.0,
+     "problems": [
+      "'why'中'首次系统报告'为摘要未支持的外推表述，应弱化为'据摘要所示'类措辞",
+      "'relation'中'结痂基因'为'胶原结合基因'的笔误，易误导读者"
+     ],
+     "repaired_by": "",
+     "attempts": 0
+    }
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1111/odi.70572",
+   "pmid": "43053277",
+   "doi": "10.1111/odi.70572",
+   "title": "Prevalence of Geographic Tongue in Children and Adolescents. A Systematic Review and Meta-Analysis",
+   "title_zh": null,
+   "journal": "Oral diseases",
+   "date": "2026-11-18",
+   "authors": [
+    "Fernanz-Vigil A",
+    "García-Pola M",
+    "Pérez-de-Marziani M",
+    "Prieto-González C",
+    "Rodríguez-López S"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43053277/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 11409,
+   "sample_note": "11409 项研究",
+   "tier": "B",
+   "domain": "儿童口腔与预防",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "儿童口腔与预防",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 40.0
+   },
+   "heuristic": 47.1,
+   "breakdown": {
+    "topic": 6.1,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 8.0,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVE: To conduct a systematic review and meta-analysis of worldwide prevalence of geographic tongue (GT) in healthy children and adolescents. METHODS: A search was conducted in five main databases (MEDLINE, Web of Science, Scopus, Embase, and Global Index Medicus), two gray literature sources (ProQuest and Google Scholar), and hand search up to August 31, 2025, for studies related to GT in subjects up to 19 years of age. Risk of bias and quality of evidence were assessed using the Joanna Briggs and GRADE tools, respectively. Meta-regression was performed for sex, mean age, and risk of bias. RESULTS: From 11,409 studies, a total of 74 samples were included in the meta-analysis. The sample size was 236,928 (range: 44-70,359). The overall prevalence of GT was 2.97% (95% CI = 2.38-3.61). There were statistically significant differences between geographical areas (p = 0.0182) being the highest prevalence rates in Europe (4.37%). Prevalence was also statistically significantly higher in studies where sample sizes were smaller than 891 (3.72%, p = 0.0163). Other subgroups Observational analyzed did not reveal significant variation. CONCLUSIONS: The global prevalence in children and adolescents is like that reported in previous literature for adults, although there were differences in the comparison of prevalence rates depending on regional variations.",
+   "tags": [
+    "adolescents",
+    "child",
+    "geographic tongue",
+    "glossitis migratory benign",
+    "meta‐analysis",
+    "systematic review"
+   ]
+  },
+  {
+   "id": "10.1016/j.oraloncology.2026.108237",
+   "pmid": "43057067",
+   "doi": "10.1016/j.oraloncology.2026.108237",
+   "title": "Standardization and pitfalls of iENE in head and neck squamous cell carcinoma: Optimizing diagnostic accuracy, prognostic staging and treatment selection",
+   "title_zh": null,
+   "journal": "Oral oncology",
+   "date": "2026-11-19",
+   "authors": [
+    "De Felice F",
+    "Goanta L",
+    "Marchi F",
+    "Succo G",
+    "Maroldi R",
+    "Sanguineti G"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43057067/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "颌面肿瘤与分子机制",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "颌面肿瘤与分子机制",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 35.9
+   },
+   "heuristic": 42.2,
+   "breakdown": {
+    "topic": 15.2,
+    "journal": 15.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "Extranodal extension (ENE) represents the cornerstone of adverse nodal staging in head and neck squamous cell carcinoma (HNSCC). While pathological ENE (pENE) is the historical benchmark, the clinical push toward non-surgical primary organ preservation and surgical de-escalation has forced reliance on imaging-derived ENE (iENE). However, applying iENE to clinical decision-making introduces significant methodological and clinical dilemmas. Inspired by recent insights from radiotherapy de-intensification trials in oncology, where \"less is not simple\" and non-superiority is frequently misconstrued as non-inferiority, this critical review evaluates the evolution of iENE. We critically analyze the transition from unstandardized radiological reporting - \"the pre-consensus era\" - to international consensus frameworks - \"the standardized reporting era\" -, dissect the trade-offs between sensitivity, specificity, and disease prevalence and evaluate the incorporation of iENE into the 9th Edition UICC/AJCC TNM staging system. Ultimately, we distinguish the utility of iENE across three distinct clinical objectives: identifying pathological ENE, predicting oncological outcomes for staging and selecting patients for surgery versus chemoradiotherapy.",
+   "tags": [
+    "Clinical decision-making",
+    "De-intensification",
+    "HPV",
+    "Head and neck cancer",
+    "Immunotherapy",
+    "Pathological"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107178",
+   "pmid": "43057510",
+   "doi": "10.1016/j.jdent.2026.107178",
+   "title": "Influence of Composition and Microstructure on the Cellular Response of Experimental Bioactive Materials for Vital Pulp Therapy",
+   "title_zh": "根管治疗活性材料的成分与微观结构对细胞反应的影响",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-19",
+   "authors": [
+    "Barbosa CGC",
+    "Ribeiro Dos Santos Borges V",
+    "Vieira MN",
+    "Torres CRG",
+    "de Vasconcellos LMR",
+    "Valera MC"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43057510/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "in_vitro",
+   "design_label": "体外/细胞",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙体牙髓材料",
+   "one_line": "体外比较MTA、MTAvpt和IRAP三种封根材料的理化性质及L929细胞相容性，材料组成差异不影响细胞活力。",
+   "so_what": "仅作为材料选择的背景参考；未触及免疫编程或组织再生的机制。",
+   "caution": "体外高浓度提取物+单一细胞系；无法反映体内复杂免疫微环境。",
+   "score": {
+    "final": 28.8,
+    "match": 35.0,
+    "novelty": 20.0,
+    "rigor": 25.0,
+    "impact": 15.0,
+    "transfer": 30.0
+   },
+   "heuristic": 34.2,
+   "breakdown": {
+    "topic": 11.2,
+    "journal": 10.0,
+    "design": 7,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "UNLABELLED: Preservation of pulp vitality depends on maintaining an aseptic barrier and on biomaterials providing physicochemical stability, bioactivity, and a biological response compatible with tissue repair. OBJECTIVES: This study characterized the structural, morphological, and granulometric properties of MTA (Aggregate Mineral Trioxide, Angelus, Londrina, Brazil), used as the commercial reference, MTAvpt (Aggregate Mineral Trioxide Vital Pulp Therapy, VOCO, Cuxhaven, Germany) and IRAP (Ion Releasing Aqueous Paste, Shofu Dental Corporation, Kyoto, Japan), indicated for direct pulp capping. MTA (Aggregate Mineral Trioxide, Angelus, Londrina, Brazil) was used as the commercial reference. In vitro biological response was evaluated using L929 fibroblasts. METHODS: Materials were characterized before (P - powder) and after setting (C - cement) by X-ray diffraction, Fourier-transform infrared spectroscopy, scanning electron microscopy, and particle size analysis. Cell viability and proliferation were evaluated in vitro using L929 fibroblasts exposed to material extracts. RESULTS: MTA-P and MTAvpt-P showed characteristics consistent with calcium silicate-based cements, although MTAvpt-P exhibited distinct structural and granulometric features. IRAP-C showed distinct behavior, with a predominantly amorphous character and bands compatible with borate units. Extracts from MTAvpt-C and IRAP-C did not exhibit cytotoxic effects on L929 fibroblasts, maintaining cell viability above 70% of control. MTAvpt-C showed the most favorable viability and proliferation, suggesting promising potential for vital pulp therapies. IRAP-C exhibited distinct biological behavior, indicating the need for further studies to clarify its balance between bioactivity, ion release, and stability. SIGNIFICANCE: Compositional and microstructural differences may modulate cellular response. MTAvpt showed more favorable biological behavior, although further studies are needed to confirm its potential for vital pulp therapies.",
+   "tags": [
+    "Direct pulp capping",
+    "L929 fibroblasts",
+    "MTA",
+    "bioceramic cement",
+    "calcium silicate",
+    "cytocompatibility"
+   ]
+  },
+  {
+   "id": "10.1111/clr.70204",
+   "pmid": "43052001",
+   "doi": "10.1111/clr.70204",
+   "title": "Clinical, Patient, and Operator Evaluation of Intraoral Photogrammetry Versus Conventional Impression in Complete-Arch Implant Prostheses: A Pilot Randomized Controlled Trial",
+   "title_zh": "口内光测景与传统印模在全弓种植修复中的准确性对比",
+   "journal": "Clinical oral implants research",
+   "date": "2026-11-18",
+   "authors": [
+    "Huang ZL",
+    "Fu XJ",
+    "Sun C",
+    "Qian SJ",
+    "Lai HC",
+    "Liu BL",
+    "Shi JY"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43052001/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 17,
+   "sample_note": "n=17 patients",
+   "tier": "B",
+   "domain": "种植与骨再生",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "数字化修复技术",
+   "one_line": "pilot RCT（n=17），口内光测景在被动就位和精度上与常规印模相当，为非劣效。",
+   "so_what": "技术问题偏工程向，对机制研究和临床决策贡献甚微；q1-q5均不涉及。",
+   "caution": "样本极小（pilot级别），不足以得出确凿临床建议。",
+   "score": {
+    "final": 23.4,
+    "match": 20.0,
+    "novelty": 50.0,
+    "rigor": 55.0,
+    "impact": 25.0,
+    "transfer": 15.0
+   },
+   "heuristic": 48.5,
+   "breakdown": {
+    "topic": 9.9,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 3.3,
+    "fresh": 5.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVES: To compare the passive fit, accuracy discrepancy, patient-reported outcomes, and operator assessment between intraoral photogrammetry (IPG) and conventional impression (CI) for complete-arch implant-supported prostheses. MATERIALS AND METHODS: Patients requiring complete-arch implant-supported prostheses were recruited. Each arch received both IPG and CI and was randomly assigned to one of two groups; a titanium framework was fabricated accordingly. The primary outcome was the passive fit of the framework. Secondary outcomes included accuracy discrepancies (RMS errors, distance errors, angle errors), patient-reported outcomes, and operator assessments. RESULTS: A total of 26 arches (13 in each group) from 17 patients were included. IPG was non-inferior to CI for passive fit score (adjusted between-group difference: 95% CI, -0.74-0.55; p = 0.003), including alternate finger pressure test (0/13 vs. 0/13), Sheffield test (4/13 vs. 5/13), marginal fit with all screws tightened (1/13 vs. 0/13), panoramic radiographic assessment (4/13 vs. 2/13), and screw resistance test (1/13 vs. 2/13). The RMS error, distance deviations, and angle deviation between IPG and CI were 31.50 ± 10.36 μm, 41.90 μm (IQR: 50.00 μm), and 0.19° (IQR: 0.24°), respectively. Patients rated IPG greater comfort (p = 0.035), lower anxiety (p = 0.005), and less nausea (p = 0.017). Operators reported less interference from patient reactions (p = 0.020) and greater fluency (p = 0.035) with IPG. CONCLUSION: Within the limitations of the present study, IPG achieved non-inferior passive fit with CI with clinically acceptable accuracy, superior patient comfort, and fewer operator disturbances, supporting its use as an alternative for complete-arch implant impressions. TRIAL REGISTRATION: ClinicalTrials.gov, NCT07190820.",
+   "tags": [
+    "accuracy",
+    "dental implant",
+    "dental impression technique",
+    "photogrammetry"
+   ]
+  },
+  {
+   "id": "10.1126/sciadv.aeb2411",
+   "pmid": "43063265",
+   "doi": "10.1126/sciadv.aeb2411",
+   "title": "Structural basis of Anopheles mosquito salivary protein complexes implicated in malaria transmission",
+   "title_zh": "嗜按蚊唾液蛋白复合物的冷冻电镜结构解析",
+   "journal": "Science advances",
+   "date": "2026-11-20",
+   "authors": [
+    "Su T",
+    "Liu S",
+    "Williams AE",
+    "Calvo E",
+    "Zhou ZH"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43063265/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "蚊虫传播机制",
+   "one_line": "cryo-EM解析嗜按蚊Saglin-SGS4复合物结构，揭示介导疟原虫传播的唾液蛋白组装模式。",
+   "so_what": "仅背景。蚊虫疾病机制，与口腔免疫无直接可比性。",
+   "caution": "蛋白质结构基础研究，难以迁移到宿主-微生物互作课题。",
+   "score": {
+    "final": 19.0,
+    "match": 0.0,
+    "novelty": 15.0,
+    "rigor": 65.0,
+    "impact": 10.0,
+    "transfer": 5.0
+   },
+   "heuristic": 28.0,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 15.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "Successful malaria transmission by Anopheles mosquitoes depends on Plasmodium development within the mosquito midgut and subsequent sporozoite invasion of its salivary glands. Salivary proteins, notably Saglin and likely salivary gland surface proteins (SGS4 and SGS5), were suggested to play roles in these processes, but the lack of their structures has hindered our understanding of the underlying molecular mechanisms. In this study, we carried out biochemical and mass spectrometry analyses of salivary gland extracts and demonstrate that Anopheles gambiae SGS4 and SGS5 bind Saglin and other SG1 (salivary gland 1) proteins. Cryo-EM structure of the Saglin-SGS4 complex reveals that Saglin homodimerizes through coiled-coil interactions and disulfide bonds and engages longitudinally with SGS4. Comparisons among SG1-SGS complexes show that SG1 proteins share a conserved architecture, and SGS proteins adapt conformationally to bind different SG1 partners of varying lengths. To our knowledge, our findings uncover the first native mosquito salivary protein complexes that likely facilitate malaria transmission and highlight potential vector targets for blocking malaria transmission.",
+   "tags": [
+    "Animals",
+    "Anopheles",
+    "Salivary Proteins and Peptides",
+    "Insect Proteins",
+    "Malaria",
+    "Protein Binding"
+   ]
+  },
+  {
+   "id": "10.1002/jper.70223",
+   "pmid": "43061841",
+   "doi": "10.1002/jper.70223",
+   "title": "Local IL-17A neutralization reduces experimental peri-implant bone loss in type 2 diabetic rats",
+   "title_zh": "IL-17A中和减轻糖尿病大鼠种植体周围骨丢失的实验研究",
+   "journal": "Journal of periodontology",
+   "date": "2026-11-20",
+   "authors": [
+    "Wu Y",
+    "Meng Y",
+    "Ye C",
+    "Lu W",
+    "Yang Y",
+    "Zhao X"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43061841/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "animal",
+   "design_label": "动物实验",
+   "design_level": 2,
+   "sample_n": 10,
+   "sample_note": "n=10",
+   "tier": "B",
+   "domain": "种植体周的免疫微环境（巨…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "种植体周炎免疫机制",
+   "one_line": "实验性研究（n=30大鼠），局部IL-17A中和显著减轻T2DM大鼠种植体周围骨吸收及破骨细胞活化。",
+   "so_what": "直接回应q1的巨噬细胞/NF-κB轴方向；IL-17作为关键效应因子，验证了从抗体中性化角度的治疗…",
+   "caution": "纯动物实验；T2DM模型不能完全模拟人类种植体周炎的复杂性。",
+   "score": {
+    "final": 54.2,
+    "match": 65.0,
+    "novelty": 50.0,
+    "rigor": 35.0,
+    "impact": 35.0,
+    "transfer": 85.0
+   },
+   "heuristic": 51.5,
+   "breakdown": {
+    "topic": 22.8,
+    "journal": 10.0,
+    "design": 9,
+    "sample": 2.8,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: The purpose of this study was to investigate whether local IL-17A neutralization attenuates peri-implant alveolar bone resorption in type 2 diabetes mellitus (T2DM) rats. METHODS: Thirty male Sprague-Dawley rats with T2DM were randomly divided into three groups (n = 10): a control group (without ligature‑induced peri‑implantitis), a peri-implantitis (PI) group, and an anti-IL-17A group. Peri-implant bone changes were evaluated by micro-CT, osteoclastogenesis by TRAP staining, and inflammatory responses by H&E staining, qPCR, immunohistochemistry, and immunofluorescence. RESULTS: Micro-CT revealed significantly greater linear and volumetric bone resorption in the PI group versus controls, which was reduced by IL-17A neutralization. TRAP staining showed increased osteoclasts in the PI group, attenuated by IL-17A neutralization. H&E staining confirmed exacerbated inflammation and bone resorption in the PI group, attenuated by anti-IL-17A. Inflammatory cytokine mRNAs were upregulated in the PI group, with IL-17A exhibiting the most pronounced increase; IL-17A neutralization reduced these levels, with IL-17A showing the greatest reduction-confirmed at the protein level. Immunofluorescence showed increased MPO+ neutrophils, IL-6+cells, and RANKL+ cells in the PI group versus controls, reduced by IL-17A neutralization. CONCLUSION: Our findings demonstrate that local IL-17A blockade effectively attenuates peri-implant alveolar bone resorption in T2DM rats by suppressing inflammatory responses and osteoclastogenesis, supporting this targeted strategy as a promising therapeutic approach for diabetic peri-implantitis. However, as these are preclinical results, further studies are needed to validate the therapeutic relevance of this targeted strategy for diabetic peri‑implantitis.",
+   "tags": [
+    "bone loss",
+    "diabetes mellitus",
+    "in vivo model",
+    "interleukin‐17A",
+    "peri‐implantitis"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07270-3",
+   "pmid": "43055808",
+   "doi": "10.1007/s00784-026-07270-3",
+   "title": "Minimally invasive extraction of fully impacted wisdom teeth and supernumerary teeth assisted by 3D-printed digital surgical guides: a prospective cohort study and establishment of a standardized workflow",
+   "title_zh": null,
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-19",
+   "authors": [
+    "Sun B",
+    "Jin J",
+    "Li H",
+    "Wu Y",
+    "Qian W"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43055808/",
+   "pmcid": "10625295",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 58,
+   "sample_note": "n=58 patients",
+   "tier": "B",
+   "domain": "材料与生物材料",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
+   "is_open_access": true,
+   "cluster": "材料与生物材料",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 39.0
+   },
+   "heuristic": 45.9,
+   "breakdown": {
+    "topic": 5.0,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 4.7,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVE: To assess the clinical efficacy, safety, and technical feasibility of 3D-printed digital surgical guides for minimally invasive extraction of fully impacted wisdom teeth and supernumerary teeth, and to establish a standardized, reproducible digital workflow. METHODS: A prospective cohort study enrolled 58 patients treated from January 2023 to December 2024, randomized into a guide-assisted group (n = 26) and a traditional surgery group (n = 32). The guide group underwent CBCT scanning, 3D reconstruction, computer-aided guide design, and 3D-printed guide-assisted minimally invasive extraction. The control group received extraction with traditional free-hand extraction using high-speed turbine handpieces based on clinical experience. Surgical duration, intra-/postoperative complication rates, and 24-hour postoperative VAS pain scores were compared between groups. RESULTS: Baseline characteristics were comparable (P > 0.05). No statistically significant differences emerged in surgical duration (33.0 ± 15.66 vs. 28.31 ± 11.32 min, P = 0.192), intraoperative complication rate (7.7% vs. 0%, P = 0.197), postoperative complication rate (76.9% vs. 62.5%, P = 0.238), or 24-hour VAS score (2.88 ± 1.80 vs. 2.06 ± 1.74, P = 0.084). All 3D-printed guides were successfully seated and used intraoperatively without technical failures such as loosening or fracture. CONCLUSION: 3D-printed digital surgical guide-assisted extraction is a safe, precise, and stable minimally invasive technique, with clinical efficacy comparable to traditional surgery. Parametric design standardizes the workflow; combined with patent protection (ZL202323112840.0) and data sharing, it offers a reliable solution for complex impacted tooth management. CLINICAL RELEVANCE: This standardized digital approach reduces operator dependency, enhances the protection of vital anatomic structures, and provides a reproducible, evidence-based minimally invasive strategy for the clinical management of fully impacted wisdom teeth and supernumerary teeth. TRIAL REGISTRATION: Registration number ChiCTR2600124323. Registration Time: 2026-05-11 00:00:00.",
+   "tags": [
+    "3D printing",
+    "Completely impacted wisdom teeth",
+    "Cone-beam computed tomography",
+    "Digital surgical guide",
+    "Minimally invasive tooth extraction",
+    "Prospective cohort study"
+   ]
+  },
+  {
+   "id": "10.1111/odi.70568",
+   "pmid": "43053526",
+   "doi": "10.1111/odi.70568",
+   "title": "Variation in Basal Serum Cortisol Levels During Treatment of Oral Lichen Planus With 0.5% Triamcinolone Acetonide Mouthrinses: A Prospective Observational Study",
+   "title_zh": "OLP曲安奈德含漱液血清皮质醇前瞻观察",
+   "journal": "Oral diseases",
+   "date": "2026-11-18",
+   "authors": [
+    "Blanco-Aguilera E",
+    "Gándara-Vila P",
+    "Sanmartín-Barragáns V",
+    "Rodríguez-García J",
+    "Marichalar-Mendía X",
+    "Blanco-Aguilera A",
+    "Lorenzo-Pouso AI",
+    "Otero-Rey E",
+    "Blanco-Carrión A"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43053526/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 68,
+   "sample_note": "n=68 patients",
+   "tier": "B",
+   "domain": "牙周炎通过哪些可验证的通…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "黏膜免疫治疗安全",
+   "one_line": "68例OLP/OLL患者3个月0.5%曲安奈德含漱后血清皮质醇从17.0降至8.8 μg/dL再回升至11.9，未见肾…",
+   "so_what": "",
+   "caution": "无并行对照组、观察性设计无法排除疾病活动本身对HPA轴的扰动；因果推断止步于相…",
+   "score": {
+    "final": 31.7,
+    "match": 32.0,
+    "novelty": 25.0,
+    "rigor": 42.0,
+    "impact": 22.0,
+    "transfer": 22.0
+   },
+   "heuristic": 36.9,
+   "breakdown": {
+    "topic": 2.0,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 4.9,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVE: To evaluate changes in basal serum cortisol levels in patients with atrophic-erosive oral lichen planus (OLP) and oral lichenoid lesion (OLL) treated with 0.5% triamcinolone acetonide mouthrinses and to assess the occurrence of clinical manifestations associated with adrenal dysfunction. METHODS: A prospective observational study was conducted in 68 patients with clinically and histopathologically confirmed atrophic-erosive OLP or OLL. Participants received 0.5% triamcinolone acetonide mouthrinses following a tapering regimen over 3 months. Basal serum cortisol levels were measured at baseline, after 30 days, and after 90 days of treatment. Clinical and demographic variables and treatment-related adverse effects were analyzed. RESULTS: Mean basal serum cortisol levels decreased from 17.05 ± 4.38 μg/dL at baseline to 8.79 ± 7.34 μg/dL after 1 month of treatment. Following dose tapering, serum cortisol levels (SCL) partially recovered to 11.94 ± 6.44 μg/dL at 3 months. No clinical manifestations of adrenal insufficiency were observed. Baseline SCL were significantly associated with serum cortisol concentrations after 1 month (r = 0.34; p < 0.05). Older patients exhibited smaller hormonal fluctuations during treatment. CONCLUSIONS: Triamcinolone acetonide induced a transient reduction in SCL without clinically relevant adrenal dysfunction, suggesting a limited systemic impact when administered a tapering regimen.",
+   "tags": []
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 15
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 15
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 15
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 15
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 15
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 15
+  }
+ ],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}

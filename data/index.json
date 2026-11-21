@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-20T10:35:45+08:00",
- "latest": "2026-11-20",
+ "updated_at": "2026-11-21T10:45:01+08:00",
+ "latest": "2026-11-21",
  "days": [
+  {
+   "date": "2026-11-21",
+   "must_title": "Long-term radiographic marginal bone level changes around implants placed in periodontally healthy and periodontally compromised patients: A retrospective case series with 17-27 years of follow-up",
+   "must_title_zh": "牙周健康与牙周受损患者种植体边缘骨水平的17–27年放射学变化：回顾性病例系列",
+   "cluster": "种植体周结局",
+   "count": 10,
+   "ai": true
+  },
   {
    "date": "2026-11-20",
    "must_title": "The Central Role of O-GlcNAcylation in Regulating Macrophages in the Pathogenesis of Periodontitis",
