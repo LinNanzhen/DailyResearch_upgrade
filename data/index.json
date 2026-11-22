@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-21T10:45:01+08:00",
- "latest": "2026-11-21",
+ "updated_at": "2026-11-22T09:32:13+08:00",
+ "latest": "2026-11-22",
  "days": [
+  {
+   "date": "2026-11-22",
+   "must_title": "Ferroptosis and Lipid Metabolic Dysregulation Are Associated With Periodontitis and Peri-Implantitis Complicated by Type 2 Diabetes: A Cross-Sectional Study",
+   "must_title_zh": "铁死亡与脂质代谢失调与糖尿病合并牙周炎及种植体周炎的关联：一项横断面研究",
+   "cluster": "牙周炎-糖尿病代谢交互",
+   "count": 10,
+   "ai": true
+  },
   {
    "date": "2026-11-21",
    "must_title": "Long-term radiographic marginal bone level changes around implants placed in periodontally healthy and periodontally compromised patients: A retrospective case series with 17-27 years of follow-up",
@@ -131,5 +139,11 @@
    "ai": true
   }
  ],
- "weeks": []
+ "weeks": [
+  {
+   "id": "2026-W47",
+   "date": "2026-11-22",
+   "headline": "牙周-种植体周炎症的免疫代谢耦合机制进入因果验证阶段"
+  }
+ ]
 }
