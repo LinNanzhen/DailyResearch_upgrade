@@ -1,0 +1,1016 @@
+{
+ "date": "2026-11-23",
+ "generated_at": "2026-11-23T09:58:35+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 5,
+  "prompt_tokens": 13162,
+  "completion_tokens": 8098
+ },
+ "stats": {
+  "candidates": 153,
+  "raw": 151,
+  "fetched": 16,
+  "raw_dropped_type": 9,
+  "no_abstract": 1,
+  "gated": 16,
+  "scored": 12,
+  "shown": 10,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 5,
+  "quality_failed": 0,
+  "quality_repaired": 2
+ },
+ "must_read": {
+  "id": "10.1016/j.oraloncology.2026.108157",
+  "pmid": "43067119",
+  "doi": "10.1016/j.oraloncology.2026.108157",
+  "title": "Characterization of the peri-tumoral immune infiltrate at the invasive front of oral cavity squamous cell carcinoma",
+  "title_zh": "口腔鳞癌侵袭前沿瘤周免疫浸润的特征及其与预后、CAF的关系",
+  "journal": "Oral oncology",
+  "date": "2026-11-21",
+  "authors": [
+   "Beck CR",
+   "Sotov V",
+   "Pfister TD",
+   "Jozaghi Y",
+   "Hyrcza M",
+   "Stone SC",
+   "Smith SM",
+   "AlGhamdi D",
+   "Mifsud M",
+   "Verma N",
+   "de Almeida J",
+   "Brown D"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43067119/",
+  "pmcid": "",
+  "cited_by": 0,
+  "design": "cohort",
+  "design_label": "队列",
+  "design_level": 5,
+  "sample_n": 303,
+  "sample_note": "n=303 patients",
+  "tier": "A",
+  "domain": "生物材料表面/降解产物如…",
+  "methods": [],
+  "pub_types": [
+   "Journal Article"
+  ],
+  "is_open_access": false,
+  "cluster": "OSCC免疫微环境",
+  "one_line": "303例OCSCC队列显示高周肿瘤免疫浸润(PTII)显著改善生存，mIHC揭示免疫亚群特征。",
+  "so_what": "",
+  "caution": "回顾性队列+mIHC仅10例表征，免疫亚群分辨率远不如scRNA-seq。",
+  "score": {
+   "final": 51.4,
+   "match": 45.0,
+   "novelty": 50.0,
+   "rigor": 60.0,
+   "impact": 50.0,
+   "transfer": 45.0
+  },
+  "heuristic": 59.0,
+  "breakdown": {
+   "topic": 16.3,
+   "journal": 15.0,
+   "design": 15,
+   "sample": 6.6,
+   "fresh": 6.0,
+   "method": 0.0
+  },
+  "abstract": "OBJECTIVE: Our objectives were to determine the association between high peri-tumoral immune infiltrate (PTII) and survival, determine the association between cancer associated fibroblasts (CAFs) and PTII and to characterize immune cell density at the invasive front of oral cavity squamous cell carcinoma (OCSCC). METHODS: A retrospective cohort of 303 patients with OCSCC were categorized into low and high PTII on whole block sections using histopathological grading. A tissue microarray from the retrospective cohort was used to assess percentage of stroma staining for alpha smooth muscle actin (aSMA)/(CAFs). Next, multiplex immunohistochemistry was used on the whole block section to stain immune cell sub-populations to characterize high vs low PTII (10 cases, 10 controls). RESULT: Multivariate Cox regression showed high-PTII was associated with better distant (HR = 0.2,CI:0.06-0.93,p < 0.04) and regional control (HR = 0.26,CI:0.08-0.81,p < 0.02) as well as overall survival (HR = 0.41,CI: 0.23-0.72,p < 0.04). Multivariate logistic regression showed higher percent of αSMA/(CAF) positive stroma had a negative association with high PTII (OR = 0.94,CI: 0.91-0.98;p < 0.0014) suggesting a biological relationship. The case-control cohort showed significantly higher cellular density in the high-PTII group, 4859 cells/mm2 vs 1984 cells/mm2 (p < 0.001). The high-PTII stroma and tumor had a higher cellular density of helper T cells (p < 0.01), cytotoxic T cells (p < 0.01) The high-PTII stroma had higher M1 macrophages (p < 0.05)/PDL1 + M1 macrophages (p < 0.05). CONCLUSION: High peri-tumoral immune infiltrate (PTII) assessed on whole block sections at the invasive front was associated with improved patient survival, and decreased CAFs. Patient with high-PTII showed significantly higher stromal infiltration of Helper and Cytotoxic T cells, and M1 macrophages (PD-L1 + ).",
+  "tags": [
+   "B-Lymphocytes",
+   "Carcinoma",
+   "Immune system",
+   "Mouth neoplasms",
+   "Oral cancer",
+   "Squamous cell"
+  ],
+  "deep": {
+   "title_zh": "口腔鳞癌侵袭前沿瘤周免疫浸润的特征及其与预后、CAF的关系",
+   "one_sentence": "高瘤周免疫浸润者生存与区域/远处控制更佳，CAF更少，浸润以CD4/CD8 T与M1巨噬细胞为主。",
+   "question": "口腔鳞癌侵袭前沿的瘤周免疫浸润（PTII）是否只是预后标志，还是通过与癌相关成纤维细胞此消彼长、并由特定免疫亚群构成，参与决定肿瘤进展与转移的生物学过程？",
+   "design": "回顾性队列，303例OCSCC按全切片瘤周免疫浸润组织学分级分为高/低PTII组，用多因素Cox回归分析生存、多因素logistic回归分析CAF与PTII关联；另设10例高PTII vs 10例对照的病例-对照样本，用多重免疫组化在全切片上定量侵袭前沿免疫亚群密度。随访时长摘要未说明。",
+   "sample_desc": "回顾性队列303例OCSCC患者（组织来源人群/中心摘要未说明）；CAF检测用该队列的组织芯片（TMA）；多重免疫组化表征为10例高PTII与10例对照的全切片（病例-对照样本来源摘要未说明）。",
+   "findings": [
+    {
+     "claim": "高PTII与更好的远处控制相关",
+     "evidence": "多因素Cox回归：HR=0.2，95%CI 0.06–0.93，p<0.04"
+    },
+    {
+     "claim": "高PTII与更好的区域控制相关",
+     "evidence": "多因素Cox回归：HR=0.26，95%CI 0.08–0.81，p<0.02"
+    },
+    {
+     "claim": "高PTII与更好的总生存相关",
+     "evidence": "多因素Cox回归：HR=0.41，95%CI 0.23–0.72，p<0.04"
+    },
+    {
+     "claim": "CAF比例越高，越倾向归入低PTII组，提示二者存在生物学上的负向关系",
+     "evidence": "多因素logistic回归：aSMA/CAF阳性间质百分比每升高1单位，高PTII的OR=0.94，95%CI 0.91–0.98，p<0.0014"
+    }
+   ],
+   "effect": "总生存HR=0.41（95%CI 0.23–0.72）；远处控制HR=0.2（0.06–0.93）；区域控制HR=0.26（0.08–0.81）；CAF与高PTII的OR=0.94（0.91–0.98）。",
+   "relation": "对应 q5：提供新解释。它不涉及微生物组，但把口腔鳞癌免疫微环境拆到侵袭前沿的空间位置与具体亚群（CD4/CD8 T、M1及PD-L1⁺M1巨噬细胞），并给出与CAF的负向耦合，为“免疫微环境如何塑造治疗抵抗/转移结局”提供可组织学量化的形态学证据链。",
+   "why": "它把笼统的“淋巴细胞浸润有预后价值”推进为：①浸润的空间位置（侵袭前沿瘤周）和构成（CD4/CD8 T+M1巨噬）才是可操作的读出；②CAF与免疫浸润此消彼长是一个可统计验证的负向关系，提示基质屏障可能限制免疫细胞进入前沿——这直接改变我对“免疫是否到位”的实验设计：必须在侵袭前沿分区定量，而非整瘤平均。",
+   "limitations": [
+    "回顾性设计，调整了哪些混杂因素（分期、治疗方式、吸烟等）摘要未说明，HR可能被残余混杂夸大",
+    "CAF与PTII的关联来自横断面的同期测量，logistic回归只能给出共变关系，无法确定方向（CAF阻挡浸润还是浸润抑制CAF）",
+    "多重免疫组化表征仅10对样本且为病例-对照抽样，亚群密度差异（尤其p<0.05的M1、PD-L1⁺M1）的稳定性有限，且PD-L1⁺M1比例而非绝对功能状态被报告"
+   ],
+   "transferable": "可迁移的是“全切片侵袭前沿分区 + 组织学分级初筛 + 多重IHC按cells/mm²定量亚群”的两级策略：先在大样本上用廉价的形态学分级做分层，再用小样本多重IHC验证亚群构成。搬到我的课题（如种植体周/牙周组织）即可先对骨结合界面或袋内壁上皮下的免疫浸润做高/低分级分层与预后（骨丧失、种植体周炎发生）关联，再用多…",
+   "followups": [
+    "该队列的随访时长、分期构成与治疗方式（手术/放化疗）在正文中是否报告？高PTII是否只是早期分期的替代指标？",
+    "PTII的组织学高/低分级判读是否有双观察者或Kappa一致性数据？分界点是预设还是数据驱动？",
+    "aSMA阳性间质百分比在TMA上的点位数与肿瘤内异质性如何处理？换用全切片或空间转录组后CAF-PTII的负向关联是否仍然成立？"
+   ],
+   "glossary": [
+    {
+     "en": "PTII",
+     "cn": "瘤周免疫浸润（peri-tumoral immune infiltrate）"
+    },
+    {
+     "en": "OCSCC",
+     "cn": "口腔鳞状细胞癌"
+    },
+    {
+     "en": "CAF",
+     "cn": "癌相关成纤维细胞"
+    },
+    {
+     "en": "aSMA",
+     "cn": "α-平滑肌肌动蛋白（CAF标记物）"
+    },
+    {
+     "en": "multiplex IHC",
+     "cn": "多重免疫组化"
+    },
+    {
+     "en": "TMA",
+     "cn": "组织芯片"
+    }
+   ],
+   "reading_minutes": 12,
+   "quality": {
+    "passed": true,
+    "score": 100.0,
+    "judge_score": 90.0,
+    "problems": [
+     "transferable 似乎被截断"
+    ],
+    "repaired_by": "mimo-v2.6-flash",
+    "attempts": 1
+   }
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1016/j.oraloncology.2026.108157",
+   "pmid": "43067119",
+   "doi": "10.1016/j.oraloncology.2026.108157",
+   "title": "Characterization of the peri-tumoral immune infiltrate at the invasive front of oral cavity squamous cell carcinoma",
+   "title_zh": "口腔鳞癌侵袭前沿瘤周免疫浸润的特征及其与预后、CAF的关系",
+   "journal": "Oral oncology",
+   "date": "2026-11-21",
+   "authors": [
+    "Beck CR",
+    "Sotov V",
+    "Pfister TD",
+    "Jozaghi Y",
+    "Hyrcza M",
+    "Stone SC",
+    "Smith SM",
+    "AlGhamdi D",
+    "Mifsud M",
+    "Verma N",
+    "de Almeida J",
+    "Brown D"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43067119/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 303,
+   "sample_note": "n=303 patients",
+   "tier": "A",
+   "domain": "生物材料表面/降解产物如…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "OSCC免疫微环境",
+   "one_line": "303例OCSCC队列显示高周肿瘤免疫浸润(PTII)显著改善生存，mIHC揭示免疫亚群特征。",
+   "so_what": "",
+   "caution": "回顾性队列+mIHC仅10例表征，免疫亚群分辨率远不如scRNA-seq。",
+   "score": {
+    "final": 51.4,
+    "match": 45.0,
+    "novelty": 50.0,
+    "rigor": 60.0,
+    "impact": 50.0,
+    "transfer": 45.0
+   },
+   "heuristic": 59.0,
+   "breakdown": {
+    "topic": 16.3,
+    "journal": 15.0,
+    "design": 15,
+    "sample": 6.6,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVE: Our objectives were to determine the association between high peri-tumoral immune infiltrate (PTII) and survival, determine the association between cancer associated fibroblasts (CAFs) and PTII and to characterize immune cell density at the invasive front of oral cavity squamous cell carcinoma (OCSCC). METHODS: A retrospective cohort of 303 patients with OCSCC were categorized into low and high PTII on whole block sections using histopathological grading. A tissue microarray from the retrospective cohort was used to assess percentage of stroma staining for alpha smooth muscle actin (aSMA)/(CAFs). Next, multiplex immunohistochemistry was used on the whole block section to stain immune cell sub-populations to characterize high vs low PTII (10 cases, 10 controls). RESULT: Multivariate Cox regression showed high-PTII was associated with better distant (HR = 0.2,CI:0.06-0.93,p < 0.04) and regional control (HR = 0.26,CI:0.08-0.81,p < 0.02) as well as overall survival (HR = 0.41,CI: 0.23-0.72,p < 0.04). Multivariate logistic regression showed higher percent of αSMA/(CAF) positive stroma had a negative association with high PTII (OR = 0.94,CI: 0.91-0.98;p < 0.0014) suggesting a biological relationship. The case-control cohort showed significantly higher cellular density in the high-PTII group, 4859 cells/mm2 vs 1984 cells/mm2 (p < 0.001). The high-PTII stroma and tumor had a higher cellular density of helper T cells (p < 0.01), cytotoxic T cells (p < 0.01) The high-PTII stroma had higher M1 macrophages (p < 0.05)/PDL1 + M1 macrophages (p < 0.05). CONCLUSION: High peri-tumoral immune infiltrate (PTII) assessed on whole block sections at the invasive front was associated with improved patient survival, and decreased CAFs. Patient with high-PTII showed significantly higher stromal infiltration of Helper and Cytotoxic T cells, and M1 macrophages (PD-L1 + ).",
+   "tags": [
+    "B-Lymphocytes",
+    "Carcinoma",
+    "Immune system",
+    "Mouth neoplasms",
+    "Oral cancer",
+    "Squamous cell"
+   ],
+   "deep": {
+    "title_zh": "口腔鳞癌侵袭前沿瘤周免疫浸润的特征及其与预后、CAF的关系",
+    "one_sentence": "高瘤周免疫浸润者生存与区域/远处控制更佳，CAF更少，浸润以CD4/CD8 T与M1巨噬细胞为主。",
+    "question": "口腔鳞癌侵袭前沿的瘤周免疫浸润（PTII）是否只是预后标志，还是通过与癌相关成纤维细胞此消彼长、并由特定免疫亚群构成，参与决定肿瘤进展与转移的生物学过程？",
+    "design": "回顾性队列，303例OCSCC按全切片瘤周免疫浸润组织学分级分为高/低PTII组，用多因素Cox回归分析生存、多因素logistic回归分析CAF与PTII关联；另设10例高PTII vs 10例对照的病例-对照样本，用多重免疫组化在全切片上定量侵袭前沿免疫亚群密度。随访时长摘要未说明。",
+    "sample_desc": "回顾性队列303例OCSCC患者（组织来源人群/中心摘要未说明）；CAF检测用该队列的组织芯片（TMA）；多重免疫组化表征为10例高PTII与10例对照的全切片（病例-对照样本来源摘要未说明）。",
+    "findings": [
+     {
+      "claim": "高PTII与更好的远处控制相关",
+      "evidence": "多因素Cox回归：HR=0.2，95%CI 0.06–0.93，p<0.04"
+     },
+     {
+      "claim": "高PTII与更好的区域控制相关",
+      "evidence": "多因素Cox回归：HR=0.26，95%CI 0.08–0.81，p<0.02"
+     },
+     {
+      "claim": "高PTII与更好的总生存相关",
+      "evidence": "多因素Cox回归：HR=0.41，95%CI 0.23–0.72，p<0.04"
+     },
+     {
+      "claim": "CAF比例越高，越倾向归入低PTII组，提示二者存在生物学上的负向关系",
+      "evidence": "多因素logistic回归：aSMA/CAF阳性间质百分比每升高1单位，高PTII的OR=0.94，95%CI 0.91–0.98，p<0.0014"
+     }
+    ],
+    "effect": "总生存HR=0.41（95%CI 0.23–0.72）；远处控制HR=0.2（0.06–0.93）；区域控制HR=0.26（0.08–0.81）；CAF与高PTII的OR=0.94（0.91–0.98）。",
+    "relation": "对应 q5：提供新解释。它不涉及微生物组，但把口腔鳞癌免疫微环境拆到侵袭前沿的空间位置与具体亚群（CD4/CD8 T、M1及PD-L1⁺M1巨噬细胞），并给出与CAF的负向耦合，为“免疫微环境如何塑造治疗抵抗/转移结局”提供可组织学量化的形态学证据链。",
+    "why": "它把笼统的“淋巴细胞浸润有预后价值”推进为：①浸润的空间位置（侵袭前沿瘤周）和构成（CD4/CD8 T+M1巨噬）才是可操作的读出；②CAF与免疫浸润此消彼长是一个可统计验证的负向关系，提示基质屏障可能限制免疫细胞进入前沿——这直接改变我对“免疫是否到位”的实验设计：必须在侵袭前沿分区定量，而非整瘤平均。",
+    "limitations": [
+     "回顾性设计，调整了哪些混杂因素（分期、治疗方式、吸烟等）摘要未说明，HR可能被残余混杂夸大",
+     "CAF与PTII的关联来自横断面的同期测量，logistic回归只能给出共变关系，无法确定方向（CAF阻挡浸润还是浸润抑制CAF）",
+     "多重免疫组化表征仅10对样本且为病例-对照抽样，亚群密度差异（尤其p<0.05的M1、PD-L1⁺M1）的稳定性有限，且PD-L1⁺M1比例而非绝对功能状态被报告"
+    ],
+    "transferable": "可迁移的是“全切片侵袭前沿分区 + 组织学分级初筛 + 多重IHC按cells/mm²定量亚群”的两级策略：先在大样本上用廉价的形态学分级做分层，再用小样本多重IHC验证亚群构成。搬到我的课题（如种植体周/牙周组织）即可先对骨结合界面或袋内壁上皮下的免疫浸润做高/低分级分层与预后（骨丧失、种植体周炎发生）关联，再用多…",
+    "followups": [
+     "该队列的随访时长、分期构成与治疗方式（手术/放化疗）在正文中是否报告？高PTII是否只是早期分期的替代指标？",
+     "PTII的组织学高/低分级判读是否有双观察者或Kappa一致性数据？分界点是预设还是数据驱动？",
+     "aSMA阳性间质百分比在TMA上的点位数与肿瘤内异质性如何处理？换用全切片或空间转录组后CAF-PTII的负向关联是否仍然成立？"
+    ],
+    "glossary": [
+     {
+      "en": "PTII",
+      "cn": "瘤周免疫浸润（peri-tumoral immune infiltrate）"
+     },
+     {
+      "en": "OCSCC",
+      "cn": "口腔鳞状细胞癌"
+     },
+     {
+      "en": "CAF",
+      "cn": "癌相关成纤维细胞"
+     },
+     {
+      "en": "aSMA",
+      "cn": "α-平滑肌肌动蛋白（CAF标记物）"
+     },
+     {
+      "en": "multiplex IHC",
+      "cn": "多重免疫组化"
+     },
+     {
+      "en": "TMA",
+      "cn": "组织芯片"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": 90.0,
+     "problems": [
+      "transferable 似乎被截断"
+     ],
+     "repaired_by": "mimo-v2.6-flash",
+     "attempts": 1
+    }
+   }
+  },
+  {
+   "id": "10.1007/s00784-026-07296-7",
+   "pmid": "43066806",
+   "doi": "10.1007/s00784-026-07296-7",
+   "title": "Evaluation of pulpal blood flow and postoperative pain after direct pulp capping with different materials in teeth with symptomatic irreversible pulpitis: a randomized controlled clinical trial",
+   "title_zh": "症状性不可逆性牙髓炎直接盖髓术后牙髓灌注与疼痛的随机对照试验：Dycal、MTA与Biodentine比较",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-21",
+   "authors": [
+    "Altuntaş RH",
+    "Uğur Aydın Z"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43066806/",
+   "pmcid": "3223385",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 44,
+   "sample_note": "n=44 teeth",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
+   "is_open_access": true,
+   "cluster": "牙体牙髓材料与疗效",
+   "one_line": "RCT比较CH/MTA/Biodentine直接盖髓后牙髓灌注(N=44)与术后疼痛，Biodentine表现更优。",
+   "so_what": "可参考材料安全性与人體數據，但缺乏免疫调控视角，机制信息缺失。",
+   "caution": "样本量小，排除标准严格（无法止血即剔除），外部有效性受限。",
+   "score": {
+    "final": 42.6,
+    "match": 35.0,
+    "novelty": 30.0,
+    "rigor": 55.0,
+    "impact": 35.0,
+    "transfer": 30.0
+   },
+   "heuristic": 62.2,
+   "breakdown": {
+    "topic": 21.6,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 4.4,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVES: The aim of this study was to compare postoperative pulpal perfusion and postoperative pain following direct pulp capping (DPC) with calcium hydroxide (CH; Dycal), mineral trioxide aggregate (MTA), and Biodentine in teeth diagnosed with symptomatic irreversible pulpitis (SIP), using laser Doppler flowmetry (LDF). MATERIALS AND METHODS: Forty-seven mandibular molars from 39 patients were randomly allocated to receive DPC with Dycal (n = 15), MTA (n = 16), or Biodentine (n = 16). Following carious pulp exposure, the exposed pulp was disinfected using a sterile cotton pellet moistened with 2.5% NaOCl, without pulp tissue amputation. Hemostasis was achieved by gentle pressure with saline-moistened sterile cotton pellets for up to 10 min; teeth in which hemostasis could not be achieved within this period were excluded. Postoperative pain was assessed using the Numerical Rating Scale (NRS), and pulpal perfusion was measured using LDF at baseline and during postoperative follow-up. Three teeth requiring root canal treatment due to severe postoperative pain were excluded from the longitudinal analyses, leaving 44 teeth for analysis. RESULTS: Pulpal perfusion did not differ significantly among Dycal, MTA, and Biodentine at any assessment time point (p > 0.05). Pulpal perfusion showed no significant change over time following Dycal or MTA treatment (p > 0.05), whereas pulpal perfusion in the Biodentine was higher at 1 month than at baseline (p 0.05). The material × time interaction was not significant, and changes in pulpal perfusion from baseline (ΔPU) did not differ significantly among the materials (p > 0.05). Postoperative pain decreased over time with all three materials, with no significant differences among the materials at any assessment time point (p > 0.05). CONCLUSIONS: Dycal, MTA, and Biodentine showed comparable early pulpal perfusion and postoperative pain outcomes following DPC in teeth with SIP. At 1 month, pulpal perfusion was significantly higher than baseline in teeth treated with Biodentine, whereas no significant changes were observed in teeth treated with Dycal or MTA.",
+   "tags": [
+    "Biodentine",
+    "Calcium hydroxide",
+    "Irreversible pulpitis",
+    "Laser doppler flowmetry",
+    "Mineral trioxide aggregate"
+   ],
+   "deep": {
+    "title_zh": "症状性不可逆性牙髓炎直接盖髓术后牙髓灌注与疼痛的随机对照试验：Dycal、MTA与Biodentine比较",
+    "one_sentence": "三材料早期灌注与疼痛无差异，Biodentine一月灌注高于基线",
+    "question": "在诊断为症状性不可逆性牙髓炎的患牙中，盖髓材料的选择是否影响术后牙髓的血流灌注保存与疼痛反应——即哪种材料更可能让暴露牙髓活下来？",
+    "design": "随机对照试验：47颗下颌磨牙随机分配至Dycal（n=15）、MTA（n=16）、Biodentine（n=16）三组直接盖髓；牙髓暴露后用2.5% NaOCl棉球消毒、不做牙髓切除，生理盐水棉球加压止血（≤10分钟，未达止血者排除）；激光多普勒血流仪（LDF）测基线及术后各时点牙髓灌注，NRS评疼痛；盲法与单中心与否摘要未说明",
+    "sample_desc": "39名患者的47颗下颌磨牙（诊断为症状性不可逆性牙髓炎）；10分钟内止血失败者被排除；3颗因严重术后疼痛需根管治疗被排除，余44颗进入纵向分析",
+    "findings": [
+     {
+      "claim": "三种材料在各随访时点的牙髓灌注无显著差异",
+      "evidence": "Dycal、MTA、Biodentine组间各时点灌注比较p > 0.05"
+     },
+     {
+      "claim": "Dycal与MTA组牙髓灌注随时间无显著变化，Biodentine组1个月灌注高于基线",
+      "evidence": "Dycal、MTA组时点间比较p > 0.05；Biodentine组1个月对基线差异有统计学方向（摘要原文记为\"p 0.05\"，排版缺失，确切p值摘要未给出）"
+     },
+     {
+      "claim": "材料与时间无交互作用，各组相对基线的灌注变化量（ΔPU）组间无差异",
+      "evidence": "材料×时间交互项p > 0.05；ΔPU组间比较p > 0.05"
+     },
+     {
+      "claim": "三组术后疼痛均随时间减轻，且任何时点组间无差异",
+      "evidence": "NRS随时间下降；各时点组间比较p > 0.05"
+     }
+    ],
+    "effect": "未报告",
+    "relation": "与q1间接相关：q1问种植体周免疫微环境如何决定留存/失败转归，本研究以'客观组织灌注+症状'判断牙髓在炎症暴露后能否存活，属同类'宿主反应决定组织命运'框架的旁证与方法学参照，但不直接涉及巨噬细胞/NETs/IL-1β等机制，不构成对q1的直接支持或反驳",
+    "why": "它用LDF把'盖髓是否成功'从主观X线/症状判断换成可量化的血流指标，并给出一个反直觉的阴性结果：在症状性不可逆性牙髓炎这一传统上倾向于根管治疗的适应证里，三种材料的早期灌注与疼痛结局相当——这直接挑战'贵材料=好预设'的临床直觉，提示材料选择可能应依据成本、操作性而非推定的生物学优势；同时它示范了'以基线变化量Δ为指标+预设排除标准'的临床试验设计",
+    "limitations": [
+     "摘要未说明盲法与单中心/多中心情况，操作者与结局评估者是否知晓分组不明，LDF与疼痛评分均可能受预期影响",
+     "以'10分钟内止血失败'排除病例、又排除3颗因剧痛需根管治疗的牙——被排除的恰是结局最差者，存在选择偏倚，且未报告3颗失败牙的组别分布，按ITT分析结论可能改变",
+     "随访仅呈现至1个月（摘要未说明更长期随访），而盖髓失败（牙髓坏死、钙化）多在数月后显现，短期灌注相当不能等同于长期成功率相当"
+    ],
+    "transferable": "①LDF/NIRS式客观灌注指标替代主观活力判断——可搬到种植体周软组织血流或骨结合期血供评估；②'相对基线的变化量（ΔPU）+材料×时间交互项'的重复测量分析框架；③以生理学反应（止血能否在10分钟内达成）作为入组/排除标准的做法，可用于免疫微环境类课题的病例均质化",
+    "followups": [
+     "查全文表格确认Biodentine组1个月对基线的原始p值与效应量（摘要'p 0.05'排版缺失），以及三组ΔPU的具体均数与离散度",
+     "3颗因剧痛行根管治疗的牙分属哪个材料组？若集中于某一组，改用ITT或多重填补后组间差异是否仍不显著？",
+     "随访是否延长至6或12个月？三组的牙髓坏死率/需根管治疗率在长期是否仍无差异？"
+    ],
+    "glossary": [
+     {
+      "en": "laser Doppler flowmetry (LDF)",
+      "cn": "激光多普勒血流仪"
+     },
+     {
+      "en": "symptomatic irreversible pulpitis (SIP)",
+      "cn": "症状性不可逆性牙髓炎"
+     },
+     {
+      "en": "direct pulp capping (DPC)",
+      "cn": "直接盖髓术"
+     },
+     {
+      "en": "mineral trioxide aggregate (MTA)",
+      "cn": "矿物三氧化物聚合体"
+     },
+     {
+      "en": "numerical rating scale (NRS)",
+      "cn": "数字评分法"
+     },
+     {
+      "en": "pupal perfusion",
+      "cn": "牙髓灌注/牙髓血流"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 98.0,
+     "judge_score": 92.0,
+     "problems": [
+      "效应量只有占位符"
+     ],
+     "repaired_by": "mimo-v2.6-flash",
+     "attempts": 1
+    }
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1111/jcpe.70210",
+   "pmid": "43059581",
+   "doi": "10.1111/jcpe.70210",
+   "title": "Management of Non-Dental Biofilm-Induced Gingival Diseases and Conditions and Gingival Enlargement: The EFP S2k-Level Clinical Practice Guideline",
+   "title_zh": "非牙菌斑生物膜相关牙龈病及牙龈增生EFP指南",
+   "journal": "Journal of clinical periodontology",
+   "date": "2026-11-20",
+   "authors": [
+    "Chapple I",
+    "Herrera D",
+    "Sanz M",
+    "Sculean A",
+    "Teughels W",
+    "Kebschull M",
+    "Papapanou PN",
+    "Tonetti MS",
+    "Aimetti M",
+    "Alajbeg I",
+    "Belibasakis GN",
+    "Blanco J"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43059581/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "牙周与宿主免疫",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙周临床指南",
+   "one_line": "EFP制定S2k级别循证指南，覆盖非牙菌斑生物膜牙龈病与牙龈增生的管理建议。",
+   "so_what": "仅背景；指南类文献不涉及机制探索，对你当前问题帮助有限。",
+   "caution": "证据基础薄弱的罕见病领域，推荐强度存疑。",
+   "score": {
+    "final": 32.3,
+    "match": 10.0,
+    "novelty": 15.0,
+    "rigor": 60.0,
+    "impact": 45.0,
+    "transfer": 5.0
+   },
+   "heuristic": 63.0,
+   "breakdown": {
+    "topic": 22.8,
+    "journal": 15.0,
+    "design": 18,
+    "sample": 0.0,
+    "fresh": 5.0,
+    "method": 2.2
+   },
+   "abstract": "BACKGROUND: Following the 2018 Classification, the European Federation of Periodontology (EFP) developed Clinical Practice Guidelines (CPGs) for the management of periodontitis and peri-implant diseases. To date, no clinical practice guidelines have been developed for non-dental biofilm-induced gingival diseases (NBIGDs) and conditions or for gingival enlargement. While these conditions are less common/rare, they present in general and specialist practice settings and there is therefore a need to develop such a set of guidelines. AIM: To develop an S2k-level CPG for the management of NBIGDs and conditions and gingival enlargement. METHODS: This S2k-level CPG was developed by the EFP, following methodological guidance from the Association of Scientific Medical Societies in Germany and, where applicable, the Grading of Recommendations, Assessment, Development and Evaluation (GRADE) process. A rigorous and transparent process included the following: synthesis of relevant research in two specifically commissioned systematic reviews; evaluation of the quality and strength of evidence; formulation of specific recommendations; and a structured consensus process involving leading experts and broadly based stakeholders. Recommendations were based on the best available evidence, combined with structured expert consensus, particularly in areas where direct evidence remains scarce. RESULTS: The S2k-level CPG for management of NBIGDs demonstrates that, because of their rarity, heterogeneity and complexity, and of the paucity of randomised controlled trials, NBIGDs should be managed within specialist centres, with urgent/immediate referral for suspected malignancies. Treating biofilm-induced inflammation is beneficial in most cases. Management of gingival enlargement is context-dependent and should be medical in nature, with surgery reserved for non-responsive cases. CONCLUSION: The present S2k-level CPG informs clinical practice, health systems, policymakers and indirectly the public on the most effective interventions in the management of NBIGDs and gingival enlargement.",
+   "tags": [
+    "clinical practice guideline",
+    "gingival enlargement",
+    "management",
+    "non‐dental biofilm‐induced gingival diseases and conditions",
+    "treatment"
+   ]
+  },
+  {
+   "id": "10.1111/joor.70347",
+   "pmid": "43065131",
+   "doi": "10.1111/joor.70347",
+   "title": "Longitudinal Clinical Outcomes After Intra-Articular Dexamethasone-Lidocaine Injection for Temporomandibular Joint Arthralgia",
+   "title_zh": "关节腔激素麻醉注射治疗颞下颌关节痛纵向随访",
+   "journal": "Journal of oral rehabilitation",
+   "date": "2026-11-20",
+   "authors": [
+    "Lee YH",
+    "Kim TS",
+    "Noh YK"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43065131/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 191,
+   "sample_note": "n=191 patients",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "颞下颌关节病",
+   "one_line": "回顾性队列，191例关节腔地塞米松-利多卡因注射，VAS显著下降但MMO无改善，短期有效。",
+   "so_what": "仅背景，与q1-q5无直接关联，属TMD治疗经验性结论。",
+   "caution": "单中心回顾，缺乏对照组，follow-up仅~77天",
+   "score": {
+    "final": 15.5,
+    "match": 8.0,
+    "novelty": 25.0,
+    "rigor": 52.0,
+    "impact": 15.0,
+    "transfer": 10.0
+   },
+   "heuristic": 36.1,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 6.1,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Longitudinal real-world data on intra-articular dexamethasone-lidocaine injection for temporomandibular joint (TMJ) arthralgia remain limited. This study evaluated post-injection clinical trajectories in patients with TMJ arthralgia. METHODS: This retrospective observational study included 191 patients (45.5 ± 20.7 years; 67.5% female) with TMJ arthralgia who received intra-articular dexamethasone-lidocaine injection. Mean follow-up from baseline injection to the last available follow-up was 77.0 ± 82.7 days. Outcomes included visual analogue scale (VAS), comfortable mouth opening (CMO), maximum mouth opening (MMO), pain presence, and pain-location burden. Paired, longitudinal, and final-outcome analyses were performed, with additional exploratory analyses. RESULTS: At first follow-up, VAS decreased from 3.25 ± 1.75 to 2.45 ± 1.67 (change, -0.80 ± 1.44; FDR-adjusted p < 0.001), CMO increased modestly by 0.99 ± 5.98 mm (FDR-adjusted p = 0.015), and pain-location burden decreased by 0.30 ± 0.90 (FDR-adjusted p < 0.001). MMO did not change significantly (FDR-adjusted p = 0.166). Mixed-effects models using actual elapsed time showed decreases in VAS (β = -0.069 per 30 days; FDR-adjusted p = 0.003) and pain-location burden (β = -0.093 per 30 days; FDR-adjusted p < 0.001) and a modest increase in CMO (β = 0.343 mm per 30 days; FDR-adjusted p = 0.001), whereas MMO showed no significant longitudinal change. The absolute VAS decrease was greater in the moderate-to-severe baseline pain group than in the mild pain group (-1.68 ± 1.56 vs. -0.35 ± 1.13; FDR-adjusted p < 0.001). At final follow-up, VAS had decreased from baseline in 53.4% of patients, including 80.0% of those with moderate-to-severe baseline pain (FDR-adjusted p < 0.001). CONCLUSIONS: Intra-articular dexamethasone-lidocaine injection was followed by decreases in pain intensity and pain-location burden and a modest increase in CMO, whereas MMO showed no consistent longitudinal change. These findings support a multidomain approach to assessing clinical trajectories after TMJ injection.",
+   "tags": [
+    "dexamethasone",
+    "intra‐articular injection",
+    "lidocaine",
+    "pain‐location burden",
+    "temporomandibular disorders",
+    "temporomandibular joint arthralgia"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107180",
+   "pmid": "43067542",
+   "doi": "10.1016/j.jdent.2026.107180",
+   "title": "Mapping the global landscape of research on primary and secondary headaches from 2000 to 2025: a bibliometric analysis",
+   "title_zh": "2000-2025原发性与继发性头痛全球研究图谱",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-21",
+   "authors": [
+    "do Couto Caetano JP",
+    "da Rosa Perez J",
+    "Montagner AF",
+    "da Rosa WLO",
+    "Rios GS",
+    "Boscato N"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43067542/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": 50825,
+   "sample_note": "2522 项研究",
+   "tier": "B",
+   "domain": "方法与交叉",
+   "methods": [
+    "ml"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "文献计量学",
+   "one_line": "bibliometric mapping 5万+记录，揭示CGRP靶向治疗、遗传学与ML成为新热点。",
+   "so_what": "仅背景；无实验证据，无法推进q1-q5任一机制问题。",
+   "caution": "文献计量≠因果证据；不改变临床决策",
+   "score": {
+    "final": 10.6,
+    "match": 3.0,
+    "novelty": 15.0,
+    "rigor": 30.0,
+    "impact": 8.0,
+    "transfer": 10.0
+   },
+   "heuristic": 33.4,
+   "breakdown": {
+    "topic": 1.2,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 8.0,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVES: To map research on primary and secondary headaches, including its interface with dentistry, in PubMed records entered in 2000-2025. METHODS: PubMed records were retrieved with two strategies based on the International Classification of Headache Disorders and restricted to a validated thematic core; citations came from NIH iCite. Output, citation impact and flows, collaboration, co-citation and bursts of Medical Subject Headings were analyzed. RESULTS: Of 50,825 records, 40,441 formed the core (precision 92.0%; estimated sensitivity 99.2%). Annual output rose from 747 to 2,522 articles (modeled growth 4.0% annually), with a roughly stable MEDLINE share. The United States led production (29.8%) and China grew fastest. Migraine appeared in 68.7% of articles, secondary headaches in 12.2% and tension-type headache in 8.8%; the latter's share declined (odds ratio per decade 0.69; 95% confidence interval 0.65-0.72). Research shifted from triptans to calcitonin gene-related peptide (CGRP) therapies, with bursts in CGRP antagonists, genetics and machine learning. The dental interface (temporomandibular disorders, bruxism, orofacial pain) appeared in 1.3% of articles; only 1.0% of all articles were in dental journals, which received one third of expected citations. CONCLUSIONS: Headache research grew with the biomedical literature and turned toward targeted therapies; tension-type headache is underrepresented given its prevalence, and the dental interface was small, with few articles in dental journals and limited uptake. CLINICAL SIGNIFICANCE: Headache often coexists with temporomandibular disorders and sleep bruxism, yet few studies address dental aspects. The core journals and gaps identified can help dentists and researchers navigate the literature and identify research priorities.",
+   "tags": [
+    "Bibliometrics",
+    "Calcitonin gene-related peptide",
+    "Headache disorders",
+    "Migraine disorders",
+    "Temporomandibular joint disorders",
+    "Tension-type headache"
+   ]
+  },
+  {
+   "id": "10.1016/j.joen.2026.11.009",
+   "pmid": "43064234",
+   "doi": "10.1016/j.joen.2026.11.009",
+   "title": "Ex Vivo Evaluation of Obturation Quality Using a Novel Hydrogel-Based Root Filling Material",
+   "title_zh": null,
+   "journal": "Journal of endodontics",
+   "date": "2026-11-20",
+   "authors": [
+    "Zeng K",
+    "Cai Y",
+    "Lin Y",
+    "He J",
+    "Wei X"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43064234/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "生物材料表面/降解产物如…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "生物材料表面/降解产物如…",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 46.0
+   },
+   "heuristic": 54.1,
+   "breakdown": {
+    "topic": 21.1,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 0.0,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "INTRODUCTION: The quality of root canal filling is an important factor affecting the long-term success of root canal treatment. OdneFill is a recently introduced light-curable, all-in-one hydrogel-based root filling material with favorable physicochemical and biological properties. However, its obturation performance has not been evaluated. METHODS: Thirty mandibular premolars with straight, patent canals were instrumented and irrigated following a standardized protocol and randomly assigned to three groups based on the obturation technique and material used. Group 1: gutta-percha with AH Plus sealer using warm vertical compaction (AH+/WVC); Group 2: gutta-percha with iRoot SP using a sealer-based single-cone technique (BC/SC); and Group 3: the all-in-one OdneFill system (OdneFill). Obturation quality and void volumes were assessed using high-resolution micro-computeda tomography. RESULTS: All groups exhibited low void volumes throughout the canal system. The apical third displayed a higher void percentage than the coronal third, particularly in the AH+/WVC and OdneFill groups (P < 0.05). No statistically significant differences were observed among the three groups in void volume for any canal third or for the entire canal length. Fifty-three percent of lateral canals present showed adequate obturation. CONCLUSIONS: OdneFill produced obturation quality that did not differ significantly from that of conventional root filling materials and techniques. However, none of the tested materials and techniques achieved a completely void-free seal.",
+   "tags": [
+    "AH Plus",
+    "Bioceramic sealers",
+    "Micro-CT",
+    "OdneFill",
+    "Root canal obturation",
+    "voids"
+   ]
+  },
+  {
+   "id": "10.1159/cre/abuag021",
+   "pmid": "43066589",
+   "doi": "10.1159/cre/abuag021",
+   "title": "Food Labelling Policy and Dental Caries: A Mediation Analysis",
+   "title_zh": null,
+   "journal": "Caries research",
+   "date": "2026-11-21",
+   "authors": [
+    "Gambetta-Tessini K",
+    "Giacaman RA",
+    "Tiwari T",
+    "Nascimento GG"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43066589/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 3206,
+   "sample_note": "n=3206 individuals",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [
+    "causal"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙体牙髓与龋病",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 41.3
+   },
+   "heuristic": 48.6,
+   "breakdown": {
+    "topic": 7.4,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 8.0,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVE: To evaluate the association between front-of-package food labelling (FoPFL) use and dental caries and to explore whether sugar-sweetened beverage (SSB) intake mediates this relationship, and whether educational level modifies this association. METHODS: This cross-sectional study used nationally representative data from the Chilean National Health Survey 2016-2017. A total of 3,206 individuals aged 15-50 years were included, of whom 2,792 had complete oral health data. FoPFL use was defined as self-reported frequency of revising and taking into consideration warning labels and dichotomized as \"almost always\" versus \"rarely/never.\" The outcome was the prevalence of untreated cavitated caries. High SSB intake (consuming more than once a day) was considered a mediator. Regression and mediation analyses were conducted, as well as effect modification analyses. RESULTS: Caries prevalence was 52.3%, and 48.2% of participants reported rarely or never using FoPFL. Individuals who reported using FoPFL had lower odds of caries (total effect OR=0.65; 95% CI: 0.51-0.84). SSB intake partially mediated this association (indirect effect OR=0.96; 95% CI: 0.92-0.99), accounting for 10.8% of the total effect, while the direct effect remained significant (OR=0.68; 95% CI: 0.53-0.88). The mediation proportion was higher among individuals with lower education (14.6%) than among those with higher education (4.2%). CONCLUSION: Self-reported engagement with FoPFL was associated with lower odds of cavitated caries, an association partially explained by lower SSB consumption. The pattern observed across educational groups appears relevant to understanding socioeconomic differences in oral health; however, longitudinal studies are needed to determine causality.",
+   "tags": []
+  },
+  {
+   "id": "10.1016/j.oraloncology.2026.108233",
+   "pmid": "43063685",
+   "doi": "10.1016/j.oraloncology.2026.108233",
+   "title": "Clinical-pathological nodal discordance and survival outcomes in oral squamous cell carcinoma",
+   "title_zh": "口腔鳞癌临床病理淋巴结分期不一致及预后",
+   "journal": "Oral oncology",
+   "date": "2026-11-20",
+   "authors": [
+    "Chang CW",
+    "Liao LJ",
+    "Hung CY",
+    "Cheng PC",
+    "Cheng YP",
+    "Chiang CJ",
+    "Lee WC",
+    "Hsu WL",
+    "Chen TC"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43063685/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 14618,
+   "sample_note": "n=14618 patients",
+   "tier": "A",
+   "domain": "颌面肿瘤与分子机制",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔鳞癌临床预后",
+   "one_line": "基于台湾癌症登记库14,618例OSCC患者，解析临床-病理淋巴结分期不一致的生存结局差异。",
+   "so_what": "仅背景；属纯临床流行病学，无免疫微环境或微生物组维度。",
+   "caution": "回顾性大样本但有选择偏倚风险，缺乏机制数据支撑。",
+   "score": {
+    "final": 39.0,
+    "match": 25.0,
+    "novelty": 30.0,
+    "rigor": 55.0,
+    "impact": 40.0,
+    "transfer": 10.0
+   },
+   "heuristic": 65.0,
+   "breakdown": {
+    "topic": 22.1,
+    "journal": 15.0,
+    "design": 15,
+    "sample": 8.0,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: The prognostic significance of discordance between clinical and pathological nodal staging in oral squamous cell carcinoma (OSCC) remains poorly understood. This study investigates how clinical-pathological nodal discordance impacts survival outcomes in OSCC. METHODS: We conducted a retrospective cohort study of 14,618 OSCC patients from the Taiwan Cancer Registry who underwent primary surgical resection with neck dissection between 2018 and 2022. Patients were stratified into four groups: true negative (cN0pN0), occult metastasis (cN0pN + ), overt metastasis (cN + pN + ), and false positive (cN + pN0). Survival outcomes were evaluated using Kaplan-Meier analysis, propensity score matching, and multivariable Cox proportional hazards regression. RESULTS: Among 14,618 patients, 7,154 (48.9 %) were true negative, 1,290 (8.8 %) had occult metastasis, 3,197 (21.9 %) had overt metastasis, and 2,977 (20.4 %) were false positive. Approximately 30 % of patients presented with clinical-pathological discordance in neck staging. Despite harboring more advanced T-stage primary tumors, false-positive patients achieved survival outcomes comparable to those of true-negative patients (5-year DFS 71.6 % vs. 71.3 %; OS 76.1 % vs. 75.8 %). Extranodal extension (ENE) was present in 25.5 % of occult metastasis patients and 53.2 % of overt metastasis patients. Regardless of occult or overt presentation, the presence of ENE dictated similarly poor survival outcomes compared with patients without ENE (p < 0.001). CONCLUSION: Clinical-pathological nodal discordance is common in OSCC, and ENE, rather than the clinical detectability of nodal disease, is the dominant prognostic factor in node-positive disease. Elective neck dissection therefore serves a dual diagnostic and therapeutic role, identifying occult metastases that elude preoperative imaging and improving long-term survival.",
+   "tags": [
+    "Extranodal extension",
+    "Neck dissection",
+    "Nodal staging",
+    "Occult metastasis",
+    "Oral squamous cell carcinoma"
+   ]
+  },
+  {
+   "id": "10.1111/iej.70315",
+   "pmid": "43059493",
+   "doi": "10.1111/iej.70315",
+   "title": "Effects of Specialist Endodontic Therapy on Tooth Retention and Treatment Costs in Germany: A Cost-Effectiveness Analysis",
+   "title_zh": null,
+   "journal": "International endodontic journal",
+   "date": "2026-11-20",
+   "authors": [
+    "Benz L",
+    "Leontiev W",
+    "Schwendicke F",
+    "Walter E"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43059493/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙体牙髓与龋病",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 35.9
+   },
+   "heuristic": 42.2,
+   "breakdown": {
+    "topic": 9.2,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 0.0,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Root canal treatment (RCT) is among the most frequently performed procedures in dentistry. Endodontic specialists have been reported to achieve higher success rates than general practitioners (GPs). However, treatment by a specialist is also associated with increased costs. AIM: In this analysis, cost-effectiveness outcomes were compared between treatments performed by specialists and GPs. MATERIAL AND METHODS: A Markov model was used to follow a tooth requiring a RCT of an initially 25-years-old patient over his lifetime. Three treatment pathways were compared: (1) Primary RCT and all subsequent endodontic follow-up treatments performed exclusively by a GP; (2) primary RCT and subsequent endodontic follow-up treatments performed by an endodontic specialist; and (3) initial treatment by a GP with referral to a specialist for retreatment in cases of primary RCT failure. Tooth retention was used as the primary health outcome and patient-reported outcome measures as secondary outcomes. Transition probabilities between health states were based on published literature. Cost estimates for both initial and follow-up treatments were derived from public and private fee schedules in Germany and expressed in 2026 EUR with an annual discount rate of 3%. Monte Carlo microsimulations were conducted and the incremental cost-effectiveness ratio (ICER) was used as an outcome measure. RESULTS: Specialist treatment resulted in the highest tooth retention, with an average of 49.5 years and associated costs of 1475.89 EUR and the highest overall patient satisfaction. In comparison, treatment exclusively provided by a GP showed lower effectiveness, with an average of 36.8 years and costs of 1376.81 EUR. Referral, with primary RCT performed by a GP and retreatment conducted by a specialist in case of failure, resulted in intermediate effectiveness with 44.2 years while reducing overall costs to 1326.17 EUR. CONCLUSION: Treatment performed by specialists results in improved tooth retention, and slightly higher treatment costs compared to treatment by a GP. Sequential referral represents the least costly pathway, combining lower initial expenditure with effective cost containment through targeted specialist intervention. These findings support integration of structured referral protocols into endodontic care pathways to optimise both clinical outcomes and resource utilis",
+   "tags": [
+    "cost effectiveness analysis",
+    "endodontics",
+    "outcome study",
+    "specialist"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107179",
+   "pmid": "43067541",
+   "doi": "10.1016/j.jdent.2026.107179",
+   "title": "A mechanism-to-decision modelling chain for the fluoride caries-fluorosis trade-off in China",
+   "title_zh": null,
+   "journal": "Journal of dentistry",
+   "date": "2026-11-21",
+   "authors": [
+    "Cheng X",
+    "Song J"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43067541/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙体牙髓与龋病",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 32.2
+   },
+   "heuristic": 37.9,
+   "breakdown": {
+    "topic": 15.9,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To integrate fluoride exposure, skeletal dosimetry, dental outcomes and costs in an illustrative decision model, and to examine how assumptions about benefit, harm and skeletal constraints affect drinking-water concentration choices in China. METHODS: We combined acute PBPK benchmark checks, a calibrated lifetime skeletal-accrual model, empirical dental response functions and a six-state Markov model. We corrected parallel-flow allocation and applied the same background fluorosis risk to varnish and its comparator, then repeated deterministic calculations and 1,500 paired valid probabilistic draws. Costs and utilities remained illustrative. Additional analyses examined response assumptions, skeletal constraints and targeted external evidence. RESULTS: At a lifelong drinking-water fluoride exposure concentration of 1.0 mg/L, the adjusted estimated bone burden at age 60 was 2,432 ppm. The illustrative dental optimum was 1.61 mg/L, constrained to 1.44 mg/L by a 3,500-ppm skeletal assumption. The optimum ranged from 1.00 to 2.20 mg/L as fluorosis disutility varied from 0.010 to 0.002; quartering caries benefit shifted it to 0.65 mg/L. Restoring background fluorosis increased the varnish frontier ICER from ¥32,824 to ¥41,313/QALY. At ¥90,000/QALY, pairwise cost-effectiveness proportions remained 1.00, whereas varnish had the highest NMB in 99.73% of draws and EVPI was ¥0.15/person. These are conditional simulation results. CONCLUSIONS: This framework makes the assumptions behind fluoride decisions explicit, but does not establish a universal optimum. The base case is compatible with retaining China's 1.0 mg/L ceiling; approximately 0.7 mg/L is a candidate for local evaluation, not a validated national lower bound. Chinese economic inputs, external validation and broader uncertainty analysis are needed before the numerical results can support implementation or budgeting. CLINICAL SIGNIFICANCE: Fluoride policy should consider caries prevention, developmental fluorosis and cumulative skeletal exposure together. The model supports evaluating the current ceiling and possible local targets without treating an assumed dose-response curve or a modelled optimum as a clinical safety guarantee.",
+   "tags": [
+    "China",
+    "Markov model",
+    "cost-effectiveness analysis",
+    "dental caries",
+    "dental fluorosis",
+    "drinking-water standard"
+   ]
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 17
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 17
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 17
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 17
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 17
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 17
+  }
+ ],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}

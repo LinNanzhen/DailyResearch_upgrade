@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-22T09:32:13+08:00",
- "latest": "2026-11-22",
+ "updated_at": "2026-11-23T09:58:35+08:00",
+ "latest": "2026-11-23",
  "days": [
+  {
+   "date": "2026-11-23",
+   "must_title": "Characterization of the peri-tumoral immune infiltrate at the invasive front of oral cavity squamous cell carcinoma",
+   "must_title_zh": "口腔鳞癌侵袭前沿瘤周免疫浸润的特征及其与预后、CAF的关系",
+   "cluster": "OSCC免疫微环境",
+   "count": 10,
+   "ai": true
+  },
   {
    "date": "2026-11-22",
    "must_title": "Ferroptosis and Lipid Metabolic Dysregulation Are Associated With Periodontitis and Peri-Implantitis Complicated by Type 2 Diabetes: A Cross-Sectional Study",
