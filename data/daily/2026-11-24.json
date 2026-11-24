@@ -1,0 +1,1089 @@
+{
+ "date": "2026-11-24",
+ "generated_at": "2026-11-24T13:29:59+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 4,
+  "prompt_tokens": 9373,
+  "completion_tokens": 7740
+ },
+ "stats": {
+  "candidates": 40,
+  "raw": 40,
+  "fetched": 12,
+  "raw_dropped_type": 2,
+  "no_abstract": 1,
+  "gated": 12,
+  "scored": 12,
+  "shown": 10,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 4,
+  "quality_failed": 0,
+  "quality_repaired": 1
+ },
+ "must_read": {
+  "id": "10.1177/00220345261500484",
+  "pmid": "43069539",
+  "doi": "10.1177/00220345261500484",
+  "title": "Periodontal Bacteria-Derived Vesicles Disrupt Maternal and Fetal Health",
+  "title_zh": "牙周细菌来源的膜泡破坏母体与胎儿健康",
+  "journal": "Journal of dental research",
+  "date": "2026-11-22",
+  "authors": [
+   "Rojas C",
+   "Concha-Cerda J",
+   "Mizgier ML",
+   "Saavedra F",
+   "Bendek MJ",
+   "Valenzuela J",
+   "Madrid C",
+   "Schinnerling K",
+   "Sierra-Cristancho A",
+   "Romo-Toledo P",
+   "Martínez C",
+   "Illanes S"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43069539/",
+  "pmcid": "",
+  "cited_by": 0,
+  "design": "animal",
+  "design_label": "动物实验",
+  "design_level": 2,
+  "sample_n": null,
+  "sample_note": "",
+  "tier": "A",
+  "domain": "牙周与宿主免疫",
+  "methods": [],
+  "pub_types": [
+   "Journal Article"
+  ],
+  "is_open_access": false,
+  "cluster": "牙周-妊娠全身效应",
+  "one_line": "Pg/Fn来源OMVs经血液循环改变妊娠结局与母体糖代谢，无需活菌即可致病理效应。",
+  "so_what": "为q2提供“菌源性囊泡”新机制，可直接迁移至种植体周炎全身效应研究。",
+  "caution": "动物模型外推人类需验证体内递送效率与剂量相关性。",
+  "score": {
+   "final": 83.6,
+   "match": 95.0,
+   "novelty": 85.0,
+   "rigor": 88.0,
+   "impact": 75.0,
+   "transfer": 90.0
+  },
+  "heuristic": 65.0,
+  "breakdown": {
+   "topic": 35.0,
+   "journal": 15.0,
+   "design": 9,
+   "sample": 0.0,
+   "fresh": 6.0,
+   "method": 0.0
+  },
+  "abstract": "Periodontitis is a chronic inflammatory disease driven by a dysbiotic subgingival microbiome that has been consistently associated with adverse pregnancy outcomes (APOs). However, the molecular mechanisms linking pathogenic periodontal bacteria to gestational complications remain incompletely understood. Outer membrane vesicles (OMVs) released by gram-negative periodontal bacteria have emerged as key mediators of host-microbe interactions due to their systemic disseminating properties, endowing them the capacity of delivering virulence factors to distant tissues and modulating immune-inflammatory and metabolic responses in the absence of live bacteria. In this study we investigated whether systemic administration of OMVs derived from 2 major periodontal pathogens, Porphyromonas gingivalis (Pg) or Fusobacterium nucleatum (Fn), alters pregnancy outcomes, maternal inflammation, glucose tolerance, and fetal growth in a murine model. Periodontitis-affected pregnant mice were systemically exposed to Pg- or Fn-derived OMVs throughout gestation. Pregnancy success, alveolar bone loss, OMV biodistribution, systemic and placental inflammation, glucose metabolism alterations, and fetal growth were assessed. Pg-OMVs significantly impaired pregnancy success (P = 0.0055), with only 2 Pg-OMV-exposed females reaching the gestational endpoint with viable pregnancies, precluding subsequent gestational outcome analyses. In contrast, Fn-OMVs primarily affected established pregnancies, exacerbating alveolar bone loss, as evidenced by reduced BV/TV (P = 0.0003), and inducing hepatomegaly (P = 0.037) and splenomegaly (p = 0.009), accompanied by increased splenic interleukin (IL)-1β and IL-6 expression (P = 0.045 and P = 0.035, respectively). Metabolically, Fn-OMVs impaired maternal glucose tolerance (P = 0.017) and preferentially accumulated in the placenta, where NF-κB activation (P = 0.012) and IL-1β and tumor necrosis factor-α expression (P = 0.036 and P = 0.025, respectively) were upregulated. Furthermore, offspring displayed reduced fetal weight (P = 0.044) and anthropometric alterations consistent with fetal growth restriction (FGR) (P < 0.05). Notably, these organ-specific responses occurred without overt plasmatic inflammatory cytokine elevation but with increased circulating IL-4 levels (P = 0.023). In sum, periodontal bacteria-derived OMVs differentially disrupt pregnancy",
+  "tags": [
+   "Fusobacterium nucleatum",
+   "Porphyromonas gingivalis",
+   "fetal growth restriction",
+   "outer membrane vesicles",
+   "periodontitis",
+   "pregnancy loss"
+  ],
+  "deep": {
+   "title_zh": "牙周细菌来源的膜泡破坏母体与胎儿健康",
+   "one_sentence": "Pg-OMVs优先损害妊娠成功率，Fn-OMVs在已建立妊娠中诱导骨丢失、胎盘炎症及胎儿生长受限，二者路径分化。",
+   "question": "牙周致病菌释放的外膜囊泡（OMVs）能否在无活菌情况下作为系统性介质导致不良妊娠结局（APOs），且Pg与Fn的OMVs是否在机制上存在分工？",
+   "design": "孕期小鼠模型，系统性暴露于Pg-或Fn-来源OMVs贯穿整个妊娠期，设牙周炎相关造模组与相应OMVs干预组，比较妊娠成功率、骨丢失、代谢与胎儿表型；摘要未说明随机/盲法/样本量。",
+   "sample_desc": "孕鼠小鼠模型，摘要未说明各组n数。",
+   "findings": [
+    {
+     "claim": "Pg-OMVs严重损害妊娠维持能力",
+     "evidence": "妊娠成功率显著降低（P = 0.0055）；干预全程后仅有2只Pg-OMVs暴露雌鼠到达妊娠终点并有可存活妊娠，后续产出统计不可行"
+    },
+    {
+     "claim": "Fn-OMVs不损害妊娠起始，但加剧已建妊娠的骨丢失",
+     "evidence": "BV/TV显著下降（P = 0.0003）"
+    },
+    {
+     "claim": "Fn-OMVs诱导肝脾肿大及脾脏促炎上调",
+     "evidence": "肝大（P = 0.037）、脾大（P = 0.009）；脾IL-1β（P = 0.045）与IL-6（P = 0.035）表达上调"
+    },
+    {
+     "claim": "Fn-OMVs造成母体糖耐量受损",
+     "evidence": "葡萄糖耐量异常（P = 0.017）"
+    }
+   ],
+   "effect": "Pg-OMVs组：妊娠终点存活数仅为2只（方向强、效应极大，但N过小无法给CIs）；Fn-OMVs组：BV/TV P=0.0003、胎盘中IL-1β P=0.036/TNF-α P=0.025/NF-κB P=0.012、糖耐量P=0.017、胎儿体重P=0.044、脾IL-1β P=0.045/IL-6 P=0.0…",
+   "relation": "q2（牙周炎→不良妊娠/全身疾病通路）核心支持文献；同时为q4（生物材料/微生物源性颗粒如何编程宿主反应）提供体外无活菌条件下的体内证据。",
+   "why": "将'牙周炎导致APOs'的黑箱推进到'细菌OMVs为活性载体'这一可直接操作的中介层；并且揭示Pg与Fn两套OMVs的作用位点分化为'妊娠着床/早期维持失败' vs '代谢-胎盘-FGR轴'，改变既往把Porphyromonas/Fusobacterium等同看待的习惯认知。另外，'胎盘局部NF-κB↑/IL-1β↑+TNF-α↑ + 循环炎症不高'的模式，为后续寻找'局部效应≠全身脓毒症'的分…",
+   "limitations": [
+    "仅用两种菌株的OMVs，缺少多菌株混合/临床分离株验证，外部推广有限；",
+    "摘要未报告单克隆抗体中和实验、TLR受体阻断或OMVs清除手段，因果链停留在相关性-剂量层面，尚未到机制阻断；",
+    "动物给药剂量与频率是否等效人类慢性牙周炎的长期低剂量暴露未说明，转化解读需谨慎。"
+   ],
+   "transferable": "[\"用'胎盘局部炎症+循环炎症双轨检测'拆分组织内/外周响应，可移植到任何试图证明'感染-妊娠结局'的研究；\", \"以FN/Pg OMVs做'有无活菌对照'的设计思路，可迁移到材料降解产物、纳米塑料等颗粒物的安全性评估；\", 'FGR多维身长指标联合判断而非单一体重，可作为胎儿发育评价的标准动作。']",
+   "followups": [
+    "Pg-OMVs致2/全妊娠失败的机制是什么：是子宫螺旋动脉重塑障碍、蜕膜NK细胞失衡，还是胚胎植入窗期基因程序被抑制？",
+    "Fn-OMVs靶向胎盘的摄取受体/转运蛋白是哪个（如整合素、 scavenger receptor 或TIR域识别）？用敲除/阻断是否能逆转胎盘NF-κB激活与FGR？",
+    "循环IL-4升高是代偿还是致病副产物？其是否与Treg扩增或胎盘滋养层M2极化有关？"
+   ],
+   "glossary": [
+    {
+     "en": "Outer membrane vesicles (OMVs)",
+     "cn": "外膜囊泡"
+    },
+    {
+     "en": "Porphyromonas gingivalis (Pg)",
+     "cn": "牙龈卟啉单胞菌"
+    },
+    {
+     "en": "Fusobacterium nucleatum (Fn)",
+     "cn": "具核梭杆菌"
+    },
+    {
+     "en": "Adverse pregnancy outcomes (APOs)",
+     "cn": "不良妊娠结局"
+    },
+    {
+     "en": "Bone volume/total volume (BV/TV)",
+     "cn": "骨体积分数"
+    },
+    {
+     "en": "Fetal growth restriction (FGR)",
+     "cn": "胎儿生长受限"
+    }
+   ],
+   "reading_minutes": 12,
+   "quality": {
+    "passed": true,
+    "score": 100.0,
+    "judge_score": 88.0,
+    "problems": [
+     "why 似乎被截断",
+     "effect 字段末尾被截断（P=0.0…），交付前应补全",
+     "why 字段同样在句中截断，未完整收尾"
+    ],
+    "repaired_by": "",
+    "attempts": 0
+   }
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1177/00220345261500484",
+   "pmid": "43069539",
+   "doi": "10.1177/00220345261500484",
+   "title": "Periodontal Bacteria-Derived Vesicles Disrupt Maternal and Fetal Health",
+   "title_zh": "牙周细菌来源的膜泡破坏母体与胎儿健康",
+   "journal": "Journal of dental research",
+   "date": "2026-11-22",
+   "authors": [
+    "Rojas C",
+    "Concha-Cerda J",
+    "Mizgier ML",
+    "Saavedra F",
+    "Bendek MJ",
+    "Valenzuela J",
+    "Madrid C",
+    "Schinnerling K",
+    "Sierra-Cristancho A",
+    "Romo-Toledo P",
+    "Martínez C",
+    "Illanes S"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43069539/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "animal",
+   "design_label": "动物实验",
+   "design_level": 2,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙周-妊娠全身效应",
+   "one_line": "Pg/Fn来源OMVs经血液循环改变妊娠结局与母体糖代谢，无需活菌即可致病理效应。",
+   "so_what": "为q2提供“菌源性囊泡”新机制，可直接迁移至种植体周炎全身效应研究。",
+   "caution": "动物模型外推人类需验证体内递送效率与剂量相关性。",
+   "score": {
+    "final": 83.6,
+    "match": 95.0,
+    "novelty": 85.0,
+    "rigor": 88.0,
+    "impact": 75.0,
+    "transfer": 90.0
+   },
+   "heuristic": 65.0,
+   "breakdown": {
+    "topic": 35.0,
+    "journal": 15.0,
+    "design": 9,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "Periodontitis is a chronic inflammatory disease driven by a dysbiotic subgingival microbiome that has been consistently associated with adverse pregnancy outcomes (APOs). However, the molecular mechanisms linking pathogenic periodontal bacteria to gestational complications remain incompletely understood. Outer membrane vesicles (OMVs) released by gram-negative periodontal bacteria have emerged as key mediators of host-microbe interactions due to their systemic disseminating properties, endowing them the capacity of delivering virulence factors to distant tissues and modulating immune-inflammatory and metabolic responses in the absence of live bacteria. In this study we investigated whether systemic administration of OMVs derived from 2 major periodontal pathogens, Porphyromonas gingivalis (Pg) or Fusobacterium nucleatum (Fn), alters pregnancy outcomes, maternal inflammation, glucose tolerance, and fetal growth in a murine model. Periodontitis-affected pregnant mice were systemically exposed to Pg- or Fn-derived OMVs throughout gestation. Pregnancy success, alveolar bone loss, OMV biodistribution, systemic and placental inflammation, glucose metabolism alterations, and fetal growth were assessed. Pg-OMVs significantly impaired pregnancy success (P = 0.0055), with only 2 Pg-OMV-exposed females reaching the gestational endpoint with viable pregnancies, precluding subsequent gestational outcome analyses. In contrast, Fn-OMVs primarily affected established pregnancies, exacerbating alveolar bone loss, as evidenced by reduced BV/TV (P = 0.0003), and inducing hepatomegaly (P = 0.037) and splenomegaly (p = 0.009), accompanied by increased splenic interleukin (IL)-1β and IL-6 expression (P = 0.045 and P = 0.035, respectively). Metabolically, Fn-OMVs impaired maternal glucose tolerance (P = 0.017) and preferentially accumulated in the placenta, where NF-κB activation (P = 0.012) and IL-1β and tumor necrosis factor-α expression (P = 0.036 and P = 0.025, respectively) were upregulated. Furthermore, offspring displayed reduced fetal weight (P = 0.044) and anthropometric alterations consistent with fetal growth restriction (FGR) (P < 0.05). Notably, these organ-specific responses occurred without overt plasmatic inflammatory cytokine elevation but with increased circulating IL-4 levels (P = 0.023). In sum, periodontal bacteria-derived OMVs differentially disrupt pregnancy",
+   "tags": [
+    "Fusobacterium nucleatum",
+    "Porphyromonas gingivalis",
+    "fetal growth restriction",
+    "outer membrane vesicles",
+    "periodontitis",
+    "pregnancy loss"
+   ],
+   "deep": {
+    "title_zh": "牙周细菌来源的膜泡破坏母体与胎儿健康",
+    "one_sentence": "Pg-OMVs优先损害妊娠成功率，Fn-OMVs在已建立妊娠中诱导骨丢失、胎盘炎症及胎儿生长受限，二者路径分化。",
+    "question": "牙周致病菌释放的外膜囊泡（OMVs）能否在无活菌情况下作为系统性介质导致不良妊娠结局（APOs），且Pg与Fn的OMVs是否在机制上存在分工？",
+    "design": "孕期小鼠模型，系统性暴露于Pg-或Fn-来源OMVs贯穿整个妊娠期，设牙周炎相关造模组与相应OMVs干预组，比较妊娠成功率、骨丢失、代谢与胎儿表型；摘要未说明随机/盲法/样本量。",
+    "sample_desc": "孕鼠小鼠模型，摘要未说明各组n数。",
+    "findings": [
+     {
+      "claim": "Pg-OMVs严重损害妊娠维持能力",
+      "evidence": "妊娠成功率显著降低（P = 0.0055）；干预全程后仅有2只Pg-OMVs暴露雌鼠到达妊娠终点并有可存活妊娠，后续产出统计不可行"
+     },
+     {
+      "claim": "Fn-OMVs不损害妊娠起始，但加剧已建妊娠的骨丢失",
+      "evidence": "BV/TV显著下降（P = 0.0003）"
+     },
+     {
+      "claim": "Fn-OMVs诱导肝脾肿大及脾脏促炎上调",
+      "evidence": "肝大（P = 0.037）、脾大（P = 0.009）；脾IL-1β（P = 0.045）与IL-6（P = 0.035）表达上调"
+     },
+     {
+      "claim": "Fn-OMVs造成母体糖耐量受损",
+      "evidence": "葡萄糖耐量异常（P = 0.017）"
+     }
+    ],
+    "effect": "Pg-OMVs组：妊娠终点存活数仅为2只（方向强、效应极大，但N过小无法给CIs）；Fn-OMVs组：BV/TV P=0.0003、胎盘中IL-1β P=0.036/TNF-α P=0.025/NF-κB P=0.012、糖耐量P=0.017、胎儿体重P=0.044、脾IL-1β P=0.045/IL-6 P=0.0…",
+    "relation": "q2（牙周炎→不良妊娠/全身疾病通路）核心支持文献；同时为q4（生物材料/微生物源性颗粒如何编程宿主反应）提供体外无活菌条件下的体内证据。",
+    "why": "将'牙周炎导致APOs'的黑箱推进到'细菌OMVs为活性载体'这一可直接操作的中介层；并且揭示Pg与Fn两套OMVs的作用位点分化为'妊娠着床/早期维持失败' vs '代谢-胎盘-FGR轴'，改变既往把Porphyromonas/Fusobacterium等同看待的习惯认知。另外，'胎盘局部NF-κB↑/IL-1β↑+TNF-α↑ + 循环炎症不高'的模式，为后续寻找'局部效应≠全身脓毒症'的分…",
+    "limitations": [
+     "仅用两种菌株的OMVs，缺少多菌株混合/临床分离株验证，外部推广有限；",
+     "摘要未报告单克隆抗体中和实验、TLR受体阻断或OMVs清除手段，因果链停留在相关性-剂量层面，尚未到机制阻断；",
+     "动物给药剂量与频率是否等效人类慢性牙周炎的长期低剂量暴露未说明，转化解读需谨慎。"
+    ],
+    "transferable": "[\"用'胎盘局部炎症+循环炎症双轨检测'拆分组织内/外周响应，可移植到任何试图证明'感染-妊娠结局'的研究；\", \"以FN/Pg OMVs做'有无活菌对照'的设计思路，可迁移到材料降解产物、纳米塑料等颗粒物的安全性评估；\", 'FGR多维身长指标联合判断而非单一体重，可作为胎儿发育评价的标准动作。']",
+    "followups": [
+     "Pg-OMVs致2/全妊娠失败的机制是什么：是子宫螺旋动脉重塑障碍、蜕膜NK细胞失衡，还是胚胎植入窗期基因程序被抑制？",
+     "Fn-OMVs靶向胎盘的摄取受体/转运蛋白是哪个（如整合素、 scavenger receptor 或TIR域识别）？用敲除/阻断是否能逆转胎盘NF-κB激活与FGR？",
+     "循环IL-4升高是代偿还是致病副产物？其是否与Treg扩增或胎盘滋养层M2极化有关？"
+    ],
+    "glossary": [
+     {
+      "en": "Outer membrane vesicles (OMVs)",
+      "cn": "外膜囊泡"
+     },
+     {
+      "en": "Porphyromonas gingivalis (Pg)",
+      "cn": "牙龈卟啉单胞菌"
+     },
+     {
+      "en": "Fusobacterium nucleatum (Fn)",
+      "cn": "具核梭杆菌"
+     },
+     {
+      "en": "Adverse pregnancy outcomes (APOs)",
+      "cn": "不良妊娠结局"
+     },
+     {
+      "en": "Bone volume/total volume (BV/TV)",
+      "cn": "骨体积分数"
+     },
+     {
+      "en": "Fetal growth restriction (FGR)",
+      "cn": "胎儿生长受限"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": 88.0,
+     "problems": [
+      "why 似乎被截断",
+      "effect 字段末尾被截断（P=0.0…），交付前应补全",
+      "why 字段同样在句中截断，未完整收尾"
+     ],
+     "repaired_by": "",
+     "attempts": 0
+    }
+   }
+  },
+  {
+   "id": "10.1007/s00784-026-07295-8",
+   "pmid": "43069273",
+   "doi": "10.1007/s00784-026-07295-8",
+   "title": "Susceptibility to oral candidiasis in patients with type 2 diabetes mellitus: insights from salivary proteomics",
+   "title_zh": "2型糖尿病患者口腔念珠菌病易感性：唾液蛋白组学的见解",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-23",
+   "authors": [
+    "Cui Y",
+    "Wang L",
+    "Wang X",
+    "Wu S",
+    "Zhang X",
+    "Li S",
+    "Yang H",
+    "Yan Z"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43069273/",
+   "pmcid": "4851236",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": 15,
+   "sample_note": "n=15",
+   "tier": "B",
+   "domain": "牙周炎通过哪些可验证的通…",
+   "methods": [
+    "multiomics"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "糖尿病-口腔真菌",
+   "one_line": "唾液蛋白揭示DM+OC患者黏液屏障与免疫调控缺陷多于单纯DM或OC。",
+   "so_what": "为q2宿主-微生物互作提供候选标志物，蛋白组流程可迁移。",
+   "caution": "单中心、每组n=15，假阳性控制未详述。",
+   "score": {
+    "final": 43.6,
+    "match": 50.0,
+    "novelty": 45.0,
+    "rigor": 35.0,
+    "impact": 30.0,
+    "transfer": 60.0
+   },
+   "heuristic": 39.2,
+   "breakdown": {
+    "topic": 10.8,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 3.2,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVES: Patients with type 2 diabetes mellitus (DM) are more susceptible to oral candidiasis (OC), but the underlying host factors remain unclear. This study aimed to identify diabetes-associated salivary alterations related to oral mucosal defense and OC susceptibility. MATERIALS AND METHODS: Unstimulated whole saliva from healthy controls (HC), DM, OC, and OC-DM participants (n = 15/group) was analyzed by data-independent acquisition mass spectrometry. Diabetes-associated alterations were assessed by DM vs. HC, followed by comparison of OC-associated responses across diabetic and non-diabetic backgrounds. Candidate proteins underwent exploratory clinical correlation analysis. RESULTS: OC-DM participants showed lower salivary flow and higher HbA1c than DM participants, whereas fungal burden did not differ significantly between OC-DM and OC groups. Proteomics identified 236 diabetes-associated proteins enriched in salivary secretion, epithelial interaction, immune regulation, and host-microbial processes. Among 311 classifiable OC-associated proteins, 73 showed larger effects in the diabetic background, 73 attenuated effects, and 165 similar effects. MB increased in OC-DM vs. DM but not in OC vs. HC and was associated with HbA1c and salivary flow. IGHA1 increased in OC vs. HC but showed a weaker response in the diabetic background. CONCLUSIONS: Diabetes-associated salivary proteomic alterations indicate impaired oral mucosal resilience and altered host responses during OC, providing exploratory insights into mechanisms potentially contributing to OC susceptibility. CLINICAL RELEVANCE: OC susceptibility in patients with diabetes may involve impaired oral mucosal defense and dysregulated host responses beyond fungal burden alone. This study provides new insights into the potential mechanisms underlying OC susceptibility in diabetes.",
+   "tags": [
+    "Oral candidiasis",
+    "Proteomics",
+    "Saliva",
+    "Type 2 diabetes mellitus"
+   ],
+   "deep": {
+    "title_zh": "2型糖尿病患者口腔念珠菌病易感性：唾液蛋白组学的见解",
+    "one_sentence": "糖尿病相关唾液蛋白改变削弱黏膜防御，念珠菌易感不能由真菌负荷解释。",
+    "question": "糖尿病患者更易发生口腔念珠菌病，究竟是真菌负荷升高所致，还是宿主唾液侧的黏膜防御与宿主-微生物互作被改变？",
+    "design": "四组对照设计（健康对照HC、糖尿病DM、口腔念珠菌病OC、糖尿病合并OC），每组15例，采集未刺激全唾液做数据非依赖采集（DIA）质谱蛋白组学，先比较DM vs HC识别糖尿病相关改变，再比较OC相关反应在糖尿病与非糖尿病背景下的差异；随机、盲法、随访与剂量安排摘要未说明",
+    "sample_desc": "每组15例受试者（HC、DM、OC、OC-DM四组），为人群唾液样本；具体来源与入组标准摘要未说明",
+    "findings": [
+     {
+      "claim": "OC-DM组较DM组唾液流速更低、HbA1c更高",
+      "evidence": "OC-DM与DM组的组间比较显示唾液流速下降、HbA1c升高（具体数值摘要未给出）"
+     },
+     {
+      "claim": "糖尿病患者对念珠菌的易感性并非由真菌负荷升高解释",
+      "evidence": "OC-DM组与OC组的真菌负荷无显著差异"
+     },
+     {
+      "claim": "糖尿病背景改变了唾液蛋白组基线",
+      "evidence": "DM vs HC鉴定出236个糖尿病相关蛋白，富集于唾液分泌、上皮相互作用、免疫调控与宿主-微生物互作过程"
+     },
+     {
+      "claim": "同一念珠菌相关蛋白反应在糖尿病背景下被放大",
+      "evidence": "311个可分类的OC相关蛋白中，73个在糖尿病背景效应更大"
+     }
+    ],
+    "effect": "未报告",
+    "relation": "主要对应 q3（口腔微生物组失衡是因、果还是标志物）——提供新解释：把糖尿病患者念珠菌易感性的解释重心从真菌负荷（果/标志）移向宿主黏膜防御与宿主反应失调（因）；同时部分呼应 q2（糖尿病与口腔局部免疫互作）",
+    "why": "它推翻了一个默认归因：真菌负荷相同而易感性不同，说明临床上以'念珠菌多少'解释糖尿病患者口腔念珠菌病并不成立；并给出可检验的替代框架——同一感染反应在不同宿主代谢背景下被放大或衰减（73/73/165的三分法），这直接改变实验设计时应检验的'宿主背景×感染'交互项，也提示唾液蛋白（如MB、IGHA1）可作为宿主侧易感标志而非真菌负荷的替代指标",
+    "limitations": [
+     "每组仅15例，且为探索性临床相关分析，关联方向与效应量未在摘要中给出，机制推断仍属假说层面",
+     "摘要未说明研究的时间设计（随机/盲法/随访/时序），无法判断糖尿病相关改变与念珠菌感染的先后关系，因果方向不能确定",
+     "OC-DM与OC真菌负荷无差异这一阴性结果依赖真菌定量方法与阈值，摘要未说明检测手段，阴性结论的把握度存疑"
+    ],
+    "transferable": "两步式分层比较框架：先用'疾病A vs 健康'定义疾病相关特征集，再把疾病B的相关反应拆成'放大/衰减/不变'三类，直接检验宿主背景×疾病的交互效应；这一设计可搬到 q1（种植体周炎反应在糖尿病/非糖尿病宿主背景下的差异）与 q5（OSCC免疫-微生物反应在治疗前后的背景差异），配合单细胞或空间转录组做同一交互项的验证",
+    "followups": [
+     "MB的全称是什么、它在OC-DM中升高的方向与HbA1c/唾液流速的相关系数分别是正还是负（回到正文结果与表3核对）",
+     "236个糖尿病相关蛋白的富集分析用的是什么数据库与富集方法，免疫调控与宿主-微生物互作条目具体落在哪些蛋白上",
+     "311个OC相关蛋白的'效应大小'如何定义（倍数变化还是统计量），73/73/165的三分阈值在方法部分是怎么规定的"
+    ],
+    "glossary": [
+     {
+      "en": "DIA-MS (data-independent acquisition ma…",
+      "cn": "数据非依赖采集质谱"
+     },
+     {
+      "en": "oral candidiasis (OC)",
+      "cn": "口腔念珠菌病"
+     },
+     {
+      "en": "HbA1c",
+      "cn": "糖化血红蛋白"
+     },
+     {
+      "en": "salivary flow",
+      "cn": "唾液流速"
+     },
+     {
+      "en": "mucosal resilience",
+      "cn": "黏膜屏障韧性/黏膜防御能力"
+     },
+     {
+      "en": "IGHA1 (immunoglobulin alpha-1 heavy con…",
+      "cn": "免疫球蛋白α1重链恒定区"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 98.0,
+     "judge_score": 90.0,
+     "problems": [
+      "效应量只有占位符",
+      "追问中提到'表3'，摘要无法核实，属未经依据的正文引用（不影响忠实性判定，因属待核对问题而非结论）"
+     ],
+     "repaired_by": "mimo-v2.6-flash",
+     "attempts": 1
+    }
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1016/j.oraloncology.2026.108243",
+   "pmid": "43068514",
+   "doi": "10.1016/j.oraloncology.2026.108243",
+   "title": "Surgical margins in oropharyngeal squamous cell carcinoma: A European Head and Neck Society (EHNS) multidisciplinary modified Delphi consensus",
+   "title_zh": "口咽鳞癌手术切缘国际共识",
+   "journal": "Oral oncology",
+   "date": "2026-11-22",
+   "authors": [
+    "Pamuk E",
+    "Ferrari M",
+    "Kraak JT",
+    "Singer S",
+    "Taylor KJ",
+    "Dietz A",
+    "Mäkitie AA",
+    "von Buchwald C",
+    "Kyrodimos E",
+    "Crosetti E",
+    "Succo G",
+    "Spriano G"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43068514/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔鳞癌临床指南",
+   "one_line": "EHNS Delphi共识：OPSCC切缘标准以HPV状态分层，5mm适用于HPV阴性，3mm适用于HPV阳性。",
+   "so_what": "仅背景：q5关注免疫/微生物机制，此为核心外科技术共识，机制层面几乎无迁移价值。",
+   "caution": "Delphi非因果证据；结论不能回答\"为什么切缘不足导致治疗抵抗\"。",
+   "score": {
+    "final": 24.1,
+    "match": 35.0,
+    "novelty": 20.0,
+    "rigor": 55.0,
+    "impact": 60.0,
+    "transfer": 15.0
+   },
+   "heuristic": 39.0,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 15.0,
+    "design": 18,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Surgical margin assessment in oropharyngeal squamous cell carcinoma (OPSCC) remains poorly standardized by HPV status, subsite, and treatment context. This European Head and Neck Society (EHNS) consensus aimed to harmonize margin assessment and margin-based decisions. METHODS: Following systematic review, 25 multidisciplinary panelists evaluated recommendations through two Delphi rounds; consensus was ≥80 % and near-consensus 70-79.9 %. Margindefinitionswerebasedonformalin-fixed,paraffin-embeddedsections,notintraoperativeor postoperativegrossingestimates. RESULTS: Of 48 recommendations, 32 reached consensus, six near-consensus, and 10 were rejected. \"Ink on tumor\" defined a positive margin irrespective of HPV status (96 %). A 5-mm mucosal margin was retained for HPV-negative OPSCC (84 %), whereas 3 mm reached near-consensus for HPV-positive disease (78.3 %); smaller thresholds were unsupported. A clear margin alone should not determine adjuvant treatment (78.3 %, near-consensus). Re-resection was recommended when the margin site was identifiable and would change adjuvant management. Positive margins warranted radiotherapy in pT1-T2 HPV-positive disease without other adverse features (80 %), whereas chemoradiotherapy was recommended with high-risk features, such as pT3-T4 disease or extranodal extension (95.8 %), and in HPV-negative disease (100 %). For close margins, selective de-escalation could be considered in highly selected HPV-positive disease without high-risk features (82.6 %), whereas HPV-negative disease warranted radiotherapy, with escalation according to additional risks (91.3 %). In fit patients aged ≥70 years with positive margins, radiotherapy alone was favored for HPV-positive disease (87.5 %), while chemoradiotherapy was retained for fit patients with HPV-negative disease (95.7 %). CONCLUSIONS: This consensus provides a multidisciplinary framework for harmonized OPSCC margin assessment and risk-adapted postoperative management across HPV status, anatomy, and treatment-related morbidity.",
+   "tags": [
+    "Adjuvant radiotherapy",
+    "Delphi technique",
+    "Human papillomavirus",
+    "Margins of excision",
+    "Oropharyngeal neoplasms",
+    "Squamous cell carcinoma of head and neck"
+   ]
+  },
+  {
+   "id": "10.1016/j.bone.2026.118177",
+   "pmid": "43072562",
+   "doi": "10.1016/j.bone.2026.118177",
+   "title": "Comparing oral bisphosphonates, denosumab, hip protector, and bioactive hydrogel augmentation strategies for hip fracture prevention using subject-specific finite element models",
+   "title_zh": "基于个体化有限元模型比较髋部骨折预防策略",
+   "journal": "Bone",
+   "date": "2026-11-23",
+   "authors": [
+    "Jha D",
+    "Fung A",
+    "Praveen AD",
+    "Cho SW",
+    "Zhou Y",
+    "Samaras GF",
+    "Kettenberger U",
+    "Schileo E",
+    "Ferguson SJ",
+    "Rhee Y",
+    "Hong N",
+    "Taddei F"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43072562/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "生物材料表面/降解产物如…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "生物力学模拟",
+   "one_line": "通过FE模拟比较双膦酸盐、denosumab、护具与水凝胶对髋部骨折风险的影响。",
+   "so_what": "仅背景参考，属力学仿真，不触及免疫/微生物核心问题。",
+   "caution": "纯体外建模结果不能替代临床结局验证。",
+   "score": {
+    "final": 15.7,
+    "match": 10.0,
+    "novelty": 20.0,
+    "rigor": 30.0,
+    "impact": 10.0,
+    "transfer": 10.0
+   },
+   "heuristic": 54.3,
+   "breakdown": {
+    "topic": 22.3,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "Hip fractures lead to considerable morbidity, mortality, and healthcare burden. Pharmacological therapy (Pharma: oral bisphosphonates, denosumab) takes months to reduce fracture risk and hip protectors (HP) depend on consistent compliance; injectable bioactive hydrogels, acting within weeks, are emerging as a rapid-onset alternative. This study used subject-specific biofidelic finite element (FE) models to compare hip fracture prevention strategies. CT-based FE models were generated from two cohorts: the contralateral femur of a post-fracture cohort (Emilia-Romagna) and the baseline femur of a prospectively followed, pre-fracture cohort (KURE), and simulated under probabilistic fall conditions. The effect of Ageing and Pharma was modelled over 36 months, whereas HP and three hydrogel augmentations of increasing apparent density (HYD0.2: +0.2 g/cm3; HYD0.2-ext: HYD0.2 extended by an element layer; HYD0.4: +0.4 g/cm3) provided rapid-onset protection. Relative risk (RR) was calculated relative to the simulated Ageing trajectory for Pharma and relative to the unaugmented baseline for HP and hydrogels. Thirty-nine subjects (21 Emilia-Romagna, 18 KURE; mean age 78.8 ± 5.3 years) were simulated. Ageing significantly increased RR to 1.12 [95% CI: 1.11-1.13]. All interventions reduced RR; applying real-world adherence rates (oral bisphosphonates: 49.4%; denosumab: 53.8%; HP: 50%), RR was 0.93, 0.91, and 0.82, respectively. Hydrogel augmentation required no compliance adjustment: HYD0.2 0.81 [0.81-0.82], HYD0.2-ext 0.76 [0.75-0.77], and HYD0.4 0.73 [0.72-0.74]. All strategies demonstrated fracture-risk reduction; at real-world adherence rates, hydrogel augmentation achieved the greatest within-subject benefit among the rapid-onset comparators and remained sensitive to the magnitude of augmentation volume.",
+   "tags": [
+    "Efficacy",
+    "Finite element modelling",
+    "Fracture risk",
+    "Hip fracture",
+    "Hydrogel augmentation"
+   ]
+  },
+  {
+   "id": "10.1002/jper.70224",
+   "pmid": "43070774",
+   "doi": "10.1002/jper.70224",
+   "title": "Adjunctive benefits of host modulation to non-surgical periodontal therapy: A systematic review, meta-analysis, meta-regression, and network meta-analysis of randomized controlled trials",
+   "title_zh": "宿主调节辅助非手术治疗牙周的系统评价与网络Meta",
+   "journal": "Journal of periodontology",
+   "date": "2026-11-23",
+   "authors": [
+    "Issa AW",
+    "Parma-Benfenati L",
+    "Hazrati P",
+    "Ng E",
+    "ElRefaei SA",
+    "Abdulrahman F",
+    "Abulatifa H",
+    "Saleh MHA"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43070774/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "牙周治疗疗效",
+   "one_line": "纳入85项RCT证实全身低剂量多西环素改善PPD/CAL，SDD为最优方案之一。",
+   "so_what": "直接回应q1/q4临床决策，强化宿主调节在种植体周炎预防中的地位。",
+   "caution": "证据异质性高，部分次要终点确定性低至低-中等。",
+   "score": {
+    "final": 74.3,
+    "match": 85.0,
+    "novelty": 50.0,
+    "rigor": 92.0,
+    "impact": 85.0,
+    "transfer": 60.0
+   },
+   "heuristic": 65.5,
+   "breakdown": {
+    "topic": 28.3,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "BACKGROUND: Adjunctive systemic host-modulation therapy (HMT) to non-surgical periodontal therapy has promising clinical benefit. This systematic review evaluated its effect in improving periodontal clinical outcomes versus controls. METHODS: A systematic electronic search was conducted in five databases up to April 2025 to identify eligible randomized clinical trials (RCTs) with ≥3-month follow-up. The primary outcome was probing pocket depth (PPD). Secondary outcomes were clinical attachment level (CAL) and bleeding on probing (BoP). Random-effects meta-analysis, network meta-analysis, and mixed-effects linear regression models were employed. Risk of bias was evaluated using the Cochrane RoB 2.0 tool. GRADE was used to assess the certainty of evidence. RESULTS: Among 85 included RCTs, meta-analysis across 64 RCTs comprised systemically healthy and medically compromised patients. Significant PPD (low-moderate certainty) and CAL (low-high certainty) improvements were observed with systemic sub-antimicrobial-dose doxycycline (SDD) (PPD: -0.44 mm [95% confidence interval {CI}: -0.48, -0.40], p < 0.0001; CAL: -0.73 mm [95% CI: -1.04, -0.42], p < 0.0001) and omega-3 (PPD: -0.78 mm [95% CI: -1.45, -0.11], p = 0.0232; CAL: -1.06 mm [95% CI: -1.89, -0.23], p = 0.0124) when administered in healthy patients for ≥6 months. However, non-significant changes were observed in diabetics. Network meta-analysis ranked SDD first in PPD reduction at 3-month (3.00 mm [95% CI: 2.54, 3.47]) and 6-month (3.01 mm [95% CI: 2.37, 3.66]) follow-ups. Omega-3+low-dose aspirin, probiotics, bisphosphonates, and dietary interventions were not supported by evidence. CONCLUSIONS: Although currently available evidence is inconsistent, SDD or omega-3 may complement NSPT when systemically administered for ≥6 months in healthy patients but not in diabetics. CLINICAL TRIAL REGISTRATION INFORMATION: CRD420250652488. PLAIN LANGUAGE SUMMARY: Treating periodontitis with non-surgical periodontal therapy is effective, but some patients may benefit from additional treatments that help control the body's inflammatory response. This systematic review analyzed 85 randomized clinical trials to determine whether systemic host modulation therapies improve treatment outcomes. Among the available therapies, sub-antimicrobial-dose doxycycline and omega-3 fatty acids, when used for at least 6 months, provided add",
+   "tags": [
+    "diabetes mellitus",
+    "doxycycline",
+    "host modulation",
+    "periodontal debridement",
+    "periodontitis",
+    "systematic review"
+   ]
+  },
+  {
+   "id": "10.1002/jper.70231",
+   "pmid": "43070784",
+   "doi": "10.1002/jper.70231",
+   "title": "Obstructive sleep apnea may exacerbate periodontitis via microbial dysbiosis: A preliminary translational exploratory study",
+   "title_zh": "OSAS可能通过微生物失调加重牙周炎的初步转化研究",
+   "journal": "Journal of periodontology",
+   "date": "2026-11-23",
+   "authors": [
+    "Wang X",
+    "Sun J",
+    "An X",
+    "Shen S",
+    "Ju R",
+    "van der Stelt P",
+    "Lavigne G",
+    "Ge S",
+    "Chen H"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43070784/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [
+    "multiomics"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙周-全身轴",
+   "one_line": "结合OSAS患者队列与CIH大鼠模型，显示微生物代谢失衡介导骨丢失加剧。",
+   "so_what": "为q2提供因果推断路径，提示CIH-菌群-代谢轴是可验证靶点。",
+   "caution": "初步探索、样本规模未知，代谢物功能尚待验证。",
+   "score": {
+    "final": 71.2,
+    "match": 80.0,
+    "novelty": 60.0,
+    "rigor": 65.0,
+    "impact": 60.0,
+    "transfer": 80.0
+   },
+   "heuristic": 72.2,
+   "breakdown": {
+    "topic": 35.0,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "BACKGROUND: Obstructive sleep apnea (OSA) is characterized by recurrent airway obstruction and could lead to chronic intermittent hypoxia (CIH). Its relationship with periodontitis and underlying biological mechanisms, however, remains unclear. This translational human observation and experimental animal study aims (1) to investigate whether OSA exacerbates periodontitis and (2) to explore potential microbial and metabolic mechanisms. METHODS: In the clinical component, patients with stage II periodontitis were allocated into two groups: periodontitis without OSA (N-OSA + P) and periodontitis with OSA (OSA + P). Gingival crevicular fluid (GCF) was analyzed using 16S rRNA gene sequencing and untargeted metabolomics. In the experimental study, eight male Wistar rats with ligature-induced periodontitis (P) were randomly assigned to normoxia or CIH exposure. Micro-CT, histological staining, ELISA, and qRT-PCR were performed to assess alveolar bone loss and inflammation responses. RESULTS: Demographic parameters were comparable between clinical groups. The OSA + P group exhibited higher microbial richness and a distinct subgingival community structure, characterized by enrichment of Porphyromonas gingivalis and Fusobacterium. 21 endogenous differential metabolites were identified, primarily related to glycerophospholipid metabolism, with significant microbe-metabolite correlations observed. In the animal model, CIH exposure was associated with increased alveolar bone loss, enhanced inflammatory marker expression, and altered microbial community structure compared with normoxic controls. CONCLUSION: The presence of sleep breathing disturbances, such as OSA, seems to exacerbate periodontitis most likely by CIH, which leads to microbial dysbiosis, and metabolic reprogramming within the periodontal microenvironment.",
+   "tags": [
+    "gingival crevicular fluid",
+    "intermittent hypoxia",
+    "metabolomics",
+    "periodontitis",
+    "sequence analysis",
+    "sleep apnea syndromes"
+   ]
+  },
+  {
+   "id": "10.1002/jper.70226",
+   "pmid": "43070345",
+   "doi": "10.1002/jper.70226",
+   "title": "Solid platelet-rich fibrin versus connective tissue graft for root coverage procedures: An updated systematic review and meta-analysis",
+   "title_zh": "固体PRF与结缔组织移植用于根覆系统的更新Meta",
+   "journal": "Journal of periodontology",
+   "date": "2026-11-23",
+   "authors": [
+    "Pacer M",
+    "Colognese MRV",
+    "Jassniker VB",
+    "Sacht AZT",
+    "Nassar CA",
+    "Camilotti V"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43070345/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "牙周软组织再生",
+   "one_line": "汇总24项RCT显示CTG在退缩覆盖上显著优于固体PRF，尤其在KTW增加方面。",
+   "so_what": "为q4材料-软组织界面决策提供现有最高级别证据。",
+   "caution": "纳入研究间技术细节差异大，长期稳定性数据不足。",
+   "score": {
+    "final": 57.6,
+    "match": 60.0,
+    "novelty": 40.0,
+    "rigor": 85.0,
+    "impact": 65.0,
+    "transfer": 50.0
+   },
+   "heuristic": 48.9,
+   "breakdown": {
+    "topic": 11.7,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "BACKGROUND: Connective tissue graft (CTG) is considered the gold standard for treating gingival recessions, but it involves a second surgical site and increased patient morbidity. Solid platelet-rich fibrin (PRF) has emerged as an autologous alternative. This systematic review and meta-analysis aimed to compare the clinical efficacy of solid PRF versus CTG in root coverage procedures. METHODS: Registered in PROSPERO (CRD420261336316), this review followed the PRISMA 2020 guidelines. Electronic searches were conducted in MEDLINE, Embase, Scopus, Web of Science, and the Cochrane Library up to February 2026. Randomized clinical trials (RCTs) comparing solid PRF and palatal CTG for Cairo RT1 recessions were included. The generic inverse variance method with random-effects meta-analyses evaluated recession height (RH) reduction, keratinized tissue width (KTW) gain, and gingival thickness (GT) gain. RESULTS: Twenty-four RCTs were included in the qualitative synthesis and 11 in the meta-analysis. Overall, CTG demonstrated statistically superior clinical outcomes compared with PRF for RH reduction (MD = 0.22 mm; p = 0.03), KTW gain (MD = 0.49 mm; p = 0.007), and GT gain (MD = 0.24 mm; p = 0.003). Subgroup analyses showed no significant differences between A-PRF and L-PRF. Conversely, qualitative assessments consistently indicated lower postoperative pain (VAS) and morbidity for the PRF group. CONCLUSION: Although CTG remains the most predictable approach for modifying the periodontal phenotype and gaining keratinized tissue, solid PRF represents a clinically viable alternative that may offer patient-centered benefits by avoiding palatal graft harvesting, particularly for patients with an adequate baseline periodontal phenotype. PLAIN LANGUAGE SUMMARY: Gum recession exposes part of the tooth root and may cause sensitivity, affect appearance, and make oral hygiene more difficult. Surgery can be used to cover exposed roots, and tissue taken from the roof of the mouth is considered one of the most reliable treatment options. However, this procedure requires a second surgical site, which may increase discomfort. Platelet-rich fibrin is a material prepared from the patient's own blood and has been proposed as a less invasive alternative. In this systematic review and meta-analysis, we compared studies evaluating these two approaches for treating gum recession. Both treatm",
+   "tags": [
+    "connective tissue",
+    "gingival recession",
+    "meta‐analysis",
+    "periodontal plastic surgery",
+    "platelet‐rich fibrin"
+   ]
+  },
+  {
+   "id": "10.1002/jper.70215",
+   "pmid": "43070834",
+   "doi": "10.1002/jper.70215",
+   "title": "Obesity-associated alterations in the subgingival metabolome in periodontally healthy individuals",
+   "title_zh": "肥胖对牙周健康人群龈下代谢组的影响",
+   "journal": "Journal of periodontology",
+   "date": "2026-11-23",
+   "authors": [
+    "Bobera J",
+    "Remulla P",
+    "Dabdoub SM",
+    "Lanzel E",
+    "Hong L",
+    "Jafari M",
+    "Brown R",
+    "Evans IA",
+    "Branstetter C",
+    "Correia M",
+    "Jons L",
+    "Taylor E"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43070834/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": 13,
+   "sample_note": "n=13",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [
+    "multiomics"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔代谢微环境",
+   "one_line": "BMI分层展示牙周健康者龈下代谢谱随肥胖逐渐偏移，伴随免疫与微生物信号改变。",
+   "so_what": "为q3/dysbiosis早期标志物提供代谢层面线索，设计思路可复用。",
+   "caution": "横断面设计无法推断因果，n仅40且代谢组覆盖有限。",
+   "score": {
+    "final": 51.9,
+    "match": 55.0,
+    "novelty": 50.0,
+    "rigor": 40.0,
+    "impact": 30.0,
+    "transfer": 70.0
+   },
+   "heuristic": 59.5,
+   "breakdown": {
+    "topic": 31.2,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 3.1,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "BACKGROUND: Obesity is associated with systemic metabolic and inflammatory dysregulation and has been implicated as a risk indicator for periodontal disease. However, its impact on the oral metabolome, particularly in the absence of clinical periodontal disease, remains incompletely understood. METHODS: Forty periodontally healthy adults were stratified by body mass index (BMI) into normal weight (n = 13), overweight (n = 12), and obese groups (n = 15). Gingival crevicular fluid (GCF), saliva, and gingival tissue samples were collected and analyzed using targeted metabolomics. Multivariate analyses, including sparse partial least squares discriminant analysis (sPLS-DA), were used to assess metabolomic differences across BMI groups. Differential abundance testing was performed using MaAsLin2, and multi-omic integration of metabolomic, immunologic, and microbial datasets was conducted using DIABLO. RESULTS: Distinct metabolomic profiles were observed across oral niches, with both shared and niche-specific metabolites. Multivariate analysis demonstrated BMI-associated separation in the metabolome between normal weight, overweight, and obese individuals across the oral niches. Differential abundance analysis identified metabolites related to amino acid metabolism, fatty acid pathways, and central carbon metabolism that varied across BMI groups in the subgingival environment. Multi-omics integration revealed coordinated associations between metabolites, inflammatory mediators, and microbial taxa, with obesity associated with a pro-inflammatory and microbiome-associated shift. CONCLUSIONS: An increase in BMI is associated with alterations in the subgingival metabolome in periodontally healthy individuals, suggesting that obesity may influence the oral microenvironment prior to clinical periodontal disease. PLAIN LANGUAGE SUMMARY: Obesity affects many aspects of health, but its impact on the mouth before gum disease develops is not well understood. In this study, we examined chemical markers in saliva, gum fluid, and gum tissue in people with healthy gums. We found that each part of the mouth has a distinct profile. Differences related to body weight were noticeable in the fluid around the teeth and the gum tissue. These differences were linked to higher inflammation and alterations in oral bacteria, even though the participants did not have gum disease. These find",
+   "tags": [
+    "inflammation",
+    "multi‐omics",
+    "obesity",
+    "oral metabolome",
+    "oral microbiome",
+    "periodontal health"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07289-6",
+   "pmid": "43071200",
+   "doi": "10.1007/s00784-026-07289-6",
+   "title": "Compartment-specific expression and localization of JAK3 and STAT3 in oral lichen planus assessed by digital image analysi​s",
+   "title_zh": "OLP中JAK3/STAT3分区表达的数字化定量分析",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-23",
+   "authors": [
+    "Tunvichien D",
+    "Pankam J",
+    "Lapthanasupkul P",
+    "Rungraungrayabkul D",
+    "Khovidhunkit SP"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43071200/",
+   "pmcid": "6990670",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "黏膜免疫信号通路",
+   "one_line": "IHC+QuPath定量：OLP上皮及上皮下区JAK3/STAT3表达显著高于正常黏膜，按亚型分层比较。",
+   "so_what": "有限参考：JAK-STAT为q5可考虑的干预靶点通路之一；定量分析方法（分区+AI辅助）可借鉴到种…",
+   "caution": "回顾性小样本(n=40)，横断面无法判断因果方向；未做功能验证。",
+   "score": {
+    "final": 31.5,
+    "match": 40.0,
+    "novelty": 25.0,
+    "rigor": 35.0,
+    "impact": 20.0,
+    "transfer": 30.0
+   },
+   "heuristic": 27.1,
+   "breakdown": {
+    "topic": 4.1,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: Oral lichen planus (OLP) is a chronic T-cell-mediated inflammatory disorder of the oral mucosa with a risk of malignant transformation. The Janus kinase/signal transducer and activator of transcription (JAK/STAT) signaling pathway is a key regulator of cytokine-driven inflammation. This study aimed to evaluate and compare the expression of Janus kinase 3 (JAK3) and signal transducer and activator of transcription 3 (STAT3) in OLP and normal oral mucosa (NOM). Differential protein localization between OLP and NOM, as well as differences in protein expression among OLP subtypes and NOM, were also evaluated. MATERIALS AND METHODS: A total of 40 OLP and 20 NOM formalin-fixed​, paraffin-embedded specimens were retrieved for immunohistochemical investigation of JAK3 and STAT3 expression. The percentages of positive cells in the epithelial and subepithelial compartments of OLP and NOM were analyzed using QuPath software (version 0.6.0). Statistical analyses were performed to evaluate differences in protein localization and expression levels between OLP and NOM, as well as the association between protein expression and OLP subtypes. RESULTS: JAK3 immunostaining was absent in the epithelial cells of both OLP and NOM specimens, with no statistically significant difference detected between the groups (p = 0.209). JAK3 expression in subepithelial cells was significantly higher in OLP (28.09% [16.79-40.68]) than in NOM (6.16% [0.66-11.38]) at p < 0.001. For STAT3, although the total number of positive epithelial cells did not differ significantly between the groups (p = 0.293), nuclear STAT3 positivity was significantly increased in OLP (68.20% [39.72-82.01]) compared to NOM (41.34% [20.01-62.88]) at p = 0.011. Additionally, STAT3 expression was significantly higher in the subepithelial cells of OLP (62.48 ± 2.48%) than in NOM (32.48 ± 3.86%) at p < 0.001. No significant differences in protein expression were observed between erosive and non-erosive OLP cases. CONCLUSION: Increased JAK3 and STAT3 expression in the subepithelial inflammatory infiltrate of OLP supports the involvement of these proteins in the local inflammatory response. These findings provide a basis for further investigation of the JAK/STAT pathway as a potential therapeutic target. However, studies evaluating phosphorylated JAK/STAT proteins are needed to determine whether this signaling pat",
+   "tags": [
+    "Computer-assisted",
+    "Image processing",
+    "Immunohistochemistry",
+    "JAK/STAT signaling",
+    "Janus kinase 3",
+    "Oral lichen planus"
+   ]
+  },
+  {
+   "id": "10.1177/00220345261500486",
+   "pmid": "43069543",
+   "doi": "10.1177/00220345261500486",
+   "title": "Longitudinal ACC Alterations with Low-Dose Pregabalin in pBMS",
+   "title_zh": "低剂量普瑞巴林治疗原发灼口综合征的前扣带回纵向变化",
+   "journal": "Journal of dental research",
+   "date": "2026-11-22",
+   "authors": [
+    "Lu C",
+    "Jiang M",
+    "Yang C",
+    "Du G",
+    "Wang Y",
+    "Lin L",
+    "Chen J",
+    "Wang Q",
+    "Song Q",
+    "Liu B",
+    "Deng Y",
+    "Wei J"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43069543/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 38,
+   "sample_note": "n=38 patients",
+   "tier": "A",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔神经疼痛",
+   "one_line": "纵向MRI显示pBMS患者ACC代谢与连接异常，普瑞巴林后Glx/Cr下降伴随症状缓解。",
+   "so_what": "",
+   "caution": "单臂设计缺乏对照组，N=38统计效能有限。",
+   "score": {
+    "final": 22.6,
+    "match": 20.0,
+    "novelty": 50.0,
+    "rigor": 60.0,
+    "impact": 20.0,
+    "transfer": 20.0
+   },
+   "heuristic": 40.2,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 15.0,
+    "design": 15,
+    "sample": 4.2,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "Primary burning mouth syndrome (pBMS) is a chronic orofacial pain disorder in which the anterior cingulate cortex (ACC) serves as a core node in descending pain modulation and central sensitization. Multiparametric MRI evidence for structural, metabolic, and functional abnormalities across ACC subregions remains limited. This single-arm, prospective longitudinal study characterized ACC subregional alterations in 38 patients with moderate-to-severe pBMS and 31 matched healthy controls. All patients received a standardized 4-wk low-dose pregabalin course, with clinical and neuroimaging measures reassessed posttreatment; 30 of 34 patients who completed the trial provided posttreatment MRI data. At baseline, pBMS patients exhibited elevated ACC Glx/Cr (median 2.51 vs 1.93, P = 0.021) and tNAA/Cr (median 1.97 vs 1.72, P = 0.050) ratios, reduced gray matter volume in the left medial superior frontal gyrus and left frontal pole, and decreased pregenual ACC (pgACC) and subgenual ACC (sgACC)-centered connectivity involving the left middle frontal gyrus and left inferior parietal lobule. Glx/Cr correlated positively with visual analog scale (VAS) scores and Pittsburgh Sleep Quality Index scores, and tNAA/Cr correlated negatively with VAS and Central Sensitization Inventory scores. After treatment, the mean VAS reduction was 3.28 points (intention to treat; ITT); 44.74% (ITT, n = 38) and 50.00% (per-protocol, n = 34) attained ≥50% pain relief. The median ACC Glx/Cr decreased from 2.51 to 1.85 (P = 0.008) and pgACC-centered functional connectivity increased, whereas regional gray matter volume-including the pre-existing deficits in the left medial superior frontal gyrus and left frontal pole-showed no significant longitudinal change. In conclusion, pBMS is characterized by metabolic and functional neuroimaging alterations within pgACC and sgACC that covary with symptomatic improvement under low-dose pregabalin, whereas structural deficits remain unchanged in the short term. These exploratory findings support the potential benefits of low-dose pregabalin and highlight pgACC and sgACC as promising regions of interest for future mechanistic studies.",
+   "tags": [
+    "anterior cingulate cortex",
+    "burning mouth syndrome",
+    "central sensitization",
+    "drug therapy",
+    "multiparametric magnetic resonance imaging",
+    "orofacial pain"
+   ]
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 18
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 18
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 18
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 18
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 18
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 18
+  }
+ ],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}
