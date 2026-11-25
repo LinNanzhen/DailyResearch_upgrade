@@ -1,0 +1,1041 @@
+{
+ "date": "2026-11-25",
+ "generated_at": "2026-11-25T12:32:17+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 6,
+  "prompt_tokens": 14777,
+  "completion_tokens": 11244
+ },
+ "stats": {
+  "candidates": 63,
+  "raw": 63,
+  "fetched": 19,
+  "raw_dropped_type": 4,
+  "no_abstract": 0,
+  "gated": 19,
+  "scored": 19,
+  "shown": 10,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 6,
+  "quality_failed": 0,
+  "quality_repaired": 0
+ },
+ "must_read": {
+  "id": "10.1111/omi.70049",
+  "pmid": "43075966",
+  "doi": "10.1111/omi.70049",
+  "title": "Ecological Resilience and Microbial Dysbiosis in the Oral Microbiome: A Systems-Level Conceptual Framework",
+  "title_zh": "口腔微生物组的生态韧性与微生物失调：系统层面的概念框架",
+  "journal": "Molecular oral microbiology",
+  "date": "2026-11-24",
+  "authors": [
+   "Khan RA",
+   "Bi ZB",
+   "Bhagawati M",
+   "Jose RC",
+   "Saquib M",
+   "Sarmah R"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43075966/",
+  "pmcid": "",
+  "cited_by": 0,
+  "design": "review",
+  "design_label": "综述",
+  "design_level": 3,
+  "sample_n": null,
+  "sample_note": "",
+  "tier": "B",
+  "domain": "口腔微生物组的失衡（dy…",
+  "methods": [
+   "multiomics"
+  ],
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "is_open_access": false,
+  "cluster": "微生物组生态学",
+  "one_line": "综述整合生态 plaque 假说、关键种病原菌假说与 POSICK 模型，提出环境压力→生态韧性下降→宿主反馈失衡的概…",
+  "so_what": "为 q3 提供可检验的因果推断框架：dysbiosis 是连续的过程变量而非分类标签，有助于设计纵…",
+  "caution": "叙事综述非系统评价，无定量合成；关键概念操作性定义不足",
+  "score": {
+   "final": 64.6,
+   "match": 72.0,
+   "novelty": 65.0,
+   "rigor": 55.0,
+   "impact": 50.0,
+   "transfer": 70.0
+  },
+  "heuristic": 64.2,
+  "breakdown": {
+   "topic": 35.0,
+   "journal": 10.0,
+   "design": 10,
+   "sample": 0.0,
+   "fresh": 7.0,
+   "method": 2.2
+  },
+  "abstract": "The human oral microbiome is a highly organised, dynamic microbial ecosystem that contributes to oral homeostasis through complex interactions among microorganisms, the host immune system and the local environment. Growing evidence indicates that oral diseases are associated with ecological disruption rather than the proliferation of individual pathogens alone. Environmental perturbations, including dietary changes, poor oral hygiene, smoking, antimicrobial exposure, ageing, salivary dysfunction and systemic disorders, can alter microbial community structure, functional activity and host responses, promoting dysbiosis. Established concepts, including the ecological plaque hypothesis, keystone pathogen hypothesis and polymicrobial synergy and dysbiosis model, explain complementary aspects of oral disease development. However, an integrated framework linking cumulative environmental stress, microbial interaction networks, ecological resilience, functional changes and host-microbiome feedback remains underdeveloped. This critical narrative review synthesises evidence from microbial ecology, multi-omics, systems biology, network analysis, antimicrobial resistance and oral-systemic interactions to propose the ecological collapse model (ECM) as a hypothesis-generating conceptual framework. The ECM proposes that oral dysbiosis may develop through interacting processes of functional adaptation, ecological destabilisation and persistent community disruption. The review also examines the oral microbiome as a reservoir of antimicrobial resistance determinants and discusses potential ecological interventions, including host-response modulation, precision antimicrobials and microbiome-directed therapies. These approaches may complement established oral healthcare but require further evaluation of their efficacy, safety and durability. The ECM provides a testable framework for investigating relationships among environmental perturbation, microbial function, ecological resilience and persistent dysbiosis. Longitudinal, experimental and translational studies are needed to determine whether its proposed indicators can predict disease progression or guide microbiome-informed interventions.",
+  "tags": [
+   "antimicrobial resistance",
+   "ecological resilience",
+   "keystone pathogen",
+   "microbial ecology",
+   "microbiome therapeutics",
+   "multi‐omics"
+  ],
+  "deep": {
+   "title_zh": "口腔微生物组的生态韧性与微生物失调：系统层面的概念框架",
+   "one_sentence": "提出ECM生态崩溃模型，将口腔疾病归因于累积环境应激下的生态系统失稳而非单一病原体增殖，为微生态干预提供可验证的理论框架。",
+   "question": "口腔疾病的根本机制是微生物组生态稳态崩溃，还是特定病原体过度增殖？二者如何在环境扰动下耦合演化？",
+   "design": "批判性叙述综述，无随机对照、盲法或分组；摘要未说明动物/细胞实验设计",
+   "sample_desc": "摘要未说明（综述性文章，综合多领域证据）",
+   "findings": [
+    {
+     "claim": "口腔疾病源于生态失衡而非单一病原体扩张",
+     "evidence": "整合生态牙菌斑假说、关键病原体假说及PSDK模型的互补解释"
+    },
+    {
+     "claim": "环境扰动通过三重过程驱动失调：功能适应→生态失稳→持续群落破坏",
+     "evidence": "提出ECM作为假设生成框架，涵盖饮食、卫生、吸烟、抗生素、衰老、唾液功能障碍等累积应激"
+    },
+    {
+     "claim": "口腔微生物组是抗菌药物抗性决定因子的重要储存库",
+     "evidence": "强调生态干预需考虑抗性基因传播风险"
+    },
+    {
+     "claim": "三种生态干预策略具有转化潜力但缺乏疗效与持久性证据",
+     "evidence": "宿主反应调节、精准抗菌剂、微生物组导向疗法均需进一步评估"
+    }
+   ],
+   "effect": "未报告（理论框架类综述，无效应量数据）",
+   "relation": "直接支撑q3：微生物组失衡是疾病的因、果还是标志物。ECM倾向于'生态崩溃既是病因也是病理标志'——功能性适应先于形态学变化，失调本身即具有致病性。与q4部分相关：材料/环境扰动通过重塑微生物-宿主反馈环路影响组织再生结局。",
+   "why": "打破'病原体中心论'惯性思维，用生态系统韧性（resilience）而非多样性指数理解疾病进展。ECM的三重过程（功能适应→生态失稳→持续破坏）可操作化，能转化为实验设计中的时间维度变量——不再只测'是什么菌群'，而是测'群落是否已越过临界阈值'。这对q3的因果推断路径有实质推进：失调若可通过生态学指标预测，则支持其作为'因'的地位。",
+   "limitations": [
+    "作者承认：ECM尚未经验证，缺乏前瞻性队列确认其指示器能否预测疾病进展或指导干预",
+    "叙事综述固有偏倚：证据选择依赖作者判断，未进行系统性文献检索与质量评价",
+    "未讨论定量建模方法（如网络拓扑参数、相变检测算法）在ECM验证中的可操作性"
+   ],
+   "transferable": "① '生态崩溃'概念的三阶段划分可作为纵向研究的分层终点指标；② 将抗菌素暴露、饮食习惯等环境变量纳入微生物组-宿主免疫联合分析的框架；③ 利用网络分析工具量化'功能适应'阶段的微生物互作模式变化，替代传统α/β多样性指标",
+   "followups": [
+    "ECM提出的'功能适应→生态失稳→持续破坏'三阶段，在人类纵向队列中是否已被单细胞或多组学数据间接证实？是否存在明确的相位转换生物标志物？",
+    "PSDK（多病原协同失调）模型与ECM的核心分歧点在哪里？ECM是否整合或超越了PSDK的解释边界？",
+    "作为AMR储存库这一观点，是否有口腔特异性数据支持？口腔耐药基因的水平转移率是否与全身感染风险存在剂量-反应关系？"
+   ],
+   "glossary": [
+    {
+     "en": "Ecological Collapse Model (ECM)",
+     "cn": "生态崩溃模型"
+    },
+    {
+     "en": "Microbial dysbiosis",
+     "cn": "微生物失调"
+    },
+    {
+     "en": "Keystone pathogen hypothesis",
+     "cn": "关键病原体假说"
+    },
+    {
+     "en": "Ecological plaque hypothesis",
+     "cn": "生态牙菌斑假说"
+    },
+    {
+     "en": "Polymicrobial synergy and dysbiosis (PS…",
+     "cn": "多病原协同与失调模型"
+    },
+    {
+     "en": "Ecological resilience",
+     "cn": "生态韧性"
+    }
+   ],
+   "reading_minutes": 12,
+   "quality": {
+    "passed": true,
+    "score": 100.0,
+    "judge_score": null,
+    "problems": [],
+    "repaired_by": "",
+    "attempts": 0
+   }
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1111/omi.70049",
+   "pmid": "43075966",
+   "doi": "10.1111/omi.70049",
+   "title": "Ecological Resilience and Microbial Dysbiosis in the Oral Microbiome: A Systems-Level Conceptual Framework",
+   "title_zh": "口腔微生物组的生态韧性与微生物失调：系统层面的概念框架",
+   "journal": "Molecular oral microbiology",
+   "date": "2026-11-24",
+   "authors": [
+    "Khan RA",
+    "Bi ZB",
+    "Bhagawati M",
+    "Jose RC",
+    "Saquib M",
+    "Sarmah R"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43075966/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "口腔微生物组的失衡（dy…",
+   "methods": [
+    "multiomics"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "微生物组生态学",
+   "one_line": "综述整合生态 plaque 假说、关键种病原菌假说与 POSICK 模型，提出环境压力→生态韧性下降→宿主反馈失衡的概…",
+   "so_what": "为 q3 提供可检验的因果推断框架：dysbiosis 是连续的过程变量而非分类标签，有助于设计纵…",
+   "caution": "叙事综述非系统评价，无定量合成；关键概念操作性定义不足",
+   "score": {
+    "final": 64.6,
+    "match": 72.0,
+    "novelty": 65.0,
+    "rigor": 55.0,
+    "impact": 50.0,
+    "transfer": 70.0
+   },
+   "heuristic": 64.2,
+   "breakdown": {
+    "topic": 35.0,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "The human oral microbiome is a highly organised, dynamic microbial ecosystem that contributes to oral homeostasis through complex interactions among microorganisms, the host immune system and the local environment. Growing evidence indicates that oral diseases are associated with ecological disruption rather than the proliferation of individual pathogens alone. Environmental perturbations, including dietary changes, poor oral hygiene, smoking, antimicrobial exposure, ageing, salivary dysfunction and systemic disorders, can alter microbial community structure, functional activity and host responses, promoting dysbiosis. Established concepts, including the ecological plaque hypothesis, keystone pathogen hypothesis and polymicrobial synergy and dysbiosis model, explain complementary aspects of oral disease development. However, an integrated framework linking cumulative environmental stress, microbial interaction networks, ecological resilience, functional changes and host-microbiome feedback remains underdeveloped. This critical narrative review synthesises evidence from microbial ecology, multi-omics, systems biology, network analysis, antimicrobial resistance and oral-systemic interactions to propose the ecological collapse model (ECM) as a hypothesis-generating conceptual framework. The ECM proposes that oral dysbiosis may develop through interacting processes of functional adaptation, ecological destabilisation and persistent community disruption. The review also examines the oral microbiome as a reservoir of antimicrobial resistance determinants and discusses potential ecological interventions, including host-response modulation, precision antimicrobials and microbiome-directed therapies. These approaches may complement established oral healthcare but require further evaluation of their efficacy, safety and durability. The ECM provides a testable framework for investigating relationships among environmental perturbation, microbial function, ecological resilience and persistent dysbiosis. Longitudinal, experimental and translational studies are needed to determine whether its proposed indicators can predict disease progression or guide microbiome-informed interventions.",
+   "tags": [
+    "antimicrobial resistance",
+    "ecological resilience",
+    "keystone pathogen",
+    "microbial ecology",
+    "microbiome therapeutics",
+    "multi‐omics"
+   ],
+   "deep": {
+    "title_zh": "口腔微生物组的生态韧性与微生物失调：系统层面的概念框架",
+    "one_sentence": "提出ECM生态崩溃模型，将口腔疾病归因于累积环境应激下的生态系统失稳而非单一病原体增殖，为微生态干预提供可验证的理论框架。",
+    "question": "口腔疾病的根本机制是微生物组生态稳态崩溃，还是特定病原体过度增殖？二者如何在环境扰动下耦合演化？",
+    "design": "批判性叙述综述，无随机对照、盲法或分组；摘要未说明动物/细胞实验设计",
+    "sample_desc": "摘要未说明（综述性文章，综合多领域证据）",
+    "findings": [
+     {
+      "claim": "口腔疾病源于生态失衡而非单一病原体扩张",
+      "evidence": "整合生态牙菌斑假说、关键病原体假说及PSDK模型的互补解释"
+     },
+     {
+      "claim": "环境扰动通过三重过程驱动失调：功能适应→生态失稳→持续群落破坏",
+      "evidence": "提出ECM作为假设生成框架，涵盖饮食、卫生、吸烟、抗生素、衰老、唾液功能障碍等累积应激"
+     },
+     {
+      "claim": "口腔微生物组是抗菌药物抗性决定因子的重要储存库",
+      "evidence": "强调生态干预需考虑抗性基因传播风险"
+     },
+     {
+      "claim": "三种生态干预策略具有转化潜力但缺乏疗效与持久性证据",
+      "evidence": "宿主反应调节、精准抗菌剂、微生物组导向疗法均需进一步评估"
+     }
+    ],
+    "effect": "未报告（理论框架类综述，无效应量数据）",
+    "relation": "直接支撑q3：微生物组失衡是疾病的因、果还是标志物。ECM倾向于'生态崩溃既是病因也是病理标志'——功能性适应先于形态学变化，失调本身即具有致病性。与q4部分相关：材料/环境扰动通过重塑微生物-宿主反馈环路影响组织再生结局。",
+    "why": "打破'病原体中心论'惯性思维，用生态系统韧性（resilience）而非多样性指数理解疾病进展。ECM的三重过程（功能适应→生态失稳→持续破坏）可操作化，能转化为实验设计中的时间维度变量——不再只测'是什么菌群'，而是测'群落是否已越过临界阈值'。这对q3的因果推断路径有实质推进：失调若可通过生态学指标预测，则支持其作为'因'的地位。",
+    "limitations": [
+     "作者承认：ECM尚未经验证，缺乏前瞻性队列确认其指示器能否预测疾病进展或指导干预",
+     "叙事综述固有偏倚：证据选择依赖作者判断，未进行系统性文献检索与质量评价",
+     "未讨论定量建模方法（如网络拓扑参数、相变检测算法）在ECM验证中的可操作性"
+    ],
+    "transferable": "① '生态崩溃'概念的三阶段划分可作为纵向研究的分层终点指标；② 将抗菌素暴露、饮食习惯等环境变量纳入微生物组-宿主免疫联合分析的框架；③ 利用网络分析工具量化'功能适应'阶段的微生物互作模式变化，替代传统α/β多样性指标",
+    "followups": [
+     "ECM提出的'功能适应→生态失稳→持续破坏'三阶段，在人类纵向队列中是否已被单细胞或多组学数据间接证实？是否存在明确的相位转换生物标志物？",
+     "PSDK（多病原协同失调）模型与ECM的核心分歧点在哪里？ECM是否整合或超越了PSDK的解释边界？",
+     "作为AMR储存库这一观点，是否有口腔特异性数据支持？口腔耐药基因的水平转移率是否与全身感染风险存在剂量-反应关系？"
+    ],
+    "glossary": [
+     {
+      "en": "Ecological Collapse Model (ECM)",
+      "cn": "生态崩溃模型"
+     },
+     {
+      "en": "Microbial dysbiosis",
+      "cn": "微生物失调"
+     },
+     {
+      "en": "Keystone pathogen hypothesis",
+      "cn": "关键病原体假说"
+     },
+     {
+      "en": "Ecological plaque hypothesis",
+      "cn": "生态牙菌斑假说"
+     },
+     {
+      "en": "Polymicrobial synergy and dysbiosis (PS…",
+      "cn": "多病原协同与失调模型"
+     },
+     {
+      "en": "Ecological resilience",
+      "cn": "生态韧性"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": null,
+     "problems": [],
+     "repaired_by": "",
+     "attempts": 0
+    }
+   }
+  },
+  {
+   "id": "10.1021/acsnano.6c13621",
+   "pmid": "43076565",
+   "doi": "10.1021/acsnano.6c13621",
+   "title": "Cucurbit[n]uril-Programmed Chlorogenic Acid Release for Collagen Mineralization and Pulp-Dentin Repair in Near-Pulp Bonding",
+   "title_zh": "葫芦[n]脲编程绿原酸缓释用于胶原矿化与近髓牙本质修复",
+   "journal": "ACS nano",
+   "date": "2026-11-24",
+   "authors": [
+    "Dong H",
+    "Wang W",
+    "Wang S",
+    "Tu S",
+    "Yang X",
+    "You R",
+    "Xie H",
+    "Chen C"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43076565/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": 6,
+   "sample_note": "n=6",
+   "tier": "C",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙体硬组织再生/材料",
+   "one_line": "CGA@Q[8]超分子复合物实现胶原原位内纤矿化，MD模拟揭示配体-胶原重锚定机制，体内未证。",
+   "so_what": "q4可借鉴：超分子缓释平台+胶原矿化终点，可用于植入材料表面「编程」骨结合结局的构想。",
+   "caution": "n=6，仅体外+MD，无动物/临床验证。",
+   "score": {
+    "final": 60.0,
+    "match": 72.0,
+    "novelty": 68.0,
+    "rigor": 55.0,
+    "impact": 52.0,
+    "transfer": 65.0
+   },
+   "heuristic": 42.2,
+   "breakdown": {
+    "topic": 23.9,
+    "journal": 3.0,
+    "design": 6,
+    "sample": 2.3,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "Long-term failure of resin-dentin bonding arises from persistent hydration and enzymatic degradation of exposed collagen in the deep hybrid layer, whereas diffusion of bioactive components through dentinal tubules toward the pulp may cause pulpal irritation. An ideal pretreatment should therefore promote collagen remineralization and interfacial stabilization while reducing pulp-adjacent cellular irritation and supporting pulp-dentin repair. Herein, supramolecular complexes of chlorogenic acid (CGA) and cucurbit[n]uril (Q[n], n = 6, 7, and 8), denoted CGA@Q[n], were constructed to regulate CGA loading, release, and interfacial exposure. CGA@Q[6] showed limited loading, release, and mineralization capacity. CGA@Q[7] exhibited faster early release and achieved complete collagen mineralization within 24 h, whereas CGA@Q[8] showed the highest encapsulation efficiency, sustained CGA supply, complete mineralization at 36 h, and a continuous, dense, integrated intrafibrillar mineral phase. Molecular dynamics simulations indicated that CGA released from Q[8] reanchored to collagen and recruited Ca2+, promoting mineral formation within confined intrafibrillar spaces. These advantages extended to three-dimensional collagen networks and demineralized dentin, yielding higher HAp content, enhanced mineral-collagen integration, tubule occlusion, mechanical recovery, and MMP-9 inhibition. As a bonding pretreatment, CGA@Q[8] reduced nanoleakage, endogenous gelatinolytic activity, and aging-induced bond-strength loss. It also improved cytocompatibility relative to free CGA and promoted mineralization and odontogenic differentiation of human dental pulp stem cells (hDPSCs). In vivo, CGA@Q[8] promoted dentin remineralization, maintained near-pulp interfacial stability, alleviated pulpal irritation, and enhanced odontogenic repair. Together, these findings identify CGA@Q[8] as the most effective formulation and show that homologue selection can tune CGA exposure kinetics for coordinated dentin interface repair.",
+   "tags": [
+    "chlorogenic acid",
+    "cucurbit[n]uril",
+    "dentin remineralization",
+    "intrafibrillar mineralization",
+    "pulp−dentin repair",
+    "resin−dentin bonding"
+   ],
+   "deep": {
+    "title_zh": "葫芦[n]脲编程绿原酸缓释用于胶原矿化与近髓牙本质修复",
+    "one_sentence": "CGA@Q[8]通过调控释放动力学实现胶原内纤完全矿化并促进牙髓-牙本质复合体修复",
+    "question": "如何通过超分子组装精确控制生物活性分子在脱矿胶原基质中的时空暴露以实现牙本质界面协同矿化与修复？",
+    "design": "体外对比Q[6]/Q[7]/Q[8]三组囊泡装载效率、释放动力学及矿化能力；体内模型评估粘接界面稳定性与牙髓修复结局（随机/盲法/剂量/随访均摘要未说明）",
+    "sample_desc": "人源性三维胶原网络、脱矿牙本质切片、人牙髓干细胞(hDPSCs)及在体动物模型（具体样本量摘要未说明）",
+    "findings": [
+     {
+      "claim": "不同Q[n]同系物显著调控CGA释放动力学与矿化效能差异",
+      "evidence": "Q[6]装载与释放受限；Q[7]早期释放快24 h完成胶原矿化；Q[8]装载效率最高且缓释36 h达成致密连续胞内纤矿物相"
+     },
+     {
+      "claim": "Q[8]源CGA通过重新锚定胶原并招募钙离子驱动限域矿化",
+      "evidence": "分子动力学模拟显示释放后CGA重回胶原位点并结合Ca²⁺促进confined intrafibrillar spaces内矿物沉积"
+     },
+     {
+      "claim": "多尺度体系中展现更优界面整合与酶抑制效应",
+      "evidence": "脱矿牙本质HAp含量升高、矿物-胶原整合增强、小管闭塞、力学恢复、MMP-9活性受抑"
+     },
+     {
+      "claim": "近髓粘接预处理降低渗漏并延缓老化强度衰减",
+      "evidence": "减少nanoleakage与内源性明胶酶解活性，减缓老化诱导bond strength下降"
+     }
+    ],
+    "effect": "未报告",
+    "relation": "与q4直接相关——提供材料表面/降解产物'编程'宿主免疫与矿化响应的实体案例；间接支撑q1(种植体周免疫微环境概念可类比近髓修复微环境)",
+    "why": "首次系统比较Q[n]同系物长度对同一酚酸释放动力学的精细调控，揭示超分子主客体选择如何决定胶原内纤矿化路径与速率；建立'释放动力学-矿物形貌-界面稳定-细胞应答'的因果链条供后续材料设计参照",
+    "limitations": [
+     "仅Q[6]/Q[7]/Q[8]三种规格被比较，更多环大小或取代基变体的探索边界未知；体内随访时长与远期牙髓活力维持数据摘要未披露；未与临床常用近髓覆盖材料（如MTA/iRoot BP Plus/Bi…"
+    ],
+    "transferable": "①利用主客体化学调节活性分子释放曲线以匹配组织修复时序的设计范式；②用分子动力学辅助解释CA²⁺招募与酚酸-胶原相互作用；③以'纳米渗漏+near-pulp牙髓反应'双终点评价近髓材料的双重安全性框架",
+    "followups": [
+     "不同Q[n]同系物是否引发差异化的巨噬细胞极化谱（M1/M2/TAM）或在体免疫微环境特征？",
+     "Q[8]源CGA的持续释放能否真正下调near-pulp区MMP-9与DPP-IV的长期活性，从而防止aging bond strength二次衰减？",
+     "该体系的intrafibrillar mineralization效率与密度能否在活体大动物近髓洞型中长期维持（需>6个月随访与微CT/TEM定量）？"
+    ],
+    "glossary": [
+     {
+      "en": "cucurbit[n]uril",
+      "cn": "葫芦[n]脲，由n个甘脲单元组成的桶状主体分子"
+     },
+     {
+      "en": "chlorogenic acid(CGA)",
+      "cn": "绿原酸，多酚类化合物具抗氧化与促矿化潜能"
+     },
+     {
+      "en": "intrafibrillar mineralization",
+      "cn": "胶原纤维内部限域空间内的羟基磷灰石成核与生长"
+     },
+     {
+      "en": "nanoleakage",
+      "cn": "染料渗透进入混合层微孔/通道反映界面封闭质量"
+     },
+     {
+      "en": "odontogenic differentiation",
+      "cn": "向成牙本质样细胞分化的过程"
+     },
+     {
+      "en": "endogenous gelatinolytic activity",
+      "cn": "主要由MMPs介导的基质内源性明胶/胶原降解活性"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 90.0,
+     "judge_score": null,
+     "problems": [
+      "局限只有 1 条",
+      "效应量只有占位符"
+     ],
+     "repaired_by": "",
+     "attempts": 0
+    }
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1002/jper.70235",
+   "pmid": "43074426",
+   "doi": "10.1002/jper.70235",
+   "title": "Convergence to the ridge envelope after guided bone regeneration: One-year results of a cohort study",
+   "title_zh": "GBR 引导骨再生后牙槽嵴 envelope 收敛的 12 个月观察",
+   "journal": "Journal of periodontology",
+   "date": "2026-11-23",
+   "authors": [
+    "Park SH",
+    "Jung JY",
+    "Kim HW",
+    "Strauss FJ",
+    "Lee JS"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43074426/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "种植与骨再生",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "种植骨再生",
+   "one_line": "单中心 RCT 事后分析的 42 例队列发现胶原包覆异种移植物初期超填更多但 12 个月与颗粒型相当",
+   "so_what": "仅背景；q1 关注免疫而非形态学结果，本研究与巨噬细胞/NETs/IL-1β轴无直接关联",
+   "caution": "post hoc 亚组分析，n=42，非预设终点；锥束 CT 体积测量误差未量化",
+   "score": {
+    "final": 41.1,
+    "match": 35.0,
+    "novelty": 30.0,
+    "rigor": 55.0,
+    "impact": 40.0,
+    "transfer": 20.0
+   },
+   "heuristic": 56.5,
+   "breakdown": {
+    "topic": 23.3,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "BACKGROUND: The purpose of this study was to evaluate 12-month radiographic outcomes of implant placement and simultaneous guided bone regeneration (GBR) in relation to the alveolar ridge envelope. METHODS: A post hoc exploratory analysis was performed using prospectively collected 12-month follow-up data from a single-center subset of a previous randomized controlled trial comparing simultaneous GBR with particulate and collagenated xenografts. Cone-beam computed tomography was used to define the alveolar ridge envelope based on the extension of the adjacent ridge contour. Width and volume of the overaugmented region beyond the alveolar ridge envelope were assessed immediately postoperatively and at 4 and 12 months. RESULTS: Forty-two sites were included in this cohort follow-up. The overaugmented width was greater immediately postoperatively in the collagenated group (2.16 vs 1.44 mm; p = 0.01), but comparable at 4 months (p = 0.72) and 12 months (p = 0.68) between the two groups. A significant time effect (p < 0.001) indicated a progressive reduction of overaugmented width and volume in both groups, with mean overaugmented widths of 0.43 mm and 0.45 mm at 12 months in the collagenated and particulate groups, respectively. Neither surgery site nor jaw type showed a significant interaction with time for the overaugmented volume (p = 0.75 and p = 0.55, respectively). Multivariable regression analysis confirmed no significant association between the extent of ridge defect and the overaugmented volume at 12 months (p = 0.87). CONCLUSIONS: Augmented bone beyond the alveolar ridge envelope progressively decreases over 12 months following simultaneous guided bone regeneration.",
+   "tags": [
+    "alveolar ridge augmentation",
+    "bone regeneration",
+    "dental implant",
+    "diagnostic imaging",
+    "radiographic analysis"
+   ]
+  },
+  {
+   "id": "10.1002/hed.70562",
+   "pmid": "43076213",
+   "doi": "10.1002/hed.70562",
+   "title": "Geographic and Socioeconomic Disparities in Stage at Diagnosis and Nodal Burden Among Patients With HPV-Era Oropharyngeal Squamous Cell Carcinoma in Louisiana: A Population-Based Analysis",
+   "title_zh": "LA州HPV+口咽鳞癌诊疗差距：距离与种族因素",
+   "journal": "Head & neck",
+   "date": "2026-11-24",
+   "authors": [
+    "Schaefer J",
+    "Son L",
+    "Fang Z",
+    "Walvekar RR"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43076213/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 1698,
+   "sample_note": "n=1698 cases",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔鳞癌/公共卫生",
+   "one_line": "1698例人口学登记数据显示>50英里距专科医院、黑人种族、Medicaid、吸烟独立预测晚期诊断，HPV+具保护作用。",
+   "so_what": "q5(口腔鳞癌免疫微环境)可从社会决定因素角度补充，但无免疫/微生物机制数据。",
+   "caution": "生态学队列，无法推断个体因果，仅表型关联。",
+   "score": {
+    "final": 37.8,
+    "match": 35.0,
+    "novelty": 30.0,
+    "rigor": 55.0,
+    "impact": 40.0,
+    "transfer": 25.0
+   },
+   "heuristic": 40.0,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 8.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Stage at diagnosis is a strong predictor of survival in oropharyngeal squamous cell carcinoma (OPSCC). Gulf South population-level data on these disparities remain limited. METHODS: We analyzed 1344 patients with known stage at diagnosis from Louisiana Tumor Registry data (n = 1698 cases, 2018-2023). Geographic access was operationalized as straight-line distance from parish centroid to the nearest academic medical center (AMC), categorized as 50 miles. Multivariable logistic regression examined predictors of advanced-stage presentation (Stage III-IV) and nodal burden (N2-N3). RESULTS: Advanced-stage disease increased with distance from AMC (33.8%, 38.7%, 46.6%; Mantel-Haenszel χ2 = 13.4, p = 0.0003). Distance > 50 miles independently predicted advanced-stage presentation (OR 1.56, p = 0.008) and high nodal burden (OR 1.44, p = 0.030). Black race (OR 2.25), Medicaid (OR 1.62), and smoking (OR 2.91) were independent predictors. HPV-positive histology was strongly protective (OR 0.33, p < 0.001). CONCLUSIONS: Distance from specialty care independently predicts advanced-stage OPSCC and extensive nodal disease even after controlling for HPV status, race, insurance, and socioeconomic factors, supporting targeted teleoncology expansion and rural outreach initiatives.",
+   "tags": [
+    "HPV",
+    "Louisiana",
+    "geographic access",
+    "health disparities",
+    "nodal burden",
+    "oropharyngeal squamous cell carcinoma"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07262-3",
+   "pmid": "43073537",
+   "doi": "10.1007/s00784-026-07262-3",
+   "title": "Farklı lingual tutma malzemelerinin diş eti sağlığı üzerindeki etkilerinin değerlendirilmesi",
+   "title_zh": "四种舌侧保持器材料对牙周健康的 12 月 RCT",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-24",
+   "authors": [
+    "Yildiz KK",
+    "Metli̇ SN",
+    "Yildirim M",
+    "Yarkac FU"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43073537/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 140,
+   "sample_note": "n=140 participants",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
+   "is_open_access": false,
+   "cluster": "正畸材料评价",
+   "one_line": "RCT 显示不锈钢 strands 与纤维增强复合材料在菌斑/龈炎/牙石指数上 12 个月差异无统计学意义",
+   "so_what": "仅背景；与本课题组 q1–q5 均无实质关联，属材料临床表现的常规对比",
+   "caution": "青少年人群，牙周状态基线健康；结果不可推广至种植体周炎或牙周炎患者",
+   "score": {
+    "final": 34.4,
+    "match": 20.0,
+    "novelty": 25.0,
+    "rigor": 65.0,
+    "impact": 35.0,
+    "transfer": 15.0
+   },
+   "heuristic": 48.6,
+   "breakdown": {
+    "topic": 7.9,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 5.7,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: Maintaining post-orthodontic stability is critical to prevent relapse, with fixed lingual retainers (LR) considered the clinical gold standard. However, these appliances create mechanical barriers that facilitate plaque and calculus accumulation, potentially compromising long-term periodontal health. This study aimed to prospectively evaluate and compare the 12-month effects of four different LR materials on plaque retention, gingival health, and calculus formation. METHODS: A total of 140 participants (95 females, 45 males; mean age 15.9 ± 1.2 years) were randomly assigned to four groups (n = 35): Group 1 (G1) (0.0175-inch 7-strand stainless steel), Group 2 (G2) (0.022 × 0.016-inch 8-strand dead-soft wire), Group 3 (G3) (0.038 × 0.016-inch prefabricated Ortho FlexTech), and Group 4 (G4) (fiber-reinforced composite). Periodontal parameters including Plaque Index (PI), Gingival Index (GI), and Dental Calculus Index (DCI) were recorded at baseline (T1), 3 (T2), 6 (T3), 9 (T4), and 12 months (T5) by a single calibrated examiner (ICC > 0.80). Data were analyzed using one-way ANOVA and repeated measures analysis of variance (p < 0.05). RESULTS: All groups exhibited a statistically significant intra-group increase in PI, GI, and DCI scores over the 12-month follow-up (p 0.05), Group 3 showed significantly higher GI scores at T3 compared to Group 1, and Group 2 reached the highest GI values at T4 (p < 0.05). Notably, Group 3 (prefabricated wire) demonstrated significantly higher DCI values than Groups 1 and 4 at the T4 and T5 time points (p < 0.05). CONCLUSIONS: The four fixed LR types showed generally comparable periodontal outcomes over the 12-month follow-up period. No significant long-term differences were observed among the retainer types in terms of PI and GI. However, the prefabricated stainless steel retainer (G3) demonstrated significantly greater dental calculus accumulation than Groups 1 and 4 at the later follow-up time points. These findings suggest that retainer design and structural characteristics may influence calculus accumulation. CLINICAL RELEVANCE: The findings indicate that all fixed lingual retainers require regular periodontal monitoring; however, prefabricated and larger-diameter designs may be associated with greater calculus accumulation. Material selection should therefore be combined with individualized oral hygiene instruct",
+   "tags": [
+    "Dental calculus",
+    "Dental plaque",
+    "Orthodontic retainers",
+    "Orthodontics, preventive",
+    "Periodontal index",
+    "Prospective studies"
+   ]
+  },
+  {
+   "id": "10.1111/eos.70167",
+   "pmid": "43076200",
+   "doi": "10.1111/eos.70167",
+   "title": "3D-printed versus milled polymer-infiltrated ceramic network overlays: Effects on fit and fatigue resistance",
+   "title_zh": "3D打印与铣削PICN贴面的适配性与疲劳阻力对比",
+   "journal": "European journal of oral sciences",
+   "date": "2026-11-24",
+   "authors": [
+    "Rossi T",
+    "Comba A",
+    "Giordano L",
+    "Sedran A",
+    "Michelotto Tempesta R",
+    "Cedrone A",
+    "Scotti N"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43076200/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "in_vitro",
+   "design_label": "体外/细胞",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "材料与生物材料",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "修复材料加工",
+   "one_line": "体外比较3种制造方式PICN贴面的边缘适配与疲劳寿命，3D打印适配最优但疲劳强度数据未完整呈现",
+   "so_what": "仅背景",
+   "caution": "体外研究，n=15/组，结论不能外推到体内骨结合结局",
+   "score": {
+    "final": 27.6,
+    "match": 25.0,
+    "novelty": 28.0,
+    "rigor": 45.0,
+    "impact": 20.0,
+    "transfer": 20.0
+   },
+   "heuristic": 25.7,
+   "breakdown": {
+    "topic": 1.7,
+    "journal": 10.0,
+    "design": 7,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "This in vitro study compared the interfacial adaptation and fatigue resistance of polymer-infiltrated ceramic network (PICN) overlays fabricated by three manufacturing routes: three-dimensional (3D) printing, 4-axis chairside milling, and 5-axis laboratory milling. Fifteen overlays per group (the two milled groups from the same material, VITA ENAMIC; the printed group from Irix Max) were produced from a single standardized preparation and cemented onto identical resin replicas with a self-adhesive resin cement. Cement volume and marginal and occlusal linear distances were quantified using micro-computed tomography; fatigue resistance was assessed with a step-stress accelerated protocol and analyzed with Kaplan-Meier survival curves and the log-rank test. Cement volume was lowest for 3D-printed and highest for chairside-milled restorations; marginal adaptation was significantly worse for chairside-milled than for 3D-printed and lab-milled restorations, whereas occlusal adaptation did not differ among groups. Fatigue resistance was significantly lower for chairside-milled restorations than for both 3D-printed and lab-milled restorations, with no significant difference between the latter two. Manufacturing technology significantly affected both interfacial adaptation and fatigue resistance of PICN overlays; because the additive and subtractive routes necessarily involved two different commercially available materials, the relative contribution of material composition cannot be fully separated from that of the fabrication method itself.",
+   "tags": [
+    "computer‐aided design",
+    "dental marginal adaptation",
+    "dental restoration failure",
+    "materials testing",
+    "x‐ray microtomography"
+   ]
+  },
+  {
+   "id": "10.1021/acsnano.6c12166",
+   "pmid": "43076554",
+   "doi": "10.1021/acsnano.6c12166",
+   "title": "Overcoming Oral Environmental Barriers: Nanoengineering Strategies for Antimicrobial Peptides in Biofilm-Associated Oral Diseases",
+   "title_zh": "口腔生物膜疾病抗菌肽纳米递送策略综述",
+   "journal": "ACS nano",
+   "date": "2026-11-24",
+   "authors": [
+    "Wu J",
+    "Lin Y",
+    "Shuai F",
+    "Xie Y",
+    "Mei L",
+    "Han X",
+    "Yin Y",
+    "Xu H"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43076554/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "C",
+   "domain": "牙周炎通过哪些可验证的通…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "生物膜/材料递送",
+   "one_line": "综述Nano工程解决AMPs在口腔环境失稳与扩散受阻的策略，提出屏障导向框架与多功能纳米系统展望。",
+   "so_what": "可为q3(微生物组-dysbiosis)和q4(生物材料编程免疫)提供材料设计思路，但无新机制。",
+   "caution": "综述无原始数据，翻译到临床应用仍有距离。",
+   "score": {
+    "final": 53.8,
+    "match": 55.0,
+    "novelty": 58.0,
+    "rigor": 65.0,
+    "impact": 45.0,
+    "transfer": 60.0
+   },
+   "heuristic": 43.6,
+   "breakdown": {
+    "topic": 23.6,
+    "journal": 3.0,
+    "design": 10,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "Biofilm-associated oral diseases impose a substantial global health burden and are closely linked to systemic inflammation. Although antimicrobial peptides (AMPs) offer a promising alternative to conventional antibiotics, their therapeutic efficacy in the oral cavity is limited by barriers in the oral environment. Free AMPs are rapidly removed by salivary flow, destabilized by local proteases, and impeded by substantial diffusion barriers within mature biofilms. Nanoengineering provides a systematic approach to address these limitations. In this review, we present a barrier-oriented framework for AMP delivery and examine how nanomaterial design addresses the specific constraints of the oral environment. Interfacial engineering prolongs local retention, spatial protection preserves AMP stability, and microenvironment-responsive systems provide on-demand activation for effective biofilm disruption. Alongside these approaches, multifunctional nanosystems combining antimicrobial, immunomodulatory, and regenerative activities are discussed. Finally, key translational challenges, including biosafety, microbiome homeostasis, manufacturing, and regulatory barriers, are critically examined. This review traces the development of AMP nanoengineering from passive delivery vehicles toward precision therapeutic platforms that respond dynamically to the oral microenvironment.",
+   "tags": [
+    "antimicrobial peptides",
+    "dental caries",
+    "microbiome homeostasis",
+    "microenvironment-responsive",
+    "nanoengineering",
+    "oral mucositis"
+   ]
+  },
+  {
+   "id": "10.1021/acsnano.6c15303",
+   "pmid": "43076527",
+   "doi": "10.1021/acsnano.6c15303",
+   "title": "Biscoordinated Strontium-Phenolic Networks for Bidirectional Repair of Dentin Hypersensitivity",
+   "title_zh": "双配位锶-酚网络纳米粒双效修复牙本质敏感",
+   "journal": "ACS nano",
+   "date": "2026-11-24",
+   "authors": [
+    "Zhang Q",
+    "Song Y",
+    "Feng X",
+    "Wang A",
+    "Long Y",
+    "He X",
+    "Wang X",
+    "Liang F",
+    "Han B"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43076527/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "in_vitro",
+   "design_label": "体外/细胞",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "C",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙本质敏感/生物材料",
+   "one_line": "Sr-EGCG MPs在碱性条件组装， thermocycling后管封堵率>91.8%，体外抑菌>97.5%，并示钙…",
+   "so_what": "",
+   "caution": "体外高浓度+短期，未做动物疼痛模型或长期耐久性。",
+   "score": {
+    "final": 50.5,
+    "match": 58.0,
+    "novelty": 62.0,
+    "rigor": 42.0,
+    "impact": 48.0,
+    "transfer": 55.0
+   },
+   "heuristic": 36.7,
+   "breakdown": {
+    "topic": 19.7,
+    "journal": 3.0,
+    "design": 7,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "Dentin hypersensitivity (DH) is a widespread dental disease characterized by transient and sharp pain affecting routine oral activities, with a reported prevalence that can exceed 70%. While remineralization offers a promising therapeutic strategy to address the anatomical basis of exposed dentinal tubules, achieving long-term efficacy remains challenging due to mechanical abrasion and cariogenic biofilms. Herein, strontium-phenolic network nanoparticles (Sr-EGCG NPs) are developed via a facile, one-pot aqueous process for DH treatment. Unlike conventional transition-metal-based metal-phenolic networks (MPNs), the assembly of Sr-based MPNs is found to be dependent on alkaline conditions, yielding a distinct biscoordinated structure. When applied to exposed dentin, Sr-EGCG NPs exhibit rapid and stable adhesion mediated by abundant galloyl groups, maintaining tubule occlusion ratios exceeding 91.8% after simulated oral challenges, especially surpassing commercial Duraphat in thermocycling (Duraphat: 2.0%), while simultaneously reducing live bacterial coverage by over 97.5% at day 3. Crucially, Sr-EGCG NPs enable bidirectional dentin repair: in situ remineralization (achieving complete mineralized occlusion by day 7 both in vitro and in vivo) and the induction of tertiary dentin formation via the CaSR-mediated MAPK signaling pathway. Overall, this work provides insights into the rational design of Sr-based MPNs and expands the framework for developing biomaterials targeting DH.",
+   "tags": [
+    "antibiofilm",
+    "dentin hypersensitivity",
+    "metal-phenolic networks",
+    "odontogenesis",
+    "remineralization"
+   ]
+  },
+  {
+   "id": "10.1111/omi.70044",
+   "pmid": "43075932",
+   "doi": "10.1111/omi.70044",
+   "title": "Streptococcus salivarius K12 and Its Bacterial Extracellular Vesicles Alleviate 5-Fluorouracil-Associated Oral Mucosal Injury and Remodel Oral and Gut Microbiota",
+   "title_zh": "唾液链球菌 K12 及其胞外囊泡缓解化疗性口腔黏膜损伤",
+   "journal": "Molecular oral microbiology",
+   "date": "2026-11-24",
+   "authors": [
+    "Li Y",
+    "Zhao K",
+    "Li Y",
+    "Sun M",
+    "Zi M",
+    "Chen J",
+    "Zhao H",
+    "Sheng Z",
+    "He Y"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43075932/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "animal",
+   "design_label": "动物实验",
+   "design_level": 2,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "口腔微生物组",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "微生物-宿主免疫互作",
+   "one_line": "K12 活菌及 BEV 均促进 5-FU 诱导小鼠舌黏膜修复，BEV 组 TNF/IL-6/IL-1β 三因子同步下调…",
+   "so_what": "",
+   "caution": "仅小鼠急性化疗模型，与种植体周慢性炎症微环境差异大；IL-1β 在活菌组未达显…",
+   "score": {
+    "final": 48.7,
+    "match": 45.0,
+    "novelty": 55.0,
+    "rigor": 50.0,
+    "impact": 45.0,
+    "transfer": 50.0
+   },
+   "heuristic": 49.7,
+   "breakdown": {
+    "topic": 23.7,
+    "journal": 10.0,
+    "design": 9,
+    "sample": 0.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: Chemotherapy-induced oral mucositis involves epithelial injury, inflammation, delayed mucosal repair, and microbial dysbiosis. This study investigated whether live Streptococcus salivarius K12 and a K12-derived bacterial extracellular vesicle (BEV) preparation alleviate 5-fluorouracil (5-FU)-associated oral mucosal injury. MATERIALS AND METHODS: K12-derived BEVs were isolated and characterized, and live K12 or the BEV preparation was administered orally to male mice. The model combined systemic 5-FU exposure with local acetic acid-induced tongue injury. Oral mucosal repair, inflammatory transcript expression, and oral and fecal microbiota were evaluated. RESULTS: Both interventions promoted wound healing and increased epithelial thickness and collagen deposition compared with the 5-FU group. In tongue tissue, live K12 significantly reduced Tnf and Il6 mRNA expression relative to the 5-FU group, whereas the reduction in Il1b was not statistically significant. The BEV preparation significantly reduced all three transcripts relative to the 5-FU group. 16S rRNA gene sequencing revealed group-associated variation in oral and fecal microbial community structure. K12 and BEV treatment were associated with different descriptive patterns of microbial composition. Under the non-dose-matched regimens tested, the BEV preparation produced greater improvements than live K12 in selected repair- and inflammation-related outcomes. CONCLUSIONS: These findings support further investigation of K12-derived BEV preparations as a potential cell-free intervention for chemotherapy-associated oral mucosal injury.",
+   "tags": [
+    "5‐fluorouracil",
+    "Streptococcus salivarius K12",
+    "bacterial extracellular vesicles",
+    "gut microbiota",
+    "oral microbiota",
+    "oral mucositis"
+   ]
+  },
+  {
+   "id": "10.1111/eos.70177",
+   "pmid": "43076199",
+   "doi": "10.1111/eos.70177",
+   "title": "Cone-beam computed tomography voxel size and diagnostic accuracy across endodontic tasks: A systematic review",
+   "title_zh": "CBCT 体素参数对根尖病变诊断准确性的系统评价",
+   "journal": "European journal of oral sciences",
+   "date": "2026-11-24",
+   "authors": [
+    "Almeida MF",
+    "Guimarães HHDSD",
+    "Almeida LMF",
+    "Matos KN"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43076199/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 683,
+   "sample_note": "n=683 records",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "影像诊断方法学",
+   "one_line": "16 项离体研究的系统评价发现细体素提升部分病灶敏感性但受伪影和材料干扰，无法进行 Meta 合并",
+   "so_what": "仅背景；影像参数优化对空间转录组配准有间接参考价值，但不改变 q1–q5 任一机制理解",
+   "caution": "体外研究为主，活体软组织分辨率与离体差异显著；无法回答临床诊断决策问题",
+   "score": {
+    "final": 38.8,
+    "match": 25.0,
+    "novelty": 35.0,
+    "rigor": 60.0,
+    "impact": 40.0,
+    "transfer": 30.0
+   },
+   "heuristic": 50.0,
+   "breakdown": {
+    "topic": 7.4,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 7.6,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "Selecting an appropriate cone-beam computed tomography (CBCT) voxel protocol is clinically relevant for detecting subtle endodontic abnormalities, yet diagnostic performance depends on more than nominal voxel dimensions. This systematic review synthesized evidence on vertical root fractures, second mesiobuccal canals, external root resorption, and root perforations. Six information sources yielded 683 records; 16 ex vivo studies met the eligibility criteria. Published sensitivity, specificity, and area-under-the-curve findings were verified and synthesized by task, scanner, material condition, and voxel protocol; no meta-analysis was retained because reliable independent comparisons were insufficient. Seven studies addressed root fractures, three additional canals, four external resorption, and two perforations. In individual experiments, finer protocols improved sensitivity for certain fractures and perforations, whereas filling materials, artifacts, treatment stage, lesion location, and scanner settings modified performance. Certainty for laboratory diagnostic accuracy was low for fractures and resorption and very low for canal detection and perforations; clinical extrapolation was very low across tasks. The findings support clinically useful, indication-led selection of CBCT protocols, emphasizing diagnostically adequate image detail, restricted field of view, and exposure optimization rather than a universally preferred voxel size.",
+   "tags": [
+    "dental",
+    "molar",
+    "radiation dosage",
+    "radiography",
+    "root resorption",
+    "tooth fractures"
+   ]
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 19
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 19
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 19
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 19
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 19
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 19
+  }
+ ],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}

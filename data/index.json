@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-24T13:29:59+08:00",
- "latest": "2026-11-24",
+ "updated_at": "2026-11-25T12:32:17+08:00",
+ "latest": "2026-11-25",
  "days": [
+  {
+   "date": "2026-11-25",
+   "must_title": "Ecological Resilience and Microbial Dysbiosis in the Oral Microbiome: A Systems-Level Conceptual Framework",
+   "must_title_zh": "口腔微生物组的生态韧性与微生物失调：系统层面的概念框架",
+   "cluster": "微生物组生态学",
+   "count": 10,
+   "ai": true
+  },
   {
    "date": "2026-11-24",
    "must_title": "Periodontal Bacteria-Derived Vesicles Disrupt Maternal and Fetal Health",
