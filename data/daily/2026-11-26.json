@@ -1,0 +1,1040 @@
+{
+ "date": "2026-11-26",
+ "generated_at": "2026-11-26T11:46:14+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 6,
+  "prompt_tokens": 17202,
+  "completion_tokens": 16188
+ },
+ "stats": {
+  "candidates": 147,
+  "raw": 146,
+  "fetched": 30,
+  "raw_dropped_type": 10,
+  "no_abstract": 1,
+  "gated": 30,
+  "scored": 27,
+  "shown": 10,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 6,
+  "quality_failed": 0,
+  "quality_repaired": 0
+ },
+ "must_read": {
+  "id": "10.1111/jcpe.70230",
+  "pmid": "43077728",
+  "doi": "10.1111/jcpe.70230",
+  "title": "A Spatial and Single-Cell Atlas of Early Human Alveolar Bone Healing",
+  "title_zh": "早期人类牙槽骨愈合的空间与单细胞图谱",
+  "journal": "Journal of clinical periodontology",
+  "date": "2026-11-24",
+  "authors": [
+   "Li A",
+   "Chen H",
+   "Zhou J",
+   "Xu S",
+   "Du M",
+   "Ge S",
+   "Li P"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43077728/",
+  "pmcid": "",
+  "cited_by": 0,
+  "design": "in_vitro",
+  "design_label": "体外/细胞",
+  "design_level": 1,
+  "sample_n": null,
+  "sample_note": "",
+  "tier": "A",
+  "domain": "种植与骨再生",
+  "methods": [
+   "single-cell",
+   "spatial",
+   "multiomics"
+  ],
+  "pub_types": [
+   "Journal Article"
+  ],
+  "is_open_access": false,
+  "cluster": "骨愈合免疫",
+  "one_line": "scRNA-seq+空间转录组绘制拔牙窝4周愈合图谱，鉴定WNT5A+/OGN+两种成纤维细胞亚群及其通讯网络。",
+  "so_what": "为q1和q4提供人源参考图谱：OBG+ fibroblasts调控免疫-ECM耦联，可直接借用细胞…",
+  "caution": "n=7供体仅为探索性 atlas，缺乏临床队列验证，不可作为定量依据。",
+  "score": {
+   "final": 77.9,
+   "match": 92.0,
+   "novelty": 88.0,
+   "rigor": 65.0,
+   "impact": 75.0,
+   "transfer": 95.0
+  },
+  "heuristic": 54.1,
+  "breakdown": {
+   "topic": 19.5,
+   "journal": 15.0,
+   "design": 7,
+   "sample": 0.0,
+   "fresh": 6.0,
+   "method": 6.6
+  },
+  "abstract": "AIM: To construct an integrated single-cell and spatial transcriptomic atlas of early human alveolar bone healing to delineate cellular heterogeneity and intercellular communication during the proliferative phase. METHODS: Granulation tissue was harvested from the extraction sockets of seven healthy patients 4 weeks post extraction. Six patients provided samples for single-cell RNA sequencing and one for spatial transcriptomics. Bioinformatic analyses characterised cellular subpopulations, pseudotemporal relationships and predicted communication networks. Immunofluorescence assessed spatial proximity between fibroblast and endothelial cell populations. RESULTS: Fifteen major cell populations and two transcriptionally distinct fibroblast subsets were identified: WNT5A+ fibroblasts were associated with inflammatory responses and immune cell recruitment, whereas OGN+ fibroblasts were linked to extracellular matrix organisation, tissue remodelling and ossification. Macrophage, T-cell and endothelial subsets were also identified. OGN+ fibroblasts showed extensive interactions with immune and endothelial subsets, including CXCL12-CXCR4. Spatial transcriptomics revealed heterogeneous distributions of major cell populations and their subsets. Immunofluorescence further indicated spatial proximity between CXCL12-expressing fibroblasts and CXCR4+ endothelial cells. CONCLUSIONS: This atlas characterises cellular and spatial heterogeneity during early human alveolar bone healing and highlights fibroblast-associated interactions for future functional investigation.",
+  "tags": [
+   "Alveolar bone healing",
+   "cell–cell communication",
+   "fibroblasts",
+   "single‐cell RNA sequencing",
+   "spatial transcriptomics"
+  ],
+  "deep": {
+   "title_zh": "早期人类牙槽骨愈合的空间与单细胞图谱",
+   "one_sentence": "揭示早期牙槽骨愈合中存在WNT5A+与OGN+两类功能迥异的成纤维细胞亚群，并通过CXCL12-CXCR4轴驱动免疫-血管-骨稳态串扰。",
+   "question": "拔牙窝4周愈合期是否存在转录本异质的成纤维细胞亚群？它们如何通过配体-受体互作塑造局部免疫与血管微环境？",
+   "design": "横断面描述性研究，7例健康患者拔牙窝4周后取肉芽组织，无对照组、无盲法、无随访。",
+   "sample_desc": "7名健康人类患者（拔牙窝肉芽组织），4周时间点取样；摘要未说明年龄、性别、牙齿位点。",
+   "findings": [
+    {
+     "claim": "存在两类转录本异质的成纤维细胞亚群",
+     "evidence": "scRNA-seq鉴定出WNT5A+（促炎/免疫募集）和OGN+（ECM组织/骨化）两种成纤维细胞亚群"
+    },
+    {
+     "claim": "OGN+成纤维细胞主导组织重塑与骨化相关互作",
+     "evidence": "OGN+ fibroblasts showed extensive interactions with immune and endothelial subsets, including CXCL12-CXCR4 axis"
+    },
+    {
+     "claim": "CXCL12+成纤维细胞与CXCR4+内皮细胞在空间上紧密相邻",
+     "evidence": "immunofluorescence confirmed spatial proximity between CXCL12-expressing fibroblasts and CXCR4+ endothelial cells"
+    },
+    {
+     "claim": "空间转录组显示主要细胞群及其亚群呈异质性分布",
+     "evidence": "spatial transcriptomics revealed heterogeneous distributions of major cell populations and their subsets across the healing socket"
+    }
+   ],
+   "effect": "未报告（描述性图谱研究，无比较性效应量）",
+   "relation": "q1支持——直接刻画了早期骨愈合中免疫微环境的细胞组成与通讯网络，尤其是成纤维细胞作为'编程者'的角色，补充了仅关注巨噬细胞/NLs/IL-1β轴的单一视角。同时关联q4：生物材料表面若能调控成纤维细胞亚群偏向（WNT5A+ vs OGN+），将决定愈合走向。",
+   "why": "改变了三件事：①成纤维细胞不是均质的，WNT5A+与OGN+在功能和空间定位上截然不同；②提出了CXCL12-CXCR4成纤维细胞-内皮细胞邻近结构作为早期骨愈合的关键通讯节点；③证明单细胞+空间转录组联合分析可在临床样本上实现细胞定位解析，方法学可迁移性强。",
+   "limitations": [
+    "n=7，其中仅1例做空间转录组，统计推断力有限，无法评估个体变异。",
+    "单时间点（4周）、无病理对照（如种植体周炎/牙周炎伤口），无法判断正常愈合图谱能否外推至疾病状态。",
+    "相关性而非因果性：WNT5A+与OGN+的功能差异来自转录特征注释，未经基因编辑或中和抗体验证。"
+   ],
+   "transferable": "单细胞+空间转录组联合分析设计可直接搬到种植体周炎vs健康位点对照研究；IF验证CXCL12-CXCR4空间邻近性的方法学可复用；OGN/WNT5A双标记FACS分选可用于后续功能实验。",
+   "followups": [
+    "OGN+ vs WNT5A+成纤维细胞在时间轴上（1w/2w/4w/8w）是否发生动态转换？有无证据支持前者为'修复型'、后者为'炎症残留型'？",
+    "CXCL12-CXCR4轴被阻断后，拔牙窝愈合的成骨标志物表达和内皮管腔形成是否受损？有无体内动物模型数据可查证？",
+    "该图谱在种植体周炎患者的成纤维细胞亚群比例和互作网络上是否有显著偏移？检索关键词：peri-implantitis single-cell fibroblast CXCL12"
+   ],
+   "glossary": [
+    {
+     "en": "OGN",
+     "cn": "骨玻璃糖蛋白（Osteoglycin），一种调节胶原纤维组装和骨形态发生的分泌…"
+    },
+    {
+     "en": "WNT5A",
+     "cn": "Wnt变体5A，非经典Wnt通路配体，参与炎症调控和细胞迁移"
+    },
+    {
+     "en": "CXCL12-CXCR4 axis",
+     "cn": "SDF-1α/CXCR4轴，调控造血细胞归巢、血管生成和间充质干细胞动员的经典…"
+    },
+    {
+     "en": "spatial transcriptomics",
+     "cn": "空间转录组学，在保留组织原位空间信息的前提下进行高通量基因表达检测的技术"
+    }
+   ],
+   "reading_minutes": 12,
+   "quality": {
+    "passed": true,
+    "score": 100.0,
+    "judge_score": null,
+    "problems": [],
+    "repaired_by": "",
+    "attempts": 0
+   }
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1111/jcpe.70230",
+   "pmid": "43077728",
+   "doi": "10.1111/jcpe.70230",
+   "title": "A Spatial and Single-Cell Atlas of Early Human Alveolar Bone Healing",
+   "title_zh": "早期人类牙槽骨愈合的空间与单细胞图谱",
+   "journal": "Journal of clinical periodontology",
+   "date": "2026-11-24",
+   "authors": [
+    "Li A",
+    "Chen H",
+    "Zhou J",
+    "Xu S",
+    "Du M",
+    "Ge S",
+    "Li P"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43077728/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "in_vitro",
+   "design_label": "体外/细胞",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "种植与骨再生",
+   "methods": [
+    "single-cell",
+    "spatial",
+    "multiomics"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "骨愈合免疫",
+   "one_line": "scRNA-seq+空间转录组绘制拔牙窝4周愈合图谱，鉴定WNT5A+/OGN+两种成纤维细胞亚群及其通讯网络。",
+   "so_what": "为q1和q4提供人源参考图谱：OBG+ fibroblasts调控免疫-ECM耦联，可直接借用细胞…",
+   "caution": "n=7供体仅为探索性 atlas，缺乏临床队列验证，不可作为定量依据。",
+   "score": {
+    "final": 77.9,
+    "match": 92.0,
+    "novelty": 88.0,
+    "rigor": 65.0,
+    "impact": 75.0,
+    "transfer": 95.0
+   },
+   "heuristic": 54.1,
+   "breakdown": {
+    "topic": 19.5,
+    "journal": 15.0,
+    "design": 7,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 6.6
+   },
+   "abstract": "AIM: To construct an integrated single-cell and spatial transcriptomic atlas of early human alveolar bone healing to delineate cellular heterogeneity and intercellular communication during the proliferative phase. METHODS: Granulation tissue was harvested from the extraction sockets of seven healthy patients 4 weeks post extraction. Six patients provided samples for single-cell RNA sequencing and one for spatial transcriptomics. Bioinformatic analyses characterised cellular subpopulations, pseudotemporal relationships and predicted communication networks. Immunofluorescence assessed spatial proximity between fibroblast and endothelial cell populations. RESULTS: Fifteen major cell populations and two transcriptionally distinct fibroblast subsets were identified: WNT5A+ fibroblasts were associated with inflammatory responses and immune cell recruitment, whereas OGN+ fibroblasts were linked to extracellular matrix organisation, tissue remodelling and ossification. Macrophage, T-cell and endothelial subsets were also identified. OGN+ fibroblasts showed extensive interactions with immune and endothelial subsets, including CXCL12-CXCR4. Spatial transcriptomics revealed heterogeneous distributions of major cell populations and their subsets. Immunofluorescence further indicated spatial proximity between CXCL12-expressing fibroblasts and CXCR4+ endothelial cells. CONCLUSIONS: This atlas characterises cellular and spatial heterogeneity during early human alveolar bone healing and highlights fibroblast-associated interactions for future functional investigation.",
+   "tags": [
+    "Alveolar bone healing",
+    "cell–cell communication",
+    "fibroblasts",
+    "single‐cell RNA sequencing",
+    "spatial transcriptomics"
+   ],
+   "deep": {
+    "title_zh": "早期人类牙槽骨愈合的空间与单细胞图谱",
+    "one_sentence": "揭示早期牙槽骨愈合中存在WNT5A+与OGN+两类功能迥异的成纤维细胞亚群，并通过CXCL12-CXCR4轴驱动免疫-血管-骨稳态串扰。",
+    "question": "拔牙窝4周愈合期是否存在转录本异质的成纤维细胞亚群？它们如何通过配体-受体互作塑造局部免疫与血管微环境？",
+    "design": "横断面描述性研究，7例健康患者拔牙窝4周后取肉芽组织，无对照组、无盲法、无随访。",
+    "sample_desc": "7名健康人类患者（拔牙窝肉芽组织），4周时间点取样；摘要未说明年龄、性别、牙齿位点。",
+    "findings": [
+     {
+      "claim": "存在两类转录本异质的成纤维细胞亚群",
+      "evidence": "scRNA-seq鉴定出WNT5A+（促炎/免疫募集）和OGN+（ECM组织/骨化）两种成纤维细胞亚群"
+     },
+     {
+      "claim": "OGN+成纤维细胞主导组织重塑与骨化相关互作",
+      "evidence": "OGN+ fibroblasts showed extensive interactions with immune and endothelial subsets, including CXCL12-CXCR4 axis"
+     },
+     {
+      "claim": "CXCL12+成纤维细胞与CXCR4+内皮细胞在空间上紧密相邻",
+      "evidence": "immunofluorescence confirmed spatial proximity between CXCL12-expressing fibroblasts and CXCR4+ endothelial cells"
+     },
+     {
+      "claim": "空间转录组显示主要细胞群及其亚群呈异质性分布",
+      "evidence": "spatial transcriptomics revealed heterogeneous distributions of major cell populations and their subsets across the healing socket"
+     }
+    ],
+    "effect": "未报告（描述性图谱研究，无比较性效应量）",
+    "relation": "q1支持——直接刻画了早期骨愈合中免疫微环境的细胞组成与通讯网络，尤其是成纤维细胞作为'编程者'的角色，补充了仅关注巨噬细胞/NLs/IL-1β轴的单一视角。同时关联q4：生物材料表面若能调控成纤维细胞亚群偏向（WNT5A+ vs OGN+），将决定愈合走向。",
+    "why": "改变了三件事：①成纤维细胞不是均质的，WNT5A+与OGN+在功能和空间定位上截然不同；②提出了CXCL12-CXCR4成纤维细胞-内皮细胞邻近结构作为早期骨愈合的关键通讯节点；③证明单细胞+空间转录组联合分析可在临床样本上实现细胞定位解析，方法学可迁移性强。",
+    "limitations": [
+     "n=7，其中仅1例做空间转录组，统计推断力有限，无法评估个体变异。",
+     "单时间点（4周）、无病理对照（如种植体周炎/牙周炎伤口），无法判断正常愈合图谱能否外推至疾病状态。",
+     "相关性而非因果性：WNT5A+与OGN+的功能差异来自转录特征注释，未经基因编辑或中和抗体验证。"
+    ],
+    "transferable": "单细胞+空间转录组联合分析设计可直接搬到种植体周炎vs健康位点对照研究；IF验证CXCL12-CXCR4空间邻近性的方法学可复用；OGN/WNT5A双标记FACS分选可用于后续功能实验。",
+    "followups": [
+     "OGN+ vs WNT5A+成纤维细胞在时间轴上（1w/2w/4w/8w）是否发生动态转换？有无证据支持前者为'修复型'、后者为'炎症残留型'？",
+     "CXCL12-CXCR4轴被阻断后，拔牙窝愈合的成骨标志物表达和内皮管腔形成是否受损？有无体内动物模型数据可查证？",
+     "该图谱在种植体周炎患者的成纤维细胞亚群比例和互作网络上是否有显著偏移？检索关键词：peri-implantitis single-cell fibroblast CXCL12"
+    ],
+    "glossary": [
+     {
+      "en": "OGN",
+      "cn": "骨玻璃糖蛋白（Osteoglycin），一种调节胶原纤维组装和骨形态发生的分泌…"
+     },
+     {
+      "en": "WNT5A",
+      "cn": "Wnt变体5A，非经典Wnt通路配体，参与炎症调控和细胞迁移"
+     },
+     {
+      "en": "CXCL12-CXCR4 axis",
+      "cn": "SDF-1α/CXCR4轴，调控造血细胞归巢、血管生成和间充质干细胞动员的经典…"
+     },
+     {
+      "en": "spatial transcriptomics",
+      "cn": "空间转录组学，在保留组织原位空间信息的前提下进行高通量基因表达检测的技术"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": null,
+     "problems": [],
+     "repaired_by": "",
+     "attempts": 0
+    }
+   }
+  },
+  {
+   "id": "10.1177/00220345261506274",
+   "pmid": "43079929",
+   "doi": "10.1177/00220345261506274",
+   "title": "Parvalbumin Is Associated with Periodontitis-Abetted Tubular Injury in Diabetes",
+   "title_zh": "副肌钙蛋白与糖尿病背景下牙周炎加重的肾小管损伤相关",
+   "journal": "Journal of dental research",
+   "date": "2026-11-24",
+   "authors": [
+    "Al-Kafee A",
+    "Shinjo T",
+    "Sato K",
+    "Otsuka H",
+    "Zeze T",
+    "Ryo N",
+    "Dilimulati G",
+    "Lamloum A",
+    "Yamashita A",
+    "Fukuda T",
+    "Sanui T",
+    "Iwashita M"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43079929/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "animal",
+   "design_label": "动物实验",
+   "design_level": 2,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "牙周与宿主免疫",
+   "methods": [
+    "multiomics"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙周-全身关联",
+   "one_line": "LIP模型在糖尿病KK-Ay小鼠中加重肾小管损伤，转录组提示离子转运与炎症通路参与。",
+   "so_what": "为q2提供体内机制证据，提示牙周炎症可通过可溶性因子远距离损伤靶器官。",
+   "caution": "kk-ay为非典型T2DM模型，结果外推至人群需谨慎；机制停留在转录组层面。",
+   "score": {
+    "final": 68.5,
+    "match": 85.0,
+    "novelty": 60.0,
+    "rigor": 55.0,
+    "impact": 50.0,
+    "transfer": 70.0
+   },
+   "heuristic": 67.2,
+   "breakdown": {
+    "topic": 35.0,
+    "journal": 15.0,
+    "design": 9,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "Diabetic nephropathy is a major form of chronic kidney disease caused by long-term diabetes, and it is characterized by progressive injury of glomerular and tubular compartments driven by metabolic and inflammatory stress. While clinical and epidemiologic studies have linked periodontitis with worse renal outcomes in diabetes, the molecular mechanisms underlying this association remain poorly defined. In this study, we examined whether ligature-induced periodontitis (LIP) can aggravate tubular injury in type 2 diabetic KK-Ay mice, and we explored the possible contributing factor and its related molecular mechanism in the progression of tubular injury. In KK-Ay mice, LIP exacerbated renal dysfunction, as indicated by increased expression of the tubular injury marker lipocalin 2, more pronounced interstitial fibrosis, increased macrophage infiltration, and disturbances in systemic electrolyte balance. Transcriptomic profiling of renal tubular fractions showed that LIP induced distinct gene expression changes in diabetic kidneys, with enrichment of pathways related to ion transport, calcium signaling, MAPK signaling, and diabetic metabolism. Among the most strongly upregulated genes, a calcium-binding protein parvalbumin (PVALB) was found to be a possible candidate mediator in tubular injury under diabetes. Immunofluorescent staining revealed that LIP enhanced PVALB expression mainly in the distal convoluted tubule in KK-Ay mice. In macrophage models (J774A.1 and THP-1), recombinant PVALB robustly induced IL-1β expression and secretion, particularly under hyperglycemic conditions. Mechanistically, PVALB activated NF-κB and p38 MAPK signaling via TLR2 and/or TLR4, leading to NLRP3 inflammasome activation, caspase-1 cleavage, and IL-1β maturation in J774A.1. Pharmacologic inhibition of caspase-1 significantly attenuated IL-1β secretion from J774A.1 and THP-1. These findings suggest that periodontitis aggravates tubular injury in diabetic nephropathy, and they identify PVALB as a potential mediator linking distal tubular injury to macrophage inflammasome activation.",
+   "tags": [
+    "Interleukin-1",
+    "diabetic nephropathy",
+    "inflammasome",
+    "kidney tubules, distal",
+    "macrophages",
+    "periodontal medicine"
+   ],
+   "deep": {
+    "title_zh": "副肌钙蛋白与糖尿病背景下牙周炎加重的肾小管损伤相关",
+    "one_sentence": "LIP通过远端小管来源的PVALB驱动巨噬细胞TLR2/4-NF-κB/p38轴促发NLRP3炎症小体活化，这一机制链为牙周炎致糖尿病肾病提供了分子解释。",
+    "question": "牙周炎如何以远端小管-PVALB-巨噬细胞为媒介加剧糖尿病肾小管损伤？",
+    "design": "KK-Ay糖尿病小鼠分为假手术对照与LIP组；肾小管转录组学筛选候选因子后，体外用J774A.1与THP-1巨噬细胞验证rPVALB功能及Caspase-1抑制效果；作者未说明随机化与盲法。",
+    "sample_desc": "体内：糖尿病KK-Ay小鼠（数量摘要未说明）；体外：J774A.1与THP-1巨噬细胞系（处理条件与重复数摘要未说明）。",
+    "findings": [
+     {
+      "claim": "LIP显著加重糖尿病小鼠肾小管损伤与间质纤维化。",
+      "evidence": ""
+     },
+     {
+      "claim": "LIP诱发糖尿病肾小管独特的转录重编程，指向钙稳态与炎症相关通路。",
+      "evidence": ""
+     },
+     {
+      "claim": "PVALB主要于糖尿病伴LIP小鼠远端曲小管表达升高。",
+      "evidence": "免疫荧光定位显示LIP组远端曲小管PVALB表达增强。"
+     },
+     {
+      "claim": "rPVALB在高糖环境下强效促进巨噬细胞IL-1β表达与分泌。",
+      "evidence": "J774A.1与THP-1模型中均观察到显著效应；高糖条件为增效背景（具体倍数/统计值摘要未报告）。"
+     }
+    ],
+    "effect": "未报告",
+    "relation": "q2最为直接相关——提供一条可从「牙周炎→小管源性危险信号→循环级联促炎」角度验证的因果机制链；同时与q4部分交叉（远端小管作为材料/环境刺激响应腔室的概念可迁移），但不直接回答q1/q3/q5。",
+    "why": "它把文献中长期停留的流行病学关联转化为一个可验证的'器官际对话'机制：肾小管作为感知器把局部炎症信号转化为系统效应，并用单一钙结合蛋白串联起TREM样危险信号与NLRP3轴。对临床研究者而言，这意味着'控制牙周炎=降低糖尿病肾病风险'不再只是相关性陈述，而是有可干预节点（TLR/NLRP3/Caspase-1）的故事。",
+    "limitations": [
+     "摘要未提供小鼠分组数、随机/盲法细节与统计学效力，难以评估结果稳健性。",
+     "PVALB被描绘为主效介质，但摘要未展示阻断/缺失实验的因果确认；在糖尿病+LIP语境下是否有其他小管源性配体贡献仍未知。",
+     "巨噬细胞实验使用经典永生化细胞系，距离体内原位免疫微环境的复杂性存在鸿沟；且TLR2/4的贡献未单独拆分（仅以TLR2/4或TLR2和/或TLR4表述）。"
+    ],
+    "transferable": "① LIP造模结合糖尿病易感品系（如KK-Ay）是可复现的'口腔-肾'双器官损伤模型；② 肾小管组分分离+转录组优先筛选候选危险信号的策略可直接移植到种植体-骨界面或牙髓-类器官课题；③ Caspase-1药理学抑制作为功效读出，适用于任何以NLRP3为核心的炎症通路验证。",
+    "followups": [
+     "PVALB在远端小管的来源到底是肾小管上皮自身合成，还是来自周围间质/浸润免疫细胞的重摄取？可用小管上皮特异性Cre敲除或条件性过表达加以区分。",
+     "在小鼠体内阻断TLR2或TLR4（各自独立）能否分别削弱PVALB驱动的IL-1β轴？需要单受体KO或与抗体中和进行对比以解除摘要中'TLR2和/或TLR4'的模糊叠加。",
+     "临床队列中糖尿病患者牙周炎状态与血清/尿液PVALB水平的相关性能否在调整血糖、eGFR与感染负荷后仍然成立？这决定该通路是否具备转化标志物价值。"
+    ],
+    "glossary": [
+     {
+      "en": "Parvalbumin (PVALB)",
+      "cn": "副肌钙蛋白；低分子量钙结合蛋白，常被视为潜在危险信号分子"
+     },
+     {
+      "en": "Lipocalin-2 (LCN2)",
+      "cn": "脂连蛋白2；肾小管损伤敏感标志物"
+     },
+     {
+      "en": "Ligature-induced periodontitis (LIP)",
+      "cn": "结扎诱导的牙周炎；啮齿类常用牙周炎致病模型"
+     },
+     {
+      "en": "NLRP3 inflammasome",
+      "cn": "NOD样受体热蛋白结构域相关蛋白3炎症小体；介导caspase-1活化与IL-…"
+     },
+     {
+      "en": "Caspase-1",
+      "cn": "半胱天冬酶-1；炎症小体下游执行蛋白酶，负责IL-1β前体的成熟切割"
+     },
+     {
+      "en": "KK-Ay mouse",
+      "cn": "携带Ay等位基因的KK小鼠；自发2型糖尿病易感品系，常用于代谢-炎症共病研究"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 84.0,
+     "judge_score": null,
+     "problems": [
+      "证据 1 缺少数据/现象",
+      "证据 2 缺少数据/现象",
+      "效应量只有占位符"
+     ],
+     "repaired_by": "",
+     "attempts": 0
+    }
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1111/eos.70175",
+   "pmid": "43082013",
+   "doi": "10.1111/eos.70175",
+   "title": "Construction of a clinical prediction model for the risk of iatrogenic vertical root fracture using multiple clinical indicators",
+   "title_zh": "基于临床指标的医源性根折风险预测模型构建",
+   "journal": "European journal of oral sciences",
+   "date": "2026-11-25",
+   "authors": [
+    "Lu Y",
+    "Wang Y",
+    "Mu Y",
+    "Wu B",
+    "Hu L"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43082013/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 80,
+   "sample_note": "n=80 patients",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [
+    "ml"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "根管治疗后预测",
+   "one_line": "机器学习（XGBoost/RF/LASSO）构建根管内用药、间隔时间、桩核缺失联合的VRF诊断模型，外部验证AUC 0…",
+   "so_what": "ML建模策略可迁移至q1的种植体周炎风险预测；但本质是诊断而非预后模型，变量均在就诊时采集。",
+   "caution": "外部验证性能明显低于内部验证（0.62），泛化能力存疑；n=80偏小。",
+   "score": {
+    "final": 38.6,
+    "match": 25.0,
+    "novelty": 40.0,
+    "rigor": 55.0,
+    "impact": 30.0,
+    "transfer": 45.0
+   },
+   "heuristic": 47.7,
+   "breakdown": {
+    "topic": 8.5,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 5.1,
+    "fresh": 7.0,
+    "method": 2.2
+   },
+   "abstract": "Vertical root fracture (VRF) complicates endodontically treated teeth, often leading to extraction. We developed a diagnostic prediction model for VRF using a retrospective cohort of 80 patients. Three machine learning algorithms (XGBoost, random forest, and LASSO) were used to identify key predictors. As all predictors were ascertained at the evaluation visit, the resulting model is diagnostic rather than prognostic, estimating the probability that a tooth presenting for re-evaluation already harbors a VRF. We evaluated the model via bootstrap internal validation and three-tiered external validation in an independent cohort (n = 130). Intracanal medication, time interval, and the absence of post emerged as consensus predictors. The model demonstrated strong internal discrimination (optimism-corrected AUC = 0.795, 95% confidence interval: 0.703-0.890) and excellent calibration, yielding a risk score ranging from 0 to 5. In the external cohort, locked-model validation achieved an AUC of 0.621, model refit 0.711, and transportability assessment using conceptual proxies 0.756. This model supports risk communication and shared decision-making during re-evaluation for suspected VRF.",
+   "tags": [
+    "clinical prediction model",
+    "endodontics",
+    "iatrogenic",
+    "machine learning",
+    "risk assessment",
+    "vertical root fracture"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07305-9",
+   "pmid": "43083939",
+   "doi": "10.1007/s00784-026-07305-9",
+   "title": "Association between oral contraceptive/low-dose estrogen-progestin discontinuation and alveolar osteitis after third molar extraction: a retrospective multicenter study",
+   "title_zh": "停用口服避孕药降低拔智齿后干槽症风险",
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-25",
+   "authors": [
+    "Sato K",
+    "Ishikawa-Matsumoto Y",
+    "Shudo A",
+    "Kaneko N",
+    "Okamoto Y",
+    "Iwata E",
+    "Kunisada Y",
+    "Wakayama Y",
+    "Takenaka K",
+    "Kouyama N",
+    "Okazaki M",
+    "Hashizume A"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43083939/",
+   "pmcid": "13167228",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 277,
+   "sample_note": "n=277 teeth",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Multicenter Study"
+   ],
+   "is_open_access": true,
+   "cluster": "口腔外科临床决策",
+   "one_line": "多中心回顾性队列（n=251女性）发现术前停用OC/LEP可使干槽症发生率从9.2%降至2.2%，OR值显著下降。",
+   "so_what": "不涉q1–q5机制；对q2（宿主免疫→全身）无任何迁移价值，属纯临床操作性证据。",
+   "caution": "retrospective design with residual conf…",
+   "score": {
+    "final": 36.5,
+    "match": 30.0,
+    "novelty": 35.0,
+    "rigor": 55.0,
+    "impact": 50.0,
+    "transfer": 10.0
+   },
+   "heuristic": 38.5,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 6.5,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVE: Oral contraceptive (OC)/low-dose estrogen-progestin (LEP) use has been associated with an increased incidence of alveolar osteitis (AO). Whether discontinuation of OC/LEP affects AO incidence following outpatient surgeries has not been sufficiently evaluated. We investigated whether preoperative OC/LEP discontinuation influences the incidence of AO after outpatient wisdom tooth extraction. MATERIALS AND METHODS: In total, 251 women aged 16-47 years were included. Overall, 277 teeth were extracted in the discontinuation group and 195 in the continuation group. We compared the incidence of AO between the two groups and performed logistic regression analysis to identify factors associated with AO. RESULTS: AO occurred in 6/277 teeth (2.2%) in the discontinuation group and 18/195 teeth (9.2%) in the continuation group. Fisher's exact test revealed a significant difference between the groups (p = 0.001). Multivariable logistic regression analysis showed that OC/LEP continuation was associated with higher odds of AO than discontinuation. Mandibular extraction was also associated with higher odds of AO. OC/LEP type was not significantly associated with AO. AO incidence in the 4-week discontinuation group was 2.3%, which was significantly lower than that in the continuation group (p = 0.007). No thromboses occurred. CONCLUSIONS: Preoperative discontinuation period of 4-weeks was associated with a lower incidence of AO after wisdom tooth extraction. CLINICAL RELEVANCE: Preoperative discontinuation of OC/LEP for 4 weeks was associated with a lower incidence of AO after wisdom tooth extraction. No thrombotic events were observed; however, the study was not sufficiently powered to evaluate this rare outcome.",
+   "tags": [
+    "Alveolar osteitis",
+    "Discontinuation",
+    "Dry socket",
+    "Low-dose estrogen–progestin",
+    "Oral contraceptive",
+    "Wisdom tooth extraction"
+   ]
+  },
+  {
+   "id": "10.1080/20002297.2026.2765114",
+   "pmid": "43081079",
+   "doi": "10.1080/20002297.2026.2765114",
+   "title": "Time-stratified supragingival plaque microbiome profiles after alveolar bone grafting",
+   "title_zh": "牙槽骨移植术后龈上菌斑微生物谱时序变化",
+   "journal": "Journal of oral microbiology",
+   "date": "2026-11-23",
+   "authors": [
+    "Zhang Y",
+    "Zhi Q",
+    "Chen Y",
+    "Li R",
+    "Shi Z",
+    "Zhou Z",
+    "Chen Z"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43081079/",
+   "pmcid": "PMC13794848",
+   "cited_by": 0,
+   "design": "cross_sectional",
+   "design_label": "横断面",
+   "design_level": 3,
+   "sample_n": 90,
+   "sample_note": "n=90 participants",
+   "tier": "B",
+   "domain": "口腔微生物组",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "微生物组描述",
+   "one_line": "横断面16S测序揭示cleft患者与ABG术后不同时段菌斑菌群存在显著差异。",
+   "so_what": "q3的dysbiosis标志物思路可借鉴，但设计无法推断因果，仅描述状态。",
+   "caution": "横断面+混合时间点，无法追踪时序演变；n=90偏小，无功能验证。",
+   "score": {
+    "final": 26.6,
+    "match": 35.0,
+    "novelty": 30.0,
+    "rigor": 40.0,
+    "impact": 25.0,
+    "transfer": 45.0
+   },
+   "heuristic": 63.0,
+   "breakdown": {
+    "topic": 32.8,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 5.2,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: Alveolar bone grafting (ABG) restores continuity of the cleft alveolus, but supragingival plaque microbiota at different intervals after grafting remain poorly characterized. We examined plaque microbial profiles in participants with ungrafted alveolar clefts, participants sampled at three intervals after ABG, and healthy controls. METHODS: This cross-sectional secondary analysis included 90 participants: 33 in the ungrafted alveolar cleft plaque group (AC-P), 14 in the early post-ABG plaque group ( 5 years; LABG-P), and 23 healthy controls (HC-P). Pooled supragingival plaque was analyzed by 16S rRNA gene sequencing. Alpha diversity, Bray-Curtis and weighted UniFrac community structure, a comparison-specific microbial dysbiosis index (MDI), and genus-level differences were evaluated. Exploratory Bray-Curtis comparisons were performed among the three post-ABG groups. RESULTS: Sobs and Chao1 differed among the five groups (false discovery rate [FDR]-adjusted P = 0.0171 and 0.0157), whereas Shannon and Simpson did not. Bray-Curtis and weighted UniFrac PERMANOVA were significant (R2 = 0.0686, P = 0.010; R2 = 0.0960, P = 0.004), with the Bray-Curtis group association remaining significant after age adjustment (P = 0.006). Among the 34 post-ABG participants, neither the unadjusted nor age-adjusted three-group Bray-Curtis comparison was significant (P = 0.2790 and 0.2394), and no pairwise comparison was significant after Holm correction. After full-process permutation and FDR correction, MDI differences were significant for AC-P, EABG-P, and LABG-P versus HC-P, but not for MABG-P. Twenty-one genera remained FDR-significant in AC-P versus HC-P, compared with one in EABG-P and none in MABG-P or LABG-P. CONCLUSIONS: Supragingival plaque microbial richness and community structure differed among the five groups, while FDR-supported genus-level differences were concentrated in the ungrafted alveolar cleft group. This interval-stratified analysis extends the characterization of plaque microbial communities to patients sampled several years after ABG.",
+   "tags": [
+    "16S rRNA sequencing",
+    "Alveolar cleft",
+    "alveolar bone grafting",
+    "dental plaque",
+    "microbial dysbiosis",
+    "oral microbiome"
+   ]
+  },
+  {
+   "id": "10.1111/cdoe.70146",
+   "pmid": "43079745",
+   "doi": "10.1111/cdoe.70146",
+   "title": "Utilization of Dental Care Among Young American Indian Children From the Northern Plains",
+   "title_zh": "北美平原印第安儿童牙科服务利用与社会决定因素",
+   "journal": "Community dentistry and oral epidemiology",
+   "date": "2026-11-24",
+   "authors": [
+    "O'Connell J",
+    "Johnson RL",
+    "Jiang L",
+    "Albino J",
+    "Wilson AR",
+    "Schmiege SJ",
+    "Brega AG"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43079745/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 535,
+   "sample_note": "n=535",
+   "tier": "B",
+   "domain": "儿童口腔与预防",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔公共卫生",
+   "one_line": "RI是Mi干预RCT的二次分析，SDOH与学龄前儿童牙科服务利用及龋齿负担相关。",
+   "so_what": "仅背景，与q1-q5机制性问题无关。",
+   "caution": "RCT二次分析中结局以家长自报为主，存在回忆偏倚。",
+   "score": {
+    "final": 18.3,
+    "match": 15.0,
+    "novelty": 10.0,
+    "rigor": 55.0,
+    "impact": 20.0,
+    "transfer": 10.0
+   },
+   "heuristic": 52.8,
+   "breakdown": {
+    "topic": 9.3,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 7.3,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVES: American Indian (AI) children have high rates of caries. This study described dental service utilization among AI children and examined relationships of social determinants of health (SDOH) with utilization and oral health. METHODS: This secondary data analysis used data extracted from a randomized controlled trial of a motivational interviewing (MI) intervention implemented to reduce dental decay in AI children aged 0-3 years (N = 535 parent-child dyads). Parents self-reported demographic, SDOH and child dental service utilization information. Utilization measures between 0 and 36 months of age included: (1) initiation of dental care by age 1 year, (2) fluoride varnish (FV) in the past year and (3) routine dental visit in the past year. Oral health was measured as decayed, missing and filled tooth surfaces (dmfs) from the 36-month dental evaluation. Regressions were estimated to examine the relationships of SDOH with utilization and dmfs. RESULTS: Dental care was initiated by age 1 for 34% of children. At 24 and 36 months, 47% and 58% of children, respectively, received FV in the past year. At these ages, 29% and 46% of children, respectively, had ≥ 1 routine visits in the past year. Access to a working vehicle (OR = 1.79; CI: 1.04, 3.07), shorter travel times to closest dental clinic (OR = 0.49; CI: 0.31, 0.78) and stronger health literacy (OR = 1.46; CI: 1.11, 1.93) were associated with routine visits. Higher income was negatively associated with dmfs (RR = 0.32; CI: 0.17, 0.58). Participation in the MI intervention was associated with receiving FV (OR = 1.45; CI: 1.03, 2.04). CONCLUSIONS: Many children did not receive recommended dental care. Specific SDOH were associated with service utilization.",
+   "tags": []
+  },
+  {
+   "id": "10.1111/odi.70521",
+   "pmid": "43081690",
+   "doi": "10.1111/odi.70521",
+   "title": "Immune Checkpoint Inhibitor-Associated Dry Mouth/Sicca Symptoms and Sjögren-Spectrum Toxicity: A Systematic Review and Meta-Analysis of Reported Incidence",
+   "title_zh": "ICI相关口干/干燥综合征系统评价与Meta分析",
+   "journal": "Oral diseases",
+   "date": "2026-11-25",
+   "authors": [
+    "Izzetti R",
+    "Cinquini C",
+    "Barone A",
+    "Nisi M"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43081690/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 83,
+   "sample_note": "n=83 patients",
+   "tier": "B",
+   "domain": "口腔鳞癌的免疫微环境与微…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "免疫治疗口腔不良反应",
+   "one_line": "纳入23项研究（含5项可合并，n=516），估算ICI治疗后口干/干燥综合征 pooled发生率约8.7%（I²=65…",
+   "so_what": "间接支持q5（口腔鳞癌免疫微环境）：ICI引发的自身免疫样唾液腺损伤为肿瘤-免疫-微生物轴提供病理…",
+   "caution": "仅5项研究纳入meta，I²>60%表明高度异质性，pooled估计不可靠",
+   "score": {
+    "final": 18.2,
+    "match": 18.0,
+    "novelty": 22.0,
+    "rigor": 48.0,
+    "impact": 25.0,
+    "transfer": 12.0
+   },
+   "heuristic": 40.9,
+   "breakdown": {
+    "topic": 8.8,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 5.1,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "BACKGROUND: This systematic review and meta-analysis aimed to estimate the proportion of ICI-treated patients developing dry mouth/sicca symptoms, and to synthesize the evidence on clinical and serologic features of this condition. METHODS: PubMed/MEDLINE and Scopus were searched up to April 2026. Studies reporting data on sicca syndrome, xerostomia, sialadenitis, or Sjögren-spectrum toxicity in ICI-treated patients were included. Studies with an extractable denominator were included in the meta-analysis. Studies without a denominator were retained for descriptive synthesis. Risk-of-bias was assessed using the ROBINS-I tool for the denominator-based studies and the Joanna Briggs Institute checklists for case reports and case series. RESULTS: Twenty-three studies met eligibility criteria. Five studies (516 ICI-treated patients; 40 events) were included in the meta-analysis, giving an 8.7% (95% CI, 5.1%-14.3%) proportion of reported dry mouth/sicca symptoms of any severity, with moderate-to-substantial between-study heterogeneity (I2 = 65.5%, 95% CI 9.9%-86.8%). Eighteen studies (83 patients) provided descriptive data on histopathology, serology, and latency. CONCLUSIONS: ICI-associated dry mouth/sicca symptoms of any severity may occur in ICI-treated patients, presenting a clinical phenotype distinct from primary Sjögren's disease. The lack of symptoms assessment against Sjögren's disease classification criteria, salivary flow measurement, or biopsy in the pooled studies highlights the need for standardized, prospective studies incorporating objective diagnostic confirmation. TRIAL REGISTRATION: PROSPERO CRD420261371243.",
+   "tags": [
+    "Sjögren's disease",
+    "immune checkpoint inhibitors",
+    "immune‐related adverse events",
+    "meta‐analysis",
+    "sicca syndrome",
+    "xerostomia"
+   ]
+  },
+  {
+   "id": "10.1111/joor.70389",
+   "pmid": "43079787",
+   "doi": "10.1111/joor.70389",
+   "title": "Effectiveness and Safety of Nutritional Interventions on Taste Function and Nutritional Biomarkers in Patients With Chronic Diseases Experiencing Dysgeusia: A Meta-Analysis of Randomised Controlled Trials",
+   "title_zh": "营养干预改善味觉障碍疗效与安全性的Meta分析",
+   "journal": "Journal of oral rehabilitation",
+   "date": "2026-11-24",
+   "authors": [
+    "Anggiri RR",
+    "Mafula D",
+    "Gautama MSN",
+    "Maharani PA",
+    "Priyantini D",
+    "Ayatulloh D",
+    "Ho MH",
+    "Yang SC",
+    "Arifin H"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43079787/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 661,
+   "sample_note": "n=661 participants",
+   "tier": "B",
+   "domain": "颌面肿瘤与分子机制",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔康复营养",
+   "one_line": "纳入RCT的系统评价显示营养干预（主要锌补充）对味觉和营养指标有轻度改善。",
+   "so_what": "仅背景，不涉及种植/牙周免疫机制或微生物组。",
+   "caution": "异质性高、干预方式不统一，结论外推受限。",
+   "score": {
+    "final": 17.7,
+    "match": 10.0,
+    "novelty": 15.0,
+    "rigor": 60.0,
+    "impact": 20.0,
+    "transfer": 5.0
+   },
+   "heuristic": 50.7,
+   "breakdown": {
+    "topic": 7.0,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 7.5,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "BACKGROUND: Dysgeusia impairs taste function and nutritional biomarkers in chronic disease. Existing meta-analytic evidence on nutritional interventions is limited to zinc supplementation and serum zinc outcomes and has not been synthesised across chronic disease populations. OBJECTIVE: This study aimed to evaluate the effectiveness and safety of nutritional interventions on taste function and nutritional biomarkers in patients with chronic diseases experiencing dysgeusia. MATERIALS AND METHODS: Seven electronic databases and one trial registry (CINAHL-EBSCO, Cochrane Library, Embase, PubMed, Scopus, Web of Science, MEDLINE-OVID and ClinicalTrials.gov) were searched from inception to September 2026, supplemented by Google Scholar and citation searching, to identify randomised controlled trials (RCTs). Two reviewers independently screened records and extracted data, with disagreements resolved by discussion and adjudication by a third reviewer. Eligible trials evaluated the effect of nutritional interventions in patients with chronic diseases who experienced dysgeusia. The primary outcome was taste function, and the secondary outcomes were serum zinc, albumin, and cholesterol concentrations; body mass index; and safety. Effects were pooled as Hedges' g (g) or odds ratios (ORs) with 95% confidence intervals (CIs). RESULTS: Nine RCTs contributing 13 intervention-versus-control comparisons (661 participants) were included. Taste function showed a significant small-to-moderate improvement at posttest (g = 0.39, 95% CI 0.19 to 0.59; p < 0.001). Serum zinc (g = 0.60, 95% CI 0.30 to 0.90; p < 0.001) and albumin (g = 0.52, 95% CI 0.05 to 0.98; p = 0.03) showed significant moderate improvements at posttest. Adverse events did not differ between groups (OR 0.63, 95% CI 0.35 to 1.14; p = 0.13). CONCLUSIONS: Nutritional interventions appear safe and improve taste function and serum zinc and albumin levels, with benefits that appear more specific to gustatory function and selected biomarkers than to overall nutritional status. These findings support integrating nutritional intervention into the multidisciplinary management of dysgeusia in patients with chronic diseases. CLINICAL SIGNIFICANCE: Nutritional interventions may improve taste function and selected nutritional biomarkers in chronic disease-related dysgeusia without increasing adverse events, but the evidence is l",
+   "tags": [
+    "chronic disease",
+    "dietary supplements",
+    "dysgeusia",
+    "nutrition therapy",
+    "taste disorders"
+   ]
+  },
+  {
+   "id": "10.1177/00220345261503580",
+   "pmid": "43079770",
+   "doi": "10.1177/00220345261503580",
+   "title": "Reconsidering Cementum Biology: A Continuum Framework for Updated Understanding of Cementum Formation and Function",
+   "title_zh": "重新审视牙骨质生物学：连续体框架",
+   "journal": "Journal of dental research",
+   "date": "2026-11-24",
+   "authors": [
+    "Kerr E",
+    "Sone ED",
+    "McCulloch CA"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43079770/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "牙周与宿主免疫",
+   "methods": [
+    "multiomics"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙骨质生物学与再生",
+   "one_line": "综述突破传统牙骨质分型的静态认知，提出基于蛋白组重叠、力学适应性及感染/代谢抑制的动态连续体框架。",
+   "so_what": "直接回答q1（巨噬细胞极化→牙骨质/骨界面重塑决定骨结合）和q4（材料表面编程宿主免疫→改变牙骨质…",
+   "caution": "为观点性综述，尚未给出可直接验证的假设；需等待后续动物实验佐证",
+   "score": {
+    "final": 66.9,
+    "match": 82.0,
+    "novelty": 70.0,
+    "rigor": 72.0,
+    "impact": 55.0,
+    "transfer": 78.0
+   },
+   "heuristic": 41.2,
+   "breakdown": {
+    "topic": 12.0,
+    "journal": 15.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "Cementum is essential for tooth attachment to periodontal ligament and bone, and the formation of new cementum is required for tissue regeneration after destruction by periodontitis. Despite its central role in oral health, cementum biology is relatively undefined compared with other mineralized tissues. For decades, cementum biology has been informed by its classification into subtypes, which are based on differences in cellularity and the presence and orientation of intrinsic collagen fibers. But the fixed traits implied by these classifications are now being challenged by new molecular, developmental, and pathological data. Proteomic analyses indicate extensive overlap in the protein repertoires of cementum and bone, suggesting limited molecular distinction across cementum subtypes. Developmental studies show that cementoblast activity can adapt to mechanical loading, suggesting that the form and function of cementum are not fixed but sensitive to environmental stimuli. In animal models, cementogenesis is suppressed by infection, inflammation, and metabolic stress. These processes can be reversed by restoring physiological regulation of inorganic pyrophosphate and tissue-nonspecific alkaline phosphatase or by rescuing the function of sirtuin 3 or the transcription factor CXXC-type zinc finger protein 5. Arising from these data on how cementum metabolism is regulated by inflammatory signaling and by interactions between immune and progenitor cells, we propose a \"continuum framework.\" In this proposal, the structural characteristics of cementum emerge from context- and environment-dependent regulatory influences rather than from predetermined subtypes that are fixed at early stages of root and cementum development. This proposal reconsiders cementum biology based on a continuum framework that complements existing classifications and could suggest new perspectives to resolve questions in cementum regulation, which is critically important for periodontal repair and regeneration.",
+   "tags": [
+    "cementogenesis",
+    "differentiation",
+    "mineralization",
+    "periodontal",
+    "phosphate",
+    "regeneration"
+   ]
+  },
+  {
+   "id": "10.1177/00220345261504013",
+   "pmid": "43079765",
+   "doi": "10.1177/00220345261504013",
+   "title": "AMBN Proteinopathy in Amelogenesis Imperfecta and AMBN-ENAM Interaction",
+   "title_zh": "釉原蛋白病与AMBN-ENAM互作机制",
+   "journal": "Journal of dental research",
+   "date": "2026-11-24",
+   "authors": [
+    "Wang YL",
+    "Lin HC",
+    "Chen JT",
+    "Lin HY",
+    "Simmer JP",
+    "Hu JC",
+    "Wang SK"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43079765/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "animal",
+   "design_label": "动物实验",
+   "design_level": 2,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "矿物化组织蛋白opat…",
+   "one_line": "鉴定AD-HYP AI新致突变c.1340C>T（p.Pro447Leu），证明突变AMBN滞留胞内、分泌缺陷并形成异…",
+   "so_what": "蛋白opathy机制（错误折叠/聚集）与q4生物材料'免疫编程'的思路高度同构，方法可直接迁移至材…",
+   "caution": "细胞实验为主，未见in vivo骨/牙再生表型验证；人群仅限两个台湾家系。",
+   "score": {
+    "final": 34.8,
+    "match": 20.0,
+    "novelty": 55.0,
+    "rigor": 50.0,
+    "impact": 35.0,
+    "transfer": 25.0
+   },
+   "heuristic": 35.0,
+   "breakdown": {
+    "topic": 5.0,
+    "journal": 15.0,
+    "design": 9,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "Amelogenin (AMEL), ameloblastin (AMBN), and enamelin (ENAM) are the 3 major enamel matrix proteins secreted by ameloblasts during enamel formation. Their functional importance has been established with animal models and human genetic disorders. While biallelic AMBN mutations are known to cause autosomal recessive hypoplastic amelogenesis imperfecta (AI), heterozygous variants were recently identified in families with autosomal dominant AI, although the underlying pathogenic mechanism remains unclear. In addition, protein-protein interactions among enamel matrix proteins are incompletely understood. Here, we characterized 2 unrelated Taiwanese families with autosomal dominant hypoplastic AI and identified a rare heterozygous AMBN missense variant, c.1340C>T (p.Pro447Leu). Affected individuals exhibited generalized, extremely thin enamel affecting both primary and permanent dentitions. In cell-based assays, both p.Pro447Leu and a previously reported mutant, p.Ala26Thr, failed to be secreted and were retained intracellularly. The p.Ala26Thr mutant displayed an increased molecular weight, consistent with abnormal signal peptide retention. Overexpression of either mutant induced endoplasmic reticulum stress, reduced cell viability, and triggered apoptosis, with p.Pro447Leu causing more severe effects. Importantly, we demonstrate that AMBN directly interacts with ENAM. Using co-immunoprecipitation and deletion mapping, we show that this interaction is mediated by the Thr58-Gln156 region of AMBN and the Pro173-Gly280 region of ENAM, corresponding to the 13-kDa AMBN and 32-kDa ENAM cleavage products identified in vivo. Internal deletion of either domain abolished the interaction, and the p.Pro447Leu AMBN mutant exhibited markedly reduced binding to ENAM. Consistently, endogenous AMBN and ENAM were reciprocally co-immunoprecipitated from mouse molars, confirming their interaction in vivo. Collectively, our findings indicate that autosomal dominant AMBN-associated AI results from ameloblast pathology caused by AMBN proteinopathy, arguably representing AI type ID in Witkop's classification. We further provide direct molecular evidence that AMBN and ENAM physically interact, supporting their cooperative role in forming the mineralization front apparatus during the secretory stage of enamel formation.",
+   "tags": [
+    "biomineralization",
+    "dental enamel",
+    "enamel matrix proteins",
+    "mutation",
+    "pathogenesis",
+    "unfolded protein response"
+   ]
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 20
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 20
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 20
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 20
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 20
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 20
+  }
+ ],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}

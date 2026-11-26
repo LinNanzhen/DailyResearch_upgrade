@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-25T12:32:17+08:00",
- "latest": "2026-11-25",
+ "updated_at": "2026-11-26T11:46:14+08:00",
+ "latest": "2026-11-26",
  "days": [
+  {
+   "date": "2026-11-26",
+   "must_title": "A Spatial and Single-Cell Atlas of Early Human Alveolar Bone Healing",
+   "must_title_zh": "早期人类牙槽骨愈合的空间与单细胞图谱",
+   "cluster": "骨愈合免疫",
+   "count": 10,
+   "ai": true
+  },
   {
    "date": "2026-11-25",
    "must_title": "Ecological Resilience and Microbial Dysbiosis in the Oral Microbiome: A Systems-Level Conceptual Framework",
