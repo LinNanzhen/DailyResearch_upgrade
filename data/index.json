@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-26T11:46:14+08:00",
- "latest": "2026-11-26",
+ "updated_at": "2026-11-27T11:48:01+08:00",
+ "latest": "2026-11-27",
  "days": [
+  {
+   "date": "2026-11-27",
+   "must_title": "Periodontal Disease Associations in a Many-Exposure, Many-Outcome Study",
+   "must_title_zh": "多暴露-多结局研究中牙周炎与全身疾病的关联模式",
+   "cluster": "牙周-全身因果",
+   "count": 10,
+   "ai": true
+  },
   {
    "date": "2026-11-26",
    "must_title": "A Spatial and Single-Cell Atlas of Early Human Alveolar Bone Healing",

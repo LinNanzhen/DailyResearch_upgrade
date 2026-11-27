@@ -1,0 +1,980 @@
+{
+ "date": "2026-11-27",
+ "generated_at": "2026-11-27T11:48:01+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 11,
+  "prompt_tokens": 34401,
+  "completion_tokens": 37099
+ },
+ "stats": {
+  "candidates": 165,
+  "raw": 164,
+  "fetched": 42,
+  "raw_dropped_type": 11,
+  "no_abstract": 2,
+  "gated": 42,
+  "scored": 28,
+  "shown": 10,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 11,
+  "quality_failed": 0,
+  "quality_repaired": 0
+ },
+ "must_read": {
+  "id": "10.1177/00220345261504706",
+  "pmid": "43094320",
+  "doi": "10.1177/00220345261504706",
+  "title": "Periodontal Disease Associations in a Many-Exposure, Many-Outcome Study",
+  "title_zh": "多暴露-多结局研究中牙周炎与全身疾病的关联模式",
+  "journal": "Journal of dental research",
+  "date": "2026-11-26",
+  "authors": [
+   "Chaffee BW",
+   "Bashir NZ",
+   "Baumeister SE",
+   "Nascimento GG"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43094320/",
+  "pmcid": "",
+  "cited_by": 0,
+  "design": "cohort",
+  "design_label": "队列",
+  "design_level": 5,
+  "sample_n": 3179,
+  "sample_note": "n=3179",
+  "tier": "A",
+  "domain": "牙周与宿主免疫",
+  "methods": [],
+  "pub_types": [
+   "Journal Article"
+  ],
+  "is_open_access": false,
+  "cluster": "牙周-全身因果",
+  "one_line": "PATH队列526个模型显示牙周暴露与全身疾病关联非特异，80%正相关仅10%调整后有显著性",
+  "so_what": "q2因果推断需警惕'一般共病'混杂，设计MR/工具变量时以此为基准对照",
+  "caution": "暴露为横断面自评，结局随访仅5年，自报偏倚",
+  "score": {
+   "final": 76.5,
+   "match": 85.0,
+   "novelty": 70.0,
+   "rigor": 78.0,
+   "impact": 82.0,
+   "transfer": 55.0
+  },
+  "heuristic": 73.6,
+  "breakdown": {
+   "topic": 28.6,
+   "journal": 15.0,
+   "design": 15,
+   "sample": 8.0,
+   "fresh": 7.0,
+   "method": 0.0
+  },
+  "abstract": "Associations between periodontitis and other \"systemic\" diseases are pervasive in the literature, often from single-exposure, single-outcome analyses, which could encourage overly specific interpretations and post hoc causal narratives. We aimed to identify whether such associations are specific to periodontal disease exposures or one part of a broader, general pattern in which many human diseases predict others. We examined associations between 24 exposures (4 periodontal and 20 nonperiodontal; eg, cardiovascular, respiratory, ocular) and 23 incident disease outcomes self-reported among participants aged ≥18 y in the Population Assessment of Tobacco and Health Study, a US prospective cohort. In 526 survey-weighted multivariable logistic regression models (n = 3179-17,361, depending on the exposure/outcome combination), each baseline-prevalent exposure (2016-2018) was modeled to predict the incidence of each outcome through 2022 to 2023. Overall, 80% (422/526) of associations were positive (adjusted odds ratio >1), 10% (53/526) were positive and statistically significant when accounting for multiple-hypothesis testing (false discovery rate: 0.05), and 136 associations (25%) reached P < 0.05 without multiple-testing correction: 134 positive and 2 inverse. Patterns were qualitatively similar for periodontal-related and nonperiodontal exposures. The median adjusted odds ratio was 1.33 (Q1: 1.16; Q3: 1.54) among models with periodontal-related exposures and 1.32 (Q1: 1.05; Q3: 1.79) among models with systemic disease exposures. Composite exposures for periodontal, cardiovascular, respiratory, gastrointestinal, and ocular conditions all predicted incident conditions at other body sites, as did exposures such as cancer, osteoporosis, and erectile dysfunction, among others. Our finding that prospective associations between human diseases are not specific to periodontal symptoms does not preclude causal explanations for periodontal-systemic disease relationships. However, these results are compatible with generalized biological and social processes and methodologic limitations, suggesting that single-outcome, single-exposure periodontal-systemic disease associations should be cautiously interpreted.",
+  "tags": [
+   "causality",
+   "comorbidity",
+   "epidemiology",
+   "health surveys",
+   "periodontitis",
+   "prospective studies"
+  ],
+  "deep": {
+   "title_zh": "多暴露-多结局研究中牙周炎与全身疾病的关联模式",
+   "one_sentence": "80%的疾病对呈正向关联，牙周与非牙周暴露的效应量几乎相同，特异性存疑。",
+   "question": "牙周炎-全身疾病关联究竟是牙周特有的因果通路，还是任意两个人群疾病对之间普遍存在的'噪声'？",
+   "design": "美国PATH前瞻性队列，2016-2018基线自报24种暴露（4种牙周+20种非牙周），随访至2022-2023发生23种新发结局，526个加权多变量logistic模型",
+   "sample_desc": "≥18岁美国社区居民，各模型n=3,179–17,361（摘要未说明总入组数），数据来源Population Assessment of Tobacco and Health Study",
+   "findings": [
+    {
+     "claim": "牙周暴露与非牙周暴露产生的关联模式在方向与强度上无本质差异",
+     "evidence": "牙周相关暴露中位调整OR=1.33（IQR 1.16–1.54），系统疾病暴露中位调整OR=1.32（IQR 1.05–1.79），二者数值几乎重叠"
+    },
+    {
+     "claim": "绝大多数正向关联并非特异于牙周",
+     "evidence": "526个模型中422个（80%）调整OR>1；仅53个（10%）在FDR 0.05下显著且均为正向；136个（25%）未校正P<0.05（134正、2逆）"
+    },
+    {
+     "claim": "复合疾病暴露（牙周、心血管、呼吸、胃肠、眼科）均可预测其他部位新发疾病，癌症、骨质疏松、勃起功能障碍亦类似",
+     "evidence": "摘要明确列出'cancer, osteoporosis, and erectile dysfunction, among others'均预测其他部位incident conditions，模式定性相似"
+    }
+   ],
+   "effect": "中位调整OR：牙周暴露1.33（IQR 1.16–1.54）；非牙周暴露1.32（IQR 1.05–1.79）。摘要未报告95%CI或绝对风险差。",
+   "relation": "直接冲击q2：若牙周-心血管OR 1.3与糖尿病-心血管OR 1.3统计上不可区分，则牙周炎影响全身疾病的'可验证通路'叙事需要更强的特异性证据（如组织特异marker、时间锁定、孟德尔随机化）。对q3亦有间接影响：若疾病对关联是广义模式，则'牙周微生物→全身炎症→X病'的因果链同样面临非特异性挑战。",
+   "why": "它提供了一个可操作的判据：如果你做牙周-全身疾病的单暴露-单结局研究，必须回答'为什么这个OR不是任意两个共病对都会出现的1.3'。否则审稿人和读者有充分理由将其归入背景噪声。这直接改变你写Introduction时的因果语气和实验设计中的对照选择。",
+   "limitations": [
+    "暴露与结局均为自报（self-reported），无临床检查、影像学或微生物组学佐证，误分类偏倚方向不明",
+    "观察性设计，无因果推断工具（未用MR、未做工具变量），526个模型即便FDR校正后仍可能残留共享混杂（如SES、吸烟、健康就医行为）",
+    "摘要未说明是否纳入牙周特异性生物标志物（如P. gingivalis抗体、DAMPs、NETs标志物）作为中介验证，无法区分'牙周特有通路'与'一般慢性炎症负荷'"
+   ],
+   "transferable": "①多暴露-多结局框架：做牙周-宿主免疫课题时，可把'24暴露×23结局'矩阵缩小为'牙周分型×免疫亚群'矩阵，用FDR控制多重假设；②复合暴露（composite exposure）构造方法：将牙龈炎、牙周炎、缺牙数、探诊深度打包为一个'牙周负荷'指标，与单指标做敏感性分析；③PATH队列作为二次分析资源，可提取牙周…",
+   "followups": [
+    "53个FDR显著的正向关联中，哪些是牙周暴露相关？能否从补充表格中确认牙周-某结局对是否落在这53个之内，还是全部由非牙周对贡献？",
+    "526个模型的协变量列表（smoking、SES、age、sex、BMI？）具体包含哪些？若未控制'就医频率/健康意识'，自报偏倚如何量化？需查方法段落。",
+    "2个逆相关（OR<1）具体是哪对暴露-结局？样本量是否落在n=3,179低端？是否为统计fluke还是存在真实保护效应？"
+   ],
+   "glossary": [
+    {
+     "en": "many-exposure, many-outcome (MEMO)",
+     "cn": "多暴露-多结局（设计框架，同时建模多个暴露与多个结局的关联）"
+    },
+    {
+     "en": "false discovery rate (FDR)",
+     "cn": "错误发现率（多重比较校正阈值，此处设0.05）"
+    },
+    {
+     "en": "survey-weighted logistic regression",
+     "cn": "调查加权logistic回归（用抽样权重校正复杂抽样设计）"
+    },
+    {
+     "en": "incident disease",
+     "cn": "新发疾病（随访期间首次发生）"
+    },
+    {
+     "en": "composite exposure",
+     "cn": "复合暴露（将同一系统多个条件合并为一个暴露变量）"
+    }
+   ],
+   "reading_minutes": 12,
+   "quality": {
+    "passed": true,
+    "score": 100.0,
+    "judge_score": null,
+    "problems": [
+     "transferable 似乎被截断"
+    ],
+    "repaired_by": "",
+    "attempts": 0
+   }
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1177/00220345261504706",
+   "pmid": "43094320",
+   "doi": "10.1177/00220345261504706",
+   "title": "Periodontal Disease Associations in a Many-Exposure, Many-Outcome Study",
+   "title_zh": "多暴露-多结局研究中牙周炎与全身疾病的关联模式",
+   "journal": "Journal of dental research",
+   "date": "2026-11-26",
+   "authors": [
+    "Chaffee BW",
+    "Bashir NZ",
+    "Baumeister SE",
+    "Nascimento GG"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43094320/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 3179,
+   "sample_note": "n=3179",
+   "tier": "A",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙周-全身因果",
+   "one_line": "PATH队列526个模型显示牙周暴露与全身疾病关联非特异，80%正相关仅10%调整后有显著性",
+   "so_what": "q2因果推断需警惕'一般共病'混杂，设计MR/工具变量时以此为基准对照",
+   "caution": "暴露为横断面自评，结局随访仅5年，自报偏倚",
+   "score": {
+    "final": 76.5,
+    "match": 85.0,
+    "novelty": 70.0,
+    "rigor": 78.0,
+    "impact": 82.0,
+    "transfer": 55.0
+   },
+   "heuristic": 73.6,
+   "breakdown": {
+    "topic": 28.6,
+    "journal": 15.0,
+    "design": 15,
+    "sample": 8.0,
+    "fresh": 7.0,
+    "method": 0.0
+   },
+   "abstract": "Associations between periodontitis and other \"systemic\" diseases are pervasive in the literature, often from single-exposure, single-outcome analyses, which could encourage overly specific interpretations and post hoc causal narratives. We aimed to identify whether such associations are specific to periodontal disease exposures or one part of a broader, general pattern in which many human diseases predict others. We examined associations between 24 exposures (4 periodontal and 20 nonperiodontal; eg, cardiovascular, respiratory, ocular) and 23 incident disease outcomes self-reported among participants aged ≥18 y in the Population Assessment of Tobacco and Health Study, a US prospective cohort. In 526 survey-weighted multivariable logistic regression models (n = 3179-17,361, depending on the exposure/outcome combination), each baseline-prevalent exposure (2016-2018) was modeled to predict the incidence of each outcome through 2022 to 2023. Overall, 80% (422/526) of associations were positive (adjusted odds ratio >1), 10% (53/526) were positive and statistically significant when accounting for multiple-hypothesis testing (false discovery rate: 0.05), and 136 associations (25%) reached P < 0.05 without multiple-testing correction: 134 positive and 2 inverse. Patterns were qualitatively similar for periodontal-related and nonperiodontal exposures. The median adjusted odds ratio was 1.33 (Q1: 1.16; Q3: 1.54) among models with periodontal-related exposures and 1.32 (Q1: 1.05; Q3: 1.79) among models with systemic disease exposures. Composite exposures for periodontal, cardiovascular, respiratory, gastrointestinal, and ocular conditions all predicted incident conditions at other body sites, as did exposures such as cancer, osteoporosis, and erectile dysfunction, among others. Our finding that prospective associations between human diseases are not specific to periodontal symptoms does not preclude causal explanations for periodontal-systemic disease relationships. However, these results are compatible with generalized biological and social processes and methodologic limitations, suggesting that single-outcome, single-exposure periodontal-systemic disease associations should be cautiously interpreted.",
+   "tags": [
+    "causality",
+    "comorbidity",
+    "epidemiology",
+    "health surveys",
+    "periodontitis",
+    "prospective studies"
+   ],
+   "deep": {
+    "title_zh": "多暴露-多结局研究中牙周炎与全身疾病的关联模式",
+    "one_sentence": "80%的疾病对呈正向关联，牙周与非牙周暴露的效应量几乎相同，特异性存疑。",
+    "question": "牙周炎-全身疾病关联究竟是牙周特有的因果通路，还是任意两个人群疾病对之间普遍存在的'噪声'？",
+    "design": "美国PATH前瞻性队列，2016-2018基线自报24种暴露（4种牙周+20种非牙周），随访至2022-2023发生23种新发结局，526个加权多变量logistic模型",
+    "sample_desc": "≥18岁美国社区居民，各模型n=3,179–17,361（摘要未说明总入组数），数据来源Population Assessment of Tobacco and Health Study",
+    "findings": [
+     {
+      "claim": "牙周暴露与非牙周暴露产生的关联模式在方向与强度上无本质差异",
+      "evidence": "牙周相关暴露中位调整OR=1.33（IQR 1.16–1.54），系统疾病暴露中位调整OR=1.32（IQR 1.05–1.79），二者数值几乎重叠"
+     },
+     {
+      "claim": "绝大多数正向关联并非特异于牙周",
+      "evidence": "526个模型中422个（80%）调整OR>1；仅53个（10%）在FDR 0.05下显著且均为正向；136个（25%）未校正P<0.05（134正、2逆）"
+     },
+     {
+      "claim": "复合疾病暴露（牙周、心血管、呼吸、胃肠、眼科）均可预测其他部位新发疾病，癌症、骨质疏松、勃起功能障碍亦类似",
+      "evidence": "摘要明确列出'cancer, osteoporosis, and erectile dysfunction, among others'均预测其他部位incident conditions，模式定性相似"
+     }
+    ],
+    "effect": "中位调整OR：牙周暴露1.33（IQR 1.16–1.54）；非牙周暴露1.32（IQR 1.05–1.79）。摘要未报告95%CI或绝对风险差。",
+    "relation": "直接冲击q2：若牙周-心血管OR 1.3与糖尿病-心血管OR 1.3统计上不可区分，则牙周炎影响全身疾病的'可验证通路'叙事需要更强的特异性证据（如组织特异marker、时间锁定、孟德尔随机化）。对q3亦有间接影响：若疾病对关联是广义模式，则'牙周微生物→全身炎症→X病'的因果链同样面临非特异性挑战。",
+    "why": "它提供了一个可操作的判据：如果你做牙周-全身疾病的单暴露-单结局研究，必须回答'为什么这个OR不是任意两个共病对都会出现的1.3'。否则审稿人和读者有充分理由将其归入背景噪声。这直接改变你写Introduction时的因果语气和实验设计中的对照选择。",
+    "limitations": [
+     "暴露与结局均为自报（self-reported），无临床检查、影像学或微生物组学佐证，误分类偏倚方向不明",
+     "观察性设计，无因果推断工具（未用MR、未做工具变量），526个模型即便FDR校正后仍可能残留共享混杂（如SES、吸烟、健康就医行为）",
+     "摘要未说明是否纳入牙周特异性生物标志物（如P. gingivalis抗体、DAMPs、NETs标志物）作为中介验证，无法区分'牙周特有通路'与'一般慢性炎症负荷'"
+    ],
+    "transferable": "①多暴露-多结局框架：做牙周-宿主免疫课题时，可把'24暴露×23结局'矩阵缩小为'牙周分型×免疫亚群'矩阵，用FDR控制多重假设；②复合暴露（composite exposure）构造方法：将牙龈炎、牙周炎、缺牙数、探诊深度打包为一个'牙周负荷'指标，与单指标做敏感性分析；③PATH队列作为二次分析资源，可提取牙周…",
+    "followups": [
+     "53个FDR显著的正向关联中，哪些是牙周暴露相关？能否从补充表格中确认牙周-某结局对是否落在这53个之内，还是全部由非牙周对贡献？",
+     "526个模型的协变量列表（smoking、SES、age、sex、BMI？）具体包含哪些？若未控制'就医频率/健康意识'，自报偏倚如何量化？需查方法段落。",
+     "2个逆相关（OR<1）具体是哪对暴露-结局？样本量是否落在n=3,179低端？是否为统计fluke还是存在真实保护效应？"
+    ],
+    "glossary": [
+     {
+      "en": "many-exposure, many-outcome (MEMO)",
+      "cn": "多暴露-多结局（设计框架，同时建模多个暴露与多个结局的关联）"
+     },
+     {
+      "en": "false discovery rate (FDR)",
+      "cn": "错误发现率（多重比较校正阈值，此处设0.05）"
+     },
+     {
+      "en": "survey-weighted logistic regression",
+      "cn": "调查加权logistic回归（用抽样权重校正复杂抽样设计）"
+     },
+     {
+      "en": "incident disease",
+      "cn": "新发疾病（随访期间首次发生）"
+     },
+     {
+      "en": "composite exposure",
+      "cn": "复合暴露（将同一系统多个条件合并为一个暴露变量）"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": null,
+     "problems": [
+      "transferable 似乎被截断"
+     ],
+     "repaired_by": "",
+     "attempts": 0
+    }
+   }
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.046",
+   "pmid": "43085610",
+   "doi": "10.1016/j.actbio.2026.11.046",
+   "title": "Closed-loop, tooth-to-implant biointerface engineering: dental pulp stem cells at titanium surfaces for cell-enabled osseointegration",
+   "title_zh": "闭环牙源-种植体生物界面工程：牙髓干细胞在钛表面的细胞赋能骨结合",
+   "journal": "Acta biomaterialia",
+   "date": "2026-11-25",
+   "authors": [
+    "Kaminogo K",
+    "Hirota M",
+    "Komatsu K",
+    "Saito N",
+    "Kubo D",
+    "Ogawa T"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43085610/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "种植与骨再生",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "材料-骨再生",
+   "one_line": "综述DPSC/SHED在钛微纳米拓扑与化学修饰下的黏附、成骨、免疫调节与血管信号",
+   "so_what": "q4核心参考：表面拓扑+配体→巨噬细胞极化→骨结合，可据此设计表面'免疫编程'实验",
+   "caution": "综述无原始数据，多数引用为体外/动物，临床转化仍远",
+   "score": {
+    "final": 66.2,
+    "match": 78.0,
+    "novelty": 55.0,
+    "rigor": 50.0,
+    "impact": 65.0,
+    "transfer": 72.0
+   },
+   "heuristic": 66.0,
+   "breakdown": {
+    "topic": 35.0,
+    "journal": 15.0,
+    "design": 10,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "Dental pulp stem cells (DPSCs) and stem cells from human exfoliated deciduous teeth (SHEDs) are underused, tooth-derived regenerative resources with particular relevance to implant dentistry. Routinely extracted third molars, orthodontically removed premolars, and exfoliated deciduous teeth provide recurrent sources of viable pulp tissue that are largely discarded, creating an opportunity to convert surgical waste into a clinically linked regenerative product. This review critically examines how dental pulp-derived cells interact with titanium and titanium-based biomaterials and evaluates their potential for osseointegration and peri-implant bone regeneration. Across the available evidence, these cells adhered to titanium, responded to micro-, nano-, and meso-scale topography, and were modulated by surface chemistry, wettability, ion incorporation, ultraviolet photofunctionalization, plasma treatment, and biofunctional ligands. These interfaces influenced attachment, proliferation, osteogenic differentiation, angiogenic signaling, immunomodulation, antibacterial activity, and mineralized matrix formation. In vivo studies further demonstrated improvements in peri-implant bone formation, bone-implant contact (BIC), trabecular architecture, and early mechanical fixation after DPSC or SHED delivery. Collectively, the available evidence provides preliminary preclinical support for the biological feasibility of engineering dental pulp-derived cell-titanium interfaces but is insufficient to establish clinical readiness. We therefore propose the SEED framework-Source, Expansion, Engineered interface, and Delivery-for closed-loop tooth-to-implant regeneration. SEED leverages the procedural proximity of tooth harvesting to dental care and integrates cell sourcing, clinically compatible expansion, instructive titanium design, and site-specific delivery. Translation remains limited by the small number and heterogeneity of animal studies, short follow-up periods, limited evaluation under functional loading, incomplete information regarding transplanted-cell fate, and frequent reliance on serum-containing culture systems. Future studies will require standardized, clinically compatible and preferably xeno-free processing, application-specific potency testing, longitudinal cell tracking, disease-relevant models, and long-term functional validation under microbial, inflammat",
+   "tags": [
+    "Biofunctionalization",
+    "Bone and implant integration",
+    "Cell therapy",
+    "Dental implants",
+    "Stem cells from human exfoliated deciduous teeth (SHEDs)",
+    "Surface topography"
+   ],
+   "deep": {
+    "title_zh": "闭环牙源-种植体生物界面工程：牙髓干细胞在钛表面的细胞赋能骨结合",
+    "one_sentence": "DPSC/SHED-钛界面仅有初步临床前证据，远未达临床就绪；SEED框架为概念路径设计。",
+    "question": "能否将牙科手术中常规丢弃的牙髓组织（第三磨牙、正畸前磨牙、乳牙）转化为与钛种植体表面耦合的细胞-材料再生产品，实现从取材到递送的闭环再生，而非仅作为离体培养细胞使用？",
+    "design": "叙事性综述（narrative review），无随机、盲法、分组或对照；作者明确标注设计粗判为综述，非系统评价/Meta。",
+    "sample_desc": "摘要未说明纳入文献具体数量、动物模型种类（大鼠/兔/犬）或细胞系来源批次。",
+    "findings": [
+     {
+      "claim": "DPSC/SHED可黏附钛表面，并响应微/纳/介观形貌、表面化学、润湿性、离子掺杂、UV光功能化、等离子体处理及生物功能配体",
+      "evidence": "摘要报告细胞在多种表面处理下均显示黏附、增殖、成骨分化、促血管信号、免疫调节、抗菌活性及矿化基质沉积的响应，未给出定量数据或统计检验"
+     },
+     {
+      "claim": "体内递送DPSC/SHED可改善种植体周骨形成、骨-种植体接触率（BIC）、小梁骨结构及早期机械固位",
+      "evidence": "摘要称in vivo研究显示方向性改善，未列出BIC具体百分比、骨密度变化值或组间p值"
+     },
+     {
+      "claim": "现有证据仅为初步临床前支持，不足以建立临床就绪",
+      "evidence": "作者逐条列出缺口：动物研究数量少且异质性大、随访短、功能性负荷评估不足、移植细胞命运追踪不完整、依赖含血清培养体系"
+     },
+     {
+      "claim": "提出SEED框架（Source–Expansion–Engineered interface–Delivery）作为闭环牙源-种植体再生路径",
+      "evidence": "概念性框架，摘要中无前瞻性验证数据，定位为翻译路径设计"
+     }
+    ],
+    "effect": "未报告（综述无统一效应量与置信区间）",
+    "relation": "主要关联q4（生物材料表面如何编程宿主免疫反应改变再生结局）与q1（种植体周免疫微环境决定骨结合成败）。对q4：汇总钛表面工程化修饰（形貌+化学+配体）如何同时调控成骨、血管、免疫三条细胞命运通路，提供材料设计→免疫编程的证据链。对q1：摘要提及immunomodulation但未深入NETs/IL-1β轴/巨噬细胞极化方向，属q1的间接上游证据。未涉及q2、q3、q5。",
+    "why": "它把'牙科手术废物→细胞获取→钛表面工程化→递送→种植体周骨再生'串成一条工程化闭环逻辑，对做种植+材料方向的研究生而言，给出了从表面设计参数到细胞递送策略的完整映射，且作者诚实标注了每类证据的天花板（'preliminary preclinical support'），避免过度外推。读完后你判断'该不该在课题里加一层表面功能化'时，有明确的证据边界。",
+    "limitations": [
+     "作者承认：动物研究数量少、异质性大、随访短、缺乏功能性负荷与微生物/炎症/血管联合挑战下的验证、移植细胞命运追踪不完整、培养依赖血清",
+     "作者承认：SEED框架无前瞻性验证，仅为概念设计",
+     "我判断：摘要未交代纳入/排除标准、检索数据库与时间窗、文献筛选流程，无法评估综述的覆盖完整性与偏倚风险"
+    ],
+    "transferable": "SEED中'界面工程化修饰→细胞命运编程'的设计逻辑可直接搬到你的种植体表面+免疫调节课题：例如用钛表面离子掺杂（Sr、Ag）+微纳形貌组合，预设巨噬细胞M2偏向与成骨分化双终点，作为q1/q4交叉课题的干预组设计。",
+    "followups": [
+     "摘要提到'immunomodulation'但未指明极化方向与关键因子：需查原文表格，确认在何种钛表面条件下报告了M1/M2比值、IL-1β、TNF-α、PGE2的具体变化，以及是否涉及NETs形成。",
+     "SEED中'Delivery'环节具体采用何种递送载体（水凝胶、微球、3D支架、直接注射）？在功能性负荷或微生物挑战模型下，移植细胞7/28天存活率与矿化面积数据在哪篇原始in vivo研究中报告？",
+     "摘要称'short follow-up periods'：需查原文引用的最长随访是几周/月？BIC与骨密度（µCT或XRD）的时间点曲线分别在大鼠、兔还是犬模型中完成？样本量（n）各为多少？"
+    ],
+    "glossary": [
+     {
+      "en": "DPSC",
+      "cn": "牙髓干细胞（dental pulp stem cells）"
+     },
+     {
+      "en": "SHED",
+      "cn": "人乳牙髓干细胞（stem cells from human exfoliate…"
+     },
+     {
+      "en": "BIC",
+      "cn": "骨-种植体接触率（bone-implant contact）"
+     },
+     {
+      "en": "SEED",
+      "cn": "来源-扩增-工程化界面-递送（Source–Expansion–Enginee…"
+     },
+     {
+      "en": "osseointegration",
+      "cn": "骨结合（种植体与骨直接结构-功能连接）"
+     },
+     {
+      "en": "peri-implant",
+      "cn": "种植体周"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 100.0,
+     "judge_score": null,
+     "problems": [],
+     "repaired_by": "",
+     "attempts": 0
+    }
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1186/s40729-026-00737-8",
+   "pmid": "43097240",
+   "doi": "10.1186/s40729-026-00737-8",
+   "title": "Associations of systemic conditions and antiresorptive medication exposure with peri-implant outcomes: a systematic review",
+   "title_zh": "全身疾病与抗骨吸收药对种植结局的系统评价",
+   "journal": "International journal of implant dentistry",
+   "date": "2026-11-25",
+   "authors": [
+    "Tanumiharja LJS",
+    "Deschner J"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43097240/",
+   "pmcid": "11850578",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 38,
+   "sample_note": "38 项研究",
+   "tier": "B",
+   "domain": "牙周炎通过哪些可验证的通…",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Systematic Review",
+    "Review"
+   ],
+   "is_open_access": true,
+   "cluster": "种植体周炎",
+   "one_line": "纳入38项研究按暴露-结局分层综述，抗骨吸收药与种植体周炎OR=3.91但仅一项提供",
+   "so_what": "q1/q4可借其'疾病效应vs药物效应vs安全'分层框架设计亚组分析",
+   "caution": "69.7%文献未获取，抗骨吸收证据仅单一研究，GRADE多为低确定性",
+   "score": {
+    "final": 57.1,
+    "match": 65.0,
+    "novelty": 35.0,
+    "rigor": 50.0,
+    "impact": 50.0,
+    "transfer": 45.0
+   },
+   "heuristic": 73.2,
+   "breakdown": {
+    "topic": 35.0,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 4.2,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "PURPOSE: To evaluate associations of selected systemic conditions and antiresorptive exposure with peri-implant outcomes, separating disease associations from treatment response, biomarkers and medication safety. METHODS: PubMed, Embase, Scopus, Web of Science and CENTRAL were searched to 12 July 2026. We synthesised clinical evidence in adults with dental implants narratively by exposure, comparison, and outcome, with design-appropriate appraisal and target-specific GRADE assessment. REGISTRATION: PROSPERO CRD420261435202. RESULTS: The reported synthesis comprised 38 studies; one contributed to both osteoporosis and antiresorptive categories. Of 244 reports sought, 170 (69.7%) were not retrieved. Diabetes findings varied across glycaemic, smoking and clinical settings. Some obesity and antiresorptive comparisons reported less favourable outcomes, with confounding and imprecision limiting interpretation. The adjusted antiresorptive-peri-implantitis OR was 3.91 (95% CI 1.29-11.9) in one study. Evidence for cardiovascular, rheumatoid, skeletal and neurological conditions was limited. Eight selected comparative targets had very low certainty. Uncontrolled retention, biomarkers and selected osteonecrosis cases did not establish disease incidence. CONCLUSIONS: Restrictive searching, retrieval loss and inconsistent exclusion decisions limit completeness and confidence. The evidence cannot establish equivalence to healthy populations, uniform safety or diagnosis-wide contraindications. Osteoporosis and antiresorptive exposure require separate interpretation. No external funding was reported.",
+   "tags": [
+    "Antiresorptive medication",
+    "Dental implants",
+    "Diabetes mellitus",
+    "Implant loss",
+    "Implant survival",
+    "Medically compromised patients"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107198",
+   "pmid": "43085651",
+   "doi": "10.1016/j.jdent.2026.107198",
+   "title": "Artificial intelligence and causation: from prediction to causal inference in biomedical research",
+   "title_zh": "AI预测与因果推断的层级框架",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-25",
+   "authors": [
+    "Glick M",
+    "Carrasco-Labra A",
+    "Nascimento GG"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43085651/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "方法与交叉",
+   "methods": [
+    "ml",
+    "causal"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "因果推断方法",
+   "one_line": "以因果层级（关联-干预-反事实）区分AI输出与可归因声明，给出DAG与识别条件",
+   "so_what": "q2/q3因果链论证可直接借用该框架限定ML结论",
+   "caution": "概念综述无实证数据，落地需自行设计",
+   "score": {
+    "final": 53.9,
+    "match": 55.0,
+    "novelty": 60.0,
+    "rigor": 50.0,
+    "impact": 55.0,
+    "transfer": 70.0
+   },
+   "heuristic": 44.1,
+   "breakdown": {
+    "topic": 13.7,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 4.4
+   },
+   "abstract": "OBJECTIVES: To distinguish what dental artificial intelligence (AI) models demonstrate from what their findings are claimed to mean, and to offer a framework for matching each claim to the evidence required to support it. OVERVIEW: AI studies in dentistry report sensitivity, specificity, and area under the curve: measures of agreement between model outputs and a reference standard. Yet verbs such as predict, detect, identify, and explain are used interchangeably, and outputs are often read as identifying modifiable causes or as evidence of clinical benefit. Using the causal hierarchy of association, intervention, and counterfactual reasoning, this review separates description, prediction, causal effects of interventions, and individual counterfactuals. Directed acyclic graphs illustrate how confounding by indication can make an effective treatment appear harmful in a predictive model. The review summarizes the identification conditions that causal claims require (exchangeability, positivity, consistency) and where AI can legitimately contribute: measurement, nuisance-function estimation, heterogeneous treatment effects, and hypothesis-generating causal discovery. Model-explanation methods describe how a fitted model behaves, not how patients would respond to intervention. A published caries-detection model illustrates the evidence needed to move from diagnostic accuracy to claims about clinician decisions and patient outcomes. CONCLUSIONS: Most AI models developed for prediction operate at the association level. Model complexity and dataset size cannot substitute for a defined intervention, an appropriate design, and defensible identification assumptions. CLINICAL SIGNIFICANCE: Dental AI accuracy studies show agreement with a reference standard, not that using the tool improves decisions or patient outcomes. Such claims require comparative evaluation of AI-assisted care.",
+   "tags": [
+    "Artificial intelligence",
+    "Causal inference",
+    "Confounding",
+    "Dental caries",
+    "Diagnostic accuracy",
+    "Directed acyclic graph"
+   ]
+  },
+  {
+   "id": "10.1016/j.joen.2026.11.004",
+   "pmid": "43085655",
+   "doi": "10.1016/j.joen.2026.11.004",
+   "title": "Effect of Different Irrigation Protocols on Postoperative Pain Following Regenerative Endodontic Treatment: A Randomized Clinical Trial",
+   "title_zh": null,
+   "journal": "Journal of endodontics",
+   "date": "2026-11-25",
+   "authors": [
+    "Yavuz B",
+    "Akyuz İE",
+    "Ustun Y",
+    "Kolcakoglu KS"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43085655/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 49,
+   "sample_note": "n=49 patients",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙体牙髓与龋病",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 50.8
+   },
+   "heuristic": 59.8,
+   "breakdown": {
+    "topic": 19.1,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 4.5,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "INTRODUCTION: This randomized clinical trial compared short-term postoperative pain after regenerative endodontic treatment using 0.1% octenidine dihydrochloride (OCT) or 17% ethylenediaminetetraacetic acid (EDTA) in immature permanent teeth with apical periodontitis. METHODS: In this participant-blinded, parallel-group superiority trial, 49 patients aged 9-16 years were randomized to OCT or EDTA irrigation. Postoperative outcome data were available for 40 participants (20 per group). Pain was recorded on a 0-100 numerical rating scale at 6, 12, and 24 hours and daily through day 7. Analgesic use and flare-up were secondary outcomes. Between-group and within-group comparisons used Mann-Whitney U and Friedman tests, respectively, with adjustment for multiple comparisons. RESULTS: At 6 hours, median pain was 20 (IQR, 10-20) in the OCT group and 10 (IQR, 0-30) in the EDTA group (p=0.826; rank-biserial correlation, 0.04; 95% CI, -0.33 to 0.42). Pain decreased significantly over time in both groups (p<0.001), and no between-group comparison remained significant after adjustment. Analgesic use occurred in 40.0% of OCT and 25.0% of EDTA participants (risk ratio, 1.60; 95% CI, 0.63-4.05; p=0.501). No flare-ups occurred. CONCLUSIONS: No statistically significant differences in short-term postoperative pain were detected between the OCT and EDTA protocols. However, given the superiority design and sample size, the present findings are insufficient to establish equivalence or noninferiority between the two irrigation protocols. The results are limited to short-term postoperative symptoms and should not be interpreted as evidence that OCT fully reproduces the biological functions of EDTA.",
+   "tags": [
+    "Apical periodontitis",
+    "immature permanent teeth",
+    "octenidine dihydrochloride",
+    "postoperative pain",
+    "regenerative endodontic treatment"
+   ]
+  },
+  {
+   "id": "10.1002/hed.70551",
+   "pmid": "43085959",
+   "doi": "10.1002/hed.70551",
+   "title": "Outcomes of Operative Versus Nonoperative Treatment of T4 Oropharyngeal SCC: A Systematic Review and Meta-Analysis",
+   "title_zh": "T4口咽鳞癌手术vs非手术系统评价",
+   "journal": "Head & neck",
+   "date": "2026-11-25",
+   "authors": [
+    "Finnegan E",
+    "Olson BG",
+    "Moore EJ"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43085959/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 158,
+   "sample_note": "n=158 patients",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "口腔鳞癌",
+   "one_line": "5项非随机队列(n≈10158)显示手术组OS/DSS/DFS均优",
+   "so_what": "方法可借用，但未触及q5免疫/微生物机制",
+   "caution": "仅5项观察性研究，T4b未纳入，选择偏倚",
+   "score": {
+    "final": 41.4,
+    "match": 35.0,
+    "novelty": 50.0,
+    "rigor": 55.0,
+    "impact": 40.0,
+    "transfer": 25.0
+   },
+   "heuristic": 42.1,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 5.9,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "INTRODUCTION: The incidence of oropharyngeal carcinoma (OPSCC) has increased in recent decades. T4 staging in OPSCC remains a poor prognostic factor, with the optimal treatment for T4 OPSCC unclear. This systematic review and meta-analysis aimed to compare primary operative and nonoperative treatment in patients with T4 OPSCC. METHODS: Searches were conducted in PubMed/MEDLINE, Scopus, and Cochrane Library through September 2024. Studies comparing primary operative with nonoperative management for T4 OPSCC were included. Random effect models generated pooled risk ratios and hazard ratios. RESULTS: Five non-randomized cohort studies involving 10 158 patients were included, largely comprised of patients with resectable T4a disease. Of these, 23% (n = 2333) received operative management, and 77% (n = 7405) received nonoperative management. Operative management was associated with improved overall survival (OS) (HR 0.57; 95% CI 0.41-0.80; p = 0.001), disease-specific survival (DSS) (HR 0.44; 95% CI 0.31-0.74; p = 0.001), and disease-free survival (DFS) (HR 0.48; 95% CI 0.26-0.72; p = 0.001). No significant differences in overall recurrence rates were found. Subgroup analysis showed reduced recurrence for p16-positive patients receiving surgery. Functional outcomes and complications were similar between surgical and nonoperative management groups. CONCLUSION: This study supports a potential association between operative management and improved OS, DSS, and DFS in patients with T4 OPSCC. Among patients with p16-positive tumors, operative treatment appeared to be associated with lower observed recurrence rates, while no difference in recurrence was observed in the overall cohort. Further high-quality evidence is needed to confirm these findings and inform treatment planning.",
+   "tags": [
+    "HPV‐positive oropharyngeal cancer",
+    "T4 oropharyngeal cancer",
+    "oropharyngeal squamous cell carcinoma",
+    "surgical management"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07301-z",
+   "pmid": "43083942",
+   "doi": "10.1007/s00784-026-07301-z",
+   "title": "Resin composites for clear aligner attachments: staining resistance, whitening response, and degree of conversion",
+   "title_zh": null,
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-25",
+   "authors": [
+    "Rodrigues RJG",
+    "Hutemma VH",
+    "Pizzanelli GG",
+    "Lima AF",
+    "Fronza BM",
+    "Kury M",
+    "Sendyk M"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43083942/",
+   "pmcid": "11405881",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": 10,
+   "sample_note": "n=10",
+   "tier": "B",
+   "domain": "材料与生物材料",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "材料与生物材料",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 27.4
+   },
+   "heuristic": 32.2,
+   "breakdown": {
+    "topic": 7.4,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 2.8,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: This study evaluated the staining resistance and whitening response of resin composites indicated for clear aligner attachment fabrication compared with restorative composites and characterized their polymerization kinetics. METHODS: Discs of Aligner Flow LC (AFlow), Transbond® Supreme LV (LVFlow), Opallis (OPFlow), and Filtek Z350XT were exposed to coffee (CF), red wine (RW), cola drink (CO), or artificial saliva (AS), followed by daily bleaching with 10% hydrogen peroxide. Color changes (ΔE00) and Whiteness Index for Dentistry changes (ΔWID) were analyzed by spectrophotometry (n = 10/group) at baseline (T0), after staining (T1), and after bleaching (T2). Degree of conversion (DC) and maximum polymerization rate (Rpmax) were assessed by FT-IR. Data were analyzed using generalized linear models (α = 5%). RESULTS: At T1-T0, CF and RW produced greater staining than CO and AS, while OPFlow showed the lowest color changes, particularly after CF exposure (p < 0.05). At T2-T1, the whitening response depended on the previous staining solution and composite, with greater changes after RW exposure. At T2-T0, CF and RW resulted in the greatest residual color changes, whereas OPFlow showed the lowest residual staining, particularly under CF and RW (p < 0.05). DC differed significantly among the tested composites (p < 0.05), and OPFlow presented the highest RPmax (p < 0.05). CONCLUSIONS: Staining and whitening responses depended on resin composite and staining solution. OPFlow, which is not specifically directed for attachment fabrication, generally showed lower residual staining after bleaching. In addition, polymerization characteristics differed among materials. CLINICAL SIGNIFICANCE: Resin composites specifically formulated and indicated for clear aligner attachment fabrication showed greater susceptibility to staining than a general-purpose flowable composite. Whitening procedures reduced discoloration but did not fully reverse staining in the attachment-specific materials.",
+   "tags": [
+    "Composite Resins",
+    "Orthodontics",
+    "Pigmentation",
+    "Tooth Bleaching"
+   ]
+  },
+  {
+   "id": "10.1016/j.bone.2026.118179",
+   "pmid": "43085443",
+   "doi": "10.1016/j.bone.2026.118179",
+   "title": "Extracellular vesicles in bone regeneration: A coordinated regulatory network of neutrophils, macrophages, and mesenchymal stem cells",
+   "title_zh": null,
+   "journal": "Bone",
+   "date": "2026-11-25",
+   "authors": [
+    "Zhang Y",
+    "Rensen SSM",
+    "Poeze M",
+    "van Griensven M",
+    "Blokhuis TJ"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43085443/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "种植与骨再生",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "种植与骨再生",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 51.9
+   },
+   "heuristic": 61.0,
+   "breakdown": {
+    "topic": 35.0,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "Fracture healing is tightly regulated by immune responses, particularly the dynamic interplay between innate immune cells and stromal populations. In recent years, extracellular vesicles (EVs) have emerged as important mediators of communication between immune cells and bone-related cells. Neutrophils, macrophages, and mesenchymal stem cells (MSCs) all contribute to bone repair, with overlapping but distinct roles across different phases of healing. EVs released from these cells may likewise exert distinct and partially overlapping regulatory effects during this process. This review summarizes the roles of macrophage-derived EVs and MSC-derived EVs, while highlighting the current evidence gap regarding N1/N2 neutrophil-derived EVs. Existing studies show that M2-derived EVs and MSC-derived EVs commonly exert distinct and partially overlapping regulatory effects on immune responses and stromal cell functions during bone repair, whereas neutrophil-derived EVs may exert context-dependent effects that remain insufficiently characterized, particularly with respect to potential N1/N2 differences. Based on these findings, we propose a tentative \"sequential EV-mediated regulatory model,\" in which neutrophil-derived EVs may participate in early immune regulation, macrophage-derived EVs may contribute to immune modulation and angiogenesis during the transition phase, and MSC-derived EVs may predominantly support tissue regeneration at later stages. This model supports the concept of a coordinated EV-mediated regulatory framework linking immune responses to bone regeneration that requires further mechanistic work and in vivo validation.",
+   "tags": [
+    "Extracellular vesicles",
+    "Fracture healing",
+    "Immunomodulation",
+    "Macrophages",
+    "Mesenchymal stem cells",
+    "Neutrophils"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107197",
+   "pmid": "43085644",
+   "doi": "10.1016/j.jdent.2026.107197",
+   "title": "Oral disease burden and dental care needs among incarcerated populations: A systematic review and meta-analysis",
+   "title_zh": null,
+   "journal": "Journal of dentistry",
+   "date": "2026-11-25",
+   "authors": [
+    "Khorasani E",
+    "Rodríguez-Pérez I",
+    "Schimmel M",
+    "Molinero-Mourelle P",
+    "Roccuzzo A",
+    "Mosaddad SA"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43085644/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 4833,
+   "sample_note": "n=4833 records",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "牙周与宿主免疫",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 44.9
+   },
+   "heuristic": 52.8,
+   "breakdown": {
+    "topic": 10.8,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 8.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To synthesize evidence on oral disease burden, dental care needs, and access to care among incarcerated populations. METHODS: PubMed/MEDLINE, Scopus, Web of Science, Embase, the Cochrane Library, Google Scholar, and reference lists were searched through January 1, 2026. Eligible English-language studies reported oral health outcomes in custodial settings. Two reviewers independently selected studies and extracted data. Methodological quality was assessed using Joanna Briggs Institute checklists and the Mixed Methods Appraisal Tool. DerSimonian-Laird random-effects models pooled independent study means for nine outcomes. Subgroup analyses, meta-regression, and design-restricted sensitivity analyses explored heterogeneity. Certainty was assessed using an adapted Grading of Recommendations Assessment, Development and Evaluation framework. RESULTS: Searches identified 4,833 records; 75 reports were included, and 43 contributed to meta-analysis. Pooled means (95% confidence intervals) were 3.604 (3.218 to 3.990) decayed teeth, 4.537 (3.942 to 5.133) missing teeth, 2.988 (2.226 to 3.751) filled teeth, and 9.841 (8.644 to 11.038) decayed, missing, and filled teeth. Heterogeneity was substantial (I²=98.33%-99.98%); cross-sectional restriction changed caries estimates by at most 0.164 teeth. Studies reported periodontal disease, prosthetic needs, oral pain, chewing difficulties, and impaired oral health-related quality of life. Care was frequently symptom-driven, with waiting lists, restricted appointments, and limited preventive and restorative services. Certainty was very low for pooled outcomes. CONCLUSIONS: The evidence indicates substantial oral disease and unmet dental care needs among incarcerated populations, supporting preventive and therapeutic services alongside urgent care. Very low certainty limits confidence in pooled estimates, which do not establish a causal effect of incarceration.",
+   "tags": [
+    "DMF Index",
+    "Dental Care",
+    "Dental Caries",
+    "Dental Health Services",
+    "Dental Health Surveys",
+    "Health Services Accessibility"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107196",
+   "pmid": "43085648",
+   "doi": "10.1016/j.jdent.2026.107196",
+   "title": "Survival of root canal-treated teeth during a 15-year observation period in public dental service: A register-based study",
+   "title_zh": null,
+   "journal": "Journal of dentistry",
+   "date": "2026-11-25",
+   "authors": [
+    "Väisänen M",
+    "Palotie U",
+    "Furuholm J",
+    "Tseveenjav B"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43085648/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙体牙髓与龋病",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 41.1
+   },
+   "heuristic": 48.4,
+   "breakdown": {
+    "topic": 17.4,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "AIM: Regardless of the increasing numbers of studies investigating outcomes of non-surgical root canal treatment (nsRCT), it is important to explore long-term survival of root canal-treated teeth (RCTT) in clinical practice. This study aimed to assess survival of RCTT in public dental service (PDS) in a 15-year observation period, and to evaluate the impact of patient-, tooth-, and operator-related factors on tooth survival. METHODS: This retrospective register-based study was conducted by using data obtained from electronic patient records of the PDS of the City of Helsinki. Altogether 84 320 non-surgically RCTT between 2002 and 2016 were included in the study. Survival of the RCTT was assessed with Kaplan-Meier estimator and Cox regression model. RESULTS: Cumulative survival rates after primary nsRCT in a five-, 10- and 15-year observation period were 91.1%, 82.8% and 77.2%, respectively. Hazard of tooth extraction was highest in older age groups, and for molar teeth. Teeth restored with indirect restorations had over 50% lower hazard of tooth extraction compared to those restored with direct restorations. Placement of coronal restoration after 12 months of root canal filling was found to decrease the likelihood of tooth survival. CONCLUSIONS: The cumulative survival rates of RCTT in the PDS were similar to those reported in previous studies elsewhere. Higher age and molars were risk factors for tooth extraction. Placement of indirect restoration was associated with higher likelihood of tooth survival, supporting its consideration as part of the coronal restorative management of RCTT. Confounding factors such as treatment history and restorability of the tooth and caries risk of the patient should be taken into account in future studies. CLINICAL SIGNIFICANCE: Long-term tooth survival rates after endodontic treatments can be acceptable in routine clinical practice where most of the treatments are performed by general dentists. Tooth survival was associated with factors related to restorative treatment highlighting its importance in retention of root canal-treated teeth.",
+   "tags": [
+    "Dental Pulp Diseases",
+    "Endodontics",
+    "Public Dental Practice",
+    "Root Canal Treatment",
+    "Survival Rate"
+   ]
+  }
+ ],
+ "backlog": [
+  {
+   "id": "10.1177/00220345261495934",
+   "title": "Toward Sex-Specific Host Modulation Therapy for Periodontitis",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 67.0,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42984391/",
+   "days_waiting": 21
+  },
+  {
+   "id": "10.1177/00220345261493921",
+   "title": "Periodontitis-Associated Shifts in Bloodstream Infections among Allo-HSCT Recipients",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 65.5,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978299/",
+   "days_waiting": 21
+  },
+  {
+   "id": "10.1016/j.actbio.2026.11.004",
+   "title": "Boosting Functional Dental Pulp Regeneration by a Biomimetic Self-assembling Hydrogel through Remodeling the Stem Cell Niche",
+   "journal": "Acta biomaterialia",
+   "date_shown": "2026-11-06",
+   "score": 61.3,
+   "one_line": "",
+   "cluster": "生物材料表面/降解产物如…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42982154/",
+   "days_waiting": 21
+  },
+  {
+   "id": "10.1007/s00784-026-07209-8",
+   "title": "Clinical outcomes of composite restorations with or without a glass ionomer liner after selective caries removal to soft dentin: a 36-month randomized controlled trial",
+   "journal": "Clinical oral investigations",
+   "date_shown": "2026-11-06",
+   "score": 60.1,
+   "one_line": "",
+   "cluster": "牙体牙髓与龋病",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42983131/",
+   "days_waiting": 21
+  },
+  {
+   "id": "10.1038/s41591-026-04744-5",
+   "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+   "journal": "Nature medicine",
+   "date_shown": "2026-11-06",
+   "score": 60.0,
+   "one_line": "",
+   "cluster": "口腔鳞癌的免疫微环境与微…",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988934/",
+   "days_waiting": 21
+  },
+  {
+   "id": "10.1177/00220345261493495",
+   "title": "Effects of Maternal Ligature-Induced Periodontitis on Brain in Offspring",
+   "journal": "Journal of dental research",
+   "date_shown": "2026-11-06",
+   "score": 58.2,
+   "one_line": "",
+   "cluster": "牙周与宿主免疫",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42978330/",
+   "days_waiting": 21
+  }
+ ],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}
