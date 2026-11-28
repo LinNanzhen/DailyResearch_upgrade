@@ -1,0 +1,954 @@
+{
+ "date": "2026-11-28",
+ "generated_at": "2026-11-28T11:32:58+08:00",
+ "model": "agnes-2.5-flash",
+ "ai": true,
+ "usage": {
+  "calls": 8,
+  "prompt_tokens": 20770,
+  "completion_tokens": 25032
+ },
+ "stats": {
+  "candidates": 182,
+  "raw": 179,
+  "fetched": 27,
+  "raw_dropped_type": 10,
+  "no_abstract": 2,
+  "gated": 27,
+  "scored": 19,
+  "shown": 10,
+  "ai": true,
+  "feedback_files": 0,
+  "calls": 8,
+  "quality_failed": 0,
+  "quality_repaired": 2
+ },
+ "must_read": {
+  "id": "10.1111/odi.70567",
+  "pmid": "43099907",
+  "doi": "10.1111/odi.70567",
+  "title": "MtDNA Efflux Contributes to Inflammation Responses in Periodontitis via cGAS-STING-NF-κB Signal",
+  "title_zh": "线粒体DNA外排经cGAS-STING-NF-κB信号促进牙周炎炎症反应",
+  "journal": "Oral diseases",
+  "date": "2026-11-26",
+  "authors": [
+   "Liu J",
+   "Cheng X",
+   "Geng Y",
+   "Cao P",
+   "Zou P",
+   "Wang Y",
+   "Luan Q"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43099907/",
+  "pmcid": "",
+  "cited_by": 0,
+  "design": "animal",
+  "design_label": "动物实验",
+  "design_level": 2,
+  "sample_n": null,
+  "sample_note": "",
+  "tier": "B",
+  "domain": "牙周炎通过哪些可验证的通…",
+  "methods": [
+   "single-cell"
+  ],
+  "pub_types": [
+   "Journal Article"
+  ],
+  "is_open_access": false,
+  "cluster": "牙周免疫机制",
+  "one_line": "LPS→HGFs ROS→mtDNA外溢→cGAS-STING-NF-κB→促炎因子+骨吸收",
+  "so_what": "cGAS-STING轴可拓展至种植体周炎与NETs交叉机制",
+  "caution": "动物为主，摘要未报具体品系与n",
+  "score": {
+   "final": 68.0,
+   "match": 82.0,
+   "novelty": 72.0,
+   "rigor": 55.0,
+   "impact": 65.0,
+   "transfer": 60.0
+  },
+  "heuristic": 57.5,
+  "breakdown": {
+   "topic": 30.3,
+   "journal": 10.0,
+   "design": 9,
+   "sample": 0.0,
+   "fresh": 6.0,
+   "method": 2.2
+  },
+  "abstract": "OBJECTIVE: Despite growing evidence of the involvement of mitochondria in inflammation, the roles of specific mtDNA outside the mitochondria in periodontitis have been little explored. To address this knowledge gap, we explore the effects and mechanisms of mtDNA efflux in the development of periodontitis. METHODS: First, we identified the potential of HGFs as a \"non-classical\" component of the immune system in response to bacteria and damage-related signals using single-cell analysis. Next, we detected mtDNA efflux in HGFs and gingiva during periodontitis using immunofluorescence, adenovirus transduction, and real-time quantitative polymerase chain reaction. In addition, we investigated the role of free mtDNA in periodontitis and its associated mechanisms. RESULTS: We confirmed the \"immune role\" of HGFs. Furthermore, lipopolysaccharide induced the upregulation of reactive oxygen species in HGFs enabling mtDNA efflux, which significantly promoted the expression and secretion of pro-inflammatory cytokines in HGFs. MtDNA efflux drives alveolar bone loss in wild-type and periodontitis mice. Mechanistically, the involvement in periodontitis of mtDNA efflux was associated with the upregulation of the cGAS-STING-NF-κB pathway. CONCLUSIONS: Our findings highlight the effect of mtDNA efflux on the activation of periodontitis. Future studies focusing on the ablation of mtDNA efflux in HGFs may lead to promising treatment responses for periodontitis.",
+  "tags": [
+   "fibroblasts",
+   "gingiva",
+   "inflammation",
+   "mtDNA",
+   "periodontitis"
+  ],
+  "deep": {
+   "title_zh": "线粒体DNA外排经cGAS-STING-NF-κB信号促进牙周炎炎症反应",
+   "one_sentence": "LPS诱导HGF线粒体DNA外排，经cGAS-STING-NF-κB驱动炎症与牙槽骨丧失",
+   "question": "牙周炎中逸出到胞质的线粒体DNA是否是独立于细菌的致病信号，它通过哪条通路放大炎症并决定牙槽骨丧失？",
+   "design": "先用单细胞分析鉴定牙龈成纤维细胞（HGFs）的'非经典'免疫角色，再以LPS刺激的HGFs与牙周炎小鼠模型检测mtDNA外排并解析cGAS-STING-NF-κB机制；对照、分组、剂量与随访安排摘要未说明",
+   "sample_desc": "摘要未说明样本量；来源为人牙龈成纤维细胞（HGFs）、牙周炎牙龈组织，以及野生型与牙周炎小鼠",
+   "findings": [
+    {
+     "claim": "HGFs可作为应答细菌与损伤信号的'非经典'免疫系统成分",
+     "evidence": "单细胞分析显示HGFs具备免疫应答特征，被作者确认具有'免疫角色'"
+    },
+    {
+     "claim": "LPS通过上调HGFs内活性氧（ROS）诱导mtDNA外排",
+     "evidence": "免疫荧光、腺病毒转导与实时定量PCR在HGFs及牙周炎牙龈组织中均检测到mtDNA外排，且与ROS升高方向一致"
+    },
+    {
+     "claim": "胞外/胞质游离mtDNA显著促进HGFs促炎细胞因子的表达与分泌",
+     "evidence": "mtDNA外排后HGFs促炎细胞因子表达与分泌上调（比较方向为升高，摘要未给具体数值）"
+    },
+    {
+     "claim": "mtDNA外排驱动牙槽骨丧失",
+     "evidence": "在野生型与牙周炎小鼠中，mtDNA外排均伴随并推动牙槽骨丧失进展"
+    }
+   ],
+   "effect": "未报告",
+   "relation": "q1（种植/牙周免疫微环境）：提供新解释——把牙周炎炎症驱动从'细菌外源刺激'扩展到'宿主细胞内源mtDNA作为危险信号'，并给出cGAS-STING-NF-κB这一可干预轴；对q2（牙周炎-全身疾病）为潜在机制铺垫，但本文未涉及全身结局",
+   "why": "它改变了对炎症起始的认知：牙龈成纤维细胞不只是结构细胞，而是能主动释放mtDNA、经cGAS-STING-NF-κB放大炎症的免疫放大器；这为'阻断mtDNA外排'这一非抗菌干预提供了具体靶点，也提示种植体周炎与牙周炎可能共享同一内源危险信号轴",
+   "limitations": [
+    "机制证据为通路上调的相关性观察，摘要未见cGAS/STING抑制剂或基因敲除的功能挽救实验，因果链未闭合",
+    "缺乏人类标本证据：未报告患者龈组织/龈沟液中游离mtDNA水平与临床牙周参数的关联，转化边界不清",
+    "动物模型的分组、样本量、随访时长与统计方法摘要未说明，骨丧失结论的稳健性无法评估"
+   ],
+   "transferable": "①用单细胞数据先论证'非免疫细胞的免疫功能'再做机制，这一叙事结构可直接搬到种植体周炎中成纤维细胞/上皮细胞的免疫角色论证；②ROS-免疫荧光+腺病毒标记+RT-qPCR检测胞质mtDNA的组合实验，可用于评估生物材料降解产物（q4）是否诱导mtDNA外排；③cGAS-STING-NF-κB可作为种植体表面/材料免疫…",
+   "followups": [
+    "原文是否使用cGAS或STING的抑制剂/敲除来挽救炎症与骨丧失表型，还是仅停留在通路表达上调？",
+    "人牙周炎龈组织或龈沟液中游离mtDNA水平是否与探诊深度、临床附着丧失、骨丧失程度相关？",
+    "mtDNA外排是细胞主动释放还是被动裂解（如线粒体通透性转换、VDAC寡聚化）？原文用什么实验区分这两种来源？"
+   ],
+   "glossary": [
+    {
+     "en": "mtDNA",
+     "cn": "线粒体DNA"
+    },
+    {
+     "en": "HGFs",
+     "cn": "人牙龈成纤维细胞"
+    },
+    {
+     "en": "cGAS",
+     "cn": "环GMP-AMP合酶"
+    },
+    {
+     "en": "STING",
+     "cn": "干扰素基因刺激因子"
+    },
+    {
+     "en": "LPS",
+     "cn": "脂多糖"
+    },
+    {
+     "en": "ROS",
+     "cn": "活性氧"
+    }
+   ],
+   "reading_minutes": 12,
+   "quality": {
+    "passed": true,
+    "score": 98.0,
+    "judge_score": 88.0,
+    "problems": [
+     "transferable 似乎被截断",
+     "效应量只有占位符",
+     "transferable 字段第③点在句中被截断（'…材料免疫…'），内容不完整",
+     "小鼠结果表述为'伴随并推动'，摘要原文仅称 drives，'伴随'为轻微引申"
+    ],
+    "repaired_by": "mimo-v2.6-flash",
+    "attempts": 1
+   }
+  }
+ },
+ "must_reads": [
+  {
+   "id": "10.1111/odi.70567",
+   "pmid": "43099907",
+   "doi": "10.1111/odi.70567",
+   "title": "MtDNA Efflux Contributes to Inflammation Responses in Periodontitis via cGAS-STING-NF-κB Signal",
+   "title_zh": "线粒体DNA外排经cGAS-STING-NF-κB信号促进牙周炎炎症反应",
+   "journal": "Oral diseases",
+   "date": "2026-11-26",
+   "authors": [
+    "Liu J",
+    "Cheng X",
+    "Geng Y",
+    "Cao P",
+    "Zou P",
+    "Wang Y",
+    "Luan Q"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43099907/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "animal",
+   "design_label": "动物实验",
+   "design_level": 2,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "B",
+   "domain": "牙周炎通过哪些可验证的通…",
+   "methods": [
+    "single-cell"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙周免疫机制",
+   "one_line": "LPS→HGFs ROS→mtDNA外溢→cGAS-STING-NF-κB→促炎因子+骨吸收",
+   "so_what": "cGAS-STING轴可拓展至种植体周炎与NETs交叉机制",
+   "caution": "动物为主，摘要未报具体品系与n",
+   "score": {
+    "final": 68.0,
+    "match": 82.0,
+    "novelty": 72.0,
+    "rigor": 55.0,
+    "impact": 65.0,
+    "transfer": 60.0
+   },
+   "heuristic": 57.5,
+   "breakdown": {
+    "topic": 30.3,
+    "journal": 10.0,
+    "design": 9,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVE: Despite growing evidence of the involvement of mitochondria in inflammation, the roles of specific mtDNA outside the mitochondria in periodontitis have been little explored. To address this knowledge gap, we explore the effects and mechanisms of mtDNA efflux in the development of periodontitis. METHODS: First, we identified the potential of HGFs as a \"non-classical\" component of the immune system in response to bacteria and damage-related signals using single-cell analysis. Next, we detected mtDNA efflux in HGFs and gingiva during periodontitis using immunofluorescence, adenovirus transduction, and real-time quantitative polymerase chain reaction. In addition, we investigated the role of free mtDNA in periodontitis and its associated mechanisms. RESULTS: We confirmed the \"immune role\" of HGFs. Furthermore, lipopolysaccharide induced the upregulation of reactive oxygen species in HGFs enabling mtDNA efflux, which significantly promoted the expression and secretion of pro-inflammatory cytokines in HGFs. MtDNA efflux drives alveolar bone loss in wild-type and periodontitis mice. Mechanistically, the involvement in periodontitis of mtDNA efflux was associated with the upregulation of the cGAS-STING-NF-κB pathway. CONCLUSIONS: Our findings highlight the effect of mtDNA efflux on the activation of periodontitis. Future studies focusing on the ablation of mtDNA efflux in HGFs may lead to promising treatment responses for periodontitis.",
+   "tags": [
+    "fibroblasts",
+    "gingiva",
+    "inflammation",
+    "mtDNA",
+    "periodontitis"
+   ],
+   "deep": {
+    "title_zh": "线粒体DNA外排经cGAS-STING-NF-κB信号促进牙周炎炎症反应",
+    "one_sentence": "LPS诱导HGF线粒体DNA外排，经cGAS-STING-NF-κB驱动炎症与牙槽骨丧失",
+    "question": "牙周炎中逸出到胞质的线粒体DNA是否是独立于细菌的致病信号，它通过哪条通路放大炎症并决定牙槽骨丧失？",
+    "design": "先用单细胞分析鉴定牙龈成纤维细胞（HGFs）的'非经典'免疫角色，再以LPS刺激的HGFs与牙周炎小鼠模型检测mtDNA外排并解析cGAS-STING-NF-κB机制；对照、分组、剂量与随访安排摘要未说明",
+    "sample_desc": "摘要未说明样本量；来源为人牙龈成纤维细胞（HGFs）、牙周炎牙龈组织，以及野生型与牙周炎小鼠",
+    "findings": [
+     {
+      "claim": "HGFs可作为应答细菌与损伤信号的'非经典'免疫系统成分",
+      "evidence": "单细胞分析显示HGFs具备免疫应答特征，被作者确认具有'免疫角色'"
+     },
+     {
+      "claim": "LPS通过上调HGFs内活性氧（ROS）诱导mtDNA外排",
+      "evidence": "免疫荧光、腺病毒转导与实时定量PCR在HGFs及牙周炎牙龈组织中均检测到mtDNA外排，且与ROS升高方向一致"
+     },
+     {
+      "claim": "胞外/胞质游离mtDNA显著促进HGFs促炎细胞因子的表达与分泌",
+      "evidence": "mtDNA外排后HGFs促炎细胞因子表达与分泌上调（比较方向为升高，摘要未给具体数值）"
+     },
+     {
+      "claim": "mtDNA外排驱动牙槽骨丧失",
+      "evidence": "在野生型与牙周炎小鼠中，mtDNA外排均伴随并推动牙槽骨丧失进展"
+     }
+    ],
+    "effect": "未报告",
+    "relation": "q1（种植/牙周免疫微环境）：提供新解释——把牙周炎炎症驱动从'细菌外源刺激'扩展到'宿主细胞内源mtDNA作为危险信号'，并给出cGAS-STING-NF-κB这一可干预轴；对q2（牙周炎-全身疾病）为潜在机制铺垫，但本文未涉及全身结局",
+    "why": "它改变了对炎症起始的认知：牙龈成纤维细胞不只是结构细胞，而是能主动释放mtDNA、经cGAS-STING-NF-κB放大炎症的免疫放大器；这为'阻断mtDNA外排'这一非抗菌干预提供了具体靶点，也提示种植体周炎与牙周炎可能共享同一内源危险信号轴",
+    "limitations": [
+     "机制证据为通路上调的相关性观察，摘要未见cGAS/STING抑制剂或基因敲除的功能挽救实验，因果链未闭合",
+     "缺乏人类标本证据：未报告患者龈组织/龈沟液中游离mtDNA水平与临床牙周参数的关联，转化边界不清",
+     "动物模型的分组、样本量、随访时长与统计方法摘要未说明，骨丧失结论的稳健性无法评估"
+    ],
+    "transferable": "①用单细胞数据先论证'非免疫细胞的免疫功能'再做机制，这一叙事结构可直接搬到种植体周炎中成纤维细胞/上皮细胞的免疫角色论证；②ROS-免疫荧光+腺病毒标记+RT-qPCR检测胞质mtDNA的组合实验，可用于评估生物材料降解产物（q4）是否诱导mtDNA外排；③cGAS-STING-NF-κB可作为种植体表面/材料免疫…",
+    "followups": [
+     "原文是否使用cGAS或STING的抑制剂/敲除来挽救炎症与骨丧失表型，还是仅停留在通路表达上调？",
+     "人牙周炎龈组织或龈沟液中游离mtDNA水平是否与探诊深度、临床附着丧失、骨丧失程度相关？",
+     "mtDNA外排是细胞主动释放还是被动裂解（如线粒体通透性转换、VDAC寡聚化）？原文用什么实验区分这两种来源？"
+    ],
+    "glossary": [
+     {
+      "en": "mtDNA",
+      "cn": "线粒体DNA"
+     },
+     {
+      "en": "HGFs",
+      "cn": "人牙龈成纤维细胞"
+     },
+     {
+      "en": "cGAS",
+      "cn": "环GMP-AMP合酶"
+     },
+     {
+      "en": "STING",
+      "cn": "干扰素基因刺激因子"
+     },
+     {
+      "en": "LPS",
+      "cn": "脂多糖"
+     },
+     {
+      "en": "ROS",
+      "cn": "活性氧"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 98.0,
+     "judge_score": 88.0,
+     "problems": [
+      "transferable 似乎被截断",
+      "效应量只有占位符",
+      "transferable 字段第③点在句中被截断（'…材料免疫…'），内容不完整",
+      "小鼠结果表述为'伴随并推动'，摘要原文仅称 drives，'伴随'为轻微引申"
+     ],
+     "repaired_by": "mimo-v2.6-flash",
+     "attempts": 1
+    }
+   }
+  },
+  {
+   "id": "10.1038/s41368-026-00476-x",
+   "pmid": "43098995",
+   "doi": "10.1038/s41368-026-00476-x",
+   "title": "Glutamine-αKG metabolism orchestrates the H3K27me3-to-H3K27ac switch to control the immunomodulatory function of dental pulp stem cells",
+   "title_zh": "谷氨酰胺-αKG代谢通过驱动H3K27me3向H3K27ac的表观遗传切换调控牙髓干细胞的免疫调节功能",
+   "journal": "International journal of oral science",
+   "date": "2026-11-26",
+   "authors": [
+    "Lou Y",
+    "Pang C",
+    "Zhang X",
+    "Geng M",
+    "Li M",
+    "Li J",
+    "Qiu Y",
+    "Chen W",
+    "Su Y",
+    "Du Y",
+    "Wei X",
+    "Tian J"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43098995/",
+   "pmcid": "10229593",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": null,
+   "sample_note": "",
+   "tier": "A",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": true,
+   "cluster": "代谢表观调控",
+   "one_line": "αKG经JMJD3去甲基化+TCA供acetyl-CoA双重路径驱动H3K27me3→H3K27ac切换，上调抗炎基因…",
+   "so_what": "代谢-表观框架可直接迁移至种植/材料再生中宿主细胞重编程",
+   "caution": "动物模型，未验证人体DPSC；αKG剂量窗口未界定",
+   "score": {
+    "final": 67.9,
+    "match": 72.0,
+    "novelty": 82.0,
+    "rigor": 74.0,
+    "impact": 72.0,
+    "transfer": 85.0
+   },
+   "heuristic": 40.3,
+   "breakdown": {
+    "topic": 13.3,
+    "journal": 15.0,
+    "design": 6,
+    "sample": 0.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "Mesenchymal stem cells (MSCs) adapt to the microenvironment by reprogramming their cellular metabolism, leading to diverse immunomodulatory functions and inconsistent outcomes for MSC-based therapies in inflammatory diseases. Glutamine, an immunonutrient, plays key roles in immune regulation and MSC physiology; however, whether glutamine contributes to MSC immunomodulation and the underlying mechanisms remain unclear. Here, we demonstrate that glutamine metabolism sustains the immunomodulatory function and therapeutic efficacy of dental pulp stem cells (DPSCs), mediated by metabolite α-ketoglutarate (αKG), using both acute colitis model and acute lung injury model. The glutamine-αKG axis induces the expression of the anti-inflammatory genes TGF-β1, PTGS2, and TSG6, thereby increasing the therapeutic efficacy of DPSCs. Mechanistically, αKG orchestrates an epigenetic switch via two pathways: promoting JMJD3-dependent demethylation of the repressive mark H3K27me3 and simultaneously fueling the TCA cycle to increase citrate and acetyl-CoA levels, thereby facilitating H3K27 acetylation. This coordinated H3K27me3-to-H3K27ac switch synergistically maintains the expression of anti-inflammatory genes and the immunomodulatory function of DPSCs. Furthermore, priming DPSCs with αKG or a methyltransferase inhibitor to promote the H3K27me3-to-H3K27ac switch enhanced the therapeutic efficacy of these cells. Collectively, our study provides the first evidence that the glutamine-αKG axis regulates DPSC immunomodulation via a novel metabolic-epigenetic mechanism, highlighting metabolic regulation and epigenetic reprogramming as promising strategies to potentiate MSC-based therapies.",
+   "tags": [
+    "Dental Pulp",
+    "Animals",
+    "Glutamine",
+    "Ketoglutaric Acids",
+    "Histones",
+    "Immunomodulation"
+   ],
+   "deep": {
+    "title_zh": "谷氨酰胺-αKG代谢通过驱动H3K27me3向H3K27ac的表观遗传切换调控牙髓干细胞的免疫调节功能",
+    "one_sentence": "谷氨酰胺-αKG轴经H3K27me3→H3K27ac切换维持DPSC抗炎功能，预处理可增效",
+    "question": "牙髓干细胞（DPSC）免疫调节功能的强弱是否由谷氨酰胺代谢及其代谢物αKG决定；若是，其下游的表观遗传机制是什么，能否被人为操纵以提升MSC细胞疗法在炎症性疾病中的疗效",
+    "design": "在急性结肠炎模型与急性肺损伤模型中验证DPSC疗效，并设置αKG预处理或甲基转移酶抑制剂预处理DPSC的干预组；对照设置、分组方式与随访时间摘要未说明",
+    "sample_desc": "细胞来源为牙髓干细胞（DPSC），动物模型为急性结肠炎与急性肺损伤；各组样本量与细胞传代数摘要未说明",
+    "findings": [
+     {
+      "claim": "谷氨酰胺代谢是维持DPSC免疫调节功能与治疗效能的必要条件，关键中介代谢物为αKG",
+      "evidence": "在急性结肠炎模型与急性肺损伤模型两个独立疾病模型中，谷氨酰胺代谢支撑的DPSC均表现出治疗效能；αKG被确定为承接谷氨酰胺效应的代谢物（具体分组数值摘要未给出）"
+     },
+     {
+      "claim": "谷氨酰胺-αKG轴上调一组抗炎效应基因",
+      "evidence": "αKG处理后抗炎基因TGF-β1、PTGS2、TSG6表达升高"
+     },
+     {
+      "claim": "αKG通过两条并行通路驱动H3K27me3→H3K27ac的表观切换",
+      "evidence": "通路一：促进JMJD3依赖的抑制性标记H3K27me3去甲基化；通路二：供给TCA循环使柠檬酸与乙酰-CoA水平升高，从而促进H3K27乙酰化"
+     },
+     {
+      "claim": "H3K27me3到H3K27ac的协同切换是抗炎基因持续表达与DPSC免疫调节功能的维持机制",
+      "evidence": "去甲基化（去除抑制标记）与乙酰化（添加激活标记）在同一组抗炎基因上协同发生，二者共同维持其表达"
+     }
+    ],
+    "effect": "未报告",
+    "relation": "主要对应 q1（种植体周免疫微环境如何决定免疫结局）：提供新解释——MSC/宿主细胞的免疫调节能力可由代谢-表观轴（谷氨酰胺-αKG-H3K27）决定，而非细胞固有属性；次要关联 q4（材料/代谢物如何编程宿主免疫），提示代谢物预处理是一种可迁移的细胞编程策略",
+    "why": "它把'MSC疗效不稳定'这一长期临床困惑从'细胞质量差异'重新定义为'代谢状态决定的表观可塑性'，并给出可操作的干预点（αKG或甲基转移酶抑制剂预处理）；对做种植体周免疫或材料-免疫互作的读者，提供了一条从代谢物到组蛋白修饰再到抗炎基因的完整可验证因果链，而非泛泛的'具有重要意义'",
+    "limitations": [
+     "摘要未说明样本量、对照设置与统计方法，两个动物模型的效应强度与可重复性无法从摘要判断",
+     "仅在急性结肠炎与急性肺损伤两个非口腔炎症模型中验证，向牙髓炎、种植体周炎等口腔局部炎症环境的外推尚无证据",
+     "代谢-表观机制（JMJD3去甲基化、TCA供乙酰-CoA）与体内疗效之间的直接因果验证（如体内ChIP、JMJD3敲低是否废除疗效）摘要未说明"
+    ],
+    "transferable": "可迁移的做法有三：一是用代谢物（αKG）或表观药物预处理细胞/材料局部给药以增强免疫调节效能的实验设计；二是把H3K27me3/H3K27ac比值（尤其在TGF-β1、PTGS2、TSG6位点）作为免疫调节功能的分子读出指标；三是'代谢组+组蛋白修饰+功能基因'三层串联的机制论证框架，可直接套用到种植体周巨噬细胞极化…",
+    "followups": [
+     "查全文确认急性结肠炎与急性肺损伤模型的分组、DPSC给药途径与剂量、αKG预处理时长及随访时间点",
+     "查全文确认是否在体内用ChIP-qPCR/ChIP-seq检测了TGF-β1、PTGS2、TSG6位点的H3K27me3与H3K27ac变化，以及JMJD3敲低或TCA干预是否废除DPSC疗效",
+     "查全文确认该研究是否包含任何口腔来源炎症模型（牙髓炎、牙周炎、种植体周炎），若无则需自行设计验证谷氨酰胺-αKG轴在口腔局部炎症中的适用性"
+    ],
+    "glossary": [
+     {
+      "en": "DPSC",
+      "cn": "牙髓干细胞"
+     },
+     {
+      "en": "α-ketoglutarate (αKG)",
+      "cn": "α-酮戊二酸"
+     },
+     {
+      "en": "H3K27me3",
+      "cn": "组蛋白H3第27位赖氨酸三甲基化（抑制性标记）"
+     },
+     {
+      "en": "H3K27ac",
+      "cn": "组蛋白H3第27位赖氨酸乙酰化（激活标记）"
+     },
+     {
+      "en": "JMJD3 / KDM6B",
+      "cn": "组蛋白H3K27去甲基化酶"
+     },
+     {
+      "en": "PTGS2 / COX-2",
+      "cn": "前列腺素内合酶2"
+     }
+    ],
+    "reading_minutes": 12,
+    "quality": {
+     "passed": true,
+     "score": 98.0,
+     "judge_score": null,
+     "problems": [
+      "transferable 似乎被截断",
+      "效应量只有占位符"
+     ],
+     "repaired_by": "mimo-v2.6-flash",
+     "attempts": 1
+    }
+   }
+  }
+ ],
+ "scan": [
+  {
+   "id": "10.1111/jcpe.70234",
+   "pmid": "43098177",
+   "doi": "10.1111/jcpe.70234",
+   "title": "Survival of Short Dental Implants (6 mm) Versus Matched Standard-Length Implants: A Nationwide Retrospective Propensity-Matched Cohort Study",
+   "title_zh": null,
+   "journal": "Journal of clinical periodontology",
+   "date": "2026-11-26",
+   "authors": [
+    "Haim D",
+    "Better H",
+    "Meinster I",
+    "Cahana S",
+    "Librush E",
+    "Barness-Hadar L",
+    "Chaushu G",
+    "Asbi T"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43098177/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 189,
+   "sample_note": "n=189 implants",
+   "tier": "A",
+   "domain": "种植与骨再生",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "种植与骨再生",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 43.2
+   },
+   "heuristic": 50.8,
+   "breakdown": {
+    "topic": 8.8,
+    "journal": 15.0,
+    "design": 15,
+    "sample": 6.1,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "AIM: To compare implant survival of short dental implants (6 mm) with propensity-matched standard-length implants in a nationwide real-world dental network. MATERIALS AND METHODS: This retrospective cohort study of electronic health records propensity-matched each 6-mm implant 1:2 to standard-length implants, exactly on FDI tooth code and smoking. Kaplan-Meier and matched-set Cox analyses were performed overall and exploratorily within jaw and augmentation strata. RESULTS: The cohort comprised 189 implants of 6 mm and 378 standard-length implants (20 and 10 failures). Five-year survival was 90.0% versus 97.4%. In the pooled primary Cox model, the failure hazard was higher for 6-mm implants (HR 4.65; 95% CI: 2.18-9.89; p < 0.001), with 16 of 20 failures within the first year. The association was statistically significant in the posterior mandible without recorded augmentation (HR 10.52; 95% CI: 1.50-73.84; p = 0.018), but no statistically significant difference was detected with concurrent augmentation (HR 2.00; 95% CI: 0.22-17.89; p = 0.535); maxillary subgroups were too small for inference. CONCLUSION: Overall, 6-mm implants had a higher failure hazard, concentrated in the first year. This prognostic association was statistically significant in the posterior mandible without recorded augmentation but not in augmented mandibular comparisons, and not assessable in the maxilla.",
+   "tags": [
+    "dental implants",
+    "electronic health records",
+    "implant survival",
+    "propensity score matching",
+    "short implants"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07306-8",
+   "pmid": "43086463",
+   "doi": "10.1007/s00784-026-07306-8",
+   "title": "Can preventive dental interventions trigger MRONJ? A retrospective cohort study on prevention protocols and healing time before antiresorptive therapy",
+   "title_zh": null,
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-26",
+   "authors": [
+    "Rupel K",
+    "Maglione M",
+    "Angerame D",
+    "Diolosà M",
+    "Zotti M",
+    "Dal Broi C",
+    "Keller E",
+    "Pedroso Acosta G",
+    "Sangineto L",
+    "Di Lenarda R",
+    "Biasotto M",
+    "Ottaviani G"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43086463/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 99,
+   "sample_note": "n=99 patients",
+   "tier": "B",
+   "domain": "儿童口腔与预防",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "儿童口腔与预防",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 37.8
+   },
+   "heuristic": 44.5,
+   "breakdown": {
+    "topic": 8.2,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 5.3,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: To evaluate whether preventive dental interventions before antiresorptive therapy may trigger medication-related osteonecrosis of the jaw (MRONJ), and whether the prevention protocol and the healing interval after preventive extractions influence its onset. MATERIALS AND METHODS: This retrospective cohort study included 379 candidates for bisphosphonate or denosumab therapy who underwent preliminary dental evaluation between 2006 and 2023. Prevention protocols were classified as complete or partial (MASCC/ISOO/ASCO criteria) according to the treatment actually documented; patients without risk sites formed a separate group. Fisher's exact test and Firth's penalized logistic regression were used. RESULTS: Eighteen patients (4.7%) developed MRONJ. No MRONJ occurred among 99 patients without risk sites at baseline (p = 0.005), whereas no significant difference was observed between complete and partial protocols (6.7% vs. 5.9%, p = 1.000). Extractions during therapy (OR 17.8, 95% CI 6.5-50.7) and, less robustly, preventive extractions (OR 2.8, 95% CI 1.03-8.5) were associated with MRONJ. After complete protocols, MRONJ arose mainly at preventive extraction sites (8/12); after partial protocols, from extractions during therapy or teeth left in place (6/6). Seven of eight MRONJ cases at preventive extraction sites occurred after a 4-week interval. CONCLUSIONS: No MRONJ occurred in patients without oral risk sites at baseline. MRONJ incidence did not differ significantly between complete and partial protocols, whereas its timing and causes varied. These exploratory findings suggest guiding therapy initiation by clinical assessment of healing rather than a fixed time interval. CLINICAL RELEVANCE: Clinical assessment of extraction-site healing and dental and periodontal follow-up may be valuable in patients starting antiresorptive therapy.",
+   "tags": [
+    "Bisphosphonates",
+    "Denosumab",
+    "Medication-related osteonecrosis of the jaw",
+    "Preventive dentistry",
+    "Tooth extraction",
+    "Wound healing"
+   ]
+  },
+  {
+   "id": "10.1016/j.oraloncology.2026.108241",
+   "pmid": "43097977",
+   "doi": "10.1016/j.oraloncology.2026.108241",
+   "title": "Functional and oncological outcomes following Transoral robotic surgery (TORS) in HPV negative oropharyngeal squamous cell carcinoma: A systematic review",
+   "title_zh": "TORS治疗HPV阴性口咽鳞癌系统评价",
+   "journal": "Oral oncology",
+   "date": "2026-11-26",
+   "authors": [
+    "Benaran I",
+    "Bhardwaj S",
+    "Lim AE",
+    "Montgomery J",
+    "Milner T"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43097977/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "meta",
+   "design_label": "系统评价/Meta",
+   "design_level": 7,
+   "sample_n": 10,
+   "sample_note": "10 项研究",
+   "tier": "A",
+   "domain": "其他",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "口咽癌手术",
+   "one_line": "系统评价10项TORS治疗HPV阴性OPSCC研究，5年OSR 65.9-92.4%，造瘘依赖率偏高",
+   "so_what": "仅背景",
+   "caution": "10项异质性大，仅1项前瞻性",
+   "score": {
+    "final": 21.3,
+    "match": 22.0,
+    "novelty": 30.0,
+    "rigor": 50.0,
+    "impact": 38.0,
+    "transfer": 18.0
+   },
+   "heuristic": 41.8,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 15.0,
+    "design": 18,
+    "sample": 2.8,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "IMPORTANCE: Transoral robotic surgery (TORS) has comparable oncological outcomes and the potential to improve functional outcomes in comparison to radiotherapy in early HPV positive oropharyngeal squamous cell carcinoma (OPSCC), and improved functional outcomes in comparison to open surgery. However there is limited data in the HPV negative population. OBJECTIVES: This systematic review aims to assess the existing data on TORS outcomes in the treatment of HPV negative OPSCC. EVIDENCE REVIEW: Following the PRISMA guidelines, a systematic search was conducted using Medline, Embase, Pubmed, Cinahl, Cochrane Libraries, Prospero and Web of Science between 2010-2026. Articles reporting outcomes of HPV negative OPSCC managed using TORS were included. FINDINGS: A total of 10 studies of patients undergoing TORS for HPV negative OPSCC were included with 1 study being prospective. Oncological survival outcomes and functional outcomes were assessed. 2-year overall survival rate (OSR) ranged from 81 to 95 % and 5-year OSR from 65.9 to 92.4 %. Rates of reported long term gastrostomy tube dependence ranged from 1.8 to 5.4 %.Tracheostomy rates ranged from 10.5 % to 35.7 %, of which 100 % were decannulated leaving no long term tracheostomies. Return to theatre rate for haemorrhage was between 1.8 % and 3.6 %. The mean length of hospital stay ranged from 3-5.8 days overall. CONCLUSION AND RELEVANCE: This review demonstrates encouraging oncological outcomes following TORS, for HPV negative OPSCC, particularly for early-stage disease. Perioperative and long-term functional outcomes are also favourable, highlighting that TORS is a promising treatment modality which may be considered in selected patients.",
+   "tags": []
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107202",
+   "pmid": "43085642",
+   "doi": "10.1016/j.jdent.2026.107202",
+   "title": "Effect of application time on at-home dental bleaching using 22% carbamide peroxide: a randomized, single-blind controlled trial",
+   "title_zh": "居家过氧化物美白时长对敏感影响RCT",
+   "journal": "Journal of dentistry",
+   "date": "2026-11-25",
+   "authors": [
+    "Carneiro TS",
+    "Mansur GW",
+    "Matos TP",
+    "Cavalcante LMA",
+    "Ceballos L",
+    "Reis A",
+    "Loguercio AD",
+    "Favoreto MW"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43085642/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 40,
+   "sample_note": "n=40",
+   "tier": "B",
+   "domain": "牙周与宿主免疫",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "脱敏美白",
+   "one_line": "30 min较60 min使用22%CP降低牙本质敏感绝对风险(37.5% vs 55%)",
+   "so_what": "仅背景",
+   "caution": "n=40单盲，效力有限",
+   "score": {
+    "final": 15.1,
+    "match": 5.0,
+    "novelty": 18.0,
+    "rigor": 52.0,
+    "impact": 22.0,
+    "transfer": 5.0
+   },
+   "heuristic": 41.5,
+   "breakdown": {
+    "topic": 2.0,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 4.3,
+    "fresh": 5.0,
+    "method": 2.2
+   },
+   "abstract": "PURPOSE: This randomized, split-mouth, single-blind controlled trial evaluated the effects of 30-min and 60-min daily applications of 22% carbamide peroxide for at-home bleaching on tooth sensitivity (TS), gingival irritation (GI), bleaching efficacy (BE), aesthetic self-perception (AS), and quality of life (QL). METHODS: Forty participants were randomized according to the side of protocol application: 30-min or 60-min (n = 40; 80 hemiarches), applied daily for 28 days using 22% CP (Total Blanc Home C22, DFL) in custom sectioned at the midline trays. The primary outcome was the absolute risk of TS, assessed using a visual analog scale (VAS; 0 to 10). Secondary outcomes included TS intensity, as well as the risk and intensity of GI, also measured using a VAS; BE, assessed by spectrophotometry and shade guide units; AS, measured using the Orofacial Esthetic Scale (OES); and QL, assessed using the Oral Health Impact Profile (OHIP-14) (α = 0.05). RESULTS: The 30-min reduced the absolute risk (37.5% vs. 55%; p = 0.016) and intensity of TS (p = 0.01) compared with the 60-min. The risk of GI was numerically lower with the 30-min protocol (45.0% vs. 57.5%), but the difference was not statistically significant (p = 0.063), with no difference in intensity (p = 0.17). Both protocols produced substantial BE, although instrumental color were greater with 60-min (p < 0.05). No statistically significant differences were detected in shade-guide assessments. Participants AS improved over time (p < 0.001), and QL did not differ (p = 0.078). CONCLUSION: The 30-min protocol reduced the risk and intensity of TS and showed a lower observed risk of GI, although this difference was not statistically significant, while providing substantial BE. The 60-min protocol, however, produced greater instrumental color changes. CLINICAL SIGNIFICANCE: A 30-min daily at-home bleaching protocol with 22% CP provides substantial bleaching effects with a lower risk of TS, although greater instrumental color changes were observed with 60-min application.",
+   "tags": [
+    "clinical trial",
+    "hydrogen peroxide",
+    "oxidants",
+    "tooth bleaching",
+    "tooth bleaching agents",
+    "tooth discoloration"
+   ]
+  },
+  {
+   "id": "10.1111/iej.70317",
+   "pmid": "43099865",
+   "doi": "10.1111/iej.70317",
+   "title": "Epigenome Editing in Endodontics: Current Evidence and Translational Prospects",
+   "title_zh": null,
+   "journal": "International endodontic journal",
+   "date": "2026-11-26",
+   "authors": [
+    "Zhang Q",
+    "Sun Q",
+    "Tay F"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43099865/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "review",
+   "design_label": "综述",
+   "design_level": 3,
+   "sample_n": 73,
+   "sample_note": "n=73 records",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [],
+   "pub_types": [
+    "Journal Article",
+    "Review"
+   ],
+   "is_open_access": false,
+   "cluster": "牙体牙髓与龋病",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 38.3
+   },
+   "heuristic": 45.1,
+   "breakdown": {
+    "topic": 14.1,
+    "journal": 10.0,
+    "design": 10,
+    "sample": 5.0,
+    "fresh": 6.0,
+    "method": 0.0
+   },
+   "abstract": "AIM: Epigenome editing permits locus-specific control of gene expression without intentionally changing the deoxyribonucleic acid (DNA) sequence. This critical narrative perspective assesses the small direct dental evidence base, separates molecular target engagement from tissue repair and identifies experiments needed to judge therapeutic value. METHODS: A focused narrative search examined PubMed, Embase, Scopus, Web of Science Core Collection and ClinicalTrials.gov from inception through September 17, 2026. Evidence was organised into five categories according to proximity to endodontic application. A reproducible PubMed verification search during revision identified 73 records and two unique studies eligible for the direct editing and programmable activation categories. RESULTS: Direct evidence is limited to locus-specific editing in human dental pulp stem cells. The FK506-binding protein 5 (FKBP5) study demonstrated promoter acetylation in cultured cells (n = 3 for chromatin immunoprecipitation), without editor-mediated repair in vivo. The brain-derived neurotrophic factor (BDNF) study reported greater dentine mineral density after transplantation of activated cells (n = 5 in the microcomputed tomography analysis; p < 0.05), although its controls could not isolate the contribution of gene activation. Broader dental studies support regulatory roles for DNA methylation, histone modification and RNA methylation. Studies outside dentistry demonstrate durable and, in selected systems, reversible epigenetic silencing in vivo. Major unresolved issues are direct pulp delivery, cell specificity, duration, off-target effects, biodistribution and long-term safety. CONCLUSIONS: Epigenome editing could provide targeted control of reparative, regenerative and inflammatory responses in endodontics without intentional DNA sequence modification. Potential reversibility must be demonstrated for each target and editor. Current evidence supports mechanistic investigation; clinical development requires editor-attributable tissue benefit and an advantage over simpler interventions.",
+   "tags": [
+    "CRISPR",
+    "dental pulp",
+    "epigenome editing",
+    "regenerative endodontics",
+    "stem cells"
+   ]
+  },
+  {
+   "id": "10.1016/j.jdent.2026.107204",
+   "pmid": "43085649",
+   "doi": "10.1016/j.jdent.2026.107204",
+   "title": "Full-arch immediate function rehabilitations using Extramaxillary Zygomatic Implants in the severely atrophic maxillae: Retrospective study with 9.5 to 20 years of follow-up",
+   "title_zh": null,
+   "journal": "Journal of dentistry",
+   "date": "2026-11-25",
+   "authors": [
+    "de Araújo Nobre M",
+    "Lopes A",
+    "Ferro A",
+    "Vitor I",
+    "Salvado F",
+    "Romeo D",
+    "Agliardi E"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43085649/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "cohort",
+   "design_label": "队列",
+   "design_level": 5,
+   "sample_n": 513,
+   "sample_note": "n=513 implants",
+   "tier": "B",
+   "domain": "种植与骨再生",
+   "methods": [],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "种植与骨再生",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 36.6
+   },
+   "heuristic": 43.1,
+   "breakdown": {
+    "topic": 5.8,
+    "journal": 10.0,
+    "design": 15,
+    "sample": 7.2,
+    "fresh": 5.0,
+    "method": 0.0
+   },
+   "abstract": "OBJECTIVES: This study aimed to report outcomes of full-arch maxillary rehabilitations with zygomatic implants (ZI) in immediate function with a follow-up between 9.5 and 20 years. MATERIALS AND METHODS: This study included 511 patients (woman: 414; men: 97; average age: 56.06 years) rehabilitated with 511 full-arch prostheses, with 2203 dental implants (ZI: 1024, conventional: 1179). The primary outcome measure was prosthetic/implant cumulative survival (CS), estimated using life tables. Secondary outcome measures were marginal bone resorption (MBR) for conventional implants, biological complications, and mechanical complications. RESULTS: 114 patients (22.3%) with 513 implants (n = 226 ZI) (23.3%) were lost to follow-up. A total of 131 implants (5.9%) of which 34 were ZI failed in 81 patients (15.9%), resulting in an implant CS rate of 92.6% overall and 95.9% for ZI up to 20 years of follow-up. The prosthetic survival rate was 95.8%. The incidence rate of mechanical complications was 41.9% (n = 214 patients), occurring in 27.8% of provisional prostheses (n = 142) and 9.2% in the definitive prostheses (n = 47). Biological complications occurred in 132 patients (25.8%). CONCLUSIONS: Within the limitations of this study and based on the results, it can be concluded that full-arch immediate rehabilitation of the severely atrophic maxillae using zygomatic implants is a viable treatment option in the long-term that may avoid more complex surgical procedures. CLINICAL SIGNIFICANCE: The present study describes the very-long term evaluation of full-arch maxillary rehabilitations with zygomatic implants in immediate function between 9.5 and 20 years of follow-up. The long term high implant and prosthetic survival allow to safely consider this concept as a viable treatment option for edentulous atrophic maxillae patients; nevertheless, proper pre-treatment risk assessments and post-treatment maintenance and prosthetic structured protocols are paramount to achieve and maintain success.",
+   "tags": [
+    "All-on-4",
+    "atrophic maxilla",
+    "dental implants",
+    "immediate function",
+    "long term outcome",
+    "zygomatic implants"
+   ]
+  },
+  {
+   "id": "10.1007/s00784-026-07309-5",
+   "pmid": "43097174",
+   "doi": "10.1007/s00784-026-07309-5",
+   "title": "Effects of waiting-room-initiated music on self-reported dental anxiety, physiological responses, and cortisol-oxytocin relationship during restorative dental treatment",
+   "title_zh": null,
+   "journal": "Clinical oral investigations",
+   "date": "2026-11-26",
+   "authors": [
+    "Eskin I",
+    "Dulger K",
+    "Alver A"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43097174/",
+   "pmcid": "9758540",
+   "cited_by": 0,
+   "design": "rct",
+   "design_label": "随机对照",
+   "design_level": 6,
+   "sample_n": 30,
+   "sample_note": "n=30",
+   "tier": "B",
+   "domain": "其他",
+   "methods": [
+    "rct"
+   ],
+   "pub_types": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
+   "is_open_access": true,
+   "cluster": "其他",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 34.2
+   },
+   "heuristic": 40.2,
+   "breakdown": {
+    "topic": 0.0,
+    "journal": 10.0,
+    "design": 18,
+    "sample": 4.0,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "OBJECTIVES: This randomized controlled clinical study evaluated the effects of waiting-room music on self-reported dental anxiety, physiological responses, salivary cortisol and oxytocin, and their associations during restorative treatment. MATERIALS AND METHODS: Ninety healthy adults with moderate dental anxiety (MDAS 10-18) were randomized into control, waiting-room music (BM), and music continued throughout treatment (FM) groups (n = 30). MDAS was assessed before and after treatment. Physiological parameters were recorded at four time points, and salivary hormones at three time points. RESULTS: MDAS scores decreased significantly after treatment in all groups (p < 0.001), without significant group or interaction effects. Oxygen saturation (p = 0.002) and body temperature (p = 0.025) differed among groups. Both blood pressures changed over time, with a significant systolic group × time interaction (p = 0.001). Hormonal levels showed no significant between-group differences. However, significant positive cortisol-oxytocin correlations were observed in the FM group, whereas significant negative correlations were found in the Control group. CONCLUSIONS: Music initiated in the dental waiting room did not provide an additional reduction in self-reported dental anxiety and showed limited effects on physiological parameters. However, exploratory correlation analyses revealed positive cortisol-oxytocin correlations in the FM group, where music continued throughout treatment, and negative correlations in the Control group. These should be interpreted cautiously, as pre-existing cortisol-oxytocin associations at baseline (T0) may have influenced the results. The findings require further investigation to clarify their biological and clinical significance. CLINICAL RELEVANCE: Music initiated in the dental waiting room and continued throughout restorative treatment may serve as a simple, non-invasive supportive intervention. Although its benefits on self-reported dental anxiety and physiological anxiety parameters were not demonstrated, the observed cortisol-oxytocin correlation patterns warrant further investigation. CLINICAL TRIAL REGISTRATION: NCT07274501. This study was registered at www. CLINICALTRIALS: gov (NCT07274501).",
+   "tags": [
+    "Cortisol",
+    "Dental anxiety",
+    "Music therapy",
+    "Oxytocin",
+    "Waiting room"
+   ]
+  },
+  {
+   "id": "10.1111/eos.70173",
+   "pmid": "43096132",
+   "doi": "10.1111/eos.70173",
+   "title": "Exploring the proteomic landscape of enamel beyond molar incisor hypomineralization opacities: An LC-MS study",
+   "title_zh": null,
+   "journal": "European journal of oral sciences",
+   "date": "2026-11-26",
+   "authors": [
+    "Rexhaj F",
+    "Sabel N",
+    "Robertson A",
+    "Lundgren T"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43096132/",
+   "pmcid": "",
+   "cited_by": 0,
+   "design": "unknown",
+   "design_label": "未标注",
+   "design_level": 1,
+   "sample_n": 7,
+   "sample_note": "n=7",
+   "tier": "B",
+   "domain": "牙体牙髓与龋病",
+   "methods": [
+    "multiomics"
+   ],
+   "pub_types": [
+    "Journal Article"
+   ],
+   "is_open_access": false,
+   "cluster": "牙体牙髓与龋病",
+   "one_line": "",
+   "so_what": "",
+   "caution": "",
+   "score": {
+    "final": 32.4
+   },
+   "heuristic": 38.1,
+   "breakdown": {
+    "topic": 11.5,
+    "journal": 10.0,
+    "design": 6,
+    "sample": 2.4,
+    "fresh": 6.0,
+    "method": 2.2
+   },
+   "abstract": "It remains unclear if proteomic alterations in molar incisor hypomineralization (MIH) extend beyond opaque enamel (OE). This study compared the protein composition of demarcated MIH opacities and adjacent, unaffected enamel. Opaque MIH enamel (OE), enamel beyond the opacity borders (BOE), and healthy enamel (HE) were analyzed by LC-MS. Teeth from children with MIH (n = 7) and controls (n = 4) were microdissected by region and processed individually. Differential abundance was assessed using paired statistics for OE versus BOE and unpaired tests for OE versus HE. OE differed from BOE (166 proteins) and HE (103 proteins), whereas no proteins differed between BOE and HE. Of the proteins differing in OE, 82 were shared between the OE-BOE and OE-HE comparisons (79.6% of OE-HE; 49.4% of OE-BOE). OE showed higher protein abundance, enriched in plasma and immune-related proteins, apolipoproteins, serpins, and collagen chains, with relative reductions in several keratins. Recurrently altered proteins included serum albumin, antithrombin-III, alpha-1-antitrypsin, collagen alpha-1-chain, collagen alpha-2(I)-chain, and ameloblastin. Principal component analysis separated OE from BOE and HE, whereas BOE largely overlapped with HE. MIH-associated proteomic alterations on the occlusal surface appear confined to OE, whereas unaffected enamel beyond opacities is proteomically similar to HE.",
+   "tags": [
+    "children",
+    "dental enamel",
+    "hypomineralized teeth",
+    "liquid chromatography–mass spectrometry",
+    "molar incisor hypomineralization"
+   ]
+  }
+ ],
+ "backlog": [],
+ "weekly": null,
+ "profile": {
+  "name": "Lin Nanzhen",
+  "questions": [
+   {
+    "id": "q1",
+    "text": "种植体周的免疫微环境（巨噬细胞极化、NETs、IL-1β 轴）如何决定骨结合成败与种植体周炎转归？"
+   },
+   {
+    "id": "q2",
+    "text": "牙周炎通过哪些可验证的通路影响全身疾病（糖尿病、心血管、不良妊娠、神经退行）？"
+   },
+   {
+    "id": "q3",
+    "text": "口腔微生物组的失衡（dysbiosis）是疾病的因、果，还是标志物？现有证据链能推到哪一步？"
+   },
+   {
+    "id": "q4",
+    "text": "生物材料表面/降解产物如何「编程」宿主免疫反应，从而改变骨与软组织的再生结局？"
+   },
+   {
+    "id": "q5",
+    "text": "口腔鳞癌的免疫微环境与微生物组如何共同塑造治疗抵抗？有无可转化的干预点？"
+   }
+  ]
+ }
+}

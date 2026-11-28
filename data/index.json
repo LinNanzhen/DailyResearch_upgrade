@@ -1,7 +1,15 @@
 {
- "updated_at": "2026-11-27T11:48:01+08:00",
- "latest": "2026-11-27",
+ "updated_at": "2026-11-28T11:32:58+08:00",
+ "latest": "2026-11-28",
  "days": [
+  {
+   "date": "2026-11-28",
+   "must_title": "MtDNA Efflux Contributes to Inflammation Responses in Periodontitis via cGAS-STING-NF-κB Signal",
+   "must_title_zh": "线粒体DNA外排经cGAS-STING-NF-κB信号促进牙周炎炎症反应",
+   "cluster": "牙周免疫机制",
+   "count": 10,
+   "ai": true
+  },
   {
    "date": "2026-11-27",
    "must_title": "Periodontal Disease Associations in a Many-Exposure, Many-Outcome Study",
